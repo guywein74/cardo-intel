@@ -1,0 +1,494 @@
+{
+  "competitor": "Reso",
+  "website": "https://resosport.com",
+  "company": {
+    "hq": "Shenzhen, China per Tracxn; registered office listed on resosport.com contact page: Office 5, 8/F, Mega Cube, 8 Wang Kwong, Kowloon Bay, Kowloon, Hong Kong SAR",
+    "founded": "2024 (brand launched late 2024; founding team of ex-DJI engineers, concept dates to a fall 2021 ride incident, ~3 years development)",
+    "positioning": "Premium-spec mesh communicator at a mid-market price; tagline 'Communication gear built for those who refuse to be out of range'. Explicitly framed by press and dealers as a Cardo Packtalk Pro / Sena 50S rival with DJI engineering pedigree.",
+    "channels": "DTC via resosport.com (USD pricing, 2-day US shipping, 30-day returns); dealer network in Philippines (Motojini, Ridebuy, Alpha Lifestyle Club, Takong Racing, Bandidos Pitstop), Malaysia (MRoute19), UAE (Motofever); eBay listings. No Amazon or RevZilla presence found as of July 2026."
+  },
+  "products": [
+    {
+      "name": "Reso Pilot Pro",
+      "tier": "flagship",
+      "msrp_usd": 399,
+      "street_price_usd": 359,
+      "intercom_tech": "DuoSync dual mesh: hardware mesh + software mesh (IP-based via phone hotspot/cellular), simultaneous with Bluetooth 5.2",
+      "range_km": 2.5,
+      "max_riders": 30,
+      "audio": "Self-developed 40mm speakers (optional 45mm 'Audio X' HD speaker upgrade, $69-99); proprietary AI noise reduction claimed effective to 110 mph / 180 kph",
+      "talk_time_hours": 13,
+      "waterproof": "IP67",
+      "features": [
+        "AI noise reduction (self-developed)",
+        "'Hey RESO' voice control with continuous listening mode",
+        "GNSS module + gyroscope with SOS crash detection and emergency-contact alerts",
+        "Reso Link app: route book, real-time teammate tracking, remote grouping",
+        "OTA firmware updates",
+        "Music sharing between riders",
+        "Action camera integration (GoPro, DJI, Insta360) with team-comms audio recorded into footage",
+        "Intercom recording",
+        "Gyro tap gestures (double-tap to answer calls)",
+        "15W fast charge (50-60 min full; ~80% in 30 min)",
+        "Software mesh gives claimed 'unlimited' range over cellular"
+      ],
+      "release_year": 2024,
+      "notes": "Range: 2.5 km point-to-point hardware mesh, 12 km group relay (30 riders), unlimited via software mesh with mobile data. Battery 1950 mAh: 13 h mesh+music, 18 h music only, 33 h power-saving. Warranty 3 years (main unit). Street prices vary widely: $359 on resosport.com, $250 at Motojini, PHP 12,500-13,999 (~USD 220-245) in the Philippines.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": 65,
+          "dimensions_mm": "88.7 x 49.6 x 22.9",
+          "profile": "slim",
+          "aesthetics": "DJI-influenced minimalist design; reviewers describe premium look and feel; 65 g is without base"
+        },
+        "ease_of_use": {
+          "controls": "Volume knob/wheel + 3 buttons; single-button power on/off; gyro double-tap on unit to answer calls",
+          "mount": "magnetic base with adhesive mount; clip mount also included (no screw clamp documented)",
+          "cradle": "Proprietary magnetic cradle, praised as precise; 2nd Helmet Kit $109-129; spare cradle PHP 2,500 in PH",
+          "voice_commands": "'Hey RESO' wake word with continuous-listening mode for consecutive commands; reviewers rate it fast and accurate, though accidental triggers during normal conversation reported",
+          "screen": "no",
+          "ota": "OTA firmware updates delivered via Reso Link app",
+          "app": "Reso Link (iOS/Android): route book, live teammate GPS tracking, remote grouping, OTA; reviewers call it versatile and feature-rich"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Reso in-house (self-developed); optional 45mm 'Audio X' HD speaker upgrade $69-99",
+          "hd": true,
+          "quality_verdict": "Voice clarity universally praised; TopGear PH rated stock speakers above Packtalk Bold's JBL, but several reviewers still rank Cardo's JBL ahead for music fidelity"
+        },
+        "intercom": {
+          "type": "DuoSync: hardware mesh + software mesh (IP relay over phone hotspot/cellular) + Bluetooth 5.2, simultaneous",
+          "range_km": 2.5,
+          "max_riders": 30,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "No cross-brand mesh; interoperates with Pilot Neo within the Reso ecosystem; universal Bluetooth pairing to Cardo/Sena not documented anywhere — reviewers describe cross-brand compatibility as limited"
+        },
+        "quality": {
+          "build": "Premium build; magnetic cradle precise; speakers reportedly held up after months of moderate use (TopGear PH long-term)",
+          "ip_rating": "IP67",
+          "service_reputation": "3-year warranty + 30-day trial DTC; service network thin outside SEA; long-term reliability unproven (brand under 2 years old)",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": 399,
+          "street_usd": 359,
+          "segment_position": "Undercuts Cardo Packtalk Pro (~$459) by ~$100 at US MSRP and by $200+ at SEA street prices (~USD 220-250); priced near Packtalk Edge while carrying a flagship feature set"
+        }
+      }
+    },
+    {
+      "name": "Reso Pilot Neo",
+      "tier": "mid",
+      "msrp_usd": 320,
+      "street_price_usd": 269,
+      "intercom_tech": "Single-channel hardware mesh + Bluetooth 5.2 (simultaneous); no software mesh",
+      "range_km": 2.5,
+      "max_riders": 15,
+      "audio": "40mm speakers, AI noise reduction claimed to 110 mph, 150 ms latency",
+      "talk_time_hours": 24,
+      "waterproof": "IP67",
+      "features": [
+        "AI noise reduction",
+        "Smart voice control",
+        "Reso Link app with remote grouping",
+        "OTA firmware updates",
+        "Music sharing",
+        "Action camera connectivity (Bluetooth and USB)",
+        "Intercom recording",
+        "15W fast charge (5 min = ~2 h use; full in 50-60 min)"
+      ],
+      "release_year": 2025,
+      "notes": "Same 1950 mAh battery and 2.5 km / 12 km group range as Pro but 15 riders max. Lacks Pro's DuoSync software mesh, GNSS, real-time map, and SOS crash alerts. One source listed it at $179, likely regional/promo pricing. One retailer describes it as 'dual-channel mesh' — official site says single mesh channel; official spec used here. 3-year warranty.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": 65,
+          "dimensions_mm": "88.7 x 49.6 x 22.9",
+          "profile": "slim",
+          "aesthetics": "Same chassis and design language as Pilot Pro (65 g without base); shares 2nd Helmet Kit with Pro, confirming common mount platform"
+        },
+        "ease_of_use": {
+          "controls": "Same control platform as Pro (volume knob + buttons); gyro tap gestures not explicitly documented for Neo",
+          "mount": "magnetic base with adhesive mount; clip mount (shared Pro/Neo helmet kit)",
+          "cradle": "Shared Pro/Neo magnetic cradle; 2nd Helmet Kit $109-129",
+          "voice_commands": "'Smart voice control' supported per official specs; wake-word behavior assumed same as Pro but not independently reviewed",
+          "screen": "no",
+          "ota": "OTA firmware updates via Reso Link app",
+          "app": "Reso Link app with remote grouping and OTA; no route book/live map (no GNSS in unit)"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Reso in-house (self-developed)",
+          "hd": null,
+          "quality_verdict": "Same 40mm drivers and AI noise reduction as Pro (claimed clear to 110 mph, 150 ms latency); few independent Neo-specific audio reviews"
+        },
+        "intercom": {
+          "type": "Single-channel hardware mesh + Bluetooth 5.2 (simultaneous); no software mesh",
+          "range_km": 2.5,
+          "max_riders": 15,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": "Groups natively with Pilot Pro; no cross-brand mesh; universal Bluetooth pairing to Cardo/Sena not documented"
+        },
+        "quality": {
+          "build": "Same chassis/build as Pro; too new for long-term reliability data",
+          "ip_rating": "IP67",
+          "service_reputation": "3-year warranty + 30-day DTC trial; same thin service network outside SEA",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": 320,
+          "street_usd": 269,
+          "segment_position": "Undercuts Cardo Packtalk Edge (~$400) by ~$130 and Sena 50S while keeping mesh + IP67; sits against Cardo Spirit HD/Freecom tier at SEA street prices (~$180-220)"
+        }
+      }
+    },
+    {
+      "name": "Reso Pilot Lite",
+      "tier": "entry",
+      "msrp_usd": null,
+      "street_price_usd": 90,
+      "intercom_tech": "Bluetooth intercom (no mesh, per dealer listing title)",
+      "range_km": null,
+      "max_riders": null,
+      "audio": null,
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Bluetooth intercom",
+        "Entry-level model in Lite/Neo/Pro lineup"
+      ],
+      "release_year": 2025,
+      "notes": "Sold in Southeast Asia (e.g., MRoute19 Malaysia at RM399 ≈ USD 85-90); not listed on the US resosport.com store. Detailed specs not publicly documented; street price is an approximate USD conversion, not a confirmed US price.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": null,
+          "aesthetics": "No published imagery/specs found; entry model, likely simplified housing"
+        },
+        "ease_of_use": {
+          "controls": "",
+          "mount": "",
+          "cradle": "",
+          "voice_commands": "",
+          "screen": null,
+          "ota": "",
+          "app": "Presumed Reso Link compatible (unverified)"
+        },
+        "sound": {
+          "speaker_size_mm": null,
+          "speaker_brand": "",
+          "hd": null,
+          "quality_verdict": "No independent reviews found"
+        },
+        "intercom": {
+          "type": "Bluetooth intercom (no mesh, per dealer listing title)",
+          "range_km": null,
+          "max_riders": null,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": ""
+        },
+        "quality": {
+          "build": "",
+          "ip_rating": "",
+          "service_reputation": "Presumed 3-year Reso warranty via dealers (unverified for this model)",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": null,
+          "street_usd": 90,
+          "segment_position": "Entry Bluetooth tier (~RM399 ≈ $85-90) against Sena Spider-class budget and Chinese budget brands (Fodsports, Lexin, ASMAX entry models)"
+        }
+      }
+    },
+    {
+      "name": "Reso Headset",
+      "tier": "entry",
+      "msrp_usd": 149,
+      "street_price_usd": 119,
+      "intercom_tech": "Bluetooth headset (works within Reso app ecosystem)",
+      "range_km": null,
+      "max_riders": null,
+      "audio": null,
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Reso Link app compatible (iOS/Android)"
+      ],
+      "release_year": 2025,
+      "notes": "Listed 'Sold Out' on resosport.com as of July 2026; minimal published specs. 1-year accessory warranty referenced. In the Philippines a 'headset' accessory was priced at PHP 4,800 at launch.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": null,
+          "aesthetics": "No published specs or imagery details; product page is spec-sparse and item is sold out"
+        },
+        "ease_of_use": {
+          "controls": "",
+          "mount": "",
+          "cradle": "",
+          "voice_commands": "",
+          "screen": null,
+          "ota": "",
+          "app": "Reso Link compatible (iOS/Android) per product page"
+        },
+        "sound": {
+          "speaker_size_mm": null,
+          "speaker_brand": "",
+          "hd": null,
+          "quality_verdict": "No independent reviews found"
+        },
+        "intercom": {
+          "type": "Bluetooth headset within Reso app ecosystem; intercom capability unclear",
+          "range_km": null,
+          "max_riders": null,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": ""
+        },
+        "quality": {
+          "build": "",
+          "ip_rating": "",
+          "service_reputation": "1-year accessory warranty per site",
+          "warranty_years": 1
+        },
+        "price": {
+          "msrp_usd": 149,
+          "street_usd": 119,
+          "segment_position": "Accessory/commuter headset tier; no direct Cardo equivalent"
+        }
+      }
+    }
+  ],
+  "strengths": [
+    "Aggressive value: flagship undercuts Cardo Packtalk Pro / Sena 60S by roughly $100-250 depending on market, with 3-year warranty matching Cardo",
+    "DuoSync hybrid mesh (hardware + IP/software mesh) gives claimed unlimited group range over cellular — a differentiator neither Cardo nor Sena offers in the same form",
+    "Reviewers rate AI noise reduction as 'shockingly good' and voice comms crisp even over loud exhausts at highway speed",
+    "'Hey RESO' voice control with continuous listening praised as more reliable/faster than Cardo and Sena voice systems",
+    "Safety stack unusual at this price: GNSS + gyroscope crash detection with automatic SOS alerts to emergency contacts (Pilot Pro)",
+    "Strong battery + charging: 1950 mAh, 13-24 h talk depending on model, 15W fast charge (5 min = 2 h)",
+    "IP67 on both main models vs typical IP67/IP55-class competitors",
+    "Action-camera integration records team intercom audio directly into GoPro/DJI/Insta360 footage — appealing to moto-vloggers",
+    "DJI-pedigree engineering narrative and premium build/design credibility; TopGear PH long-term review found speakers subjectively better than Packtalk Bold's JBL units",
+    "Feature-rich Reso Link app: live teammate GPS tracking, route book, remote grouping, OTA updates"
+  ],
+  "weaknesses": [
+    "Tiny installed base and no cross-brand mesh interoperability — weak choice for mixed-brand group rides (vs Sena Open Mesh ubiquity and Cardo's Open Bluetooth Intercom)",
+    "'Unlimited' software mesh depends on cellular data/hotspot — useless in remote areas where long range matters most",
+    "Minimal Western retail footprint: no Amazon/RevZilla; distribution concentrated in Philippines, Malaysia, UAE; US is DTC-only",
+    "New brand (late 2024) with unproven long-term reliability, unknown funding, and thin service/support network outside SEA",
+    "For music fidelity, several reviewers still rank Cardo's JBL-tuned audio ahead; Reso positioned as voice-first",
+    "Reports of accidental voice-command triggers during normal conversation (e.g., unintended volume changes)",
+    "Switching costs: proprietary cradles/mounts mean converting Cardo/Sena group rides requires whole-group buy-in",
+    "Pilot Neo drops GPS/SOS and software mesh; Pilot Lite specs are opaque and not sold on US store",
+    "Inconsistent global pricing (PHP ~US$225 vs US$359 DTC) risks gray-market/channel conflict",
+    "Little independent Western press or Reddit community coverage; most reviews originate from Philippine media and dealer channels"
+  ],
+  "recent_news": [
+    {
+      "date": "2025-03-12",
+      "headline": "Motorcycle intercom brand Reso enters PH; will rival Cardo, Sena",
+      "source": "TopGear Philippines",
+      "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-news/reso-motorcycle-intercom-brand-enters-ph-a5361-20250312"
+    },
+    {
+      "date": "2025-03-12",
+      "headline": "Reso to shake up premium moto comms market in PH",
+      "source": "Zigwheels Philippines",
+      "url": "https://www.zigwheels.ph/motorcycle-news/reso-to-shake-up-premium-moto-comms-market-in-ph"
+    },
+    {
+      "date": "2025-03-12",
+      "headline": "New motorcycle intercom from Reso to debut at Makina, starts at PHP 12.5K",
+      "source": "MotoPinas",
+      "url": "https://www.motopinas.com/motorcycle-news/new-motorcycle-intercom-from-reso-to-debut-at-makina-starts-at-php-12-5k.html"
+    },
+    {
+      "date": "2025-06-19",
+      "headline": "Reso Pilot Pro Bluetooth Helmet Headset Review",
+      "source": "MotoMelody",
+      "url": "https://motomelody.com/reso-pilot-pro-bluetooth-motorcycle-helmet-review/"
+    },
+    {
+      "date": "2025-06-19",
+      "headline": "Reso Pilot Neo vs. Cardo Packtalk Edge",
+      "source": "MotoMelody",
+      "url": "https://motomelody.com/reso-pilot-neo-vs-cardo-packtalk-edge-intercom/"
+    },
+    {
+      "date": "2025-06-22",
+      "headline": "Reso Pilot Pro vs Neo",
+      "source": "MotoMelody",
+      "url": "https://motomelody.com/reso-pilot-pro-vs-neo-bluetooth-helmet-guide/"
+    },
+    {
+      "date": "2025-08-17",
+      "headline": "Cardo Packtalk Pro vs Reso Pilot Pro: An Honest Comparison",
+      "source": "MotoMelody",
+      "url": "https://motomelody.com/cardo-packtalk-pro-vs-reso-pilot-pro-comparison/"
+    },
+    {
+      "date": "2025-10-06",
+      "headline": "Reso Pilot Pro motorcycle intercom review: Price, Specs, Features (long-term review)",
+      "source": "TopGear Philippines",
+      "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-feature/reso-pilot-pro-long-term-review-a5361-20251006-lfrm"
+    },
+    {
+      "date": "2026-04-29",
+      "headline": "RESO PILOT PRO Review: Premium Communication Without Compromise",
+      "source": "phtoll.com",
+      "url": "https://phtoll.com/reviews/reso-pilot-pro-review/"
+    },
+    {
+      "date": "2026-06-05",
+      "headline": "Which Mesh Intercom Is Right for You? Everything I Learned Using 6 Mesh Systems",
+      "source": "phtoll.com",
+      "url": "https://phtoll.com/gear/which-mesh-intercom-is-right-for-you/"
+    }
+  ],
+  "social_media": {
+    "instagram": {
+      "handle": "@resoglobal",
+      "followers": null,
+      "notes": "Official global account 'Reso Sport' (linked from resosport.com contact page). Follower count not retrievable (Instagram blocks scraping); no third-party count found. Product reels, model-comparison explainers, and dealer/reviewer repost content. A separate @resosport handle exists ('RésoSport') but is NOT linked from the company site — likely unrelated. Third-party IG coverage from PH/SEA dealers (Durian Bikers, Alpha Lifestyle) and reviewer reels.",
+      "url": "https://www.instagram.com/resoglobal/"
+    },
+    "facebook": {
+      "page": "Official global page: facebook.com/profile.php?id=61567279220678 ('Reso'); regional pages: RESO Philippines (facebook.com/resolink.ph) and RESO Thailand (facebook.com/reso.th)",
+      "followers": 2100,
+      "groups_notes": "Follower figure is for RESO Philippines page (~2.1K followers / 1,832 likes, ~393 'talking about' as of July 2026); global page count not retrievable. Owner-run community group 'RESO intercom Philippines' (facebook.com/groups/1596231854382040), member count unknown. Reso discussion also circulates in large PH rider/intercom buy-and-sell groups; TopGear PH's Reso posts on Facebook drew significant engagement. Facebook is clearly their primary community channel, consistent with SEA-first strategy.",
+      "notes": "Regional page structure (PH under 'Reso Link Ph' branding, Thailand) mirrors distributor-led go-to-market. Cadence on PH page: multiple posts per week (product education, app how-tos, dealer promos, expo appearances).",
+      "url": "https://www.facebook.com/profile.php?id=61567279220678"
+    },
+    "reddit": {
+      "sentiment": "Essentially absent — multiple targeted searches (site:reddit.com, brand + subreddit queries) surfaced no notable Reso threads in r/motorcycles, r/MotorcycleGear or elsewhere as of July 2026",
+      "common_praise": [],
+      "common_complaints": [],
+      "notable_threads": [],
+      "url": "https://www.reddit.com/search/?q=reso+motorcycle+intercom"
+    },
+    "youtube": {
+      "channel": "youtube.com/@ResoSports (linked from official site, but URL returned 404 in July 2026 — link dead or channel renamed; no verified active official channel found)",
+      "subscribers": null,
+      "notes": "Brand visibility on YouTube is reviewer-driven, not owned-channel-driven. Notable third-party videos: 'This Helmet Intercom WILL REPLACE Cardo (The RESO Pilot Pro)' (youtube.com/watch?v=aXYm4muUMfA); 'Cardo Packtalk killer from China? Reso Pilot Pro initial review and comparison' (APmtjBTqHhQ); unboxing/installation videos (lbdpKuu3-38, rrKQjPbmPuM); Spanish-language 2026 review 'Intercomunicador Reso Pilot Pro — ¿Vale la pena?' (tkWHimUlWR0). Verdicts skew positive on value, noise reduction and voice control; framed as a Cardo challenger.",
+      "url": "https://www.youtube.com/search?q=reso+sport+motorcycle+intercom"
+    },
+    "tiktok": {
+      "handle": null,
+      "followers": null,
+      "notes": "No official Reso TikTok account linked from the company site or found in search. However, organic/dealer TikTok traction in SEA is significant: PH media account @insidemoto (Pilot Pro unboxing ASMR tagging 'RESO Philippines / RESO Link Ph'), Indonesian helmet retailer @istanahelmetofficial, dedicated TikTok discover pages for 'Reso Pilot Pro', 'Reso Pilot Pro review', and 'Reso Pilot Pro vs ASMAX' comparisons. TikTok chatter also benchmarks Reso against ASMAX, another Chinese challenger brand.",
+      "url": "https://www.tiktok.com/search?q=reso+motorcycle+intercom"
+    },
+    "summary": "Reso's social footprint is small, young, and SEA-centric. Facebook is the hub (regional pages + owner-run PH community group, ~2.1K followers on the PH page), matching the Philippines-first launch; Instagram (@resoglobal) is active but small; the official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides."
+  },
+  "press_coverage": {
+    "reviews": [
+      {
+        "outlet": "TopGear Philippines",
+        "date": "2025-03-12",
+        "product": "Brand entry / Pilot Pro",
+        "verdict": "News: 'Motorcycle intercom brand Reso enters PH; will rival Cardo, Sena' — framed as credible premium challenger at PHP 12,500",
+        "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-news/reso-motorcycle-intercom-brand-enters-ph-a5361-20250312"
+      },
+      {
+        "outlet": "Zigwheels Philippines",
+        "date": "2025-03-12",
+        "product": "Pilot Pro",
+        "verdict": "News: 'Reso to shake up premium moto comms market in PH' — positions Pilot Pro directly against Cardo Packtalk Pro and Sena 50S; cites DJI pedigree",
+        "url": "https://www.zigwheels.ph/motorcycle-news/reso-to-shake-up-premium-moto-comms-market-in-ph"
+      },
+      {
+        "outlet": "MotoPinas",
+        "date": "2025-03-15",
+        "product": "Pilot Pro",
+        "verdict": "Launch news: debut at Makina Moto Expo 2025 from PHP 12.5K; highlights DuoSync and SOS support",
+        "url": "https://www.motopinas.com/motorcycle-news/new-motorcycle-intercom-from-reso-to-debut-at-makina-starts-at-php-12-5k.html"
+      },
+      {
+        "outlet": "Ridebuy PH",
+        "date": "2025-06-15",
+        "product": "Pilot Pro",
+        "verdict": "Review: 'very solid value-for-money proposition'; praises audio clarity, voice control, battery; positive",
+        "url": "https://ridebuy.ph/garage/posts/7326"
+      },
+      {
+        "outlet": "TopGear Philippines",
+        "date": "2025-10-06",
+        "product": "Pilot Pro (long-term review)",
+        "verdict": "Strongly positive: 10 pros vs 2 cons; 'tons more features' at lower price than Cardo; speakers judged better than Packtalk Bold's JBL; cons: small user base, switching costs",
+        "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-feature/reso-pilot-pro-long-term-review-a5361-20251006-lfrm"
+      },
+      {
+        "outlet": "phtoll.com",
+        "date": "2026-04-29",
+        "product": "Pilot Pro",
+        "verdict": "'Premium Communication Without Compromise' — positive standalone review; praises noise reduction, voice UX, battery, price",
+        "url": "https://phtoll.com/reviews/reso-pilot-pro-review/"
+      },
+      {
+        "outlet": "phtoll.com",
+        "date": "2026-06-05",
+        "product": "6-way mesh intercom comparison (includes Reso Pilot Pro)",
+        "verdict": "Highlights Reso's voice control and hybrid mesh; flags small user base and cellular dependency of software mesh",
+        "url": "https://phtoll.com/gear/which-mesh-intercom-is-right-for-you/"
+      },
+      {
+        "outlet": "MotoMelody",
+        "date": "2025-08-17",
+        "product": "Pilot Pro, Pilot Neo, vs Cardo Packtalk Pro",
+        "verdict": "Positive value verdicts across review, Pro-vs-Neo guide, and Cardo comparison; Cardo retains audio-quality edge, Reso wins on price and voice-first features",
+        "url": "https://motomelody.com/cardo-packtalk-pro-vs-reso-pilot-pro-comparison/"
+      },
+      {
+        "outlet": "Lifestyle On Wheels",
+        "date": "2025-06-15",
+        "product": "Brand/Pilot Pro",
+        "verdict": "'Reso: The Next Level of Motorcycle Communication' — promotional-positive feature",
+        "url": "https://lifestyleonwheels.com/reso-the-next-level-of-motorcycle-communication/"
+      }
+    ],
+    "awards": [],
+    "overall_tone": "Enthusiastic in Philippine/SEA moto media, where Reso is framed as a legitimate 'Cardo killer' value disruptor with DJI pedigree; effectively invisible in major Western motorcycle press — no reviews or news found from MCN, Cycle World, RideApart, webBikeWorld, Bennetts BikeSocial, RevZilla Common Tread, or Motorcyclist as of July 2026",
+    "summary": "All substantive coverage (2025-2026) originates from Philippine outlets (TopGear PH, Zigwheels PH, MotoPinas, Ridebuy) plus niche English-language gear blogs (phtoll, MotoMelody) and Spanish-language YouTube. Verdicts are consistently positive on value, noise reduction, voice control, and battery; consistent caveats are the small installed base and cellular-dependent soft mesh. No awards found. The complete absence of tier-1 Western press coverage confirms Reso remains a regional threat to Cardo for now, but the uniformly favorable review tone means Western press pickup could accelerate credibility quickly."
+  },
+  "sources": [
+    "https://resosport.com/pages/contact",
+    "https://www.facebook.com/resolink.ph/",
+    "https://www.facebook.com/reso.th/",
+    "https://www.facebook.com/groups/1596231854382040/",
+    "https://www.instagram.com/resoglobal/",
+    "https://www.tiktok.com/@insidemoto/video/7467781278230793480",
+    "https://www.tiktok.com/discover/reso-pilot-pro-vs-asmax",
+    "https://www.youtube.com/watch?v=APmtjBTqHhQ",
+    "https://www.motopinas.com/motorcycle-news/new-motorcycle-intercom-from-reso-to-debut-at-makina-starts-at-php-12-5k.html",
+    "https://ridebuy.ph/garage/posts/6857",
+    "https://lifestyleonwheels.com/reso-the-next-level-of-motorcycle-communication/",
+    "https://resosport.com/",
+    "https://resosport.com/products/resopilot_pro",
+    "https://resosport.com/products/resopilot_neo",
+    "https://resosport.com/products/headphones",
+    "https://resosport.com/collections/all",
+    "https://resosport.com/pages/about-us",
+    "https://www.topgear.com.ph/moto-sapiens/motorcycle-news/reso-motorcycle-intercom-brand-enters-ph-a5361-20250312",
+    "https://www.topgear.com.ph/moto-sapiens/motorcycle-feature/reso-pilot-pro-long-term-review-a5361-20251006-lfrm",
+    "https://www.zigwheels.ph/motorcycle-news/reso-to-shake-up-premium-moto-comms-market-in-ph",
+    "https://phtoll.com/gear/which-mesh-intercom-is-right-for-you/",
+    "https://phtoll.com/reviews/reso-pilot-pro-review/",
+    "https://ridebuy.ph/garage/posts/7326",
+    "https://motomelody.com/cardo-packtalk-pro-vs-reso-pilot-pro-comparison/",
+    "https://motomelody.com/reso-pilot-pro-vs-neo-bluetooth-helmet-guide/",
+    "https://www.motojini.com/products/reso-pilot-pro-bluetooth-mesh-intercom",
+    "https://www.mroute19.com/products/reso-pilot-lite-bluetooth-intercom",
+    "https://motofever.com/products/reso-pilot-neo",
+    "https://tracxn.com/d/companies/reso/__Zo66LKO1qDgdfym6TDoyPfKvlP1Aeo6w8aYuyIZvuNQ",
+    "https://www.linkedin.com/company/reso-intercom",
+    "https://www.youtube.com/watch?v=aXYm4muUMfA",
+    "https://www.mytakongracing.com/products/reso-intercom-pilot-pro",
+    "https://www.mytakongracing.com/products/reso-intercom-pilot-neo",
+    "https://bandidospitstop.com/products/reso-pilot-neo",
+    "https://motomelody.com/reso-pilot-pro-bluetooth-motorcycle-helmet-review/"
+  ]
+}

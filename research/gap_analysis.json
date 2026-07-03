@@ -1,0 +1,151 @@
+{
+  "as_of": "July 2026",
+  "pricing_gaps": [
+    {
+      "segment": "Flagship ($350+)",
+      "cardo": "Packtalk Pro $499.95 / Packtalk Edge $439.95",
+      "competitors": [
+        {"brand": "Sena", "product": "60S EVO", "price": "$459", "note": "Sound by Bose, 27h talk, limited LIFETIME warranty; MCN: 'considerably cheaper than Cardo's flagship'"},
+        {"brand": "Reso", "product": "Pilot Pro", "price": "$399 MSRP / $359 street (~$225 in PH)", "note": "Crash detection + GNSS, IP67, 3-yr warranty, 30-rider mesh"},
+        {"brand": "ASMAX", "product": "F1s / F1 Pro Max", "price": "$139.99 street", "note": "Mesh + offline AI voice at 1/3 the price"}
+      ],
+      "gap": "Cardo is now the most expensive flagship on the market after the 2025 MSRP hikes ($40-60/unit). Sena undercuts with Bose audio and a lifetime warranty; Reso matches the safety feature set (crash detection) $100-140 lower.",
+      "severity": "high",
+      "insight": "The premium is currently carried by DMC reliability reputation and JBL audio alone. The lifetime-warranty move by Sena directly attacks Cardo's 3-year warranty advantage."
+    },
+    {
+      "segment": "Mid-range ($200-$350)",
+      "cardo": "Packtalk Neo $359.95 / Freecom 4x $314.95 (Bluetooth-only, 4 riders)",
+      "competitors": [
+        {"brand": "Sena", "product": "50S / Spider RT1", "price": "$341 / $199", "note": "Both are MESH units; Spider brings 24-rider mesh at $199"},
+        {"brand": "Reso", "product": "Pilot Neo", "price": "$269-320", "note": "Mesh, 15 riders, IP67, 24h talk, 3-yr warranty"},
+        {"brand": "ASMAX", "product": "F1 Pro / Future 1", "price": "~$155-205", "note": "Mesh + AI voice + Bongiovi audio"}
+      ],
+      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while every competitor sells mesh. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95.",
+      "severity": "critical",
+      "insight": "This is the single biggest structural hole in the lineup: a rider with a $250 budget who wants mesh cannot buy Cardo at all."
+    },
+    {
+      "segment": "Entry (under $200)",
+      "cardo": "Spirit $109.95 / Spirit HD $179.95 (Bluetooth, 2 riders, no published IP rating)",
+      "competitors": [
+        {"brand": "Sena", "product": "5R Lite / 5R / 5S", "price": "$99-169", "note": "Bluetooth, comparable to Spirit line"},
+        {"brand": "ASMAX", "product": "S1 / S2 / Z1", "price": "$89.99", "note": "MESH + 8-10 riders + offline AI voice + IPX7/IP67 + FOTA at Spirit price"},
+        {"brand": "Reso", "product": "Pilot Lite", "price": "~$90 (SEA only)", "note": "Bluetooth entry, not yet in US"}
+      ],
+      "gap": "ASMAX delivers mesh, AI voice control, a published waterproof rating and 2-yr warranty at $89.99 — below Cardo's most basic Bluetooth-only unit.",
+      "severity": "high",
+      "insight": "The entry tier is where the next generation of riders forms brand loyalty. Value-per-dollar at this tier has been conceded to Chinese challengers; only brand trust and dealer presence defend it today."
+    },
+    {
+      "segment": "Smart helmets",
+      "cardo": "Beyond GT $949 / GTS $1,199 / Venture MX $799 (summer 2026)",
+      "competitors": [
+        {"brand": "Sena", "product": "Phantom ANC / Phantom CAM 4K / Outlander ADV + 5 more", "price": "TBA, 8 models for 2026", "note": "Established smart-helmet line since years; CAM adds 4K chin camera"}
+      ],
+      "gap": "Cardo enters the category premium-first while Sena floods it with 8 models including a camera helmet. Venture (first integrated-mesh MX helmet) is a genuine first.",
+      "severity": "medium",
+      "insight": "Category too young to score; watch Phantom CAM (camera is a feature Cardo has nowhere in the portfolio)."
+    }
+  ],
+  "feature_gaps": [
+    {
+      "feature": "Cellular / unlimited-range intercom",
+      "cardo_status": "partial",
+      "cardo_note": "VoIP Cellular Intercom shipped quietly inside the free Mesh-Boost OTA, but it is barely marketed and not a headline capability.",
+      "competitor_note": "Sena Wave is a named, heavily-marketed product (unlimited range/riders over LTE, friends-based groups). ASMAX CloudTalk does mesh-to-cellular auto-switching for 50 riders ('MESH+5G', full SMC launch H2 2026). Reso DuoSync software mesh claims unlimited range via hotspot.",
+      "severity": "high",
+      "recommendation": "Productize and name the existing VoIP capability; market it head-to-head against Wave rather than leaving it a footnote of Mesh-Boost."
+    },
+    {
+      "feature": "AI voice assistant",
+      "cardo_status": "behind",
+      "cardo_note": "Natural Voice Operation is best-in-class command recognition, but it is a command set — not an assistant. No offline AI, no conversational features anywhere in the line.",
+      "competitor_note": "ASMAX 'Hi Max' is a fully offline AI assistant (EN/ES/JA, works without phone; verified reliable at highway speed). Reso 'Hey RESO' offers continuous-listening control that reviewers rate faster than Cardo's.",
+      "severity": "medium",
+      "recommendation": "An on-device AI assistant (or LLM-backed companion via Cardo Connect) would neutralize the challenger brands' core differentiator and fit Cardo's premium software story."
+    },
+    {
+      "feature": "Warranty",
+      "cardo_status": "behind",
+      "cardo_note": "3 years on Packtalk Edge/Pro (2 years on the rest) — was the industry's best until May 2026.",
+      "competitor_note": "Sena 60S EVO introduced a limited LIFETIME warranty on the main unit. Reso matches Cardo's 3 years on a $359 flagship.",
+      "severity": "medium",
+      "recommendation": "Evaluate matching lifetime coverage on Packtalk Pro/Edge; the BOM risk is low relative to the flagship price premium being defended."
+    },
+    {
+      "feature": "Mesh below $250",
+      "cardo_status": "missing",
+      "cardo_note": "Freecom and Spirit lines are Bluetooth-only. Cheapest moto mesh is Packtalk Neo at $359.95.",
+      "competitor_note": "Sena Spider RT1 $199 (24-rider Mesh 2.0), ASMAX S1 $89.99 (8-rider mesh), Reso Pilot Neo $269 (15-rider mesh, IP67).",
+      "severity": "critical",
+      "recommendation": "A 'Packtalk Lite' style DMC unit at $199-249 (or bringing DMC to the Freecom platform) closes the lineup's biggest hole before ASMAX's 2025 generation reaches US retail."
+    },
+    {
+      "feature": "Action-camera audio integration",
+      "cardo_status": "missing",
+      "cardo_note": "No GoPro/DJI/Insta360 integration anywhere in the lineup.",
+      "competitor_note": "Reso records team intercom audio directly into GoPro/DJI/Insta360 footage — a moto-vlogger hook. ASMAX has Insta360 wireless audio integration. Sena sells camera helmets (Phantom CAM 4K).",
+      "severity": "medium",
+      "recommendation": "Firmware/app-level camera audio pairing is a contained project with outsized appeal to the content-creator segment that drives social reach."
+    },
+    {
+      "feature": "Crash detection / safety",
+      "cardo_status": "leads",
+      "cardo_note": "First mover: IMU crash detection with emergency alerts on Packtalk Pro (fw 4.7 fixed false positives).",
+      "competitor_note": "Reso matches it (GNSS + gyroscope SOS) at $359 — the only competitor that does. Sena and ASMAX have nothing comparable shipping.",
+      "severity": "low",
+      "recommendation": "Extend crash detection down the line (Edge/Neo) before it becomes table stakes; expand region coverage."
+    },
+    {
+      "feature": "Group mesh reliability & scale",
+      "cardo_status": "leads",
+      "cardo_note": "DMC Gen2 is the review-consensus benchmark (self-healing, 31 riders post Mesh-Boost); FortNine 'the foolproof choice'; wins nearly every 2025-26 'best overall' roundup.",
+      "competitor_note": "Sena Mesh 3.0 claims 24-rider groups + unlimited Open Mesh but real-world reliability is still rated behind DMC. ASMAX/Reso mesh is brand-locked with tiny installed bases.",
+      "severity": "low",
+      "recommendation": "Keep DMC the hero of all messaging; it remains the #1 reason reviewers recommend Cardo."
+    },
+    {
+      "feature": "Waterproofing",
+      "cardo_status": "leads",
+      "cardo_note": "IP67 across the Packtalk line — repeatedly cited as a durability win. But: no published IP rating on Spirit/Freecom lines.",
+      "competitor_note": "Sena is IPX7 only on the 60 series, 'water-resistant' below. ASMAX publishes IPX7/IP67 even at $89.99. Reso is IP67 on both main models.",
+      "severity": "low",
+      "recommendation": "Publish official IP ratings for Freecom/Spirit — challengers publish ratings on units a third the price, making Cardo's silence at entry level look evasive."
+    },
+    {
+      "feature": "Ecosystem openness",
+      "cardo_status": "at-risk",
+      "cardo_note": "Universal Bluetooth bridging (pairs with any brand) is a genuine strength — but DMC itself is proprietary.",
+      "competitor_note": "Sena's MeshON ($TBA, June 2026) lets ANY Bluetooth headset — including Cardo units — join Sena Mesh groups: a direct play to make Sena the default group-ride network.",
+      "severity": "high",
+      "recommendation": "Consider a DMC bridge accessory or SDK response; if group rides standardize on Sena mesh via MeshON, Cardo's group-comms advantage erodes from the outside."
+    },
+    {
+      "feature": "Audio partnership",
+      "cardo_status": "parity",
+      "cardo_note": "Sound by JBL (40/45mm) — strongest bass/volume in class per reviews.",
+      "competitor_note": "Sena escalated to Sound by Bose on the 60S EVO. ASMAX counters with Bongiovi 'Grammy-level' tuning. Reso's self-developed speakers beat Packtalk Bold's JBL in one long-term review.",
+      "severity": "low",
+      "recommendation": "JBL story still holds but is no longer unique; 45mm speakers below the Pro tier would keep the hardware edge tangible."
+    }
+  ],
+  "advantages": [
+    {"title": "DMC mesh reliability", "detail": "Review-consensus best group intercom; self-healing, 31 riders free via OTA. The core moat."},
+    {"title": "Review dominance", "detail": "Packtalk Edge/Pro win nearly every 2025-26 'best intercom' roundup (FortNine, webBikeWorld, comparison sites)."},
+    {"title": "OTA value delivery", "detail": "Mesh-Boost added 31-rider DMC, Public Mesh, Remote Grouping and VoIP intercom free — strongest post-purchase value story in the market."},
+    {"title": "Safety leadership", "detail": "Only incumbent with shipping crash detection (Packtalk Pro)."},
+    {"title": "Distribution & OEM", "detail": "80+ countries, Cycle Gear free-install, Shoei/HJC/KTM co-brands — challengers have almost no Western retail."},
+    {"title": "Smart-helmet firsts", "detail": "Venture is the world's first integrated-mesh MX helmet; Beyond GTS has replaceable battery + serviceable modules."},
+    {"title": "Community trust window", "detail": "Reddit/enthusiast sentiment favors Cardo on reliability; ASMAX and Reso are invisible on Reddit and in tier-1 Western press — for now."}
+  ],
+  "recommendations": [
+    {"priority": 1, "title": "Close the sub-$250 mesh hole", "detail": "A DMC unit at $199-249 defends against Sena Spider ($199), Reso Neo ($269) and ASMAX ($90-155) before their 2026 US pushes land. This is the most exposed flank."},
+    {"priority": 2, "title": "Answer Wave by naming what already exists", "detail": "Cardo already ships VoIP cellular intercom inside Mesh-Boost. Give it a name, a launch, and app UX parity with Sena Wave's friends-based groups."},
+    {"priority": 3, "title": "Respond to MeshON ecosystem attack", "detail": "Sena is turning group rides into its own network via a $TBA bridge dongle that absorbs Cardo users. Evaluate a DMC bridge or aggressive universal-BT marketing counter."},
+    {"priority": 4, "title": "Re-examine flagship pricing / warranty", "detail": "After the 2025 hikes, Packtalk Pro is the most expensive unit on the market while Sena added a lifetime warranty at $459. Match the warranty or justify the premium with software (AI assistant, safety expansion)."},
+    {"priority": 5, "title": "Add an AI assistant + camera audio integration", "detail": "Neutralizes ASMAX's 'Hi Max' positioning and Reso's vlogger hook; both are software projects, not new hardware."},
+    {"priority": 6, "title": "Exploit the social/community gap", "detail": "Sena's 308K Facebook audience engages ~0.2%; ASMAX/Reso own TikTok SEA/LATAM but are absent from Reddit. Cardo should own the enthusiast community layer (Reddit AMAs, creator program, public complaint handling) where purchase decisions are actually made."},
+    {"priority": 7, "title": "Set Western-entry tripwires on challengers", "detail": "Trigger events to monitor: ASMAX F1 Pro Max / SMC on Amazon US, Reso on Amazon/RevZilla, first tier-1 press review (webBikeWorld/RevZilla/FortNine) of either brand, funding announcements."}
+  ]
+}

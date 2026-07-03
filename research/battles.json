@@ -1,0 +1,150 @@
+{
+  "note": "Deck-style segment battles (modeled on 'Competitive Landscape - December 2024.pptx'). Ratings: good | soso | bad, from Cardo's perspective, based on agent research + review consensus as of July 2026. Dimension sub-criteria mirror the internal deck.",
+  "dimensions_legend": {
+    "Form factor": "Size, esthetics and aerodynamics",
+    "Ease of Use": "Wheel, cradle, mount, voice commands, screen, OTA",
+    "Sound": "Speakers 22/32/40/45mm, HD, brand, quality",
+    "Intercom": "Range, # riders, mesh, auto-reconnect, WB sound",
+    "Quality": "Build quality, service, IP65/IP67, water resistance",
+    "Price": "Segment compare and overall pricing"
+  },
+  "battles": [
+    {
+      "id": "entry-bt",
+      "title": "SPIRIT vs competition",
+      "segment": "Basic Bluetooth",
+      "hero": {"brand": "Cardo", "model": "Spirit", "price": "$109.95"},
+      "exec_summary": "Spirit still anchors the range on brand trust and OTA support, but at this price point ASMAX now sells MESH with an offline AI assistant and a published waterproof rating — a spec sheet Spirit cannot match. Sena 5R LITE matches Spirit's simplicity $10 cheaper. The entry tier is defended by distribution and brand, not by product.",
+      "matchups": [
+        {"brand": "Sena", "model": "5R LITE", "price": "$99", "blurb": "Sena's lowest-profile entry unit; basic 2-rider Bluetooth, water-resistant.", "cardo_advantage": ["OTA updates via app", "Universal Bluetooth bridging", "Fast charge + charge-while-riding"], "competitor_advantage": ["$10 cheaper", "Slimmest profile in segment"]},
+        {"brand": "ASMAX", "model": "S1", "price": "$89.99", "blurb": "Mesh + BT 5.4 dual-chip, offline 'Hi Max' AI voice, IPX7, FOTA — flagship-class spec at the cheapest price in the market.", "cardo_advantage": ["Brand trust & Western dealer/service network", "Proven long-term firmware support"], "competitor_advantage": ["MESH at entry price (8 riders)", "Offline AI voice control", "Published IPX7 rating", "40mm speakers vs Spirit's 32mm", "$20 cheaper"], "to_test": ["Real-world range (claims 8 km, reviews ~1.2 km)"]},
+        {"brand": "Reso", "model": "Reso Pilot Lite", "price": "~$90 (SEA only)", "blurb": "Bluetooth entry model sold via SEA dealers; specs opaque, not on the US store.", "cardo_advantage": ["Actually available in Western markets", "Documented specs, OTA, support"], "competitor_advantage": ["Price in SEA markets"]}
+      ],
+      "ratings": {
+        "models": [["Cardo", "Spirit"], ["Sena", "5R LITE"], ["ASMAX", "S1"], ["Reso", "Pilot Lite"]],
+        "rows": [
+          {"dimension": "Form factor", "scores": ["soso", "good", "soso", "soso"], "note": "5R LITE slimmest; Spirit dated but compact; S1 41 g"},
+          {"dimension": "Ease of Use", "scores": ["good", "soso", "good", "soso"], "note": "Spirit: app + OTA; S1: AI voice + app; 5R LITE basic 3-button"},
+          {"dimension": "Sound", "scores": ["bad", "soso", "good", "soso"], "note": "Spirit 32mm generic vs S1 40mm; both non-HD"},
+          {"dimension": "Intercom", "scores": ["bad", "bad", "good", "bad"], "note": "Only S1 has mesh (8 riders); Spirit/5R LITE 2-rider BT"},
+          {"dimension": "Quality", "scores": ["soso", "soso", "soso", "bad"], "note": "No published IP on Spirit; S1 IPX7 but young-brand QC; Lite unknown"},
+          {"dimension": "Price", "scores": ["soso", "good", "good", "good"], "note": "Spirit most expensive in segment"}
+        ]
+      }
+    },
+    {
+      "id": "entry-hd-bt",
+      "title": "SPIRIT HD vs competition",
+      "segment": "Entry+ Bluetooth",
+      "hero": {"brand": "Cardo", "model": "Spirit HD", "price": "$179.95"},
+      "exec_summary": "Spirit HD's 40mm HD speakers and sound profiles carry it against Sena's aging 5-series, but Sena discounts aggressively ($135 for the 5S with LCD screen) and ASMAX Z1 sells mesh at half the price. HD audio is the story; price is the exposure.",
+      "matchups": [
+        {"brand": "Sena", "model": "5S", "price": "$169 → $135 street", "blurb": "Entry unit with integrated LCD screen and jog dial; currently 20% off on Sena's store.", "cardo_advantage": ["40mm HD speakers + sound profiles", "13h talk time", "Natural-voice access to Siri/Google"], "competitor_advantage": ["LCD screen (unique in segment)", "$45 cheaper at street", "Jog dial control"]},
+        {"brand": "Sena", "model": "5R", "price": "$139", "blurb": "Slim 3-button 4-rider Bluetooth unit, reviewed as strong value (Ultimate Motorcycling).", "cardo_advantage": ["HD audio quality", "OTA updates"], "competitor_advantage": ["4-rider intercom vs 2", "16h talk time", "$40 cheaper"]},
+        {"brand": "ASMAX", "model": "Z1 / Z1 Plus", "price": "$89.99", "blurb": "Mid-positioned mesh unit with 40mm HiFi speakers and claimed 160 km/h voice clarity, sold at entry price.", "cardo_advantage": ["Brand trust, dealer network, proven firmware", "Refined app experience"], "competitor_advantage": ["MESH at half the price (10 riders)", "IP67 published", "Magnetic mount"], "to_test": ["Range claims (15 km chained marketing vs reality)"]}
+      ],
+      "ratings": {
+        "models": [["Cardo", "Spirit HD"], ["Sena", "5S"], ["Sena", "5R"], ["ASMAX", "Z1 / Z1 Plus"]],
+        "rows": [
+          {"dimension": "Form factor", "scores": ["soso", "soso", "good", "soso"], "note": "5R slimmest; Z1 magnetic mount"},
+          {"dimension": "Ease of Use", "scores": ["good", "good", "soso", "good"], "note": "5S LCD + jog dial; Spirit HD app + OTA; Z1 voice"},
+          {"dimension": "Sound", "scores": ["good", "soso", "soso", "good"], "note": "Spirit HD 40mm HD + profiles; Z1 40mm HiFi"},
+          {"dimension": "Intercom", "scores": ["bad", "bad", "soso", "good"], "note": "Z1 mesh 10 riders; 5R pairs 4; Spirit HD/5S 2-rider"},
+          {"dimension": "Quality", "scores": ["soso", "soso", "soso", "soso"], "note": "No published IP on Spirit HD or 5-series; Z1 IP67 but QC unknowns"},
+          {"dimension": "Price", "scores": ["bad", "good", "good", "good"], "note": "Spirit HD most expensive in segment at $179.95"}
+        ]
+      }
+    },
+    {
+      "id": "mid-bt",
+      "title": "FREECOM 2X vs competition",
+      "segment": "Mid-range Bluetooth battle",
+      "hero": {"brand": "Cardo", "model": "Freecom 2x", "price": "$254.95 → $210 street"},
+      "exec_summary": "Freecom 2x sells premium 2-rider Bluetooth with JBL sound — but Sena's Spider RT1 offers 24-rider MESH for $11 less and ASMAX Future 1 brings mesh + AI at $155. A 2-rider BT unit above $200 is structurally hard to defend in 2026; JBL audio and Live Intercom UX are the remaining pillars.",
+      "matchups": [
+        {"brand": "Sena", "model": "Spider RT1 / ST1", "price": "$199", "blurb": "Affordable Mesh 2.0-only unit (24 riders, 8 km multi-hop). Successor Spider X Slim with Mesh 3.0 announced at EICMA 2025.", "cardo_advantage": ["Sound by JBL 40mm", "Bluetooth phone+intercom flexibility", "Polished app/OTA experience"], "competitor_advantage": ["24-rider MESH vs 2-rider BT", "$11 cheaper", "Fast charge 20 min = 3.5 h"], "to_test": ["Spider wind-noise handling (known weak point)"]},
+        {"brand": "ASMAX", "model": "Future 1", "price": "~$155", "blurb": "2025 EICMA model: mesh, neural-network noise filtering, AI voice, 1350 mAh, IPX7 — 'high-tech at an affordable price' per Asian reviewers.", "cardo_advantage": ["JBL audio brand & tuning", "Western retail availability (Future 1 not on US store yet)", "Proven support"], "competitor_advantage": ["Mesh 10 riders", "Offline AI assistant", "14h talk + fast charge", "~$60-100 cheaper"]}
+      ],
+      "ratings": {
+        "models": [["Cardo", "Freecom 2x"], ["Sena", "Spider RT1 / ST1"], ["ASMAX", "Future 1"]],
+        "rows": [
+          {"dimension": "Form factor", "scores": ["good", "soso", "good"], "note": "Freecom slim; Future 1 50 g magnetic"},
+          {"dimension": "Ease of Use", "scores": ["good", "soso", "good"], "note": "Natural Voice + OTA vs Spider's app issues; Future 1 AI voice"},
+          {"dimension": "Sound", "scores": ["good", "bad", "soso"], "note": "JBL 40mm vs Spider standard HD; Future 1 tuned 40mm"},
+          {"dimension": "Intercom", "scores": ["bad", "good", "soso"], "note": "2-rider BT vs 24-rider mesh; Future 1 mesh but brand-locked"},
+          {"dimension": "Quality", "scores": ["soso", "soso", "soso"], "note": "Freecom 'waterproof' unrated officially; Spider durability complaints; ASMAX QC young"},
+          {"dimension": "Price", "scores": ["bad", "good", "good"], "note": "Most expensive, least intercom capability in segment"}
+        ]
+      }
+    },
+    {
+      "id": "high-bt",
+      "title": "FREECOM 4X vs competition",
+      "segment": "High-end Bluetooth",
+      "hero": {"brand": "Cardo", "model": "Freecom 4x", "price": "$314.95 → $270 street"},
+      "exec_summary": "The 4-rider Freecom 4x holds the 'premium Bluetooth' niche on JBL sound and polish, but its price now overlaps Sena's mesh-capable 50R (~$300) and doubles ASMAX's F1 Pro (~$205, mesh + Bongiovi audio). The 2025 MSRP hike ($269.95 → $314.95) made this segment position visibly worse.",
+      "matchups": [
+        {"brand": "Sena", "model": "50R", "price": "~$300", "blurb": "Low-profile Mesh 2.0 unit with Harman Kardon audio — mesh capability at Freecom 4x money.", "cardo_advantage": ["Better waterproofing story", "Live Intercom UX simplicity", "JBL tuning preference in reviews"], "competitor_advantage": ["Mesh 2.0 24 riders vs 4-rider BT", "Harman Kardon audio", "Slimmer profile"]},
+        {"brand": "ASMAX", "model": "F1 Pro", "price": "~$205", "blurb": "Octa-core mesh unit with Bongiovi 'Grammy-level' tuning, 14h intercom / 21h music, AI voice — not yet on the US store.", "cardo_advantage": ["US availability & dealer install", "JBL brand audio", "Proven OTA & app maturity"], "competitor_advantage": ["Mesh 10 riders", "AI voice assistant", "$65-110 cheaper", "Longer music battery (21h)"], "to_test": ["Real range vs '3-15 km' marketing"]}
+      ],
+      "ratings": {
+        "models": [["Cardo", "Freecom 4x"], ["Sena", "50R"], ["ASMAX", "F1 Pro"]],
+        "rows": [
+          {"dimension": "Form factor", "scores": ["good", "good", "soso"], "note": "50R low-profile 3-button; 4x slim"},
+          {"dimension": "Ease of Use", "scores": ["good", "soso", "good"], "note": "Natural Voice + app polish; 50R aging UX; F1 Pro AI voice"},
+          {"dimension": "Sound", "scores": ["good", "good", "soso"], "note": "JBL vs Harman Kardon wash; Bongiovi unproven in West"},
+          {"dimension": "Intercom", "scores": ["bad", "good", "soso"], "note": "4-rider BT vs 24-rider mesh; F1 Pro 10-rider brand-locked mesh"},
+          {"dimension": "Quality", "scores": ["soso", "soso", "soso"], "note": "4x IP65-ish unpublished; 50R water-resistant only; ASMAX QC young"},
+          {"dimension": "Price", "scores": ["bad", "soso", "good"], "note": "2025 hike put 4x above a mesh-capable Sena"}
+        ]
+      }
+    },
+    {
+      "id": "mid-mesh",
+      "title": "PACKTALK NEO vs competition",
+      "segment": "Mid-range Mesh",
+      "hero": {"brand": "Cardo", "model": "Packtalk Neo", "price": "$359.95"},
+      "exec_summary": "Neo delivers full DMC Gen2 (31 riders post Mesh-Boost) at $80 under the Edge — but Reso's Pilot Neo undercuts it by ~$90 with IP67, 24h battery and 3-yr warranty, and Sena's 50S adds Harman Kardon at $341. Neo wins on mesh reliability and ecosystem; it loses the pure value math. This is the deck's 2024 'Neo vs Pilot Pro' story repeating one tier down.",
+      "matchups": [
+        {"brand": "Sena", "model": "50S", "price": "$379 → $341 street", "blurb": "Aging Mesh 2.0 mid-tier with Harman Kardon speakers and jog dial; firmware v2.7 drew community backlash; refresh expected as 2026 range lands.", "cardo_advantage": ["DMC reliability + 31 riders vs 24", "IP67 vs water-resistant", "Natural Voice hands-free"], "competitor_advantage": ["Harman Kardon audio brand", "Jog dial preferred by some riders", "Street price $19 lower"]},
+        {"brand": "Reso", "model": "Reso Pilot Neo", "price": "$320 → $269 street", "blurb": "Single-channel mesh (15 riders), IP67, 24h talk, 15W fast charge, 3-yr warranty — the sharpest value attack on the Neo.", "cardo_advantage": ["31-rider DMC vs 15", "Installed base & cross-brand BT bridging", "Mesh-Boost OTA feature stream"], "competitor_advantage": ["~$90 cheaper", "24h talk vs 13h", "Faster charging (15W)", "Matches IP67 + 3-yr warranty"], "to_test": ["Mesh stability in large groups"]},
+        {"brand": "ASMAX", "model": "F1 Pro Max", "price": "TBA (not in US)", "blurb": "EICMA 2025 top model: 45mm speakers, 1350 mAh, Bongiovi tuning — the spec-sheet leader if US pricing lands aggressive.", "cardo_advantage": ["Available now in the US", "DMC ecosystem & reliability record"], "competitor_advantage": ["45mm speakers (matches Packtalk Pro)", "Likely far cheaper"], "to_test": ["US launch price & availability"]}
+      ],
+      "ratings": {
+        "models": [["Cardo", "Packtalk Neo"], ["Sena", "50S"], ["Reso", "Pilot Neo"], ["ASMAX", "F1 Pro Max"]],
+        "rows": [
+          {"dimension": "Form factor", "scores": ["good", "bad", "good", "soso"], "note": "50S bulky (MCN); Neo clip-mount only (no Air Mount)"},
+          {"dimension": "Ease of Use", "scores": ["good", "soso", "good", "soso"], "note": "Natural Voice + OTA; 50S firmware backlash; Reso voice praised"},
+          {"dimension": "Sound", "scores": ["good", "good", "soso", "good"], "note": "JBL vs HK; Reso self-developed (good reviews, less brand)"},
+          {"dimension": "Intercom", "scores": ["good", "soso", "soso", "soso"], "note": "DMC 31 riders benchmark; 50S mesh dropouts; Reso 15, brand-locked"},
+          {"dimension": "Quality", "scores": ["good", "soso", "good", "soso"], "note": "Neo IP67 2-yr; 50S water-resistant; Reso IP67 3-yr but young brand"},
+          {"dimension": "Price", "scores": ["bad", "soso", "good", "soso"], "note": "Neo most expensive mid-mesh; Reso $269 defines segment value"}
+        ]
+      }
+    },
+    {
+      "id": "high-mesh",
+      "title": "PACKTALK PRO / EDGE vs competition",
+      "segment": "High-end Mesh (flagship)",
+      "hero": {"brand": "Cardo", "model": "Packtalk Pro ($499.95) / Edge ($439.95 → $396)", "price": "$499.95"},
+      "exec_summary": "Cardo still owns the reliability crown — DMC, IP67, crash detection, and nearly every 'best overall' verdict. But the price umbrella is under attack from three directions: Sena 60S EVO ($459) with Bose audio + lifetime warranty, Reso Pilot Pro ($359) matching the safety stack, and ASMAX F1s ($140) resetting the price floor. Wave/CloudTalk-style cellular intercom is the marketing capability gap; the 2025 MSRP hikes are the self-inflicted one.",
+      "matchups": [
+        {"brand": "Sena", "model": "60S EVO", "price": "$459 ($879 dual)", "blurb": "May 2026 flagship: Sound by Bose, Mesh 3.0 + Wave cellular intercom, 27h talk, IPX7, limited lifetime warranty. MCN: 'considerably cheaper than Cardo's flagship'.", "cardo_advantage": ["DMC group reliability (review consensus)", "IP67 vs IPX7", "Crash detection (Pro)", "Air Mount + glove-friendly wheel"], "competitor_advantage": ["Wave = unlimited range over LTE (headline feature)", "Sound by Bose", "Lifetime warranty vs 3-yr", "27h vs 13h talk", "$41 cheaper than Pro"], "to_test": ["EVO AI noise cancellation at speed (60S version underperformed >80 km/h)"]},
+        {"brand": "Sena", "model": "60S", "price": "$439 → $351 street", "blurb": "2024 flagship now discounted ~20% as EVO lands — price pressure directly on the Edge.", "cardo_advantage": ["Mesh reliability, IP67, voice control", "Edge street price competitive at $396"], "competitor_advantage": ["Wave cellular intercom", "24h talk", "RideGlow/flashlight extras", "$45 under Edge street"]},
+        {"brand": "Reso", "model": "Reso Pilot Pro", "price": "$399 → $359 (~$225 in PH)", "blurb": "Ex-DJI team: DuoSync hardware+software mesh (30 riders), GNSS crash SOS, 'Hey RESO', GoPro/DJI/Insta360 audio-in-footage, IP67, 3-yr warranty.", "cardo_advantage": ["Installed base for group rides", "JBL audio fidelity (reviewers)", "Western dealer/service network", "DMC maturity"], "competitor_advantage": ["$100-140 cheaper with matching safety stack", "Software mesh 'unlimited' range", "Action-cam audio integration (vlogger hook)", "Faster charging (15W)"], "to_test": ["DuoSync at scale", "US after-sales support"]},
+        {"brand": "ASMAX", "model": "F1s", "price": "$139.99", "blurb": "The price-floor reset: mesh + offline AI voice + IP67 + FOTA at 28% of Packtalk Pro's price. Range claims don't survive testing, but the value optics damage the whole premium tier.", "cardo_advantage": ["Real range & mesh reliability", "Audio quality", "Controls, ecosystem, support, brand"], "competitor_advantage": ["Price (1/3 of Pro)", "Offline AI assistant", "Insta360 integration"], "to_test": ["Long-term durability"]}
+      ],
+      "ratings": {
+        "models": [["Cardo", "Packtalk Pro"], ["Cardo", "Packtalk Edge"], ["Sena", "60S EVO"], ["Sena", "60S"], ["Reso", "Pilot Pro"], ["ASMAX", "F1s"]],
+        "rows": [
+          {"dimension": "Form factor", "scores": ["good", "good", "soso", "soso", "good", "soso"], "note": "Air Mount + slim vs Sena bulk (MCN); Pilot Pro DJI-grade design"},
+          {"dimension": "Ease of Use", "scores": ["good", "good", "good", "soso", "good", "soso"], "note": "Natural Voice & wheel vs jog dial gloves issue; EVO app improved; F1s button-only"},
+          {"dimension": "Sound", "scores": ["good", "good", "good", "good", "soso", "soso"], "note": "45mm JBL (Pro) vs Bose (EVO) vs HK (60S); Reso good but less brand"},
+          {"dimension": "Intercom", "scores": ["good", "good", "good", "good", "soso", "bad"], "note": "DMC benchmark; Sena adds Wave unlimited-range; Reso small base; F1s real range ~1 km"},
+          {"dimension": "Quality", "scores": ["good", "good", "good", "soso", "soso", "soso"], "note": "IP67 + 3yr vs IPX7 + lifetime (EVO); 60S firmware bugs; young brands unproven"},
+          {"dimension": "Price", "scores": ["bad", "soso", "soso", "good", "good", "good"], "note": "Pro most expensive on market post-2025 hikes; 60S/Reso/ASMAX all undercut"}
+        ]
+      }
+    }
+  ]
+}

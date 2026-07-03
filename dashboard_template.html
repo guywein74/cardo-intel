@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardo Competitive Intelligence — July 2026</title>
+<style>
+:root{
+  --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --border:#2d3644; --text:#e6edf3; --muted:#8b949e;
+  --cardo:#e6002d; --sena:#f7a600; --asmax:#22c1dd; --reso:#8e6bff;
+  --ok:#3fb950; --warn:#d29922; --bad:#f85149; --partial:#a371f7;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:60px}
+header{padding:28px 32px 0}
+h1{font-size:24px;font-weight:700}
+h1 .accent{color:var(--cardo)}
+.sub{color:var(--muted);margin-top:4px;font-size:13px}
+nav{display:flex;gap:4px;padding:18px 32px 0;border-bottom:1px solid var(--border);flex-wrap:wrap}
+nav button{background:none;border:none;color:var(--muted);font:600 14px inherit;padding:10px 16px;cursor:pointer;border-bottom:2px solid transparent}
+nav button.active{color:var(--text);border-bottom-color:var(--cardo)}
+nav button:hover{color:var(--text)}
+main{padding:24px 32px;max-width:1400px;margin:0 auto}
+.tab{display:none}.tab.active{display:block}
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:18px}
+.card h3{font-size:15px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;text-transform:uppercase;letter-spacing:.4px}
+.b-critical{background:#3d1418;color:#ff7b72}.b-high{background:#3b2300;color:#f0a83a}.b-medium{background:#272040;color:#b79df5}.b-low{background:#0f2b17;color:#56d364}
+.b-leads{background:#0f2b17;color:#56d364}.b-parity{background:#1a2634;color:#79b8ff}.b-partial{background:#272040;color:#b79df5}.b-behind{background:#3b2300;color:#f0a83a}.b-missing{background:#3d1418;color:#ff7b72}.b-at-risk{background:#3d1418;color:#ff7b72}
+.muted{color:var(--muted)}.small{font-size:12px}
+table{width:100%;border-collapse:collapse}
+th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer;user-select:none}
+th .arrow{opacity:.7}
+td{padding:9px 10px;border-bottom:1px solid #1f2733;vertical-align:top}
+tbody tr.prod{cursor:pointer}
+tbody tr.prod:hover{background:var(--panel2)}
+tr.expand td{background:#11161d;font-size:13px;color:#c9d1d9;padding:14px 16px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.chip{border:1px solid var(--border);background:var(--panel);color:var(--muted);border-radius:16px;padding:5px 14px;cursor:pointer;font:600 13px inherit}
+.chip.on{color:var(--text);border-color:currentColor}
+input[type=search],select{background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:6px 12px;font:inherit}
+.brandtag{font-weight:700}
+.price{font-variant-numeric:tabular-nums;white-space:nowrap}
+.strike{color:var(--muted);text-decoration:line-through;font-size:12px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin:10px 0;font-size:12px;color:var(--muted);align-items:center}
+.matrix td,.matrix th{text-align:center}
+.matrix td:first-child,.matrix th:first-child{text-align:left}
+.sym{font-size:16px;font-weight:700}
+.s-yes{color:var(--ok)}.s-no{color:var(--bad)}.s-part{color:var(--partial)}
+.fnote{font-size:11px;color:var(--muted);margin-top:2px}
+.reclist{counter-reset:rec}
+.rec{display:flex;gap:14px;margin-bottom:12px}
+.rec .n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--cardo);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px dashed #232c3a;font-size:13px}
+.kv:last-child{border:none}
+.kv b{font-variant-numeric:tabular-nums}
+.two{columns:2;column-gap:28px}
+@media(max-width:900px){.two{columns:1}}
+ul.tight{padding-left:18px}
+ul.tight li{margin-bottom:5px}
+.news{border-left:2px solid var(--border);padding-left:14px;margin-left:4px}
+.news div{margin-bottom:8px}
+.news b{color:var(--muted);font-size:12px;margin-right:8px}
+.gapseg{margin-bottom:16px}
+.gapseg .comp{margin:8px 0 0;padding-left:0;list-style:none}
+.gapseg .comp li{padding:6px 0;border-top:1px dashed #232c3a;font-size:13px}
+svg text{fill:var(--muted);font-size:11px}
+.tt{position:fixed;pointer-events:none;background:#000c;border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:12px;z-index:9;display:none;max-width:280px}
+.note-banner{background:#131a24;border:1px solid var(--border);border-radius:8px;padding:10px 14px;color:var(--muted);font-size:12px;margin-bottom:16px}
+h2{font-size:18px;margin:26px 0 12px}
+h2:first-child{margin-top:0}
+a{color:#58a6ff;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Cardo <span class="accent">Competitive Intelligence</span></h1>
+  <div class="sub">Cardo vs Sena vs ASMAX vs Reso · compiled by research agents · data as of July 2026</div>
+</header>
+<nav id="nav"></nav>
+<main id="main"></main>
+<div class="tt" id="tt"></div>
+<script>
+const DATA = /*__DATA__*/;
+const GAP = DATA.gap;
+const BRANDS = DATA.brands;
+const BCOLOR = {Cardo:"var(--cardo)",Sena:"var(--sena)",ASMAX:"var(--asmax)",Reso:"var(--reso)"};
+const BHEX = {Cardo:"#e6002d",Sena:"#f7a600",ASMAX:"#22c1dd",Reso:"#8e6bff"};
+const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press"];
+const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt$ = v => v==null?"—":"$"+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
+const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
+
+/* products flattened */
+let PRODUCTS=[];
+BRANDS.forEach(br=>br.products.forEach(p=>PRODUCTS.push({brand:br.competitor,...p})));
+PRODUCTS.forEach(p=>{p.eff=(p.street_price_usd??p.msrp_usd);p.isHelmet=/helmet/i.test(p.name);p.mesh=/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")});
+
+/* ---------- nav ---------- */
+const nav=document.getElementById("nav"),main=document.getElementById("main");
+TABS.forEach((t,i)=>{const b=document.createElement("button");b.textContent=t;b.onclick=()=>show(i);nav.appendChild(b)});
+const sections=TABS.map(()=>{const d=document.createElement("div");d.className="tab";main.appendChild(d);return d});
+function show(i){[...nav.children].forEach((b,j)=>b.classList.toggle("active",i===j));sections.forEach((s,j)=>s.classList.toggle("active",i===j))}
+
+/* ---------- Overview (2x2 matrix) ---------- */
+sections[0].innerHTML = `
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+  <!-- Top-left: Brand overview -->
+  <div class="card">
+    <h2 style="margin-top:0">Brand overview</h2>
+    ${BRANDS.map(b=>`<div style="margin-bottom:14px"><div style="font-weight:700;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
+      <div class="small muted">${esc(b.company.hq.split(";")[0].split("(")[0])} · Founded ${esc((b.company.founded||"").match(/\d{4}/)?.[0]||"")}</div>
+      <div class="small" style="margin-top:4px">${esc(b.company.positioning.split(";")[0].slice(0,140))}…</div>
+      <div class="kv" style="padding:4px 0;border:none;font-size:12px"><span>Products</span><b>${b.products.length}</b></div>
+      <div class="kv" style="padding:4px 0;border:none;font-size:12px"><span>Price range</span><b>${(()=>{const ps=b.products.map(p=>p.street_price_usd??p.msrp_usd).filter(v=>v!=null);return ps.length?fmt$(Math.min(...ps))+"-"+fmt$(Math.max(...ps)):"—"})()}</b></div></div>`).join("")}
+  </div>
+
+  <!-- Top-right: Strengths & weaknesses matrix -->
+  <div class="card">
+    <h2 style="margin-top:0">Competitive positioning</h2>
+    <table style="font-size:12px;margin-bottom:8px">
+      <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Strengths</th><th style="padding:6px">Weaknesses</th></tr></thead>
+      <tbody>
+      ${BRANDS.map(b=>`<tr><td style="font-weight:700;padding:6px">${esc(b.competitor)}</td>
+        <td style="padding:6px;color:var(--ok);font-size:11px">${b.strengths.slice(0,2).map(s=>esc(s.split(" - ")[0].split(" — ")[0].slice(0,60))).join(" • ")}</td>
+        <td style="padding:6px;color:var(--bad);font-size:11px">${b.weaknesses.slice(0,2).map(s=>esc(s.split(" - ")[0].split(" — ")[0].slice(0,60))).join(" • ")}</td></tr>`).join("")}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bottom-left: Recent moves -->
+  <div class="card">
+    <h2 style="margin-top:0">Recent moves (2025–2026)</h2>
+    ${BRANDS.map(b=>`<div style="margin-bottom:12px"><div style="font-weight:600;font-size:12px;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
+      <div class="small muted" style="font-size:11px">${(b.recent_news||[]).slice(-3).reverse().map(n=>`<div style="margin:2px 0"><span style="color:var(--text);font-weight:600">${esc(n.date||"")}</span> ${esc(n.headline.slice(0,120))}</div>`).join("")}</div></div>`).join("")}
+  </div>
+
+  <!-- Bottom-right: Press & market -->
+  <div class="card">
+    <h2 style="margin-top:0">Press coverage & market</h2>
+    <table style="font-size:12px">
+      <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Reviews</th><th style="padding:6px">Awards</th><th style="padding:6px">Tone</th></tr></thead>
+      <tbody>
+      ${BRANDS.map(b=>{const p=b.press_coverage||{};const tone=(p.overall_tone||"").split(/[.;—-]/)[0].slice(0,35);return `<tr><td style="font-weight:700;padding:6px">${esc(b.competitor)}</td>
+        <td style="padding:6px;text-align:center">${(p.reviews||[]).length}</td>
+        <td style="padding:6px;text-align:center">${(p.awards||[]).length}</td>
+        <td style="padding:6px;font-size:11px;color:var(--muted)">${esc(tone)}</td></tr>`}).join("")}
+      </tbody>
+    </table>
+  </div>
+</div>`;
+
+/* ---------- Products table ---------- */
+const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
+const YEARS=Array.from(new Set(PRODUCTS.map(p=>p.release_year).filter(y=>y))).sort((a,b)=>b-a);
+let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fTier="all",fYear="all",fMesh=false,fSearch="";
+sections[1].innerHTML=`
+  <div class="chips">
+    ${BRANDS.map(b=>`<button class="chip on" data-b="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+    <select id="tierSel"><option value="all">All tiers</option><option>flagship</option><option>mid</option><option>entry</option></select>
+    <select id="yearSel"><option value="all">All years</option>${YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")}</select>
+    <button class="chip" id="meshChip">Mesh only</button>
+    <input type="search" id="srch" placeholder="Search product / feature…" style="flex:1;min-width:180px">
+    <span class="small muted" id="count"></span>
+  </div>
+  <div class="card" style="padding:0;overflow-x:auto">
+  <table id="ptable"><thead><tr>${COLS.map(([k,l])=>`<th data-k="${k}">${l} <span class="arrow"></span></th>`).join("")}</tr></thead><tbody></tbody></table></div>
+  <div class="small muted" style="margin-top:8px">Click a row for features & notes. Street price shown where verified; "—" = not published / not found.</div>`;
+sections[1].querySelectorAll(".chip[data-b]").forEach(c=>c.onclick=()=>{const b=c.dataset.b;c.classList.toggle("on");c.classList.contains("on")?fBrands.add(b):fBrands.delete(b);renderTable()});
+sections[1].querySelector("#tierSel").onchange=e=>{fTier=e.target.value;renderTable()};
+sections[1].querySelector("#yearSel").onchange=e=>{fYear=e.target.value;renderTable()};
+sections[1].querySelector("#meshChip").onclick=e=>{fMesh=!fMesh;e.target.classList.toggle("on",fMesh);renderTable()};
+sections[1].querySelector("#srch").oninput=e=>{fSearch=e.target.value.toLowerCase();renderTable()};
+sections[1].querySelectorAll("th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=(sortKey===k)?-sortDir:1;sortKey=k;renderTable()});
+function renderTable(){
+  const tb=sections[1].querySelector("tbody");
+  let rows=PRODUCTS.filter(p=>fBrands.has(p.brand)&&(fTier==="all"||p.tier===fTier)&&(fYear==="all"||p.release_year==fYear)&&(!fMesh||p.mesh)&&(!fSearch||JSON.stringify(p).toLowerCase().includes(fSearch)));
+  rows.sort((a,b)=>{let x=a[sortKey],y=b[sortKey];if(x==null)return 1;if(y==null)return -1;return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*sortDir});
+  sections[1].querySelectorAll("th .arrow").forEach(a=>a.textContent="");
+  const th=sections[1].querySelector(`th[data-k="${sortKey}"] .arrow`);if(th)th.textContent=sortDir>0?"↑":"↓";
+  sections[1].querySelector("#count").textContent=rows.length+" products";
+  tb.innerHTML=rows.map((p,i)=>`
+    <tr class="prod" data-i="${i}">
+      <td><b>${esc(p.name)}</b></td>
+      <td><span class="brandtag" style="color:${BCOLOR[p.brand]}">${p.brand}</span></td>
+      <td>${esc(p.tier||"—")}</td>
+      <td class="price">${fmt$(p.msrp_usd)}</td>
+      <td class="price">${p.street_price_usd!=null&&p.msrp_usd!=null&&p.street_price_usd<p.msrp_usd?`<b>${fmt$(p.street_price_usd)}</b>`:fmt$(p.street_price_usd)}</td>
+      <td class="small">${esc((p.intercom_tech||"—").slice(0,60))}</td>
+      <td>${p.range_km??"—"}</td><td>${p.max_riders??"—"}</td><td>${p.talk_time_hours??"—"}</td>
+      <td class="small">${esc((p.waterproof||"—").slice(0,26))}</td><td>${p.release_year??"—"}</td>
+    </tr>
+    <tr class="expand" style="display:none"><td colspan="11">
+      <b>Features:</b> ${(p.features||[]).map(esc).join(" · ")||"—"}<br>
+      ${p.notes?`<span class="muted"><b>Notes:</b> ${esc(p.notes)}</span>`:""}
+    </td></tr>`).join("");
+  tb.querySelectorAll("tr.prod").forEach(r=>r.onclick=()=>{const e=r.nextElementSibling;e.style.display=e.style.display==="none"?"":"none"});
+}
+renderTable();
+
+/* ---------- Battles (deck-style segment head-to-heads) ---------- */
+const BAT=DATA.battles;
+const SC={good:["GOOD","#0f2b17","#56d364"],soso:["SO-SO","#3b2300","#f0a83a"],bad:["BAD/NONE","#3d1418","#ff7b72"]};
+const scell=s=>{const[t,bg,fg]=SC[s]||["?","#222","#999"];return `<td style="background:${bg};color:${fg};font-weight:800;font-size:11px;letter-spacing:.4px">${t}</td>`};
+sections[2].innerHTML=`
+  <div class="note-banner">Deck-style segment battles (format of the internal “Competitive Landscape” deck): each Cardo model vs its direct segment rivals, rated <b style="color:#56d364">GOOD</b> / <b style="color:#f0a83a">SO-SO</b> / <b style="color:#ff7b72">BAD-NONE</b> on the six standard dimensions. Hover dimension names for sub-criteria. * = pending testing/verification.</div>
+  <div class="chips" id="batChips">${BAT.battles.map((b,i)=>`<button class="chip${i===0?" on":""}" data-i="${i}">${esc(b.hero.model.split(" (")[0].split(" /")[0])}<span class="muted" style="font-weight:400"> · ${esc(b.segment)}</span></button>`).join("")}</div>
+  <div id="batBody"></div>`;
+function renderBattle(i){
+  const b=BAT.battles[i];
+  const legend=BAT.dimensions_legend;
+  sections[2].querySelectorAll("#batChips .chip").forEach((c,j)=>c.classList.toggle("on",i===j));
+  sections[2].querySelector("#batBody").innerHTML=`
+  <div class="card" style="margin-bottom:16px">
+    <h3>${dot("Cardo")}${esc(b.title)} <span class="badge" style="background:var(--panel2);color:var(--muted)">${esc(b.segment)}</span></h3>
+    <div class="small" style="margin:4px 0 8px"><b style="color:var(--cardo)">${esc(b.hero.model)}</b> — ${esc(b.hero.price)}</div>
+    <div class="small"><b>Executive summary:</b> ${esc(b.exec_summary)}</div>
+  </div>
+  <div class="card" style="padding:0;overflow-x:auto;margin-bottom:16px">
+    <table class="matrix"><thead><tr><th style="min-width:120px">Dimension</th>${b.ratings.models.map(([br,m])=>`<th style="color:${BCOLOR[br]};min-width:110px">${esc(m)}</th>`).join("")}<th style="min-width:180px">Notes</th></tr></thead>
+    <tbody>${b.ratings.rows.map(r=>`<tr><td title="${esc(legend[r.dimension]||"")}" style="cursor:help"><b class="small">${esc(r.dimension)}</b></td>${r.scores.map(scell).join("")}<td class="small muted" style="text-align:left">${esc(r.note||"")}</td></tr>`).join("")}</tbody></table>
+  </div>
+  <div class="grid g2">
+  ${b.matchups.map(m=>`
+    <div class="card">
+      <h3>${dot(m.brand)}<span style="color:${BCOLOR[m.brand]}">${esc(m.brand)} ${esc(m.model)}</span><span class="price" style="margin-left:auto">${esc(m.price)}</span></h3>
+      <div class="small muted" style="margin-bottom:10px">${esc(m.blurb)}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        <div><div class="small" style="color:var(--ok);font-weight:700;margin-bottom:4px">CARDO'S ADVANTAGE</div><ul class="tight small">${m.cardo_advantage.map(a=>`<li>${esc(a)}</li>`).join("")}</ul></div>
+        <div><div class="small" style="color:var(--bad);font-weight:700;margin-bottom:4px">COMPETITOR'S ADVANTAGE</div><ul class="tight small">${m.competitor_advantage.map(a=>`<li>${esc(a)}</li>`).join("")}</ul></div>
+      </div>
+      ${m.to_test&&m.to_test.length?`<div class="small muted" style="margin-top:10px">* Will be tested: ${m.to_test.map(esc).join("; ")}</div>`:""}
+    </div>`).join("")}
+  </div>`;
+}
+sections[2].querySelectorAll("#batChips .chip").forEach(c=>c.onclick=()=>renderBattle(Number(c.dataset.i)));
+renderBattle(0);
+
+/* ---------- Model Compare ---------- */
+const pkey = p => p.brand+"|"+p.name;
+const PRESETS = {
+  "Flagship battle":["Cardo|Packtalk Pro","Cardo|Packtalk Edge","Sena|60S EVO","Reso|Reso Pilot Pro","ASMAX|F1s"],
+  "Mid-range battle":["Cardo|Packtalk Neo","Cardo|Freecom 4x","Sena|50S","Sena|Spider RT1 / ST1","Reso|Reso Pilot Neo","ASMAX|F1 Pro"],
+  "Entry battle":["Cardo|Spirit","Cardo|Spirit HD","Sena|5S","Sena|5R LITE","ASMAX|S1"],
+  "Smart helmets":["Cardo|Beyond GTS (smart helmet)","Cardo|Venture (integrated MX helmet)"]
+};
+let selModels=new Set(PRESETS["Flagship battle"]);
+sections[3].innerHTML=`
+  <div class="chips" id="presetChips">${Object.keys(PRESETS).map((k,i)=>`<button class="chip${i===0?" on":""}" data-p="${k}">${k}</button>`).join("")}<span class="small muted">or pick models below (max 7)</span></div>
+  <div class="card" style="margin-bottom:16px"><div id="modelPicker" style="display:flex;flex-direction:column;gap:6px">
+    ${BRANDS.map(b=>`<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><span class="brandtag small" style="color:${BCOLOR[b.competitor]};width:56px;flex:none">${b.competitor}</span>
+      ${b.products.map(p=>`<button class="chip small mchip" style="padding:3px 10px;font-size:12px" data-k="${esc(pkey({brand:b.competitor,...p}))}">${esc(p.name.replace(/\s*\(.*\)/,""))}</button>`).join("")}</div>`).join("")}
+  </div></div>
+  <div class="card" style="padding:0;overflow-x:auto" id="cmpWrap"></div>`;
+function renderCompare(){
+  const models=PRODUCTS.filter(p=>selModels.has(pkey(p)));
+  sections[3].querySelectorAll(".mchip").forEach(c=>{const on=selModels.has(c.dataset.k);c.classList.toggle("on",on);c.style.color=on?BCOLOR[c.dataset.k.split("|")[0]]:"";});
+  const wrap=sections[3].querySelector("#cmpWrap");
+  if(!models.length){wrap.innerHTML=`<div style="padding:24px" class="muted">Select at least one model above.</div>`;return}
+  const eff=p=>p.street_price_usd??p.msrp_usd;
+  const best={priceMin:Math.min(...models.map(eff).filter(v=>v!=null)),
+              range:Math.max(...models.map(p=>p.range_km??-1)),
+              riders:Math.max(...models.map(p=>p.max_riders??-1)),
+              talk:Math.max(...models.map(p=>p.talk_time_hours??-1))};
+  const hl=(v,b)=>v!=null&&v===b?` style="color:var(--ok);font-weight:800"`:"";
+  const rows=[
+    ["Brand",p=>`<span class="brandtag" style="color:${BCOLOR[p.brand]}">${p.brand}</span>`],
+    ["Tier",p=>esc(p.tier||"—")],
+    ["MSRP",p=>`<span class="price">${fmt$(p.msrp_usd)}</span>`],
+    ["Street / effective",p=>`<span class="price"${hl(eff(p),best.priceMin)}>${fmt$(eff(p))}</span>`],
+    ["Intercom tech",p=>`<span class="small">${esc(p.intercom_tech||"—")}</span>`],
+    ["Range (km, claimed)",p=>`<span${hl(p.range_km,best.range)}>${p.range_km??"—"}</span>`],
+    ["Max riders",p=>`<span${hl(p.max_riders,best.riders)}>${p.max_riders??"—"}</span>`],
+    ["Talk time (h)",p=>`<span${hl(p.talk_time_hours,best.talk)}>${p.talk_time_hours??"—"}</span>`],
+    ["Waterproof",p=>esc(p.waterproof||"—")],
+    ["Audio",p=>`<span class="small">${esc(p.audio||"—")}</span>`],
+    ["Weight",p=>{const w=p.dimensions?.form_factor?.weight_g;return w?w+" g":"—"}],
+    ["Controls",p=>`<span class="small">${esc(p.dimensions?.ease_of_use?.controls||"—")}</span>`],
+    ["Mount",p=>`<span class="small">${esc(p.dimensions?.ease_of_use?.mount||"—")}</span>`],
+    ["Speaker size",p=>{const s=p.dimensions?.sound?.speaker_size_mm;return s?s+" mm":"—"}],
+    ["Service reputation",p=>`<span class="small muted">${esc(p.dimensions?.quality?.service_reputation||"—")}</span>`],
+    ["Released",p=>p.release_year??"—"],
+    ["Key features",p=>`<ul class="tight small" style="text-align:left">${(p.features||[]).slice(0,8).map(f=>`<li>${esc(f.length>90?f.slice(0,90)+"…":f)}</li>`).join("")}</ul>`],
+    ["Notes",p=>`<span class="small muted">${esc((p.notes||"").slice(0,220))}</span>`]
+  ];
+  wrap.innerHTML=`<table><thead><tr><th style="min-width:130px">Spec</th>${models.map(p=>`<th style="color:${BCOLOR[p.brand]};min-width:170px">${esc(p.name)}</th>`).join("")}</tr></thead>
+  <tbody>${rows.map(([label,fn])=>`<tr><td><b class="small">${label}</b></td>${models.map(p=>`<td>${fn(p)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+}
+sections[3].querySelectorAll("#presetChips .chip").forEach(c=>c.onclick=()=>{
+  sections[3].querySelectorAll("#presetChips .chip").forEach(x=>x.classList.remove("on"));c.classList.add("on");
+  selModels=new Set(PRESETS[c.dataset.p]);renderCompare();
+});
+sections[3].querySelectorAll(".mchip").forEach(c=>c.onclick=()=>{
+  const k=c.dataset.k;
+  if(selModels.has(k))selModels.delete(k);else{if(selModels.size>=7)return;selModels.add(k)}
+  sections[3].querySelectorAll("#presetChips .chip").forEach(x=>x.classList.remove("on"));
+  renderCompare();
+});
+renderCompare();
+
+/* ---------- Pricing chart ---------- */
+sections[4].innerHTML=`
+  <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button></div>
+  <div class="card"><div id="chart"></div>
+  <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry</span><span>hover for details</span></div></div>
+  <h2>Price ladder — cheapest helmet-mount mesh unit per brand</h2>
+  <div class="grid g4">${BRANDS.map(b=>{const m=b.products.filter(p=>/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")&&(p.street_price_usd??p.msrp_usd)!=null&&!/helmet|edgephones|headset|headphone|accessor/i.test(p.name));if(!m.length)return "";const c=m.reduce((a,p)=>((p.street_price_usd??p.msrp_usd)<(a.street_price_usd??a.msrp_usd)?p:a));return `<div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3><div style="font-size:26px;font-weight:800" class="price">${fmt$(c.street_price_usd??c.msrp_usd)}</div><div class="small muted">${esc(c.name)} — cheapest mesh-capable unit</div></div>`}).join("")}</div>`;
+let inclHelmets=false;
+sections[4].querySelector("#helmChip").onclick=e=>{inclHelmets=!inclHelmets;e.target.classList.toggle("on",inclHelmets);drawChart()};
+const tt=document.getElementById("tt");
+function drawChart(){
+  const pts=PRODUCTS.filter(p=>p.eff!=null&&(inclHelmets||!p.isHelmet));
+  const W=1100,H=380,L=60,R=20,T=20,B=40,maxP=Math.max(...pts.map(p=>p.eff))*1.08;
+  const bx={};BRANDS.forEach((b,i)=>bx[b.competitor]=L+(W-L-R)*(i+0.5)/BRANDS.length);
+  const y=v=>T+(H-T-B)*(1-v/maxP);
+  let s=`<svg viewBox="0 0 ${W} ${H}" style="width:100%">`;
+  for(let g=0;g<=5;g++){const v=maxP*g/5;s+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="#232c3a"/><text x="${L-8}" y="${y(v)+4}" text-anchor="end">$${Math.round(v)}</text>`}
+  BRANDS.forEach(b=>{s+=`<text x="${bx[b.competitor]}" y="${H-12}" text-anchor="middle" style="font-size:13px;font-weight:700;fill:${BHEX[b.competitor]}">${b.competitor}</text>`});
+  const byBrand={};pts.forEach(p=>{(byBrand[p.brand]=byBrand[p.brand]||[]).push(p)});
+  Object.entries(byBrand).forEach(([br,ps])=>{
+    ps.sort((a,b)=>a.eff-b.eff);
+    ps.forEach((p,i)=>{
+      const jitter=((i%3)-1)*22;
+      const cx=bx[br]+jitter,cy=y(p.eff),c=BHEX[br];
+      const shape=p.tier==="flagship"?`<path d="M${cx} ${cy-7} L${cx+7} ${cy+6} L${cx-7} ${cy+6} Z" fill="${c}"/>`:p.tier==="mid"?`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" fill="${c}"/>`:`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}"/>`;
+      s+=`<g class="pt" data-n="${esc(p.name)}" data-b="${br}" data-p="${p.eff}" data-m="${p.msrp_usd??""}" data-t="${p.tier}" style="cursor:pointer">${shape}</g>`;
+    });
+  });
+  s+="</svg>";
+  const el=sections[4].querySelector("#chart");el.innerHTML=s;
+  el.querySelectorAll(".pt").forEach(g=>{
+    g.onmousemove=e=>{tt.style.display="block";tt.style.left=(e.clientX+14)+"px";tt.style.top=(e.clientY+10)+"px";
+      tt.innerHTML=`<b style="color:${BHEX[g.dataset.b]}">${g.dataset.b}</b> ${g.dataset.n}<br>Effective: <b>$${g.dataset.p}</b>${g.dataset.m?` · MSRP $${g.dataset.m}`:""} · ${g.dataset.t}`};
+    g.onmouseleave=()=>tt.style.display="none";
+  });
+}
+drawChart();
+
+/* ---------- Gap analysis ---------- */
+sections[5].innerHTML=`
+  <h2>Pricing gaps by segment</h2>
+  ${GAP.pricing_gaps.map(g=>`
+  <div class="card gapseg">
+    <h3>${esc(g.segment)} <span class="badge b-${g.severity}">${g.severity}</span></h3>
+    <div class="small" style="margin-bottom:6px"><b style="color:var(--cardo)">Cardo:</b> ${esc(g.cardo)}</div>
+    <ul class="comp">${g.competitors.map(c=>`<li>${dot(c.brand)} <b style="color:${BCOLOR[c.brand]}">${c.brand}</b> — ${esc(c.product)} <b class="price">${esc(c.price)}</b><br><span class="muted small">${esc(c.note)}</span></li>`).join("")}</ul>
+    <div class="small" style="margin-top:10px">${esc(g.gap)}</div>
+    <div class="small muted" style="margin-top:6px"><b>Insight:</b> ${esc(g.insight)}</div>
+  </div>`).join("")}
+  <h2>Feature gaps — Cardo vs the field</h2>
+  <div class="card" style="padding:0;overflow-x:auto"><table><thead><tr><th>Feature</th><th>Cardo status</th><th>Cardo</th><th>Competition</th><th>Severity</th><th>Recommendation</th></tr></thead>
+  <tbody>${GAP.feature_gaps.map(f=>`<tr>
+    <td><b>${esc(f.feature)}</b></td>
+    <td><span class="badge b-${f.cardo_status.replace(" ","-")}">${f.cardo_status}</span></td>
+    <td class="small" style="min-width:200px">${esc(f.cardo_note)}</td>
+    <td class="small" style="min-width:220px">${esc(f.competitor_note)}</td>
+    <td><span class="badge b-${f.severity}">${f.severity}</span></td>
+    <td class="small" style="min-width:200px">${esc(f.recommendation)}</td></tr>`).join("")}
+  </tbody></table></div>
+  <h2>Where Cardo leads</h2>
+  <div class="grid g4">${GAP.advantages.map(a=>`<div class="card"><h3 style="color:var(--ok)">✓ ${esc(a.title)}</h3><div class="small">${esc(a.detail)}</div></div>`).join("")}</div>
+  <h2>Recommended actions</h2>
+  <div class="card reclist">${GAP.recommendations.map(r=>`<div class="rec"><div class="n">${r.priority}</div><div><b>${esc(r.title)}</b><div class="small muted">${esc(r.detail)}</div></div></div>`).join("")}</div>`;
+
+/* ---------- Social & Press: dashboard + media feed ---------- */
+const num = v => v==null?"n/a":(v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?Math.round(v/1e3)+"K":v);
+const dom = u => {try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return null}};
+const dkey = d => {if(!d)return 0;const m=String(d).match(/(20\d\d)(?:-(\d\d?))?(?:-(\d\d?))?/);return m?(+m[1])*10000+(+(m[2]||0))*100+(+(m[3]||0)):0};
+const TCOL={Press:["#1a2634","#79b8ff"],News:["#3b2300","#f0a83a"],Social:["#272040","#b79df5"]};
+let FEED=[];
+BRANDS.forEach(b=>{
+  const br=b.competitor,s=b.social_media||{};
+  (b.press_coverage?.reviews||[]).forEach(r=>FEED.push({brand:br,type:"Press",date:r.date,source:r.outlet||"Unknown outlet",domain:dom(r.url),title:(r.product?r.product+" — ":"")+(r.verdict||""),url:r.url}));
+  (b.recent_news||[]).forEach(n=>FEED.push({brand:br,type:"News",date:n.date,source:n.source||"Industry news",domain:dom(n.url),title:n.headline,url:n.url}));
+  [["Instagram",s.instagram,"followers"],["Facebook",s.facebook,"followers"],["TikTok",s.tiktok,"followers"],["YouTube",s.youtube,"subscribers"]].forEach(([plat,o,k])=>{
+    const handle=o&&(o.handle||o.page||o.channel);
+    if(handle)FEED.push({brand:br,type:"Social",date:"2026-07",source:plat,domain:dom(o.url),title:`${handle}${o[k]!=null?" — "+num(o[k])+" "+k:""}${o.notes?". "+o.notes.slice(0,200):""}`,url:o.url});
+  });
+  if(s.reddit?.sentiment)FEED.push({brand:br,type:"Social",date:"2026-07",source:"Reddit",domain:dom(s.reddit.url),title:s.reddit.sentiment.slice(0,240),url:s.reddit.url});
+});
+FEED.forEach(f=>{f.k=dkey(f.date)-(f.type==="Social"?100:0)});
+FEED.sort((a,b)=>b.k-a.k);
+let mfBrands=new Set(BRANDS.map(b=>b.competitor)),mfType="All",mfQ="";
+sections[6].innerHTML=`
+  <h2>Media dashboard</h2>
+  <div class="grid g4" style="margin-bottom:8px">
+  ${BRANDS.map(b=>{const s=b.social_media||{},p=b.press_coverage||{};
+    const reach=[s.instagram?.followers,s.facebook?.followers,s.tiktok?.followers,s.youtube?.subscribers].filter(v=>v!=null).reduce((a,v)=>a+v,0);
+    return `
+    <div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3>
+      <div style="font-size:24px;font-weight:800">${reach?num(reach):"n/a"}<span class="small muted" style="font-weight:400"> tracked followers</span></div>
+      <div class="kv"><span>Instagram</span><b>${num(s.instagram?.followers)}</b></div>
+      <div class="kv"><span>Facebook</span><b>${num(s.facebook?.followers)}</b></div>
+      <div class="kv"><span>TikTok</span><b>${num(s.tiktok?.followers)}</b></div>
+      <div class="kv"><span>YouTube</span><b>${num(s.youtube?.subscribers)}</b></div>
+      <div class="kv"><span>Press reviews tracked</span><b>${(p.reviews||[]).length}</b></div>
+      <div class="kv"><span>Awards</span><b>${(p.awards||[]).length}</b></div>
+      <div class="small muted" style="margin-top:8px"><b>Press tone:</b> ${esc((p.overall_tone||"—").split(/[.;—]/)[0].slice(0,90))}</div>
+      <div class="small muted" style="margin-top:4px"><b>Reddit:</b> ${esc((s.reddit?.sentiment||"—").split(/[.;—]/)[0].slice(0,90))}</div>
+    </div>`}).join("")}
+  </div>
+  <h2>Latest media feed <span class="small muted" id="mfCount" style="font-weight:400"></span></h2>
+  <div class="chips">
+    ${BRANDS.map(b=>`<button class="chip on" data-mb="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+    ${["All","Press","News","Social"].map(t=>`<button class="chip${t==="All"?" on":""}" data-mt="${t}">${t}</button>`).join("")}
+    <input type="search" id="mfQ" placeholder="Filter by source, outlet, website, keyword…" style="flex:1;min-width:220px">
+  </div>
+  <div class="card" style="padding:0" id="mfList"></div>`;
+function renderFeed(){
+  const rows=FEED.filter(f=>mfBrands.has(f.brand)&&(mfType==="All"||f.type===mfType)&&(!mfQ||[f.source,f.domain,f.title,f.brand].join(" ").toLowerCase().includes(mfQ)));
+  sections[6].querySelector("#mfCount").textContent=`· ${rows.length} items`;
+  sections[6].querySelector("#mfList").innerHTML=rows.map(f=>{const[bg,fg]=TCOL[f.type];return `
+    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
+      <span class="small muted" style="width:64px;flex:none;font-variant-numeric:tabular-nums">${esc(f.date||"—")}</span>
+      <span class="brandtag small" style="color:${BCOLOR[f.brand]};width:52px;flex:none">${f.brand}</span>
+      <span class="badge" style="background:${bg};color:${fg};flex:none">${f.type}</span>
+      <span style="flex:none;font-weight:700;max-width:210px" class="small">${f.url?`<a href="${esc(f.url)}" target="_blank">${esc(f.source)}</a>`:esc(f.source)}${f.domain?`<span class="muted" style="font-weight:400"> · ${esc(f.domain)}</span>`:""}</span>
+      <span class="small" style="flex:1;min-width:260px">${esc(f.title.slice(0,320))}${f.url?` <a href="${esc(f.url)}" target="_blank">↗</a>`:""}</span>
+    </div>`}).join("")||`<div style="padding:24px" class="muted">No media items match the filters.</div>`;
+}
+sections[6].querySelectorAll(".chip[data-mb]").forEach(c=>c.onclick=()=>{const b=c.dataset.mb;c.classList.toggle("on");c.classList.contains("on")?mfBrands.add(b):mfBrands.delete(b);renderFeed()});
+sections[6].querySelectorAll(".chip[data-mt]").forEach(c=>c.onclick=()=>{mfType=c.dataset.mt;sections[6].querySelectorAll(".chip[data-mt]").forEach(x=>x.classList.toggle("on",x===c));renderFeed()});
+sections[6].querySelector("#mfQ").oninput=e=>{mfQ=e.target.value.toLowerCase();renderFeed()};
+renderFeed();
+
+show(0);
+</script>
+</body>
+</html>
