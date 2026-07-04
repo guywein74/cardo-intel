@@ -145,66 +145,67 @@
     {
       "name": "60X",
       "tier": "flagship",
-      "msrp_usd": null,
-      "street_price_usd": null,
-      "intercom_tech": "Mesh 3.0 + Bluetooth Intercom + Wave support",
-      "range_km": null,
-      "max_riders": null,
-      "audio": null,
-      "talk_time_hours": null,
+      "msrp_usd": 459,
+      "street_price_usd": 459,
+      "intercom_tech": "Mesh Intercom 3.0 & 2.0 + Bluetooth 5.3 + Wave cellular intercom",
+      "range_km": 2,
+      "max_riders": 24,
+      "audio": "Sound by Bose, 40mm speakers, AI-based noise cancellation",
+      "talk_time_hours": 29,
       "waterproof": "IPX7",
       "features": [
-        "3-way joystick replacing scroll wheel",
-        "Dedicated Wave button (customizable via app)",
-        "AI-based noise reduction (AINR)",
-        "Enhanced voice commands",
-        "Wireless charging",
-        "Automatic on/off",
-        "Magnetic mount with Pogo pins",
-        "Removable faceplates"
+        "Glove-friendly joystick with customizable button mapping (replaces scroll wheel)",
+        "Magnetic mount (horizontal, slim design) with Qi wireless charging",
+        "Automatic power on/off",
+        "RideGlow illumination",
+        "Two universal helmet clamp kits included",
+        "AI-based noise cancellation",
+        "USB-C charging (1.5h full charge)",
+        "Limited lifetime warranty",
+        "Operating range -20C to 55C"
       ],
       "release_year": 2026,
-      "notes": "Unveiled at EICMA Nov 2025; expected Q2 2026. Pricing not yet announced. Part of full six-product range overhaul.",
+      "notes": "Officially launched July 2, 2026 (previewed at EICMA Nov 2025 and AIMExpo Jan 2026). US store lists $879 for the dual pack (confirmed on store-us.sena.com, though listed out of stock at check time); single-pack price inferred at $459 from matching UK/EU ratio (GBP 359 single/669 dual, EUR 429/799) and parity with the 60S EVO's US single/dual pricing - treat single figure as high-confidence estimate pending direct confirmation. Bluetooth-only talk time 29h / Mesh 19h per sena.com spec page. Weight 58g.",
       "dimensions": {
         "form_factor": {
-          "weight_g": null,
+          "weight_g": 58,
           "dimensions_mm": "",
           "profile": "slim",
-          "aesthetics": "Smaller than the 60S per MCN's EICMA first look, with removable/customizable faceplates"
+          "aesthetics": "Slimmer, more discreet horizontal module vs 60S/60S EVO per Sena's official framing; magnetic mount replaces clamp-first design"
         },
         "ease_of_use": {
-          "controls": "3-way joystick (replaces scroll wheel; pitched as easier with gloves) + dedicated customizable Wave button",
-          "mount": "magnetic mount with Pogo-pin connector",
-          "cradle": "magnetic Pogo-pin cradle",
-          "voice_commands": "Enhanced voice commands (per Sena announcement)",
+          "controls": "Glove-friendly joystick + customizable button mapping (replaces jog dial)",
+          "mount": "magnetic horizontal mount with Qi wireless charging",
+          "cradle": "magnetic mount",
+          "voice_commands": "Voice commands (per Sena spec page, detail unconfirmed)",
           "screen": "no",
-          "ota": "expected via Sena Motorcycles app (unconfirmed)",
+          "ota": "via Sena Motorcycles app",
           "app": "Sena Motorcycles app"
         },
         "sound": {
-          "speaker_size_mm": null,
-          "speaker_brand": "",
-          "hd": null,
-          "quality_verdict": "Not yet reviewed; audio partner not announced"
+          "speaker_size_mm": 40,
+          "speaker_brand": "Sound by Bose",
+          "hd": true,
+          "quality_verdict": "Too new for reviewer consensus (launched July 2026); Bose partnership carried over from 60S EVO"
         },
         "intercom": {
-          "type": "Mesh 3.0 + Bluetooth + Wave support",
-          "range_km": null,
-          "max_riders": null,
+          "type": "Mesh 3.0 & 2.0 + Bluetooth 5.3 + Wave cellular",
+          "range_km": 2,
+          "max_riders": 24,
           "auto_reconnect": true,
           "wideband_audio": null,
-          "cross_brand": "expected Universal Intercom (unconfirmed)"
+          "cross_brand": "Universal Intercom (HFP) expected, consistent with 60-series"
         },
         "quality": {
-          "build": "Pre-release - adds wireless charging and automatic on/off",
-          "ip_rating": "IPX7 (claimed)",
-          "service_reputation": "n/a - not shipped",
+          "build": "New flagship shell with magnetic mount and wireless charging; no long-term verdicts yet",
+          "ip_rating": "IPX7",
+          "service_reputation": "n/a - just launched",
           "warranty_years": null
         },
         "price": {
-          "msrp_usd": null,
-          "street_usd": null,
-          "segment_position": "Flagship expansion above/alongside 60S EVO; pricing TBA at Q2 2026 launch"
+          "msrp_usd": 459,
+          "street_usd": 459,
+          "segment_position": "Replaces/sits alongside 60S EVO at the same price point, adding joystick controls and wireless charging"
         }
       }
     },
@@ -825,6 +826,18 @@
       "headline": "Pricing moves: ~20% discounts across older line on Sena US store (60S $351, 5S $135) as the 2026 generation rolls out; further legacy-model discounts expected",
       "source": "Sena store",
       "url": "https://store-us.sena.com/"
+    },
+    {
+      "date": "2026-03-03",
+      "headline": "French stunt rider Sarah Lezito signs as a Sena-sponsored athlete for the 2026 stunt season, running the 60S intercom during shows",
+      "source": "Visordown",
+      "url": "https://www.visordown.com/news/sarah-lezito-links-sena-2026-stunt-season"
+    },
+    {
+      "date": "2026-07-02",
+      "headline": "60X flagship officially launched: first Sena intercom with joystick controls and customizable button mapping, Sound by Bose, Mesh 3.0/Wave, Qi wireless charging, and a limited lifetime warranty; GBP 359/669 single/dual, EUR 429/799, US dual pack $879",
+      "source": "Sena newsroom / Superbike News",
+      "url": "https://www.sena.com/fr/stories/news/sena-introduces-the-technology-packed-60x-with-sound-by-bose-technology-and-a-sleek-modern-profile/"
     }
   ],
   "social_media": {
@@ -1097,6 +1110,11 @@
     "https://pmaxmotor.com/sena-vs-cardo/",
     "https://www.bikenrider.com/reviews/sena-vs-cardo-vs-uclear-we-paired-rode-and-argued-for-30-days-to-find-the-best-motorcycle-intercom-of-2026",
     "https://www.revzilla.com/common-tread/cardo-software-update-unlocks-bluetooth-connectivity-with-sena-devices",
-    "https://www.cyclegear.com/sena-bluetooth"
+    "https://www.cyclegear.com/sena-bluetooth",
+    "https://superbike-news.co.uk/sena-60x-the-most-advanced-intercom-ever-designed-by-sena/",
+    "https://www.sena.com/fr/stories/news/sena-introduces-the-technology-packed-60x-with-sound-by-bose-technology-and-a-sleek-modern-profile/",
+    "https://store-us.sena.com/products/60x",
+    "https://www.sena.com/product/60x/",
+    "https://www.visordown.com/news/sarah-lezito-links-sena-2026-stunt-season"
   ]
 }

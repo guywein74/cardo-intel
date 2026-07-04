@@ -208,7 +208,7 @@
       "name": "F1 Pro",
       "tier": "mid",
       "msrp_usd": null,
-      "street_price_usd": 205,
+      "street_price_usd": 171,
       "intercom_tech": "Mesh + Bluetooth 5.3 dual-chip, octa-core",
       "range_km": 3,
       "max_riders": 10,
@@ -223,7 +223,7 @@
         "Universal helmet compatibility"
       ],
       "release_year": 2025,
-      "notes": "Street price derived from SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379) and RM 899 (~USD 190) in Malaysia. Not yet on the US store. Marketing cites '3-15 km' chained mesh.",
+      "notes": "Street price updated Jul 2026 from Jerung Wheels (Malaysia): RM 699 sale price (down from RM 899 list, ~USD 171 at MYR/USD ~4.07). Also seen at SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379). Not yet on the US store. Marketing cites '3-15 km' chained mesh.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -262,8 +262,8 @@
         },
         "price": {
           "msrp_usd": null,
-          "street_usd": 205,
-          "segment_position": "ASMAX's ~$200 premium tier \u2014 still roughly half a Cardo Packtalk Edge / Sena 60S"
+          "street_usd": 171,
+          "segment_position": "ASMAX's ~$170-200 premium tier \u2014 still roughly half a Cardo Packtalk Edge / Sena 60S"
         }
       }
     },
@@ -271,7 +271,7 @@
       "name": "F1 Pro Max",
       "tier": "flagship",
       "msrp_usd": null,
-      "street_price_usd": null,
+      "street_price_usd": 269,
       "intercom_tech": "Mesh + Bluetooth 5.3 dual-chip",
       "range_km": 3,
       "max_riders": 10,
@@ -284,7 +284,7 @@
         "App + OTA"
       ],
       "release_year": 2025,
-      "notes": "Unveiled at EICMA 2025 (Nov 2025) as top of lineup; sold via AliExpress and Asia dealers; no confirmed US MSRP as of Jul 2026.",
+      "notes": "Unveiled at EICMA 2025 (Nov 2025) as top of lineup; sold via AliExpress and Asia dealers; no confirmed US MSRP as of Jul 2026. First confirmed street price Jul 2026: RM 1,099 at mytakongracing.com (Malaysia), ~USD 269 at MYR/USD ~4.07.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -323,8 +323,8 @@
         },
         "price": {
           "msrp_usd": null,
-          "street_usd": null,
-          "segment_position": "Range-topping flagship; USD pricing TBD \u2014 expected to stay well under Cardo/Sena flagship money"
+          "street_usd": 269,
+          "segment_position": "Range-topping flagship at ~$269 street (Malaysia dealer, Jul 2026) \u2014 still well under Cardo/Sena flagship money"
         }
       }
     },
@@ -741,6 +741,13 @@
         "url": "https://genxrider.com/motouk-reviews-the-asmax-helmet-intercom-system/"
       },
       {
+        "outlet": "BismillahOffers",
+        "date": "2026-04-20",
+        "product": "S1",
+        "verdict": "'Worth it for budget-focused riders' - unusually strong value for mesh communication, app control, voice commands and music sharing; notes limitations in design refinement and long-term durability vs premium alternatives",
+        "url": "https://www.bismillahoffers.com/asmax-s1-review/"
+      },
+      {
         "outlet": "PHToll (Philippines)",
         "date": "2025-06-01",
         "product": "S1",
@@ -812,6 +819,9 @@
     "https://www.facebook.com/ASMAXWorld/",
     "https://www.youtube.com/@ASMAXWorld",
     "https://genxrider.com/motouk-reviews-the-asmax-helmet-intercom-system/",
+    "https://www.bismillahoffers.com/asmax-s1-review/",
+    "https://jerungwheels.com/product/asmax-f1-pro/",
+    "https://www.mytakongracing.com/products/asmax-registered-f1-pro-max-intercom-set",
     "https://gomotorbikes.com/blog/reviews/asmax-s1-intercom-review/",
     "https://motomelody.com/helmet-intercom-controls-best-guides-in-2025/",
     "https://www.tiktok.com/discover/asmax-vs-cardo",

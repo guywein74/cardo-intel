@@ -522,6 +522,133 @@
       }
     },
     {
+      "name": "Packtalk-S",
+      "tier": "flagship",
+      "msrp_usd": 419.95,
+      "street_price_usd": null,
+      "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
+      "range_km": 1.6,
+      "max_riders": 15,
+      "audio": "40mm Sound by JBL speakers",
+      "talk_time_hours": 13,
+      "waterproof": "IP67",
+      "features": [
+        "Purpose-built integration for SHOEI Gen 3 helmets (GT-Air 3, NEOTEC 3, J-Cruise 3)",
+        "Natural Voice Operation",
+        "OTA updates via Cardo Connect app",
+        "Universal Bluetooth intercom bridging",
+        "Fast charge (20 min = 2 h talk)",
+        "Preserves helmet aerodynamics/comfort/safety cert vs bolt-on units"
+      ],
+      "release_year": 2026,
+      "notes": "Launched April 2, 2026 alongside 4X-S; $419.95 US / EUR409.95 / $379.95 RoW. Full Packtalk-line DMC Gen2 mesh performance in a helmet-specific integrated module for Shoei Gen 3 helmets. 3-year warranty.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "integrated",
+          "aesthetics": "Purpose-molded module that sits flush in SHOEI Gen 3 shell cutouts, no external clamp or antenna"
+        },
+        "ease_of_use": {
+          "controls": "Helmet-integrated button interface + Natural Voice Operation",
+          "mount": "Direct helmet integration (SHOEI Gen 3 adapter/cutout), no clamp needed",
+          "cradle": "None - fits into helmet's factory comm cavity",
+          "voice_commands": "Natural Voice Operation ('Hey Cardo') + assistant passthrough",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app",
+          "app": "Cardo Connect + Cardo Ride"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": true,
+          "quality_verdict": "Same 40mm JBL audio as Packtalk Edge/Neo, tuned for the Shoei shell acoustics"
+        },
+        "intercom": {
+          "type": "DMC Gen2 mesh + Bluetooth 5.2",
+          "range_km": 1.6,
+          "max_riders": 15,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Universal Bluetooth bridging to other brands"
+        },
+        "quality": {
+          "build": "Integrated design preserves Shoei's own aerodynamics/comfort/safety certification per Cardo",
+          "ip_rating": "IP67",
+          "service_reputation": "Same Cardo support channel; 3-yr warranty",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": 419.95,
+          "street_usd": null,
+          "segment_position": "Premium OEM-integration tier, priced near Packtalk Edge"
+        }
+      }
+    },
+    {
+      "name": "4X-S",
+      "tier": "mid",
+      "msrp_usd": 299.95,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth 5.2 'Live Intercom' (no mesh)",
+      "range_km": 1.2,
+      "max_riders": 4,
+      "audio": "40mm Sound by JBL speakers",
+      "talk_time_hours": 13,
+      "waterproof": "IP65",
+      "features": [
+        "Purpose-built integration for SHOEI Gen 3 helmets (GT-Air 3, NEOTEC 3, J-Cruise 3)",
+        "Natural Voice Operation",
+        "OTA updates via Cardo Connect app",
+        "Universal Bluetooth intercom bridging",
+        "Fast charge (20 min = 2 h talk)"
+      ],
+      "release_year": 2026,
+      "notes": "Launched April 2, 2026 alongside Packtalk-S; $299.95 US / EUR279.95 / $274.95 RoW. Budget-friendly helmet-integrated alternative to Packtalk-S (Bluetooth Live Intercom vs full mesh). 2-year warranty.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "integrated",
+          "aesthetics": "Purpose-molded module for SHOEI Gen 3 shell cutouts, no external clamp or antenna"
+        },
+        "ease_of_use": {
+          "controls": "Helmet-integrated button interface + Natural Voice Operation",
+          "mount": "Direct helmet integration (SHOEI Gen 3 adapter/cutout), no clamp needed",
+          "cradle": "None - fits into helmet's factory comm cavity",
+          "voice_commands": "Natural Voice Operation ('Hey Cardo')",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": null,
+          "quality_verdict": "Same 40mm JBL speakers as Packtalk-S at a lower intercom tier"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.2 'Live Intercom' (no mesh)",
+          "range_km": 1.2,
+          "max_riders": 4,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": "Universal Bluetooth bridging to other brands"
+        },
+        "quality": {
+          "build": "Integrated design preserves Shoei's own aerodynamics/comfort/safety certification per Cardo",
+          "ip_rating": "IP65",
+          "service_reputation": "Same Cardo support channel; 2-yr warranty",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 299.95,
+          "street_usd": null,
+          "segment_position": "Budget helmet-integrated tier, priced near Freecom 4x"
+        }
+      }
+    },
+    {
       "name": "Packtalk Edgephones",
       "tier": "mid",
       "msrp_usd": 159.95,
@@ -660,6 +787,24 @@
       "headline": "Cardo Venture announced - world's first integrated mesh motocross/off-road helmet ($799), built on Leatt Moto 8.5 platform",
       "source": "Powersports Business / MCN",
       "url": "https://powersportsbusiness.com/top-stories/2026/06/24/cardo-enters-smart-helmet-segment-with-integrated-off-road-lid/"
+    },
+    {
+      "date": "2026-04-02",
+      "headline": "Cardo launches PACKTALK-S ($419.95) and 4X-S ($299.95) integrated intercoms for SHOEI Gen 3 helmets (GT-Air 3, NEOTEC 3, J-Cruise 3)",
+      "source": "Powersports Business",
+      "url": "https://powersportsbusiness.com/news/distributors-aftermarket/2026/04/15/cardo-launches-packtalk-s-and-4x-s-integrated-comm-systems-for-shoei-gen-3-helmets/"
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "Cardo Systems ORV and Tread Lightly! announce partnership to promote responsible off-road/trail recreation and OHV stewardship education",
+      "source": "Powersports Business",
+      "url": "https://powersportsbusiness.com/news/distributors-aftermarket/2026/06/10/cardo-systems-tread-lightly-team-up-to-support-off-road-recreation/"
+    },
+    {
+      "date": "2026-07-01",
+      "headline": "Leatt Corp and Cardo Systems formalize partnership announcement on Cardo Venture helmet with wireless communication system",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/leatt-corp-and-cardo-systems-partner-on-cardo-venture-helmet-with-wireless-communication-system-302815805.html"
     }
   ],
   "social_media": {
@@ -902,6 +1047,20 @@
         "product": "Edge / Pro / Edgephones / Beyond",
         "verdict": "MO Tested Edge review positive; consistently favorable news coverage of every launch",
         "url": "https://www.motorcycle.com/products/mo-tested-cardo-packtalk-edge-review"
+      },
+      {
+        "outlet": "Motorcycle.com",
+        "date": "2026-06-24",
+        "product": "Venture MX helmet",
+        "verdict": "'The beginning of a new category' - positive; praised Leatt Moto 8.5 comfort, integrated 15-rider DMC mesh, serviceable electronics and value vs buying helmet+comms separately; noted added weight (~3lb 2oz) and audio clarity challenges in high-RPM MX noise",
+        "url": "https://www.motorcycle.com/bikes/product/cardo-venture-helmet-review-44666863"
+      },
+      {
+        "outlet": "Powersports Business",
+        "date": "2026-04-15",
+        "product": "Packtalk-S / 4X-S",
+        "verdict": "Launch coverage - positive on filling rider demand for helmet-specific integrated comms; quotes Cardo CMO Dan Emodi on responding to rider feedback",
+        "url": "https://powersportsbusiness.com/news/distributors-aftermarket/2026/04/15/cardo-launches-packtalk-s-and-4x-s-integrated-comm-systems-for-shoei-gen-3-helmets/"
       }
     ],
     "awards": [
@@ -954,6 +1113,14 @@
     "https://www.rideapart.com/news/656493/cardo-packtalk-custom-ppf-packages/",
     "https://www.webbikeworld.com/cardo-packtalk-pro-review/",
     "https://www.advrider.com/cardo-packtalk-pro-another-evolution-in-moto-comms/",
-    "https://motorcyclemojo.com/2025/02/cardo-packtalk-pro-edgeand-neo-communicators/"
+    "https://motorcyclemojo.com/2025/02/cardo-packtalk-pro-edgeand-neo-communicators/",
+    "https://cardosystems.com/products/packtalk-s",
+    "https://cardosystems.com/products/4x-s",
+    "https://powersportsbusiness.com/news/distributors-aftermarket/2026/04/15/cardo-launches-packtalk-s-and-4x-s-integrated-comm-systems-for-shoei-gen-3-helmets/",
+    "https://www.visordown.com/news/cardo-systems-reveals-new-packtalk-s-and-4x-s-shoei-gen-3-helmets",
+    "https://powersportsbusiness.com/news/distributors-aftermarket/2026/06/10/cardo-systems-tread-lightly-team-up-to-support-off-road-recreation/",
+    "https://treadlightly.org/cardo-systems-orv-and-tread-lightly-team-upto-support-responsible-riding/",
+    "https://www.prnewswire.com/news-releases/leatt-corp-and-cardo-systems-partner-on-cardo-venture-helmet-with-wireless-communication-system-302815805.html",
+    "https://www.motorcycle.com/bikes/product/cardo-venture-helmet-review-44666863"
   ]
 }

@@ -5,7 +5,7 @@
     "hq": "Shenzhen, China per Tracxn; registered office listed on resosport.com contact page: Office 5, 8/F, Mega Cube, 8 Wang Kwong, Kowloon Bay, Kowloon, Hong Kong SAR",
     "founded": "2024 (brand launched late 2024; founding team of ex-DJI engineers, concept dates to a fall 2021 ride incident, ~3 years development)",
     "positioning": "Premium-spec mesh communicator at a mid-market price; tagline 'Communication gear built for those who refuse to be out of range'. Explicitly framed by press and dealers as a Cardo Packtalk Pro / Sena 50S rival with DJI engineering pedigree.",
-    "channels": "DTC via resosport.com (USD pricing, 2-day US shipping, 30-day returns); dealer network in Philippines (Motojini, Ridebuy, Alpha Lifestyle Club, Takong Racing, Bandidos Pitstop), Malaysia (MRoute19), UAE (Motofever); eBay listings. No Amazon or RevZilla presence found as of July 2026."
+    "channels": "DTC via resosport.com (USD pricing, 2-day US shipping, 30-day returns); dealer network in Philippines (Motojini, Ridebuy, Alpha Lifestyle Club, Takong Racing, Bandidos Pitstop), Malaysia (MRoute19), UAE (Motofever); eBay listings. No Amazon or RevZilla presence found as of July 2026. NEW (June 2026): Daytona Corporation - one of Japan's largest motorcycle parts manufacturer/wholesalers - has become the official Japan distributor for RESO, launching a 3-model lineup (PILOT PRO/NEO/LITE, Daytona part numbers 66271/66272/66270-class) on daytona.co.jp, Amazon.co.jp, and Webike, with retail JPY pricing (see recent_news). This is Reso's first major-distributor deal in a developed market outside its DTC/SEA-dealer channels."
   },
   "products": [
     {
@@ -273,12 +273,13 @@
     "IP67 on both main models vs typical IP67/IP55-class competitors",
     "Action-camera integration records team intercom audio directly into GoPro/DJI/Insta360 footage — appealing to moto-vloggers",
     "DJI-pedigree engineering narrative and premium build/design credibility; TopGear PH long-term review found speakers subjectively better than Packtalk Bold's JBL units",
-    "Feature-rich Reso Link app: live teammate GPS tracking, route book, remote grouping, OTA updates"
+    "Feature-rich Reso Link app: live teammate GPS tracking, route book, remote grouping, OTA updates",
+    "NEW (June 2026): Landed a major-market distribution win — Daytona, one of Japan's largest motorcycle parts manufacturers/wholesalers, now officially sells RESO PILOT PRO/NEO/LITE in Japan via daytona.co.jp, Amazon.co.jp, and Webike, with launch coverage across multiple Japanese trade and consumer motorcycle outlets"
   ],
   "weaknesses": [
     "Tiny installed base and no cross-brand mesh interoperability — weak choice for mixed-brand group rides (vs Sena Open Mesh ubiquity and Cardo's Open Bluetooth Intercom)",
     "'Unlimited' software mesh depends on cellular data/hotspot — useless in remote areas where long range matters most",
-    "Minimal Western retail footprint: no Amazon/RevZilla; distribution concentrated in Philippines, Malaysia, UAE; US is DTC-only",
+    "Minimal Western (US/EU) retail footprint: no Amazon.com/RevZilla; distribution concentrated in Philippines, Malaysia, UAE; US is DTC-only. (Partially offset in Japan as of June 2026 by the new Daytona distribution deal, though Japan is not a 'Western' market and Daytona's own DT-series intercoms could still compete internally with RESO)",
     "New brand (late 2024) with unproven long-term reliability, unknown funding, and thin service/support network outside SEA",
     "For music fidelity, several reviewers still rank Cardo's JBL-tuned audio ahead; Reso positioned as voice-first",
     "Reports of accidental voice-command triggers during normal conversation (e.g., unintended volume changes)",
@@ -347,6 +348,36 @@
       "headline": "Which Mesh Intercom Is Right for You? Everything I Learned Using 6 Mesh Systems",
       "source": "phtoll.com",
       "url": "https://phtoll.com/gear/which-mesh-intercom-is-right-for-you/"
+    },
+    {
+      "date": "2026-02-25",
+      "headline": "Daytona to unveil world's first dual-channel mesh intercom 'RESO PILOT PRO' with test-ride event at Osaka/Tokyo/Nagoya Motorcycle Shows",
+      "source": "Daytona Corporation (official press release)",
+      "url": "https://prtimes.jp/main/html/rd/p/000000109.000120309.html"
+    },
+    {
+      "date": "2026-06-17",
+      "headline": "Distribution expansion: Daytona launches RESO PILOT PRO/NEO/LITE intercom lineup in Japan (PRO JPY48,400, NEO JPY33,000, LITE JPY18,700); Daytona is one of Japan's largest motorcycle parts wholesalers, marking Reso's first major-distributor deal outside DTC/SEA channels",
+      "source": "Webike Plus",
+      "url": "https://news.webike.net/parts-gears/548948/"
+    },
+    {
+      "date": "2026-06-19",
+      "headline": "Daytona launches new intercom brand 'RESO' in Japan, 3 models including unlimited-range PRO",
+      "source": "Bikebros News",
+      "url": "https://news.bikebros.co.jp/goods/news20260619-01/"
+    },
+    {
+      "date": "2026-06-23",
+      "headline": "Daytona's new RESO intercom draws rider attention: 'thinking about switching', 'wind noise isn't bothersome'",
+      "source": "Response.jp",
+      "url": "https://response.jp/article/2026/06/23/413089.html"
+    },
+    {
+      "date": "2026-06-25",
+      "headline": "Unlimited-range motorcycle intercom overturns convention: Daytona launches new intercom brand 'RESO'",
+      "source": "Motomegane",
+      "url": "https://www.motomegane.com/news-release/pickup-motorcycle/daytona_reso_20260625"
     }
   ],
   "social_media": {
@@ -382,7 +413,7 @@
       "notes": "No official Reso TikTok account linked from the company site or found in search. However, organic/dealer TikTok traction in SEA is significant: PH media account @insidemoto (Pilot Pro unboxing ASMR tagging 'RESO Philippines / RESO Link Ph'), Indonesian helmet retailer @istanahelmetofficial, dedicated TikTok discover pages for 'Reso Pilot Pro', 'Reso Pilot Pro review', and 'Reso Pilot Pro vs ASMAX' comparisons. TikTok chatter also benchmarks Reso against ASMAX, another Chinese challenger brand.",
       "url": "https://www.tiktok.com/search?q=reso+motorcycle+intercom"
     },
-    "summary": "Reso's social footprint is small, young, and SEA-centric. Facebook is the hub (regional pages + owner-run PH community group, ~2.1K followers on the PH page), matching the Philippines-first launch; Instagram (@resoglobal) is active but small; the official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides.",
+    "summary": "Reso's social footprint is small, young, and SEA-centric. Facebook is the hub (regional pages + owner-run PH community group, ~2.1K followers on the PH page), matching the Philippines-first launch; Instagram (@resoglobal) is active but small; the official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides. NEW (June 2026): a fresh wave of organic Japanese social chatter (X/Twitter, motovlog YouTube) followed Daytona's official RESO distribution launch in Japan, with riders discussing switching from existing brands and praising wind-noise handling — the first organic social traction observed in a developed market outside the Philippines.",
     "recent_posts": [
       {
         "date": "2026-06-30",
@@ -455,6 +486,18 @@
         "platform": "Instagram",
         "summary": "Reviewer reel by @gixxer.jesus: 'Reso Pilot Pro Helmet Intercom: Why I'm Switching from Cardo' — conversion-story reel tagging @resoglobal, cites ~$500 price and 15-rider mesh pairing (66 likes, 4 comments).",
         "url": "https://www.instagram.com/reel/DUYhGYZEcVg/"
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "X (Twitter, aggregated)",
+        "summary": "Japanese riders reacting to Daytona's new RESO intercom lineup post comments including 'I'm thinking about switching' and 'wind noise isn't bothersome, that's nice' per Response.jp roundup of social reaction to the Japan launch.",
+        "url": "https://response.jp/article/2026/06/23/413089.html"
+      },
+      {
+        "date": "2026-06-19",
+        "platform": "YouTube",
+        "summary": "Motovlog review 'DAYTONA RESO PILOT PRO' frames it as a domestic-brand price disruptor challenging B+COM and Cardo in Japan, with hands-on verification of claims.",
+        "url": "https://www.youtube.com/watch?v=fTgtkGGYRhA"
       }
     ]
   },
@@ -522,11 +565,32 @@
         "product": "Brand/Pilot Pro",
         "verdict": "'Reso: The Next Level of Motorcycle Communication' — promotional-positive feature",
         "url": "https://lifestyleonwheels.com/reso-the-next-level-of-motorcycle-communication/"
+      },
+      {
+        "outlet": "Webike Plus",
+        "date": "2026-06-17",
+        "product": "Pilot Pro/Neo/Lite (Daytona Japan launch)",
+        "verdict": "News/launch coverage: 'unlimited communication distance' PRO launches at JPY48,400 with NEO/LITE variants; positive, spec-forward framing of Daytona's new RESO lineup",
+        "url": "https://news.webike.net/parts-gears/548948/"
+      },
+      {
+        "outlet": "Dirtbikeplus",
+        "date": "2026-06-19",
+        "product": "Pilot Pro (Daytona/Japan unit)",
+        "verdict": "Unboxing and installation hands-on; positive first impressions of build quality and mounting",
+        "url": "https://www.dirtbikeplus.jp/blog/reso_pilot_pro"
+      },
+      {
+        "outlet": "Response.jp",
+        "date": "2026-06-23",
+        "product": "Pilot Pro/Neo/Lite (Daytona Japan launch)",
+        "verdict": "Aggregates rider social-media reaction to the Japan launch: positive comments on wind-noise handling and several riders considering switching from existing intercoms",
+        "url": "https://response.jp/article/2026/06/23/413089.html"
       }
     ],
     "awards": [],
-    "overall_tone": "Enthusiastic in Philippine/SEA moto media, where Reso is framed as a legitimate 'Cardo killer' value disruptor with DJI pedigree; effectively invisible in major Western motorcycle press — no reviews or news found from MCN, Cycle World, RideApart, webBikeWorld, Bennetts BikeSocial, RevZilla Common Tread, or Motorcyclist as of July 2026",
-    "summary": "All substantive coverage (2025-2026) originates from Philippine outlets (TopGear PH, Zigwheels PH, MotoPinas, Ridebuy) plus niche English-language gear blogs (phtoll, MotoMelody) and Spanish-language YouTube. Verdicts are consistently positive on value, noise reduction, voice control, and battery; consistent caveats are the small installed base and cellular-dependent soft mesh. No awards found. The complete absence of tier-1 Western press coverage confirms Reso remains a regional threat to Cardo for now, but the uniformly favorable review tone means Western press pickup could accelerate credibility quickly."
+    "overall_tone": "Enthusiastic in Philippine/SEA moto media, where Reso is framed as a legitimate 'Cardo killer' value disruptor with DJI pedigree; now also gaining a genuinely enthusiastic wave of Japanese trade/consumer press following Daytona's June 2026 distribution launch (Webike, Bikebros, Response.jp, Motomegane, Dirtbikeplus, autoby.jp) — first time Reso has broken into a major developed-market motorcycle-parts trade press ecosystem. Still effectively invisible in major English-language Western motorcycle press — no reviews or news found from MCN, Cycle World, RideApart, webBikeWorld, Bennetts BikeSocial, RevZilla Common Tread, or Motorcyclist as of July 2026",
+    "summary": "All substantive coverage (2025-2026) originates from Philippine outlets (TopGear PH, Zigwheels PH, MotoPinas, Ridebuy) plus niche English-language gear blogs (phtoll, MotoMelody), Spanish-language YouTube, and now — since June 2026 — a wave of Japanese trade/consumer motorcycle press (Webike Plus, Bikebros News, Response.jp, Motomegane, Dirtbikeplus, autoby.jp) covering Daytona's official RESO distribution launch in Japan. Verdicts are consistently positive on value, noise reduction, voice control, and battery; consistent caveats are the small installed base and cellular-dependent soft mesh. No awards found. The Daytona deal is the most significant distribution/credibility milestone found to date: Daytona is a major, long-established Japanese motorcycle parts manufacturer/wholesaler, and its endorsement gives Reso a legitimate foothold in a developed market with an established dealer and e-commerce network (daytona.co.jp, Amazon.co.jp, Webike) for the first time outside DTC and SEA dealer channels."
   },
   "sources": [
     "https://resosport.com/pages/contact",
@@ -563,6 +627,18 @@
     "https://www.mytakongracing.com/products/reso-intercom-pilot-pro",
     "https://www.mytakongracing.com/products/reso-intercom-pilot-neo",
     "https://bandidospitstop.com/products/reso-pilot-neo",
-    "https://motomelody.com/reso-pilot-pro-bluetooth-motorcycle-helmet-review/"
+    "https://motomelody.com/reso-pilot-pro-bluetooth-motorcycle-helmet-review/",
+    "https://prtimes.jp/main/html/rd/p/000000109.000120309.html",
+    "https://www.daytona.co.jp/news/detail/598/",
+    "https://www.daytona.co.jp/special/reso/",
+    "https://www.daytona.co.jp/products/detail/66271/",
+    "https://news.webike.net/parts-gears/548948/",
+    "https://news.bikebros.co.jp/goods/news20260619-01/",
+    "https://response.jp/article/2026/06/23/413089.html",
+    "https://www.motomegane.com/news-release/pickup-motorcycle/daytona_reso_20260625",
+    "https://www.dirtbikeplus.jp/blog/reso_pilot_pro",
+    "https://www.youtube.com/watch?v=fTgtkGGYRhA",
+    "https://www.amazon.co.jp/dp/B0H4SFCXH8",
+    "https://www.amazon.co.jp/dp/B0H4SRVS9M"
   ]
 }

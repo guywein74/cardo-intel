@@ -7,9 +7,10 @@
       "competitors": [
         {"brand": "Sena", "product": "60S EVO", "price": "$459", "note": "Sound by Bose, 27h talk, limited LIFETIME warranty; MCN: 'considerably cheaper than Cardo's flagship'"},
         {"brand": "Reso", "product": "Pilot Pro", "price": "$399 MSRP / $359 street (~$225 in PH)", "note": "Crash detection + GNSS, IP67, 3-yr warranty, 30-rider mesh"},
-        {"brand": "ASMAX", "product": "F1s / F1 Pro Max", "price": "$139.99 street", "note": "Mesh + offline AI voice at 1/3 the price"}
+        {"brand": "ASMAX", "product": "F1s / F1 Pro Max", "price": "$139.99 / $269 street", "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) — flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price"},
+        {"brand": "Sena", "product": "60X", "price": "$459 ($879 dual)", "note": "Launched July 2, 2026 alongside 60S EVO at the same price point; adds joystick control and wireless charging"}
       ],
-      "gap": "Cardo is now the most expensive flagship on the market after the 2025 MSRP hikes ($40-60/unit). Sena undercuts with Bose audio and a lifetime warranty; Reso matches the safety feature set (crash detection) $100-140 lower.",
+      "gap": "Cardo is now the most expensive flagship on the market after the 2025 MSRP hikes ($40-60/unit). Sena undercuts with Bose audio and a lifetime warranty (now on two models, 60S EVO and 60X); Reso matches the safety feature set (crash detection) $100-140 lower.",
       "severity": "high",
       "insight": "The premium is currently carried by DMC reliability reputation and JBL audio alone. The lifetime-warranty move by Sena directly attacks Cardo's 3-year warranty advantage."
     },
@@ -135,7 +136,7 @@
     {"title": "Review dominance", "detail": "Packtalk Edge/Pro win nearly every 2025-26 'best intercom' roundup (FortNine, webBikeWorld, comparison sites)."},
     {"title": "OTA value delivery", "detail": "Mesh-Boost added 31-rider DMC, Public Mesh, Remote Grouping and VoIP intercom free — strongest post-purchase value story in the market."},
     {"title": "Safety leadership", "detail": "Only incumbent with shipping crash detection (Packtalk Pro)."},
-    {"title": "Distribution & OEM", "detail": "80+ countries, Cycle Gear free-install, Shoei/HJC/KTM co-brands — challengers have almost no Western retail."},
+    {"title": "Distribution & OEM", "detail": "80+ countries, Cycle Gear free-install, Shoei/HJC/KTM co-brands (now including dedicated Packtalk-S/4X-S units built for Shoei's Gen 3 helmets, launched April 2026) — challengers have almost no Western retail. Watch: Reso landed its first major developed-market distribution deal outside DTC/SEA in June 2026 (Daytona, a major Japanese parts wholesaler, now sells the Pilot Pro/Neo/Lite lineup in Japan) — an early crack worth monitoring, not yet a Western threat."},
     {"title": "Smart-helmet firsts", "detail": "Venture is the world's first integrated-mesh MX helmet; Beyond GTS has replaceable battery + serviceable modules."},
     {"title": "Community trust window", "detail": "Reddit/enthusiast sentiment favors Cardo on reliability; ASMAX and Reso are invisible on Reddit and in tier-1 Western press — for now."}
   ],
