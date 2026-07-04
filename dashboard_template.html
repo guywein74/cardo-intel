@@ -157,7 +157,7 @@ sections[0].innerHTML = `
 /* ---------- Products table ---------- */
 const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
 const YEARS=Array.from(new Set(PRODUCTS.map(p=>p.release_year).filter(y=>y))).sort((a,b)=>b-a);
-const TIER_ORDER=["flagship","premium","mid","entry","value"];
+const TIER_ORDER=["flagship","mid","entry"];
 const tiersFor=cat=>{const s=new Set(PRODUCTS.filter(p=>cat==="all"||p.cat===cat).map(p=>p.tier).filter(Boolean));return TIER_ORDER.filter(t=>s.has(t)).concat([...s].filter(t=>!TIER_ORDER.includes(t)))};
 const tierOpts=cat=>`<option value="all">All tiers</option>`+tiersFor(cat).map(t=>`<option>${esc(t)}</option>`).join("");
 let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fCat="all",fTier="all",fYear="all",fMesh=false,fSearch="";
@@ -192,7 +192,7 @@ function renderTable(){
     <tr class="prod" data-i="${i}">
       <td><b>${esc(p.name)}</b></td>
       <td><span class="brandtag" style="color:${BCOLOR[p.brand]}">${p.brand}</span></td>
-      <td>${esc(p.tier||"—")}${p.cat==="smart_helmet"?` <span class="badge b-partial">helmet</span>`:""}</td>
+      <td>${p.cat==="smart_helmet"?`<span class="badge b-partial">smart helmet</span>`:esc(p.tier||"—")}</td>
       <td class="price">${fmt$(p.msrp_usd)}</td>
       <td class="price">${p.street_price_usd!=null&&p.msrp_usd!=null&&p.street_price_usd<p.msrp_usd?`<b>${fmt$(p.street_price_usd)}</b>`:fmt$(p.street_price_usd)}</td>
       <td class="small">${esc((p.intercom_tech||"—").slice(0,60))}</td>
@@ -274,7 +274,7 @@ function renderCompare(){
   const hl=(v,b)=>v!=null&&v===b?` style="color:var(--ok);font-weight:800"`:"";
   const rows=[
     ["Brand",p=>`<span class="brandtag" style="color:${BCOLOR[p.brand]}">${p.brand}</span>`],
-    ["Tier",p=>esc(p.tier||"—")],
+    ["Tier / type",p=>p.cat==="smart_helmet"?`<span class="badge b-partial">smart helmet</span>`:esc(p.tier||"—")],
     ["MSRP",p=>`<span class="price">${fmt$(p.msrp_usd)}</span>`],
     ["Street / effective",p=>`<span class="price"${hl(eff(p),best.priceMin)}>${fmt$(eff(p))}</span>`],
     ["Intercom tech",p=>`<span class="small">${esc(p.intercom_tech||"—")}</span>`],
@@ -311,7 +311,7 @@ renderCompare();
 sections[4].innerHTML=`
   <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button></div>
   <div class="card"><div id="chart"></div>
-  <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship / premium</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry / value</span><span>hover for details</span></div></div>
+  <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry / helmet</span><span>hover for details</span></div></div>
   <h2>Price ladder — cheapest helmet-mount mesh unit per brand</h2>
   <div class="grid g4">${BRANDS.map(b=>{const m=b.products.filter(p=>/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")&&(p.street_price_usd??p.msrp_usd)!=null&&!/helmet|edgephones|headset|headphone|accessor/i.test(p.name));if(!m.length)return "";const c=m.reduce((a,p)=>((p.street_price_usd??p.msrp_usd)<(a.street_price_usd??a.msrp_usd)?p:a));return `<div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3><div style="font-size:26px;font-weight:800" class="price">${fmt$(c.street_price_usd??c.msrp_usd)}</div><div class="small muted">${esc(c.name)} — cheapest mesh-capable unit</div></div>`}).join("")}</div>`;
 let inclHelmets=false;
@@ -331,8 +331,8 @@ function drawChart(){
     ps.forEach((p,i)=>{
       const jitter=((i%3)-1)*22;
       const cx=bx[br]+jitter,cy=y(p.eff),c=BHEX[br];
-      const shape=(p.tier==="flagship"||p.tier==="premium")?`<path d="M${cx} ${cy-7} L${cx+7} ${cy+6} L${cx-7} ${cy+6} Z" fill="${c}"/>`:p.tier==="mid"?`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" fill="${c}"/>`:`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}"/>`;
-      s+=`<g class="pt" data-n="${esc(p.name)}" data-b="${br}" data-p="${p.eff}" data-m="${p.msrp_usd??""}" data-t="${p.tier}" style="cursor:pointer">${shape}</g>`;
+      const shape=p.tier==="flagship"?`<path d="M${cx} ${cy-7} L${cx+7} ${cy+6} L${cx-7} ${cy+6} Z" fill="${c}"/>`:p.tier==="mid"?`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" fill="${c}"/>`:`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}"/>`;
+      s+=`<g class="pt" data-n="${esc(p.name)}" data-b="${br}" data-p="${p.eff}" data-m="${p.msrp_usd??""}" data-t="${p.tier||(p.cat==="smart_helmet"?"smart helmet":"")}" style="cursor:pointer">${shape}</g>`;
     });
   });
   s+="</svg>";

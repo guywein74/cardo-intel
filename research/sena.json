@@ -616,7 +616,7 @@
     {
       "name": "Specter (modular smart helmet)",
       "category": "smart_helmet",
-      "tier": "premium",
+      "tier": null,
       "msrp_usd": 649,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE) + Bluetooth",
@@ -637,7 +637,7 @@
     {
       "name": "Outlander (dual-sport smart helmet)",
       "category": "smart_helmet",
-      "tier": "mid",
+      "tier": null,
       "msrp_usd": 599,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE) + Bluetooth",
@@ -657,7 +657,7 @@
     {
       "name": "Phantom (full-face smart helmet family)",
       "category": "smart_helmet",
-      "tier": "mid",
+      "tier": null,
       "msrp_usd": 439,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Bluetooth (60S-derived system)",
@@ -677,7 +677,7 @@
     {
       "name": "Impulse (modular smart helmet)",
       "category": "smart_helmet",
-      "tier": "mid",
+      "tier": null,
       "msrp_usd": 479,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
@@ -697,7 +697,7 @@
     {
       "name": "Outrush 2 (modular smart helmet)",
       "category": "smart_helmet",
-      "tier": "mid",
+      "tier": null,
       "msrp_usd": 379,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
@@ -716,7 +716,7 @@
     {
       "name": "Stryker (full-face smart helmet)",
       "category": "smart_helmet",
-      "tier": "value",
+      "tier": null,
       "msrp_usd": 324,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
@@ -735,7 +735,7 @@
     {
       "name": "Outrush R (modular smart helmet)",
       "category": "smart_helmet",
-      "tier": "value",
+      "tier": null,
       "msrp_usd": 287,
       "street_price_usd": null,
       "intercom_tech": "Integrated Bluetooth intercom (no mesh)",
@@ -753,7 +753,7 @@
     {
       "name": "Cavalry 2 (half smart helmet)",
       "category": "smart_helmet",
-      "tier": "value",
+      "tier": null,
       "msrp_usd": 279,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom + Bluetooth",

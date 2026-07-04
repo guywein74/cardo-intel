@@ -668,7 +668,7 @@
     },
     {
       "name": "Beyond GTS (smart helmet)",
-      "tier": "premium",
+      "tier": null,
       "msrp_usd": 1199,
       "street_price_usd": null,
       "intercom_tech": "Integrated DMC mesh + Bluetooth",
@@ -690,7 +690,7 @@
     },
     {
       "name": "Venture (integrated MX helmet)",
-      "tier": "premium",
+      "tier": null,
       "msrp_usd": 799,
       "street_price_usd": null,
       "intercom_tech": "Integrated DMC mesh",
