@@ -315,7 +315,7 @@ renderCompare();
 
 /* ---------- Pricing chart ---------- */
 sections[4].innerHTML=`
-  <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button><select id="pTierSel">${tierOpts("communicator")}</select></div>
+  <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button><select id="pTierSel">${tierOpts("communicator")}<option value="smart_helmet">smart helmets</option></select></div>
   <div class="card"><div id="chart"></div>
   <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry / helmet</span><span>hover for details</span></div></div>
   <h2>Price ladder — cheapest helmet-mount mesh unit per brand</h2>
@@ -325,7 +325,7 @@ sections[4].querySelector("#helmChip").onclick=e=>{inclHelmets=!inclHelmets;e.ta
 sections[4].querySelector("#pTierSel").onchange=e=>{pTier=e.target.value;drawChart()};
 const tt=document.getElementById("tt");
 function drawChart(){
-  const pts=PRODUCTS.filter(p=>p.eff!=null&&(inclHelmets||!p.isHelmet)&&(pTier==="all"||p.tier===pTier));
+  const pts=PRODUCTS.filter(p=>p.eff!=null&&(pTier==="smart_helmet"?p.cat==="smart_helmet":((inclHelmets||!p.isHelmet)&&(pTier==="all"||p.tier===pTier))));
   const W=1100,H=380,L=60,R=20,T=20,B=40,maxP=(pts.length?Math.max(...pts.map(p=>p.eff)):500)*1.08;
   const bx={};BRANDS.forEach((b,i)=>bx[b.competitor]=L+(W-L-R)*(i+0.5)/BRANDS.length);
   const y=v=>T+(H-T-B)*(1-v/maxP);
