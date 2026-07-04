@@ -98,7 +98,7 @@ const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
 /* products flattened */
 let PRODUCTS=[];
 BRANDS.forEach(br=>br.products.forEach(p=>PRODUCTS.push({brand:br.competitor,...p})));
-PRODUCTS.forEach(p=>{p.eff=(p.street_price_usd??p.msrp_usd);p.isHelmet=/helmet/i.test(p.name);p.mesh=/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")});
+PRODUCTS.forEach(p=>{p.eff=(p.street_price_usd??p.msrp_usd);p.isHelmet=/helmet/i.test(p.name);p.cat=p.category||(p.isHelmet?"smart_helmet":"communicator");p.mesh=/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")});
 
 /* ---------- nav ---------- */
 const nav=document.getElementById("nav"),main=document.getElementById("main");
@@ -157,10 +157,11 @@ sections[0].innerHTML = `
 /* ---------- Products table ---------- */
 const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
 const YEARS=Array.from(new Set(PRODUCTS.map(p=>p.release_year).filter(y=>y))).sort((a,b)=>b-a);
-let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fTier="all",fYear="all",fMesh=false,fSearch="";
+let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fCat="all",fTier="all",fYear="all",fMesh=false,fSearch="";
 sections[1].innerHTML=`
   <div class="chips">
     ${BRANDS.map(b=>`<button class="chip on" data-b="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+    <select id="catSel"><option value="all">All categories</option><option value="communicator">Communicators</option><option value="smart_helmet">Smart helmets</option></select>
     <select id="tierSel"><option value="all">All tiers</option><option>flagship</option><option>mid</option><option>entry</option></select>
     <select id="yearSel"><option value="all">All years</option>${YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")}</select>
     <button class="chip" id="meshChip">Mesh only</button>
@@ -171,6 +172,7 @@ sections[1].innerHTML=`
   <table id="ptable"><thead><tr>${COLS.map(([k,l])=>`<th data-k="${k}">${l} <span class="arrow"></span></th>`).join("")}</tr></thead><tbody></tbody></table></div>
   <div class="small muted" style="margin-top:8px">Click a row for features & notes. Street price shown where verified; "—" = not published / not found.</div>`;
 sections[1].querySelectorAll(".chip[data-b]").forEach(c=>c.onclick=()=>{const b=c.dataset.b;c.classList.toggle("on");c.classList.contains("on")?fBrands.add(b):fBrands.delete(b);renderTable()});
+sections[1].querySelector("#catSel").onchange=e=>{fCat=e.target.value;renderTable()};
 sections[1].querySelector("#tierSel").onchange=e=>{fTier=e.target.value;renderTable()};
 sections[1].querySelector("#yearSel").onchange=e=>{fYear=e.target.value;renderTable()};
 sections[1].querySelector("#meshChip").onclick=e=>{fMesh=!fMesh;e.target.classList.toggle("on",fMesh);renderTable()};
@@ -178,7 +180,7 @@ sections[1].querySelector("#srch").oninput=e=>{fSearch=e.target.value.toLowerCas
 sections[1].querySelectorAll("th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=(sortKey===k)?-sortDir:1;sortKey=k;renderTable()});
 function renderTable(){
   const tb=sections[1].querySelector("tbody");
-  let rows=PRODUCTS.filter(p=>fBrands.has(p.brand)&&(fTier==="all"||p.tier===fTier)&&(fYear==="all"||p.release_year==fYear)&&(!fMesh||p.mesh)&&(!fSearch||JSON.stringify(p).toLowerCase().includes(fSearch)));
+  let rows=PRODUCTS.filter(p=>fBrands.has(p.brand)&&(fCat==="all"||p.cat===fCat)&&(fTier==="all"||p.tier===fTier)&&(fYear==="all"||p.release_year==fYear)&&(!fMesh||p.mesh)&&(!fSearch||JSON.stringify(p).toLowerCase().includes(fSearch)));
   rows.sort((a,b)=>{let x=a[sortKey],y=b[sortKey];if(x==null)return 1;if(y==null)return -1;return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*sortDir});
   sections[1].querySelectorAll("th .arrow").forEach(a=>a.textContent="");
   const th=sections[1].querySelector(`th[data-k="${sortKey}"] .arrow`);if(th)th.textContent=sortDir>0?"↑":"↓";
@@ -187,7 +189,7 @@ function renderTable(){
     <tr class="prod" data-i="${i}">
       <td><b>${esc(p.name)}</b></td>
       <td><span class="brandtag" style="color:${BCOLOR[p.brand]}">${p.brand}</span></td>
-      <td>${esc(p.tier||"—")}</td>
+      <td>${esc(p.tier||"—")}${p.cat==="smart_helmet"?` <span class="badge b-partial">helmet</span>`:""}</td>
       <td class="price">${fmt$(p.msrp_usd)}</td>
       <td class="price">${p.street_price_usd!=null&&p.msrp_usd!=null&&p.street_price_usd<p.msrp_usd?`<b>${fmt$(p.street_price_usd)}</b>`:fmt$(p.street_price_usd)}</td>
       <td class="small">${esc((p.intercom_tech||"—").slice(0,60))}</td>

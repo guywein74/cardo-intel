@@ -558,7 +558,8 @@
         "Serviceable/upgradable tech modules"
       ],
       "release_year": 2026,
-      "notes": "Cardo's first fully integrated road helmet; unveiled Jan 2026, on sale summer 2026. GT sibling: $949, fiberglass shell, ANC optional, smaller cable-charged battery."
+      "notes": "Cardo's first fully integrated road helmet; unveiled Jan 2026, on sale summer 2026. GT sibling: $949, fiberglass shell, ANC optional, smaller cable-charged battery.",
+      "category": "smart_helmet"
     },
     {
       "name": "Venture (integrated MX helmet)",
@@ -577,7 +578,8 @@
         "Real-time comms without stopping; coaching and emergency alert use cases"
       ],
       "release_year": 2026,
-      "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695."
+      "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695.",
+      "category": "smart_helmet"
     }
   ],
   "strengths": [

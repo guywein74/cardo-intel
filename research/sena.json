@@ -611,6 +611,162 @@
       ],
       "release_year": 2026,
       "notes": "Launched June 25, 2026. Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter. US pricing not yet published."
+    },
+    {
+      "name": "Specter (modular smart helmet)",
+      "category": "smart_helmet",
+      "tier": "flagship",
+      "msrp_usd": 649,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE) + Bluetooth",
+      "range_km": null,
+      "max_riders": 24,
+      "audio": "2nd-gen Harman Kardon speakers, internal acoustic chamber",
+      "talk_time_hours": 30,
+      "waterproof": null,
+      "features": [
+        "Premium modular smart helmet",
+        "Mesh 3.0 + Wave Intercom",
+        "Safe Power Mode (ride while wired to external power)",
+        "Pinlock-ready shield"
+      ],
+      "release_year": 2026,
+      "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price."
+    },
+    {
+      "name": "Outlander (dual-sport smart helmet)",
+      "category": "smart_helmet",
+      "tier": "flagship",
+      "msrp_usd": 599,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE) + Bluetooth",
+      "range_km": null,
+      "max_riders": 24,
+      "audio": "Sound by Harman Kardon",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Sena's first adventure/dual-sport helmet",
+        "Mesh 3.0 + Wave Intercom",
+        "Semi-oval interior, moisture-wicking liner"
+      ],
+      "release_year": 2026,
+      "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) — $200 cheaper."
+    },
+    {
+      "name": "Phantom (full-face smart helmet family)",
+      "category": "smart_helmet",
+      "tier": "flagship",
+      "msrp_usd": 439,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom 3.0 + Bluetooth (60S-derived system)",
+      "range_km": null,
+      "max_riders": 24,
+      "audio": "2nd-gen Harman Kardon, AI-based noise cancellation",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Attachment-free integrated comms",
+        "Variants: base $439, Extreme Bass $599, ANC $649, Camera, Unplugged",
+        "Made in Sena's own helmet factory"
+      ],
+      "release_year": 2025,
+      "notes": "Family pricing verified on Sena US store Jul 2026: PHANTOM $439, XB $599, ANC $649."
+    },
+    {
+      "name": "Impulse (modular smart helmet)",
+      "category": "smart_helmet",
+      "tier": "mid",
+      "msrp_usd": 479,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
+      "range_km": null,
+      "max_riders": null,
+      "audio": "Sound by Harman Kardon",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Modular flip-up",
+        "Harman Kardon audio",
+        "$599 bundle with extras"
+      ],
+      "release_year": 2023,
+      "notes": "US store price $479 (Jul 2026)."
+    },
+    {
+      "name": "Outrush 2 (modular smart helmet)",
+      "category": "smart_helmet",
+      "tier": "mid",
+      "msrp_usd": 379,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
+      "range_km": null,
+      "max_riders": null,
+      "audio": "Integrated speakers",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Flip-up modular",
+        "Mesh intercom at mid price"
+      ],
+      "release_year": 2025,
+      "notes": "US store price $379 (Jul 2026)."
+    },
+    {
+      "name": "Stryker (full-face smart helmet)",
+      "category": "smart_helmet",
+      "tier": "mid",
+      "msrp_usd": 324,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
+      "range_km": null,
+      "max_riders": null,
+      "audio": "Sound by Harman Kardon",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Full-face",
+        "Harman Kardon audio"
+      ],
+      "release_year": 2023,
+      "notes": "US store price $324 (Jul 2026) — heavily discounted from launch."
+    },
+    {
+      "name": "Outrush R (modular smart helmet)",
+      "category": "smart_helmet",
+      "tier": "entry",
+      "msrp_usd": 287,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Bluetooth intercom (no mesh)",
+      "range_km": null,
+      "max_riders": 4,
+      "audio": "Integrated speakers",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Budget modular with built-in Bluetooth intercom"
+      ],
+      "release_year": 2021,
+      "notes": "US store price $287 (Jul 2026)."
+    },
+    {
+      "name": "Cavalry 2 (half smart helmet)",
+      "category": "smart_helmet",
+      "tier": "entry",
+      "msrp_usd": 279,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
+      "range_km": null,
+      "max_riders": null,
+      "audio": "Integrated speakers",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Half helmet with Mesh intercom",
+        "Cruiser-oriented"
+      ],
+      "release_year": 2024,
+      "notes": "US store price $279 (Jul 2026)."
     }
   ],
   "strengths": [
