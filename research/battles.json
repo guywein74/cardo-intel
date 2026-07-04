@@ -6,7 +6,17 @@
     "Sound": "Speakers 22/32/40/45mm, HD, brand, quality",
     "Intercom": "Range, # riders, mesh, auto-reconnect, WB sound",
     "Quality": "Build quality, service, IP65/IP67, water resistance",
-    "Price": "Segment compare and overall pricing"
+    "Price": "Segment compare and overall pricing",
+    "Range": "Max intercom range; cellular/Wave = effectively unlimited",
+    "Group size": "Max riders in one intercom group",
+    "Battery life": "Rated talk time hours per charge",
+    "Charging": "Fast-charge and wireless-charging support",
+    "Waterproofing": "Published IP rating (IP67/IPX7 = best)",
+    "Cross-brand pairing": "Bridging/pairing with other brands’ units",
+    "Voice / AI": "Voice commands and AI-assistant capability (excludes AI noise-cancellation)",
+    "Software & OTA": "Companion app and over-the-air feature updates",
+    "Safety features": "Crash detection, SOS/emergency alerts",
+    "Warranty & service": "Warranty length and service network"
   },
   "battles": [
     {
@@ -130,6 +140,56 @@
             "note": "Only S1 has mesh (8 riders); Spirit/5R LITE 2-rider BT"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "bad",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Spirit 0.6km · 5R LITE 0.7km · S1 cellular · Pilot Lite mesh"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "bad",
+              "bad",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit 2r · 5R LITE 2r · S1 8r · Pilot Lite —"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "good",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit 13h · 5R LITE 36h · S1 13h · Pilot Lite —"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "soso",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Spirit std · 5R LITE std · S1 fast · Pilot Lite std"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "soso",
+              "soso",
+              "good",
+              "bad"
+            ],
+            "note": "Spirit Waterproof per Cardo (no published IP rating) · 5R LITE Water-resistant · S1 IPX7 · Pilot Lite —"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "soso",
@@ -138,6 +198,56 @@
               "bad"
             ],
             "note": "No published IP on Spirit; S1 IPX7 but young-brand QC; Lite unknown"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "good",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit universal · 5R LITE BT only · S1 BT only · Pilot Lite BT only"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "bad",
+              "good",
+              "bad"
+            ],
+            "note": "Spirit voice cmds · 5R LITE none · S1 AI assistant · Pilot Lite none"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "good",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Spirit app+OTA · 5R LITE app · S1 app+OTA · Pilot Lite app"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "bad",
+              "bad",
+              "bad",
+              "good"
+            ],
+            "note": "Spirit none · 5R LITE none · S1 none · Pilot Lite crash/SOS"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit 2yr · 5R LITE 2yr · S1 2yr · Pilot Lite —"
           },
           {
             "dimension": "Price",
@@ -274,6 +384,56 @@
             "note": "Z1 mesh 10 riders; 5R pairs 4; Spirit HD/5S 2-rider"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "bad",
+              "soso",
+              "soso",
+              "good"
+            ],
+            "note": "Spirit HD 0.6km · 5S 0.7km · 5R 0.7km · Z1 / Z1 Plus 8km"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "bad",
+              "bad",
+              "bad",
+              "soso"
+            ],
+            "note": "Spirit HD 2r · 5S 2r · 5R 2r · Z1 / Z1 Plus 10r"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "good",
+              "good",
+              "soso"
+            ],
+            "note": "Spirit HD 13h · 5S 18h · 5R 36h · Z1 / Z1 Plus —"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit HD std · 5S std · 5R std · Z1 / Z1 Plus std"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "good"
+            ],
+            "note": "Spirit HD Waterproof per Cardo (no published IP rating) · 5S Water-resistant · 5R Water-resistant · Z1 / Z1 Plus IP67"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "soso",
@@ -282,6 +442,56 @@
               "soso"
             ],
             "note": "No published IP on Spirit HD or 5-series; Z1 IP67 but QC unknowns"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "good",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit HD universal · 5S BT only · 5R BT only · Z1 / Z1 Plus BT only"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "soso",
+              "bad",
+              "soso"
+            ],
+            "note": "Spirit HD voice cmds · 5S voice cmds · 5R none · Z1 / Z1 Plus voice cmds"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "good",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit HD app+OTA · 5S app · 5R app · Z1 / Z1 Plus app"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "bad",
+              "bad",
+              "bad",
+              "bad"
+            ],
+            "note": "Spirit HD none · 5S none · 5R none · Z1 / Z1 Plus none"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Spirit HD 2yr · 5S 2yr · 5R 2yr · Z1 / Z1 Plus 2yr"
           },
           {
             "dimension": "Price",
@@ -397,6 +607,51 @@
             "note": "2-rider BT vs 24-rider mesh; Future 1 mesh but brand-locked"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "soso",
+              "good",
+              "good"
+            ],
+            "note": "Freecom 2x 0.8km · Spider RT1 / ST1 2km · Future 1 3km"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "bad",
+              "good",
+              "soso"
+            ],
+            "note": "Freecom 2x 2r · Spider RT1 / ST1 24r · Future 1 10r"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Freecom 2x 13h · Spider RT1 / ST1 20h · Future 1 14h"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "good",
+              "good",
+              "soso"
+            ],
+            "note": "Freecom 2x fast · Spider RT1 / ST1 fast · Future 1 std"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "soso",
+              "bad",
+              "good"
+            ],
+            "note": "Freecom 2x Waterproof per Cardo (IP65 per third-party spec listings) · Spider RT1 / ST1 — · Future 1 IPX7"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "soso",
@@ -404,6 +659,51 @@
               "soso"
             ],
             "note": "Freecom 'waterproof' unrated officially; Spider durability complaints; ASMAX QC young"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "good",
+              "soso",
+              "soso"
+            ],
+            "note": "Freecom 2x universal · Spider RT1 / ST1 BT only · Future 1 BT only"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "bad",
+              "good"
+            ],
+            "note": "Freecom 2x voice cmds · Spider RT1 / ST1 none · Future 1 AI assistant"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "good",
+              "soso",
+              "good"
+            ],
+            "note": "Freecom 2x app+OTA · Spider RT1 / ST1 app · Future 1 app+OTA"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "bad",
+              "bad",
+              "bad"
+            ],
+            "note": "Freecom 2x none · Spider RT1 / ST1 none · Future 1 none"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Freecom 2x — · Spider RT1 / ST1 — · Future 1 —"
           },
           {
             "dimension": "Price",
@@ -518,6 +818,51 @@
             "note": "4-rider BT vs 24-rider mesh; F1 Pro 10-rider brand-locked mesh"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "soso",
+              "good",
+              "good"
+            ],
+            "note": "Freecom 4x 1.2km · 50R 2km · F1 Pro 3km"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "bad",
+              "good",
+              "soso"
+            ],
+            "note": "Freecom 4x 4r · 50R 24r · F1 Pro 10r"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Freecom 4x 13h · 50R 13h · F1 Pro 14h"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "good",
+              "soso",
+              "soso"
+            ],
+            "note": "Freecom 4x fast · 50R std · F1 Pro std"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "soso",
+              "soso",
+              "good"
+            ],
+            "note": "Freecom 4x Waterproof per Cardo (IP65 per third-party spec listings) · 50R Water-resistant (no official IP rating) · F1 Pro IPX7"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "soso",
@@ -525,6 +870,51 @@
               "soso"
             ],
             "note": "4x IP65-ish unpublished; 50R water-resistant only; ASMAX QC young"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "good",
+              "soso",
+              "good"
+            ],
+            "note": "Freecom 4x universal · 50R BT only · F1 Pro universal"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Freecom 4x voice cmds · 50R voice cmds · F1 Pro voice cmds"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Freecom 4x app+OTA · 50R app+OTA · F1 Pro app+OTA"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "bad",
+              "bad",
+              "bad"
+            ],
+            "note": "Freecom 4x none · 50R none · F1 Pro none"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Freecom 4x — · 50R — · F1 Pro —"
           },
           {
             "dimension": "Price",
@@ -664,6 +1054,56 @@
             "note": "DMC 31 riders benchmark; 50S mesh dropouts; Reso 15, brand-locked"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Neo 1.6km · 50S 2km · Pilot Neo 2.5km · F1 Pro Max 3km"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "soso"
+            ],
+            "note": "Packtalk Neo 15r · 50S 24r · Pilot Neo 15r · F1 Pro Max 10r"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Packtalk Neo 13h · 50S 13h · Pilot Neo 24h · F1 Pro Max 14h"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "good",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Packtalk Neo fast · 50S std · Pilot Neo fast · F1 Pro Max std"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "good",
+              "soso",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Neo IP67 · 50S Water-resistant (no official IP rating) · Pilot Neo IP67 · F1 Pro Max IPX7"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "good",
@@ -672,6 +1112,56 @@
               "soso"
             ],
             "note": "Neo IP67 2-yr; 50S water-resistant; Reso IP67 3-yr but young brand"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "good",
+              "good",
+              "soso",
+              "good"
+            ],
+            "note": "Packtalk Neo universal · 50S universal · Pilot Neo BT only · F1 Pro Max universal"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Packtalk Neo voice cmds · 50S voice cmds · Pilot Neo voice cmds · F1 Pro Max voice cmds"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Neo app+OTA · 50S app+OTA · Pilot Neo app+OTA · F1 Pro Max app+OTA"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "bad",
+              "bad",
+              "good",
+              "bad"
+            ],
+            "note": "Packtalk Neo none · 50S none · Pilot Neo crash/SOS · F1 Pro Max none"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "good",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Packtalk Neo 3yr · 50S — · Pilot Neo 3yr · F1 Pro Max —"
           },
           {
             "dimension": "Price",
@@ -884,6 +1374,71 @@
             "note": "DMC benchmark; Sena adds Wave unlimited-range; Reso small base; F1s real range ~1 km"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Pro 1.6km · Packtalk Edge 1.6km · 60S EVO cellular · 60X cellular · 60S cellular · Pilot Pro cellular · F1s cellular"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "soso"
+            ],
+            "note": "Packtalk Pro 15r · Packtalk Edge 15r · 60S EVO 24r · 60X 24r · 60S 24r · Pilot Pro 30r · F1s 10r"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "soso",
+              "good",
+              "good",
+              "good",
+              "soso",
+              "soso"
+            ],
+            "note": "Packtalk Pro 13h · Packtalk Edge 13h · 60S EVO 27h · 60X 29h · 60S 27h · Pilot Pro 13h · F1s —"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Pro fast · Packtalk Edge fast · 60S EVO fast · 60X wireless · 60S fast · Pilot Pro fast · F1s fast"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Pro IP67 · Packtalk Edge IP67 · 60S EVO IPX7 · 60X IPX7 · 60S IPX7 · Pilot Pro IP67 · F1s IP67"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "good",
@@ -895,6 +1450,71 @@
               "soso"
             ],
             "note": "IP67 + 3yr vs IPX7 + lifetime (EVO/60X); 60S firmware bugs; young brands unproven"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "good",
+              "good",
+              "soso",
+              "good",
+              "soso",
+              "soso",
+              "good"
+            ],
+            "note": "Packtalk Pro universal · Packtalk Edge universal · 60S EVO BT only · 60X universal · 60S BT only · Pilot Pro BT only · F1s BT only"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "bad",
+              "soso",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Pro voice cmds · Packtalk Edge voice cmds · 60S EVO voice cmds · 60X none · 60S voice cmds · Pilot Pro AI assistant · F1s AI assistant"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "soso",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Pro app+OTA · Packtalk Edge app+OTA · 60S EVO app+OTA · 60X app · 60S app+OTA · Pilot Pro app+OTA · F1s app+OTA"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "good",
+              "bad",
+              "bad",
+              "bad",
+              "bad",
+              "good",
+              "bad"
+            ],
+            "note": "Packtalk Pro crash/SOS · Packtalk Edge none · 60S EVO none · 60X none · 60S none · Pilot Pro crash/SOS · F1s none"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "soso"
+            ],
+            "note": "Packtalk Pro 3yr · Packtalk Edge 3yr · 60S EVO lifetime · 60X lifetime · 60S lifetime · Pilot Pro 3yr · F1s 2yr"
           },
           {
             "dimension": "Price",
@@ -1039,6 +1659,56 @@
             "note": "All mesh; 60S adds Wave cellular, Reso claims 30 riders, Edge 15 / F1s 10"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Edge 1.6km · 60S cellular · F1s cellular · Pilot Pro cellular"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "good",
+              "good",
+              "soso",
+              "good"
+            ],
+            "note": "Packtalk Edge 15r · 60S 24r · F1s 10r · Pilot Pro 30r"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "good",
+              "soso",
+              "soso"
+            ],
+            "note": "Packtalk Edge 13h · 60S 27h · F1s — · Pilot Pro 13h"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Edge fast · 60S fast · F1s fast · Pilot Pro fast"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Edge IP67 · 60S IPX7 · F1s IP67 · Pilot Pro IP67"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "good",
@@ -1047,6 +1717,56 @@
               "soso"
             ],
             "note": "Edge IP67 + 3yr; 60S IPX7; F1s IPX7 young-brand QC; Reso new brand"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "good",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": "Packtalk Edge universal · 60S BT only · F1s BT only · Pilot Pro BT only"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "soso",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Edge voice cmds · 60S voice cmds · F1s AI assistant · Pilot Pro AI assistant"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good"
+            ],
+            "note": "Packtalk Edge app+OTA · 60S app+OTA · F1s app+OTA · Pilot Pro app+OTA"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "bad",
+              "bad",
+              "bad",
+              "good"
+            ],
+            "note": "Packtalk Edge none · 60S none · F1s none · Pilot Pro crash/SOS"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "good",
+              "good",
+              "soso",
+              "good"
+            ],
+            "note": "Packtalk Edge 3yr · 60S lifetime · F1s 2yr · Pilot Pro 3yr"
           },
           {
             "dimension": "Price",
@@ -1155,6 +1875,51 @@
             "note": "Only Edgephones is native mesh; adapted unit works but helmet-oriented; generic none"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "good",
+              "soso",
+              "bad"
+            ],
+            "note": "Edgephones 1.6km · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "good",
+              "soso",
+              "bad"
+            ],
+            "note": "Edgephones 15r · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Edgephones — · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Edgephones std · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "bad",
+              "soso",
+              "bad"
+            ],
+            "note": "Edgephones — · adapted unit:— · BT headphones:—"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "good",
@@ -1162,6 +1927,51 @@
               "soso"
             ],
             "note": "Cardo-built for the use case"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "bad",
+              "soso",
+              "bad"
+            ],
+            "note": "Edgephones proprietary · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "bad",
+              "soso",
+              "soso"
+            ],
+            "note": "Edgephones none · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "soso",
+              "good",
+              "bad"
+            ],
+            "note": "Edgephones app · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "bad",
+              "bad",
+              "bad"
+            ],
+            "note": "Edgephones none · adapted unit:— · BT headphones:—"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "soso",
+              "good",
+              "bad"
+            ],
+            "note": "Edgephones — · adapted unit:— · BT headphones:—"
           },
           {
             "dimension": "Price",
@@ -1301,6 +2111,56 @@
             "note": "GTS DMC 31 riders; Specter adds Wave cellular; Phantom Mesh 3.0; Impulse mesh"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "good",
+              "good",
+              "soso",
+              "soso"
+            ],
+            "note": "Beyond GTS 2km · Specter cellular · Phantom mesh · Impulse mesh"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "soso"
+            ],
+            "note": "Beyond GTS 31r · Specter 24r · Phantom 24r · Impulse —"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "good",
+              "soso",
+              "soso"
+            ],
+            "note": "Beyond GTS — · Specter 30h · Phantom — · Impulse —"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "good",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Beyond GTS wireless · Specter std · Phantom std · Impulse std"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "bad",
+              "bad",
+              "bad",
+              "bad"
+            ],
+            "note": "Beyond GTS — · Specter — · Phantom — · Impulse —"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "good",
@@ -1309,6 +2169,56 @@
               "soso"
             ],
             "note": "GTS carbon + serviceable modules (new/unproven); Sena proven helmet mfg"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Beyond GTS BT only · Specter BT only · Phantom BT only · Impulse BT only"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "soso",
+              "bad",
+              "bad",
+              "bad"
+            ],
+            "note": "Beyond GTS voice cmds · Specter none · Phantom none · Impulse none"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Beyond GTS app · Specter app · Phantom app · Impulse app"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "good",
+              "bad",
+              "bad",
+              "bad"
+            ],
+            "note": "Beyond GTS crash/SOS · Specter none · Phantom none · Impulse none"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": "Beyond GTS — · Specter — · Phantom — · Impulse —"
           },
           {
             "dimension": "Price",
@@ -1398,12 +2308,92 @@
             "note": "Venture DMC mesh; Outlander Mesh 3.0 + Wave cellular"
           },
           {
+            "dimension": "Range",
+            "scores": [
+              "good",
+              "good"
+            ],
+            "note": "Venture MX mesh · Outlander cellular"
+          },
+          {
+            "dimension": "Group size",
+            "scores": [
+              "soso",
+              "good"
+            ],
+            "note": "Venture MX — · Outlander 24r"
+          },
+          {
+            "dimension": "Battery life",
+            "scores": [
+              "soso",
+              "soso"
+            ],
+            "note": "Venture MX — · Outlander —"
+          },
+          {
+            "dimension": "Charging",
+            "scores": [
+              "soso",
+              "soso"
+            ],
+            "note": "Venture MX std · Outlander std"
+          },
+          {
+            "dimension": "Waterproofing",
+            "scores": [
+              "bad",
+              "bad"
+            ],
+            "note": "Venture MX — · Outlander —"
+          },
+          {
             "dimension": "Quality",
             "scores": [
               "good",
               "soso"
             ],
             "note": "Venture on proven Leatt Moto 8.5 shell; Outlander new platform"
+          },
+          {
+            "dimension": "Cross-brand pairing",
+            "scores": [
+              "bad",
+              "soso"
+            ],
+            "note": "Venture MX proprietary · Outlander BT only"
+          },
+          {
+            "dimension": "Voice / AI",
+            "scores": [
+              "bad",
+              "bad"
+            ],
+            "note": "Venture MX none · Outlander none"
+          },
+          {
+            "dimension": "Software & OTA",
+            "scores": [
+              "soso",
+              "soso"
+            ],
+            "note": "Venture MX app · Outlander app"
+          },
+          {
+            "dimension": "Safety features",
+            "scores": [
+              "good",
+              "bad"
+            ],
+            "note": "Venture MX crash/SOS · Outlander none"
+          },
+          {
+            "dimension": "Warranty & service",
+            "scores": [
+              "soso",
+              "soso"
+            ],
+            "note": "Venture MX — · Outlander —"
           },
           {
             "dimension": "Price",
