@@ -381,8 +381,9 @@ BRANDS.forEach(b=>{
     if(handle)FEED.push({brand:br,type:"Social",date:"2026-07",source:plat,domain:dom(o.url),title:`${handle}${o[k]!=null?" — "+num(o[k])+" "+k:""}${o.notes?". "+o.notes.slice(0,200):""}`,url:o.url});
   });
   if(s.reddit?.sentiment)FEED.push({brand:br,type:"Social",date:"2026-07",source:"Reddit",domain:dom(s.reddit.url),title:s.reddit.sentiment.slice(0,240),url:s.reddit.url});
+  (s.recent_posts||[]).forEach(p=>FEED.push({brand:br,type:"Social",date:p.date,source:p.platform||"Social",domain:dom(p.url),title:p.summary||p.title||"",url:p.url,post:true}));
 });
-FEED.forEach(f=>{f.k=dkey(f.date)-(f.type==="Social"?100:0)});
+FEED.forEach(f=>{f.k=dkey(f.date)-(f.type==="Social"&&!f.post?100:0)});
 FEED.sort((a,b)=>b.k-a.k);
 let mfBrands=new Set(BRANDS.map(b=>b.competitor)),mfType="All",mfQ="";
 sections[6].innerHTML=`
