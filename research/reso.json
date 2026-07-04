@@ -416,12 +416,6 @@
     "summary": "Reso's social footprint is small, young, and SEA-centric. Facebook is the hub (regional pages + owner-run PH community group, ~2.1K followers on the PH page), matching the Philippines-first launch; Instagram (@resoglobal) is active but small; the official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides. NEW (June 2026): a fresh wave of organic Japanese social chatter (X/Twitter, motovlog YouTube) followed Daytona's official RESO distribution launch in Japan, with riders discussing switching from existing brands and praising wind-noise handling — the first organic social traction observed in a developed market outside the Philippines.",
     "recent_posts": [
       {
-        "date": "2026-06-30",
-        "platform": "Instagram",
-        "summary": "Official @resoglobal post: 'Wild peaks, rugged trails, ride together. No boundaries, pure adventure. Ride with RESO' — off-road lifestyle imagery pushing group riding (#OffRoadRiding #resopilot); low engagement (~7 likes).",
-        "url": "https://www.instagram.com/resoglobal/"
-      },
-      {
         "date": "2026-06-29",
         "platform": "Facebook",
         "summary": "RESO Philippines page video: 'The destination is just part of the story... it's the laughs through the intercom' — emotional group-ride storytelling clip (posted within week of 2026-07-03; date approximate).",
@@ -444,12 +438,6 @@
         "platform": "Facebook",
         "summary": "RESO Philippines page video: 'Designed for the ride, proven on set — RESO goes beyond motorcycle intercoms' — positioning the intercom for film/production crew comms use beyond riding (posted 1-17 June window; date approximate).",
         "url": "https://www.facebook.com/profile.php?id=61567279220678"
-      },
-      {
-        "date": "2026-05-06",
-        "platform": "Instagram",
-        "summary": "Official @resoglobal post promoting the Reso Pilot Neo: 'Ride connected. Ride smarter' — mid-tier model pitch highlighting group communication, battery life and reliability.",
-        "url": "https://www.instagram.com/resoglobal/"
       },
       {
         "date": "2026-04-29",
@@ -476,18 +464,6 @@
         "url": "https://www.reddit.com/r/PHMotorcycles/comments/1shkdtu/reso_vs_cardo_for_mostly_solo_rider/"
       },
       {
-        "date": "2026-03-10",
-        "platform": "Instagram",
-        "summary": "Creator reel by @sparkle_films (Cory Sparkuhl): 'Family ride, beachy breeze, and perfect comms with the @resoglobal Pilot Pro' — US lifestyle/ambassador-style content tagging the official account.",
-        "url": "https://www.instagram.com/resoglobal/"
-      },
-      {
-        "date": "2026-02-05",
-        "platform": "Instagram",
-        "summary": "Reviewer reel by @gixxer.jesus: 'Reso Pilot Pro Helmet Intercom: Why I'm Switching from Cardo' — conversion-story reel tagging @resoglobal, cites ~$500 price and 15-rider mesh pairing (66 likes, 4 comments).",
-        "url": "https://www.instagram.com/resoglobal/"
-      },
-      {
         "date": "2026-06-23",
         "platform": "X (Twitter, aggregated)",
         "summary": "Japanese riders reacting to Daytona's new RESO intercom lineup post comments including 'I'm thinking about switching' and 'wind noise isn't bothersome, that's nice' per Response.jp roundup of social reaction to the Japan launch.",
@@ -498,6 +474,24 @@
         "platform": "YouTube",
         "summary": "Motovlog review 'DAYTONA RESO PILOT PRO' frames it as a domestic-brand price disruptor challenging B+COM and Cardo in Japan, with hands-on verification of claims.",
         "url": "https://www.youtube.com/watch?v=fTgtkGGYRhA"
+      },
+      {
+        "date": "2026-07-01",
+        "platform": "Instagram",
+        "summary": "VOGE x RESO Yangshuo Fan Festival recap (15 likes) — OEM co-marketing with VOGE motorcycles.",
+        "url": "https://www.instagram.com/resoglobal/reel/DaO-vpTgCY4/"
+      },
+      {
+        "date": "2026-06-30",
+        "platform": "Instagram",
+        "summary": "'Wild peaks, rugged trails' off-road lifestyle post promoting the Reso Pilot (9 likes).",
+        "url": "https://www.instagram.com/resoglobal/p/DaNCejemc1W/"
+      },
+      {
+        "date": "2025-10-09",
+        "platform": "Instagram",
+        "summary": "Reso Pilot Pro launch reel (1.3K likes) with full spec list — 2.5km rider-to-rider, 12km group, software mesh, AI noise reduction ~150ms, IP67, up to 30 riders, 3-yr warranty; a commenter asks if it has a Cardo-like app.",
+        "url": "https://www.instagram.com/resoglobal/reel/DPnRmK9iFYj/"
       }
     ]
   },
