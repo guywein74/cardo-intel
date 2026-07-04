@@ -157,12 +157,15 @@ sections[0].innerHTML = `
 /* ---------- Products table ---------- */
 const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
 const YEARS=Array.from(new Set(PRODUCTS.map(p=>p.release_year).filter(y=>y))).sort((a,b)=>b-a);
+const TIER_ORDER=["flagship","premium","mid","entry","value"];
+const tiersFor=cat=>{const s=new Set(PRODUCTS.filter(p=>cat==="all"||p.cat===cat).map(p=>p.tier).filter(Boolean));return TIER_ORDER.filter(t=>s.has(t)).concat([...s].filter(t=>!TIER_ORDER.includes(t)))};
+const tierOpts=cat=>`<option value="all">All tiers</option>`+tiersFor(cat).map(t=>`<option>${esc(t)}</option>`).join("");
 let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fCat="all",fTier="all",fYear="all",fMesh=false,fSearch="";
 sections[1].innerHTML=`
   <div class="chips">
     ${BRANDS.map(b=>`<button class="chip on" data-b="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
     <select id="catSel"><option value="all">All categories</option><option value="communicator">Communicators</option><option value="smart_helmet">Smart helmets</option></select>
-    <select id="tierSel"><option value="all">All tiers</option><option>flagship</option><option>mid</option><option>entry</option></select>
+    <select id="tierSel">${tierOpts("all")}</select>
     <select id="yearSel"><option value="all">All years</option>${YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")}</select>
     <button class="chip" id="meshChip">Mesh only</button>
     <input type="search" id="srch" placeholder="Search product / feature…" style="flex:1;min-width:180px">
@@ -172,7 +175,7 @@ sections[1].innerHTML=`
   <table id="ptable"><thead><tr>${COLS.map(([k,l])=>`<th data-k="${k}">${l} <span class="arrow"></span></th>`).join("")}</tr></thead><tbody></tbody></table></div>
   <div class="small muted" style="margin-top:8px">Click a row for features & notes. Street price shown where verified; "—" = not published / not found.</div>`;
 sections[1].querySelectorAll(".chip[data-b]").forEach(c=>c.onclick=()=>{const b=c.dataset.b;c.classList.toggle("on");c.classList.contains("on")?fBrands.add(b):fBrands.delete(b);renderTable()});
-sections[1].querySelector("#catSel").onchange=e=>{fCat=e.target.value;renderTable()};
+sections[1].querySelector("#catSel").onchange=e=>{fCat=e.target.value;fTier="all";const ts=sections[1].querySelector("#tierSel");ts.innerHTML=tierOpts(fCat);ts.value="all";renderTable()};
 sections[1].querySelector("#tierSel").onchange=e=>{fTier=e.target.value;renderTable()};
 sections[1].querySelector("#yearSel").onchange=e=>{fYear=e.target.value;renderTable()};
 sections[1].querySelector("#meshChip").onclick=e=>{fMesh=!fMesh;e.target.classList.toggle("on",fMesh);renderTable()};
@@ -308,7 +311,7 @@ renderCompare();
 sections[4].innerHTML=`
   <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button></div>
   <div class="card"><div id="chart"></div>
-  <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry</span><span>hover for details</span></div></div>
+  <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship / premium</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry / value</span><span>hover for details</span></div></div>
   <h2>Price ladder — cheapest helmet-mount mesh unit per brand</h2>
   <div class="grid g4">${BRANDS.map(b=>{const m=b.products.filter(p=>/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")&&(p.street_price_usd??p.msrp_usd)!=null&&!/helmet|edgephones|headset|headphone|accessor/i.test(p.name));if(!m.length)return "";const c=m.reduce((a,p)=>((p.street_price_usd??p.msrp_usd)<(a.street_price_usd??a.msrp_usd)?p:a));return `<div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3><div style="font-size:26px;font-weight:800" class="price">${fmt$(c.street_price_usd??c.msrp_usd)}</div><div class="small muted">${esc(c.name)} — cheapest mesh-capable unit</div></div>`}).join("")}</div>`;
 let inclHelmets=false;
@@ -328,7 +331,7 @@ function drawChart(){
     ps.forEach((p,i)=>{
       const jitter=((i%3)-1)*22;
       const cx=bx[br]+jitter,cy=y(p.eff),c=BHEX[br];
-      const shape=p.tier==="flagship"?`<path d="M${cx} ${cy-7} L${cx+7} ${cy+6} L${cx-7} ${cy+6} Z" fill="${c}"/>`:p.tier==="mid"?`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" fill="${c}"/>`:`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}"/>`;
+      const shape=(p.tier==="flagship"||p.tier==="premium")?`<path d="M${cx} ${cy-7} L${cx+7} ${cy+6} L${cx-7} ${cy+6} Z" fill="${c}"/>`:p.tier==="mid"?`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" fill="${c}"/>`:`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}"/>`;
       s+=`<g class="pt" data-n="${esc(p.name)}" data-b="${br}" data-p="${p.eff}" data-m="${p.msrp_usd??""}" data-t="${p.tier}" style="cursor:pointer">${shape}</g>`;
     });
   });
