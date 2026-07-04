@@ -1,2 +1,5 @@
 .firecrawl/
 .claude/
+.ig_session.json
+ig_product_scan.py
+out/
