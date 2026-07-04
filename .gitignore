@@ -3,3 +3,4 @@
 .ig_session.json
 ig_product_scan.py
 out/
+.env.ig
