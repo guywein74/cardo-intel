@@ -364,17 +364,17 @@
       "url": "https://www.facebook.com/profile.php?id=61567279220678"
     },
     "reddit": {
-      "sentiment": "Essentially absent — multiple targeted searches (site:reddit.com, brand + subreddit queries) surfaced no notable Reso threads in r/motorcycles, r/MotorcycleGear or elsewhere as of July 2026",
+      "sentiment": "Small but growing presence as of mid-2026: organic threads now appear in r/motorcyclegear, r/PHMotorcycles and r/motorcycles (owner questions, Reso-vs-Cardo/Sena comparisons, cross-brand pairing questions). Sentiment from actual owners is positive on value, range-extension via hotspot (DuoSync) and noise reduction; typical hesitation is brand newness and small user base.",
       "common_praise": [],
       "common_complaints": [],
       "notable_threads": [],
       "url": "https://www.reddit.com/search/?q=reso+motorcycle+intercom"
     },
     "youtube": {
-      "channel": "youtube.com/@ResoSports (linked from official site, but URL returned 404 in July 2026 — link dead or channel renamed; no verified active official channel found)",
-      "subscribers": null,
+      "channel": "youtube.com/@ResoSport (\"Reso Sport\", 22 videos) — active official channel; earlier-noted @ResoSports link was a typo/dead variant",
+      "subscribers": 151,
       "notes": "Brand visibility on YouTube is reviewer-driven, not owned-channel-driven. Notable third-party videos: 'This Helmet Intercom WILL REPLACE Cardo (The RESO Pilot Pro)' (youtube.com/watch?v=aXYm4muUMfA); 'Cardo Packtalk killer from China? Reso Pilot Pro initial review and comparison' (APmtjBTqHhQ); unboxing/installation videos (lbdpKuu3-38, rrKQjPbmPuM); Spanish-language 2026 review 'Intercomunicador Reso Pilot Pro — ¿Vale la pena?' (tkWHimUlWR0). Verdicts skew positive on value, noise reduction and voice control; framed as a Cardo challenger.",
-      "url": "https://www.youtube.com/search?q=reso+sport+motorcycle+intercom"
+      "url": "https://www.youtube.com/@ResoSport"
     },
     "tiktok": {
       "handle": null,
@@ -382,7 +382,81 @@
       "notes": "No official Reso TikTok account linked from the company site or found in search. However, organic/dealer TikTok traction in SEA is significant: PH media account @insidemoto (Pilot Pro unboxing ASMR tagging 'RESO Philippines / RESO Link Ph'), Indonesian helmet retailer @istanahelmetofficial, dedicated TikTok discover pages for 'Reso Pilot Pro', 'Reso Pilot Pro review', and 'Reso Pilot Pro vs ASMAX' comparisons. TikTok chatter also benchmarks Reso against ASMAX, another Chinese challenger brand.",
       "url": "https://www.tiktok.com/search?q=reso+motorcycle+intercom"
     },
-    "summary": "Reso's social footprint is small, young, and SEA-centric. Facebook is the hub (regional pages + owner-run PH community group, ~2.1K followers on the PH page), matching the Philippines-first launch; Instagram (@resoglobal) is active but small; the official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides."
+    "summary": "Reso's social footprint is small, young, and SEA-centric. Facebook is the hub (regional pages + owner-run PH community group, ~2.1K followers on the PH page), matching the Philippines-first launch; Instagram (@resoglobal) is active but small; the official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides.",
+    "recent_posts": [
+      {
+        "date": "2026-06-30",
+        "platform": "Instagram",
+        "summary": "Official @resoglobal post: 'Wild peaks, rugged trails, ride together. No boundaries, pure adventure. Ride with RESO' — off-road lifestyle imagery pushing group riding (#OffRoadRiding #resopilot); low engagement (~7 likes).",
+        "url": "https://www.instagram.com/p/DaNCejemc1W/"
+      },
+      {
+        "date": "2026-06-29",
+        "platform": "Facebook",
+        "summary": "RESO Philippines page video: 'The destination is just part of the story... it's the laughs through the intercom' — emotional group-ride storytelling clip (posted within week of 2026-07-03; date approximate).",
+        "url": "https://www.facebook.com/resolink.ph/videos/1679620323150435/"
+      },
+      {
+        "date": "2026-06-29",
+        "platform": "Facebook",
+        "summary": "RESO Philippines page: 'FIND RESO NEAR YOU' — dealer-locator push telling riders where to buy/upgrade, evidence of expanding PH retail network (same week also posted an IP67 waterproofing post 'Don't check the weather, check your gear'; dates approximate).",
+        "url": "https://www.facebook.com/resolink.ph/posts/122164723532729220"
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "YouTube",
+        "summary": "Official Reso Sport channel: 'How to Connect RESO Pilot Lite with Pilot Pro & Neo — Full Step by Step Guide' — cross-model pairing tutorial supporting the new entry-level Pilot Lite (54 views).",
+        "url": "https://www.youtube.com/watch?v=JVG3wbhcltg"
+      },
+      {
+        "date": "2026-06-10",
+        "platform": "Facebook",
+        "summary": "RESO Philippines page video: 'Designed for the ride, proven on set — RESO goes beyond motorcycle intercoms' — positioning the intercom for film/production crew comms use beyond riding (posted 1-17 June window; date approximate).",
+        "url": "https://www.facebook.com/resolink.ph/videos/1284324127017009/"
+      },
+      {
+        "date": "2026-05-06",
+        "platform": "Instagram",
+        "summary": "Official @resoglobal post promoting the Reso Pilot Neo: 'Ride connected. Ride smarter' — mid-tier model pitch highlighting group communication, battery life and reliability.",
+        "url": "https://www.instagram.com/p/DX_YS6TAqcI/"
+      },
+      {
+        "date": "2026-04-29",
+        "platform": "YouTube",
+        "summary": "Official Reso Sport channel: 'Reso Pilot Lite | Camera Connection Tutorial' — how-to for pairing the budget Pilot Lite with action cameras (185 views).",
+        "url": "https://www.youtube.com/watch?v=tS-lUG_DHCE"
+      },
+      {
+        "date": "2026-04-21",
+        "platform": "YouTube",
+        "summary": "Official Reso Sport channel: 'How to Install Reso Pilot Lite? Full Tutorial' — installation walkthrough for the Pilot Lite launch (406 views, the channel's best-performing 2026 upload).",
+        "url": "https://www.youtube.com/watch?v=Thji0e4irCI"
+      },
+      {
+        "date": "2026-04-15",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Anyone uses Reso Pilot Pro?' — owner Q&A; replies praise the phone-hotspot extended-range (DuoSync) feature for urban riding; thread was auto-translated into multiple languages by Reddit (posted April 2026; exact day unknown).",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1sl0wiq/anyone_uses_reso_pilot_pro/"
+      },
+      {
+        "date": "2026-04-15",
+        "platform": "Reddit",
+        "summary": "r/PHMotorcycles thread 'Reso vs Cardo for mostly Solo rider?' — PH rider weighing Reso against Cardo for solo use with occasional group rides; shows Reso now in local consideration sets vs incumbents (posted April 2026; exact day unknown).",
+        "url": "https://www.reddit.com/r/PHMotorcycles/comments/1shkdtu/reso_vs_cardo_for_mostly_solo_rider/"
+      },
+      {
+        "date": "2026-03-10",
+        "platform": "Instagram",
+        "summary": "Creator reel by @sparkle_films (Cory Sparkuhl): 'Family ride, beachy breeze, and perfect comms with the @resoglobal Pilot Pro' — US lifestyle/ambassador-style content tagging the official account.",
+        "url": "https://www.instagram.com/reel/DVtU7KSgQQb/"
+      },
+      {
+        "date": "2026-02-05",
+        "platform": "Instagram",
+        "summary": "Reviewer reel by @gixxer.jesus: 'Reso Pilot Pro Helmet Intercom: Why I'm Switching from Cardo' — conversion-story reel tagging @resoglobal, cites ~$500 price and 15-rider mesh pairing (66 likes, 4 comments).",
+        "url": "https://www.instagram.com/reel/DUYhGYZEcVg/"
+      }
+    ]
   },
   "press_coverage": {
     "reviews": [

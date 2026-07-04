@@ -19,16 +19,61 @@
       "audio": "45mm Sound by JBL speakers, sound profiles, auto volume",
       "talk_time_hours": 13,
       "waterproof": "IP67",
-      "features": ["Crash detection via built-in IMU + phone (alerts emergency contact; region-limited, user-toggleable since fw 4.7)", "Auto On/Off", "Natural Voice Operation", "OTA updates via Cardo Connect app", "Music sharing", "Universal Bluetooth intercom bridging to other brands", "Air Mount magnetic mount", "Fast charge USB-C (20 min = 2 h talk)", "FM radio", "Mesh-Boost update: DMC groups to 31 riders, Remote Grouping, Public Mesh, VoIP Cellular Intercom"],
+      "features": [
+        "Crash detection via built-in IMU + phone (alerts emergency contact; region-limited, user-toggleable since fw 4.7)",
+        "Auto On/Off",
+        "Natural Voice Operation",
+        "OTA updates via Cardo Connect app",
+        "Music sharing",
+        "Universal Bluetooth intercom bridging to other brands",
+        "Air Mount magnetic mount",
+        "Fast charge USB-C (20 min = 2 h talk)",
+        "FM radio",
+        "Mesh-Boost update: DMC groups to 31 riders, Remote Grouping, Public Mesh, VoIP Cellular Intercom"
+      ],
       "release_year": 2024,
       "notes": "Launched May 2024 at $459, now $499.95. First Cardo with crash detection. 3-year warranty. Duo twin-pack released March 2026 (~8% saving). Max riders 15 native DMC, 31 after free Mesh-Boost OTA.",
       "dimensions": {
-        "form_factor": {"weight_g": 47, "dimensions_mm": "84 x 46 x 23", "profile": "slim", "aesthetics": "Low-profile flat black module, no external antenna, slim multi-color LED strip; reviewers call it 'lightweight and trim'"},
-        "ease_of_use": {"controls": "3 rubberized buttons (media/phone/intercom) + rear control wheel (volume/mute/power)", "mount": "Air Mount magnetic (patented) on clamp or adhesive cradle", "cradle": "Clamp with cradle + glue plate included", "voice_commands": "Natural Voice Operation (always-listening 'Hey Cardo') + Siri/Google Assistant passthrough", "screen": "no", "ota": "OTA firmware via Cardo Connect app, no cables", "app": "Cardo Connect (setup/settings) + Cardo Ride (rides/community); much improved, but post-update bugs reported by users"},
-        "sound": {"speaker_size_mm": 45, "speaker_brand": "JBL", "hd": true, "quality_verdict": "Best-in-class per reviewers - 45mm JBL 'arena-like' audio, louder and fuller than Edge"},
-        "intercom": {"type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom", "range_km": 1.6, "max_riders": 15, "auto_reconnect": true, "wideband_audio": true, "cross_brand": "Universal Bluetooth bridging - pairs with Sena/other brands by emulating a phone"},
-        "quality": {"build": "Solid premium feel; adds IMU crash-detection hardware; no notable QC complaint pattern yet", "ip_rating": "IP67", "service_reputation": "Cardo support widely criticized as slow/form-only (Trustpilot theme), though 3-yr warranty is class-leading", "warranty_years": 3},
-        "price": {"msrp_usd": 499.95, "street_usd": null, "segment_position": "Most expensive mainstream intercom on the market; rarely discounted"}
+        "form_factor": {
+          "weight_g": 47,
+          "dimensions_mm": "84 x 46 x 23",
+          "profile": "slim",
+          "aesthetics": "Low-profile flat black module, no external antenna, slim multi-color LED strip; reviewers call it 'lightweight and trim'"
+        },
+        "ease_of_use": {
+          "controls": "3 rubberized buttons (media/phone/intercom) + rear control wheel (volume/mute/power)",
+          "mount": "Air Mount magnetic (patented) on clamp or adhesive cradle",
+          "cradle": "Clamp with cradle + glue plate included",
+          "voice_commands": "Natural Voice Operation (always-listening 'Hey Cardo') + Siri/Google Assistant passthrough",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app, no cables",
+          "app": "Cardo Connect (setup/settings) + Cardo Ride (rides/community); much improved, but post-update bugs reported by users"
+        },
+        "sound": {
+          "speaker_size_mm": 45,
+          "speaker_brand": "JBL",
+          "hd": true,
+          "quality_verdict": "Best-in-class per reviewers - 45mm JBL 'arena-like' audio, louder and fuller than Edge"
+        },
+        "intercom": {
+          "type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom",
+          "range_km": 1.6,
+          "max_riders": 15,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Universal Bluetooth bridging - pairs with Sena/other brands by emulating a phone"
+        },
+        "quality": {
+          "build": "Solid premium feel; adds IMU crash-detection hardware; no notable QC complaint pattern yet",
+          "ip_rating": "IP67",
+          "service_reputation": "Cardo support widely criticized as slow/form-only (Trustpilot theme), though 3-yr warranty is class-leading",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": 499.95,
+          "street_usd": null,
+          "segment_position": "Most expensive mainstream intercom on the market; rarely discounted"
+        }
       }
     },
     {
@@ -42,16 +87,58 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP67",
-      "features": ["Natural Voice Operation", "OTA updates", "Music sharing", "Universal Bluetooth intercom bridging", "Air Mount magnetic mount", "Fast charge USB-C (20 min = 2 h talk)", "Mesh-Boost: 31-rider DMC, Remote Grouping, Public Mesh, Cellular Intercom"],
+      "features": [
+        "Natural Voice Operation",
+        "OTA updates",
+        "Music sharing",
+        "Universal Bluetooth intercom bridging",
+        "Air Mount magnetic mount",
+        "Fast charge USB-C (20 min = 2 h talk)",
+        "Mesh-Boost: 31-rider DMC, Remote Grouping, Public Mesh, Cellular Intercom"
+      ],
       "release_year": 2022,
       "notes": "Launched 2022 at $389.95; MSRP raised to $439.95 (2025). Street price $395.96 at Cycle Gear (10% off). 3-year warranty. ORV and KTM editions available. Edgephones ($159.95) extend same DMC network off-helmet.",
       "dimensions": {
-        "form_factor": {"weight_g": 47, "dimensions_mm": "84 x 46 x 23", "profile": "slim", "aesthetics": "Sleek antenna-less wedge, widely praised as the cleanest-looking flagship intercom; 40mm x 10mm speaker pucks"},
-        "ease_of_use": {"controls": "3 buttons (media/phone/intercom) + control wheel; FortNine notes buttons are small/tricky with thick gloves", "mount": "Air Mount magnetic (patented) on clamp or adhesive cradle", "cradle": "Clamp with cradle + glue plate included", "voice_commands": "Natural Voice Operation ('Hey Cardo') + Siri/Google Assistant passthrough", "screen": "no", "ota": "OTA firmware via Cardo Connect app, no cables", "app": "Cardo Connect + Cardo Ride; solid, though Sena's app rated simpler by comparison reviews"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "JBL", "hd": true, "quality_verdict": "Class-leading bass/volume per reviewers; Sena HD speakers rival it on vocal clarity"},
-        "intercom": {"type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom", "range_km": 1.6, "max_riders": 15, "auto_reconnect": true, "wideband_audio": true, "cross_brand": "Universal Bluetooth bridging - emulates a phone to pair with Sena and others"},
-        "quality": {"build": "Sturdy, weather-proven (round-the-world tests); isolated QC issues reported (dead mics)", "ip_rating": "IP67", "service_reputation": "Support responsiveness is the brand's weak point per Trustpilot/webBikeWorld; 3-yr warranty mitigates", "warranty_years": 3},
-        "price": {"msrp_usd": 439.95, "street_usd": 396, "segment_position": "Premium; priced above Sena 50S after 2025 hike but wins most head-to-heads"}
+        "form_factor": {
+          "weight_g": 47,
+          "dimensions_mm": "84 x 46 x 23",
+          "profile": "slim",
+          "aesthetics": "Sleek antenna-less wedge, widely praised as the cleanest-looking flagship intercom; 40mm x 10mm speaker pucks"
+        },
+        "ease_of_use": {
+          "controls": "3 buttons (media/phone/intercom) + control wheel; FortNine notes buttons are small/tricky with thick gloves",
+          "mount": "Air Mount magnetic (patented) on clamp or adhesive cradle",
+          "cradle": "Clamp with cradle + glue plate included",
+          "voice_commands": "Natural Voice Operation ('Hey Cardo') + Siri/Google Assistant passthrough",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app, no cables",
+          "app": "Cardo Connect + Cardo Ride; solid, though Sena's app rated simpler by comparison reviews"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": true,
+          "quality_verdict": "Class-leading bass/volume per reviewers; Sena HD speakers rival it on vocal clarity"
+        },
+        "intercom": {
+          "type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom",
+          "range_km": 1.6,
+          "max_riders": 15,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Universal Bluetooth bridging - emulates a phone to pair with Sena and others"
+        },
+        "quality": {
+          "build": "Sturdy, weather-proven (round-the-world tests); isolated QC issues reported (dead mics)",
+          "ip_rating": "IP67",
+          "service_reputation": "Support responsiveness is the brand's weak point per Trustpilot/webBikeWorld; 3-yr warranty mitigates",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": 439.95,
+          "street_usd": 396,
+          "segment_position": "Premium; priced above Sena 50S after 2025 hike but wins most head-to-heads"
+        }
       }
     },
     {
@@ -65,16 +152,57 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP67",
-      "features": ["Natural Voice Operation", "OTA updates", "Universal Bluetooth intercom bridging", "Fast charge USB-C (20 min = 2 h talk)", "Mesh-Boost 31-rider update", "Clip/plate mount (no Air Mount)"],
+      "features": [
+        "Natural Voice Operation",
+        "OTA updates",
+        "Universal Bluetooth intercom bridging",
+        "Fast charge USB-C (20 min = 2 h talk)",
+        "Mesh-Boost 31-rider update",
+        "Clip/plate mount (no Air Mount)"
+      ],
       "release_year": 2023,
       "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty.",
       "dimensions": {
-        "form_factor": {"weight_g": 47, "dimensions_mm": "84 x 46 x 23", "profile": "slim", "aesthetics": "Same slim antenna-less shell as Edge; slightly plainer finish"},
-        "ease_of_use": {"controls": "3 buttons + control wheel (same layout as Edge)", "mount": "Clamp with cradle or glue plate (no magnetic Air Mount - key difference vs Edge)", "cradle": "Clamp with cradle + glue plate included", "voice_commands": "Natural Voice Operation ('Hey Cardo') + assistant passthrough", "screen": "no", "ota": "OTA firmware via Cardo Connect app", "app": "Cardo Connect + Cardo Ride"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "JBL", "hd": true, "quality_verdict": "Identical JBL audio to Edge; roundups call it '85% of Edge performance at two-thirds the cost'"},
-        "intercom": {"type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom", "range_km": 1.6, "max_riders": 15, "auto_reconnect": true, "wideband_audio": true, "cross_brand": "Universal Bluetooth bridging to other brands"},
-        "quality": {"build": "Same proven Edge platform; IP67", "ip_rating": "IP67", "service_reputation": "Same Cardo support funnel criticisms apply; only 2-yr warranty", "warranty_years": 2},
-        "price": {"msrp_usd": 359.95, "street_usd": null, "segment_position": "Cheapest full-DMC mesh unit on the market - value flagship"}
+        "form_factor": {
+          "weight_g": 47,
+          "dimensions_mm": "84 x 46 x 23",
+          "profile": "slim",
+          "aesthetics": "Same slim antenna-less shell as Edge; slightly plainer finish"
+        },
+        "ease_of_use": {
+          "controls": "3 buttons + control wheel (same layout as Edge)",
+          "mount": "Clamp with cradle or glue plate (no magnetic Air Mount - key difference vs Edge)",
+          "cradle": "Clamp with cradle + glue plate included",
+          "voice_commands": "Natural Voice Operation ('Hey Cardo') + assistant passthrough",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app",
+          "app": "Cardo Connect + Cardo Ride"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": true,
+          "quality_verdict": "Identical JBL audio to Edge; roundups call it '85% of Edge performance at two-thirds the cost'"
+        },
+        "intercom": {
+          "type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom",
+          "range_km": 1.6,
+          "max_riders": 15,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Universal Bluetooth bridging to other brands"
+        },
+        "quality": {
+          "build": "Same proven Edge platform; IP67",
+          "ip_rating": "IP67",
+          "service_reputation": "Same Cardo support funnel criticisms apply; only 2-yr warranty",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 359.95,
+          "street_usd": null,
+          "segment_position": "Cheapest full-DMC mesh unit on the market - value flagship"
+        }
       }
     },
     {
@@ -88,16 +216,57 @@
       "audio": "40mm Sound by JBL speakers (not waterproof) + wired mic; supports wireless earbuds/AirPods",
       "talk_time_hours": 10,
       "waterproof": "IP67 (unit)",
-      "features": ["Natural Voice Operation", "OTA updates", "5 km total group range", "Operates to -20C", "Fast charge (20 min = 2 h)", "Single/Duo/Family 4-pack"],
+      "features": [
+        "Natural Voice Operation",
+        "OTA updates",
+        "5 km total group range",
+        "Operates to -20C",
+        "Fast charge (20 min = 2 h)",
+        "Single/Duo/Family 4-pack"
+      ],
       "release_year": 2024,
       "notes": "Non-moto expansion (ski, snowboard, cycling). 2-year warranty.",
       "dimensions": {
-        "form_factor": {"weight_g": null, "dimensions_mm": "", "profile": "slim", "aesthetics": "Packtalk-style module in black or white for ski/bike helmets; weight not published"},
-        "ease_of_use": {"controls": "Button + voice operation; designed for always-on, button-free use with gloves", "mount": "Helmet mounts for ski/cycling helmets (adhesive/strap); no moto Air Mount", "cradle": "", "voice_commands": "Natural Voice Operation, no buttons required", "screen": "no", "ota": "OTA via Cardo Connect app", "app": "Cardo Connect"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "JBL", "hd": null, "quality_verdict": "Same 40mm JBL as Packtalk, but supplied speakers are not waterproof; supports AirPods/wireless earbuds instead"},
-        "intercom": {"type": "DMC mesh, always-on", "range_km": 1, "max_riders": 15, "auto_reconnect": true, "wideband_audio": null, "cross_brand": "Connects wireless headphones; Bluetooth to phones"},
-        "quality": {"build": "Cold-rated to -20C; IP67 unit (speakers excluded)", "ip_rating": "IP67 (unit only)", "service_reputation": "Same Cardo support channel", "warranty_years": 2},
-        "price": {"msrp_usd": 269.95, "street_usd": null, "segment_position": "Unique category (outdoor/ski mesh comms) - few direct competitors"}
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "slim",
+          "aesthetics": "Packtalk-style module in black or white for ski/bike helmets; weight not published"
+        },
+        "ease_of_use": {
+          "controls": "Button + voice operation; designed for always-on, button-free use with gloves",
+          "mount": "Helmet mounts for ski/cycling helmets (adhesive/strap); no moto Air Mount",
+          "cradle": "",
+          "voice_commands": "Natural Voice Operation, no buttons required",
+          "screen": "no",
+          "ota": "OTA via Cardo Connect app",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": null,
+          "quality_verdict": "Same 40mm JBL as Packtalk, but supplied speakers are not waterproof; supports AirPods/wireless earbuds instead"
+        },
+        "intercom": {
+          "type": "DMC mesh, always-on",
+          "range_km": 1,
+          "max_riders": 15,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "Connects wireless headphones; Bluetooth to phones"
+        },
+        "quality": {
+          "build": "Cold-rated to -20C; IP67 unit (speakers excluded)",
+          "ip_rating": "IP67 (unit only)",
+          "service_reputation": "Same Cardo support channel",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 269.95,
+          "street_usd": null,
+          "segment_position": "Unique category (outdoor/ski mesh comms) - few direct competitors"
+        }
       }
     },
     {
@@ -111,16 +280,56 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "Waterproof per Cardo (IP65 per third-party spec listings)",
-      "features": ["Natural Voice Operation", "OTA updates", "Universal Bluetooth intercom bridging", "FM radio", "Fast charge USB-C"],
+      "features": [
+        "Natural Voice Operation",
+        "OTA updates",
+        "Universal Bluetooth intercom bridging",
+        "FM radio",
+        "Fast charge USB-C"
+      ],
       "release_year": 2021,
       "notes": "MSRP raised from ~$269.95 to $314.95 in 2025; street prices often near old MSRP. Shoei (4X-S) and HJC (HJC 4X, $299.95) integrated versions exist.",
       "dimensions": {
-        "form_factor": {"weight_g": 37, "dimensions_mm": "78 x 48 x 20", "profile": "slim", "aesthetics": "Compact hub, lighter and smaller than Packtalk; discreet on the helmet"},
-        "ease_of_use": {"controls": "3 ridged buttons (phone/music/connectivity) + clickable control wheel; wheel easy for volume but can mis-click with thick gloves", "mount": "Clamp with cradle or glue plate (no Air Mount)", "cradle": "Clamp with cradle + glue plate included", "voice_commands": "Natural Voice Operation - webBikeWorld called voice control the deciding factor vs Sena", "screen": "no", "ota": "OTA via Cardo Connect app", "app": "Cardo Connect"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "JBL", "hd": null, "quality_verdict": "Standout audio for its class - JBL 40mm; strongest sound under $300"},
-        "intercom": {"type": "Bluetooth 5.2 'Live Intercom' (no mesh)", "range_km": 1.2, "max_riders": 4, "auto_reconnect": null, "wideband_audio": null, "cross_brand": "Universal Bluetooth bridging to other brands"},
-        "quality": {"build": "Well-built; noise cancellation + auto volume; 'waterproof' claim without published IP number", "ip_rating": "None published by Cardo (IP65 per third-party listings)", "service_reputation": "Same Cardo support channel; 2-yr warranty", "warranty_years": 2},
-        "price": {"msrp_usd": 314.95, "street_usd": 270, "segment_position": "Upper-mid Bluetooth-only; post-2025 hike it now overlaps entry mesh rivals' pricing"}
+        "form_factor": {
+          "weight_g": 37,
+          "dimensions_mm": "78 x 48 x 20",
+          "profile": "slim",
+          "aesthetics": "Compact hub, lighter and smaller than Packtalk; discreet on the helmet"
+        },
+        "ease_of_use": {
+          "controls": "3 ridged buttons (phone/music/connectivity) + clickable control wheel; wheel easy for volume but can mis-click with thick gloves",
+          "mount": "Clamp with cradle or glue plate (no Air Mount)",
+          "cradle": "Clamp with cradle + glue plate included",
+          "voice_commands": "Natural Voice Operation - webBikeWorld called voice control the deciding factor vs Sena",
+          "screen": "no",
+          "ota": "OTA via Cardo Connect app",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": null,
+          "quality_verdict": "Standout audio for its class - JBL 40mm; strongest sound under $300"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.2 'Live Intercom' (no mesh)",
+          "range_km": 1.2,
+          "max_riders": 4,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": "Universal Bluetooth bridging to other brands"
+        },
+        "quality": {
+          "build": "Well-built; noise cancellation + auto volume; 'waterproof' claim without published IP number",
+          "ip_rating": "None published by Cardo (IP65 per third-party listings)",
+          "service_reputation": "Same Cardo support channel; 2-yr warranty",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 314.95,
+          "street_usd": 270,
+          "segment_position": "Upper-mid Bluetooth-only; post-2025 hike it now overlaps entry mesh rivals' pricing"
+        }
       }
     },
     {
@@ -134,16 +343,56 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "Waterproof per Cardo (IP65 per third-party spec listings)",
-      "features": ["Natural Voice Operation", "OTA updates", "Universal Bluetooth intercom bridging", "FM radio", "Fast charge USB-C"],
+      "features": [
+        "Natural Voice Operation",
+        "OTA updates",
+        "Universal Bluetooth intercom bridging",
+        "FM radio",
+        "Fast charge USB-C"
+      ],
       "release_year": 2021,
       "notes": "Rider+passenger / 2-rider use case. MSRP raised from $209.95 to $254.95 in 2025.",
       "dimensions": {
-        "form_factor": {"weight_g": 37, "dimensions_mm": "78 x 48 x 20 (same shell as Freecom 4x, per shared platform)", "profile": "slim", "aesthetics": "Identical compact hub to 4x"},
-        "ease_of_use": {"controls": "3 buttons + control wheel (Freecom platform)", "mount": "Clamp with cradle or glue plate", "cradle": "Clamp with cradle + glue plate included", "voice_commands": "Natural Voice Operation", "screen": "no", "ota": "OTA via Cardo Connect app", "app": "Cardo Connect"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "JBL", "hd": null, "quality_verdict": "Same JBL audio as 4x - strong for a 2-rider unit"},
-        "intercom": {"type": "Bluetooth 5.2 'Live Intercom' (no mesh)", "range_km": 0.8, "max_riders": 2, "auto_reconnect": null, "wideband_audio": null, "cross_brand": "Universal Bluetooth bridging to other brands"},
-        "quality": {"build": "Same Freecom platform; 'waterproof' claim, no published IP number", "ip_rating": "None published (IP65 per third-party listings)", "service_reputation": "Same Cardo support channel", "warranty_years": 2},
-        "price": {"msrp_usd": 254.95, "street_usd": 210, "segment_position": "Mid-price rider+passenger unit; JBL audio is its main differentiator vs cheaper 2-rider rivals"}
+        "form_factor": {
+          "weight_g": 37,
+          "dimensions_mm": "78 x 48 x 20 (same shell as Freecom 4x, per shared platform)",
+          "profile": "slim",
+          "aesthetics": "Identical compact hub to 4x"
+        },
+        "ease_of_use": {
+          "controls": "3 buttons + control wheel (Freecom platform)",
+          "mount": "Clamp with cradle or glue plate",
+          "cradle": "Clamp with cradle + glue plate included",
+          "voice_commands": "Natural Voice Operation",
+          "screen": "no",
+          "ota": "OTA via Cardo Connect app",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": null,
+          "quality_verdict": "Same JBL audio as 4x - strong for a 2-rider unit"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.2 'Live Intercom' (no mesh)",
+          "range_km": 0.8,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": "Universal Bluetooth bridging to other brands"
+        },
+        "quality": {
+          "build": "Same Freecom platform; 'waterproof' claim, no published IP number",
+          "ip_rating": "None published (IP65 per third-party listings)",
+          "service_reputation": "Same Cardo support channel",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 254.95,
+          "street_usd": 210,
+          "segment_position": "Mid-price rider+passenger unit; JBL audio is its main differentiator vs cheaper 2-rider rivals"
+        }
       }
     },
     {
@@ -157,16 +406,56 @@
       "audio": "40mm HD speakers (not JBL-branded), 3 sound profiles",
       "talk_time_hours": 13,
       "waterproof": "Waterproof per Cardo (no published IP rating)",
-      "features": ["OTA updates via app", "FM radio (6 presets)", "Voice commands / Siri and Google Assistant access", "Auto volume", "Universal Bluetooth connectivity"],
+      "features": [
+        "OTA updates via app",
+        "FM radio (6 presets)",
+        "Voice commands / Siri and Google Assistant access",
+        "Auto volume",
+        "Universal Bluetooth connectivity"
+      ],
       "release_year": 2021,
       "notes": "Budget line, 2-year warranty. HJC Spirit integrated version $149.95.",
       "dimensions": {
-        "form_factor": {"weight_g": 35, "dimensions_mm": "78 x 47 x 19 (Spirit shell; HD assumed same platform)", "profile": "slim", "aesthetics": "Smallest, plainest unit in the range"},
-        "ease_of_use": {"controls": "Button interface (count not published) + voice commands; no control wheel documented", "mount": "Clamp with cradle or glue plate", "cradle": "Clamp with cradle + glue plate included", "voice_commands": "Voice commands + Siri/Google Assistant access (no full Natural Voice set)", "screen": "no", "ota": "OTA via Cardo Connect app - unusual at this price", "app": "Cardo Connect"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "Cardo HD (not JBL)", "hd": true, "quality_verdict": "'Great sound at an affordable price' - 40mm HD speakers with 3 sound profiles, best budget audio in the range"},
-        "intercom": {"type": "Bluetooth 5.2 (no mesh)", "range_km": 0.6, "max_riders": 2, "auto_reconnect": null, "wideband_audio": true, "cross_brand": "Universal Bluetooth connectivity"},
-        "quality": {"build": "Budget build, 'waterproof' claim without IP number; noise cancellation + auto volume", "ip_rating": "None published", "service_reputation": "Same Cardo support channel", "warranty_years": 2},
-        "price": {"msrp_usd": 179.95, "street_usd": null, "segment_position": "Budget tier; competes with Sena entry units and Chinese brands on price"}
+        "form_factor": {
+          "weight_g": 35,
+          "dimensions_mm": "78 x 47 x 19 (Spirit shell; HD assumed same platform)",
+          "profile": "slim",
+          "aesthetics": "Smallest, plainest unit in the range"
+        },
+        "ease_of_use": {
+          "controls": "Button interface (count not published) + voice commands; no control wheel documented",
+          "mount": "Clamp with cradle or glue plate",
+          "cradle": "Clamp with cradle + glue plate included",
+          "voice_commands": "Voice commands + Siri/Google Assistant access (no full Natural Voice set)",
+          "screen": "no",
+          "ota": "OTA via Cardo Connect app - unusual at this price",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Cardo HD (not JBL)",
+          "hd": true,
+          "quality_verdict": "'Great sound at an affordable price' - 40mm HD speakers with 3 sound profiles, best budget audio in the range"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.2 (no mesh)",
+          "range_km": 0.6,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": true,
+          "cross_brand": "Universal Bluetooth connectivity"
+        },
+        "quality": {
+          "build": "Budget build, 'waterproof' claim without IP number; noise cancellation + auto volume",
+          "ip_rating": "None published",
+          "service_reputation": "Same Cardo support channel",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 179.95,
+          "street_usd": null,
+          "segment_position": "Budget tier; competes with Sena entry units and Chinese brands on price"
+        }
       }
     },
     {
@@ -180,16 +469,56 @@
       "audio": "32mm speakers, 3.5mm jack for custom earbuds",
       "talk_time_hours": null,
       "waterproof": "Waterproof per Cardo (no published IP rating)",
-      "features": ["OTA updates", "Universal Bluetooth bridging to other brands", "Music streaming with auto volume ducking", "Fast charge (20 min = 2 h talk)", "Charge-while-riding"],
+      "features": [
+        "OTA updates",
+        "Universal Bluetooth bridging to other brands",
+        "Music streaming with auto volume ducking",
+        "Fast charge (20 min = 2 h talk)",
+        "Charge-while-riding"
+      ],
       "release_year": 2021,
       "notes": "Entry price anchor of the range. 2-year warranty.",
       "dimensions": {
-        "form_factor": {"weight_g": 35, "dimensions_mm": "78 x 47 x 19", "profile": "slim", "aesthetics": "Minimal entry unit; 32mm speaker pucks"},
-        "ease_of_use": {"controls": "Button interface (count not published) + voice commands", "mount": "Clamp with cradle or glue plate", "cradle": "Clamp with cradle + glue plate included", "voice_commands": "Voice commands (basic)", "screen": "no", "ota": "OTA via Cardo Connect app - rare at $110", "app": "Cardo Connect"},
-        "sound": {"speaker_size_mm": 32, "speaker_brand": "Cardo (unbranded)", "hd": false, "quality_verdict": "Weakest audio in the range (32mm); 3.5mm jack lets users substitute earbuds"},
-        "intercom": {"type": "Bluetooth (no mesh)", "range_km": 0.4, "max_riders": 2, "auto_reconnect": null, "wideband_audio": null, "cross_brand": "Universal Bluetooth bridging to other brands"},
-        "quality": {"build": "Basic but from the same waterproof design language; charge-while-riding supported", "ip_rating": "None published", "service_reputation": "Same Cardo support channel", "warranty_years": 2},
-        "price": {"msrp_usd": 109.95, "street_usd": null, "segment_position": "Entry anchor; head-to-head with budget Chinese units (Fodsports, Lexin) on price"}
+        "form_factor": {
+          "weight_g": 35,
+          "dimensions_mm": "78 x 47 x 19",
+          "profile": "slim",
+          "aesthetics": "Minimal entry unit; 32mm speaker pucks"
+        },
+        "ease_of_use": {
+          "controls": "Button interface (count not published) + voice commands",
+          "mount": "Clamp with cradle or glue plate",
+          "cradle": "Clamp with cradle + glue plate included",
+          "voice_commands": "Voice commands (basic)",
+          "screen": "no",
+          "ota": "OTA via Cardo Connect app - rare at $110",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 32,
+          "speaker_brand": "Cardo (unbranded)",
+          "hd": false,
+          "quality_verdict": "Weakest audio in the range (32mm); 3.5mm jack lets users substitute earbuds"
+        },
+        "intercom": {
+          "type": "Bluetooth (no mesh)",
+          "range_km": 0.4,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": "Universal Bluetooth bridging to other brands"
+        },
+        "quality": {
+          "build": "Basic but from the same waterproof design language; charge-while-riding supported",
+          "ip_rating": "None published",
+          "service_reputation": "Same Cardo support channel",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 109.95,
+          "street_usd": null,
+          "segment_position": "Entry anchor; head-to-head with budget Chinese units (Fodsports, Lexin) on price"
+        }
       }
     },
     {
@@ -203,7 +532,10 @@
       "audio": "Over-ear headphones, Sound by JBL",
       "talk_time_hours": null,
       "waterproof": null,
-      "features": ["Off-helmet DMC communication for coaches/pit crews/parents", "ORV version available"],
+      "features": [
+        "Off-helmet DMC communication for coaches/pit crews/parents",
+        "ORV version available"
+      ],
       "release_year": 2023,
       "notes": "Accessory headphones, launched at $149.95, now $159.95."
     },
@@ -218,7 +550,13 @@
       "audio": "Integrated JBL-developed audio, standard Active Noise Cancellation",
       "talk_time_hours": null,
       "waterproof": null,
-      "features": ["Carbon-fiber composite shell", "Wireless charging, detachable/replaceable battery", "Hands-free voice control", "Drop-down sun visor, Pinlock, emergency-release cheek pads", "Serviceable/upgradable tech modules"],
+      "features": [
+        "Carbon-fiber composite shell",
+        "Wireless charging, detachable/replaceable battery",
+        "Hands-free voice control",
+        "Drop-down sun visor, Pinlock, emergency-release cheek pads",
+        "Serviceable/upgradable tech modules"
+      ],
       "release_year": 2026,
       "notes": "Cardo's first fully integrated road helmet; unveiled Jan 2026, on sale summer 2026. GT sibling: $949, fiberglass shell, ANC optional, smaller cable-charged battery."
     },
@@ -233,7 +571,11 @@
       "audio": "JBL-partnered audio components",
       "talk_time_hours": null,
       "waterproof": null,
-      "features": ["World's first integrated mesh motocross/off-road helmet", "Built on Leatt Moto 8.5 helmet platform", "Real-time comms without stopping; coaching and emergency alert use cases"],
+      "features": [
+        "World's first integrated mesh motocross/off-road helmet",
+        "Built on Leatt Moto 8.5 helmet platform",
+        "Real-time comms without stopping; coaching and emergency alert use cases"
+      ],
       "release_year": 2026,
       "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695."
     }
@@ -263,15 +605,60 @@
     "Entry-level Spirit/Freecom lines lack mesh entirely, exposing the low end to cheaper mesh-capable Chinese rivals"
   ],
   "recent_news": [
-    {"date": "2024-05-21", "headline": "Packtalk Pro launched ($459) - first Cardo with crash detection, Auto On/Off and 45mm JBL speakers", "source": "Cardo newsroom", "url": "https://www.prnewswire.com/news-releases/cardo-systems-releases-packtalk-pro-a-new-dawn-of-safety-sound-and-style-302149570.html"},
-    {"date": "2024-11-15", "headline": "'Year of the Mesh' / Mesh-Boost announced: free OTA expands DMC to 31 riders, adds Remote Grouping, Public Mesh and VoIP Cellular Intercom across 2nd-gen Packtalk line (rolled out through 2025)", "source": "CycleNews / Cardo", "url": "https://www.cyclenews.com/2024/11/article/cardo-announces-year-of-the-mesh/"},
-    {"date": "2025-02-08", "headline": "MSRP increases across the line (Edge to $439.95, Freecom 4x to $314.95, 2x to $254.95); Packtalk Custom and its subscription model discontinued with features unlocked free", "source": "Cardo newsroom", "url": "https://cardosystems.com/pages/support/packtalk-custom"},
-    {"date": "2025-02-15", "headline": "Cardo Connect app 8.3 + firmware 4.7: crash-detection false-positive fixes and on/off toggle, mic sensitivity settings, Korean language", "source": "Motorcycle Powersports News", "url": "https://www.motorcyclepowersportsnews.com/cardo-connect-app-unit-updates/"},
-    {"date": "2025-08-12", "headline": "Riser 'powered by Cardo' app major update: smarter navigation, partner deals, community features", "source": "CycleNews", "url": "https://www.cyclenews.com/2025/08/article/riser-powered-by-cardo-rolls-out-major-updates/"},
-    {"date": "2026-01-14", "headline": "Beyond GT ($949) and GTS ($1,199) unveiled - Cardo's first fully integrated smart helmets with ANC, 31-rider DMC, replaceable battery; shipping summer 2026", "source": "Cycle World / MCN", "url": "https://www.cycleworld.com/motorcycle-news/cardo-systems-debuts-beyond-gt-and-gts-helmets/"},
-    {"date": "2026-03-10", "headline": "Packtalk Pro Duo twin-pack released (~8% saving vs two singles)", "source": "MCN", "url": "https://www.motorcyclenews.com/bike-kit/news/2026-kit-news/march/cardo-packtalk-pro-dual-pack/"},
-    {"date": "2026-04-05", "headline": "Cardo Ride app relaunched as ride tracking/planning/community hub alongside Cardo Connect", "source": "Motorcycle Powersports News", "url": "https://www.motorcyclepowersportsnews.com/cardo-ride-app/"},
-    {"date": "2026-06-23", "headline": "Cardo Venture announced - world's first integrated mesh motocross/off-road helmet ($799), built on Leatt Moto 8.5 platform", "source": "Powersports Business / MCN", "url": "https://powersportsbusiness.com/top-stories/2026/06/24/cardo-enters-smart-helmet-segment-with-integrated-off-road-lid/"}
+    {
+      "date": "2024-05-21",
+      "headline": "Packtalk Pro launched ($459) - first Cardo with crash detection, Auto On/Off and 45mm JBL speakers",
+      "source": "Cardo newsroom",
+      "url": "https://www.prnewswire.com/news-releases/cardo-systems-releases-packtalk-pro-a-new-dawn-of-safety-sound-and-style-302149570.html"
+    },
+    {
+      "date": "2024-11-15",
+      "headline": "'Year of the Mesh' / Mesh-Boost announced: free OTA expands DMC to 31 riders, adds Remote Grouping, Public Mesh and VoIP Cellular Intercom across 2nd-gen Packtalk line (rolled out through 2025)",
+      "source": "CycleNews / Cardo",
+      "url": "https://www.cyclenews.com/2024/11/article/cardo-announces-year-of-the-mesh/"
+    },
+    {
+      "date": "2025-02-08",
+      "headline": "MSRP increases across the line (Edge to $439.95, Freecom 4x to $314.95, 2x to $254.95); Packtalk Custom and its subscription model discontinued with features unlocked free",
+      "source": "Cardo newsroom",
+      "url": "https://cardosystems.com/pages/support/packtalk-custom"
+    },
+    {
+      "date": "2025-02-15",
+      "headline": "Cardo Connect app 8.3 + firmware 4.7: crash-detection false-positive fixes and on/off toggle, mic sensitivity settings, Korean language",
+      "source": "Motorcycle Powersports News",
+      "url": "https://www.motorcyclepowersportsnews.com/cardo-connect-app-unit-updates/"
+    },
+    {
+      "date": "2025-08-12",
+      "headline": "Riser 'powered by Cardo' app major update: smarter navigation, partner deals, community features",
+      "source": "CycleNews",
+      "url": "https://www.cyclenews.com/2025/08/article/riser-powered-by-cardo-rolls-out-major-updates/"
+    },
+    {
+      "date": "2026-01-14",
+      "headline": "Beyond GT ($949) and GTS ($1,199) unveiled - Cardo's first fully integrated smart helmets with ANC, 31-rider DMC, replaceable battery; shipping summer 2026",
+      "source": "Cycle World / MCN",
+      "url": "https://www.cycleworld.com/motorcycle-news/cardo-systems-debuts-beyond-gt-and-gts-helmets/"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "Packtalk Pro Duo twin-pack released (~8% saving vs two singles)",
+      "source": "MCN",
+      "url": "https://www.motorcyclenews.com/bike-kit/news/2026-kit-news/march/cardo-packtalk-pro-dual-pack/"
+    },
+    {
+      "date": "2026-04-05",
+      "headline": "Cardo Ride app relaunched as ride tracking/planning/community hub alongside Cardo Connect",
+      "source": "Motorcycle Powersports News",
+      "url": "https://www.motorcyclepowersportsnews.com/cardo-ride-app/"
+    },
+    {
+      "date": "2026-06-23",
+      "headline": "Cardo Venture announced - world's first integrated mesh motocross/off-road helmet ($799), built on Leatt Moto 8.5 platform",
+      "source": "Powersports Business / MCN",
+      "url": "https://powersportsbusiness.com/top-stories/2026/06/24/cardo-enters-smart-helmet-segment-with-integrated-off-road-lid/"
+    }
   ],
   "social_media": {
     "instagram": {
@@ -310,9 +697,9 @@
     },
     "youtube": {
       "channel": "Cardo Systems (youtube.com/c/CardoSystemsGlobal)",
-      "subscribers": null,
+      "subscribers": 84800,
       "url": "https://www.youtube.com/c/CardoSystemsGlobal/",
-      "notes": "Subscriber count not retrievable (Social Blade returned 403). Content: setup/pairing tutorials, firmware how-tos, launch films (Beyond, Venture), rider stories; separate 'Cardo Outdoor' channel. Big-reviewer coverage on YouTube: FortNine (Packtalk 'best unit out there', with range-claim criticism), webBikeWorld, Bennetts, MCN - overwhelmingly favorable verdicts with price caveats."
+      "notes": "84.8K subscribers, ~1,000 videos (verified on-channel July 2026). Content: setup/pairing tutorials, firmware how-tos, launch films (Beyond, Venture), rider stories; separate 'Cardo Outdoor' channel. Big-reviewer coverage on YouTube: FortNine (Packtalk 'best unit out there', with range-claim criticism), webBikeWorld, Bennetts, MCN - overwhelmingly favorable verdicts with price caveats."
     },
     "tiktok": {
       "handle": "@cardosystems",
@@ -320,24 +707,200 @@
       "url": "https://www.tiktok.com/@cardosystems",
       "notes": "~1.3M followers, ~7.9M likes per Google-indexed profile (July 2026, not verifiable on-platform) - Cardo's largest social audience by far. Short-form rider humor, product explainers, EICMA/Beyond teasers; #cardo #cardofam hashtags; strongest engagement of any Cardo channel."
     },
-    "summary": "Cardo's social footprint is large and TikTok-led (~1.3M followers) with Instagram (~228K) as the core enthusiast channel; Facebook is fragmented across a global page, Cardo Outdoor (~116K) and an official PackTalk owners group. Community sentiment mirrors press: loved for mesh/audio/waterproofing, dinged for support responsiveness - Trustpilot holds ~1,900+ reviews with a heavy 'customer service is non-existent' complaint theme (exact TrustScore unverified, page blocks fetch), corroborating the weakness flagged by webBikeWorld. Support reputation is Cardo's clearest public soft spot despite dominant word-of-mouth."
+    "summary": "Cardo's social footprint is large and TikTok-led (~1.3M followers) with Instagram (~228K) as the core enthusiast channel; Facebook is fragmented across a global page, Cardo Outdoor (~116K) and an official PackTalk owners group. Community sentiment mirrors press: loved for mesh/audio/waterproofing, dinged for support responsiveness - Trustpilot holds ~1,900+ reviews with a heavy 'customer service is non-existent' complaint theme (exact TrustScore unverified, page blocks fetch), corroborating the weakness flagged by webBikeWorld. Support reputation is Cardo's clearest public soft spot despite dominant word-of-mouth.",
+    "recent_posts": [
+      {
+        "date": "2026-06-30",
+        "platform": "YouTube",
+        "summary": "Short 'Cardo install in under 60 seconds!' - rapid comm-unit install demo filmed at X Games (1,005 views in first days)",
+        "url": "https://www.youtube.com/watch?v=-wpmWRGapOo"
+      },
+      {
+        "date": "2026-06-30",
+        "platform": "Instagram",
+        "summary": "Reel 'Cardo comm install in under 1 minute!' from X Games activation, cross-posted with the YouTube short (300 likes)",
+        "url": "https://www.instagram.com/reel/DaNy8GAAEKw/"
+      },
+      {
+        "date": "2026-06-30",
+        "platform": "Instagram",
+        "summary": "Reel 'Communication built into the helmet, not bolted onto it' - Cardo Venture promo: Bluetooth+mesh integrated moto helmet, JBL sound, talk with up to 15 riders (284 likes)",
+        "url": "https://www.instagram.com/reel/DaNTim8jS3R/"
+      },
+      {
+        "date": "2026-06-24",
+        "platform": "YouTube",
+        "summary": "'Wired to Wireless Ep.3' - UTV Invasion event owner interview about the event and comms; part of Cardo's off-road/UTV content series (426 views)",
+        "url": "https://www.youtube.com/watch?v=IVFYULH-Rc8"
+      },
+      {
+        "date": "2026-06-24",
+        "platform": "Instagram",
+        "summary": "Venture launch post 'No shouting. No hand signals. No stopping.' driving traffic to link in bio - strongest recent IG engagement (862 likes)",
+        "url": "https://www.instagram.com/p/DZ-C_OnAL0Q/"
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "YouTube",
+        "summary": "Launch film 'Meet Cardo Venture. The world's first integrated off-road communication helmet' - flagship announcement of the Venture integrated mesh helmet (2,483 views)",
+        "url": "https://www.youtube.com/watch?v=674rRFEwReI"
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "Facebook",
+        "summary": "Video 'Meet Cardo Venture. The world's first integrated off-road communication helmet' - Venture launch announcement on the main CardoSystems page",
+        "url": "https://www.facebook.com/CardoSystems/videos/2873280283033705/"
+      },
+      {
+        "date": "2026-06-22",
+        "platform": "YouTube",
+        "summary": "Venture countdown teaser 'Tomorrow, everything changes. 24 hours to go, who is excited?' (685 views)",
+        "url": "https://www.youtube.com/watch?v=LjL5tOzJICc"
+      },
+      {
+        "date": "2026-06-18",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'What do you guys use instead of a cardo' - price-backlash discussion ('insane that cardos cost more than actual helmets'), 67 comments with users naming cheap earbud/alternative setups",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1u99jnu/what_do_you_guys_use_instead_of_a_cardo/"
+      },
+      {
+        "date": "2026-06-03",
+        "platform": "YouTube",
+        "summary": "'Off-Road Filming Setup | Communication for Camera Crews' - B2B-angle video on using Cardo comms for film crews; breakout performer with 61,123 views (vs ~500-2,500 typical)",
+        "url": "https://www.youtube.com/watch?v=rJt4pjaIUYI"
+      },
+      {
+        "date": "2026-05-25",
+        "platform": "Instagram",
+        "summary": "Reel 'That click sound. If you know, you know' - brand-love/UX meme content around the Cardo mount click (691 likes)",
+        "url": "https://www.instagram.com/reel/DYwf6GfEnWN/"
+      },
+      {
+        "date": "2026-05-15",
+        "platform": "Facebook Group",
+        "summary": "Owner-support thread in official 'Cardo Systems PackTalk and Edge Community' group: 'How to fix echo issue with Cardo Packtalk Edge and Apple CarPlay?' on a 2026 Harley CVO SG3 (date approximate, ~7 weeks before 2026-07-03 per indexed snippet)",
+        "url": "https://www.facebook.com/groups/1847605508861922/posts/4426487660973681/"
+      },
+      {
+        "date": "2026-05-03",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Any action camera thats good to pair with cardo?' - Freecom 4X + GoPro audio-recording integration question (4 comments)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1t2azgj/any_action_camera_thats_good_to_pair_with_cardo/"
+      },
+      {
+        "date": "2026-04-28",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Sena vs Cardo: Which motorcycle communication system actually works better?' - classic brand-war thread, 44 comments, Cardo praised as more open/compatible (score 4)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1sxpv5x/sena_vs_cardo_which_motorcycle_communication/"
+      },
+      {
+        "date": "2026-03-10",
+        "platform": "Facebook",
+        "summary": "Season-opener engagement post 'Season starts now. Which Cardo intercom are you running this season? Pro, Edge, Neo...' on the main CardoSystems page",
+        "url": "https://www.facebook.com/CardoSystems/posts/1348503017311308"
+      }
+    ]
   },
   "press_coverage": {
     "reviews": [
-      {"outlet": "webBikeWorld", "date": "2022-11-15", "product": "Packtalk Edge", "verdict": "'Best features available on the market'; praised voice control and cross-brand pairing; flagged intercom bugs, a dead mic in test duo, and warranty/customer-service dept 'needs improvement'", "url": "https://www.webbikeworld.com/cardo-packtalk-edge-communicator-review/"},
-      {"outlet": "webBikeWorld", "date": "2024-06-10", "product": "Packtalk Pro", "verdict": "'The Ultimate Bluetooth Intercom for Riders' - strongly positive", "url": "https://www.webbikeworld.com/cardo-packtalk-pro-review/"},
-      {"outlet": "FortNine", "date": "2023-03-15", "product": "Packtalk line", "verdict": "'The foolproof choice... best unit out there'; DMC praised; criticized exaggerated range claims (~800 m real vs 1.6 km) and glove-hostile buttons, confusing manual", "url": "https://fortnine.ca/en/best-motorcycle-communication-systems-2017"},
-      {"outlet": "Bennetts BikeSocial", "date": "2024-07-22", "product": "Packtalk Pro", "verdict": "Impressive flagship, crash detection novel, but 'GBP405 is a lot of money for what is essentially a gadget'", "url": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-technology/cardo-packtalk-pro-review-mesh-intercom"},
-      {"outlet": "MCN (Motorcycle News)", "date": "2024-09-18", "product": "Packtalk Pro / Edge", "verdict": "Pro 'much more than an intercom'; Edge 'king of comms?'; positive with price caveats; Sena-vs-Cardo verdict: 'not much to choose between them', Cardo unique on crash detection", "url": "https://www.motorcyclenews.com/bike-kit/communication/cardo-packtalk-pro-review/"},
-      {"outlet": "American Rider", "date": "2024-12-13", "product": "Packtalk Pro", "verdict": "AR Tested - positive; IMU crash detection highlighted as the headline upgrade", "url": "https://americanrider.com/motorcycle-reviews/ar-tested-cardo-packtalk-pro-communicator-review/2024/12/13"},
-      {"outlet": "Motorcycle Mojo", "date": "2025-02-14", "product": "Packtalk Pro/Edge/Neo", "verdict": "Positive multi-unit range review", "url": "https://motorcyclemojo.com/2025/02/cardo-packtalk-pro-edgeand-neo-communicators/"},
-      {"outlet": "ADVRider / Bike EXIF / Jalopnik / gStyle Mag", "date": "2024-08-20", "product": "Packtalk Pro", "verdict": "Uniformly positive long-term tests; Jalopnik: 'more of a change than it seems'; crash detection and auto on/off validated in real use", "url": "https://www.advrider.com/cardo-packtalk-pro-another-evolution-in-moto-comms/"},
-      {"outlet": "Cycle World", "date": "2026-01-15", "product": "Beyond GT/GTS helmets", "verdict": "Launch coverage - neutral-positive on Cardo's helmet-market entry", "url": "https://www.cycleworld.com/motorcycle-news/cardo-systems-debuts-beyond-gt-and-gts-helmets/"},
-      {"outlet": "Ultimate Motorcycling", "date": "2026-01-01", "product": "Beyond GT", "verdict": "'8 Fast Facts' first look - positive-curious; ANC, replaceable battery, upgradable modules noted", "url": "https://ultimatemotorcycling.com/2026/01/01/cardo-beyond-gt-smart-helmet-first-look-8-fast-facts/"},
-      {"outlet": "MCN / Visordown / New Atlas / Fortamoto", "date": "2026-01-16", "product": "Beyond GT/GTS helmets", "verdict": "Broadly positive launch coverage ('ditch your earplugs'); integrated-helmet skepticism acknowledged but serviceable components and replaceable battery credited as the answer", "url": "https://www.motorcyclenews.com/bike-kit/news/cardo-beyond-gt-and-gts-smart-helmets-unveiled/"},
-      {"outlet": "Powersports Business / Visordown / Torqued / Motorcycle Powersports News", "date": "2026-06-24", "product": "Venture MX helmet", "verdict": "Positive/novelty coverage of 'world's first integrated mesh motocross helmet' ($799, Leatt Moto 8.5 platform)", "url": "https://powersportsbusiness.com/top-stories/2026/06/24/cardo-enters-smart-helmet-segment-with-integrated-off-road-lid/"},
-      {"outlet": "RideApart", "date": "2023-08-01", "product": "Packtalk Custom", "verdict": "Critical coverage of the subscription model, updated when Cardo dropped mandatory subscriptions - the one clearly negative press cycle of recent years", "url": "https://www.rideapart.com/news/656493/cardo-packtalk-custom-ppf-packages/"},
-      {"outlet": "Motorcycle.com", "date": "2025-03-10", "product": "Edge / Pro / Edgephones / Beyond", "verdict": "MO Tested Edge review positive; consistently favorable news coverage of every launch", "url": "https://www.motorcycle.com/products/mo-tested-cardo-packtalk-edge-review"}
+      {
+        "outlet": "webBikeWorld",
+        "date": "2022-11-15",
+        "product": "Packtalk Edge",
+        "verdict": "'Best features available on the market'; praised voice control and cross-brand pairing; flagged intercom bugs, a dead mic in test duo, and warranty/customer-service dept 'needs improvement'",
+        "url": "https://www.webbikeworld.com/cardo-packtalk-edge-communicator-review/"
+      },
+      {
+        "outlet": "webBikeWorld",
+        "date": "2024-06-10",
+        "product": "Packtalk Pro",
+        "verdict": "'The Ultimate Bluetooth Intercom for Riders' - strongly positive",
+        "url": "https://www.webbikeworld.com/cardo-packtalk-pro-review/"
+      },
+      {
+        "outlet": "FortNine",
+        "date": "2023-03-15",
+        "product": "Packtalk line",
+        "verdict": "'The foolproof choice... best unit out there'; DMC praised; criticized exaggerated range claims (~800 m real vs 1.6 km) and glove-hostile buttons, confusing manual",
+        "url": "https://fortnine.ca/en/best-motorcycle-communication-systems-2017"
+      },
+      {
+        "outlet": "Bennetts BikeSocial",
+        "date": "2024-07-22",
+        "product": "Packtalk Pro",
+        "verdict": "Impressive flagship, crash detection novel, but 'GBP405 is a lot of money for what is essentially a gadget'",
+        "url": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-technology/cardo-packtalk-pro-review-mesh-intercom"
+      },
+      {
+        "outlet": "MCN (Motorcycle News)",
+        "date": "2024-09-18",
+        "product": "Packtalk Pro / Edge",
+        "verdict": "Pro 'much more than an intercom'; Edge 'king of comms?'; positive with price caveats; Sena-vs-Cardo verdict: 'not much to choose between them', Cardo unique on crash detection",
+        "url": "https://www.motorcyclenews.com/bike-kit/communication/cardo-packtalk-pro-review/"
+      },
+      {
+        "outlet": "American Rider",
+        "date": "2024-12-13",
+        "product": "Packtalk Pro",
+        "verdict": "AR Tested - positive; IMU crash detection highlighted as the headline upgrade",
+        "url": "https://americanrider.com/motorcycle-reviews/ar-tested-cardo-packtalk-pro-communicator-review/2024/12/13"
+      },
+      {
+        "outlet": "Motorcycle Mojo",
+        "date": "2025-02-14",
+        "product": "Packtalk Pro/Edge/Neo",
+        "verdict": "Positive multi-unit range review",
+        "url": "https://motorcyclemojo.com/2025/02/cardo-packtalk-pro-edgeand-neo-communicators/"
+      },
+      {
+        "outlet": "ADVRider / Bike EXIF / Jalopnik / gStyle Mag",
+        "date": "2024-08-20",
+        "product": "Packtalk Pro",
+        "verdict": "Uniformly positive long-term tests; Jalopnik: 'more of a change than it seems'; crash detection and auto on/off validated in real use",
+        "url": "https://www.advrider.com/cardo-packtalk-pro-another-evolution-in-moto-comms/"
+      },
+      {
+        "outlet": "Cycle World",
+        "date": "2026-01-15",
+        "product": "Beyond GT/GTS helmets",
+        "verdict": "Launch coverage - neutral-positive on Cardo's helmet-market entry",
+        "url": "https://www.cycleworld.com/motorcycle-news/cardo-systems-debuts-beyond-gt-and-gts-helmets/"
+      },
+      {
+        "outlet": "Ultimate Motorcycling",
+        "date": "2026-01-01",
+        "product": "Beyond GT",
+        "verdict": "'8 Fast Facts' first look - positive-curious; ANC, replaceable battery, upgradable modules noted",
+        "url": "https://ultimatemotorcycling.com/2026/01/01/cardo-beyond-gt-smart-helmet-first-look-8-fast-facts/"
+      },
+      {
+        "outlet": "MCN / Visordown / New Atlas / Fortamoto",
+        "date": "2026-01-16",
+        "product": "Beyond GT/GTS helmets",
+        "verdict": "Broadly positive launch coverage ('ditch your earplugs'); integrated-helmet skepticism acknowledged but serviceable components and replaceable battery credited as the answer",
+        "url": "https://www.motorcyclenews.com/bike-kit/news/cardo-beyond-gt-and-gts-smart-helmets-unveiled/"
+      },
+      {
+        "outlet": "Powersports Business / Visordown / Torqued / Motorcycle Powersports News",
+        "date": "2026-06-24",
+        "product": "Venture MX helmet",
+        "verdict": "Positive/novelty coverage of 'world's first integrated mesh motocross helmet' ($799, Leatt Moto 8.5 platform)",
+        "url": "https://powersportsbusiness.com/top-stories/2026/06/24/cardo-enters-smart-helmet-segment-with-integrated-off-road-lid/"
+      },
+      {
+        "outlet": "RideApart",
+        "date": "2023-08-01",
+        "product": "Packtalk Custom",
+        "verdict": "Critical coverage of the subscription model, updated when Cardo dropped mandatory subscriptions - the one clearly negative press cycle of recent years",
+        "url": "https://www.rideapart.com/news/656493/cardo-packtalk-custom-ppf-packages/"
+      },
+      {
+        "outlet": "Motorcycle.com",
+        "date": "2025-03-10",
+        "product": "Edge / Pro / Edgephones / Beyond",
+        "verdict": "MO Tested Edge review positive; consistently favorable news coverage of every launch",
+        "url": "https://www.motorcycle.com/products/mo-tested-cardo-packtalk-edge-review"
+      }
     ],
     "awards": [
       "Packtalk Edge named best overall motorcycle intercom of 2026 and best rider-to-pillion intercom in multiple independent roundups (Bikenrider, Big Bike Tours, madornomad, bikergirllife)",

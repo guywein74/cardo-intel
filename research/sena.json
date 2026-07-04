@@ -19,16 +19,60 @@
       "audio": "Sound by Bose (WaveForm Audio Engine, SoundDesign Tuning), 40mm speakers",
       "talk_time_hours": 27,
       "waterproof": "IPX7",
-      "features": ["Wave cellular intercom (unlimited range/riders over LTE)", "Open Mesh: virtually unlimited riders on 6 channels; Group Mesh 24", "AI-based noise cancellation", "Voice commands", "OTA updates via Sena Motorcycles app", "FM radio", "Music sharing", "Fast charge (1.5h full)", "Limited lifetime warranty on main unit (battery/mount 5 yr)"],
+      "features": [
+        "Wave cellular intercom (unlimited range/riders over LTE)",
+        "Open Mesh: virtually unlimited riders on 6 channels; Group Mesh 24",
+        "AI-based noise cancellation",
+        "Voice commands",
+        "OTA updates via Sena Motorcycles app",
+        "FM radio",
+        "Music sharing",
+        "Fast charge (1.5h full)",
+        "Limited lifetime warranty on main unit (battery/mount 5 yr)"
+      ],
       "release_year": 2026,
       "notes": "Launched May 2026; dual pack $879. Talk time 27h Bluetooth / 19h Mesh. MCN: 'considerably cheaper than Cardo's flagship'. First Sena with lifetime warranty.",
       "dimensions": {
-        "form_factor": {"weight_g": 68, "dimensions_mm": "94 x 52 x 27", "profile": "bulky", "aesthetics": "Same large flagship body as the 60S with Bose co-branding; reviewers call the 60-series shell bulky on the helmet"},
-        "ease_of_use": {"controls": "scroll wheel (jog dial) + buttons, carried over from 60S", "mount": "clamp; glued/adhesive mounting plate alternative", "cradle": "", "voice_commands": "Multi-language voice commands ('Hey Sena')", "screen": "no", "ota": "OTA via Sena Motorcycles app - no WiFi adapter needed", "app": "Sena Motorcycles app (well reviewed) + separate Wave app for cellular intercom (bug reports through 2025)"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "Bose (WaveForm Audio Engine, SoundDesign Tuning); 9 mm-thick drivers", "hd": true, "quality_verdict": "Too new for reviewer consensus (May 2026 launch); Bose tuning is the headline claim against Cardo/JBL"},
-        "intercom": {"type": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular", "range_km": 2, "max_riders": 24, "auto_reconnect": true, "wideband_audio": null, "cross_brand": "Universal Intercom (HFP) for non-Sena units; Cardo's Open Bluetooth Intercom allows one-button pairing (one-way limitations reported by MCN)"},
-        "quality": {"build": "Premium flagship build; no long-term verdicts yet", "ip_rating": "IPX7", "service_reputation": "Ticket-based support via sena.com; limited lifetime warranty on main unit is a category first (battery/mount 5 yr)", "warranty_years": null},
-        "price": {"msrp_usd": 459, "street_usd": 459, "segment_position": "Undercuts Cardo's flagship tier while adding Bose audio + lifetime warranty"}
+        "form_factor": {
+          "weight_g": 68,
+          "dimensions_mm": "94 x 52 x 27",
+          "profile": "bulky",
+          "aesthetics": "Same large flagship body as the 60S with Bose co-branding; reviewers call the 60-series shell bulky on the helmet"
+        },
+        "ease_of_use": {
+          "controls": "scroll wheel (jog dial) + buttons, carried over from 60S",
+          "mount": "clamp; glued/adhesive mounting plate alternative",
+          "cradle": "",
+          "voice_commands": "Multi-language voice commands ('Hey Sena')",
+          "screen": "no",
+          "ota": "OTA via Sena Motorcycles app - no WiFi adapter needed",
+          "app": "Sena Motorcycles app (well reviewed) + separate Wave app for cellular intercom (bug reports through 2025)"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Bose (WaveForm Audio Engine, SoundDesign Tuning); 9 mm-thick drivers",
+          "hd": true,
+          "quality_verdict": "Too new for reviewer consensus (May 2026 launch); Bose tuning is the headline claim against Cardo/JBL"
+        },
+        "intercom": {
+          "type": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular",
+          "range_km": 2,
+          "max_riders": 24,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "Universal Intercom (HFP) for non-Sena units; Cardo's Open Bluetooth Intercom allows one-button pairing (one-way limitations reported by MCN)"
+        },
+        "quality": {
+          "build": "Premium flagship build; no long-term verdicts yet",
+          "ip_rating": "IPX7",
+          "service_reputation": "Ticket-based support via sena.com; limited lifetime warranty on main unit is a category first (battery/mount 5 yr)",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": 459,
+          "street_usd": 459,
+          "segment_position": "Undercuts Cardo's flagship tier while adding Bose audio + lifetime warranty"
+        }
       }
     },
     {
@@ -42,16 +86,60 @@
       "audio": "2nd-generation SOUND BY Harman Kardon, 40mm speakers",
       "talk_time_hours": 24,
       "waterproof": "IPX7 (submersible 1m/30min)",
-      "features": ["World-first Wave cellular intercom (unlimited range)", "Open Mesh virtually unlimited / Group Mesh 24", "AI-based noise cancellation", "Dual-core CPU", "Voice commands", "OTA updates", "RideGlow customizable LED", "Integrated LED flashlight", "3-year warranty"],
+      "features": [
+        "World-first Wave cellular intercom (unlimited range)",
+        "Open Mesh virtually unlimited / Group Mesh 24",
+        "AI-based noise cancellation",
+        "Dual-core CPU",
+        "Voice commands",
+        "OTA updates",
+        "RideGlow customizable LED",
+        "Integrated LED flashlight",
+        "3-year warranty"
+      ],
       "release_year": 2024,
       "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Now discounted ~20% ($351) on Sena's US store after EVO launch. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h.",
       "dimensions": {
-        "form_factor": {"weight_g": 68, "dimensions_mm": "94 x 52 x 27", "profile": "bulky", "aesthetics": "Large unit with customizable RideGlow LED strip and built-in flashlight; MCN's main con after 12 months was bulk"},
-        "ease_of_use": {"controls": "scroll wheel (jog dial) + buttons; MCN found it easy to use, others find wheel fiddly with gloves", "mount": "clamp; glued surface mounting plate + double-sided adhesive alternatives (product page also references a magnetic system - unverified, see md notes)", "cradle": "", "voice_commands": "Multi-language voice commands ('Hey Sena')", "screen": "no", "ota": "OTA via Sena Motorcycles app - first Sena generation without the WiFi adapter requirement", "app": "Sena Motorcycles app (good) + separate Wave app (audio-routing bugs reported by MCN)"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "Harman Kardon 2nd generation; 8.6 mm-thick drivers", "hd": true, "quality_verdict": "'Excellent sound quality' (MCN 4/5, 12 months); noise cancellation effective when speaking but AI NC degrades in groups above ~80 km/h (1000PS)"},
-        "intercom": {"type": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular", "range_km": 2, "max_riders": 24, "auto_reconnect": true, "wideband_audio": null, "cross_brand": "Universal Intercom (HFP); Cardo Open Bluetooth Intercom pairing works but MCN reports it behaves one-way"},
-        "quality": {"build": "Solid and fully submersible (IPX7, 1m/30min); survived MCN's 12-month/9,000-mile test", "ip_rating": "IPX7", "service_reputation": "Ticket-based support; forum users perceive firmware fixes as slow", "warranty_years": 3},
-        "price": {"msrp_usd": 439, "street_usd": 351, "segment_position": "Flagship priced below Cardo Packtalk Pro; now discounted ~20% post-EVO"}
+        "form_factor": {
+          "weight_g": 68,
+          "dimensions_mm": "94 x 52 x 27",
+          "profile": "bulky",
+          "aesthetics": "Large unit with customizable RideGlow LED strip and built-in flashlight; MCN's main con after 12 months was bulk"
+        },
+        "ease_of_use": {
+          "controls": "scroll wheel (jog dial) + buttons; MCN found it easy to use, others find wheel fiddly with gloves",
+          "mount": "clamp; glued surface mounting plate + double-sided adhesive alternatives (product page also references a magnetic system - unverified, see md notes)",
+          "cradle": "",
+          "voice_commands": "Multi-language voice commands ('Hey Sena')",
+          "screen": "no",
+          "ota": "OTA via Sena Motorcycles app - first Sena generation without the WiFi adapter requirement",
+          "app": "Sena Motorcycles app (good) + separate Wave app (audio-routing bugs reported by MCN)"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Harman Kardon 2nd generation; 8.6 mm-thick drivers",
+          "hd": true,
+          "quality_verdict": "'Excellent sound quality' (MCN 4/5, 12 months); noise cancellation effective when speaking but AI NC degrades in groups above ~80 km/h (1000PS)"
+        },
+        "intercom": {
+          "type": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular",
+          "range_km": 2,
+          "max_riders": 24,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "Universal Intercom (HFP); Cardo Open Bluetooth Intercom pairing works but MCN reports it behaves one-way"
+        },
+        "quality": {
+          "build": "Solid and fully submersible (IPX7, 1m/30min); survived MCN's 12-month/9,000-mile test",
+          "ip_rating": "IPX7",
+          "service_reputation": "Ticket-based support; forum users perceive firmware fixes as slow",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": 439,
+          "street_usd": 351,
+          "segment_position": "Flagship priced below Cardo Packtalk Pro; now discounted ~20% post-EVO"
+        }
       }
     },
     {
@@ -65,16 +153,59 @@
       "audio": null,
       "talk_time_hours": null,
       "waterproof": "IPX7",
-      "features": ["3-way joystick replacing scroll wheel", "Dedicated Wave button (customizable via app)", "AI-based noise reduction (AINR)", "Enhanced voice commands", "Wireless charging", "Automatic on/off", "Magnetic mount with Pogo pins", "Removable faceplates"],
+      "features": [
+        "3-way joystick replacing scroll wheel",
+        "Dedicated Wave button (customizable via app)",
+        "AI-based noise reduction (AINR)",
+        "Enhanced voice commands",
+        "Wireless charging",
+        "Automatic on/off",
+        "Magnetic mount with Pogo pins",
+        "Removable faceplates"
+      ],
       "release_year": 2026,
       "notes": "Unveiled at EICMA Nov 2025; expected Q2 2026. Pricing not yet announced. Part of full six-product range overhaul.",
       "dimensions": {
-        "form_factor": {"weight_g": null, "dimensions_mm": "", "profile": "slim", "aesthetics": "Smaller than the 60S per MCN's EICMA first look, with removable/customizable faceplates"},
-        "ease_of_use": {"controls": "3-way joystick (replaces scroll wheel; pitched as easier with gloves) + dedicated customizable Wave button", "mount": "magnetic mount with Pogo-pin connector", "cradle": "magnetic Pogo-pin cradle", "voice_commands": "Enhanced voice commands (per Sena announcement)", "screen": "no", "ota": "expected via Sena Motorcycles app (unconfirmed)", "app": "Sena Motorcycles app"},
-        "sound": {"speaker_size_mm": null, "speaker_brand": "", "hd": null, "quality_verdict": "Not yet reviewed; audio partner not announced"},
-        "intercom": {"type": "Mesh 3.0 + Bluetooth + Wave support", "range_km": null, "max_riders": null, "auto_reconnect": true, "wideband_audio": null, "cross_brand": "expected Universal Intercom (unconfirmed)"},
-        "quality": {"build": "Pre-release - adds wireless charging and automatic on/off", "ip_rating": "IPX7 (claimed)", "service_reputation": "n/a - not shipped", "warranty_years": null},
-        "price": {"msrp_usd": null, "street_usd": null, "segment_position": "Flagship expansion above/alongside 60S EVO; pricing TBA at Q2 2026 launch"}
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "slim",
+          "aesthetics": "Smaller than the 60S per MCN's EICMA first look, with removable/customizable faceplates"
+        },
+        "ease_of_use": {
+          "controls": "3-way joystick (replaces scroll wheel; pitched as easier with gloves) + dedicated customizable Wave button",
+          "mount": "magnetic mount with Pogo-pin connector",
+          "cradle": "magnetic Pogo-pin cradle",
+          "voice_commands": "Enhanced voice commands (per Sena announcement)",
+          "screen": "no",
+          "ota": "expected via Sena Motorcycles app (unconfirmed)",
+          "app": "Sena Motorcycles app"
+        },
+        "sound": {
+          "speaker_size_mm": null,
+          "speaker_brand": "",
+          "hd": null,
+          "quality_verdict": "Not yet reviewed; audio partner not announced"
+        },
+        "intercom": {
+          "type": "Mesh 3.0 + Bluetooth + Wave support",
+          "range_km": null,
+          "max_riders": null,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "expected Universal Intercom (unconfirmed)"
+        },
+        "quality": {
+          "build": "Pre-release - adds wireless charging and automatic on/off",
+          "ip_rating": "IPX7 (claimed)",
+          "service_reputation": "n/a - not shipped",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": null,
+          "street_usd": null,
+          "segment_position": "Flagship expansion above/alongside 60S EVO; pricing TBA at Q2 2026 launch"
+        }
       }
     },
     {
@@ -88,16 +219,59 @@
       "audio": "SOUND BY Harman Kardon 40mm speakers + HK-tuned mic (2022 HK edition)",
       "talk_time_hours": 13,
       "waterproof": "Water-resistant (no official IP rating)",
-      "features": ["Group Mesh 24 riders up to 8 km (multi-hop, min 6 riders)", "Open Mesh unlimited", "Jog-dial control", "Voice commands (Hey Sena, Siri/Google)", "Music sharing", "Universal Bluetooth intercom pairing", "OTA updates via WiFi adapter", "Wave intercom support added via app"],
+      "features": [
+        "Group Mesh 24 riders up to 8 km (multi-hop, min 6 riders)",
+        "Open Mesh unlimited",
+        "Jog-dial control",
+        "Voice commands (Hey Sena, Siri/Google)",
+        "Music sharing",
+        "Universal Bluetooth intercom pairing",
+        "OTA updates via WiFi adapter",
+        "Wave intercom support added via app"
+      ],
       "release_year": 2020,
       "notes": "Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands.",
       "dimensions": {
-        "form_factor": {"weight_g": 64, "dimensions_mm": "102 x 56 x 27", "profile": "medium", "aesthetics": "Angular body dominated by a large glove-friendly jog dial; dated vs 2024-26 designs"},
-        "ease_of_use": {"controls": "jog dial + phone/ambient buttons", "mount": "clamp; glued surface mounting plate alternative", "cradle": "", "voice_commands": "'Hey Sena' + Siri/Google Assistant access, 8 languages", "screen": "no", "ota": "requires the included Sena WiFi Adapter (USB dongle) for automatic firmware installs - no direct app OTA", "app": "Sena Motorcycles app; Wave app support added later (buggy per user reports)"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "SOUND BY Harman Kardon (7.2 mm-thick drivers, HK-tuned mic on 2022 edition)", "hd": true, "quality_verdict": "Well regarded, generally rated a step behind Cardo's 45 mm JBL set in head-to-heads"},
-        "intercom": {"type": "Mesh 2.0 + Bluetooth 5.0 (current Sena spec page now lists Mesh 3.0 - ambiguity flagged in md)", "range_km": 2, "max_riders": 24, "auto_reconnect": true, "wideband_audio": true, "cross_brand": "Universal Intercom (HFP) for non-Sena; Cardo one-button Open Bluetooth Intercom pairing since 2024"},
-        "quality": {"build": "Sturdy but only water-resistant - the known gap vs Cardo IP67; 50-series hardware proven over 5+ years", "ip_rating": "water-resistant (no IP rating published)", "service_reputation": "Firmware v2.7 backlash dented confidence; support is ticket-based", "warranty_years": 3},
-        "price": {"msrp_usd": 379, "street_usd": 341, "segment_position": "Mid-tier vs Cardo Packtalk Edge/Neo; aging and expected to be discounted as replacements land"}
+        "form_factor": {
+          "weight_g": 64,
+          "dimensions_mm": "102 x 56 x 27",
+          "profile": "medium",
+          "aesthetics": "Angular body dominated by a large glove-friendly jog dial; dated vs 2024-26 designs"
+        },
+        "ease_of_use": {
+          "controls": "jog dial + phone/ambient buttons",
+          "mount": "clamp; glued surface mounting plate alternative",
+          "cradle": "",
+          "voice_commands": "'Hey Sena' + Siri/Google Assistant access, 8 languages",
+          "screen": "no",
+          "ota": "requires the included Sena WiFi Adapter (USB dongle) for automatic firmware installs - no direct app OTA",
+          "app": "Sena Motorcycles app; Wave app support added later (buggy per user reports)"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "SOUND BY Harman Kardon (7.2 mm-thick drivers, HK-tuned mic on 2022 edition)",
+          "hd": true,
+          "quality_verdict": "Well regarded, generally rated a step behind Cardo's 45 mm JBL set in head-to-heads"
+        },
+        "intercom": {
+          "type": "Mesh 2.0 + Bluetooth 5.0 (current Sena spec page now lists Mesh 3.0 - ambiguity flagged in md)",
+          "range_km": 2,
+          "max_riders": 24,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Universal Intercom (HFP) for non-Sena; Cardo one-button Open Bluetooth Intercom pairing since 2024"
+        },
+        "quality": {
+          "build": "Sturdy but only water-resistant - the known gap vs Cardo IP67; 50-series hardware proven over 5+ years",
+          "ip_rating": "water-resistant (no IP rating published)",
+          "service_reputation": "Firmware v2.7 backlash dented confidence; support is ticket-based",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": 379,
+          "street_usd": 341,
+          "segment_position": "Mid-tier vs Cardo Packtalk Edge/Neo; aging and expected to be discounted as replacements land"
+        }
       }
     },
     {
@@ -111,16 +285,56 @@
       "audio": "SOUND BY Harman Kardon",
       "talk_time_hours": 13,
       "waterproof": "Water-resistant (no official IP rating)",
-      "features": ["Low-profile 3-button design", "Group Mesh 24 / Open Mesh unlimited", "8 km multi-hop mesh range", "Voice commands", "OTA updates"],
+      "features": [
+        "Low-profile 3-button design",
+        "Group Mesh 24 / Open Mesh unlimited",
+        "8 km multi-hop mesh range",
+        "Voice commands",
+        "OTA updates"
+      ],
       "release_year": 2020,
       "notes": "Sources cite RRP around EUR 300 / $330; exact current US MSRP not confirmed. Talk time ~13h Bluetooth / ~11h Mesh.",
       "dimensions": {
-        "form_factor": {"weight_g": 65, "dimensions_mm": "97 x 48 x 27", "profile": "slim", "aesthetics": "Low-profile flat design (shares shell architecture with Spider RT1); the 'sleek' alternative to the 50S"},
-        "ease_of_use": {"controls": "3 buttons", "mount": "clamp; glued mounting plate alternative", "cradle": "", "voice_commands": "Multi-language voice commands, 8 languages", "screen": "no", "ota": "requires included WiFi Adapter for firmware updates - no direct app OTA", "app": "Sena Motorcycles app"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "SOUND BY Harman Kardon (7.2 mm-thick drivers)", "hd": true, "quality_verdict": "Same HK audio as 50S; well regarded but behind Cardo JBL in comparisons"},
-        "intercom": {"type": "Mesh 2.0 + Bluetooth 5.0", "range_km": 2, "max_riders": 24, "auto_reconnect": true, "wideband_audio": true, "cross_brand": "Universal Intercom (HFP); Cardo one-button pairing since 2024"},
-        "quality": {"build": "Proven mesh-race pedigree per Sena marketing, but only water-resistant; shortest battery of the mesh line (11h mesh)", "ip_rating": "water-resistant (no IP rating published)", "service_reputation": "Same ticket-based support as 50S", "warranty_years": 3},
-        "price": {"msrp_usd": null, "street_usd": 300, "segment_position": "Slim mid-tier mesh; sits against Cardo Packtalk Neo"}
+        "form_factor": {
+          "weight_g": 65,
+          "dimensions_mm": "97 x 48 x 27",
+          "profile": "slim",
+          "aesthetics": "Low-profile flat design (shares shell architecture with Spider RT1); the 'sleek' alternative to the 50S"
+        },
+        "ease_of_use": {
+          "controls": "3 buttons",
+          "mount": "clamp; glued mounting plate alternative",
+          "cradle": "",
+          "voice_commands": "Multi-language voice commands, 8 languages",
+          "screen": "no",
+          "ota": "requires included WiFi Adapter for firmware updates - no direct app OTA",
+          "app": "Sena Motorcycles app"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "SOUND BY Harman Kardon (7.2 mm-thick drivers)",
+          "hd": true,
+          "quality_verdict": "Same HK audio as 50S; well regarded but behind Cardo JBL in comparisons"
+        },
+        "intercom": {
+          "type": "Mesh 2.0 + Bluetooth 5.0",
+          "range_km": 2,
+          "max_riders": 24,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Universal Intercom (HFP); Cardo one-button pairing since 2024"
+        },
+        "quality": {
+          "build": "Proven mesh-race pedigree per Sena marketing, but only water-resistant; shortest battery of the mesh line (11h mesh)",
+          "ip_rating": "water-resistant (no IP rating published)",
+          "service_reputation": "Same ticket-based support as 50S",
+          "warranty_years": 3
+        },
+        "price": {
+          "msrp_usd": null,
+          "street_usd": 300,
+          "segment_position": "Slim mid-tier mesh; sits against Cardo Packtalk Neo"
+        }
       }
     },
     {
@@ -134,16 +348,57 @@
       "audio": "Standard Sena HD speakers",
       "talk_time_hours": 20,
       "waterproof": null,
-      "features": ["Group Mesh 24 riders / Open Mesh unlimited (6 channels)", "8 km multi-hop range (min 6 riders)", "Fast charge: 20 min = 3.5h mesh use", "Charge while riding", "RT1 = 3 buttons, ST1 = jog dial", "App support"],
+      "features": [
+        "Group Mesh 24 riders / Open Mesh unlimited (6 channels)",
+        "8 km multi-hop range (min 6 riders)",
+        "Fast charge: 20 min = 3.5h mesh use",
+        "Charge while riding",
+        "RT1 = 3 buttons, ST1 = jog dial",
+        "App support"
+      ],
       "release_year": 2021,
       "notes": "Affordable mesh-only entry. Talk time up to 20h per official RT1 spec page. Reviews cite good value but wind-noise handling, durability and Android app issues. Successor 'Spider X Slim' with Mesh 3.0 announced at EICMA 2025.",
       "dimensions": {
-        "form_factor": {"weight_g": 65, "dimensions_mm": "97 x 48 x 27", "profile": "slim", "aesthetics": "Flat low-profile shell shared with the 50R; plain styling befitting the budget-mesh positioning"},
-        "ease_of_use": {"controls": "RT1: 3 buttons; ST1: jog dial (reviewers called controls unintuitive)", "mount": "clamp kit (mount details not published on spec page)", "cradle": "", "voice_commands": "none listed on spec page (voice prompts only)", "screen": "no", "ota": "Sena Motorcycles app for settings; firmware update method not published on spec page", "app": "Sena Motorcycles app - Android compatibility complaints in reviews"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "Sena HD speakers, low-profile bevel (7.2 mm thick)", "hd": true, "quality_verdict": "Decent for $199; wind-noise management is the recurring criticism (webBikeWorld, RevZilla owner reviews)"},
-        "intercom": {"type": "Mesh 2.0 only - no Bluetooth intercom (Bluetooth reserved for phone/music)", "range_km": 2, "max_riders": 24, "auto_reconnect": true, "wideband_audio": null, "cross_brand": "none - mesh-only means no Universal Intercom bridge to other brands"},
-        "quality": {"build": "Durability complaints appear in owner reviews; no waterproof rating published", "ip_rating": "none published", "service_reputation": "Same Sena ticket support; limited upgrade path frustrated owners", "warranty_years": null},
-        "price": {"msrp_usd": 199, "street_usd": 199, "segment_position": "Budget mesh play; undercuts Cardo Packtalk Neo, competes with Packtalk Outdoor-type offers"}
+        "form_factor": {
+          "weight_g": 65,
+          "dimensions_mm": "97 x 48 x 27",
+          "profile": "slim",
+          "aesthetics": "Flat low-profile shell shared with the 50R; plain styling befitting the budget-mesh positioning"
+        },
+        "ease_of_use": {
+          "controls": "RT1: 3 buttons; ST1: jog dial (reviewers called controls unintuitive)",
+          "mount": "clamp kit (mount details not published on spec page)",
+          "cradle": "",
+          "voice_commands": "none listed on spec page (voice prompts only)",
+          "screen": "no",
+          "ota": "Sena Motorcycles app for settings; firmware update method not published on spec page",
+          "app": "Sena Motorcycles app - Android compatibility complaints in reviews"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Sena HD speakers, low-profile bevel (7.2 mm thick)",
+          "hd": true,
+          "quality_verdict": "Decent for $199; wind-noise management is the recurring criticism (webBikeWorld, RevZilla owner reviews)"
+        },
+        "intercom": {
+          "type": "Mesh 2.0 only - no Bluetooth intercom (Bluetooth reserved for phone/music)",
+          "range_km": 2,
+          "max_riders": 24,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "none - mesh-only means no Universal Intercom bridge to other brands"
+        },
+        "quality": {
+          "build": "Durability complaints appear in owner reviews; no waterproof rating published",
+          "ip_rating": "none published",
+          "service_reputation": "Same Sena ticket support; limited upgrade path frustrated owners",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": 199,
+          "street_usd": 199,
+          "segment_position": "Budget mesh play; undercuts Cardo Packtalk Neo, competes with Packtalk Outdoor-type offers"
+        }
       }
     },
     {
@@ -157,16 +412,59 @@
       "audio": "Sena HD speakers",
       "talk_time_hours": 18,
       "waterproof": "Water-resistant",
-      "features": ["Integrated LCD screen", "Jog dial", "FM radio", "Audio equalizer profiles", "Music sharing", "Voice commands", "App support", "2-year warranty"],
+      "features": [
+        "Integrated LCD screen",
+        "Jog dial",
+        "FM radio",
+        "Audio equalizer profiles",
+        "Music sharing",
+        "Voice commands",
+        "App support",
+        "2-year warranty"
+      ],
       "release_year": 2020,
       "notes": "Currently 20% off ($135.20) on Sena US store. Talk time 18h per official sena.com spec page (store listing omits it).",
       "dimensions": {
-        "form_factor": {"weight_g": 48, "dimensions_mm": "76 x 48 x 30", "profile": "medium", "aesthetics": "Compact body with jog dial and small LCD; chunkier depth (30 mm) than the 5R twins"},
-        "ease_of_use": {"controls": "glove-friendly jog dial + button", "mount": "clamp kit with boom microphone", "cradle": "", "voice_commands": "voice commands supported", "screen": "LCD (connection/battery/volume status)", "ota": "firmware via Sena Motorcycles app/USB (no WiFi adapter)", "app": "Sena Motorcycles app incl. 4 EQ presets"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "Sena HD speakers (7.2 mm thick)", "hd": true, "quality_verdict": "Good for the class - enhanced bass/clarity claims; no premium-brand tuning"},
-        "intercom": {"type": "Bluetooth 5.1, 2-way HD intercom", "range_km": 0.7, "max_riders": 2, "auto_reconnect": null, "wideband_audio": true, "cross_brand": "Universal Intercom (HFP) pairing with non-Sena headsets"},
-        "quality": {"build": "Reliable entry-level build; -10 to 55 C operating range", "ip_rating": "water-resistant (no IP rating published)", "service_reputation": "Standard Sena ticket support", "warranty_years": 2},
-        "price": {"msrp_usd": 169, "street_usd": 135, "segment_position": "Entry tier vs Cardo Freecom 2X; currently discounted 20%"}
+        "form_factor": {
+          "weight_g": 48,
+          "dimensions_mm": "76 x 48 x 30",
+          "profile": "medium",
+          "aesthetics": "Compact body with jog dial and small LCD; chunkier depth (30 mm) than the 5R twins"
+        },
+        "ease_of_use": {
+          "controls": "glove-friendly jog dial + button",
+          "mount": "clamp kit with boom microphone",
+          "cradle": "",
+          "voice_commands": "voice commands supported",
+          "screen": "LCD (connection/battery/volume status)",
+          "ota": "firmware via Sena Motorcycles app/USB (no WiFi adapter)",
+          "app": "Sena Motorcycles app incl. 4 EQ presets"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Sena HD speakers (7.2 mm thick)",
+          "hd": true,
+          "quality_verdict": "Good for the class - enhanced bass/clarity claims; no premium-brand tuning"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.1, 2-way HD intercom",
+          "range_km": 0.7,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": true,
+          "cross_brand": "Universal Intercom (HFP) pairing with non-Sena headsets"
+        },
+        "quality": {
+          "build": "Reliable entry-level build; -10 to 55 C operating range",
+          "ip_rating": "water-resistant (no IP rating published)",
+          "service_reputation": "Standard Sena ticket support",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 169,
+          "street_usd": 135,
+          "segment_position": "Entry tier vs Cardo Freecom 2X; currently discounted 20%"
+        }
       }
     },
     {
@@ -180,16 +478,56 @@
       "audio": "Sena HD speakers",
       "talk_time_hours": 36,
       "waterproof": "Water-resistant",
-      "features": ["Slim 3-button design", "LCD screen", "Music/GPS/calls via smartphone", "App support", "2-year warranty"],
+      "features": [
+        "Slim 3-button design",
+        "LCD screen",
+        "Music/GPS/calls via smartphone",
+        "App support",
+        "2-year warranty"
+      ],
       "release_year": 2024,
       "notes": "Official sena.com spec: 700 m range, 2 riders, 36h talk time, 2.5h charge. Ultimate Motorcycling's Dec 2024 review cited 16h talk and a 4-rider max - discrepancy flagged in md. EUR 149.95.",
       "dimensions": {
-        "form_factor": {"weight_g": 42, "dimensions_mm": "76 x 41 x 27", "profile": "slim", "aesthetics": "Slim flat 3-button unit with small LCD; unobtrusive"},
-        "ease_of_use": {"controls": "3 buttons", "mount": "clamp kit with boom microphone", "cradle": "", "voice_commands": "voice prompts in 11 languages (no full voice-command set documented)", "screen": "LCD (battery/volume status)", "ota": "firmware via Sena Motorcycles app", "app": "Sena Motorcycles app"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "Sena HD speakers (6.8 mm thick, SBC codec)", "hd": true, "quality_verdict": "'Great value' audio for the price (Ultimate Motorcycling); no premium tuning"},
-        "intercom": {"type": "Bluetooth 5.1, 2-way HD intercom", "range_km": 0.7, "max_riders": 2, "auto_reconnect": null, "wideband_audio": true, "cross_brand": "Universal Intercom (HFP) pairing with non-Sena headsets"},
-        "quality": {"build": "Light, simple, no reported issues; water-resistant only", "ip_rating": "water-resistant (no IP rating published)", "service_reputation": "Standard Sena ticket support", "warranty_years": 2},
-        "price": {"msrp_usd": 139, "street_usd": 139, "segment_position": "Entry tier vs Cardo Freecom 2X / Spirit"}
+        "form_factor": {
+          "weight_g": 42,
+          "dimensions_mm": "76 x 41 x 27",
+          "profile": "slim",
+          "aesthetics": "Slim flat 3-button unit with small LCD; unobtrusive"
+        },
+        "ease_of_use": {
+          "controls": "3 buttons",
+          "mount": "clamp kit with boom microphone",
+          "cradle": "",
+          "voice_commands": "voice prompts in 11 languages (no full voice-command set documented)",
+          "screen": "LCD (battery/volume status)",
+          "ota": "firmware via Sena Motorcycles app",
+          "app": "Sena Motorcycles app"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Sena HD speakers (6.8 mm thick, SBC codec)",
+          "hd": true,
+          "quality_verdict": "'Great value' audio for the price (Ultimate Motorcycling); no premium tuning"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.1, 2-way HD intercom",
+          "range_km": 0.7,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": true,
+          "cross_brand": "Universal Intercom (HFP) pairing with non-Sena headsets"
+        },
+        "quality": {
+          "build": "Light, simple, no reported issues; water-resistant only",
+          "ip_rating": "water-resistant (no IP rating published)",
+          "service_reputation": "Standard Sena ticket support",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 139,
+          "street_usd": 139,
+          "segment_position": "Entry tier vs Cardo Freecom 2X / Spirit"
+        }
       }
     },
     {
@@ -203,16 +541,56 @@
       "audio": "Sena HD speakers",
       "talk_time_hours": 16,
       "waterproof": "Water-resistant",
-      "features": ["Lowest-profile design", "LCD display", "Music/GPS/calls", "Basic 2-rider intercom", "2-year warranty"],
+      "features": [
+        "Lowest-profile design",
+        "LCD display",
+        "Music/GPS/calls",
+        "Basic 2-rider intercom",
+        "2-year warranty"
+      ],
       "release_year": 2024,
       "notes": "Cheapest current Sena unit at $99; 700 m working distance; 16h talk / 2.5h charge per official spec page.",
       "dimensions": {
-        "form_factor": {"weight_g": 32, "dimensions_mm": "76 x 41 x 19", "profile": "slim", "aesthetics": "Sena's lowest-profile communicator (19 mm deep, 32 g) - near-invisible on the helmet"},
-        "ease_of_use": {"controls": "3 buttons", "mount": "clamp kit with boom microphone", "cradle": "", "voice_commands": "voice prompts in 11 languages", "screen": "LCD (status confirmation)", "ota": "firmware via Sena Motorcycles app", "app": "Sena Motorcycles app"},
-        "sound": {"speaker_size_mm": 40, "speaker_brand": "Sena HD speakers (7 mm thick)", "hd": true, "quality_verdict": "Adequate basics for $99; not review-benchmarked against premium sets"},
-        "intercom": {"type": "Bluetooth, 2-way HD intercom", "range_km": 0.7, "max_riders": 2, "auto_reconnect": null, "wideband_audio": true, "cross_brand": "pairs with other Bluetooth headsets (Universal-style HFP pairing)"},
-        "quality": {"build": "Very light and simple; water-resistant only", "ip_rating": "water-resistant (no IP rating published)", "service_reputation": "Standard Sena ticket support", "warranty_years": 2},
-        "price": {"msrp_usd": 99, "street_usd": 99, "segment_position": "Price-floor product; undercuts Cardo Spirit tier and guards the entry point"}
+        "form_factor": {
+          "weight_g": 32,
+          "dimensions_mm": "76 x 41 x 19",
+          "profile": "slim",
+          "aesthetics": "Sena's lowest-profile communicator (19 mm deep, 32 g) - near-invisible on the helmet"
+        },
+        "ease_of_use": {
+          "controls": "3 buttons",
+          "mount": "clamp kit with boom microphone",
+          "cradle": "",
+          "voice_commands": "voice prompts in 11 languages",
+          "screen": "LCD (status confirmation)",
+          "ota": "firmware via Sena Motorcycles app",
+          "app": "Sena Motorcycles app"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Sena HD speakers (7 mm thick)",
+          "hd": true,
+          "quality_verdict": "Adequate basics for $99; not review-benchmarked against premium sets"
+        },
+        "intercom": {
+          "type": "Bluetooth, 2-way HD intercom",
+          "range_km": 0.7,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": true,
+          "cross_brand": "pairs with other Bluetooth headsets (Universal-style HFP pairing)"
+        },
+        "quality": {
+          "build": "Very light and simple; water-resistant only",
+          "ip_rating": "water-resistant (no IP rating published)",
+          "service_reputation": "Standard Sena ticket support",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 99,
+          "street_usd": 99,
+          "segment_position": "Price-floor product; undercuts Cardo Spirit tier and guards the entry point"
+        }
       }
     },
     {
@@ -226,7 +604,11 @@
       "audio": null,
       "talk_time_hours": null,
       "waterproof": null,
-      "features": ["Adds Sena Mesh to ANY Bluetooth headset, including non-Sena/Cardo units", "6 mesh channels", "22.5 g weight"],
+      "features": [
+        "Adds Sena Mesh to ANY Bluetooth headset, including non-Sena/Cardo units",
+        "6 mesh channels",
+        "22.5 g weight"
+      ],
       "release_year": 2026,
       "notes": "Launched June 25, 2026. Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter. US pricing not yet published."
     }
@@ -252,12 +634,42 @@
     "Cross-brand pairing with Cardo historically cumbersome ('Intercom failed' errors, dropped bridges), frustrating mixed groups"
   ],
   "recent_news": [
-    {"date": "2024-11-07", "headline": "60S flagship unveiled at EICMA 2024 - world's first intercom with cellular Wave Intercom (unlimited range/riders), Mesh 3.0, Bluetooth 5.3, 2nd-gen Harman Kardon; EUR 399 / $439", "source": "Sena newsroom / MCN", "url": "https://www.sena.com/en-us/stories/news/sena-technologies-launches-new-flagship-motorcycle-communication-device-the-60s/"},
-    {"date": "2025-11-06", "headline": "EICMA 2025: 60X next-gen flagship announced (joystick, wireless charging, AINR, magnetic pogo mount) plus full range overhaul - Apex/Apex Plus (SF successors, replaceable batteries), Spider X Slim (Mesh 3.0), Vortex and Vortex Hi-Fi; staggered 2026 releases", "source": "Sena newsroom / MCN", "url": "https://www.sena.com/stories/news/sena-expands-flagship-line-unveiling-the-technology-packed-60x-intercom-at-eicma-2025/"},
-    {"date": "2025-11-08", "headline": "2026 smart-helmet range revealed: five Phantom variants including Phantom ANC (~20 dB active noise cancellation) and Phantom CAM (4K stabilized chin camera), plus Outlander ADV, Specter modular (35h talk time), Outstar 2 jet", "source": "Sena newsroom / MCN", "url": "https://www.motorcyclenews.com/bike-kit/news/all-new-sena-helmets-for-2026/"},
-    {"date": "2026-05-15", "headline": "60S EVO released at $459/$879 dual with Sound by Bose, 27h talk time and limited lifetime warranty - positioned as 'considerably cheaper than Cardo's flagship' (MCN)", "source": "Sena newsroom", "url": "https://www.sena.com/stories/news/sena-reveals-the-60s-evo-the-next-evolution-of-flagship-motorcycle-communication-featuring-sound-by-bosetechnology-and-limited-lifetime-warranty/"},
-    {"date": "2026-06-25", "headline": "MeshON launched: 22.5 g Bluetooth-to-Mesh bridge that lets any Bluetooth headset (including competitors') join Sena Mesh groups", "source": "Sena newsroom", "url": "https://www.sena.com/stories/news/sena-launches-meshon-bringing-mesh-intercom-communication-to-any-bluetooth-motorcycle-headset/"},
-    {"date": "2026-06-10", "headline": "Pricing moves: ~20% discounts across older line on Sena US store (60S $351, 5S $135) as the 2026 generation rolls out; further legacy-model discounts expected", "source": "Sena store", "url": "https://store-us.sena.com/"}
+    {
+      "date": "2024-11-07",
+      "headline": "60S flagship unveiled at EICMA 2024 - world's first intercom with cellular Wave Intercom (unlimited range/riders), Mesh 3.0, Bluetooth 5.3, 2nd-gen Harman Kardon; EUR 399 / $439",
+      "source": "Sena newsroom / MCN",
+      "url": "https://www.sena.com/en-us/stories/news/sena-technologies-launches-new-flagship-motorcycle-communication-device-the-60s/"
+    },
+    {
+      "date": "2025-11-06",
+      "headline": "EICMA 2025: 60X next-gen flagship announced (joystick, wireless charging, AINR, magnetic pogo mount) plus full range overhaul - Apex/Apex Plus (SF successors, replaceable batteries), Spider X Slim (Mesh 3.0), Vortex and Vortex Hi-Fi; staggered 2026 releases",
+      "source": "Sena newsroom / MCN",
+      "url": "https://www.sena.com/stories/news/sena-expands-flagship-line-unveiling-the-technology-packed-60x-intercom-at-eicma-2025/"
+    },
+    {
+      "date": "2025-11-08",
+      "headline": "2026 smart-helmet range revealed: five Phantom variants including Phantom ANC (~20 dB active noise cancellation) and Phantom CAM (4K stabilized chin camera), plus Outlander ADV, Specter modular (35h talk time), Outstar 2 jet",
+      "source": "Sena newsroom / MCN",
+      "url": "https://www.motorcyclenews.com/bike-kit/news/all-new-sena-helmets-for-2026/"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "60S EVO released at $459/$879 dual with Sound by Bose, 27h talk time and limited lifetime warranty - positioned as 'considerably cheaper than Cardo's flagship' (MCN)",
+      "source": "Sena newsroom",
+      "url": "https://www.sena.com/stories/news/sena-reveals-the-60s-evo-the-next-evolution-of-flagship-motorcycle-communication-featuring-sound-by-bosetechnology-and-limited-lifetime-warranty/"
+    },
+    {
+      "date": "2026-06-25",
+      "headline": "MeshON launched: 22.5 g Bluetooth-to-Mesh bridge that lets any Bluetooth headset (including competitors') join Sena Mesh groups",
+      "source": "Sena newsroom",
+      "url": "https://www.sena.com/stories/news/sena-launches-meshon-bringing-mesh-intercom-communication-to-any-bluetooth-motorcycle-headset/"
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "Pricing moves: ~20% discounts across older line on Sena US store (60S $351, 5S $135) as the 2026 generation rolls out; further legacy-model discounts expected",
+      "source": "Sena store",
+      "url": "https://store-us.sena.com/"
+    }
   ],
   "social_media": {
     "instagram": {
@@ -276,15 +688,28 @@
     "reddit": {
       "url": "https://www.reddit.com/search/?q=sena+motorcycle+intercom",
       "sentiment": "Mixed-to-neutral. No official Sena presence found on Reddit. Sena vs Cardo is a perennial debate in r/motorcycles and r/motorcyclegear; the recurring refrain is that Sena is more common, cheaper and has a better app, while Cardo is more reliable for group mesh. Vocal long-time Sena owners report switching to Cardo after firmware frustrations; others stay for ecosystem, ubiquity and price.",
-      "common_praise": ["Ubiquity - easiest brand to match with riding groups already on Sena", "App layout, quick pairing, easy 'Hey Sena' voice trigger", "Entry-level value (5R Lite $99) and frequent discounting", "Wave cellular intercom viewed as genuinely novel (unlimited range)"],
-      "common_complaints": ["Firmware update regressions (e.g. 50S v2.7 backlash) and buggy Wave app audio routing", "Mesh dropouts in larger groups vs Cardo DMC", "Speaker volume/quality on older non-Harman-Kardon units", "Historically painful cross-brand pairing with Cardo", "Perceived slow customer-support responses on defective units"],
-      "notable_threads": ["Specific viral Reddit threads could not be individually verified (Reddit poorly indexed by search at research time); sentiment triangulated from indexed owner-forum threads (SpyderLovers 60S EVO thread, K1600 Forum '50S vs Packtalk Edge', Indian Motorcycle Forum 'Cardo or Sena?') and 2025-26 comparison roundups that cite Reddit/Quora discourse"]
+      "common_praise": [
+        "Ubiquity - easiest brand to match with riding groups already on Sena",
+        "App layout, quick pairing, easy 'Hey Sena' voice trigger",
+        "Entry-level value (5R Lite $99) and frequent discounting",
+        "Wave cellular intercom viewed as genuinely novel (unlimited range)"
+      ],
+      "common_complaints": [
+        "Firmware update regressions (e.g. 50S v2.7 backlash) and buggy Wave app audio routing",
+        "Mesh dropouts in larger groups vs Cardo DMC",
+        "Speaker volume/quality on older non-Harman-Kardon units",
+        "Historically painful cross-brand pairing with Cardo",
+        "Perceived slow customer-support responses on defective units"
+      ],
+      "notable_threads": [
+        "Specific viral Reddit threads could not be individually verified (Reddit poorly indexed by search at research time); sentiment triangulated from indexed owner-forum threads (SpyderLovers 60S EVO thread, K1600 Forum '50S vs Packtalk Edge', Indian Motorcycle Forum 'Cardo or Sena?') and 2025-26 comparison roundups that cite Reddit/Quora discourse"
+      ]
     },
     "youtube": {
-      "channel": "youtube.com/senabluetooth (plus Sena Outdoor and Sena Deutschland sub-channels)",
-      "subscribers": null,
-      "url": "https://www.youtube.com/senabluetooth",
-      "notes": "Subscriber count not verifiable (YouTube/SocialBlade blocked automated fetches). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
+      "channel": "youtube.com/@senatechnologies (handle @senatechnologies; plus Sena Outdoor and Sena Deutschland sub-channels)",
+      "subscribers": 39700,
+      "url": "https://www.youtube.com/@senatechnologies",
+      "notes": "39.7K subscribers, 706 videos (checked July 2026). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
     },
     "tiktok": {
       "handle": "@senabluetooth",
@@ -292,22 +717,186 @@
       "url": "https://www.tiktok.com/@senabluetooth",
       "notes": "Active official account confirmed (e.g. 50S mesh/Bluetooth pairing tutorials tagged #sena #rideconnected #harmankardon); follower count not retrievable via search. Sena products also get significant third-party TikTok reach via retailer accounts (e.g. @revzilla EICMA coverage) and TikTok discover/how-to pages."
     },
-    "summary": "Sena's social footprint is large but promo/tutorial-heavy rather than community-driven: Facebook is the biggest audience (~308K likes) yet low-engagement; Instagram (~76K) is modest for a category leader; YouTube/TikTok function mainly as support and launch channels. The real community conversation happens on Reddit and model-specific forums where Sena does not officially participate, and where sentiment is mixed - loyalty driven by ubiquity, app UX and price, offset by recurring firmware and mesh-reliability complaints that push vocal users toward Cardo. Public complaint handling routes to sena.com's support-ticket system rather than social replies; visible social-channel engagement with complaints is limited - an exploitable gap for Cardo community management."
+    "summary": "Sena's social footprint is large but promo/tutorial-heavy rather than community-driven: Facebook is the biggest audience (~308K likes) yet low-engagement; Instagram (~76K) is modest for a category leader; YouTube/TikTok function mainly as support and launch channels. The real community conversation happens on Reddit and model-specific forums where Sena does not officially participate, and where sentiment is mixed - loyalty driven by ubiquity, app UX and price, offset by recurring firmware and mesh-reliability complaints that push vocal users toward Cardo. Public complaint handling routes to sena.com's support-ticket system rather than social replies; visible social-channel engagement with complaints is limited - an exploitable gap for Cardo community management.",
+    "recent_posts": [
+      {
+        "date": "2026-06-26",
+        "platform": "YouTube",
+        "summary": "'Sena 60S EVO | Tech Talk' - product deep-dive on the new flagship 60S EVO with Sound by Bose (~3,400 views in first week)",
+        "url": "https://www.youtube.com/watch?v=AO8W8c4Yrmk"
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "YouTube",
+        "summary": "'SENA Outlander | 3 Riders. 3 POVs. All connected by the Sena Outlander' - lifestyle promo for the Outlander smart adventure helmet (~1,700 views)",
+        "url": "https://www.youtube.com/watch?v=95xeqJdCKYI"
+      },
+      {
+        "date": "2026-06-08",
+        "platform": "YouTube",
+        "summary": "'Sena 60S EVO Next Evolution Premium Headset | with Sound by BOSE' - main launch spot for the 60S EVO; strongest recent performer (~9,500 views; a second cut same day did ~2,800)",
+        "url": "https://www.youtube.com/watch?v=8SbnJ2CUz-4"
+      },
+      {
+        "date": "2026-06-05",
+        "platform": "YouTube",
+        "summary": "'SENA Outlander | THE SMART ADVENTURE HELMET HAS ARRIVED' - launch video for the Outlander ADV smart helmet (~2,800 views; duplicate upload same day ~1,800)",
+        "url": "https://www.youtube.com/watch?v=oKETU6VO84E"
+      },
+      {
+        "date": "2026-05-15",
+        "platform": "YouTube",
+        "summary": "'Sena Specter: The Future of Modular Helmets' - promo for the Specter connected modular/touring helmet (~3,600 views)",
+        "url": "https://www.youtube.com/watch?v=fLFgv48Hfh4"
+      },
+      {
+        "date": "2026-05-06",
+        "platform": "YouTube",
+        "summary": "'Meet the all-new Sena 60S EVO for riders who want more than just a ride' - 60S EVO reveal teaser (~9,200 views, one of the channel's top recent videos)",
+        "url": "https://www.youtube.com/watch?v=USjuMGPqaSw"
+      },
+      {
+        "date": "2026-06-26",
+        "platform": "Instagram",
+        "summary": "Third reel in a 3-day teaser series spelling out '60X' ('Coming soon: ..X' #soundbybose #meshintercom); series ran Jun 24-26 ahead of the 60X launch but engagement was tiny (18-50 likes, 2-5 comments per reel)",
+        "url": "https://www.instagram.com/reel/DaDBpT2s_7d/"
+      },
+      {
+        "date": "2026-06-02",
+        "platform": "Instagram",
+        "summary": "Meme-style post 'If your receipts look like this, we get it...' showing a gear receipt including 60S EVO with Bose ANC earbuds (58 likes, 3 comments)",
+        "url": "https://www.instagram.com/p/DZFuTqzjTtH/"
+      },
+      {
+        "date": "2026-05-19",
+        "platform": "Instagram",
+        "summary": "'The 60S EVO is now available for pre-order at sena.com' - pre-order announcement listing Mesh 3.0 (24 riders), WAVE intercom and Sound by BOSE; cross-posted to Facebook the same day",
+        "url": "https://www.instagram.com/p/DYhrQpTgXtW/"
+      },
+      {
+        "date": "2026-04-15",
+        "platform": "Instagram",
+        "summary": "Influencer collab: stunt rider Sarah Lezito reel 'When matching t-shirts save the situation @sena_europe' - 18K likes / 146 comments, dwarfing engagement on Sena's own accounts",
+        "url": "https://www.instagram.com/reel/DXKBOaIjID8/"
+      },
+      {
+        "date": "2026-01-07",
+        "platform": "Instagram",
+        "summary": "AIMExpo 2026 booth reel: 'Here's all you need to know about the BRAND NEW 60X' - first public preview of the 60X plus Spider X Slim, Vortex and Apex intercoms",
+        "url": "https://www.instagram.com/reel/DTOftmMj8D8/"
+      },
+      {
+        "date": "2026-01-08",
+        "platform": "Facebook",
+        "summary": "Video on the Sena page: 'Here's all you need to know about the BRAND NEW 60X and the other comm units we have on display here at @aimexpo 2026' (AIMExpo ran Jan 7-9, Anaheim)",
+        "url": "https://www.facebook.com/SenaBluetooth/videos/1924695544805651/"
+      },
+      {
+        "date": "2026-01-15",
+        "platform": "Facebook Group",
+        "summary": "Thread 'Sena 60x device previewed at AIMExpo' in the ~2,700-member 'Sena 60s, 60s EVO, and 60x Users' owner group discussing the 60X reveal (date approximate - shortly after AIMExpo, Jan 2026)",
+        "url": "https://www.facebook.com/groups/860066485997389/posts/1266008255403208/"
+      },
+      {
+        "date": "2026-05-13",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear opinion thread 'Sena vs Cardo: Which motorcycle communication system actually works better?' - top comment reports switching from Cardo Edge to Sena 60S for 'slightly better sound and better software' (date estimated from post ID)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1sxpv5x/sena_vs_cardo_which_motorcycle_communication/"
+      },
+      {
+        "date": "2026-06-28",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Ejeas pairing with Sena' - rider needs to connect a budget Ejeas unit to a riding school's Sena intercoms, illustrating Sena's ubiquity as the pairing standard (date estimated from post ID)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1uhu99j/ejeas_pairing_with_sena/"
+      }
+    ]
   },
   "press_coverage": {
     "reviews": [
-      {"outlet": "Motorcycle News (MCN)", "date": "2026-01-22", "product": "60S", "verdict": "4/5 stars after 12 months / 9,000 miles (Justin Hayzelden): 'very little not to like' - easy to use, excellent sound, effective noise cancelling when speaking; cons: bulky unit, Wave app issues, one-way connection with Cardo devices", "url": "https://www.motorcyclenews.com/bike-kit/communication/sena-60s-review/"},
-      {"outlet": "1000PS", "date": "2025-02-18", "product": "60S", "verdict": "Critical: AI noise cancellation 'particularly disappointing' in testing - group-communication intelligibility noticeably decreases above ~80 km/h", "url": "https://www.1000ps.com/en-gb/article/3012541/sena-60s-review-the-latest-helmet-communication-system-test"},
-      {"outlet": "Ultimate Motorcycling", "date": "2025-04-03", "product": "60S", "verdict": "Positive: clear step up from the 50S; praises Mesh 3.0 stability and Wave intercom versatility; AI wind/engine noise filtering held up in rain, desert heat and high-altitude testing", "url": "https://ultimatemotorcycling.com/2025/04/03/sena-60s-review-mesh-intercom-wave-intercom-and-more/"},
-      {"outlet": "Ultimate Motorcycling", "date": "2024-12-09", "product": "5R", "verdict": "Positive: 'great value Bluetooth intercom' at $139 with 16h talk time", "url": "https://ultimatemotorcycling.com/2024/12/09/sena-5r-review-great-value-bluetooth-intercom-for-motorcycling/"},
-      {"outlet": "Bennetts BikeSocial", "date": "2025-03-15", "product": "60S", "verdict": "Mixed: hands-on test acknowledging improvements over the 50S while flagging shortcomings (full verdict page returned 403 to automated fetch; rating unconfirmed)", "url": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-technology/sena-60s-intercom-review"},
-      {"outlet": "ADV Pulse", "date": "2024-11-10", "product": "60S", "verdict": "Positive first look: 'more versatility & unlimited range potential' via Wave cellular intercom - framed as meaningful for adventure riders", "url": "https://www.advpulse.com/adv-news/new-sena-60s-intercom-more-versatility-unlimited-range-potential/"},
-      {"outlet": "Motorcycle News (MCN)", "date": "2026-05-18", "product": "60S EVO", "verdict": "Favorable news coverage framing the $459 EVO with Sound by Bose and lifetime warranty as 'considerably cheaper than Cardo's flagship'", "url": "https://www.motorcyclenews.com/bike-kit/news/2026-kit-news/may/sena-60s-evo-intercom-official-release-and-pricing/"},
-      {"outlet": "Motorionline (Italy)", "date": "2025-06-20", "product": "60S", "verdict": "Positive: 'effective and beautiful', highlighting its 2025 design award win", "url": "https://moto.motorionline.com/en/Sena-60s-Intercom-Test-Effective-and-Beautiful-Wins-Prestigious-Design-Award-2025/"},
-      {"outlet": "Cycle News", "date": "2025-07-08", "product": "Wave Intercom app", "verdict": "Neutral/positive news: Friends-Based Intercom update lets riders start unlimited-distance groups from an in-app friends list", "url": "https://www.cyclenews.com/2025/07/article/sena-unveils-friends-based-intercom/"},
-      {"outlet": "webBikeWorld", "date": "2021-08-12", "product": "Spider ST1/RT1", "verdict": "Positive with caveats: good-value mesh systems; wind noise and app quirks noted (pre-2024 review, still widely referenced)", "url": "https://www.webbikeworld.com/sena-spider-st1-and-rt1-mesh-systems-review/"},
-      {"outlet": "RevZilla Common Tread", "date": "2024-02-05", "product": "Cardo-Sena cross-brand pairing", "verdict": "Neutral: covered Cardo's one-button Open Bluetooth Intercom pairing with Sena devices - notably the interoperability story was driven by Cardo's update, not Sena's", "url": "https://www.revzilla.com/common-tread/cardo-software-update-unlocks-bluetooth-connectivity-with-sena-devices"},
-      {"outlet": "FortNine (YouTube)", "date": "2023-06-15", "product": "Sena vs Cardo comparison", "verdict": "Critical of marketing claims: testing found Sena's advertised range advantage over Cardo 'isn't actually true' - highly influential with the enthusiast audience", "url": "https://fortnine.ca/en/best-motorcycle-communication-systems-2017"}
+      {
+        "outlet": "Motorcycle News (MCN)",
+        "date": "2026-01-22",
+        "product": "60S",
+        "verdict": "4/5 stars after 12 months / 9,000 miles (Justin Hayzelden): 'very little not to like' - easy to use, excellent sound, effective noise cancelling when speaking; cons: bulky unit, Wave app issues, one-way connection with Cardo devices",
+        "url": "https://www.motorcyclenews.com/bike-kit/communication/sena-60s-review/"
+      },
+      {
+        "outlet": "1000PS",
+        "date": "2025-02-18",
+        "product": "60S",
+        "verdict": "Critical: AI noise cancellation 'particularly disappointing' in testing - group-communication intelligibility noticeably decreases above ~80 km/h",
+        "url": "https://www.1000ps.com/en-gb/article/3012541/sena-60s-review-the-latest-helmet-communication-system-test"
+      },
+      {
+        "outlet": "Ultimate Motorcycling",
+        "date": "2025-04-03",
+        "product": "60S",
+        "verdict": "Positive: clear step up from the 50S; praises Mesh 3.0 stability and Wave intercom versatility; AI wind/engine noise filtering held up in rain, desert heat and high-altitude testing",
+        "url": "https://ultimatemotorcycling.com/2025/04/03/sena-60s-review-mesh-intercom-wave-intercom-and-more/"
+      },
+      {
+        "outlet": "Ultimate Motorcycling",
+        "date": "2024-12-09",
+        "product": "5R",
+        "verdict": "Positive: 'great value Bluetooth intercom' at $139 with 16h talk time",
+        "url": "https://ultimatemotorcycling.com/2024/12/09/sena-5r-review-great-value-bluetooth-intercom-for-motorcycling/"
+      },
+      {
+        "outlet": "Bennetts BikeSocial",
+        "date": "2025-03-15",
+        "product": "60S",
+        "verdict": "Mixed: hands-on test acknowledging improvements over the 50S while flagging shortcomings (full verdict page returned 403 to automated fetch; rating unconfirmed)",
+        "url": "https://www.bennetts.co.uk/bikesocial/reviews/products/motorcycle-technology/sena-60s-intercom-review"
+      },
+      {
+        "outlet": "ADV Pulse",
+        "date": "2024-11-10",
+        "product": "60S",
+        "verdict": "Positive first look: 'more versatility & unlimited range potential' via Wave cellular intercom - framed as meaningful for adventure riders",
+        "url": "https://www.advpulse.com/adv-news/new-sena-60s-intercom-more-versatility-unlimited-range-potential/"
+      },
+      {
+        "outlet": "Motorcycle News (MCN)",
+        "date": "2026-05-18",
+        "product": "60S EVO",
+        "verdict": "Favorable news coverage framing the $459 EVO with Sound by Bose and lifetime warranty as 'considerably cheaper than Cardo's flagship'",
+        "url": "https://www.motorcyclenews.com/bike-kit/news/2026-kit-news/may/sena-60s-evo-intercom-official-release-and-pricing/"
+      },
+      {
+        "outlet": "Motorionline (Italy)",
+        "date": "2025-06-20",
+        "product": "60S",
+        "verdict": "Positive: 'effective and beautiful', highlighting its 2025 design award win",
+        "url": "https://moto.motorionline.com/en/Sena-60s-Intercom-Test-Effective-and-Beautiful-Wins-Prestigious-Design-Award-2025/"
+      },
+      {
+        "outlet": "Cycle News",
+        "date": "2025-07-08",
+        "product": "Wave Intercom app",
+        "verdict": "Neutral/positive news: Friends-Based Intercom update lets riders start unlimited-distance groups from an in-app friends list",
+        "url": "https://www.cyclenews.com/2025/07/article/sena-unveils-friends-based-intercom/"
+      },
+      {
+        "outlet": "webBikeWorld",
+        "date": "2021-08-12",
+        "product": "Spider ST1/RT1",
+        "verdict": "Positive with caveats: good-value mesh systems; wind noise and app quirks noted (pre-2024 review, still widely referenced)",
+        "url": "https://www.webbikeworld.com/sena-spider-st1-and-rt1-mesh-systems-review/"
+      },
+      {
+        "outlet": "RevZilla Common Tread",
+        "date": "2024-02-05",
+        "product": "Cardo-Sena cross-brand pairing",
+        "verdict": "Neutral: covered Cardo's one-button Open Bluetooth Intercom pairing with Sena devices - notably the interoperability story was driven by Cardo's update, not Sena's",
+        "url": "https://www.revzilla.com/common-tread/cardo-software-update-unlocks-bluetooth-connectivity-with-sena-devices"
+      },
+      {
+        "outlet": "FortNine (YouTube)",
+        "date": "2023-06-15",
+        "product": "Sena vs Cardo comparison",
+        "verdict": "Critical of marketing claims: testing found Sena's advertised range advantage over Cardo 'isn't actually true' - highly influential with the enthusiast audience",
+        "url": "https://fortnine.ca/en/best-motorcycle-communication-systems-2017"
+      }
     ],
     "awards": [
       "2025 iF Design Awards: five Sena products honored, including the 60S (Product and Sports categories)",

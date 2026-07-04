@@ -40,13 +40,13 @@
           "aesthetics": "Low-profile black unit with customizable multi-color 'Aura' LED accent strip; no swappable color covers found"
         },
         "ease_of_use": {
-          "controls": "Buttons only (intercom button + volume +/-; no jog wheel) — voice-first UX by design",
+          "controls": "Buttons only (intercom button + volume +/-; no jog wheel) \u2014 voice-first UX by design",
           "mount": "Snap-in universal mount, explicitly 'no-magnet' (adhesive/clip base; extra base kits sold separately)",
           "cradle": "Snap-in base with wired speaker/mic harness",
           "voice_commands": "'Hi Max' offline AI assistant (EN/ES/JA), works without phone or internet",
           "screen": "no",
           "ota": "FOTA firmware updates via ASMAX World app",
-          "app": "ASMAX World (iOS/Android) — LED, groups, calls, music EQ; owners rate it functional, occasional setup/update complaints"
+          "app": "ASMAX World (iOS/Android) \u2014 LED, groups, calls, music EQ; owners rate it functional, occasional setup/update complaints"
         },
         "sound": {
           "speaker_size_mm": null,
@@ -71,7 +71,7 @@
         "price": {
           "msrp_usd": 226.99,
           "street_usd": 139.99,
-          "segment_position": "Mid-$100s 10-rider mesh — undercuts Cardo Packtalk Edge (~$390) by ~64% on spec-sheet parity"
+          "segment_position": "Mid-$100s 10-rider mesh \u2014 undercuts Cardo Packtalk Edge (~$390) by ~64% on spec-sheet parity"
         }
       }
     },
@@ -109,10 +109,10 @@
           "controls": "Buttons only (no wheel); voice-first operation",
           "mount": "Universal adhesive/clip base (magnetic not specified)",
           "cradle": "Base plate with wired speaker/mic harness",
-          "voice_commands": "'Hi Max' offline AI voice (EN/ES/JA) incl. voice-command pairing — confirmed working with gloves/wind by reviewers",
+          "voice_commands": "'Hi Max' offline AI voice (EN/ES/JA) incl. voice-command pairing \u2014 confirmed working with gloves/wind by reviewers",
           "screen": "no",
           "ota": "Automatic wireless FOTA via ASMAX World app",
-          "app": "ASMAX World — LED, group intercom, calls, EQ; 'app features may require setup or updates' per PHToll"
+          "app": "ASMAX World \u2014 LED, group intercom, calls, EQ; 'app features may require setup or updates' per PHToll"
         },
         "sound": {
           "speaker_size_mm": 40,
@@ -137,7 +137,7 @@
         "price": {
           "msrp_usd": 121.99,
           "street_usd": 89.99,
-          "segment_position": "Cheapest credible 8-rider mesh on the US market — budget tier (Fodsports/EJEAS money) with AI voice added"
+          "segment_position": "Cheapest credible 8-rider mesh on the US market \u2014 budget tier (Fodsports/EJEAS money) with AI voice added"
         }
       }
     },
@@ -200,7 +200,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 89.99,
-          "segment_position": "Sub-$90 10-rider mesh with magnetic mount — cheapest 10-rider tier; page removed from US store (likely superseded by S2)"
+          "segment_position": "Sub-$90 10-rider mesh with magnetic mount \u2014 cheapest 10-rider tier; page removed from US store (likely superseded by S2)"
         }
       }
     },
@@ -263,7 +263,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 205,
-          "segment_position": "ASMAX's ~$200 premium tier — still roughly half a Cardo Packtalk Edge / Sena 60S"
+          "segment_position": "ASMAX's ~$200 premium tier \u2014 still roughly half a Cardo Packtalk Edge / Sena 60S"
         }
       }
     },
@@ -324,7 +324,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": null,
-          "segment_position": "Range-topping flagship; USD pricing TBD — expected to stay well under Cardo/Sena flagship money"
+          "segment_position": "Range-topping flagship; USD pricing TBD \u2014 expected to stay well under Cardo/Sena flagship money"
         }
       }
     },
@@ -368,7 +368,7 @@
           "speaker_size_mm": 40,
           "speaker_brand": "ASMAX 40mm box speaker, ASMAX Acoustic Lab tuning (Bongiovi claimed for 2025 generation)",
           "hd": null,
-          "quality_verdict": "'High-tech intercom at an affordable price' — best-value verdict from PH/MY reviewers; neural-net ENC clear at 160-180 km/h (claimed)"
+          "quality_verdict": "'High-tech intercom at an affordable price' \u2014 best-value verdict from PH/MY reviewers; neural-net ENC clear at 160-180 km/h (claimed)"
         },
         "intercom": {
           "type": "Mesh + Bluetooth 5.4 dual-chip octa-core; CloudTalk; cross-brand intercom supported",
@@ -387,7 +387,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 155,
-          "segment_position": "~$150 feature-rich mid-tier — undercuts Sena Spider ST1/Cardo Packtalk Neo class by 40-60%"
+          "segment_position": "~$150 feature-rich mid-tier \u2014 undercuts Sena Spider ST1/Cardo Packtalk Neo class by 40-60%"
         }
       }
     },
@@ -414,7 +414,7 @@
           "weight_g": 50,
           "dimensions_mm": null,
           "profile": "slim",
-          "aesthetics": "Four licensed Evangelion Racing colorways (Unit-01 purple/green A/B, Unit-02 red A/B) — the only ASMAX with true collector aesthetics"
+          "aesthetics": "Four licensed Evangelion Racing colorways (Unit-01 purple/green A/B, Unit-02 red A/B) \u2014 the only ASMAX with true collector aesthetics"
         },
         "ease_of_use": {
           "controls": "Buttons + voice ('Hi Max' call word), same platform as Future 1",
@@ -448,7 +448,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": null,
-          "segment_position": "Licensed collector edition (Japan) — premium over standard Future 1; JPY pricing not captured"
+          "segment_position": "Licensed collector edition (Japan) \u2014 premium over standard Future 1; JPY pricing not captured"
         }
       }
     },
@@ -512,7 +512,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": null,
-          "segment_position": "'Smart entry-level mesh' — successor to S1/Z1 value slot, likely ~$90-110 based on lineup ladder (unconfirmed)"
+          "segment_position": "'Smart entry-level mesh' \u2014 successor to S1/Z1 value slot, likely ~$90-110 based on lineup ladder (unconfirmed)"
         }
       }
     },
@@ -541,7 +541,7 @@
   "strengths": [
     "Aggressive pricing: flagship-class mesh + AI voice at $90-$140 street vs $350-$400 for Cardo Packtalk Edge / Sena 60S class",
     "Offline 'Hi Max' AI voice assistant (EN/ES/JA) that works without phone/internet; reviewers confirm it registers reliably at highway speed with gloves",
-    "CloudTalk cloud intercom (Mesh + cellular '5G' seamless switching, patented SMC) enables up to 50 riders and effectively unlimited range with coverage — a feature clamp-on incumbents lack natively",
+    "CloudTalk cloud intercom (Mesh + cellular '5G' seamless switching, patented SMC) enables up to 50 riders and effectively unlimited range with coverage \u2014 a feature clamp-on incumbents lack natively",
     "Strong speakers for the price (40/45 mm, Bongiovi Acoustic Labs tuning on 2025 models); clear audio at 100-120 km/h per reviews",
     "Fast charging across the line (10 min = 3 h intercom) and 2-year warranty, FOTA updates, IPX7/IP67 ratings",
     "Rapid product cadence (F1/S1/Z1 2024 -> F1 Pro/Pro Max, Future 1, S2 in 2025) and marketing momentum: EICMA 2025, AIMExpo 2026, Evangelion license in Japan",
@@ -549,7 +549,7 @@
   ],
   "weaknesses": [
     "Real-world range far below claims: reviews measure ~0.7-1.2 km rider-to-rider vs advertised 5 miles/8-15 km",
-    "Mesh only interoperates with ASMAX units; cross-brand requires Bluetooth bridge or CloudTalk (which needs cellular coverage — useless in remote areas)",
+    "Mesh only interoperates with ASMAX units; cross-brand requires Bluetooth bridge or CloudTalk (which needs cellular coverage \u2014 useless in remote areas)",
     "Budget-grade microphone quality (rider-to-passenger) and voice assistant struggles with noise/accents per some reviews",
     "Button-based controls with limited options vs Cardo's glove-friendly wheel; fewer advanced controls",
     "Young brand (2023) with unproven long-term durability; scattered QC complaints (magnet mount, base adhesion, voice activation)",
@@ -560,13 +560,13 @@
   "recent_news": [
     {
       "date": "2026-04-29",
-      "headline": "ASMAX Mode global debut — next-gen hybrid Bluetooth Mesh + 4G/5G intercom reaching 50 riders with intelligent auto-switching; rolling out as free FOTA update to compatible devices",
+      "headline": "ASMAX Mode global debut \u2014 next-gen hybrid Bluetooth Mesh + 4G/5G intercom reaching 50 riders with intelligent auto-switching; rolling out as free FOTA update to compatible devices",
       "source": "PRNewswire (ASMAX PR)",
       "url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html"
     },
     {
       "date": "2026-01-09",
-      "headline": "ASMAX exhibits at AIMExpo 2026 (Anaheim, Booth 785) — first major US trade push; previews next-gen Smart Mesh Control (SMC) with full launch expected later in 2026",
+      "headline": "ASMAX exhibits at AIMExpo 2026 (Anaheim, Booth 785) \u2014 first major US trade push; previews next-gen Smart Mesh Control (SMC) with full launch expected later in 2026",
       "source": "AI Journal (press-release coverage)",
       "url": "https://aijourn.com/asmax-brings-rider-centric-smart-connectivity-to-aimexpo-2026/"
     },
@@ -578,7 +578,7 @@
     },
     {
       "date": "2025-11-01",
-      "headline": "Future 1 EVA R launches in Japan — official Evangelion Racing collaboration (4 colorways) via exclusive Japanese distributor, tied to Evangelion 30th anniversary",
+      "headline": "Future 1 EVA R launches in Japan \u2014 official Evangelion Racing collaboration (4 colorways) via exclusive Japanese distributor, tied to Evangelion 30th anniversary",
       "source": "ASMAX (Amazon.co.jp listing)",
       "url": "https://www.amazon.co.jp/-/en/ASMAX-Evangelion-Collaboration-Motorcycles-Intercom/dp/B0FY69Z3MV"
     },
@@ -598,19 +598,19 @@
   "social_media": {
     "instagram": {
       "handle": "@asmaxworld_official",
-      "followers": 16000,
-      "notes": "~16K followers, 356 posts as of Jul 2026. Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM. Secondary account @asmaxofficial (followers unknown) linked from asmaxconnect.com.",
+      "followers": 15000,
+      "notes": "~15K followers (per Google-indexed profile, Jul 2026), 356 posts as of Jul 2026. Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM. Secondary account @asmaxofficial (followers unknown) linked from asmaxconnect.com.",
       "url": "https://www.instagram.com/asmaxworld_official/"
     },
     "facebook": {
       "page": "facebook.com/ASMAXWorld",
       "followers": 448,
-      "notes": "ASMAXWorld page has only ~448 likes / 14 talking about it (Jul 2026) — negligible owned presence. Secondary page ASMAXOfficial (followers unknown) via asmaxconnect.com. LinkedIn company page: linkedin.com/company/asmax-world/",
+      "notes": "ASMAXWorld page has only ~448 likes / 14 talking about it (Jul 2026) \u2014 negligible owned presence. Secondary page ASMAXOfficial (followers unknown) via asmaxconnect.com. LinkedIn company page: linkedin.com/company/asmax-world/",
       "groups_notes": "Most Facebook activity is dealer/creator-driven, not brand-owned: SE Asia dealers (SEC Motosupply, Takong Racing KL, Moto Automain, MotorniJuan PH) post launch/promo/review content for Future 1, EVA R and S2; rider groups (e.g., Foreign Riders Thailand) mention ASMAX in intercom-recommendation threads; small independent reviewers (mr19works) post 'is it worth it' quick reviews.",
       "url": "https://www.facebook.com/ASMAXWorld/"
     },
     "reddit": {
-      "sentiment": "Near-zero organic Reddit presence as of Jul 2026 — site-restricted searches return no dedicated threads in r/motorcycles or intercom subreddits; ASMAX surfaces only in passing within budget-intercom discussions. Praise/complaints below are drawn from the broader owner/review community (Amazon reviews, Facebook, YouTube comments) since Reddit-specific threads could not be found.",
+      "sentiment": "Near-zero organic Reddit presence as of Jul 2026 \u2014 site-restricted searches return no dedicated threads in r/motorcycles or intercom subreddits; ASMAX surfaces only in passing within budget-intercom discussions. Praise/complaints below are drawn from the broader owner/review community (Amazon reviews, Facebook, YouTube comments) since Reddit-specific threads could not be found.",
       "common_praise": [
         "Sound quality and loudness per dollar (40/45mm speakers) at highway speed",
         "Offline 'Hi Max' voice control that actually works with gloves and wind noise",
@@ -627,8 +627,8 @@
     },
     "youtube": {
       "channel": "@ASMAXWorld",
-      "subscribers": null,
-      "notes": "Official channel hosts product-feature and how-to content; subscriber count not retrievable via search/fetch. Secondary channel @ASMAX.Connect exists. Reviewer coverage matters more than owned channel: 'ASMAX F1 & S1 review: Better than Sena & Cardo?' (Jul 2025), 'ASMAX F1 Full Review and Testing', 'ASMAX Z1 PLUS - best price-quality ratio', 'ASMAX S1 Intercom Test 2026 - Is it really worth it', 'Asmax Future 1 - Hi-Tech Intercom with the BEST VALUE for Money' — verdicts consistently 'budget Cardo alternative, excellent value, range claims overstated'. No FortNine/RevZilla/major-channel coverage found.",
+      "subscribers": 1650,
+      "notes": "Official channel hosts product-feature and how-to content; subscriber count not retrievable via search/fetch. Secondary channel @ASMAX.Connect exists. Reviewer coverage matters more than owned channel: 'ASMAX F1 & S1 review: Better than Sena & Cardo?' (Jul 2025), 'ASMAX F1 Full Review and Testing', 'ASMAX Z1 PLUS - best price-quality ratio', 'ASMAX S1 Intercom Test 2026 - Is it really worth it', 'Asmax Future 1 - Hi-Tech Intercom with the BEST VALUE for Money' \u2014 verdicts consistently 'budget Cardo alternative, excellent value, range claims overstated'. No FortNine/RevZilla/major-channel coverage found.",
       "url": "https://www.youtube.com/@ASMAXWorld"
     },
     "tiktok": {
@@ -637,7 +637,99 @@
       "notes": "No official ASMAX TikTok account linked from any of their sites, yet TikTok is arguably their strongest awareness channel: dozens of discover/hashtag pages (intercom-asmax, asmax-f1-intercom-review, asmax-vs-cardo, how-to-connect-cardo-intercom-to-asmax-f1) driven by dealers and creators, heavy in Spanish (LATAM) and SE Asian markets. Viral formats include Cardo-vs-ASMAX loudness tests (e.g., @namesayenas) and install/pairing tutorials.",
       "url": "https://www.tiktok.com/discover/asmax-vs-cardo"
     },
-    "summary": "ASMAX's owned social media is small and fragmented (16K IG, ~450 FB likes, two parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit — where Cardo/Sena enthusiasts congregate — is where ASMAX is essentially invisible, confirming they have not yet penetrated the Western enthusiast community."
+    "summary": "ASMAX's owned social media is small and fragmented (16K IG, ~450 FB likes, two parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit \u2014 where Cardo/Sena enthusiasts congregate \u2014 is where ASMAX is essentially invisible, confirming they have not yet penetrated the Western enthusiast community.",
+    "recent_posts": [
+      {
+        "date": "2026-06-30",
+        "platform": "Instagram",
+        "summary": "Creator post 'No matter the road ahead, I know I'm connected' tagging @asmaxofficial - rider shows the ASMAX Future One mesh communication system installed on his helmet and thanks the brand for the collaboration.",
+        "url": "https://www.instagram.com/p/DaNI_ClDLVn/"
+      },
+      {
+        "date": "2026-06-29",
+        "platform": "Instagram",
+        "summary": "Reel 'X pro-ASMAX' showcasing the ASMAX F1 Pro Bluetooth headset - highlights 40mm BOX speakers tuned by the ASMAX acoustic lab (surfaced under brand personality account chris_asmax, 444 followers).",
+        "url": "https://www.instagram.com/reel/DaJ14SmKA9Y/"
+      },
+      {
+        "date": "2026-06-22",
+        "platform": "Instagram",
+        "summary": "'Freedom X ASMAX' reel tagging @asmaxworld_official, @asmaxofficial, @cyclegear and @helmethouseusa - MadMax-style quick review of the ASMAX smart helmet, signalling US retail-channel push (Cycle Gear / Helmet House).",
+        "url": "https://www.instagram.com/reel/DZ4RPg2TqV2/"
+      },
+      {
+        "date": "2026-06-18",
+        "platform": "Instagram",
+        "summary": "Creator reel: unboxing and install of the ASMAX Future 1 communication system on a motorcycle helmet, tagging @asmaxworld_official.",
+        "url": "https://www.instagram.com/reel/DZumNJKMYVh/"
+      },
+      {
+        "date": "2026-06-13",
+        "platform": "Instagram",
+        "summary": "Official @asmaxworld_official post 'Meet again' with #motoadventure #mototrip hashtags - group-ride lifestyle content; low engagement (14 likes, 0 comments).",
+        "url": "https://www.instagram.com/p/DZhu53wm8PR/"
+      },
+      {
+        "date": "2026-06-08",
+        "platform": "Instagram",
+        "summary": "@asmaxofficial carousel '5 slides. 5 reasons to ride with ASMAX' promoting ENC noise cancellation, IPX7 waterproofing and 'Hi Max' voice control.",
+        "url": "https://www.instagram.com/p/DZUZXAEGu3A/"
+      },
+      {
+        "date": "2026-04-29",
+        "platform": "Instagram",
+        "summary": "Official @asmaxworld_official 'Update Rolling Out Now' announcement of latest app + firmware update; 77 likes, 8 comments - one of the account's higher-engagement posts.",
+        "url": "https://www.instagram.com/p/DXtQ2aQG3Zx/"
+      },
+      {
+        "date": "2026-04-03",
+        "platform": "Instagram",
+        "summary": "Creator reel by @r6_xvv (Yamaha R6 sportbike content) tagging @asmaxworld_official; 1,134 likes, 5 comments - largest recent earned-media IG hit found.",
+        "url": "https://www.instagram.com/reel/DWsn4c9SBTO/"
+      },
+      {
+        "date": "2026-04-27",
+        "platform": "YouTube",
+        "summary": "Official channel video 'ASMAX Mode Setup Guide | Seamless Mesh + Network Connection' - tutorial on switching between mesh and network (CloudTalk) modes; 859 views.",
+        "url": "https://www.youtube.com/watch?v=M9Yi_v8HdJ0"
+      },
+      {
+        "date": "2026-04-23",
+        "platform": "YouTube",
+        "summary": "Official channel video 'How to Update Your ASMAX Device (OTA) | Faster, Smarter, Better Riding' - firmware OTA update walkthrough; 634 views.",
+        "url": "https://www.youtube.com/watch?v=-xMAko1Odk8"
+      },
+      {
+        "date": "2026-01-30",
+        "platform": "YouTube",
+        "summary": "Official channel video 'ASMAX S1 Motorrad Bluetooth Headset mit Mesh fuer Helm - Komplettes Tutorial' - German-language S1 tutorial signalling DACH market push; 1,930 views.",
+        "url": "https://www.youtube.com/watch?v=fKhzOdn1wWg"
+      },
+      {
+        "date": "2026-05-14",
+        "platform": "Reddit",
+        "summary": "r/motorcycle thread 'asmax F1 iphone 15pro' - owner reports audio output switching from the ASMAX F1 to iPhone speaker during calls/Discord; minimal traction (1 upvote).",
+        "url": "https://www.reddit.com/r/motorcycle/comments/1tcmbki/asmax_f1_iphone_15pro/"
+      },
+      {
+        "date": "2026-04-02",
+        "platform": "Reddit",
+        "summary": "r/motorcycles thread 'Asmax upgrade speaker' - owner asks about upgrading after discovering the new ASMAX F1 Pro Max with 45mm speakers; 1 upvote.",
+        "url": "https://www.reddit.com/r/motorcycles/comments/1sadbgb/asmax_upgrade_speaker/"
+      },
+      {
+        "date": "2026-02-15",
+        "platform": "Reddit",
+        "summary": "r/motorMY thread 'Asmax Bluetooth Intercom' - Malaysian riders discuss ASMAX as the cheapest brand; commenter has used the S2 for 6 months and converted two friends; 3 upvotes.",
+        "url": "https://www.reddit.com/r/motorMY/comments/1r5iver/asmax_bluetooth_intercom/"
+      },
+      {
+        "date": "2026-02-05",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Which intercom, any tips?' - OP describes starting with an ASMAX S1 ('was OK and did what an intercom should do') before considering premium brands; 3 upvotes.",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1qwum7x/which_intercom_any_tips/"
+      }
+    ]
   },
   "press_coverage": {
     "reviews": [
@@ -693,7 +785,7 @@
     ],
     "awards": [],
     "overall_tone": "Positive-for-the-price from small/regional outlets; entirely absent from tier-1 motorcycle media. No reviews found in MCN, Cycle World, RideApart, webBikeWorld, Bennetts BikeSocial, RevZilla Common Tread, or Motorcyclist (2024-2026). No industry or design awards found.",
-    "summary": "ASMAX's press footprint is paid/earned PR (syndicated EICMA 2025 and AIMExpo 2026 releases) plus enthusiastic value-focused reviews from SE Asian dealer blogs, Philippine/UK hobbyist sites, and affiliate content. The consistent editorial verdict where independent testing exists: genuinely good audio and voice control for ~$90-140, but range claims overstated and mesh ecosystem locked-in. The complete absence of tier-1 Western editorial coverage is both ASMAX's credibility gap and an early-warning indicator for Cardo — a first webBikeWorld/RevZilla/FortNine review would mark their real US arrival."
+    "summary": "ASMAX's press footprint is paid/earned PR (syndicated EICMA 2025 and AIMExpo 2026 releases) plus enthusiastic value-focused reviews from SE Asian dealer blogs, Philippine/UK hobbyist sites, and affiliate content. The consistent editorial verdict where independent testing exists: genuinely good audio and voice control for ~$90-140, but range claims overstated and mesh ecosystem locked-in. The complete absence of tier-1 Western editorial coverage is both ASMAX's credibility gap and an early-warning indicator for Cardo \u2014 a first webBikeWorld/RevZilla/FortNine review would mark their real US arrival."
   },
   "sources": [
     "https://www.asmaxworld.com/",
