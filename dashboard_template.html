@@ -210,12 +210,15 @@ renderTable();
 /* ---------- Battles (deck-style segment head-to-heads) ---------- */
 const BAT=DATA.battles;
 const SC={good:["GOOD","#0f2b17","#56d364"],soso:["SO-SO","#3b2300","#f0a83a"],bad:["BAD/NONE","#3d1418","#ff7b72"]};
-const scell=s=>{const[t,bg,fg]=SC[s]||["?","#222","#999"];return `<td style="background:${bg};color:${fg};font-weight:800;font-size:11px;letter-spacing:.4px">${t}</td>`};
+let batMode="rank",curBattle=0;
+const scell=(s,v)=>{const[t,bg,fg]=SC[s]||["?","#222","#999"];const show=(batMode==="value"&&v!=null&&v!=="")?v:t;return `<td style="background:${bg};color:${fg};font-weight:700;font-size:11px;letter-spacing:.3px;text-align:center">${esc(show)}</td>`};
 sections[2].innerHTML=`
-  <div class="note-banner">Deck-style segment battles (format of the internal “Competitive Landscape” deck): each Cardo model vs its direct segment rivals, rated <b style="color:#56d364">GOOD</b> / <b style="color:#f0a83a">SO-SO</b> / <b style="color:#ff7b72">BAD-NONE</b> on the six standard dimensions. Hover dimension names for sub-criteria. * = pending testing/verification.</div>
+  <div class="note-banner">Deck-style segment battles (format of the internal “Competitive Landscape” deck): each Cardo model vs its direct segment rivals, rated <b style="color:#56d364">GOOD</b> / <b style="color:#f0a83a">SO-SO</b> / <b style="color:#ff7b72">BAD-NONE</b> across 16 dimensions. Use the <b>Rank / Value</b> toggle to swap the ratings for the actual figures (riders, range, price…). Hover dimension names for sub-criteria. * = pending testing/verification.</div>
   <div class="chips" id="batChips">${BAT.battles.map((b,i)=>`<button class="chip${i===0?" on":""}" data-i="${i}">${esc(b.hero.model.split(" (")[0].split(" /")[0])}<span class="muted" style="font-weight:400"> · ${esc(b.segment)}</span></button>`).join("")}</div>
+  <div class="chips" style="margin-top:-6px"><span class="small muted" style="align-self:center">Cells:</span><button class="chip on" id="modeRank">Rank</button><button class="chip" id="modeVal">Value</button></div>
   <div id="batBody"></div>`;
 function renderBattle(i){
+  curBattle=i;
   const b=BAT.battles[i];
   const legend=BAT.dimensions_legend;
   sections[2].querySelectorAll("#batChips .chip").forEach((c,j)=>c.classList.toggle("on",i===j));
@@ -227,7 +230,7 @@ function renderBattle(i){
   </div>
   <div class="card" style="padding:0;overflow-x:auto;margin-bottom:16px">
     <table class="matrix"><thead><tr><th style="min-width:120px">Dimension</th>${b.ratings.models.map(([br,m])=>`<th style="color:${BCOLOR[br]};min-width:110px">${esc(m)}</th>`).join("")}<th style="min-width:180px">Notes</th></tr></thead>
-    <tbody>${b.ratings.rows.map(r=>`<tr><td title="${esc(legend[r.dimension]||"")}" style="cursor:help"><b class="small">${esc(r.dimension)}</b></td>${r.scores.map(scell).join("")}<td class="small muted" style="text-align:left">${esc(r.note||"")}</td></tr>`).join("")}</tbody></table>
+    <tbody>${b.ratings.rows.map(r=>`<tr><td title="${esc(legend[r.dimension]||"")}" style="cursor:help"><b class="small">${esc(r.dimension)}</b></td>${r.scores.map((s,ci)=>scell(s,(r.values||[])[ci])).join("")}<td class="small muted" style="text-align:left">${esc(r.note||"")}</td></tr>`).join("")}</tbody></table>
   </div>
   <div class="grid g2">
   ${b.matchups.map(m=>`
@@ -243,6 +246,9 @@ function renderBattle(i){
   </div>`;
 }
 sections[2].querySelectorAll("#batChips .chip").forEach(c=>c.onclick=()=>renderBattle(Number(c.dataset.i)));
+function setMode(m){batMode=m;sections[2].querySelector("#modeRank").classList.toggle("on",m==="rank");sections[2].querySelector("#modeVal").classList.toggle("on",m==="value");renderBattle(curBattle)}
+sections[2].querySelector("#modeRank").onclick=()=>setMode("rank");
+sections[2].querySelector("#modeVal").onclick=()=>setMode("value");
 renderBattle(0);
 
 /* ---------- Model Compare ---------- */
