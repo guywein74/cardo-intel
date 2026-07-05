@@ -90,7 +90,7 @@ const GAP = DATA.gap;
 const BRANDS = DATA.brands;
 const BCOLOR = {Cardo:"var(--cardo)",Sena:"var(--sena)",ASMAX:"var(--asmax)",Reso:"var(--reso)"};
 const BHEX = {Cardo:"#e6002d",Sena:"#f7a600",ASMAX:"#22c1dd",Reso:"#8e6bff"};
-const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press","Software & Firmware","Voice of the Customer"];
+const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press","Software & Firmware","Voice of the Customer","Product Insights"];
 const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt$ = v => v==null?"—":"$"+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
@@ -596,6 +596,70 @@ sections[8].querySelector("#vocSourceSel").onchange=e=>{vocSource=e.target.value
 sections[8].querySelector("#vocProdSel").onchange=e=>{vocProduct=e.target.value;renderVOC()};
 sections[8].querySelector("#vocQ").oninput=e=>{vocQ=e.target.value.toLowerCase();renderVOC()};
 renderVOC();
+
+/* ---------- Product Insights (Product Expert agent) ---------- */
+const INS=DATA.insights;
+const HORIZON_COL={now:["#3d1418","#ff7b72"],next:["#3b2300","#f0a83a"],later:["#1a2634","#79b8ff"]};
+const EFFORT_LBL={low:"low effort",medium:"medium effort",high:"high effort"};
+if(!INS){
+  sections[9].innerHTML=`<div class="card muted" style="padding:32px;text-align:center">The Product Expert agent hasn't generated insights yet. Run the daily refresh (or the agent directly) to populate this page.</div>`;
+}else{
+  sections[9].innerHTML=`
+  <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
+    <h2 style="margin-top:0">Product Insights</h2>
+    <span class="small muted">by the Product Expert agent · generated ${esc(INS.generated||"—")}</span>
+  </div>
+  ${INS.analyst_note?`<div class="card" style="margin-bottom:16px;border-left:3px solid var(--cardo)"><div class="small" style="font-style:italic">"${esc(INS.analyst_note)}"</div><div class="small muted" style="margin-top:6px">— Product Expert (consumer-electronics PM)</div></div>`:""}
+  <div class="card" style="margin-bottom:24px"><h3>Executive summary</h3><div class="small" style="line-height:1.7">${esc(INS.executive_summary||"—")}</div></div>
+
+  <h2>Market pulse — what changed & why it matters</h2>
+  <div class="card" style="padding:0;margin-bottom:24px">
+    ${(INS.market_pulse||[]).map(m=>`
+    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
+      <span class="small muted" style="width:80px;flex:none;font-variant-numeric:tabular-nums;font-weight:700">${esc(m.date||"—")}</span>
+      <span class="brandtag small" style="color:${BCOLOR[m.brand]||"var(--muted)"};width:52px;flex:none">${esc(m.brand||"")}</span>
+      <span class="small" style="flex:1;min-width:240px"><b>${esc(m.development||"")}</b><br><span class="muted">→ ${esc(m.implication||"")}</span></span>
+    </div>`).join("")}
+  </div>
+
+  <h2>Gap analysis</h2>
+  <div class="grid g2" style="margin-bottom:24px">
+    ${(INS.gaps||[]).map(g=>`
+    <div class="card" style="border-left:3px solid ${({critical:"#f85149",high:"#f0a83a",medium:"#b79df5",low:"#56d364"})[g.severity]||"var(--border)"}">
+      <h3>${esc(g.title||"")} <span class="badge b-${esc(g.severity||"low")}">${esc(g.severity||"")}</span> <span class="badge" style="background:var(--panel2);color:var(--muted)">${esc(g.category||"")}</span></h3>
+      <div class="small" style="margin-bottom:8px">${esc(g.description||"")}</div>
+      ${g.evidence&&g.evidence.length?`<div class="small" style="font-weight:700;margin-bottom:4px">Evidence</div><ul class="tight small muted">${g.evidence.map(e=>`<li>${esc(e)}</li>`).join("")}</ul>`:""}
+      ${g.customer_signal?`<div class="small" style="margin-top:8px"><b style="color:var(--partial)">Customer signal:</b> ${esc(g.customer_signal)}</div>`:""}
+      ${g.competitor_benchmark?`<div class="small muted" style="margin-top:6px"><b>Benchmark:</b> ${esc(g.competitor_benchmark)}</div>`:""}
+    </div>`).join("")}
+  </div>
+
+  <h2>Recommendations</h2>
+  <div class="card reclist" style="margin-bottom:24px">
+    ${(INS.recommendations||[]).map(r=>{const[hb,hf]=HORIZON_COL[r.horizon]||["#222","#999"];return `
+    <div class="rec">
+      <div class="n">${r.priority??"·"}</div>
+      <div style="flex:1">
+        <b>${esc(r.title||"")}</b>
+        <span class="badge" style="background:${hb};color:${hf};margin-left:6px">${esc((r.horizon||"").toUpperCase())}</span>
+        ${r.effort?`<span class="badge" style="background:var(--panel2);color:var(--muted);margin-left:4px">${esc(EFFORT_LBL[r.effort]||r.effort)}</span>`:""}
+        <div class="small muted" style="margin-top:4px">${esc(r.rationale||"")}</div>
+        ${r.expected_impact?`<div class="small" style="margin-top:4px"><b style="color:var(--ok)">Impact:</b> ${esc(r.expected_impact)}</div>`:""}
+        ${r.addresses_gaps&&r.addresses_gaps.length?`<div class="small muted" style="margin-top:4px">Addresses: ${r.addresses_gaps.map(esc).join(" · ")}</div>`:""}
+      </div>
+    </div>`}).join("")}
+  </div>
+
+  <h2>Watchlist</h2>
+  <div class="grid g4">
+    ${(INS.watchlist||[]).map(w=>`
+    <div class="card">
+      <h3 style="color:var(--warn)">◉ ${esc(w.item||"")}</h3>
+      <div class="small" style="margin-bottom:6px">${esc(w.why||"")}</div>
+      <div class="small muted"><b>Trigger:</b> ${esc(w.trigger||"")}</div>
+    </div>`).join("")}
+  </div>`;
+}
 
 show(0);
 </script>
