@@ -471,15 +471,15 @@ sections[7].innerHTML=`
       ${cs.notes?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a">${esc(cs.notes)}</div>`:""}
       ${pf.length?`
       <div class="small" style="margin-top:14px;padding-top:12px;border-top:1px solid #232c3a;font-weight:700">Firmware by product</div>
-      <table style="margin-top:6px"><tbody>
-      ${pf.map(p=>`<tr>
-        <td class="small" style="padding:5px 0;border:none">${esc(p.product||"—")}</td>
-        <td class="small price" style="padding:5px 0;border:none;text-align:right">${p.firmware_version?"v"+esc(p.firmware_version):"—"}</td>
-        <td style="padding:5px 0 5px 8px;border:none;text-align:right;white-space:nowrap">
+      <table style="margin-top:6px;table-layout:fixed"><tbody>
+      ${pf.map(p=>{const fv=p.firmware_version?String(p.firmware_version):null;const short=fv?fv.split(/[\s(]/)[0]:"—";return `<tr>
+        <td class="small" style="padding:5px 0;border:none;width:40%;word-break:break-word">${esc(p.product||"—")}</td>
+        <td class="small price" style="padding:5px 0;border:none;text-align:right;width:28%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap${fv&&fv.length>short.length?";cursor:help":""}"${fv&&fv.length>short.length?` title="${esc(fv)}"`:""}>${fv?"v"+esc(short):"—"}</td>
+        <td style="padding:5px 0 5px 8px;border:none;text-align:right;white-space:nowrap;width:32%">
           ${p.release_notes_url?`<a href="${esc(p.release_notes_url)}" target="_blank" class="small">notes</a>`:""}
           ${p.user_manual_url?`${p.release_notes_url?" · ":""}<a href="${esc(p.user_manual_url)}" target="_blank" class="small">manual</a>`:""}
         </td>
-      </tr>`).join("")}
+      </tr>`}).join("")}
       </tbody></table>`:(cs.firmware_baseline?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a"><b>Firmware baseline:</b> ${esc(cs.firmware_baseline)}</div>`:"")}
     </div>`}).join("")}
   </div>

@@ -1088,7 +1088,72 @@
     "app_ios_version": "1.0.16",
     "app_android_version": "1.1.59",
     "app_last_updated": "2026-06-25",
-    "firmware_baseline": "Current lineup runs on the ASMAX Mode-capable firmware generation rolled out from late April 2026 (Smart Mesh Control hybrid Bluetooth Mesh + 4G/5G, ~0.3s 2-rider latency, cross-model music sharing); F/Z Series and S Series units updated in Dec 2025 carry firmware branches A1.0.1.0/B1.0.1.0 and A1.0.0.9/B1.0.0.9 respectively as a pre-ASMAX Mode baseline, with further point updates expected to bring all older units current. Newest models (F1 Pro Max, Future 1/EVA R, S2) ship ASMAX Mode/CloudTalk-ready out of the box.",
-    "notes": "Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors."
-  }
+    "notes": "Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors. Per-product current firmware versions and release-note/manual links are tracked in product_firmware below."
+  },
+  "product_firmware": [
+    {
+      "product": "F1s",
+      "firmware_version": null,
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "user_manual_url": null,
+      "support_url": "https://www.asmaxworld.com/pages/asmax-f1s-support"
+    },
+    {
+      "product": "S1",
+      "firmware_version": "A1.0.0.9/B1.0.0.9 (S Series branch, Dec 2025 baseline; superseded by Apr 2026 ASMAX Mode rollout, exact post-update version not published)",
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "user_manual_url": null,
+      "support_url": "https://www.asmaxworld.com/pages/asmax-s1-support"
+    },
+    {
+      "product": "Z1 / Z1 Plus",
+      "firmware_version": "A1.0.1.0/B1.0.1.0 (F/Z Series branch, Dec 2025 baseline; superseded by Apr 2026 ASMAX Mode rollout, exact post-update version not published)",
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.facebook.com/ASMAXWorld/posts/update-alerthey-asmax-ridersthe-new-firmware-is-out-now-thanks-so-much-for-your-/122166248330291900/",
+      "user_manual_url": null,
+      "support_url": "https://www.asmaxworld.com/pages/asmax-z1-support"
+    },
+    {
+      "product": "F1 Pro",
+      "firmware_version": null,
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "user_manual_url": null,
+      "support_url": null
+    },
+    {
+      "product": "F1 Pro Max",
+      "firmware_version": null,
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "user_manual_url": null,
+      "support_url": null
+    },
+    {
+      "product": "Future 1",
+      "firmware_version": null,
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "user_manual_url": null,
+      "support_url": null
+    },
+    {
+      "product": "Future 1 EVA R (Evangelion Racing edition)",
+      "firmware_version": null,
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "user_manual_url": null,
+      "support_url": null
+    },
+    {
+      "product": "S2",
+      "firmware_version": null,
+      "firmware_last_updated": "2026-04-29",
+      "release_notes_url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "user_manual_url": null,
+      "support_url": null
+    }
+  ]
 }

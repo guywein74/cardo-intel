@@ -836,9 +836,42 @@
   "current_software": {
     "app_name": "Reso Link",
     "app_ios_version": "3.0.0",
-    "app_android_version": "3.0.0 (Google Play listed same 3.0.0 build as 'updated 4 days' relative to a 2026-07-05 check, consistent with an approx. 2026-07-01 release)",
+    "app_android_version": "3.0.0",
     "app_last_updated": "2026-07-01",
-    "firmware_baseline": "Reso does not publish a separate numbered firmware version/generation for Pilot Pro hardware on its website or app-store listings; firmware is delivered silently via OTA push through the Reso Link app rather than versioned like the app itself. No public firmware-version string (e.g. 'v1.x') could be verified for Pilot Pro as of July 2026.",
     "notes": "Reso ships device firmware as OTA updates delivered through the Reso Link companion app (iOS build 6504927409 on the App Store; Android package com.zowoi.kero.app on Google Play), rather than via a standalone desktop updater. The Reso Link app itself is versioned and its App Store release notes (traceable back to v1.3.1 on 2024-09-25) are the only reliable public changelog; device-level firmware version numbers are not separately disclosed to consumers."
-  }
+  },
+  "product_firmware": [
+    {
+      "product": "Reso Pilot Pro",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://apps.apple.com/id/app/reso-link/id6504927409",
+      "user_manual_url": "https://resosport.com/products/resopilot_pro",
+      "support_url": "https://resosport.com/pages/contact"
+    },
+    {
+      "product": "Reso Pilot Neo",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://apps.apple.com/id/app/reso-link/id6504927409",
+      "user_manual_url": "https://resosport.com/products/resopilot_neo",
+      "support_url": "https://resosport.com/pages/contact"
+    },
+    {
+      "product": "Reso Pilot Lite",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://apps.apple.com/id/app/reso-link/id6504927409",
+      "user_manual_url": "https://resosport.com/pages/user-manual",
+      "support_url": "https://resosport.com/pages/contact"
+    },
+    {
+      "product": "Reso Headset",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://apps.apple.com/id/app/reso-link/id6504927409",
+      "user_manual_url": "https://resosport.com/pages/user-manual",
+      "support_url": "https://resosport.com/pages/contact"
+    }
+  ]
 }

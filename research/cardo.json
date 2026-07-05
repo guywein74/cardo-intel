@@ -1386,9 +1386,130 @@
     "app_ios_version": "8.14",
     "app_android_version": "8.14",
     "app_last_updated": "2026-06-07",
-    "firmware_baseline": "DMC Gen2 firmware in the 4.x-5.x range for the current flagship line (Packtalk Pro/Edge/Neo/Packtalk-S); Packtalk Pro shipped on firmware 4.4 at its May 2024 launch and has since received at least 4.6/4.7/4.9 point updates; Cardo's own release-notes pages (e.g. packtalk-pro-release-notes, packtalk-edge-release-notes) list versions up to roughly 5.11 for older-platform devices but do not publish dates",
-    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer."
+    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer; see product_firmware for per-product firmware versions."
   },
+  "product_firmware": [
+    {
+      "product": "Packtalk Pro",
+      "firmware_version": "4.7",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/packtalk-pro-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/packtalk-pro",
+      "support_url": "https://cardosystems.com/pages/support/packtalk-pro"
+    },
+    {
+      "product": "Packtalk Edge",
+      "firmware_version": "4.9",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/packtalk-edge-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/packtalk-edge",
+      "support_url": "https://cardosystems.com/pages/support/packtalk-edge"
+    },
+    {
+      "product": "Packtalk Neo",
+      "firmware_version": "4.7",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/packtalk-neo-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/packtalk-neo",
+      "support_url": "https://cardosystems.com/pages/support/packtalk-neo"
+    },
+    {
+      "product": "Packtalk Outdoor",
+      "firmware_version": "1.7",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/packtalk-ski-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/packtalk-outdoor",
+      "support_url": "https://cardosystems.com/pages/support/packtalk-outdoor"
+    },
+    {
+      "product": "Freecom 4x",
+      "firmware_version": "4.9",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/freecom-4x-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/freecom4x",
+      "support_url": "https://cardosystems.com/pages/support/freecom4x"
+    },
+    {
+      "product": "Freecom 2x",
+      "firmware_version": "4.9",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/freecom-2x-spirit-spirit-hd-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/freecom2x",
+      "support_url": "https://cardosystems.com/pages/support/freecom2x"
+    },
+    {
+      "product": "Spirit HD",
+      "firmware_version": "4.9",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/freecom-2x-spirit-spirit-hd-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/spirit-hd",
+      "support_url": "https://cardosystems.com/pages/support/spirit-hd"
+    },
+    {
+      "product": "Spirit",
+      "firmware_version": "4.9",
+      "firmware_last_updated": null,
+      "release_notes_url": "https://cardosystems.com/pages/freecom-2x-spirit-spirit-hd-release-notes",
+      "user_manual_url": "https://cardosystems.com/pages/support/spirit",
+      "support_url": "https://cardosystems.com/pages/support/spirit"
+    },
+    {
+      "product": "Packtalk-S",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://cardosystems.com/pages/support/packtalk-s",
+      "support_url": "https://cardosystems.com/pages/support/packtalk-s"
+    },
+    {
+      "product": "4X-S",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://cardosystems.com/pages/support/4x-s",
+      "support_url": "https://cardosystems.com/pages/support/4x-s"
+    },
+    {
+      "product": "Schuberth SC EDGE",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://cardosystems.com/pages/support/sc-edge",
+      "support_url": "https://cardosystems.com/pages/support/sc-edge"
+    },
+    {
+      "product": "Lazer VeloVox",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://cardosystems.com/pages/support/lazer-velovox",
+      "support_url": "https://cardosystems.com/pages/support/lazer-velovox"
+    },
+    {
+      "product": "Packtalk Edgephones",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://cardosystems.com/pages/support/packtalk-edgephones",
+      "support_url": "https://cardosystems.com/pages/support/packtalk-edgephones"
+    },
+    {
+      "product": "Beyond GTS (smart helmet)",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": null,
+      "support_url": "https://cardosystems.com/pages/beyond"
+    },
+    {
+      "product": "Venture (integrated MX helmet)",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": null,
+      "support_url": "https://cardosystems.com/pages/venture"
+    }
+  ],
   "sources": [
     "https://cardosystems.com/products/packtalk-pro",
     "https://cardosystems.com/products/packtalk-edge",
@@ -1471,6 +1592,24 @@
     "https://cardo-connect.en.uptodown.com/android",
     "https://cardo-connect.en.uptodown.com/android/versions",
     "https://apps.apple.com/us/app/cardo-connect/id1333553210",
-    "https://play.google.com/store/apps/details?id=com.cardo.smartset&hl=en_US"
+    "https://play.google.com/store/apps/details?id=com.cardo.smartset&hl=en_US",
+    "https://cardosystems.com/pages/support/home",
+    "https://cardosystems.com/pages/support/packtalk-pro",
+    "https://cardosystems.com/pages/support/packtalk-edge",
+    "https://cardosystems.com/pages/support/packtalk-neo",
+    "https://cardosystems.com/pages/support/packtalk-outdoor",
+    "https://cardosystems.com/pages/packtalk-ski-release-notes",
+    "https://cardosystems.com/pages/support/freecom4x",
+    "https://cardosystems.com/pages/support/freecom2x",
+    "https://cardosystems.com/pages/support/spirit-hd",
+    "https://cardosystems.com/pages/support/spirit",
+    "https://cardosystems.com/pages/freecom-2x-spirit-spirit-hd-release-notes",
+    "https://cardosystems.com/pages/support/packtalk-s",
+    "https://cardosystems.com/pages/support/4x-s",
+    "https://cardosystems.com/pages/support/lazer-velovox",
+    "https://cardosystems.com/pages/support/packtalk-edgephones",
+    "https://cardosystems.com/pages/beyond",
+    "https://cardosystems.com/pages/venture",
+    "https://cardosystems.com/us/release-notes"
   ]
 }

@@ -1406,9 +1406,154 @@
     "app_ios_version": "3.5",
     "app_android_version": "3.5",
     "app_last_updated": "2026-06-17",
-    "firmware_baseline": "Current-generation flagship (60S/60S EVO) firmware is on the 1.2.x branch (v1.2.9 as of May 2026); the 2026 smart-helmet family (Phantom, Outlander, Specter) shares that same firmware base and is now converging on parallel version tracks (Phantom/Outlander v1.2.9/v1.0.9, Specter v1.0.9, June 2026); the legacy mid-tier 50S/50R sits on the older 2.7.x branch (v2.7.1/v2.7.2, April 2026); Spider RT1/ST1 mesh-only units are on the 2.5.x branch (v2.5.3, May 2026). A separate companion app, Wave Intercom, handles the cellular Wave feature and is versioned independently (v1.0.23 as of June 2026), having added Friends-Based Intercom (private cellular intercom groups from a friends list) in v1.0.9, May 2025.",
-    "notes": "Firmware ships as free OTA updates delivered through the Sena Motorcycles companion app (Bluetooth-paired), with a WiFi Adapter/WiFi Charging Cable or the Sena Device Manager desktop tool as alternate delivery paths for older units without direct app-based OTA. Sena publishes granular per-model release notes on sena.com/stories/notice/ (over 200 dated notices since 2023), often multiple point releases per quarter per model, mostly bug-fix and compatibility patches (BMW/Harley-Davidson TFT and infotainment pairing, action-camera conflicts, Bluetooth stability) rather than headline feature drops. The Sena Motorcycles app itself updates roughly monthly (per Apple App Store version history) and carries a poor App Store rating (2.1/5, 122 ratings) with recurring complaints about pairing loops and connection reliability; the separate Wave Intercom app updates even more frequently (near-biweekly cadence in 2025-26) and has steadily added features (Friends Wave, voice mode, landscape mode, expanded language/TTS support) alongside frequent 'bug fixes and performance improvements' releases."
+    "notes": "Firmware ships as free OTA updates delivered through the Sena Motorcycles companion app (Bluetooth-paired), with a WiFi Adapter/WiFi Charging Cable or the Sena Device Manager desktop tool as alternate delivery paths for older units without direct app-based OTA. Sena publishes granular per-model release notes on sena.com/stories/notice/ (over 200 dated notices since 2023), often multiple point releases per quarter per model, mostly bug-fix and compatibility patches (BMW/Harley-Davidson TFT and infotainment pairing, action-camera conflicts, Bluetooth stability) rather than headline feature drops - see product_firmware for current per-product firmware versions and firmware_updates for the full history. The Sena Motorcycles app itself updates roughly monthly (per Apple App Store version history) and carries a poor App Store rating (2.1/5, 122 ratings) with recurring complaints about pairing loops and connection reliability; the separate Wave Intercom app updates even more frequently (near-biweekly cadence in 2025-26) and has steadily added features (Friends Wave, voice mode, landscape mode, expanded language/TTS support) alongside frequent 'bug fixes and performance improvements' releases."
   },
+  "product_firmware": [
+    {
+      "product": "60S EVO",
+      "firmware_version": "1.2.9",
+      "firmware_last_updated": "2026-05-27",
+      "release_notes_url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-2-9/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_60S_EVO_1.1.0_en_260630.pdf",
+      "support_url": "https://www.sena.com/en-us/support/60s-evo/"
+    },
+    {
+      "product": "60S",
+      "firmware_version": "1.2.9",
+      "firmware_last_updated": "2026-05-27",
+      "release_notes_url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-2-9/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_60S_1.2.1_en_251015.pdf",
+      "support_url": "https://www.sena.com/en-us/support/60s/"
+    },
+    {
+      "product": "60X",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/60x/"
+    },
+    {
+      "product": "50S",
+      "firmware_version": "2.7.2",
+      "firmware_last_updated": "2026-04-15",
+      "release_notes_url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-50s-v2-7-2/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_50S_2.8.1_en_250731.pdf",
+      "support_url": "https://www.sena.com/en-us/support/50s/"
+    },
+    {
+      "product": "50R",
+      "firmware_version": "2.7.1",
+      "firmware_last_updated": "2026-04-15",
+      "release_notes_url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-50s-v2-7-2/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_50R_2.7.1_en_250731.pdf",
+      "support_url": "https://www.sena.com/en-us/support/50r/"
+    },
+    {
+      "product": "Spider RT1 / ST1",
+      "firmware_version": "2.5.3",
+      "firmware_last_updated": "2026-05-21",
+      "release_notes_url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-spider-rt1-spider-st1-v2-5-3/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_SPIDER_RT1_2.6.2_en_250325.pdf",
+      "support_url": "https://www.sena.com/en-us/support/spider-rt1/"
+    },
+    {
+      "product": "5S",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_5S_2.3.0_en_250114.pdf",
+      "support_url": "https://www.sena.com/en-us/support/5s/"
+    },
+    {
+      "product": "5R",
+      "firmware_version": "1.0.1",
+      "firmware_last_updated": "2023-09-26",
+      "release_notes_url": "https://www.sena.com/en-us/support/5r/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_5R_1.1.1_en_250211.pdf",
+      "support_url": "https://www.sena.com/en-us/support/5r/"
+    },
+    {
+      "product": "5R LITE",
+      "firmware_version": "1.0.1",
+      "firmware_last_updated": "2023-09-26",
+      "release_notes_url": "https://www.sena.com/en-us/support/5r-lite/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_5R_LITE_1.1.0_en_241230.pdf",
+      "support_url": "https://www.sena.com/en-us/support/5r-lite/"
+    },
+    {
+      "product": "MeshON",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/meshon/"
+    },
+    {
+      "product": "Specter",
+      "firmware_version": "1.0.9",
+      "firmware_last_updated": "2026-06-09",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-specter-v1-0-9/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_SPECTER_1.0.0_en_251201.pdf",
+      "support_url": "https://www.sena.com/en-us/support/specter/"
+    },
+    {
+      "product": "Outlander",
+      "firmware_version": "1.0.9",
+      "firmware_last_updated": "2026-06-02",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outlander-v1-0-9/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_OUTLANDER_1.0.0_en_251210.pdf",
+      "support_url": "https://www.sena.com/en-us/support/outlander/"
+    },
+    {
+      "product": "Phantom (full-face smart helmet family)",
+      "firmware_version": "1.2.9",
+      "firmware_last_updated": "2026-06-02",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-phantom-v1-2-9/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_PHANTOM_Series_1.1.0_en_251001.pdf",
+      "support_url": "https://www.sena.com/en-us/support/phantom/"
+    },
+    {
+      "product": "Impulse (modular smart helmet)",
+      "firmware_version": "1.9.1",
+      "firmware_last_updated": "2025-07-31",
+      "release_notes_url": "https://www.sena.com/en-us/support/impulse/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_IMPULSE_1.9.1_en_250731.pdf",
+      "support_url": "https://www.sena.com/en-us/support/impulse/"
+    },
+    {
+      "product": "Outrush 2 (modular smart helmet)",
+      "firmware_version": "1.0.1",
+      "firmware_last_updated": "2026-04-14",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_OUTRUSH_2_1.0.1_en_260414.pdf",
+      "support_url": "https://www.sena.com/en-us/support/outrush-2/"
+    },
+    {
+      "product": "Stryker (full-face smart helmet)",
+      "firmware_version": "1.7.1",
+      "firmware_last_updated": "2025-07-31",
+      "release_notes_url": "https://www.sena.com/en-us/support/stryker/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_STRYKER_1.7.1_en_250731.pdf",
+      "support_url": "https://www.sena.com/en-us/support/stryker/"
+    },
+    {
+      "product": "Outrush R (modular smart helmet)",
+      "firmware_version": "2.0.0",
+      "firmware_last_updated": "2025-01-16",
+      "release_notes_url": "https://www.sena.com/en-us/support/outrush-r/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_OUTRUSH_R_2.0.0_en_250116.pdf",
+      "support_url": "https://www.sena.com/en-us/support/outrush-r/"
+    },
+    {
+      "product": "Cavalry 2 (half smart helmet)",
+      "firmware_version": "1.2.1",
+      "firmware_last_updated": "2025-10-13",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_CAVALRY_2_1.2.1_en_251013.pdf",
+      "support_url": "https://www.sena.com/en-us/support/cavalry-2/"
+    }
+  ],
   "sources": [
     "https://www.sena.com/en-us/product/60s/",
     "https://www.instagram.com/senabluetooth/",
