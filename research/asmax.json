@@ -1155,5 +1155,57 @@
       "user_manual_url": null,
       "support_url": null
     }
+  ],
+  "customer_feedback": [
+    {
+      "date": "2026-06-19",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Comparison vs Cardo",
+      "summary": "In a thread titled 'Are cardos and senas worth it', a commenter recommended the ASMAX S1 Pro as an alternative, saying it uses similar drivers to Cardo's at a fraction of the price with great battery life; the thread drew unusually high engagement for the sub (26 upvotes, 113 comments).",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1u9svpp/are_cardos_and_senas_worth_it/"
+    },
+    {
+      "date": "2026-05-14",
+      "source": "Reddit",
+      "forum": "r/motorcycle",
+      "product": "F1",
+      "sentiment": "negative",
+      "topic": "Pairing/Bluetooth issue",
+      "summary": "An owner reported that audio output kept switching from the ASMAX F1 to their iPhone 15 Pro's own speaker during calls and Discord use, an unresolved Bluetooth routing annoyance (low engagement, 1 upvote).",
+      "url": "https://www.reddit.com/r/motorcycle/comments/1tcmbki/asmax_f1_iphone_15pro/"
+    },
+    {
+      "date": "2026-04-02",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "F1 Pro Max",
+      "sentiment": "neutral",
+      "topic": "Feature request",
+      "summary": "A rider who had been considering a speaker upgrade for their existing ASMAX unit asked about it after discovering the new F1 Pro Max with 45mm speakers had just been released, effectively answering their own question (1 upvote).",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1sadbgb/asmax_upgrade_speaker/"
+    },
+    {
+      "date": "2026-02-15",
+      "source": "Reddit",
+      "forum": "r/motorMY",
+      "product": "S2",
+      "sentiment": "positive",
+      "topic": "Praise for value",
+      "summary": "Malaysian riders discussed ASMAX as the cheapest credible intercom brand available locally; one commenter said they'd used the S2 for 6 months and had converted two friends to the brand as a result (3 upvotes).",
+      "url": "https://www.reddit.com/r/motorMY/comments/1r5iver/asmax_bluetooth_intercom/"
+    },
+    {
+      "date": "2026-02-05",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "S1",
+      "sentiment": "mixed",
+      "topic": "General discussion",
+      "summary": "In a thread asking for intercom buying tips, the original poster described starting out with an ASMAX S1 that 'was OK and did what an intercom should do' before deciding to consider premium brands instead (3 upvotes) - a lukewarm-but-functional verdict rather than a strong complaint.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1qwum7x/which_intercom_any_tips/"
+    }
   ]
 }

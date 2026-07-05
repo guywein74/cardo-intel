@@ -1611,5 +1611,77 @@
     "https://cardosystems.com/pages/beyond",
     "https://cardosystems.com/pages/venture",
     "https://cardosystems.com/us/release-notes"
+  ],
+  "customer_feedback": [
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Battery life complaint",
+      "summary": "A member asked whether Packtalk Edge battery problems seem to affect some units and not others, suggesting inconsistent battery performance across the owner base rather than a universal defect.",
+      "url": "https://www.facebook.com/groups/1847605508861922/posts/3605957233026732/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Pro",
+      "sentiment": "positive",
+      "topic": "Audio quality praise",
+      "summary": "An owner praised the Packtalk Pro's call clarity and music playback, saying phone calls had no background noise and music sounded good through the built-in JBL speakers.",
+      "url": "https://www.facebook.com/groups/1847605508861922/posts/3789492681339852/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "positive",
+      "topic": "Comparison vs Sena",
+      "summary": "A member who switched from a Sena 50S to the Packtalk Edge reacted very positively to the change, though the specific reasons weren't visible beyond the enthusiastic headline reaction.",
+      "url": "https://www.facebook.com/groups/1847605508861922/posts/3496678200621303/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Freecom 4x",
+      "sentiment": "negative",
+      "topic": "Pairing/Bluetooth issue",
+      "summary": "An owner of a Freecom 4x Duo reported the units would randomly beep and then disconnect from each other after only a few uses.",
+      "url": "https://www.facebook.com/groups/1847605508861922/posts/3759725254316595/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Feature request",
+      "summary": "A member expressed frustration over the lack of communication from Cardo about the timing of the Mesh Boost firmware update, asking pointedly why Cardo wasn't keeping owners updated on its release.",
+      "url": "https://www.facebook.com/groups/1847605508861922/posts/4033571066932011/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Mesh range issue",
+      "summary": "A rider reported getting only about 300m of range when pairing a Packtalk Edge with a friend's Packtalk Pro, well short of the claimed 1.6km range.",
+      "url": "https://www.facebook.com/groups/1847605508861922/posts/4114037148885402/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "General moto Facebook group (CT Motorcycle Rides and Events)",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Comparison vs ASMAX",
+      "summary": "A self-described long-time Cardo user (having owned the Slim, Freecom, Bold and Edge models) posted a review comparing their Cardo experience to the budget ASMAX F1; the poster's framing suggests broad satisfaction with Cardo across multiple generations of units, though full comparison detail wasn't accessible.",
+      "url": "https://www.facebook.com/groups/ctmotorcycle/posts/24713622644943955/"
+    }
   ]
 }

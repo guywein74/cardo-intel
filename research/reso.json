@@ -873,5 +873,27 @@
       "user_manual_url": "https://resosport.com/pages/user-manual",
       "support_url": "https://resosport.com/pages/contact"
     }
+  ],
+  "customer_feedback": [
+    {
+      "date": "2026-04-15",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Reso Pilot Pro",
+      "sentiment": "positive",
+      "topic": "Praise for DuoSync range",
+      "summary": "In a thread titled 'Anyone uses Reso Pilot Pro?', an owner Q&A drew replies praising the phone-hotspot extended-range DuoSync software mesh feature specifically for urban riding use cases where hardware mesh range alone would fall short.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1sl0wiq/anyone_uses_reso_pilot_pro/"
+    },
+    {
+      "date": "2026-04-15",
+      "source": "Reddit",
+      "forum": "r/PHMotorcycles",
+      "product": "Reso Pilot Pro",
+      "sentiment": "mixed",
+      "topic": "Comparison vs Cardo",
+      "summary": "A Philippine rider asked for advice choosing between Reso and Cardo for mostly solo riding with occasional group rides, indicating Reso has become a genuine consideration alongside the incumbent Cardo brand for at least some local buyers, though the poster's hesitation shows brand-trust questions remain.",
+      "url": "https://www.reddit.com/r/PHMotorcycles/comments/1shkdtu/reso_vs_cardo_for_mostly_solo_rider/"
+    }
   ]
 }

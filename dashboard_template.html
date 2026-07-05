@@ -90,7 +90,7 @@ const GAP = DATA.gap;
 const BRANDS = DATA.brands;
 const BCOLOR = {Cardo:"var(--cardo)",Sena:"var(--sena)",ASMAX:"var(--asmax)",Reso:"var(--reso)"};
 const BHEX = {Cardo:"#e6002d",Sena:"#f7a600",ASMAX:"#22c1dd",Reso:"#8e6bff"};
-const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press","Software & Firmware"];
+const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press","Software & Firmware","Voice of the Customer"];
 const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt$ = v => v==null?"—":"$"+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
@@ -523,6 +523,79 @@ sections[7].querySelectorAll(".chip[data-ft]").forEach(c=>c.onclick=()=>{fwType=
 sections[7].querySelector("#fwProdSel").onchange=e=>{fwProduct=e.target.value;renderFW()};
 sections[7].querySelector("#fwQ").oninput=e=>{fwQ=e.target.value.toLowerCase();renderFW()};
 renderFW();
+
+/* ---------- Voice of the Customer ---------- */
+const SENT_COL={positive:["#0f2b17","#56d364"],negative:["#3d1418","#ff7b72"],mixed:["#272040","#b79df5"],neutral:["#1a2634","#79b8ff"]};
+let VOC=[];
+BRANDS.forEach(b=>{(b.customer_feedback||[]).forEach(f=>VOC.push({brand:b.competitor,...f}))});
+VOC.forEach(f=>f.k=dkey(f.date));
+VOC.sort((a,b)=>b.k-a.k);
+let vocBrands=new Set(BRANDS.map(b=>b.competitor)),vocSent="all",vocSource="all",vocProduct="all",vocQ="";
+sections[8].innerHTML=`
+  <h2>Voice of the Customer</h2>
+  <div class="note-banner">Real customer feedback pulled from owner Facebook groups and Reddit (r/motorcyclegear) by the Social Media Listener agent. Facebook groups are member-gated, so Reddit is typically the larger, more reliable source — coverage will vary by brand.</div>
+  <div class="grid g4" style="margin-bottom:24px">
+  ${BRANDS.map(b=>{
+    const items=(b.customer_feedback||[]);
+    const n=items.length;
+    const counts={positive:0,negative:0,mixed:0,neutral:0};
+    items.forEach(f=>{if(f.sentiment)counts[f.sentiment]=(counts[f.sentiment]||0)+1});
+    const topicFreq={};
+    items.forEach(f=>{if(f.topic)topicFreq[f.topic]=(topicFreq[f.topic]||0)+1});
+    const topTopics=Object.entries(topicFreq).sort((a,b)=>b[1]-a[1]).slice(0,3);
+    return `
+    <div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3>
+      <div style="font-size:24px;font-weight:800">${n}<span class="small muted" style="font-weight:400"> feedback items</span></div>
+      ${n?`<div style="display:flex;height:8px;border-radius:4px;overflow:hidden;margin:8px 0 10px">
+        ${["positive","mixed","neutral","negative"].map(s=>counts[s]?`<div style="width:${(counts[s]/n*100).toFixed(1)}%;background:${SENT_COL[s][1]}"></div>`:"").join("")}
+      </div>
+      <div class="small muted" style="margin-bottom:10px">${counts.positive||0} positive · ${counts.negative||0} negative${counts.mixed?" · "+counts.mixed+" mixed":""}${counts.neutral?" · "+counts.neutral+" neutral":""}</div>`:`<div class="small muted" style="margin:8px 0">No feedback collected yet</div>`}
+      ${topTopics.length?`<div class="small" style="font-weight:700;margin-bottom:4px">Top topics</div><ul class="tight small">${topTopics.map(([t,c])=>`<li>${esc(t)} (${c})</li>`).join("")}</ul>`:""}
+    </div>`}).join("")}
+  </div>
+  <h2>Feedback feed <span class="small muted" id="vocCount" style="font-weight:400"></span></h2>
+  <div class="chips">
+    ${BRANDS.map(b=>`<button class="chip on" data-vb="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+    ${["all","positive","negative","mixed","neutral"].map(s=>`<button class="chip${s==="all"?" on":""}" data-vs="${s}">${s==="all"?"All sentiment":s[0].toUpperCase()+s.slice(1)}</button>`).join("")}
+  </div>
+  <div class="chips" style="margin-top:-6px">
+    <select id="vocSourceSel"><option value="all">All sources</option><option value="Facebook Group">Facebook Group</option><option value="Reddit">Reddit</option></select>
+    <select id="vocProdSel"><option value="all">All products</option></select>
+    <input type="search" id="vocQ" placeholder="Search topic, summary, forum…" style="flex:1;min-width:200px">
+  </div>
+  <div id="vocFeed"></div>`;
+function vocProdOptions(){
+  const prods=Array.from(new Set(VOC.filter(f=>vocBrands.has(f.brand)).map(f=>f.product).filter(Boolean))).sort();
+  const sel=sections[8].querySelector("#vocProdSel");
+  const cur=sel.value;
+  sel.innerHTML=`<option value="all">All products</option>`+prods.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");
+  sel.value=prods.includes(cur)?cur:"all";
+}
+function renderVOC(){
+  vocProdOptions();
+  const rows=VOC.filter(f=>vocBrands.has(f.brand)&&(vocSent==="all"||f.sentiment===vocSent)&&(vocSource==="all"||f.source===vocSource)&&(vocProduct==="all"||f.product===vocProduct)&&(!vocQ||[f.topic,f.summary,f.forum,f.product].join(" ").toLowerCase().includes(vocQ)));
+  sections[8].querySelector("#vocCount").textContent=`· ${rows.length} items`;
+  sections[8].querySelector("#vocFeed").innerHTML=rows.map(f=>{
+    const[bg,fg]=SENT_COL[f.sentiment]||["#222","#999"];
+    return `
+    <div class="card" style="margin-bottom:12px;border-left:3px solid ${BHEX[f.brand]}">
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:6px">
+        <span class="small muted" style="font-variant-numeric:tabular-nums;font-weight:700">${esc(f.date||"—")}</span>
+        <span class="brandtag small" style="color:${BCOLOR[f.brand]}">${esc(f.brand)}</span>
+        <span class="badge" style="background:${bg};color:${fg}">${esc((f.sentiment||"—").toUpperCase())}</span>
+        <span class="badge" style="background:var(--panel2);color:var(--text)">${esc(f.topic||"—")}</span>
+        ${f.product&&f.product!=="General"?`<span class="small muted">— ${esc(f.product)}</span>`:""}
+      </div>
+      <div class="small" style="margin-bottom:6px">${esc(f.summary||"")}</div>
+      <div class="small muted">${esc(f.source||"")}${f.forum?" · "+esc(f.forum):""}${f.url?` · <a href="${esc(f.url)}" target="_blank">source ↗</a>`:""}</div>
+    </div>`}).join("")||`<div class="card muted" style="padding:24px;text-align:center">No feedback matches the filters.</div>`;
+}
+sections[8].querySelectorAll(".chip[data-vb]").forEach(c=>c.onclick=()=>{const b=c.dataset.vb;c.classList.toggle("on");c.classList.contains("on")?vocBrands.add(b):vocBrands.delete(b);renderVOC()});
+sections[8].querySelectorAll(".chip[data-vs]").forEach(c=>c.onclick=()=>{vocSent=c.dataset.vs;sections[8].querySelectorAll(".chip[data-vs]").forEach(x=>x.classList.toggle("on",x===c));renderVOC()});
+sections[8].querySelector("#vocSourceSel").onchange=e=>{vocSource=e.target.value;renderVOC()};
+sections[8].querySelector("#vocProdSel").onchange=e=>{vocProduct=e.target.value;renderVOC()};
+sections[8].querySelector("#vocQ").oninput=e=>{vocQ=e.target.value.toLowerCase();renderVOC()};
+renderVOC();
 
 show(0);
 </script>

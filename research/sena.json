@@ -1609,5 +1609,27 @@
     "https://www.facebook.com/groups/860066485997389/posts/1405543268116372/",
     "https://www.reddit.com/r/motorcyclegear/comments/1n89fsl/sena_50c_vs_60s_vs_cardo_packtalk_pro/",
     "https://store-us.sena.com/products/spider-x-slim"
+  ],
+  "customer_feedback": [
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "mixed",
+      "topic": "Comparison vs Cardo",
+      "summary": "A member asked whether they should switch from a Cardo Packtalk to a Sena 60S; a commenter replied that they've owned a Cardo Packtalk Black (previously Bold) for many years with no issues, implying reluctance to leave Cardo despite the original poster's interest in Sena's flagship.",
+      "url": "https://www.facebook.com/groups/860066485997389/posts/1075605021110200/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "60S",
+      "sentiment": "mixed",
+      "topic": "Comparison vs Cardo",
+      "summary": "A thread comparing the Sena 50C, Sena 60S, and Cardo Packtalk Pro discusses trade-offs between the three: Cardo's Packtalk Pro is favored for audio quality (45mm JBL speakers) and its unique crash-detection safety feature, while Sena's 60S is noted for longer battery life and its Wave cellular intercom for large or spread-out group rides.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1n89fsl/sena_50c_vs_60s_vs_cardo_packtalk_pro/"
+    }
   ]
 }
