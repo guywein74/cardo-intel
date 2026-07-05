@@ -4,3 +4,4 @@
 ig_product_scan.py
 out/
 .env.ig
+apify_scan.py
