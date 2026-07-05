@@ -453,7 +453,7 @@ const FW_TYPE_LABEL={firmware:"Firmware",app:"App update"};
 let fwBrands=new Set(BRANDS.map(b=>b.competitor)),fwType="all",fwProduct="all",fwQ="";
 sections[7].innerHTML=`
   <h2>Current software & firmware</h2>
-  <div class="grid g2" style="margin-bottom:24px">
+  <div class="grid" style="grid-template-columns:repeat(2,1fr);margin-bottom:24px">
   ${BRANDS.map(b=>{
     const cs=b.current_software||{};
     const pf=b.product_firmware||[];
