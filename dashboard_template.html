@@ -453,22 +453,34 @@ const FW_TYPE_LABEL={firmware:"Firmware",app:"App update"};
 let fwBrands=new Set(BRANDS.map(b=>b.competitor)),fwType="all",fwProduct="all",fwQ="";
 sections[7].innerHTML=`
   <h2>Current software & firmware</h2>
-  <div class="grid g4" style="margin-bottom:24px">
+  <div class="grid g2" style="margin-bottom:24px">
   ${BRANDS.map(b=>{
     const cs=b.current_software||{};
+    const pf=b.product_firmware||[];
     const cnt=(b.firmware_updates||[]).length;
     const lastDate=(b.firmware_updates||[]).map(u=>u.date).filter(Boolean).sort().slice(-1)[0];
     return `
     <div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3>
       <div style="font-size:17px;font-weight:800;margin-bottom:2px">${esc(cs.app_name||"—")}</div>
-      <div class="small muted" style="margin-bottom:10px">App</div>
+      <div class="small muted" style="margin-bottom:10px">Companion app</div>
       <div class="kv"><span>iOS version</span><b>${esc(cs.app_ios_version||"—")}</b></div>
       <div class="kv"><span>Android version</span><b>${esc(cs.app_android_version||"—")}</b></div>
       <div class="kv"><span>App last updated</span><b>${esc(cs.app_last_updated||"—")}</b></div>
-      <div class="kv"><span>Firmware baseline</span><b style="text-align:right;max-width:150px">${esc(cs.firmware_baseline||"—")}</b></div>
-      <div class="kv"><span>Updates tracked</span><b>${cnt}</b></div>
-      ${lastDate?`<div class="kv"><span>Most recent</span><b>${esc(lastDate)}</b></div>`:""}
+      <div class="kv"><span>Firmware updates tracked</span><b>${cnt}</b></div>
+      ${lastDate?`<div class="kv"><span>Most recent update</span><b>${esc(lastDate)}</b></div>`:""}
       ${cs.notes?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a">${esc(cs.notes)}</div>`:""}
+      ${pf.length?`
+      <div class="small" style="margin-top:14px;padding-top:12px;border-top:1px solid #232c3a;font-weight:700">Firmware by product</div>
+      <table style="margin-top:6px"><tbody>
+      ${pf.map(p=>`<tr>
+        <td class="small" style="padding:5px 0;border:none">${esc(p.product||"—")}</td>
+        <td class="small price" style="padding:5px 0;border:none;text-align:right">${p.firmware_version?"v"+esc(p.firmware_version):"—"}</td>
+        <td style="padding:5px 0 5px 8px;border:none;text-align:right;white-space:nowrap">
+          ${p.release_notes_url?`<a href="${esc(p.release_notes_url)}" target="_blank" class="small">notes</a>`:""}
+          ${p.user_manual_url?`${p.release_notes_url?" · ":""}<a href="${esc(p.user_manual_url)}" target="_blank" class="small">manual</a>`:""}
+        </td>
+      </tr>`).join("")}
+      </tbody></table>`:(cs.firmware_baseline?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a"><b>Firmware baseline:</b> ${esc(cs.firmware_baseline)}</div>`:"")}
     </div>`}).join("")}
   </div>
   <h2>Update history <span class="small muted" id="fwCount" style="font-weight:400"></span></h2>
