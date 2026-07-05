@@ -90,7 +90,7 @@ const GAP = DATA.gap;
 const BRANDS = DATA.brands;
 const BCOLOR = {Cardo:"var(--cardo)",Sena:"var(--sena)",ASMAX:"var(--asmax)",Reso:"var(--reso)"};
 const BHEX = {Cardo:"#e6002d",Sena:"#f7a600",ASMAX:"#22c1dd",Reso:"#8e6bff"};
-const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press"];
+const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press","Software & Firmware"];
 const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt$ = v => v==null?"—":"$"+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
@@ -382,7 +382,8 @@ sections[5].innerHTML=`
 const num = v => v==null?"n/a":(v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?Math.round(v/1e3)+"K":v);
 const dom = u => {try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return null}};
 const dkey = d => {if(!d)return 0;const m=String(d).match(/(20\d\d)(?:-(\d\d?))?(?:-(\d\d?))?/);return m?(+m[1])*10000+(+(m[2]||0))*100+(+(m[3]||0)):0};
-const TCOL={Press:["#1a2634","#79b8ff"],News:["#3b2300","#f0a83a"],Social:["#272040","#b79df5"]};
+const TCOL={Press:["#1a2634","#79b8ff"],News:["#3b2300","#f0a83a"],Social:["#272040","#b79df5"],Firmware:["#0f2b17","#56d364"]};
+const FWCOL={firmware:["#0f2b17","#56d364"],app:["#1a2634","#79b8ff"]};
 let FEED=[];
 BRANDS.forEach(b=>{
   const br=b.competitor,s=b.social_media||{};
@@ -394,6 +395,7 @@ BRANDS.forEach(b=>{
   });
   if(s.reddit?.sentiment)FEED.push({brand:br,type:"Social",date:"2026-07",source:"Reddit",domain:dom(s.reddit.url),title:s.reddit.sentiment.slice(0,240),url:s.reddit.url});
   (s.recent_posts||[]).forEach(p=>FEED.push({brand:br,type:"Social",date:p.date,source:p.platform||"Social",domain:dom(p.url),title:p.summary||p.title||"",url:p.url,post:true}));
+  (b.firmware_updates||[]).forEach(u=>FEED.push({brand:br,type:"Firmware",date:u.date,source:(u.type==="app"?"App update":"Firmware")+(u.version?" v"+u.version:""),domain:dom(u.url),title:`${u.product?u.product+" — ":""}${u.title||""}${u.changes&&u.changes.length?": "+u.changes.slice(0,2).join("; "):""}`,url:u.url}));
 });
 FEED.forEach(f=>{f.k=dkey(f.date)-(f.type==="Social"&&!f.post?100:0)});
 FEED.sort((a,b)=>b.k-a.k);
@@ -419,7 +421,7 @@ sections[6].innerHTML=`
   <h2>Latest media feed <span class="small muted" id="mfCount" style="font-weight:400"></span></h2>
   <div class="chips">
     ${BRANDS.map(b=>`<button class="chip on" data-mb="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
-    ${["All","Press","News","Social"].map(t=>`<button class="chip${t==="All"?" on":""}" data-mt="${t}">${t}</button>`).join("")}
+    ${["All","Press","News","Social","Firmware"].map(t=>`<button class="chip${t==="All"?" on":""}" data-mt="${t}">${t}</button>`).join("")}
     <input type="search" id="mfQ" placeholder="Filter by source, outlet, website, keyword…" style="flex:1;min-width:220px">
   </div>
   <div class="card" style="padding:0" id="mfList"></div>`;
@@ -439,6 +441,76 @@ sections[6].querySelectorAll(".chip[data-mb]").forEach(c=>c.onclick=()=>{const b
 sections[6].querySelectorAll(".chip[data-mt]").forEach(c=>c.onclick=()=>{mfType=c.dataset.mt;sections[6].querySelectorAll(".chip[data-mt]").forEach(x=>x.classList.toggle("on",x===c));renderFeed()});
 sections[6].querySelector("#mfQ").oninput=e=>{mfQ=e.target.value.toLowerCase();renderFeed()};
 renderFeed();
+
+/* ---------- Software & Firmware ---------- */
+let FW=[];
+BRANDS.forEach(b=>{
+  (b.firmware_updates||[]).forEach(u=>FW.push({brand:b.competitor,...u}));
+});
+FW.forEach(u=>u.k=dkey(u.date));
+FW.sort((a,b)=>b.k-a.k);
+const FW_TYPE_LABEL={firmware:"Firmware",app:"App update"};
+let fwBrands=new Set(BRANDS.map(b=>b.competitor)),fwType="all",fwProduct="all",fwQ="";
+sections[7].innerHTML=`
+  <h2>Current software & firmware</h2>
+  <div class="grid g4" style="margin-bottom:24px">
+  ${BRANDS.map(b=>{
+    const cs=b.current_software||{};
+    const cnt=(b.firmware_updates||[]).length;
+    const lastDate=(b.firmware_updates||[]).map(u=>u.date).filter(Boolean).sort().slice(-1)[0];
+    return `
+    <div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3>
+      <div style="font-size:17px;font-weight:800;margin-bottom:2px">${esc(cs.app_name||"—")}</div>
+      <div class="small muted" style="margin-bottom:10px">App</div>
+      <div class="kv"><span>iOS version</span><b>${esc(cs.app_ios_version||"—")}</b></div>
+      <div class="kv"><span>Android version</span><b>${esc(cs.app_android_version||"—")}</b></div>
+      <div class="kv"><span>App last updated</span><b>${esc(cs.app_last_updated||"—")}</b></div>
+      <div class="kv"><span>Firmware baseline</span><b style="text-align:right;max-width:150px">${esc(cs.firmware_baseline||"—")}</b></div>
+      <div class="kv"><span>Updates tracked</span><b>${cnt}</b></div>
+      ${lastDate?`<div class="kv"><span>Most recent</span><b>${esc(lastDate)}</b></div>`:""}
+      ${cs.notes?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a">${esc(cs.notes)}</div>`:""}
+    </div>`}).join("")}
+  </div>
+  <h2>Update history <span class="small muted" id="fwCount" style="font-weight:400"></span></h2>
+  <div class="chips">
+    ${BRANDS.map(b=>`<button class="chip on" data-fb="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+    ${["all","firmware","app"].map(t=>`<button class="chip${t==="all"?" on":""}" data-ft="${t}">${t==="all"?"All types":FW_TYPE_LABEL[t]}</button>`).join("")}
+    <select id="fwProdSel"><option value="all">All products</option></select>
+    <input type="search" id="fwQ" placeholder="Search version, feature, changelog…" style="flex:1;min-width:200px">
+  </div>
+  <div id="fwTimeline"></div>`;
+function fwProductOptions(){
+  const prods=Array.from(new Set(FW.filter(u=>fwBrands.has(u.brand)).map(u=>u.product).filter(Boolean))).sort();
+  const sel=sections[7].querySelector("#fwProdSel");
+  const cur=sel.value;
+  sel.innerHTML=`<option value="all">All products</option>`+prods.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");
+  sel.value=prods.includes(cur)?cur:"all";
+}
+function renderFW(){
+  fwProductOptions();
+  const rows=FW.filter(u=>fwBrands.has(u.brand)&&(fwType==="all"||u.type===fwType)&&(fwProduct==="all"||u.product===fwProduct)&&(!fwQ||[u.title,u.version,u.product,(u.changes||[]).join(" "),u.source].join(" ").toLowerCase().includes(fwQ)));
+  sections[7].querySelector("#fwCount").textContent=`· ${rows.length} updates`;
+  sections[7].querySelector("#fwTimeline").innerHTML=rows.map(u=>{
+    const[bg,fg]=FWCOL[u.type]||["#222","#999"];
+    return `
+    <div class="card" style="margin-bottom:12px;border-left:3px solid ${BHEX[u.brand]}">
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:6px">
+        <span class="small muted" style="font-variant-numeric:tabular-nums;font-weight:700">${esc(u.date||"—")}</span>
+        <span class="brandtag small" style="color:${BCOLOR[u.brand]}">${esc(u.brand)}</span>
+        <span class="badge" style="background:${bg};color:${fg}">${esc(FW_TYPE_LABEL[u.type]||u.type||"update")}</span>
+        ${u.version?`<span class="badge" style="background:var(--panel2);color:var(--text)">v${esc(u.version)}</span>`:""}
+        <span style="font-weight:700">${esc(u.title||"")}</span>
+        ${u.product?`<span class="small muted">— ${esc(u.product)}</span>`:""}
+      </div>
+      ${u.changes&&u.changes.length?`<ul class="tight small" style="margin-bottom:6px">${u.changes.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:""}
+      <div class="small muted">${esc(u.source||"")}${u.url?` · <a href="${esc(u.url)}" target="_blank">source ↗</a>`:""}</div>
+    </div>`}).join("")||`<div class="card muted" style="padding:24px;text-align:center">No updates match the filters.</div>`;
+}
+sections[7].querySelectorAll(".chip[data-fb]").forEach(c=>c.onclick=()=>{const b=c.dataset.fb;c.classList.toggle("on");c.classList.contains("on")?fwBrands.add(b):fwBrands.delete(b);renderFW()});
+sections[7].querySelectorAll(".chip[data-ft]").forEach(c=>c.onclick=()=>{fwType=c.dataset.ft;sections[7].querySelectorAll(".chip[data-ft]").forEach(x=>x.classList.toggle("on",x===c));renderFW()});
+sections[7].querySelector("#fwProdSel").onchange=e=>{fwProduct=e.target.value;renderFW()};
+sections[7].querySelector("#fwQ").oninput=e=>{fwQ=e.target.value.toLowerCase();renderFW()};
+renderFW();
 
 show(0);
 </script>

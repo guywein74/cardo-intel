@@ -79,7 +79,7 @@
       "name": "S1",
       "tier": "entry",
       "msrp_usd": 121.99,
-      "street_price_usd": 89.99,
+      "street_price_usd": 92.88,
       "intercom_tech": "Mesh + Bluetooth 5.4 dual-chip; ASMAX Mode / CloudTalk Mode up to 50 riders (cloud/cellular)",
       "range_km": 8,
       "max_riders": 8,
@@ -97,7 +97,7 @@
         "2-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US.",
+      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US. Street price updated Jul 2026 from live asmaxworld.com listing: $92.88 (was $89.99), still well under $121.99 MSRP.",
       "dimensions": {
         "form_factor": {
           "weight_g": 41,
@@ -136,7 +136,7 @@
         },
         "price": {
           "msrp_usd": 121.99,
-          "street_usd": 89.99,
+          "street_usd": 92.88,
           "segment_position": "Cheapest credible 8-rider mesh on the US market — budget tier (Fodsports/EJEAS money) with AI voice added"
         }
       }
@@ -277,14 +277,14 @@
       "max_riders": 10,
       "audio": "45 mm rear-sound-cavity speakers (upgrade over F1 Pro's 40 mm); ENC noise cancellation; Bongiovi-tuned",
       "talk_time_hours": null,
-      "waterproof": null,
+      "waterproof": "IP67",
       "features": [
         "AI voice control (calls, music, navigation)",
         "1,350 mAh battery, 10-min charge = 3 h talk",
         "App + OTA"
       ],
       "release_year": 2025,
-      "notes": "Unveiled at EICMA 2025 (Nov 2025) as top of lineup; sold via AliExpress and Asia dealers; no confirmed US MSRP as of Jul 2026. First confirmed street price Jul 2026: RM 1,099 at mytakongracing.com (Malaysia), ~USD 269 at MYR/USD ~4.07.",
+      "notes": "Unveiled at EICMA 2025 (Nov 2025) as top of lineup; sold via AliExpress and Asia dealers; no confirmed US MSRP as of Jul 2026. First confirmed street price Jul 2026: RM 1,099 at mytakongracing.com (Malaysia), ~USD 269 at MYR/USD ~4.07. Also listed at R5,900 ZAR (~USD 319, ICASA-approved) via Airborne ADV (South Africa) as of Jul 2026 -- higher than Malaysia due to import costs. IP67 waterproof rating confirmed via SA distributor listing.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -317,14 +317,14 @@
         },
         "quality": {
           "build": "Too new for track record (EICMA Nov 2025 launch)",
-          "ip_rating": null,
+          "ip_rating": "IP67",
           "service_reputation": "Standard ASMAX support",
           "warranty_years": 2
         },
         "price": {
           "msrp_usd": null,
           "street_usd": 269,
-          "segment_position": "Range-topping flagship at ~$269 street (Malaysia dealer, Jul 2026) — still well under Cardo/Sena flagship money"
+          "segment_position": "Range-topping flagship at ~$269 street (Malaysia dealer, Jul 2026; ~$319 in South Africa) — still well under Cardo/Sena flagship money"
         }
       }
     },
@@ -456,7 +456,7 @@
       "name": "S2",
       "tier": "entry",
       "msrp_usd": null,
-      "street_price_usd": null,
+      "street_price_usd": 98.03,
       "intercom_tech": "Mesh + Bluetooth 5.4 dual-chip; Free/Team mode 8 riders, Network (cloud) mode up to 50",
       "range_km": 3,
       "max_riders": 8,
@@ -472,7 +472,7 @@
         "2-year warranty"
       ],
       "release_year": 2025,
-      "notes": "'Smart entry-level mesh communication.' talk_time_hours = midpoint of 10-12 h music+intercom claim. On Amazon US and EU retail (Chromeburner); price not captured.",
+      "notes": "'Smart entry-level mesh communication.' talk_time_hours = midpoint of 10-12 h music+intercom claim. On Amazon US and EU retail (Chromeburner). Street price found Jul 2026: RM 399 at motogear.my (Malaysia), ~USD 98 at MYR/USD ~4.07; also seen at PHP 4,900 (~USD 84-87) via Philippine dealer Instagram post.",
       "dimensions": {
         "form_factor": {
           "weight_g": 41,
@@ -511,8 +511,8 @@
         },
         "price": {
           "msrp_usd": null,
-          "street_usd": null,
-          "segment_position": "'Smart entry-level mesh' — successor to S1/Z1 value slot, likely ~$90-110 based on lineup ladder (unconfirmed)"
+          "street_usd": 98.03,
+          "segment_position": "'Smart entry-level mesh' — successor to S1/Z1 value slot at ~$85-100 street (Malaysia/Philippines pricing), confirming it slots just under the S1"
         }
       }
     },
@@ -559,6 +559,18 @@
   ],
   "recent_news": [
     {
+      "date": "2026-06-09",
+      "headline": "ASMAX Partners with MDR Competicion for the 2026 FIM MotoJunior World Championship — ASMAX's first motorsport sponsorship, supplying communication gear to the racing team developing young riders",
+      "source": "ASMAX Connect (Company News)",
+      "url": "https://www.asmaxconnect.com/CompanyNews/akIoMwf63cn1.html"
+    },
+    {
+      "date": "2026-06-01",
+      "headline": "ASMAX exhibits at Malaysia Bike Show 2026 (May 29-Jun 1, Kuala Lumpur), spotlighting the F1 Pro and debuting an interactive 'ASMAX Robot' activation",
+      "source": "ASMAX Connect (Company News)",
+      "url": "https://www.asmaxconnect.com/CompanyNews/4Rvk6CgIjfXB.html"
+    },
+    {
       "date": "2026-04-29",
       "headline": "ASMAX Mode global debut — next-gen hybrid Bluetooth Mesh + 4G/5G intercom reaching 50 riders with intelligent auto-switching; rolling out as free FOTA update to compatible devices",
       "source": "PRNewswire (ASMAX PR)",
@@ -599,7 +611,7 @@
     "instagram": {
       "handle": "@asmaxworld_official",
       "followers": 15000,
-      "notes": "~15K followers (per Google-indexed profile, Jul 2026), 356 posts as of Jul 2026. Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM. Secondary account @asmaxofficial (followers unknown) linked from asmaxconnect.com.",
+      "notes": "~15K followers, 151 following, 357 posts (per Google-indexed profile, Jul 2026). Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM; frequent dealer/rider tag-ins (SEC Motosupply, blackout.spain). Secondary handles: @asmaxofficial (linked from asmaxconnect.com, followers unknown) and @chris_asmax (OEM/wholesale-focused account, ~444 followers, 8 posts, run by a US-based ASMAX rep).",
       "url": "https://www.instagram.com/asmaxworld_official/"
     },
     "facebook": {
@@ -610,7 +622,7 @@
       "url": "https://www.facebook.com/ASMAXWorld/"
     },
     "reddit": {
-      "sentiment": "Near-zero organic Reddit presence as of Jul 2026 — site-restricted searches return no dedicated threads in r/motorcycles or intercom subreddits; ASMAX surfaces only in passing within budget-intercom discussions. Praise/complaints below are drawn from the broader owner/review community (Amazon reviews, Facebook, YouTube comments) since Reddit-specific threads could not be found.",
+      "sentiment": "Small but growing organic Reddit footprint as of Jul 2026 — scattered low-upvote threads/mentions in r/motorcyclegear, r/motorcycles, r/motorcycle, r/MotoUK and r/motorMY (ASMAX usually comes up as a budget alternative when riders ask about Cardo/Sena), rather than dedicated ASMAX threads. Praise/complaints below are drawn from these threads plus the broader owner/review community (Amazon reviews, Facebook, YouTube comments).",
       "common_praise": [
         "Sound quality and loudness per dollar (40/45mm speakers) at highway speed",
         "Offline 'Hi Max' voice control that actually works with gloves and wind noise",
@@ -622,8 +634,11 @@
         "Magnet-mount/base-plate adhesion failures and occasional voice-activation glitches",
         "Weak rider-to-passenger microphone; limited button controls vs Cardo wheel"
       ],
-      "notable_threads": [],
-      "url": "https://www.reddit.com/search/?q=asmax+motorcycle+intercom"
+      "notable_threads": [
+        "r/motorcyclegear 'Are cardos and senas worth it' (Jun 2026, 26 upvotes/113 comments) - commenter recommends the ASMAX S1 Pro as using similar drivers to Cardo at a fraction of the price",
+        "r/motorcyclegear 'What is the best intercom under $80?' (Oct 2025) - commenter reports running an ASMAX S2 for ~$90 and calling it 'really quite decent for the price'"
+      ],
+      "url": "https://www.reddit.com/r/motorcyclegear/"
     },
     "youtube": {
       "channel": "@ASMAXWorld",
@@ -637,8 +652,26 @@
       "notes": "No official ASMAX TikTok account linked from any of their sites, yet TikTok is arguably their strongest awareness channel: dozens of discover/hashtag pages (intercom-asmax, asmax-f1-intercom-review, asmax-vs-cardo, how-to-connect-cardo-intercom-to-asmax-f1) driven by dealers and creators, heavy in Spanish (LATAM) and SE Asian markets. Viral formats include Cardo-vs-ASMAX loudness tests (e.g., @namesayenas) and install/pairing tutorials.",
       "url": "https://www.tiktok.com/discover/asmax-vs-cardo"
     },
-    "summary": "ASMAX's owned social media is small and fragmented (16K IG, ~450 FB likes, two parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit — where Cardo/Sena enthusiasts congregate — is where ASMAX is essentially invisible, confirming they have not yet penetrated the Western enthusiast community.",
+    "summary": "ASMAX's owned social media is small and fragmented (15K IG, ~450 FB likes, several parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit presence remains thin but is no longer zero — occasional low-upvote mentions in r/motorcyclegear and regional subs (r/motorMY, r/MotoUK) now surface ASMAX as a budget Cardo/Sena alternative, though it still has not meaningfully penetrated the Western enthusiast community. Jun 2026 brought ASMAX's first motorsport sponsorship (MDR Competicion, MotoJunior World Championship), a new brand-building lever beyond dealer-driven social content.",
     "recent_posts": [
+      {
+        "date": "2026-06-19",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Are cardos and senas worth it' - a commenter recommends the ASMAX S1 Pro as a Cardo alternative using similar drivers with great battery life; high engagement for the sub (26 upvotes, 113 comments overall).",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1u9svpp/are_cardos_and_senas_worth_it/"
+      },
+      {
+        "date": "2026-06-13",
+        "platform": "Instagram",
+        "summary": "Official post 'Meet again' with #ASMAXWorld #motoadventure #mototrip #motolovers hashtags — lifestyle/adventure-riding content.",
+        "url": "https://www.instagram.com/p/DZhu53wm8PR/"
+      },
+      {
+        "date": "2026-04-30",
+        "platform": "Instagram",
+        "summary": "Firmware update announcement post: 'Update Rolling Out Now' for all ASMAX series, highlighting ASMAX Mode introduction and lower 2-rider intercom latency (down to ~0.3s); cross-posted to Facebook and Threads the same day.",
+        "url": "https://www.instagram.com/p/DXtQ2aQG3Zx/"
+      },
       {
         "date": "2026-04-27",
         "platform": "YouTube",
@@ -692,6 +725,12 @@
         "platform": "Instagram",
         "summary": "Post explaining ASMAX Mode (stable group comms) vs CloudTalk Mode (cross-brand pairing), with a giveaway (62 likes); owners praise ASMAX Mode in the comments.",
         "url": "https://www.instagram.com/asmaxworld_official/p/DY09DiyFHRR/"
+      },
+      {
+        "date": "2026-04-30",
+        "platform": "Facebook",
+        "summary": "'New ASMAX Firmware Update (All Series)' post announcing the Apr 30, 2026 rollout, promising smoother performance, better connectivity and an overall improved experience.",
+        "url": "https://www.facebook.com/100057338053947/photos/stay-updated-stay-ahead-new-asmax-firmware-update-all-series-is-dropping-this-ap/1466381085283146/"
       }
     ]
   },
@@ -724,6 +763,13 @@
         "product": "S1 (2-pack)",
         "verdict": "Positive budget pick for couples/small groups; highlights 5G CloudTalk long-range mode; notes real-world range ~700-1100 m",
         "url": "https://gomotorbikes.com/blog/reviews/asmax-s1-intercom-review/"
+      },
+      {
+        "outlet": "JaoMoto (via SEC Motosupply, Philippines dealer channel)",
+        "date": "2025-09-03",
+        "product": "F1 Pro & S2",
+        "verdict": "Positive value-focused walkthrough: F1 Pro praised for voice-command operation, magnetic mount, IPX7 rating and all-day battery at PHP 8,900 (~$155); S2 positioned as the budget-friendly pick with reliable mesh and clear audio",
+        "url": "https://www.youtube.com/watch?v=e-3Vdw0wd7Y"
       },
       {
         "outlet": "Bikers Stop Rawang (Malaysia dealer blog)",
@@ -789,6 +835,260 @@
     "https://gomotorbikes.com/blog/reviews/asmax-s1-intercom-review/",
     "https://motomelody.com/helmet-intercom-controls-best-guides-in-2025/",
     "https://www.tiktok.com/discover/asmax-vs-cardo",
-    "https://www.morningstar.com/news/pr-newswire/20251107cn18472/asmax-showcases-next-gen-smart-riding-iot-ecosystem-at-eicma-2025"
-  ]
+    "https://www.morningstar.com/news/pr-newswire/20251107cn18472/asmax-showcases-next-gen-smart-riding-iot-ecosystem-at-eicma-2025",
+    "https://www.asmaxconnect.com/CompanyNews/akIoMwf63cn1.html",
+    "https://www.asmaxconnect.com/CompanyNews/4Rvk6CgIjfXB.html",
+    "https://www.motogear.my/product/asmax-s2-motorcycle-helmet-mesh-intercom",
+    "https://airborneadv.co.za/product/asmax-f1-pro-max-helmet-mesh-intercom/",
+    "https://www.youtube.com/watch?v=e-3Vdw0wd7Y",
+    "https://www.instagram.com/p/DXtQ2aQG3Zx/",
+    "https://www.instagram.com/p/DZhu53wm8PR/",
+    "https://www.instagram.com/chris_asmax/",
+    "https://www.reddit.com/r/motorcyclegear/comments/1u9svpp/are_cardos_and_senas_worth_it/",
+    "https://www.facebook.com/100057338053947/photos/stay-updated-stay-ahead-new-asmax-firmware-update-all-series-is-dropping-this-ap/1466381085283146/"
+  ],
+  "firmware_updates": [
+    {
+      "date": "2024-01-31",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.0",
+      "title": "ASMAX WORLD app original release",
+      "changes": [
+        "Initial release of the ASMAX WORLD companion app on iOS/Android",
+        "Core device setup, LED/audio settings, group intercom and FOTA update delivery"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2024-06-21",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.2",
+      "title": "Japanese language and voice prompt support",
+      "changes": [
+        "Added Japanese language and voice prompt support",
+        "Bug fixes"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2024-08-13",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.4",
+      "title": "Japanese voice prompt package and performance improvements",
+      "changes": [
+        "Introduced Japanese language selection and downloadable Japanese voice prompts",
+        "Various performance improvements"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2024-11-05",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.5",
+      "title": "Multi-language support added",
+      "changes": [
+        "Added ASMAX product links inside the app",
+        "Added German, Spanish, Italian, Korean, Russian and French language support"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2024-11-29",
+      "product": "All models",
+      "type": "firmware",
+      "version": null,
+      "title": "Intercom experience optimization firmware update",
+      "changes": [
+        "Firmware update focused on optimizing the intercom experience of ASMAX Bluetooth headsets for clearer ride communication"
+      ],
+      "url": "https://www.facebook.com/ASMAXWorld/posts/update-alerthey-asmax-ridersthe-new-firmware-is-out-now-thanks-so-much-for-your-/122150378000291900/",
+      "source": "ASMAX World Facebook page"
+    },
+    {
+      "date": "2025-01-02",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.6",
+      "title": "Never-power-off option and UI optimization",
+      "changes": [
+        "Added a 'never power off' shutdown option",
+        "Optimized UI interfaces and performance"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2025-03-21",
+      "product": "F1 / Z1",
+      "type": "firmware",
+      "version": null,
+      "title": "F1/Z1 firmware update",
+      "changes": [
+        "New firmware release for F1 and Z1 models (update did not apply to other models)"
+      ],
+      "url": "https://www.facebook.com/ASMAXWorld/posts/update-alerthey-asmax-ridersthe-new-firmware-is-out-now-thanks-so-much-for-your-/122166248330291900/",
+      "source": "ASMAX World Facebook page"
+    },
+    {
+      "date": "2025-06-12",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.7",
+      "title": "CloudTalk Mode introduced (up to 50 riders)",
+      "changes": [
+        "Introduced CloudTalk Mode (Domestic Network/cellular mode) supporting up to 50 simultaneous riders",
+        "Expanded FM radio frequency range for Japan (max raised from 95 to 108 MHz)",
+        "Added Turkish language support including Turkish voice prompts",
+        "Simplified login password rules (6-16 digits, no other restrictions)"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2025-08-15",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.8",
+      "title": "Bug fix update",
+      "changes": [
+        "Fixed known issues"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2025-09-15",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.9",
+      "title": "Bug fix update",
+      "changes": [
+        "Fixed known issues"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2025-10-11",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.10",
+      "title": "Bug fix update",
+      "changes": [
+        "Fixed known bug"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2025-11-07",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.11",
+      "title": "Bug fix update",
+      "changes": [
+        "Fixed known bugs"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2025-12-16",
+      "product": "All models",
+      "type": "firmware",
+      "version": "F/Z Series A1.0.1.0/B1.0.1.0; S Series A1.0.0.9/B1.0.0.9 (app iOS v1.0.11 / Android v1.1.59)",
+      "title": "Rider-passenger music sharing added",
+      "changes": [
+        "Added rider-passenger music sharing, activated via double-click of the Function Key or voice command ('Compartir musica' in Spanish; Japanese also supported)",
+        "Single intercom-key click exits music sharing",
+        "English-language voice command support noted as still under development",
+        "User-reported side effects: reduced max volume on S Series after update, cold-weather shutdowns affecting snowmobile use, mic sensitivity complaints at highway speed"
+      ],
+      "url": "https://www.facebook.com/ASMAXWorld/posts/-upgrade-now-available-hello-asmax-ridersthe-latest-app-firmware-update-is-here-/122200811192291900/",
+      "source": "ASMAX World Facebook page"
+    },
+    {
+      "date": "2026-02-04",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.13",
+      "title": "Bug fix update",
+      "changes": [
+        "Bug fixes"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2026-04-22",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.14",
+      "title": "Bug fix update",
+      "changes": [
+        "Fixed known issues"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2026-04-29",
+      "product": "All models",
+      "type": "firmware",
+      "version": null,
+      "title": "ASMAX Mode global debut - hybrid Mesh + 4G/5G intercom (up to 50 riders)",
+      "changes": [
+        "ASMAX Mode introduced: Smart Mesh Control (SMC) hybrid connectivity that intelligently auto-switches between Bluetooth Mesh and cellular network for up to 50 riders",
+        "Lower latency in 2-rider intercom mode, down to approximately 0.3 seconds",
+        "Clearer close-range audio with improved echo control",
+        "Smarter Bluetooth reconnection with fewer voice interruptions",
+        "Music sharing extended to all models",
+        "Delivered as a free rolling app + firmware update across compatible devices (rollout continued through April 30, 2026, staged by model)"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html",
+      "source": "PRNewswire (ASMAX PR) / ASMAX World Instagram"
+    },
+    {
+      "date": "2026-06-08",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.15",
+      "title": "Regional naming, offline German voice, Taiwan LINE call fix",
+      "changes": [
+        "Adjusted Czech region naming",
+        "Added offline German voice support",
+        "Fixed LINE call connectivity issue on Taiwan iOS versions"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    },
+    {
+      "date": "2026-06-25",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.16",
+      "title": "iOS 26.5 connection performance optimization",
+      "changes": [
+        "Optimized device connection performance under iOS 26.5"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
+    }
+  ],
+  "current_software": {
+    "app_name": "ASMAX WORLD",
+    "app_ios_version": "1.0.16",
+    "app_android_version": "1.1.59",
+    "app_last_updated": "2026-06-25",
+    "firmware_baseline": "Current lineup runs on the ASMAX Mode-capable firmware generation rolled out from late April 2026 (Smart Mesh Control hybrid Bluetooth Mesh + 4G/5G, ~0.3s 2-rider latency, cross-model music sharing); F/Z Series and S Series units updated in Dec 2025 carry firmware branches A1.0.1.0/B1.0.1.0 and A1.0.0.9/B1.0.0.9 respectively as a pre-ASMAX Mode baseline, with further point updates expected to bring all older units current. Newest models (F1 Pro Max, Future 1/EVA R, S2) ship ASMAX Mode/CloudTalk-ready out of the box.",
+    "notes": "Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors."
+  }
 }

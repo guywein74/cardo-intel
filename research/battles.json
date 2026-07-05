@@ -12,7 +12,7 @@
     "Battery life": "Rated talk time hours per charge",
     "Charging": "Fast-charge and wireless-charging support",
     "Waterproofing": "Published IP rating (IP67/IPX7 = best)",
-    "Cross-brand pairing": "Bridging/pairing with other brands’ units",
+    "Cross-brand pairing": "Bridging/pairing with other brands\u2019 units",
     "Voice / AI": "Voice commands and AI-assistant capability (excludes AI noise-cancellation)",
     "Software & OTA": "Companion app and over-the-air feature updates",
     "Safety features": "Crash detection, SOS/emergency alerts",
@@ -28,7 +28,7 @@
         "model": "Spirit",
         "price": "$109.95"
       },
-      "exec_summary": "Spirit still anchors the range on brand trust and OTA support, but at this price point ASMAX now sells MESH with an offline AI assistant and a published waterproof rating — a spec sheet Spirit cannot match. Sena 5R LITE matches Spirit's simplicity $10 cheaper. The entry tier is defended by distribution and brand, not by product.",
+      "exec_summary": "Spirit still anchors the range on brand trust and OTA support, but at this price point ASMAX now sells MESH with an offline AI assistant and a published waterproof rating \u2014 a spec sheet Spirit cannot match. Sena 5R LITE matches Spirit's simplicity $10 cheaper. The entry tier is defended by distribution and brand, not by product.",
       "matchups": [
         {
           "brand": "Sena",
@@ -49,7 +49,7 @@
           "brand": "ASMAX",
           "model": "S1",
           "price": "$89.99",
-          "blurb": "Mesh + BT 5.4 dual-chip, offline 'Hi Max' AI voice, IPX7, FOTA — flagship-class spec at the cheapest price in the market.",
+          "blurb": "Mesh + BT 5.4 dual-chip, offline 'Hi Max' AI voice, IPX7, FOTA \u2014 flagship-class spec at the cheapest price in the market.",
           "cardo_advantage": [
             "Brand trust & Western dealer/service network",
             "Proven long-term firmware support"
@@ -112,7 +112,7 @@
               "35g",
               "42g",
               "41g",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -128,7 +128,7 @@
               "wheel+btn",
               "buttons",
               "wheel+btn",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -144,7 +144,7 @@
               "40mm Cardo HD",
               "40mm Sena HD",
               "40mm ASMAX in-hous",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -171,7 +171,7 @@
               "good",
               "soso"
             ],
-            "note": "Spirit 0.6km · 5R LITE 0.7km · S1 cellular · Pilot Lite mesh",
+            "note": "Spirit 0.6km \u00b7 5R LITE 0.7km \u00b7 S1 cellular \u00b7 Pilot Lite mesh",
             "values": [
               "0.6km",
               "0.7km",
@@ -187,12 +187,12 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit 2r · 5R LITE 2r · S1 8r · Pilot Lite —",
+            "note": "Spirit 2r \u00b7 5R LITE 2r \u00b7 S1 8r \u00b7 Pilot Lite \u2014",
             "values": [
               "2",
               "2",
               "8",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -203,12 +203,12 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit 13h · 5R LITE 36h · S1 13h · Pilot Lite —",
+            "note": "Spirit 13h \u00b7 5R LITE 36h \u00b7 S1 13h \u00b7 Pilot Lite \u2014",
             "values": [
               "13h",
               "36h",
               "13h",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -219,7 +219,7 @@
               "good",
               "soso"
             ],
-            "note": "Spirit std · 5R LITE std · S1 fast · Pilot Lite std",
+            "note": "Spirit std \u00b7 5R LITE std \u00b7 S1 fast \u00b7 Pilot Lite std",
             "values": [
               "std",
               "std",
@@ -235,12 +235,12 @@
               "good",
               "bad"
             ],
-            "note": "Spirit Waterproof per Cardo (no published IP rating) · 5R LITE Water-resistant · S1 IPX7 · Pilot Lite —",
+            "note": "Spirit Waterproof per Cardo (no published IP rating) \u00b7 5R LITE Water-resistant \u00b7 S1 IPX7 \u00b7 Pilot Lite \u2014",
             "values": [
               "Waterproo",
               "Water-res",
               "IPX7",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -256,7 +256,7 @@
               "Waterproo",
               "Water-res",
               "IPX7",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -267,7 +267,7 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit universal · 5R LITE BT only · S1 BT only · Pilot Lite BT only",
+            "note": "Spirit universal \u00b7 5R LITE BT only \u00b7 S1 BT only \u00b7 Pilot Lite BT only",
             "values": [
               "universal",
               "BT only",
@@ -283,7 +283,7 @@
               "good",
               "bad"
             ],
-            "note": "Spirit voice cmds · 5R LITE none · S1 AI assistant · Pilot Lite none",
+            "note": "Spirit voice cmds \u00b7 5R LITE none \u00b7 S1 AI assistant \u00b7 Pilot Lite none",
             "values": [
               "voice cmds",
               "none",
@@ -299,7 +299,7 @@
               "good",
               "soso"
             ],
-            "note": "Spirit app+OTA · 5R LITE app · S1 app+OTA · Pilot Lite app",
+            "note": "Spirit app+OTA \u00b7 5R LITE app \u00b7 S1 app+OTA \u00b7 Pilot Lite app",
             "values": [
               "app+OTA",
               "app",
@@ -315,7 +315,7 @@
               "bad",
               "good"
             ],
-            "note": "Spirit none · 5R LITE none · S1 none · Pilot Lite crash/SOS",
+            "note": "Spirit none \u00b7 5R LITE none \u00b7 S1 none \u00b7 Pilot Lite crash/SOS",
             "values": [
               "none",
               "none",
@@ -331,12 +331,12 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit 2yr · 5R LITE 2yr · S1 2yr · Pilot Lite —",
+            "note": "Spirit 2yr \u00b7 5R LITE 2yr \u00b7 S1 2yr \u00b7 Pilot Lite \u2014",
             "values": [
               "2yr",
               "2yr",
               "2yr",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -372,7 +372,7 @@
         {
           "brand": "Sena",
           "model": "5S",
-          "price": "$169 → $135 street",
+          "price": "$169 \u2192 $135 street",
           "blurb": "Entry unit with integrated LCD screen and jog dial; currently 20% off on Sena's store.",
           "cardo_advantage": [
             "40mm HD speakers + sound profiles",
@@ -452,7 +452,7 @@
               "35g",
               "48g",
               "42g",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -511,7 +511,7 @@
               "soso",
               "good"
             ],
-            "note": "Spirit HD 0.6km · 5S 0.7km · 5R 0.7km · Z1 / Z1 Plus 8km",
+            "note": "Spirit HD 0.6km \u00b7 5S 0.7km \u00b7 5R 0.7km \u00b7 Z1 / Z1 Plus 8km",
             "values": [
               "0.6km",
               "0.7km",
@@ -527,7 +527,7 @@
               "bad",
               "soso"
             ],
-            "note": "Spirit HD 2r · 5S 2r · 5R 2r · Z1 / Z1 Plus 10r",
+            "note": "Spirit HD 2r \u00b7 5S 2r \u00b7 5R 2r \u00b7 Z1 / Z1 Plus 10r",
             "values": [
               "2",
               "2",
@@ -543,12 +543,12 @@
               "good",
               "soso"
             ],
-            "note": "Spirit HD 13h · 5S 18h · 5R 36h · Z1 / Z1 Plus —",
+            "note": "Spirit HD 13h \u00b7 5S 18h \u00b7 5R 36h \u00b7 Z1 / Z1 Plus \u2014",
             "values": [
               "13h",
               "18h",
               "36h",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -559,7 +559,7 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit HD std · 5S std · 5R std · Z1 / Z1 Plus std",
+            "note": "Spirit HD std \u00b7 5S std \u00b7 5R std \u00b7 Z1 / Z1 Plus std",
             "values": [
               "std",
               "std",
@@ -575,7 +575,7 @@
               "soso",
               "good"
             ],
-            "note": "Spirit HD Waterproof per Cardo (no published IP rating) · 5S Water-resistant · 5R Water-resistant · Z1 / Z1 Plus IP67",
+            "note": "Spirit HD Waterproof per Cardo (no published IP rating) \u00b7 5S Water-resistant \u00b7 5R Water-resistant \u00b7 Z1 / Z1 Plus IP67",
             "values": [
               "Waterproo",
               "Water-res",
@@ -607,7 +607,7 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit HD universal · 5S BT only · 5R BT only · Z1 / Z1 Plus BT only",
+            "note": "Spirit HD universal \u00b7 5S BT only \u00b7 5R BT only \u00b7 Z1 / Z1 Plus BT only",
             "values": [
               "universal",
               "BT only",
@@ -623,7 +623,7 @@
               "bad",
               "soso"
             ],
-            "note": "Spirit HD voice cmds · 5S voice cmds · 5R none · Z1 / Z1 Plus voice cmds",
+            "note": "Spirit HD voice cmds \u00b7 5S voice cmds \u00b7 5R none \u00b7 Z1 / Z1 Plus voice cmds",
             "values": [
               "voice cmds",
               "voice cmds",
@@ -639,7 +639,7 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit HD app+OTA · 5S app · 5R app · Z1 / Z1 Plus app",
+            "note": "Spirit HD app+OTA \u00b7 5S app \u00b7 5R app \u00b7 Z1 / Z1 Plus app",
             "values": [
               "app+OTA",
               "app",
@@ -655,7 +655,7 @@
               "bad",
               "bad"
             ],
-            "note": "Spirit HD none · 5S none · 5R none · Z1 / Z1 Plus none",
+            "note": "Spirit HD none \u00b7 5S none \u00b7 5R none \u00b7 Z1 / Z1 Plus none",
             "values": [
               "none",
               "none",
@@ -671,7 +671,7 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit HD 2yr · 5S 2yr · 5R 2yr · Z1 / Z1 Plus 2yr",
+            "note": "Spirit HD 2yr \u00b7 5S 2yr \u00b7 5R 2yr \u00b7 Z1 / Z1 Plus 2yr",
             "values": [
               "2yr",
               "2yr",
@@ -705,9 +705,9 @@
       "hero": {
         "brand": "Cardo",
         "model": "Freecom 2x",
-        "price": "$254.95 → $210 street"
+        "price": "$254.95 \u2192 $210 street"
       },
-      "exec_summary": "Freecom 2x sells premium 2-rider Bluetooth with JBL sound — but Sena's Spider RT1 offers 24-rider MESH for $11 less and ASMAX Future 1 brings mesh + AI at $155. A 2-rider BT unit above $200 is structurally hard to defend in 2026; JBL audio and Live Intercom UX are the remaining pillars.",
+      "exec_summary": "Freecom 2x sells premium 2-rider Bluetooth with JBL sound \u2014 but Sena's Spider RT1 offers 24-rider MESH for $11 less and ASMAX Future 1 brings mesh + AI at $155. A 2-rider BT unit above $200 is structurally hard to defend in 2026; JBL audio and Live Intercom UX are the remaining pillars.",
       "matchups": [
         {
           "brand": "Sena",
@@ -732,7 +732,7 @@
           "brand": "ASMAX",
           "model": "Future 1",
           "price": "~$155",
-          "blurb": "2025 EICMA model: mesh, neural-network noise filtering, AI voice, 1350 mAh, IPX7 — 'high-tech at an affordable price' per Asian reviewers.",
+          "blurb": "2025 EICMA model: mesh, neural-network noise filtering, AI voice, 1350 mAh, IPX7 \u2014 'high-tech at an affordable price' per Asian reviewers.",
           "cardo_advantage": [
             "JBL audio brand & tuning",
             "Western retail availability (Future 1 not on US store yet)",
@@ -825,7 +825,7 @@
               "good",
               "good"
             ],
-            "note": "Freecom 2x 0.8km · Spider RT1 / ST1 2km · Future 1 3km",
+            "note": "Freecom 2x 0.8km \u00b7 Spider RT1 / ST1 2km \u00b7 Future 1 3km",
             "values": [
               "0.8km",
               "2km",
@@ -839,7 +839,7 @@
               "good",
               "soso"
             ],
-            "note": "Freecom 2x 2r · Spider RT1 / ST1 24r · Future 1 10r",
+            "note": "Freecom 2x 2r \u00b7 Spider RT1 / ST1 24r \u00b7 Future 1 10r",
             "values": [
               "2",
               "24",
@@ -853,7 +853,7 @@
               "good",
               "soso"
             ],
-            "note": "Freecom 2x 13h · Spider RT1 / ST1 20h · Future 1 14h",
+            "note": "Freecom 2x 13h \u00b7 Spider RT1 / ST1 20h \u00b7 Future 1 14h",
             "values": [
               "13h",
               "20h",
@@ -867,7 +867,7 @@
               "good",
               "soso"
             ],
-            "note": "Freecom 2x fast · Spider RT1 / ST1 fast · Future 1 std",
+            "note": "Freecom 2x fast \u00b7 Spider RT1 / ST1 fast \u00b7 Future 1 std",
             "values": [
               "fast",
               "fast",
@@ -881,10 +881,10 @@
               "bad",
               "good"
             ],
-            "note": "Freecom 2x Waterproof per Cardo (IP65 per third-party spec listings) · Spider RT1 / ST1 — · Future 1 IPX7",
+            "note": "Freecom 2x Waterproof per Cardo (IP65 per third-party spec listings) \u00b7 Spider RT1 / ST1 \u2014 \u00b7 Future 1 IPX7",
             "values": [
               "Waterproo",
-              "—",
+              "\u2014",
               "IPX7"
             ]
           },
@@ -898,7 +898,7 @@
             "note": "Freecom 'waterproof' unrated officially; Spider durability complaints; ASMAX QC young",
             "values": [
               "Waterproo",
-              "—",
+              "\u2014",
               "IPX7"
             ]
           },
@@ -909,7 +909,7 @@
               "soso",
               "soso"
             ],
-            "note": "Freecom 2x universal · Spider RT1 / ST1 BT only · Future 1 BT only",
+            "note": "Freecom 2x universal \u00b7 Spider RT1 / ST1 BT only \u00b7 Future 1 BT only",
             "values": [
               "universal",
               "BT only",
@@ -923,7 +923,7 @@
               "bad",
               "good"
             ],
-            "note": "Freecom 2x voice cmds · Spider RT1 / ST1 none · Future 1 AI assistant",
+            "note": "Freecom 2x voice cmds \u00b7 Spider RT1 / ST1 none \u00b7 Future 1 AI assistant",
             "values": [
               "voice cmds",
               "none",
@@ -937,7 +937,7 @@
               "soso",
               "good"
             ],
-            "note": "Freecom 2x app+OTA · Spider RT1 / ST1 app · Future 1 app+OTA",
+            "note": "Freecom 2x app+OTA \u00b7 Spider RT1 / ST1 app \u00b7 Future 1 app+OTA",
             "values": [
               "app+OTA",
               "app",
@@ -951,7 +951,7 @@
               "bad",
               "bad"
             ],
-            "note": "Freecom 2x none · Spider RT1 / ST1 none · Future 1 none",
+            "note": "Freecom 2x none \u00b7 Spider RT1 / ST1 none \u00b7 Future 1 none",
             "values": [
               "none",
               "none",
@@ -965,11 +965,11 @@
               "soso",
               "soso"
             ],
-            "note": "Freecom 2x — · Spider RT1 / ST1 — · Future 1 —",
+            "note": "Freecom 2x \u2014 \u00b7 Spider RT1 / ST1 \u2014 \u00b7 Future 1 \u2014",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -996,15 +996,15 @@
       "hero": {
         "brand": "Cardo",
         "model": "Freecom 4x",
-        "price": "$314.95 → $270 street"
+        "price": "$314.95 \u2192 $270 street"
       },
-      "exec_summary": "The 4-rider Freecom 4x holds the 'premium Bluetooth' niche on JBL sound and polish, but its price now overlaps Sena's mesh-capable 50R (~$300) and doubles ASMAX's F1 Pro (~$205, mesh + Bongiovi audio). The 2025 MSRP hike ($269.95 → $314.95) made this segment position visibly worse.",
+      "exec_summary": "The 4-rider Freecom 4x holds the 'premium Bluetooth' niche on JBL sound and polish, but its price now overlaps Sena's mesh-capable 50R (~$300) and doubles ASMAX's F1 Pro (~$205, mesh + Bongiovi audio). The 2025 MSRP hike ($269.95 \u2192 $314.95) made this segment position visibly worse.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "50R",
           "price": "~$300",
-          "blurb": "Low-profile Mesh 2.0 unit with Harman Kardon audio — mesh capability at Freecom 4x money.",
+          "blurb": "Low-profile Mesh 2.0 unit with Harman Kardon audio \u2014 mesh capability at Freecom 4x money.",
           "cardo_advantage": [
             "Better waterproofing story",
             "Live Intercom UX simplicity",
@@ -1020,7 +1020,7 @@
           "brand": "ASMAX",
           "model": "F1 Pro",
           "price": "~$171 street (Malaysia dealer)",
-          "blurb": "Octa-core mesh unit with Bongiovi 'Grammy-level' tuning, 14h intercom / 21h music, AI voice — not yet on the US store.",
+          "blurb": "Octa-core mesh unit with Bongiovi 'Grammy-level' tuning, 14h intercom / 21h music, AI voice \u2014 not yet on the US store.",
           "cardo_advantage": [
             "US availability & dealer install",
             "JBL brand audio",
@@ -1064,7 +1064,7 @@
             "values": [
               "37g",
               "65g",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -1116,7 +1116,7 @@
               "good",
               "good"
             ],
-            "note": "Freecom 4x 1.2km · 50R 2km · F1 Pro 3km",
+            "note": "Freecom 4x 1.2km \u00b7 50R 2km \u00b7 F1 Pro 3km",
             "values": [
               "1.2km",
               "2km",
@@ -1130,7 +1130,7 @@
               "good",
               "soso"
             ],
-            "note": "Freecom 4x 4r · 50R 24r · F1 Pro 10r",
+            "note": "Freecom 4x 4r \u00b7 50R 24r \u00b7 F1 Pro 10r",
             "values": [
               "4",
               "24",
@@ -1144,7 +1144,7 @@
               "soso",
               "soso"
             ],
-            "note": "Freecom 4x 13h · 50R 13h · F1 Pro 14h",
+            "note": "Freecom 4x 13h \u00b7 50R 13h \u00b7 F1 Pro 14h",
             "values": [
               "13h",
               "13h",
@@ -1158,7 +1158,7 @@
               "soso",
               "soso"
             ],
-            "note": "Freecom 4x fast · 50R std · F1 Pro std",
+            "note": "Freecom 4x fast \u00b7 50R std \u00b7 F1 Pro std",
             "values": [
               "fast",
               "std",
@@ -1172,7 +1172,7 @@
               "soso",
               "good"
             ],
-            "note": "Freecom 4x Waterproof per Cardo (IP65 per third-party spec listings) · 50R Water-resistant (no official IP rating) · F1 Pro IPX7",
+            "note": "Freecom 4x Waterproof per Cardo (IP65 per third-party spec listings) \u00b7 50R Water-resistant (no official IP rating) \u00b7 F1 Pro IPX7",
             "values": [
               "Waterproo",
               "Water-res",
@@ -1200,7 +1200,7 @@
               "soso",
               "good"
             ],
-            "note": "Freecom 4x universal · 50R BT only · F1 Pro universal",
+            "note": "Freecom 4x universal \u00b7 50R BT only \u00b7 F1 Pro universal",
             "values": [
               "universal",
               "BT only",
@@ -1214,7 +1214,7 @@
               "soso",
               "soso"
             ],
-            "note": "Freecom 4x voice cmds · 50R voice cmds · F1 Pro voice cmds",
+            "note": "Freecom 4x voice cmds \u00b7 50R voice cmds \u00b7 F1 Pro voice cmds",
             "values": [
               "voice cmds",
               "voice cmds",
@@ -1228,7 +1228,7 @@
               "good",
               "good"
             ],
-            "note": "Freecom 4x app+OTA · 50R app+OTA · F1 Pro app+OTA",
+            "note": "Freecom 4x app+OTA \u00b7 50R app+OTA \u00b7 F1 Pro app+OTA",
             "values": [
               "app+OTA",
               "app+OTA",
@@ -1242,7 +1242,7 @@
               "bad",
               "bad"
             ],
-            "note": "Freecom 4x none · 50R none · F1 Pro none",
+            "note": "Freecom 4x none \u00b7 50R none \u00b7 F1 Pro none",
             "values": [
               "none",
               "none",
@@ -1256,11 +1256,11 @@
               "soso",
               "soso"
             ],
-            "note": "Freecom 4x — · 50R — · F1 Pro —",
+            "note": "Freecom 4x \u2014 \u00b7 50R \u2014 \u00b7 F1 Pro \u2014",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -1289,12 +1289,12 @@
         "model": "Packtalk Neo",
         "price": "$359.95"
       },
-      "exec_summary": "Neo delivers full DMC Gen2 (31 riders post Mesh-Boost) at $80 under the Edge — but Reso's Pilot Neo undercuts it by ~$90 with IP67, 24h battery and 3-yr warranty, and Sena's 50S adds Harman Kardon at $341. Neo wins on mesh reliability and ecosystem; it loses the pure value math. This is the deck's 2024 'Neo vs Pilot Pro' story repeating one tier down.",
+      "exec_summary": "Neo delivers full DMC Gen2 (31 riders post Mesh-Boost) at $80 under the Edge \u2014 but Reso's Pilot Neo undercuts it by ~$90 with IP67, 24h battery and 3-yr warranty, and Sena's 50S adds Harman Kardon at $341. Neo wins on mesh reliability and ecosystem; it loses the pure value math. This is the deck's 2024 'Neo vs Pilot Pro' story repeating one tier down. Sena's June 2026 Spider X Slim adds a fifth mid-mesh contender: Bose audio and a lifetime warranty at $299, undercutting the Neo by $61 but giving up cross-brand bridging and battery life.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "50S",
-          "price": "$379 → $341 street",
+          "price": "$379 \u2192 $341 street",
           "blurb": "Aging Mesh 2.0 mid-tier with Harman Kardon speakers and jog dial; firmware v2.7 drew community backlash; refresh expected as 2026 range lands.",
           "cardo_advantage": [
             "DMC reliability + 31 riders vs 24",
@@ -1310,8 +1310,8 @@
         {
           "brand": "Reso",
           "model": "Reso Pilot Neo",
-          "price": "$320 → $269 street",
-          "blurb": "Single-channel mesh (15 riders), IP67, 24h talk, 15W fast charge, 3-yr warranty — the sharpest value attack on the Neo.",
+          "price": "$320 \u2192 $269 street",
+          "blurb": "Single-channel mesh (15 riders), IP67, 24h talk, 15W fast charge, 3-yr warranty \u2014 the sharpest value attack on the Neo.",
           "cardo_advantage": [
             "31-rider DMC vs 15",
             "Installed base & cross-brand BT bridging",
@@ -1331,7 +1331,7 @@
           "brand": "ASMAX",
           "model": "F1 Pro Max",
           "price": "$269 street (Malaysia dealer; not yet on US store)",
-          "blurb": "EICMA 2025 top model: 45mm speakers, 1350 mAh, Bongiovi tuning — first confirmed price is well under the Neo.",
+          "blurb": "EICMA 2025 top model: 45mm speakers, 1350 mAh, Bongiovi tuning \u2014 first confirmed price is well under the Neo.",
           "cardo_advantage": [
             "Available now in the US",
             "DMC ecosystem & reliability record"
@@ -1342,6 +1342,27 @@
           ],
           "to_test": [
             "US launch price & availability"
+          ]
+        },
+        {
+          "brand": "Sena",
+          "model": "Spider X Slim",
+          "price": "$299 street ($569 dual)",
+          "blurb": "New June 2026 mesh-only mid-tier: ultra-slim body with separate battery pack, Sound by Bose 40mm drivers, AI noise cancellation and Sena's lifetime warranty \u2014 undercuts the 60-series and directly challenges the Neo's value math.",
+          "cardo_advantage": [
+            "31-rider DMC vs 24-rider mesh cap",
+            "Universal cross-brand BT bridging (Spider X Slim is mesh-only, no BT intercom)",
+            "Established DMC reliability record vs brand-new hardware"
+          ],
+          "competitor_advantage": [
+            "$61 cheaper ($299 vs $359.95)",
+            "Bose-branded audio",
+            "Lifetime warranty vs Cardo's limited coverage",
+            "Slimmer, lighter form factor (23.2g main unit)"
+          ],
+          "to_test": [
+            "Real-world mesh range/reliability (too new for reviewer consensus)",
+            "Battery life without BT intercom draw (11h claimed vs Neo's 13h)"
           ]
         }
       ],
@@ -1362,6 +1383,10 @@
           [
             "ASMAX",
             "F1 Pro Max"
+          ],
+          [
+            "Sena",
+            "Spider X Slim"
           ]
         ],
         "rows": [
@@ -1371,14 +1396,16 @@
               "good",
               "bad",
               "good",
-              "soso"
+              "soso",
+              "good"
             ],
             "note": "50S bulky (MCN); Neo clip-mount only (no Air Mount)",
             "values": [
               "47g",
               "64g",
               "65g",
-              "—"
+              "\u2014",
+              "23.2g"
             ]
           },
           {
@@ -1387,6 +1414,7 @@
               "good",
               "soso",
               "good",
+              "soso",
               "soso"
             ],
             "note": "Natural Voice + OTA; 50S firmware backlash; Reso voice praised",
@@ -1394,7 +1422,8 @@
               "wheel+btn",
               "jog dial",
               "buttons",
-              "wheel+btn"
+              "wheel+btn",
+              "buttons"
             ]
           },
           {
@@ -1403,6 +1432,7 @@
               "good",
               "good",
               "soso",
+              "good",
               "good"
             ],
             "note": "JBL vs HK; Reso self-developed (good reviews, less brand)",
@@ -1410,13 +1440,15 @@
               "40mm JBL",
               "40mm SOUND BY",
               "40mm Reso in-house",
-              "40mm ASMAX 40mm,"
+              "40mm ASMAX 40mm,",
+              "40mm Bose"
             ]
           },
           {
             "dimension": "Intercom",
             "scores": [
               "good",
+              "soso",
               "soso",
               "soso",
               "soso"
@@ -1426,7 +1458,8 @@
               "DMC mesh",
               "mesh",
               "mesh",
-              "mesh"
+              "mesh",
+              "mesh-only"
             ]
           },
           {
@@ -1435,14 +1468,16 @@
               "good",
               "good",
               "good",
+              "good",
               "good"
             ],
-            "note": "Packtalk Neo 1.6km · 50S 2km · Pilot Neo 2.5km · F1 Pro Max 3km",
+            "note": "Packtalk Neo 1.6km \u00b7 50S 2km \u00b7 Pilot Neo 2.5km \u00b7 F1 Pro Max 3km",
             "values": [
               "1.6km",
               "2km",
               "2.5km",
-              "3km"
+              "3km",
+              "1.6km"
             ]
           },
           {
@@ -1451,14 +1486,16 @@
               "good",
               "good",
               "good",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Packtalk Neo 15r · 50S 24r · Pilot Neo 15r · F1 Pro Max 10r",
+            "note": "Packtalk Neo 15r \u00b7 50S 24r \u00b7 Pilot Neo 15r \u00b7 F1 Pro Max 10r",
             "values": [
               "15",
               "24",
               "15",
-              "10"
+              "10",
+              "24"
             ]
           },
           {
@@ -1467,14 +1504,16 @@
               "soso",
               "soso",
               "good",
+              "soso",
               "soso"
             ],
-            "note": "Packtalk Neo 13h · 50S 13h · Pilot Neo 24h · F1 Pro Max 14h",
+            "note": "Packtalk Neo 13h \u00b7 50S 13h \u00b7 Pilot Neo 24h \u00b7 F1 Pro Max 14h",
             "values": [
               "13h",
               "13h",
               "24h",
-              "14h"
+              "14h",
+              "11h"
             ]
           },
           {
@@ -1483,13 +1522,15 @@
               "good",
               "soso",
               "good",
+              "soso",
               "soso"
             ],
-            "note": "Packtalk Neo fast · 50S std · Pilot Neo fast · F1 Pro Max std",
+            "note": "Packtalk Neo fast \u00b7 50S std \u00b7 Pilot Neo fast \u00b7 F1 Pro Max std",
             "values": [
               "fast",
               "std",
               "fast",
+              "std",
               "std"
             ]
           },
@@ -1499,13 +1540,15 @@
               "good",
               "soso",
               "good",
+              "good",
               "good"
             ],
-            "note": "Packtalk Neo IP67 · 50S Water-resistant (no official IP rating) · Pilot Neo IP67 · F1 Pro Max IPX7",
+            "note": "Packtalk Neo IP67 \u00b7 50S Water-resistant (no official IP rating) \u00b7 Pilot Neo IP67 \u00b7 F1 Pro Max IPX7",
             "values": [
               "IP67",
               "Water-res",
               "IP67",
+              "IPX7",
               "IPX7"
             ]
           },
@@ -1515,13 +1558,15 @@
               "good",
               "soso",
               "good",
-              "soso"
+              "soso",
+              "good"
             ],
             "note": "Neo IP67 2-yr; 50S water-resistant; Reso IP67 3-yr but young brand",
             "values": [
               "IP67",
               "Water-res",
               "IP67",
+              "IPX7",
               "IPX7"
             ]
           },
@@ -1531,14 +1576,16 @@
               "good",
               "good",
               "soso",
-              "good"
+              "good",
+              "bad"
             ],
-            "note": "Packtalk Neo universal · 50S universal · Pilot Neo BT only · F1 Pro Max universal",
+            "note": "Packtalk Neo universal \u00b7 50S universal \u00b7 Pilot Neo BT only \u00b7 F1 Pro Max universal",
             "values": [
               "universal",
               "universal",
               "BT only",
-              "universal"
+              "universal",
+              "none"
             ]
           },
           {
@@ -1547,10 +1594,12 @@
               "soso",
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
-            "note": "Packtalk Neo voice cmds · 50S voice cmds · Pilot Neo voice cmds · F1 Pro Max voice cmds",
+            "note": "Packtalk Neo voice cmds \u00b7 50S voice cmds \u00b7 Pilot Neo voice cmds \u00b7 F1 Pro Max voice cmds",
             "values": [
+              "voice cmds",
               "voice cmds",
               "voice cmds",
               "voice cmds",
@@ -1563,10 +1612,12 @@
               "good",
               "good",
               "good",
+              "good",
               "good"
             ],
-            "note": "Packtalk Neo app+OTA · 50S app+OTA · Pilot Neo app+OTA · F1 Pro Max app+OTA",
+            "note": "Packtalk Neo app+OTA \u00b7 50S app+OTA \u00b7 Pilot Neo app+OTA \u00b7 F1 Pro Max app+OTA",
             "values": [
+              "app+OTA",
               "app+OTA",
               "app+OTA",
               "app+OTA",
@@ -1579,13 +1630,15 @@
               "bad",
               "bad",
               "good",
+              "bad",
               "bad"
             ],
-            "note": "Packtalk Neo none · 50S none · Pilot Neo crash/SOS · F1 Pro Max none",
+            "note": "Packtalk Neo none \u00b7 50S none \u00b7 Pilot Neo crash/SOS \u00b7 F1 Pro Max none",
             "values": [
               "none",
               "none",
               "crash/SOS",
+              "none",
               "none"
             ]
           },
@@ -1595,14 +1648,16 @@
               "good",
               "soso",
               "good",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Packtalk Neo 3yr · 50S — · Pilot Neo 3yr · F1 Pro Max —",
+            "note": "Packtalk Neo 3yr \u00b7 50S \u2014 \u00b7 Pilot Neo 3yr \u00b7 F1 Pro Max \u2014",
             "values": [
               "3yr",
-              "—",
+              "\u2014",
               "3yr",
-              "—"
+              "\u2014",
+              "lifetime"
             ]
           },
           {
@@ -1611,6 +1666,7 @@
               "bad",
               "soso",
               "good",
+              "soso",
               "soso"
             ],
             "note": "Neo most expensive mid-mesh; Reso $269 defines segment value",
@@ -1618,7 +1674,8 @@
               "$359",
               "$341",
               "$269",
-              "$171"
+              "$171",
+              "$299"
             ]
           }
         ]
@@ -1633,7 +1690,7 @@
         "model": "Packtalk Pro",
         "price": "$499.95"
       },
-      "exec_summary": "Cardo still owns the reliability crown — DMC, IP67, crash detection, and nearly every 'best overall' verdict. But the price umbrella is under attack from three directions: Sena 60S EVO ($459) with Bose audio + lifetime warranty, Reso Pilot Pro ($359) matching the safety stack, and ASMAX F1s ($140) resetting the price floor. Wave/CloudTalk-style cellular intercom is the marketing capability gap; the 2025 MSRP hikes are the self-inflicted one.",
+      "exec_summary": "Cardo still owns the reliability crown \u2014 DMC, IP67, crash detection, and nearly every 'best overall' verdict. But the price umbrella is under attack from three directions: Sena 60S EVO ($459) with Bose audio + lifetime warranty, Reso Pilot Pro ($359) matching the safety stack, and ASMAX F1s ($140) resetting the price floor. Wave/CloudTalk-style cellular intercom is the marketing capability gap; the 2025 MSRP hikes are the self-inflicted one.",
       "matchups": [
         {
           "brand": "Sena",
@@ -1661,7 +1718,7 @@
           "brand": "Sena",
           "model": "60X",
           "price": "$459 ($879 dual)",
-          "blurb": "Launched July 2, 2026: Sena's first joystick-controlled intercom, replacing the jog dial with glove-friendly buttons, plus magnetic mount with Qi wireless charging, Sound by Bose, Mesh 3.0/Wave, and a limited lifetime warranty — same price as the 60S EVO.",
+          "blurb": "Launched July 2, 2026: Sena's first joystick-controlled intercom, replacing the jog dial with glove-friendly buttons, plus magnetic mount with Qi wireless charging, Sound by Bose, Mesh 3.0/Wave, and a limited lifetime warranty \u2014 same price as the 60S EVO.",
           "cardo_advantage": [
             "DMC group reliability (review consensus)",
             "IP67 vs IPX7",
@@ -1682,8 +1739,8 @@
         {
           "brand": "Sena",
           "model": "60S",
-          "price": "$439 → $351 street",
-          "blurb": "2024 flagship now discounted ~20% as EVO lands — price pressure directly on the Edge.",
+          "price": "$439 \u2192 $351 street",
+          "blurb": "2024 flagship now discounted ~20% as EVO lands \u2014 price pressure directly on the Edge.",
           "cardo_advantage": [
             "Mesh reliability, IP67, voice control",
             "Edge street price competitive at $396"
@@ -1698,7 +1755,7 @@
         {
           "brand": "Reso",
           "model": "Reso Pilot Pro",
-          "price": "$399 → $359 (~$225 in PH)",
+          "price": "$399 \u2192 $359 (~$225 in PH)",
           "blurb": "Ex-DJI team: DuoSync hardware+software mesh (30 riders), GNSS crash SOS, 'Hey RESO', GoPro/DJI/Insta360 audio-in-footage, IP67, 3-yr warranty.",
           "cardo_advantage": [
             "Installed base for group rides",
@@ -1868,7 +1925,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Pro 1.6km · Packtalk Edge 1.6km · 60S EVO cellular · 60X cellular · 60S cellular · Pilot Pro cellular · F1s cellular",
+            "note": "Packtalk Pro 1.6km \u00b7 Packtalk Edge 1.6km \u00b7 60S EVO cellular \u00b7 60X cellular \u00b7 60S cellular \u00b7 Pilot Pro cellular \u00b7 F1s cellular",
             "values": [
               "1.6km",
               "1.6km",
@@ -1890,7 +1947,7 @@
               "good",
               "soso"
             ],
-            "note": "Packtalk Pro 15r · Packtalk Edge 15r · 60S EVO 24r · 60X 24r · 60S 24r · Pilot Pro 30r · F1s 10r",
+            "note": "Packtalk Pro 15r \u00b7 Packtalk Edge 15r \u00b7 60S EVO 24r \u00b7 60X 24r \u00b7 60S 24r \u00b7 Pilot Pro 30r \u00b7 F1s 10r",
             "values": [
               "15",
               "15",
@@ -1912,7 +1969,7 @@
               "soso",
               "soso"
             ],
-            "note": "Packtalk Pro 13h · Packtalk Edge 13h · 60S EVO 27h · 60X 29h · 60S 27h · Pilot Pro 13h · F1s —",
+            "note": "Packtalk Pro 13h \u00b7 Packtalk Edge 13h \u00b7 60S EVO 27h \u00b7 60X 29h \u00b7 60S 27h \u00b7 Pilot Pro 13h \u00b7 F1s \u2014",
             "values": [
               "13h",
               "13h",
@@ -1920,7 +1977,7 @@
               "29h",
               "27h",
               "13h",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -1934,7 +1991,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Pro fast · Packtalk Edge fast · 60S EVO fast · 60X wireless · 60S fast · Pilot Pro fast · F1s fast",
+            "note": "Packtalk Pro fast \u00b7 Packtalk Edge fast \u00b7 60S EVO fast \u00b7 60X wireless \u00b7 60S fast \u00b7 Pilot Pro fast \u00b7 F1s fast",
             "values": [
               "fast",
               "fast",
@@ -1956,7 +2013,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Pro IP67 · Packtalk Edge IP67 · 60S EVO IPX7 · 60X IPX7 · 60S IPX7 · Pilot Pro IP67 · F1s IP67",
+            "note": "Packtalk Pro IP67 \u00b7 Packtalk Edge IP67 \u00b7 60S EVO IPX7 \u00b7 60X IPX7 \u00b7 60S IPX7 \u00b7 Pilot Pro IP67 \u00b7 F1s IP67",
             "values": [
               "IP67",
               "IP67",
@@ -2000,7 +2057,7 @@
               "soso",
               "good"
             ],
-            "note": "Packtalk Pro universal · Packtalk Edge universal · 60S EVO BT only · 60X universal · 60S BT only · Pilot Pro BT only · F1s BT only",
+            "note": "Packtalk Pro universal \u00b7 Packtalk Edge universal \u00b7 60S EVO BT only \u00b7 60X universal \u00b7 60S BT only \u00b7 Pilot Pro BT only \u00b7 F1s BT only",
             "values": [
               "universal",
               "universal",
@@ -2022,7 +2079,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Pro voice cmds · Packtalk Edge voice cmds · 60S EVO voice cmds · 60X none · 60S voice cmds · Pilot Pro AI assistant · F1s AI assistant",
+            "note": "Packtalk Pro voice cmds \u00b7 Packtalk Edge voice cmds \u00b7 60S EVO voice cmds \u00b7 60X none \u00b7 60S voice cmds \u00b7 Pilot Pro AI assistant \u00b7 F1s AI assistant",
             "values": [
               "voice cmds",
               "voice cmds",
@@ -2044,7 +2101,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Pro app+OTA · Packtalk Edge app+OTA · 60S EVO app+OTA · 60X app · 60S app+OTA · Pilot Pro app+OTA · F1s app+OTA",
+            "note": "Packtalk Pro app+OTA \u00b7 Packtalk Edge app+OTA \u00b7 60S EVO app+OTA \u00b7 60X app \u00b7 60S app+OTA \u00b7 Pilot Pro app+OTA \u00b7 F1s app+OTA",
             "values": [
               "app+OTA",
               "app+OTA",
@@ -2066,7 +2123,7 @@
               "good",
               "bad"
             ],
-            "note": "Packtalk Pro crash/SOS · Packtalk Edge none · 60S EVO none · 60X none · 60S none · Pilot Pro crash/SOS · F1s none",
+            "note": "Packtalk Pro crash/SOS \u00b7 Packtalk Edge none \u00b7 60S EVO none \u00b7 60X none \u00b7 60S none \u00b7 Pilot Pro crash/SOS \u00b7 F1s none",
             "values": [
               "crash/SOS",
               "none",
@@ -2088,7 +2145,7 @@
               "good",
               "soso"
             ],
-            "note": "Packtalk Pro 3yr · Packtalk Edge 3yr · 60S EVO lifetime · 60X lifetime · 60S lifetime · Pilot Pro 3yr · F1s 2yr",
+            "note": "Packtalk Pro 3yr \u00b7 Packtalk Edge 3yr \u00b7 60S EVO lifetime \u00b7 60X lifetime \u00b7 60S lifetime \u00b7 Pilot Pro 3yr \u00b7 F1s 2yr",
             "values": [
               "3yr",
               "3yr",
@@ -2131,14 +2188,14 @@
       "hero": {
         "brand": "Cardo",
         "model": "Packtalk Edge",
-        "price": "$439.95 → $396 street"
+        "price": "$439.95 \u2192 $396 street"
       },
       "exec_summary": "The Edge is the previous-gen DMC flagship, now the smart value pick below the Packtalk Pro: same 2nd-gen Dynamic Mesh, 40mm JBL audio and IP67 build, minus the Pro's IMU crash detection. At $396 street it collides head-on with the Sena 60S, which is also ~$351 discounted post-EVO and counters with Wave cellular intercom and a 24-rider mesh. Edge wins on JBL audio and mesh polish; 60S wins on unlimited-range Wave and rider count. ASMAX F1s undercuts both on paper-spec at ~$227.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "60S",
-          "price": "$439 → ~$351",
+          "price": "$439 \u2192 ~$351",
           "blurb": "Prior Sena flagship, now discounted under the 60S EVO. Mesh 3.0 + Wave cellular + Harman Kardon, 24-rider mesh.",
           "cardo_advantage": [
             "Sound by JBL 40mm vs Harman Kardon (subjective, but Edge audio well-reviewed)",
@@ -2157,7 +2214,7 @@
           "brand": "ASMAX",
           "model": "F1s",
           "price": "$226.99",
-          "blurb": "Value flagship-class: Mesh + BT 5.3 dual-chip, CloudTalk cellular, offline AI voice — flagship spec at half the price.",
+          "blurb": "Value flagship-class: Mesh + BT 5.3 dual-chip, CloudTalk cellular, offline AI voice \u2014 flagship spec at half the price.",
           "cardo_advantage": [
             "Proven DMC reliability & Western service network",
             "Brand trust and long-term firmware",
@@ -2282,7 +2339,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Edge 1.6km · 60S cellular · F1s cellular · Pilot Pro cellular",
+            "note": "Packtalk Edge 1.6km \u00b7 60S cellular \u00b7 F1s cellular \u00b7 Pilot Pro cellular",
             "values": [
               "1.6km",
               "cellular",
@@ -2298,7 +2355,7 @@
               "soso",
               "good"
             ],
-            "note": "Packtalk Edge 15r · 60S 24r · F1s 10r · Pilot Pro 30r",
+            "note": "Packtalk Edge 15r \u00b7 60S 24r \u00b7 F1s 10r \u00b7 Pilot Pro 30r",
             "values": [
               "15",
               "24",
@@ -2314,11 +2371,11 @@
               "soso",
               "soso"
             ],
-            "note": "Packtalk Edge 13h · 60S 27h · F1s — · Pilot Pro 13h",
+            "note": "Packtalk Edge 13h \u00b7 60S 27h \u00b7 F1s \u2014 \u00b7 Pilot Pro 13h",
             "values": [
               "13h",
               "27h",
-              "—",
+              "\u2014",
               "13h"
             ]
           },
@@ -2330,7 +2387,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Edge fast · 60S fast · F1s fast · Pilot Pro fast",
+            "note": "Packtalk Edge fast \u00b7 60S fast \u00b7 F1s fast \u00b7 Pilot Pro fast",
             "values": [
               "fast",
               "fast",
@@ -2346,7 +2403,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Edge IP67 · 60S IPX7 · F1s IP67 · Pilot Pro IP67",
+            "note": "Packtalk Edge IP67 \u00b7 60S IPX7 \u00b7 F1s IP67 \u00b7 Pilot Pro IP67",
             "values": [
               "IP67",
               "IPX7",
@@ -2378,7 +2435,7 @@
               "good",
               "soso"
             ],
-            "note": "Packtalk Edge universal · 60S BT only · F1s BT only · Pilot Pro BT only",
+            "note": "Packtalk Edge universal \u00b7 60S BT only \u00b7 F1s BT only \u00b7 Pilot Pro BT only",
             "values": [
               "universal",
               "BT only",
@@ -2394,7 +2451,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Edge voice cmds · 60S voice cmds · F1s AI assistant · Pilot Pro AI assistant",
+            "note": "Packtalk Edge voice cmds \u00b7 60S voice cmds \u00b7 F1s AI assistant \u00b7 Pilot Pro AI assistant",
             "values": [
               "voice cmds",
               "voice cmds",
@@ -2410,7 +2467,7 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Edge app+OTA · 60S app+OTA · F1s app+OTA · Pilot Pro app+OTA",
+            "note": "Packtalk Edge app+OTA \u00b7 60S app+OTA \u00b7 F1s app+OTA \u00b7 Pilot Pro app+OTA",
             "values": [
               "app+OTA",
               "app+OTA",
@@ -2426,7 +2483,7 @@
               "bad",
               "good"
             ],
-            "note": "Packtalk Edge none · 60S none · F1s none · Pilot Pro crash/SOS",
+            "note": "Packtalk Edge none \u00b7 60S none \u00b7 F1s none \u00b7 Pilot Pro crash/SOS",
             "values": [
               "none",
               "none",
@@ -2442,7 +2499,7 @@
               "soso",
               "good"
             ],
-            "note": "Packtalk Edge 3yr · 60S lifetime · F1s 2yr · Pilot Pro 3yr",
+            "note": "Packtalk Edge 3yr \u00b7 60S lifetime \u00b7 F1s 2yr \u00b7 Pilot Pro 3yr",
             "values": [
               "3yr",
               "lifetime",
@@ -2471,20 +2528,20 @@
     },
     {
       "id": "off-helmet-audio",
-      "title": "PACKTALK EDGEPHONES — uncontested niche",
+      "title": "PACKTALK EDGEPHONES \u2014 uncontested niche",
       "segment": "Off-Helmet Audio",
       "hero": {
         "brand": "Cardo",
         "model": "Packtalk Edgephones",
         "price": "$159.95"
       },
-      "exec_summary": "Edgephones are over-ear headphones carrying full 2nd-gen Dynamic Mesh — they let a coach, parent, pit-crew member or open-face rider join a Packtalk mesh network without a helmet-mounted unit. No competitor ships a mesh-networked over-ear product: Sena, ASMAX and Reso can only approximate it by strapping a standard intercom to an open-face helmet, and generic Bluetooth headphones have no group mesh at all. This is white space Cardo owns outright.",
+      "exec_summary": "Edgephones are over-ear headphones carrying full 2nd-gen Dynamic Mesh \u2014 they let a coach, parent, pit-crew member or open-face rider join a Packtalk mesh network without a helmet-mounted unit. No competitor ships a mesh-networked over-ear product: Sena, ASMAX and Reso can only approximate it by strapping a standard intercom to an open-face helmet, and generic Bluetooth headphones have no group mesh at all. This is white space Cardo owns outright.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "(no direct equivalent)",
-          "price": "—",
-          "blurb": "Sena has no mesh over-ear headphone. Closest workaround is clipping a 5S/50S onto an open-face helmet or headband — bulkier, helmet-oriented, not built for off-helmet use.",
+          "price": "\u2014",
+          "blurb": "Sena has no mesh over-ear headphone. Closest workaround is clipping a 5S/50S onto an open-face helmet or headband \u2014 bulkier, helmet-oriented, not built for off-helmet use.",
           "cardo_advantage": [
             "Only true mesh-networked over-ear headphone",
             "Joins any Packtalk DMC group instantly",
@@ -2497,8 +2554,8 @@
         {
           "brand": "Generic",
           "model": "Bluetooth headphones",
-          "price": "$40–150",
-          "blurb": "Consumer BT over-ear/earbuds. Music and calls only — no motorcycle group intercom, no mesh, no rider-to-rider.",
+          "price": "$40\u2013150",
+          "blurb": "Consumer BT over-ear/earbuds. Music and calls only \u2014 no motorcycle group intercom, no mesh, no rider-to-rider.",
           "cardo_advantage": [
             "Full DMC group intercom (15 riders)",
             "Integrates with the rider's existing Packtalk network",
@@ -2535,9 +2592,9 @@
             ],
             "note": "Edgephones purpose-built over-ear; adapted intercom awkward off-helmet",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2549,9 +2606,9 @@
             ],
             "note": "Edgephones one-tap join DMC; generic BT trivial but no group",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2564,8 +2621,8 @@
             "note": "Sound by JBL over-ear; generic varies",
             "values": [
               "Over-ear headpho",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2578,8 +2635,8 @@
             "note": "Only Edgephones is native mesh; adapted unit works but helmet-oriented; generic none",
             "values": [
               "DMC mesh",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2589,11 +2646,11 @@
               "soso",
               "bad"
             ],
-            "note": "Edgephones 1.6km · adapted unit:— · BT headphones:—",
+            "note": "Edgephones 1.6km \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
               "1.6km",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2603,11 +2660,11 @@
               "soso",
               "bad"
             ],
-            "note": "Edgephones 15r · adapted unit:— · BT headphones:—",
+            "note": "Edgephones 15r \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
               "15",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2617,11 +2674,11 @@
               "soso",
               "soso"
             ],
-            "note": "Edgephones — · adapted unit:— · BT headphones:—",
+            "note": "Edgephones \u2014 \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2631,11 +2688,11 @@
               "soso",
               "soso"
             ],
-            "note": "Edgephones std · adapted unit:— · BT headphones:—",
+            "note": "Edgephones std \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
               "std",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2645,11 +2702,11 @@
               "soso",
               "bad"
             ],
-            "note": "Edgephones — · adapted unit:— · BT headphones:—",
+            "note": "Edgephones \u2014 \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2661,9 +2718,9 @@
             ],
             "note": "Cardo-built for the use case",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2673,11 +2730,11 @@
               "soso",
               "bad"
             ],
-            "note": "Edgephones proprietary · adapted unit:— · BT headphones:—",
+            "note": "Edgephones proprietary \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
               "proprietary",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2687,11 +2744,11 @@
               "soso",
               "soso"
             ],
-            "note": "Edgephones none · adapted unit:— · BT headphones:—",
+            "note": "Edgephones none \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
               "none",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2701,11 +2758,11 @@
               "good",
               "bad"
             ],
-            "note": "Edgephones app · adapted unit:— · BT headphones:—",
+            "note": "Edgephones app \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
               "app",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2715,11 +2772,11 @@
               "bad",
               "bad"
             ],
-            "note": "Edgephones none · adapted unit:— · BT headphones:—",
+            "note": "Edgephones none \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
               "none",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2729,11 +2786,11 @@
               "good",
               "bad"
             ],
-            "note": "Edgephones — · adapted unit:— · BT headphones:—",
+            "note": "Edgephones \u2014 \u00b7 adapted unit:\u2014 \u00b7 BT headphones:\u2014",
             "values": [
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2746,8 +2803,8 @@
             "note": "$159.95 for mesh over-ear is category-unique",
             "values": [
               "$159",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           }
         ]
@@ -2756,13 +2813,13 @@
     {
       "id": "smart-helmet-touring",
       "title": "BEYOND GT/GTS vs Sena smart helmets",
-      "segment": "Smart Helmet · Touring / Full-Face",
+      "segment": "Smart Helmet \u00b7 Touring / Full-Face",
       "hero": {
         "brand": "Cardo",
         "model": "Beyond GTS (smart helmet)",
         "price": "$1,199 (GT $949)"
       },
-      "exec_summary": "Cardo's first fully integrated road helmets (GTS $1,199 carbon / GT $949 fiberglass) put DMC mesh — up to 31 riders — plus JBL audio and ANC into a serviceable, wireless-charging shell. But they land into a Sena smart-helmet line that is years deep and far cheaper: the Specter ($649) matches the touring brief with Mesh 3.0 + Wave cellular at nearly half the GTS price, and the Phantom family starts at $439. Cardo's pitch is premium materials, rider count and upgradeable modules; Sena's is proven helmet manufacturing, cellular range and price.",
+      "exec_summary": "Cardo's first fully integrated road helmets (GTS $1,199 carbon / GT $949 fiberglass) put DMC mesh \u2014 up to 31 riders \u2014 plus JBL audio and ANC into a serviceable, wireless-charging shell. But they land into a Sena smart-helmet line that is years deep and far cheaper: the Specter ($649) matches the touring brief with Mesh 3.0 + Wave cellular at nearly half the GTS price, and the Phantom family starts at $439. Cardo's pitch is premium materials, rider count and upgradeable modules; Sena's is proven helmet manufacturing, cellular range and price.",
       "matchups": [
         {
           "brand": "Sena",
@@ -2787,7 +2844,7 @@
         {
           "brand": "Sena",
           "model": "Phantom family",
-          "price": "$439–649",
+          "price": "$439\u2013649",
           "blurb": "60S-derived full-face integrated line: base $439, Extreme Bass $599, ANC $649, plus Camera variant. Mesh 3.0 + Harman Kardon + AI noise cancellation.",
           "cardo_advantage": [
             "Higher rider count (31)",
@@ -2848,10 +2905,10 @@
             ],
             "note": "GTS carbon full-face; Specter/Phantom premium; Impulse modular heavier",
             "values": [
-              "—",
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2864,10 +2921,10 @@
             ],
             "note": "All hands-free voice; GTS integrated controls",
             "values": [
-              "—",
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2910,7 +2967,7 @@
               "soso",
               "soso"
             ],
-            "note": "Beyond GTS 2km · Specter cellular · Phantom mesh · Impulse mesh",
+            "note": "Beyond GTS 2km \u00b7 Specter cellular \u00b7 Phantom mesh \u00b7 Impulse mesh",
             "values": [
               "2km",
               "cellular",
@@ -2926,12 +2983,12 @@
               "good",
               "soso"
             ],
-            "note": "Beyond GTS 31r · Specter 24r · Phantom 24r · Impulse —",
+            "note": "Beyond GTS 31r \u00b7 Specter 24r \u00b7 Phantom 24r \u00b7 Impulse \u2014",
             "values": [
               "31",
               "24",
               "24",
-              "—"
+              "\u2014"
             ]
           },
           {
@@ -2942,12 +2999,12 @@
               "soso",
               "soso"
             ],
-            "note": "Beyond GTS — · Specter 30h · Phantom — · Impulse —",
+            "note": "Beyond GTS \u2014 \u00b7 Specter 30h \u00b7 Phantom \u2014 \u00b7 Impulse \u2014",
             "values": [
-              "—",
+              "\u2014",
               "30h",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2958,7 +3015,7 @@
               "soso",
               "soso"
             ],
-            "note": "Beyond GTS wireless · Specter std · Phantom std · Impulse std",
+            "note": "Beyond GTS wireless \u00b7 Specter std \u00b7 Phantom std \u00b7 Impulse std",
             "values": [
               "wireless",
               "std",
@@ -2974,12 +3031,12 @@
               "bad",
               "bad"
             ],
-            "note": "Beyond GTS — · Specter — · Phantom — · Impulse —",
+            "note": "Beyond GTS \u2014 \u00b7 Specter \u2014 \u00b7 Phantom \u2014 \u00b7 Impulse \u2014",
             "values": [
-              "—",
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -2992,10 +3049,10 @@
             ],
             "note": "GTS carbon + serviceable modules (new/unproven); Sena proven helmet mfg",
             "values": [
-              "—",
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -3006,7 +3063,7 @@
               "soso",
               "soso"
             ],
-            "note": "Beyond GTS BT only · Specter BT only · Phantom BT only · Impulse BT only",
+            "note": "Beyond GTS BT only \u00b7 Specter BT only \u00b7 Phantom BT only \u00b7 Impulse BT only",
             "values": [
               "BT only",
               "BT only",
@@ -3022,7 +3079,7 @@
               "bad",
               "bad"
             ],
-            "note": "Beyond GTS voice cmds · Specter none · Phantom none · Impulse none",
+            "note": "Beyond GTS voice cmds \u00b7 Specter none \u00b7 Phantom none \u00b7 Impulse none",
             "values": [
               "voice cmds",
               "none",
@@ -3038,7 +3095,7 @@
               "soso",
               "soso"
             ],
-            "note": "Beyond GTS app · Specter app · Phantom app · Impulse app",
+            "note": "Beyond GTS app \u00b7 Specter app \u00b7 Phantom app \u00b7 Impulse app",
             "values": [
               "app",
               "app",
@@ -3054,7 +3111,7 @@
               "bad",
               "bad"
             ],
-            "note": "Beyond GTS crash/SOS · Specter none · Phantom none · Impulse none",
+            "note": "Beyond GTS crash/SOS \u00b7 Specter none \u00b7 Phantom none \u00b7 Impulse none",
             "values": [
               "crash/SOS",
               "none",
@@ -3070,12 +3127,12 @@
               "soso",
               "soso"
             ],
-            "note": "Beyond GTS — · Specter — · Phantom — · Impulse —",
+            "note": "Beyond GTS \u2014 \u00b7 Specter \u2014 \u00b7 Phantom \u2014 \u00b7 Impulse \u2014",
             "values": [
-              "—",
-              "—",
-              "—",
-              "—"
+              "\u2014",
+              "\u2014",
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -3100,13 +3157,13 @@
     {
       "id": "smart-helmet-offroad",
       "title": "VENTURE MX vs Sena Outlander",
-      "segment": "Smart Helmet · Off-Road / Adventure",
+      "segment": "Smart Helmet \u00b7 Off-Road / Adventure",
       "hero": {
         "brand": "Cardo",
         "model": "Venture (integrated MX helmet)",
         "price": "$799"
       },
-      "exec_summary": "The Venture is billed as the world's first integrated-mesh motocross helmet, built on the Leatt Moto 8.5 platform with DMC mesh and JBL-partnered audio — a genuine first for the pure off-road segment. Its nearest rival is Sena's Outlander dual-sport smart helmet at $599: $200 cheaper, more road-versatile, and carrying Mesh 3.0 + Wave cellular. Venture owns the MX-specific niche; Outlander wins on price and dual-sport flexibility.",
+      "exec_summary": "The Venture is billed as the world's first integrated-mesh motocross helmet, built on the Leatt Moto 8.5 platform with DMC mesh and JBL-partnered audio \u2014 a genuine first for the pure off-road segment. Its nearest rival is Sena's Outlander dual-sport smart helmet at $599: $200 cheaper, more road-versatile, and carrying Mesh 3.0 + Wave cellular. Venture owns the MX-specific niche; Outlander wins on price and dual-sport flexibility.",
       "matchups": [
         {
           "brand": "Sena",
@@ -3147,8 +3204,8 @@
             ],
             "note": "Venture pure-MX open peak; Outlander dual-sport with visor (more versatile)",
             "values": [
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -3159,8 +3216,8 @@
             ],
             "note": "Both hands-free voice + app",
             "values": [
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -3193,7 +3250,7 @@
               "good",
               "good"
             ],
-            "note": "Venture MX mesh · Outlander cellular",
+            "note": "Venture MX mesh \u00b7 Outlander cellular",
             "values": [
               "mesh",
               "cellular"
@@ -3205,9 +3262,9 @@
               "soso",
               "good"
             ],
-            "note": "Venture MX — · Outlander 24r",
+            "note": "Venture MX \u2014 \u00b7 Outlander 24r",
             "values": [
-              "—",
+              "\u2014",
               "24"
             ]
           },
@@ -3217,10 +3274,10 @@
               "soso",
               "soso"
             ],
-            "note": "Venture MX — · Outlander —",
+            "note": "Venture MX \u2014 \u00b7 Outlander \u2014",
             "values": [
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -3229,7 +3286,7 @@
               "soso",
               "soso"
             ],
-            "note": "Venture MX std · Outlander std",
+            "note": "Venture MX std \u00b7 Outlander std",
             "values": [
               "std",
               "std"
@@ -3241,10 +3298,10 @@
               "bad",
               "bad"
             ],
-            "note": "Venture MX — · Outlander —",
+            "note": "Venture MX \u2014 \u00b7 Outlander \u2014",
             "values": [
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -3255,8 +3312,8 @@
             ],
             "note": "Venture on proven Leatt Moto 8.5 shell; Outlander new platform",
             "values": [
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {
@@ -3265,7 +3322,7 @@
               "bad",
               "soso"
             ],
-            "note": "Venture MX proprietary · Outlander BT only",
+            "note": "Venture MX proprietary \u00b7 Outlander BT only",
             "values": [
               "proprietary",
               "BT only"
@@ -3277,7 +3334,7 @@
               "bad",
               "bad"
             ],
-            "note": "Venture MX none · Outlander none",
+            "note": "Venture MX none \u00b7 Outlander none",
             "values": [
               "none",
               "none"
@@ -3289,7 +3346,7 @@
               "soso",
               "soso"
             ],
-            "note": "Venture MX app · Outlander app",
+            "note": "Venture MX app \u00b7 Outlander app",
             "values": [
               "app",
               "app"
@@ -3301,7 +3358,7 @@
               "good",
               "bad"
             ],
-            "note": "Venture MX crash/SOS · Outlander none",
+            "note": "Venture MX crash/SOS \u00b7 Outlander none",
             "values": [
               "crash/SOS",
               "none"
@@ -3313,10 +3370,10 @@
               "soso",
               "soso"
             ],
-            "note": "Venture MX — · Outlander —",
+            "note": "Venture MX \u2014 \u00b7 Outlander \u2014",
             "values": [
-              "—",
-              "—"
+              "\u2014",
+              "\u2014"
             ]
           },
           {

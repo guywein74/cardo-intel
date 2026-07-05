@@ -5,14 +5,14 @@
     "hq": "Israel (R&D and main operations), with US office (Plano, TX) and operations in Americas, Europe and Asia; owned by EMK Capital since 2021 ($150M acquisition from Fortissimo Capital and founder)",
     "founded": "2003 (by Dr. Abraham Glezerman; pioneered Bluetooth motorcycle communicators in 2004)",
     "positioning": "Premium global market leader in motorcycle/powersports wireless communication; 6M+ devices sold in 80+ countries; differentiators are Dynamic Mesh Communication (DMC), Sound by JBL audio, IP67 waterproofing and free OTA feature upgrades; expanding in 2026 from bolt-on communicators into fully integrated smart helmets (Beyond GT/GTS, Venture)",
-    "channels": "D2C via cardosystems.com; major moto e-tail (RevZilla, Cycle Gear incl. free-install partnership, Amazon, FortNine); brick-and-mortar dealers in 80+ countries; OEM/co-branded integrations (Shoei Packtalk-S/4X-S, HJC 4X/Spirit, KTM-branded Edge)"
+    "channels": "D2C via cardosystems.com; major moto e-tail (RevZilla, Cycle Gear incl. free-install partnership, Amazon, FortNine); brick-and-mortar dealers in 80+ countries; OEM/co-branded integrations (Shoei Packtalk-S/4X-S, HJC 4X/Spirit, KTM-branded Edge, Schuberth SC EDGE); also licenses tech outside motorcycling (Lazer VeloVox cycling communicator)"
   },
   "products": [
     {
       "name": "Packtalk Pro",
       "tier": "flagship",
       "msrp_usd": 499.95,
-      "street_price_usd": null,
+      "street_price_usd": 449.95,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
       "max_riders": 15,
@@ -71,8 +71,8 @@
         },
         "price": {
           "msrp_usd": 499.95,
-          "street_usd": null,
-          "segment_position": "Most expensive mainstream intercom on the market; rarely discounted"
+          "street_usd": 449.95,
+          "segment_position": "Most expensive mainstream intercom on the market; RevZilla now runs a standing 10% discount ($449.95)"
         }
       }
     },
@@ -80,7 +80,7 @@
       "name": "Packtalk Edge",
       "tier": "flagship",
       "msrp_usd": 439.95,
-      "street_price_usd": 396,
+      "street_price_usd": 395.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
       "max_riders": 15,
@@ -136,7 +136,7 @@
         },
         "price": {
           "msrp_usd": 439.95,
-          "street_usd": 396,
+          "street_usd": 395.96,
           "segment_position": "Premium; priced above Sena 50S after 2025 hike but wins most head-to-heads"
         }
       }
@@ -145,7 +145,7 @@
       "name": "Packtalk Neo",
       "tier": "mid",
       "msrp_usd": 359.95,
-      "street_price_usd": null,
+      "street_price_usd": 323.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
       "max_riders": 15,
@@ -200,7 +200,7 @@
         },
         "price": {
           "msrp_usd": 359.95,
-          "street_usd": null,
+          "street_usd": 323.96,
           "segment_position": "Cheapest full-DMC mesh unit on the market - value flagship"
         }
       }
@@ -525,7 +525,7 @@
       "name": "Packtalk-S",
       "tier": "flagship",
       "msrp_usd": 419.95,
-      "street_price_usd": null,
+      "street_price_usd": 377.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
       "max_riders": 15,
@@ -580,7 +580,7 @@
         },
         "price": {
           "msrp_usd": 419.95,
-          "street_usd": null,
+          "street_usd": 377.96,
           "segment_position": "Premium OEM-integration tier, priced near Packtalk Edge"
         }
       }
@@ -647,6 +647,98 @@
           "segment_position": "Budget helmet-integrated tier, priced near Freecom 4x"
         }
       }
+    },
+    {
+      "name": "Schuberth SC EDGE",
+      "tier": "flagship",
+      "msrp_usd": 349,
+      "street_price_usd": 359,
+      "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2",
+      "range_km": 1.6,
+      "max_riders": 15,
+      "audio": "Pre-fitted speakers (Packtalk Edge chipset-based audio)",
+      "talk_time_hours": 13,
+      "waterproof": "IPX5",
+      "features": [
+        "Purpose-built integration for SCHUBERTH helmets (C5 Carbon, C5, E2 Carbon, E2, S3, J2)",
+        "Speakers and antenna pre-integrated into compatible helmets - no retrofitting",
+        "Natural Voice Operation",
+        "OTA updates via Cardo Connect app",
+        "Support for two Bluetooth sources",
+        "Automatic gain control",
+        "FM radio",
+        "Music sharing",
+        "ECE-R 22.06 SA homologated",
+        "Fast charge (2-hour full charge)"
+      ],
+      "release_year": 2025,
+      "notes": "Unveiled at EICMA 2024, available from spring 2025 at Schuberth dealers/online; continuation of the Schuberth-Cardo partnership dating to the 2009 SRC-System. Cardo-reported MSRP ~$349; RevZilla lists at $359 (4/5 stars, 32 reviews). Missed in prior update cycle - added as a previously-existing product.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "integrated",
+          "aesthetics": "Purpose-molded module pre-fitted into compatible SCHUBERTH shells, no external clamp or antenna"
+        },
+        "ease_of_use": {
+          "controls": "Helmet-integrated button interface + Natural Voice Operation",
+          "mount": "Direct helmet integration (SCHUBERTH factory comm cavity), no clamp needed",
+          "cradle": "None - fits into helmet's factory comm cavity",
+          "voice_commands": "Natural Voice Operation ('Hey Cardo') + assistant passthrough",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app, no cables",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": null,
+          "speaker_brand": "Cardo (Packtalk Edge-based chipset)",
+          "hd": true,
+          "quality_verdict": "Based on proven Packtalk Edge audio chain, tuned for SCHUBERTH shell acoustics"
+        },
+        "intercom": {
+          "type": "DMC Gen2 mesh + Bluetooth 5.2",
+          "range_km": 1.6,
+          "max_riders": 15,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Universal Bluetooth bridging; verified compatible with Schuberth SC2 units"
+        },
+        "quality": {
+          "build": "ECE-R 22.06 SA homologated; integrated design preserves SCHUBERTH's own comfort/aero/safety cert",
+          "ip_rating": "IPX5",
+          "service_reputation": "Same Cardo support channel",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": 349,
+          "street_usd": 359,
+          "segment_position": "Premium OEM-integration tier for SCHUBERTH helmets, comparable positioning to Packtalk-S for Shoei"
+        }
+      }
+    },
+    {
+      "name": "Lazer VeloVox",
+      "tier": null,
+      "msrp_usd": 184.95,
+      "street_price_usd": 184.95,
+      "intercom_tech": "Cardo VoIP Cellular Intercom (data-network based, not DMC mesh)",
+      "range_km": null,
+      "max_riders": 30,
+      "audio": "Open-ear dual-unit design, cycling-specific EQ, powerful speakers",
+      "talk_time_hours": 11,
+      "waterproof": "IP54",
+      "features": [
+        "Open-ear helmet-strap-mounted design (one unit per side), no buttons needed to talk",
+        "Cellular/VoIP-based intercom via Cardo Connect app - range limited only by data coverage, connects up to 30 riders",
+        "Shimano Di2/STEPS connectivity for remote control and voice prompts",
+        "Ambient noise optimization and wind noise reduction",
+        "Automatic gain control",
+        "Cycling-specific equalizer with 4 sound profiles",
+        "19g per side"
+      ],
+      "release_year": 2025,
+      "notes": "Lazer (cycling helmet brand) partnership product using Cardo's communication technology, launched September 2025; not a motorcycle product - included as a Cardo-technology cycling accessory. $184.95 US / GBP160 / EUR160. Missed in prior update cycle - added as a previously-existing product.",
+      "category": "cycling_accessory"
     },
     {
       "name": "Packtalk Edgephones",
@@ -805,6 +897,24 @@
       "headline": "Leatt Corp and Cardo Systems formalize partnership announcement on Cardo Venture helmet with wireless communication system",
       "source": "PR Newswire",
       "url": "https://www.prnewswire.com/news-releases/leatt-corp-and-cardo-systems-partner-on-cardo-venture-helmet-with-wireless-communication-system-302815805.html"
+    },
+    {
+      "date": "2026-07-02",
+      "headline": "Cardo Venture off-road helmet coverage continues post-launch; Ultimate Motorcycling recaps the world's-first integrated mesh MX/enduro helmet built on the Leatt Moto 8.5 platform",
+      "source": "Ultimate Motorcycling",
+      "url": "https://ultimatemotorcycling.com/2026/07/02/cardo-venture-new-off-road-helmet-with-built-in-mesh-intercom/"
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Cardo Beyond GT and GTS helmets now listed for sale at RevZilla (both models showing widespread size out-of-stock at launch, indicating strong early demand as the summer 2026 ship window opens)",
+      "source": "RevZilla product listings",
+      "url": "https://www.revzilla.com/motorcycle/cardo-beyond-gts-helmet"
+    },
+    {
+      "date": "2025-09-15",
+      "headline": "Backfill/missed item: Lazer (cycling helmet brand) launches VeloVox, an open-ear helmet-strap communication device built on Cardo's cellular VoIP intercom tech ($184.95), connecting up to 30 cyclists via data network with Shimano Di2/STEPS integration",
+      "source": "Bikerumor / road.cc",
+      "url": "https://bikerumor.com/lazer-velovox-audio-system/"
     }
   ],
   "social_media": {
@@ -816,10 +926,10 @@
     },
     "facebook": {
       "page": "facebook.com/CardoSystems",
-      "followers": null,
+      "followers": 352835,
       "url": "https://www.facebook.com/CardoSystems/",
       "groups_notes": "Public group 'Cardo Systems PackTalk and Edge Community' (facebook.com/groups/1847605508861922) is the main owner community; member count not retrievable without login. Cardo Outdoor page has ~116K followers; many small regional pages (Cardo UK 2.4K, Malaysia 4.3K, Philippines 2.9K, Indonesia 1.6K, NZ 168). Cardo topics also active in model-specific owner groups/forums (Road Glide, GL1800Riders, KRX).",
-      "notes": "Main global page follower count not verifiable via search (one snippet shows ~352K but attribution between global and DE pages is unclear - treat as unverified)."
+      "notes": "Main global page follower count now confirmed at 352,835 likes / 5,369 talking about this (Google-indexed profile snippet, July 2026)."
     },
     "reddit": {
       "url": "https://www.reddit.com/search/?q=cardo+motorcycle+intercom",
@@ -856,6 +966,12 @@
     },
     "summary": "Cardo's social footprint is large and TikTok-led (~1.3M followers) with Instagram (~228K) as the core enthusiast channel; Facebook is fragmented across a global page, Cardo Outdoor (~116K) and an official PackTalk owners group. Community sentiment mirrors press: loved for mesh/audio/waterproofing, dinged for support responsiveness - Trustpilot holds ~1,900+ reviews with a heavy 'customer service is non-existent' complaint theme (exact TrustScore unverified, page blocks fetch), corroborating the weakness flagged by webBikeWorld. Support reputation is Cardo's clearest public soft spot despite dominant word-of-mouth.",
     "recent_posts": [
+      {
+        "date": "2026-07-04",
+        "platform": "YouTube",
+        "summary": "'Happy 4th of July!! 20% off!' - short holiday sale promo video (212 views, 3 likes as of posting), same 4th of July 20% off campaign echoed on Instagram",
+        "url": "https://www.youtube.com/watch?v=kq5rSxAciIQ"
+      },
       {
         "date": "2026-06-30",
         "platform": "YouTube",
@@ -1061,6 +1177,13 @@
         "product": "Packtalk-S / 4X-S",
         "verdict": "Launch coverage - positive on filling rider demand for helmet-specific integrated comms; quotes Cardo CMO Dan Emodi on responding to rider feedback",
         "url": "https://powersportsbusiness.com/news/distributors-aftermarket/2026/04/15/cardo-launches-packtalk-s-and-4x-s-integrated-comm-systems-for-shoei-gen-3-helmets/"
+      },
+      {
+        "outlet": "Dirt Bike Magazine",
+        "date": "2026-06-26",
+        "product": "Venture MX helmet",
+        "verdict": "Detailed hands-on, activity-by-activity grades: Trail rides A+ (clearest use case, auto volume adjusts for ambient noise), Adventure bike rides A (clear calls even on remote dirt roads), Coaching B (limited by line-of-sight range), Pit communication B- (spotty over long course laps, needs dedicated pit attention), Motocross communication C (engine noise defeats intelligibility, hard to focus while racing)",
+        "url": "https://dirtbikemagazine.com/review-cardo-venture-helmet-with-communication/"
       }
     ],
     "awards": [
@@ -1071,6 +1194,200 @@
     ],
     "overall_tone": "Consistently positive to enthusiastic across enthusiast press 2024-2026: the Packtalk line is the benchmark in intercom roundups and Sena comparisons. Recurring criticisms are narrow and stable: price (worsened by 2025 hikes), optimistic range claims, region-locked crash detection, and customer-service reputation. The 2026 Beyond/Venture helmet launches earned wide, largely favorable coverage, with writers noting Cardo pre-empted the usual 'integrated helmet = disposable' objection via replaceable batteries and serviceable modules. Only significant negative cycle: the 2023 Packtalk Custom subscription backlash.",
     "summary": "Press consensus: Cardo makes the best group-riding intercoms available (Edge = best overall in most 2026 roundups; Pro = most advanced but price-questioned), and the brand is receiving launch-window benefit of the doubt as it enters smart helmets."
+  },
+  "firmware_updates": [
+    {
+      "date": "2023-07-12",
+      "product": "All models",
+      "type": "firmware",
+      "version": null,
+      "title": "Cross-brand Bluetooth intercom update (OBi standard)",
+      "changes": [
+        "Enabled cross-brand Bluetooth intercom connectivity with current-generation Sena, Interphone, Midland and Uclear devices",
+        "Supports and extends the Open Bluetooth Intercom (OBi) standard",
+        "Rolled out to all current 2023 Cardo devices except Packtalk Slim (Edge, Neo/Bold, Freecom line, Spirit)",
+        "Music sharing not supported in cross-brand connections (voice/intercom only)"
+      ],
+      "url": "https://www.motorcycle.com/bikes/news/cardo-software-update-allows-connectivity-with-major-bluetooth-comms-44592442",
+      "source": "Motorcycle.com"
+    },
+    {
+      "date": "2023-11-20",
+      "product": "All models",
+      "type": "app",
+      "version": null,
+      "title": "Riser app 'biggest update yet' (pre-Cardo Ride era)",
+      "changes": [
+        "Free tier: route planning with waypoints (web + app), skip-waypoint and roundtrip options, cross-platform trip sharing, local challenges, QR code route loading",
+        "Pro tier: ReWind interactive 3D map trip playback, 3D-mode route planning with enhanced routing engine, PackRide connected riding feature, GPX export",
+        "Riser was acquired by Cardo in 2023; this update predates the Cardo Ride rebrand"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/riser-launches-biggest-update-yet-in-collaboration-with-cardo-systems-301992984.html",
+      "source": "PR Newswire"
+    },
+    {
+      "date": "2024-05-21",
+      "product": "Packtalk Pro",
+      "type": "firmware",
+      "version": "4.4",
+      "title": "Packtalk Pro launch firmware - crash detection debut",
+      "changes": [
+        "All-new IMU-based crash detection system for on-road motorcycle riders (first Cardo product with this feature)",
+        "Auto On/Off battery-saving feature",
+        "Support for 45mm JBL speakers",
+        "Requires Android 9+ / iOS 15+ via Cardo Connect app"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/cardo-systems-releases-packtalk-pro-a-new-dawn-of-safety-sound-and-style-302149570.html",
+      "source": "Cardo Systems press release / Cardo Packtalk Pro release notes page"
+    },
+    {
+      "date": "2024-10-04",
+      "product": "Packtalk line",
+      "type": "app",
+      "version": "8.3",
+      "title": "Cardo Connect app 8.3 + firmware 4.7 - crash detection toggle",
+      "changes": [
+        "Firmware 4.7 (Pro/Edge/Neo): crash detection can now be enabled/disabled in settings; bug fixes reduce false-positive alerts at ride start/end",
+        "Mic sensitivity adjustment settings added for user customization",
+        "Audio clarity improvements for calls",
+        "Korean language voice command support added",
+        "App 8.3: My Garage lets users set an avatar and update their profile",
+        "Note: existing recent_news entry in this file dates this same update to 2025-02-15 (Motorcycle Powersports News republication/index date differs from original Oct 2024 publish date found via search - both are shown for transparency)"
+      ],
+      "url": "https://www.motorcyclepowersportsnews.com/cardo-connect-app-unit-updates/",
+      "source": "Motorcycle & Powersports News"
+    },
+    {
+      "date": "2024-11-12",
+      "product": "Packtalk line",
+      "type": "firmware",
+      "version": null,
+      "title": "Mesh-Boost announced ('Year of the Mesh')",
+      "changes": [
+        "Announced for 2nd-gen DMC devices (Packtalk Pro, Edge, Neo) as a free OTA update expected 'early 2025'",
+        "DMC group size to expand from 15 to 31 riders",
+        "Public Mesh: open channel for spontaneous connection with nearby riders",
+        "Remote Grouping: pre-set groups via shareable links in Cardo Connect app",
+        "Private Chat+: group chat for any number of riders (previously 2-person only)",
+        "Cellular Intercom: VoIP-based connectivity with no Bluetooth range limit, dependent on data coverage",
+        "Coincided with the 10-year anniversary of Cardo's first mesh communicator"
+      ],
+      "url": "https://ultimatemotorcycling.com/2024/11/16/cardo-announces-mesh-boost-intercom-software-enhancements/",
+      "source": "Ultimate Motorcycling (also reported by MCN and Cycle News same week)"
+    },
+    {
+      "date": "2024-12-19",
+      "product": "All models",
+      "type": "app",
+      "version": null,
+      "title": "Riser app update - service history and gear management",
+      "changes": [
+        "Service history tracking and mileage tracking for maintenance planning",
+        "Expanded gear list - riders can add helmet and communication devices, not just motorcycles",
+        "Multiple photos per motorcycle supported",
+        "Likes and comments added for community engagement on gear/equipment posts",
+        "ReWind 3D map trip playback highlighted for Pro subscribers"
+      ],
+      "url": "https://www.cyclenews.com/2024/12/article/riser-app-unveils-new-updates/",
+      "source": "Cycle News"
+    },
+    {
+      "date": "2025-02-08",
+      "product": "Packtalk line",
+      "type": "firmware",
+      "version": null,
+      "title": "Packtalk Custom subscription discontinued - features unlocked free",
+      "changes": [
+        "Cardo discontinued the Packtalk Custom pay-per-feature subscription model entirely",
+        "All previously paid features (Bluetooth Intercom, Natural Voice Operation, music sharing, second device connection, Eco-Mode, etc.) unlocked permanently at no cost for existing owners",
+        "Refunds issued for unused subscription time via App Store/Google Play",
+        "Note: 'Packtalk Custom' was a separate discontinued unit/subscription and is not one of the exact product names in this file's products[] array, so this entry is tagged 'Packtalk line' for cross-linking purposes"
+      ],
+      "url": "https://cardosystems.com/pages/support/packtalk-custom",
+      "source": "Cardo Systems support page"
+    },
+    {
+      "date": "2025-03-01",
+      "product": "Packtalk line",
+      "type": "firmware",
+      "version": null,
+      "title": "Mesh-Boost targeted rollout window (Q1 2025) - approximate, contested",
+      "changes": [
+        "Cardo's own PR set 'early 2025' / Q1 2025 as the Mesh-Boost OTA rollout window for Packtalk Pro/Edge/Neo",
+        "DATE UNCERTAIN: an August 2025 Motorcycle News piece still describes the update in future/rollout terms rather than confirming completion",
+        "DATE UNCERTAIN: a long-running BMW GS owners forum thread (gs-forum.com, posts spanning Sept 2025 to June 2026) reports many owners still had NOT received Mesh-Boost's 31-rider/Public Mesh/Cellular Intercom features as of mid-2026, with some speculating the feature was being gated to coincide with the Beyond helmet launch; Cardo support reportedly gave no firm date",
+        "Best read as a staggered/regional OTA rollout rather than a single hard release date"
+      ],
+      "url": "https://www.motorcyclenews.com/bike-kit/news/cardo-mesh-boost/",
+      "source": "Motorcycle News (MCN), cross-referenced with gs-forum.com owner thread"
+    },
+    {
+      "date": "2025-08-12",
+      "product": "All models",
+      "type": "app",
+      "version": null,
+      "title": "Riser 'powered by Cardo' major navigation update",
+      "changes": [
+        "Adapted Maps: place names now auto-display in the language of the phone's settings regardless of region",
+        "Route Planner redesigned from the ground up for usability",
+        "GPX file import added, available via the Riser Web Portal",
+        "Exclusive Partner Deals and expanded community/safety features announced alongside navigation changes"
+      ],
+      "url": "https://www.cyclenews.com/2025/08/article/riser-powered-by-cardo-rolls-out-major-updates/",
+      "source": "Cycle News"
+    },
+    {
+      "date": "2026-04-21",
+      "product": "All models",
+      "type": "app",
+      "version": "8.13",
+      "title": "Cardo Ride app relaunch (Riser rebrand)",
+      "changes": [
+        "Riser app formally relaunched and rebranded as Cardo Ride, closing out the Riser name after ~130 million rider miles logged on the platform",
+        "New 'reWind' feature: fast, social-ready ride recap shareable on a 3D map",
+        "Upgraded, more personalized newsfeed highlighting rides, stories and community moments",
+        "New community group for all Cardo riders to connect and share routes",
+        "Seamless account link to Cardo Connect so riders move between ride-tracking and device-control without separate logins",
+        "Free tier plus a Cardo Ride Pro paid subscription trial",
+        "App version 8.13 release date per APKCombo Android version history aligns with this relaunch"
+      ],
+      "url": "https://ultimatemotorcycling.com/2026/04/27/cardo-ride-app-first-look-goodbye-riser/",
+      "source": "Ultimate Motorcycling (also American Rider, Motorcycle.com, Torqued Magazine)"
+    },
+    {
+      "date": "2026-05-18",
+      "product": "All models",
+      "type": "app",
+      "version": "8.13.1",
+      "title": "Cardo Connect / Cardo Ride point release",
+      "changes": [
+        "Minor point update following the 8.13 Cardo Ride relaunch",
+        "Version and date per Android release-note aggregators (APKCombo, Uptodown); no detailed 'what's new' text published by Cardo for this point release"
+      ],
+      "url": "https://apkcombo.com/cardo-connect/com.cardo.smartset/",
+      "source": "APKCombo Android version history"
+    },
+    {
+      "date": "2026-06-03",
+      "product": "All models",
+      "type": "app",
+      "version": "8.14",
+      "title": "Cardo Connect app 8.14 - current release",
+      "changes": [
+        "General bug fixes and stability improvements ('We made your App just a little better' - no detailed feature changelog published)",
+        "iOS App Store shows 8.14 last updated June 3, 2026; Android/Google Play shows the equivalent build dated June 7, 2026 per Uptodown aggregator (minor cross-platform staggering typical of Cardo's release process)"
+      ],
+      "url": "https://apps.apple.com/us/app/cardo-connect/id1333553210",
+      "source": "Apple App Store listing"
+    }
+  ],
+  "current_software": {
+    "app_name": "Cardo Connect",
+    "app_ios_version": "8.14",
+    "app_android_version": "8.14",
+    "app_last_updated": "2026-06-07",
+    "firmware_baseline": "DMC Gen2 firmware in the 4.x-5.x range for the current flagship line (Packtalk Pro/Edge/Neo/Packtalk-S); Packtalk Pro shipped on firmware 4.4 at its May 2024 launch and has since received at least 4.6/4.7/4.9 point updates; Cardo's own release-notes pages (e.g. packtalk-pro-release-notes, packtalk-edge-release-notes) list versions up to roughly 5.11 for older-platform devices but do not publish dates",
+    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer."
   },
   "sources": [
     "https://cardosystems.com/products/packtalk-pro",
@@ -1121,6 +1438,39 @@
     "https://powersportsbusiness.com/news/distributors-aftermarket/2026/06/10/cardo-systems-tread-lightly-team-up-to-support-off-road-recreation/",
     "https://treadlightly.org/cardo-systems-orv-and-tread-lightly-team-upto-support-responsible-riding/",
     "https://www.prnewswire.com/news-releases/leatt-corp-and-cardo-systems-partner-on-cardo-venture-helmet-with-wireless-communication-system-302815805.html",
-    "https://www.motorcycle.com/bikes/product/cardo-venture-helmet-review-44666863"
+    "https://www.motorcycle.com/bikes/product/cardo-venture-helmet-review-44666863",
+    "https://ultimatemotorcycling.com/2026/07/02/cardo-venture-new-off-road-helmet-with-built-in-mesh-intercom/",
+    "https://www.revzilla.com/motorcycle/cardo-beyond-gts-helmet",
+    "https://www.revzilla.com/motorcycle/cardo-beyond-gt-helmet",
+    "https://www.revzilla.com/motorcycle/cardo-packtalk-pro-headset",
+    "https://www.revzilla.com/motorcycle/cardo-packtalk-edge-headset",
+    "https://www.revzilla.com/motorcycle/cardo-packtalk-neo-headset",
+    "https://www.revzilla.com/motorcycle/cardo-packtalk-s-bluetooth-headset-for-shoei-helmets",
+    "https://www.revzilla.com/motorcycle/schuberth-sc-edge-cardo-comm-unit",
+    "https://cardosystems.com/pages/support/sc-edge",
+    "https://www.motorcycle.com/bikes/news/cardo-and-schuberth-partner-to-launch-sc-edge-communication-system-44619136",
+    "https://cardosystems.com/products/lazer-velovox",
+    "https://bikerumor.com/lazer-velovox-audio-system/",
+    "https://road.cc/review_v2/lazer-velovox-on-bike-communication-device",
+    "https://dirtbikemagazine.com/review-cardo-venture-helmet-with-communication/",
+    "https://www.youtube.com/watch?v=kq5rSxAciIQ",
+    "https://www.youtube.com/@CardoSystemsGlobal/videos",
+    "https://www.motorcycle.com/bikes/news/cardo-software-update-allows-connectivity-with-major-bluetooth-comms-44592442",
+    "https://www.prnewswire.com/news-releases/riser-launches-biggest-update-yet-in-collaboration-with-cardo-systems-301992984.html",
+    "https://cardosystems.com/pages/packtalk-pro-release-notes",
+    "https://cardosystems.com/pages/packtalk-edge-release-notes",
+    "https://cardosystems.com/pages/packtalk-neo-release-notes",
+    "https://cardosystems.com/pages/freecom-4x-release-notes",
+    "https://www.motorcyclepowersportsnews.com/cardo-connect-app-unit-updates/",
+    "https://ultimatemotorcycling.com/2024/11/16/cardo-announces-mesh-boost-intercom-software-enhancements/",
+    "https://www.cyclenews.com/2024/12/article/riser-app-unveils-new-updates/",
+    "https://www.motorcyclenews.com/bike-kit/news/cardo-mesh-boost/",
+    "https://www.gs-forum.com/threads/cardo-mesh-boost.544/",
+    "https://ultimatemotorcycling.com/2026/04/27/cardo-ride-app-first-look-goodbye-riser/",
+    "https://apkcombo.com/cardo-connect/com.cardo.smartset/",
+    "https://cardo-connect.en.uptodown.com/android",
+    "https://cardo-connect.en.uptodown.com/android/versions",
+    "https://apps.apple.com/us/app/cardo-connect/id1333553210",
+    "https://play.google.com/store/apps/details?id=com.cardo.smartset&hl=en_US"
   ]
 }

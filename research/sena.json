@@ -403,6 +403,72 @@
       }
     },
     {
+      "name": "Spider X Slim",
+      "tier": "mid",
+      "msrp_usd": 299,
+      "street_price_usd": 299,
+      "intercom_tech": "Mesh Intercom 3.0 & 2.0 (mesh-only, no Bluetooth intercom) + Bluetooth 5.3 for phone/music",
+      "range_km": 1.6,
+      "max_riders": 24,
+      "audio": "Sound by Bose, 40mm speakers (9mm thick), AI-based noise cancellation",
+      "talk_time_hours": 11,
+      "waterproof": "IPX7",
+      "features": [
+        "Ultra-slim, aerodynamic profile with separate remote battery pack for weight distribution",
+        "Open Mesh 6 channels virtually unlimited / Group Mesh 24",
+        "AI-based noise cancellation",
+        "Voice commands",
+        "FM radio",
+        "OTA updates via Sena Motorcycles app",
+        "Interchangeable faceplates",
+        "Limited lifetime warranty"
+      ],
+      "release_year": 2026,
+      "notes": "Launched June 25, 2026 at $299 single / $569 dual. Positioned as a dedicated Mesh-only headset (no Bluetooth intercom) undercutting the 60-series while carrying Bose audio and the lifetime warranty down into the mid tier. Talk time 11h Mesh per official spec page. Main unit 74.5 x 31 x 16mm, 23.2g.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": 23.2,
+          "dimensions_mm": "74.5 x 31 x 16",
+          "profile": "slim",
+          "aesthetics": "Ultra-slim, low-profile main unit with separate battery pack to reduce on-helmet bulk; interchangeable faceplates for customization"
+        },
+        "ease_of_use": {
+          "controls": "buttons (jog dial not used on this model per spec page)",
+          "mount": "clamp kit (mount detail not fully published)",
+          "cradle": "",
+          "voice_commands": "voice commands supported",
+          "screen": "no",
+          "ota": "OTA via Sena Motorcycles app",
+          "app": "Sena Motorcycles app"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Sound by Bose (9mm-thick drivers)",
+          "hd": true,
+          "quality_verdict": "Too new for reviewer consensus (launched June 2026); Bose audio in a mid-tier mesh-only unit is the key differentiator vs Cardo's mid-tier line"
+        },
+        "intercom": {
+          "type": "Mesh Intercom 3.0 & 2.0 only - no Bluetooth intercom (Bluetooth reserved for phone/music)",
+          "range_km": 1.6,
+          "max_riders": 24,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "none - mesh-only means no Universal Intercom bridge to other brands"
+        },
+        "quality": {
+          "build": "New for 2026; no long-term verdicts yet",
+          "ip_rating": "IPX7",
+          "service_reputation": "Covered by Sena's limited lifetime warranty program",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": 299,
+          "street_usd": 299,
+          "segment_position": "Mesh-only mid-tier undercutting the 60-series while adding Bose audio and lifetime warranty; successor to Spider RT1/ST1"
+        }
+      }
+    },
+    {
       "name": "5S",
       "tier": "entry",
       "msrp_usd": 169,
@@ -597,8 +663,8 @@
     {
       "name": "MeshON",
       "tier": "entry",
-      "msrp_usd": null,
-      "street_price_usd": null,
+      "msrp_usd": 129,
+      "street_price_usd": 129,
       "intercom_tech": "Bluetooth-to-Mesh bridge adapter (not a standalone headset)",
       "range_km": 0.8,
       "max_riders": null,
@@ -611,7 +677,7 @@
         "22.5 g weight"
       ],
       "release_year": 2026,
-      "notes": "Launched June 25, 2026. Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter. US pricing not yet published."
+      "notes": "Launched June 2026 at $129 (confirmed store-us.sena.com, SKU MESHON-01). Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter."
     },
     {
       "name": "Specter (modular smart helmet)",
@@ -838,6 +904,30 @@
       "headline": "60X flagship officially launched: first Sena intercom with joystick controls and customizable button mapping, Sound by Bose, Mesh 3.0/Wave, Qi wireless charging, and a limited lifetime warranty; GBP 359/669 single/dual, EUR 429/799, US dual pack $879",
       "source": "Sena newsroom / Superbike News",
       "url": "https://www.sena.com/fr/stories/news/sena-introduces-the-technology-packed-60x-with-sound-by-bose-technology-and-a-sleek-modern-profile/"
+    },
+    {
+      "date": "2026-04-01",
+      "headline": "Distribution expansion: partnership with Pedego Electric Bikes puts Sena comm systems and the BiKom 20 into Pedego's authorized e-bike dealer network starting April 2026",
+      "source": "Bicycle Retailer / Sena newsroom",
+      "url": "https://www.bicycleretailer.com/announcements/2026/04/02/sena-announces-partnership-pedego-electric-bikes-elevate-e-bike-riding"
+    },
+    {
+      "date": "2026-05-29",
+      "headline": "Sena becomes official communication partner of the Isle of Man TT Races for the 2026-2028 editions, a high-profile motorsport sponsorship win",
+      "source": "Sena newsroom / Visordown",
+      "url": "https://www.sena.com/en-us/stories/news/sena-becomes-official-communication-partner-of-the-isle-of-man-tt-races/"
+    },
+    {
+      "date": "2026-05-27",
+      "headline": "60S v1.2.9 firmware update: stability patch fixing Mesh Intercom audio distortion/crackling, intermittent microphone dropouts, and intercom auto-disable conflicts with action cameras",
+      "source": "Sena support notices",
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-2-9/"
+    },
+    {
+      "date": "2026-06-25",
+      "headline": "Spider X Slim launched: new Mesh-only mid-tier headset with Sound by Bose, AI noise cancellation and lifetime warranty at $299 single / $569 dual, undercutting the 60-series while adding flagship-grade audio to the mid tier",
+      "source": "Sena newsroom / ADV Pulse",
+      "url": "https://www.sena.com/en-us/stories/news/sena-unveils-spider-x-slim-a-new-ultra-slim-mesh-communication-system-with-sound-by-bose/"
     }
   ],
   "social_media": {
@@ -949,10 +1039,34 @@
         "url": "https://www.reddit.com/r/motorcyclegear/comments/1uhu99j/ejeas_pairing_with_sena/"
       },
       {
+        "date": "2026-06-09",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Sena 50C vs 60S vs Cardo Packtalk Pro' - commenter reports noise cancelling and mesh reliability 'seems superior on the Packtalk Pro' compared to prior Sena experience (date estimated from post ID)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1n89fsl/sena_50c_vs_60s_vs_cardo_packtalk_pro/"
+      },
+      {
         "date": "2026-07-03",
         "platform": "Instagram",
         "summary": "Reel: 'The American spirit is alive on the road' 60S EVO road-trip content (49 likes).",
         "url": "https://www.instagram.com/senabluetooth/reel/DaViL0JhYiX/"
+      },
+      {
+        "date": "2026-06-25",
+        "platform": "Instagram",
+        "summary": "Post recapping the Isle of Man TT partnership: 'A look back at an unforgettable Isle of Man TT. Proud to support the riders, teams...' (29 likes)",
+        "url": "https://www.instagram.com/reel/DZuyuWoHO7P/"
+      },
+      {
+        "date": "2026-05-29",
+        "platform": "Instagram",
+        "summary": "Announcement post: 'Today we announce our partnership with the Isle of Man TT Races for the 2026, 2027 and 2028 editions as the official motorcycle communications [partner]' (81 likes)",
+        "url": "https://www.instagram.com/p/DY7ToyPkiBX/"
+      },
+      {
+        "date": "2026-07-03",
+        "platform": "Facebook Group",
+        "summary": "Thread in the 'Sena 60s, 60s EVO, and 60x Users' owner group: 'Good morning, all, It looks like the 60X has launched' - members note 'no one has put it through a test' yet just after the official debut (date estimated from post ID, shortly after the July 2 launch)",
+        "url": "https://www.facebook.com/groups/860066485997389/posts/1405543268116372/"
       },
       {
         "date": "2026-05-07",
@@ -1063,6 +1177,238 @@
     "overall_tone": "Broadly positive-to-enthusiastic on hardware innovation - Wave cellular intercom, the Bose partnership and the lifetime warranty reliably generate headlines, and MCN gave the 60S a 4/5 long-term verdict. But there is a consistent critical undercurrent on software: AI noise cancellation underdelivering at speed (1000PS), Wave app bugs (MCN), and Cardo still winning most head-to-head 'best overall' verdicts (Bikenrider 2026, pmaxmotor 2025). US legacy outlets (Cycle World, RideApart, Motorcyclist) showed little indexed 2024-26 Sena review coverage; Sena's strongest press traction is UK/EU (MCN, Bennetts, 1000PS, Motorionline) plus specialist/ADV outlets (ADV Pulse, Ultimate Motorcycling).",
     "summary": "Press treats Sena as the innovation-pace leader (Wave, Bose, EICMA range overhauls) but not the reliability leader: reviewers repeatedly recommend Cardo Packtalk for group-riding dependability while crediting Sena for value, feature breadth and range of products. Award wins are design-focused (iF, Red Dot) rather than editorial 'best intercom of the year' titles."
   },
+  "firmware_updates": [
+    {
+      "date": "2024-12-03",
+      "product": "60S",
+      "type": "firmware",
+      "version": "1.0.2",
+      "title": "60S launch-era firmware fix - Mesh channel menu bug",
+      "changes": [
+        "Minor bug fix where channels 7, 8 and 9 were not available in the Mesh Channel Setting menu on the device after switching from Mesh 3.0 to Mesh 2.0"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-60s/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2025-03-24",
+      "product": "50S",
+      "type": "firmware",
+      "version": "2.7.1",
+      "title": "50S v2.7.1 - Wave Intercom pairing and audio fixes",
+      "changes": [
+        "Minor bug fix with not pairing with some devices after adding support for the WAVE Intercom App",
+        "Minor bug fix with listening to music and adjusting the volume directly on a phone while using Mesh Intercom",
+        "Minor bug fix with using the WAVE Intercom App and the Motorcycles App at the same time on some Android phones"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-50s-v2-7-1/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2025-03-24",
+      "product": "60S",
+      "type": "firmware",
+      "version": "1.1.3",
+      "title": "60S v1.1.3 - high-speed audio and volume-control fixes",
+      "changes": [
+        "Improved communication quality when driving at high speeds",
+        "Minor bug fix with volume changing to \"0\" when removing the main unit from the clamp kit and reattaching it",
+        "Minor bug fix with charging LED not turning blue when fully charged",
+        "Minor bug fix with volume from a paired phone suddenly increasing",
+        "Minor bug fix with Voice Command feature not working when entering/exiting the Configuration Menu"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-1-3/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2025-05-09",
+      "product": "Wave Intercom app",
+      "type": "app",
+      "version": "1.0.8",
+      "title": "Wave Intercom app 1.0.8 - voice module improvements ahead of Friends Wave",
+      "changes": [
+        "Improved the voice module for smoother voice communication",
+        "Precursor release just before the Friends-Based Intercom feature launch"
+      ],
+      "url": "https://apps.apple.com/us/app/wave-intercom/id6670228363",
+      "source": "Apple App Store version history"
+    },
+    {
+      "date": "2025-05-30",
+      "product": "Wave Intercom app",
+      "type": "app",
+      "version": "1.0.9",
+      "title": "Wave Intercom app 1.0.9 - Friends-Based Intercom launch",
+      "changes": [
+        "Added the Friends Wave feature, enabling private intercom groups created directly from a rider's Wave friends list (unlimited-range cellular intercom, not tied to physical proximity)",
+        "Added a new option to edit user nickname",
+        "Covered in press as 'Friends-Based Intercom' - lets riders start unlimited-distance groups from an in-app friends list"
+      ],
+      "url": "https://apps.apple.com/us/app/wave-intercom/id6670228363",
+      "source": "Apple App Store version history / Cycle News"
+    },
+    {
+      "date": "2025-06-09",
+      "product": "60S",
+      "type": "firmware",
+      "version": "1.1.7",
+      "title": "60S v1.1.7 - Wave remote-control support and TFT/BMW fixes",
+      "changes": [
+        "Added WAVE Intercom support for remote control accessories",
+        "Modified to prevent a Bluetooth Intercom conversation from occurring when joining a WAVE Intercom session",
+        "Minor bug fix with volume synchronization on the TFT system for BMW motorcycles",
+        "Minor bug fix with connecting to the TFT system for BMW motorcycles",
+        "Minor bug fix with 100% not being displayed on the Sena Motorcycles App when charging the device",
+        "Minor bug fix with activating a digital assistant when the Voice Command setting was disabled through the app",
+        "Minor bug fix with Audio Multitasking not working properly when the microphone is disabled",
+        "Minor bug fix with the device automatically powering off when different functions and messages overlap"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-1-7/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2025-07-25",
+      "product": "60S",
+      "type": "firmware",
+      "version": "1.2",
+      "title": "60S v1.2 - action camera pairing mode",
+      "changes": [
+        "Added Action Cam Pairing mode to make/receive phone calls while connected to an action camera (music/FM unavailable in this mode)",
+        "Added remote control support for the Insta360 X5"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-2/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2025-07-25",
+      "product": "Spider RT1 / Spider ST1",
+      "type": "firmware",
+      "version": "2.5",
+      "title": "Spider RT1 & ST1 v2.5 - Polish voice prompts and connectivity fixes",
+      "changes": [
+        "Added voice prompts for Polish",
+        "Minor bug fix with the device not appearing when searching in the Bluetooth menu on TFT displays for KTM motorcycles",
+        "Minor bug fix with Mesh Intercom conversations after directions from a connected GPS device",
+        "Minor bug fix with not being able to adjust volume during a phone call"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-spider-st1-spider-rt1-v2-5/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-04-15",
+      "product": "50S / 50R",
+      "type": "firmware",
+      "version": "2.7.2 / 2.7.1",
+      "title": "50S v2.7.2 and 50R v2.7.1 - Siri command-processing fix",
+      "changes": [
+        "Minor bug fix with waiting for commands to be processed when using Siri"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-50s-v2-7-2/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-04-29",
+      "product": "Spider RT1 / Spider ST1",
+      "type": "firmware",
+      "version": "2.5.2",
+      "title": "Spider RT1 & ST1 v2.5.2 - TFT/BMW display and Bluetooth stability fixes",
+      "changes": [
+        "Improved connectivity with various TFT displays",
+        "Improved remote control connectivity",
+        "Improved connection issues with Bluetooth devices",
+        "Added \"Phone disconnected\" and \"Device disconnected\" voice prompts",
+        "Improved battery-related voice prompts for Japanese",
+        "Added support for displaying battery level on BMW TFT displays",
+        "Minor bug fix with the \"Low battery\" message during OTA firmware updates",
+        "Minor bug fix with music playing at the lowest volume level on certain iOS versions"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-spider-rt1-spider-st1-v2-5-2/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-05-21",
+      "product": "Spider RT1 / Spider ST1",
+      "type": "firmware",
+      "version": "2.5.3",
+      "title": "Spider RT1 & ST1 v2.5.3 - iPhone minimum-volume fix",
+      "changes": [
+        "Minor bug fix with music being heard at the minimum volume level on iPhones"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-spider-rt1-spider-st1-v2-5-3/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-05-27",
+      "product": "60S",
+      "type": "firmware",
+      "version": "1.2.9",
+      "title": "60S v1.2.9 - Mesh Intercom stability patch (crackling audio, mic dropouts, action-camera conflicts)",
+      "changes": [
+        "Improved music playback performance while hearing voice prompts when toggling Mesh Intercom during bass-rich music",
+        "Improved the difference between VOX sensitivity levels",
+        "Minor bug fix with audio becoming severely distorted or crackled when hearing another rider speak during Mesh Intercom at a specific volume level",
+        "Minor bug fix with the device powering off after repeated phone-call/GPS prompt overlaps during Mesh Intercom",
+        "Minor bug fix with audio distortion when using Mesh Intercom and Bluetooth Intercom simultaneously",
+        "Minor bug fix with ringtone/call audio behavior on older BMW TFT systems",
+        "Minor bug fix with microphone intermittently stopping after prolonged use during Mesh Intercom",
+        "Minor bug fix with intercom auto-disabling when an action camera was connected or recording",
+        "Minor bug fix with FM radio preset sync between the Sena Motorcycles App and the device",
+        "Minor bug fix with status LED blinking cyan/blue during Mesh Intercom",
+        "Minor bug fix with Harley-Davidson Boom! Infotainment System preventing pairing"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-2-9/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-06-02",
+      "product": "Phantom / Outlander",
+      "type": "firmware",
+      "version": "1.2.9 / 1.0.9",
+      "title": "Phantom v1.2.9 and Outlander v1.0.9 - shared smart-helmet stability patch",
+      "changes": [
+        "Same Mesh Intercom/Bluetooth stability fixes as 60S v1.2.9 (distorted/crackled audio during Mesh, mic dropouts, action-camera conflicts, BMW/Harley-Davidson TFT and infotainment pairing issues)",
+        "Improved Bluetooth stability while traveling",
+        "Minor bug fix with the device powering off too easily when AUTO On/Off was activated",
+        "Added support for displaying battery level on BMW TFT displays"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-outlander-v1-0-9/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-06-09",
+      "product": "Specter",
+      "type": "firmware",
+      "version": "1.0.9",
+      "title": "Specter v1.0.9 - shared smart-helmet stability patch",
+      "changes": [
+        "Same Mesh Intercom/Bluetooth stability fixes rolled out across the Phantom/Outlander/60S v1.2.9-era firmware family",
+        "Improved Bluetooth stability while traveling",
+        "Added support for displaying battery level on BMW TFT displays"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-specter-v1-0-9/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-06-17",
+      "product": "All models (Sena Motorcycles app)",
+      "type": "app",
+      "version": "3.5",
+      "title": "Sena Motorcycles app 3.5",
+      "changes": [
+        "Bug fixes and stability improvements"
+      ],
+      "url": "https://apps.apple.com/us/app/sena-motorcycles/id1575310271",
+      "source": "Apple App Store version history"
+    }
+  ],
+  "current_software": {
+    "app_name": "Sena Motorcycles",
+    "app_ios_version": "3.5",
+    "app_android_version": "3.5",
+    "app_last_updated": "2026-06-17",
+    "firmware_baseline": "Current-generation flagship (60S/60S EVO) firmware is on the 1.2.x branch (v1.2.9 as of May 2026); the 2026 smart-helmet family (Phantom, Outlander, Specter) shares that same firmware base and is now converging on parallel version tracks (Phantom/Outlander v1.2.9/v1.0.9, Specter v1.0.9, June 2026); the legacy mid-tier 50S/50R sits on the older 2.7.x branch (v2.7.1/v2.7.2, April 2026); Spider RT1/ST1 mesh-only units are on the 2.5.x branch (v2.5.3, May 2026). A separate companion app, Wave Intercom, handles the cellular Wave feature and is versioned independently (v1.0.23 as of June 2026), having added Friends-Based Intercom (private cellular intercom groups from a friends list) in v1.0.9, May 2025.",
+    "notes": "Firmware ships as free OTA updates delivered through the Sena Motorcycles companion app (Bluetooth-paired), with a WiFi Adapter/WiFi Charging Cable or the Sena Device Manager desktop tool as alternate delivery paths for older units without direct app-based OTA. Sena publishes granular per-model release notes on sena.com/stories/notice/ (over 200 dated notices since 2023), often multiple point releases per quarter per model, mostly bug-fix and compatibility patches (BMW/Harley-Davidson TFT and infotainment pairing, action-camera conflicts, Bluetooth stability) rather than headline feature drops. The Sena Motorcycles app itself updates roughly monthly (per Apple App Store version history) and carries a poor App Store rating (2.1/5, 122 ratings) with recurring complaints about pairing loops and connection reliability; the separate Wave Intercom app updates even more frequently (near-biweekly cadence in 2025-26) and has steadily added features (Friends Wave, voice mode, landscape mode, expanded language/TTS support) alongside frequent 'bug fixes and performance improvements' releases."
+  },
   "sources": [
     "https://www.sena.com/en-us/product/60s/",
     "https://www.instagram.com/senabluetooth/",
@@ -1103,6 +1449,20 @@
     "https://www.sena.com/fr/stories/news/sena-introduces-the-technology-packed-60x-with-sound-by-bose-technology-and-a-sleek-modern-profile/",
     "https://store-us.sena.com/products/60x",
     "https://www.sena.com/product/60x/",
-    "https://www.visordown.com/news/sarah-lezito-links-sena-2026-stunt-season"
+    "https://www.visordown.com/news/sarah-lezito-links-sena-2026-stunt-season",
+    "https://www.sena.com/en-us/product/spider-x-slim/",
+    "https://www.sena.com/en-us/stories/news/sena-unveils-spider-x-slim-a-new-ultra-slim-mesh-communication-system-with-sound-by-bose/",
+    "https://www.advpulse.com/adv-news/sena-launches-new-spider-x-ultra-slim-mesh-only-intercom/",
+    "https://www.visordown.com/news/sena-launches-slimmer-spider-x-mesh-intercom-bose-audio-and-remote-battery-design",
+    "https://www.sena.com/en-us/stories/news/sena-becomes-official-communication-partner-of-the-isle-of-man-tt-races/",
+    "https://www.visordown.com/news/sena-secures-three-year-agreement-support-isle-man-tt",
+    "https://www.bicycleretailer.com/announcements/2026/04/02/sena-announces-partnership-pedego-electric-bikes-elevate-e-bike-riding",
+    "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-60s-v1-2-9/",
+    "https://www.sena.com/en-us/stories/notices/",
+    "https://www.visordown.com/news/sena-launches-new-60x-flagship-motorcycle-intercom-joystick-controls-and-bose-audio",
+    "https://www.instagram.com/p/DY7ToyPkiBX/",
+    "https://www.facebook.com/groups/860066485997389/posts/1405543268116372/",
+    "https://www.reddit.com/r/motorcyclegear/comments/1n89fsl/sena_50c_vs_60s_vs_cardo_packtalk_pro/",
+    "https://store-us.sena.com/products/spider-x-slim"
   ]
 }
