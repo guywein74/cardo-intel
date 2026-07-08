@@ -661,6 +661,73 @@
       }
     },
     {
+      "name": "Vortex",
+      "tier": "entry",
+      "msrp_usd": 189,
+      "street_price_usd": 189,
+      "intercom_tech": "Bluetooth 5.1 (2-way HD intercom)",
+      "range_km": 1.2,
+      "max_riders": 2,
+      "audio": "2nd Generation HD Speakers, Advanced Noise Control",
+      "talk_time_hours": 27,
+      "waterproof": "IPX7",
+      "features": [
+        "Quick Pair Button (single-tap Bluetooth intercom pairing)",
+        "Magnetic mounting system",
+        "Wireless charging compatibility",
+        "Customizable faceplates (Silver Stone, Matte Black, Alpine White)",
+        "Advanced Noise Control",
+        "Layered battery design for slim profile",
+        "Voice commands",
+        "OTA updates via Sena Motorcycles app",
+        "Limited lifetime warranty"
+      ],
+      "release_year": 2026,
+      "notes": "Launched July 7, 2026 at $189 single (confirmed RevZilla). Positioned as entry-level Bluetooth intercom with flagship-level features (wireless charging, Quick Pair, Advanced Noise Control) previously absent from budget tiers. Replaces aging 5R/5S line as the new entry point. 2-way pairing only, no mesh or Wave cellular.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": null,
+          "profile": "slim",
+          "aesthetics": "Layered battery design keeps module close to helmet for sleek, modern low-profile look; interchangeable faceplates for customization"
+        },
+        "ease_of_use": {
+          "controls": "5-button interface + dedicated Quick Pair Button",
+          "mount": "magnetic mounting system (replaces clamp-first design)",
+          "cradle": "magnetic mount",
+          "voice_commands": "voice commands supported",
+          "screen": "no",
+          "ota": "OTA via Sena Motorcycles app",
+          "app": "Sena Motorcycles app"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "2nd Generation HD Speakers",
+          "hd": true,
+          "quality_verdict": "Too new for reviewer consensus (launched July 2026); Advanced Noise Control and HD speakers are the headline upgrades over older 5R/5S"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.1, 2-way HD intercom",
+          "range_km": 1.2,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": true,
+          "cross_brand": "Universal Intercom (HFP) pairing with non-Sena headsets expected per standard Sena implementation"
+        },
+        "quality": {
+          "build": "New for 2026; backed by Sena's limited lifetime warranty",
+          "ip_rating": "IPX7",
+          "service_reputation": "n/a - just launched",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": 189,
+          "street_usd": 189,
+          "segment_position": "Entry tier at $189; undercuts Cardo Spirit ($98.95 on sale) but offers wireless charging and Quick Pair as differentiators; replaces 5R/5S pricing ladder"
+        }
+      }
+    },
+    {
       "name": "MeshON",
       "tier": "entry",
       "msrp_usd": 129,
@@ -718,7 +785,7 @@
         "Semi-oval interior, moisture-wicking liner"
       ],
       "release_year": 2026,
-      "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) — $200 cheaper."
+      "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) \u2014 $200 cheaper."
     },
     {
       "name": "Phantom (full-face smart helmet family)",
@@ -796,7 +863,7 @@
         "Harman Kardon audio"
       ],
       "release_year": 2023,
-      "notes": "US store price $324 (Jul 2026) — heavily discounted from launch."
+      "notes": "US store price $324 (Jul 2026) \u2014 heavily discounted from launch."
     },
     {
       "name": "Outrush R (modular smart helmet)",
@@ -928,6 +995,12 @@
       "headline": "Spider X Slim launched: new Mesh-only mid-tier headset with Sound by Bose, AI noise cancellation and lifetime warranty at $299 single / $569 dual, undercutting the 60-series while adding flagship-grade audio to the mid tier",
       "source": "Sena newsroom / ADV Pulse",
       "url": "https://www.sena.com/en-us/stories/news/sena-unveils-spider-x-slim-a-new-ultra-slim-mesh-communication-system-with-sound-by-bose/"
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "VORTEX launched: new entry-level Bluetooth-only intercom at $189 single with Quick Pair Button, magnetic mount, wireless charging, 2nd-gen HD speakers, Advanced Noise Control, and limited lifetime warranty - brings flagship features to budget tier",
+      "source": "Sena newsroom",
+      "url": "https://www.sena.com/en-us/stories/news/sena-introduces-vortex-versatile-high-value-bluetooth-communication-system-built-for-everyday-riders/"
     }
   ],
   "social_media": {
@@ -1077,8 +1150,14 @@
       {
         "date": "2026-01-07",
         "platform": "Instagram",
-        "summary": "60X launch reel at AIMExpo 2026 (1.9K likes, 124 comments) — commenters press for a release date and one says 'sell me on why I should stop using Cardo for my lid.'",
+        "summary": "60X launch reel at AIMExpo 2026 (1.9K likes, 124 comments) \u2014 commenters press for a release date and one says 'sell me on why I should stop using Cardo for my lid.'",
         "url": "https://www.instagram.com/senabluetooth/reel/DTOftmMj8D8/"
+      },
+      {
+        "date": "2026-07-07",
+        "platform": "Instagram",
+        "summary": "Vortex launch announcement: 'VORTEX is built for riders who want straightforward Bluetooth communication without unnecessary complexity' - promotional content with product imagery showing Quick Pair Button and magnetic mount design",
+        "url": "https://www.instagram.com/senabluetooth/"
       }
     ]
   },
@@ -1399,6 +1478,18 @@
       ],
       "url": "https://apps.apple.com/us/app/sena-motorcycles/id1575310271",
       "source": "Apple App Store version history"
+    },
+    {
+      "date": "2026-07-02",
+      "product": "BiKom 20",
+      "type": "firmware",
+      "version": "1.5",
+      "title": "BiKom 20 v1.5 - Audible Bicycle Computer feature launch",
+      "changes": [
+        "Added ABC (Audible Bicycle Computer) feature to the Sena Cycling App - new software feature delivers real-time performance data through intuitive voice guidance"
+      ],
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-bikom-20-v1-5/",
+      "source": "Sena support notices"
     }
   ],
   "current_software": {
@@ -1630,6 +1721,46 @@
       "topic": "Comparison vs Cardo",
       "summary": "A thread comparing the Sena 50C, Sena 60S, and Cardo Packtalk Pro discusses trade-offs between the three: Cardo's Packtalk Pro is favored for audio quality (45mm JBL speakers) and its unique crash-detection safety feature, while Sena's 60S is noted for longer battery life and its Wave cellular intercom for large or spread-out group rides.",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1n89fsl/sena_50c_vs_60s_vs_cardo_packtalk_pro/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "60S",
+      "sentiment": "positive",
+      "topic": "Comparison vs Cardo",
+      "summary": "User who switched from Cardo Edge to Sena 60S reported slightly better sound quality and better software compared to their previous Cardo unit.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1sxpv5x/sena_vs_cardo_which_motorcycle_communication/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Stryker",
+      "sentiment": "mixed",
+      "topic": "Firmware update issue",
+      "summary": "Owner of Sena Stryker loves the fit and speakers but reported that their helmet won't update firmware (tried everything) and the rear ear controls can get uncomfortable.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1p01z2y/first_full_face_helmet_sena_stryker_has_amazing/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "SRL3",
+      "sentiment": "negative",
+      "topic": "Music playback glitch",
+      "summary": "User reported an issue with Sena SRL3 where music mutes periodically and then returns, with suspicion it relates to surrounding noise interference.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1rpu36e/sena_srl3_music_interrupting_while_riding/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Specter",
+      "sentiment": "negative",
+      "topic": "Battery life complaint",
+      "summary": "User noted Sena Specter has only 8 hours battery life, is based on 50S design, has extremely slow charging, and poor smart features overall.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1tia8q5/sena_specter_helmet/"
     }
   ]
 }

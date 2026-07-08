@@ -1041,7 +1041,7 @@
       {
         "date": "2026-07-04",
         "platform": "Instagram",
-        "summary": "Reel: 'Happy 4th of July — 20% off' holiday promo (45 likes); top comment is a rider asking when the Beyond helmet finally drops.",
+        "summary": "Reel: 'Happy 4th of July \u2014 20% off' holiday promo (45 likes); top comment is a rider asking when the Beyond helmet finally drops.",
         "url": "https://www.instagram.com/cardosystems/reel/DaXxIOHAAD7/"
       },
       {
@@ -1053,13 +1053,13 @@
       {
         "date": "2025-11-05",
         "platform": "Instagram",
-        "summary": "Beyond helmet reveal reel at EICMA 2025 (Hall 5, Booth G70) — 4.5K likes, but the comments are dominated by 'when is it releasing?' frustration over the delayed launch.",
+        "summary": "Beyond helmet reveal reel at EICMA 2025 (Hall 5, Booth G70) \u2014 4.5K likes, but the comments are dominated by 'when is it releasing?' frustration over the delayed launch.",
         "url": "https://www.instagram.com/cardosystems/reel/DQr5TLhl-h5/"
       },
       {
         "date": "2026-01-22",
         "platform": "Instagram",
-        "summary": "Packtalk Edge feature post (music / calls / rider-to-rider, weatherproof) — 233 likes; comments push back on price and a long-promised firmware update.",
+        "summary": "Packtalk Edge feature post (music / calls / rider-to-rider, weatherproof) \u2014 233 likes; comments push back on price and a long-promised firmware update.",
         "url": "https://www.instagram.com/cardosystems/p/DTzkgJWlKcz/"
       }
     ]
@@ -1682,6 +1682,66 @@
       "topic": "Comparison vs ASMAX",
       "summary": "A self-described long-time Cardo user (having owned the Slim, Freecom, Bold and Edge models) posted a review comparing their Cardo experience to the budget ASMAX F1; the poster's framing suggests broad satisfaction with Cardo across multiple generations of units, though full comparison detail wasn't accessible.",
       "url": "https://www.facebook.com/groups/ctmotorcycle/posts/24713622644943955/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Edge",
+      "sentiment": "positive",
+      "topic": "Intercom reliability",
+      "summary": "User praised Cardo 4X for being super reliable with good sound quality, though noted sound could be 'kinda silly' in some contexts. Overall described Cardo as great and decent for the price.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1n7v4dm/cardo_systems/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Pro",
+      "sentiment": "positive",
+      "topic": "Comparison vs Sena",
+      "summary": "User who switched from Cardo Edge to Sena 60S noted that Cardo has better compatibility and openness. They praised Cardo for bringing good product packages with HD versions and better sound overall.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1sxpv5x/sena_vs_cardo_which_motorcycle_communication/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Pro",
+      "sentiment": "negative",
+      "topic": "Pairing limitations",
+      "summary": "User expressed disappointment with Packtalk Pro given its high price, noting it can only connect to two devices of different brands, whereas their V6S (competitor model) has better multi-device connectivity.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1tzdl9o/is_cardo_packtalk_pro_really_worse_than_my_noname/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Mesh network performance",
+      "summary": "User compared Sena 50C/60S to Cardo Packtalk Pro, noting that Cardo's mesh network works great and its noise cancelling seems superior to Sena's.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1n89fsl/sena_50c_vs_60s_vs_cardo_packtalk_pro/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Battery life issues",
+      "summary": "Members report battery life concerns after 1 year, with some experiencing only 4.5 hours instead of the claimed 12-14 hours. Discussion includes replacement battery options and warranty considerations.",
+      "url": "https://www.facebook.com/groups/1847605508861922/posts/3888094404813012/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Charging issue",
+      "summary": "User reported Packtalk Edge passenger headset not charging beyond 75%, with suspicion of a faulty battery. Indicates potential QC variability in battery hardware.",
+      "url": "https://www.facebook.com/groups/1847605508861922/"
     }
   ]
 }
