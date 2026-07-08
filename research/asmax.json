@@ -223,7 +223,7 @@
         "Universal helmet compatibility"
       ],
       "release_year": 2025,
-      "notes": "Street price updated Jul 2026 from Jerung Wheels (Malaysia): RM 699 sale price (down from RM 899 list, ~USD 171 at MYR/USD ~4.07). Also seen at SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379). Not yet on the US store. Marketing cites '3-15 km' chained mesh.",
+      "notes": "Street price updated Jul 2026 from Jerung Wheels (Malaysia): RM 699 sale price (down from RM 899 list, ~USD 171 at MYR/USD ~4.07). Also seen at SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379). Not yet on the US store. Marketing cites '3-15 km' chained mesh. As of Jul 2026, asmaxconnect.com (global OEM/dealer site) also lists this exact spec set (BT5.3, 40mm BOX speaker, 1350mAh, 50g, Springlock mount) under the name 'X Pro' with an identical tagline, alongside the still-live 'F1 Pro' page — appears to be parallel OEM/private-label branding rather than a new product.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -284,7 +284,7 @@
         "App + OTA"
       ],
       "release_year": 2025,
-      "notes": "Unveiled at EICMA 2025 (Nov 2025) as top of lineup; sold via AliExpress and Asia dealers; no confirmed US MSRP as of Jul 2026. First confirmed street price Jul 2026: RM 1,099 at mytakongracing.com (Malaysia), ~USD 269 at MYR/USD ~4.07. Also listed at R5,900 ZAR (~USD 319, ICASA-approved) via Airborne ADV (South Africa) as of Jul 2026 -- higher than Malaysia due to import costs. IP67 waterproof rating confirmed via SA distributor listing.",
+      "notes": "Unveiled at EICMA 2025 (Nov 2025) as top of lineup; sold via AliExpress and Asia dealers; no confirmed US MSRP as of Jul 2026. First confirmed street price Jul 2026: RM 1,099 at mytakongracing.com (Malaysia), ~USD 269 at MYR/USD ~4.07. Also listed at R5,900 ZAR (~USD 319, ICASA-approved) via Airborne ADV (South Africa) as of Jul 2026 -- higher than Malaysia due to import costs. IP67 waterproof rating confirmed via SA distributor listing. As of Jul 2026, asmaxconnect.com also lists this exact spec set (BT5.3, 45mm BOX speaker, 1350mAh, 50g, Springlock mount) under the name 'X Pro Max' with an identical tagline, alongside the still-live 'F1 Pro Max' page; chris_asmax posted an Instagram reel captioned 'X pro max' on Jul 2, 2026 -- appears to be parallel OEM/private-label branding rather than a new product.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -347,7 +347,7 @@
         "50 g"
       ],
       "release_year": 2025,
-      "notes": "Street price derived from RM 699 (~USD 150-160) in Malaysia. Positioned as 'high-tech intercom at an affordable price' by Asian reviewers. EICMA 2025 lineup.",
+      "notes": "Street price derived from RM 699 (~USD 150-160) in Malaysia. Positioned as 'high-tech intercom at an affordable price' by Asian reviewers. EICMA 2025 lineup. As of Jul 2026, asmaxconnect.com also lists this exact spec set (BT5.4, 40mm speaker, 1350mAh, 50g, Springlock mount) under the name 'Y Pro' with an identical tagline, alongside the still-live 'Future 1' page -- appears to be parallel OEM/private-label branding rather than a new product.",
       "dimensions": {
         "form_factor": {
           "weight_g": 50,
@@ -559,6 +559,12 @@
   ],
   "recent_news": [
     {
+      "date": "2026-07-02",
+      "headline": "ASMAX Connect (global OEM/dealer site) quietly lists a parallel 'X Pro / X Pro Max / Y Pro' naming set alongside F1 Pro / F1 Pro Max / Future 1 \u2014 identical specs (X Pro = F1 Pro's BT5.3/40mm, X Pro Max = F1 Pro Max's BT5.3/45mm, Y Pro = Future 1's BT5.4/40mm; same 1350mAh/50g/3km/Springlock mount) and identical marketing taglines, indicating a rebrand for OEM/private-label or alternate-market distribution rather than new hardware; chris_asmax Instagram posted 'X pro max' on Jul 2, 2026",
+      "source": "ASMAX Connect product pages / Instagram (@chris_asmax)",
+      "url": "https://www.asmaxconnect.com/HelmetIntercoms/OQ01AN6KPJLy.html"
+    },
+    {
       "date": "2026-06-09",
       "headline": "ASMAX Partners with MDR Competicion for the 2026 FIM MotoJunior World Championship \u2014 ASMAX's first motorsport sponsorship, supplying communication gear to the racing team developing young riders",
       "source": "ASMAX Connect (Company News)",
@@ -642,8 +648,8 @@
     },
     "youtube": {
       "channel": "@ASMAXWorld",
-      "subscribers": 1650,
-      "notes": "Official channel hosts product-feature and how-to content; subscriber count not retrievable via search/fetch. Secondary channel @ASMAX.Connect exists. Reviewer coverage matters more than owned channel: 'ASMAX F1 & S1 review: Better than Sena & Cardo?' (Jul 2025), 'ASMAX F1 Full Review and Testing', 'ASMAX Z1 PLUS - best price-quality ratio', 'ASMAX S1 Intercom Test 2026 - Is it really worth it', 'Asmax Future 1 - Hi-Tech Intercom with the BEST VALUE for Money' \u2014 verdicts consistently 'budget Cardo alternative, excellent value, range claims overstated'. No FortNine/RevZilla/major-channel coverage found.",
+      "subscribers": 1680,
+      "notes": "Official channel now shows 1.68K subscribers / 40 videos (Jul 2026, up from ~1,650 previously). Hosts product-feature and how-to content. Secondary channel @ASMAX.Connect exists. Reviewer coverage matters more than owned channel: 'ASMAX F1 & S1 review: Better than Sena & Cardo?' (Jul 2025), 'ASMAX F1 Full Review and Testing', 'ASMAX Z1 PLUS - best price-quality ratio', 'ASMAX S1 Intercom Test 2026 - Is it really worth it', 'Asmax Future 1 - Hi-Tech Intercom with the BEST VALUE for Money' \u2014 verdicts consistently 'budget Cardo alternative, excellent value, range claims overstated'. No FortNine/RevZilla/major-channel coverage found.",
       "url": "https://www.youtube.com/@ASMAXWorld"
     },
     "tiktok": {
@@ -654,6 +660,12 @@
     },
     "summary": "ASMAX's owned social media is small and fragmented (15K IG, ~450 FB likes, several parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit presence remains thin but is no longer zero \u2014 occasional low-upvote mentions in r/motorcyclegear and regional subs (r/motorMY, r/MotoUK) now surface ASMAX as a budget Cardo/Sena alternative, though it still has not meaningfully penetrated the Western enthusiast community. Jun 2026 brought ASMAX's first motorsport sponsorship (MDR Competicion, MotoJunior World Championship), a new brand-building lever beyond dealer-driven social content.",
     "recent_posts": [
+      {
+        "date": "2026-07-02",
+        "platform": "Instagram",
+        "summary": "chris_asmax (US/wholesale-focused ASMAX rep account) posts a reel captioned 'X pro max #asmax #asmaxworld', surfacing the new 'X Pro Max' OEM/private-label naming for what appears to be the same hardware as the F1 Pro Max.",
+        "url": "https://www.instagram.com/chris_asmax/"
+      },
       {
         "date": "2026-06-19",
         "platform": "Reddit",

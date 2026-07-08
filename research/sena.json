@@ -785,13 +785,13 @@
         "Semi-oval interior, moisture-wicking liner"
       ],
       "release_year": 2026,
-      "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) \u2014 $200 cheaper."
+      "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) - $200 cheaper."
     },
     {
       "name": "Phantom (full-face smart helmet family)",
       "category": "smart_helmet",
       "tier": null,
-      "msrp_usd": 439,
+      "msrp_usd": 549,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Bluetooth (60S-derived system)",
       "range_km": null,
@@ -801,11 +801,79 @@
       "waterproof": null,
       "features": [
         "Attachment-free integrated comms",
-        "Variants: base $439, Extreme Bass $599, ANC $649, Camera, Unplugged",
+        "Variants: base $549, Extreme Bass (XB) $599, ANC $649, Camera, Unplugged",
         "Made in Sena's own helmet factory"
       ],
       "release_year": 2025,
-      "notes": "Family pricing verified on Sena US store Jul 2026: PHANTOM $439, XB $599, ANC $649."
+      "notes": "Family pricing re-confirmed via store-us.sena.com/products.json Jul 8 2026: base PHANTOM $549 (up from $439 previously listed), PHANTOM XB $599, PHANTOM ANC $649. No press announcement accompanied the base-model increase; treated as a quiet MSRP change."
+    },
+    {
+      "name": "Outstar 2",
+      "category": "smart_helmet",
+      "tier": null,
+      "msrp_usd": null,
+      "street_price_usd": 258,
+      "intercom_tech": "Integrated Mesh Intercom + Wave Intercom (LTE) + Bluetooth",
+      "range_km": null,
+      "max_riders": 24,
+      "audio": "2nd Generation HD Speakers with Advanced Noise Control",
+      "talk_time_hours": 20,
+      "waterproof": null,
+      "features": [
+        "Open-face/jet-style smart helmet aimed at commuters, delivery riders and entry-level motorcyclists",
+        "Successor to the Outstar S",
+        "Mesh Intercom and Wave Intercom (cellular) in one helmet",
+        "Mesh Intercom button positioned for natural finger placement",
+        "Open Mesh / Group Mesh switching",
+        "ECE R22.06 certified, expanded size range",
+        "Full-length shield plus built-in retractable sun visor",
+        "Quick-release, glove-friendly chin strap",
+        "Auto On/Off deep-sleep mode; safe direct-power riding without charging the battery"
+      ],
+      "release_year": 2025,
+      "notes": "Live on Sena's EU store (sena.com/en-eu/product/outstar-2/); not yet listed on the US Shopify store or products.json feed as of Jul 8 2026 - appears to be an EU-first rollout. EU retail observed at EUR 237.80 (motorun.de), converted to ~$258 est.; US MSRP unconfirmed/pending. First firmware update (v1.0.2) issued June 10, 2026.",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": null,
+          "profile": "open-face/jet",
+          "aesthetics": "Budget-friendly commuter open-face shell with integrated comms; successor to Outstar S"
+        },
+        "ease_of_use": {
+          "controls": "integrated buttons including a dedicated Mesh Intercom button",
+          "mount": "n/a - fully integrated smart helmet",
+          "cradle": "",
+          "voice_commands": "not specified on product page",
+          "screen": "no",
+          "ota": "OTA via Sena Motorcycles app",
+          "app": "Sena Motorcycles app"
+        },
+        "sound": {
+          "speaker_size_mm": null,
+          "speaker_brand": "2nd Generation HD Speakers",
+          "hd": true,
+          "quality_verdict": "Too new for reviewer consensus"
+        },
+        "intercom": {
+          "type": "Mesh Intercom + Wave Intercom (LTE) + Bluetooth",
+          "range_km": null,
+          "max_riders": 24,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": "not specified"
+        },
+        "quality": {
+          "build": "New for 2025/26; no long-term verdicts yet",
+          "ip_rating": "not published",
+          "service_reputation": "n/a - just launched",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": null,
+          "street_usd": 258,
+          "segment_position": "Budget commuter smart helmet undercutting Phantom/Outrush lines; brings Wave cellular intercom down to the entry-level open-face segment"
+        }
+      }
     },
     {
       "name": "Impulse (modular smart helmet)",
@@ -863,7 +931,7 @@
         "Harman Kardon audio"
       ],
       "release_year": 2023,
-      "notes": "US store price $324 (Jul 2026) \u2014 heavily discounted from launch."
+      "notes": "US store price $324 (Jul 2026) - heavily discounted from launch."
     },
     {
       "name": "Outrush R (modular smart helmet)",
@@ -1001,6 +1069,24 @@
       "headline": "VORTEX launched: new entry-level Bluetooth-only intercom at $189 single with Quick Pair Button, magnetic mount, wireless charging, 2nd-gen HD speakers, Advanced Noise Control, and limited lifetime warranty - brings flagship features to budget tier",
       "source": "Sena newsroom",
       "url": "https://www.sena.com/en-us/stories/news/sena-introduces-vortex-versatile-high-value-bluetooth-communication-system-built-for-everyday-riders/"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "\"The Instinct\" brand campaign launched: Sena's first identity-led hero film (produced by TEN Advertising), positioning the brand around rider culture rather than specs; timed with the Phantom XB helmet's availability and teasing the then-upcoming 60X and Apex",
+      "source": "Sena newsroom",
+      "url": "https://www.sena.com/en-us/stories/news/sena-the-instinct/"
+    },
+    {
+      "date": "2026-06-09",
+      "headline": "Phantom ANC & Phantom XB v1.2.9 firmware update: shared stability patch fixing Mesh Intercom audio distortion, Bluetooth stability while traveling, and premature Auto On/Off power-downs",
+      "source": "Sena support notices",
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-phantom-anc-v1-2-9/"
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "Outrush 2 v1.0.3 and Outstar 2 v1.0.2 firmware updates: shared fixes for remote-control connectivity, Mesh Intercom performance, BMW/Harley-Davidson/Ducati TFT display connectivity, and OTA low-battery messaging",
+      "source": "Sena support notices",
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outrush-2-v1-0-3/"
     }
   ],
   "social_media": {
@@ -1150,7 +1236,7 @@
       {
         "date": "2026-01-07",
         "platform": "Instagram",
-        "summary": "60X launch reel at AIMExpo 2026 (1.9K likes, 124 comments) \u2014 commenters press for a release date and one says 'sell me on why I should stop using Cardo for my lid.'",
+        "summary": "60X launch reel at AIMExpo 2026 (1.9K likes, 124 comments) - commenters press for a release date and one says 'sell me on why I should stop using Cardo for my lid.'",
         "url": "https://www.instagram.com/senabluetooth/reel/DTOftmMj8D8/"
       },
       {
@@ -1158,6 +1244,30 @@
         "platform": "Instagram",
         "summary": "Vortex launch announcement: 'VORTEX is built for riders who want straightforward Bluetooth communication without unnecessary complexity' - promotional content with product imagery showing Quick Pair Button and magnetic mount design",
         "url": "https://www.instagram.com/senabluetooth/"
+      },
+      {
+        "date": "2026-07-06",
+        "platform": "YouTube",
+        "summary": "'SENA SPIDER X Slim | Compact Size & Premium Performance' - product feature video highlighting the slim design, Sound by Bose audio, AI noise cancellation and lifetime warranty (628 views shortly after posting)",
+        "url": "https://www.youtube.com/watch?v=2Thz1YAv0WA"
+      },
+      {
+        "date": "2026-07-08",
+        "platform": "YouTube",
+        "summary": "'SENA 60X | Sena's First-Ever Customizable Button System With Compact Size' - launch-day product video for the 60X joystick controls and compact profile (posted same day as check, early view count)",
+        "url": "https://www.youtube.com/watch?v=kWJH4PQ2O04"
+      },
+      {
+        "date": "2026-07-05",
+        "platform": "Instagram",
+        "summary": "'NOW AVAILABLE: The All-New SENA 60X. Go further.' - official US availability announcement post highlighting Mesh Intercom 3.0, Wave Intercom and Sound by Bose",
+        "url": "https://www.instagram.com/senabluetooth/"
+      },
+      {
+        "date": "2026-07-08",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Cardo Update, Sena and ECE R22-06' - European rider discusses Cardo's cross-brand pairing update alongside the new EU ECE R22-06 helmet regulation now affecting Sena's integrated smart-helmet certifications (date estimated from post ID)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1potyi6/cardo_update_sena_and_ece_r2206/"
       }
     ]
   },
@@ -1490,6 +1600,71 @@
       ],
       "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-bikom-20-v1-5/",
       "source": "Sena support notices"
+    },
+    {
+      "date": "2026-06-09",
+      "product": "Phantom (full-face smart helmet family)",
+      "type": "firmware",
+      "version": "1.2.9",
+      "title": "Phantom ANC & Phantom XB v1.2.9 - shared smart-helmet stability patch",
+      "changes": [
+        "Improved music playback performance while hearing voice prompts when turning Mesh Intercom on or off while playing bass-rich music",
+        "Ensured Music/FM/Intercom/Phone volume is not reduced by button tones when adjusting volume",
+        "Improved the difference between VOX sensitivity levels",
+        "Minor bug fix with Bluetooth stability while traveling",
+        "Minor bug fix with the device being powered off too easily when the AUTO On/Off feature was activated",
+        "Minor bug fix with audio becoming severely distorted or crackled when hearing another rider speak during Mesh Intercom at a specific volume level",
+        "Minor bug fix with the device powering off if phone-call or GPS prompts repeated consecutively during Mesh Intercom",
+        "Minor bug fix with ringtone/call audio on older BMW TFT systems",
+        "Minor bug fix with microphone intermittently stopping after prolonged use during Mesh Intercom",
+        "Minor bug fix with intercom auto-disabling when an action camera was connected or recording"
+      ],
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-phantom-anc-v1-2-9/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-06-10",
+      "product": "Outrush 2 (modular smart helmet)",
+      "type": "firmware",
+      "version": "1.0.3",
+      "title": "Outrush 2 v1.0.3 - connectivity and stability fixes",
+      "changes": [
+        "Improved remote control connectivity",
+        "Improved Mesh Intercom performance",
+        "Improved connection issues with Bluetooth devices",
+        "Corrected German translations for MIC ON/MIC Off voice prompts",
+        "Improved battery-related voice prompts for Japanese",
+        "Added \"Phone disconnected\" and \"Device disconnected\" voice prompts",
+        "Improved connectivity for BMW, Harley-Davidson and Ducati TFT display systems",
+        "Minor bug fix with the \"Low battery\" message during OTA firmware updates",
+        "Minor bug fix with the device not powering on after Auto-Off activated",
+        "Minor bug fix with music at the lowest volume level on certain iOS versions",
+        "Minor bug fix with audio becoming severely distorted or crackled during Mesh Intercom at a specific volume level"
+      ],
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outrush-2-v1-0-3/",
+      "source": "Sena support notices"
+    },
+    {
+      "date": "2026-06-10",
+      "product": "Outstar 2",
+      "type": "firmware",
+      "version": "1.0.2",
+      "title": "Outstar 2 v1.0.2 - connectivity and stability fixes",
+      "changes": [
+        "Improved remote control connectivity",
+        "Improved Mesh Intercom performance",
+        "Improved connection issues with Bluetooth devices",
+        "Corrected German translations for MIC ON/MIC Off voice prompts",
+        "Improved battery-related voice prompts for Japanese",
+        "Added \"Phone disconnected\" and \"Device disconnected\" voice prompts",
+        "Improved connectivity for BMW, Harley-Davidson and Ducati TFT display systems",
+        "Minor bug fix with the \"Low battery\" message during OTA firmware updates",
+        "Minor bug fix with the device not powering on after Auto-Off activated",
+        "Minor bug fix with music at the lowest volume level on certain iOS versions",
+        "Minor bug fix with audio becoming severely distorted or crackled during Mesh Intercom at a specific volume level"
+      ],
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outstar-2-v1-0-2/",
+      "source": "Sena support notices"
     }
   ],
   "current_software": {
@@ -1599,8 +1774,8 @@
     {
       "product": "Phantom (full-face smart helmet family)",
       "firmware_version": "1.2.9",
-      "firmware_last_updated": "2026-06-02",
-      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-phantom-v1-2-9/",
+      "firmware_last_updated": "2026-06-09",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-phantom-anc-v1-2-9/",
       "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_PHANTOM_Series_1.1.0_en_251001.pdf",
       "support_url": "https://www.sena.com/en-us/support/phantom/"
     },
@@ -1614,11 +1789,19 @@
     },
     {
       "product": "Outrush 2 (modular smart helmet)",
-      "firmware_version": "1.0.1",
-      "firmware_last_updated": "2026-04-14",
-      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "firmware_version": "1.0.3",
+      "firmware_last_updated": "2026-06-10",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outrush-2-v1-0-3/",
       "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_OUTRUSH_2_1.0.1_en_260414.pdf",
       "support_url": "https://www.sena.com/en-us/support/outrush-2/"
+    },
+    {
+      "product": "Outstar 2",
+      "firmware_version": "1.0.2",
+      "firmware_last_updated": "2026-06-10",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outstar-2-v1-0-2/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/outstar-2/"
     },
     {
       "product": "Stryker (full-face smart helmet)",
@@ -1699,7 +1882,19 @@
     "https://www.instagram.com/p/DY7ToyPkiBX/",
     "https://www.facebook.com/groups/860066485997389/posts/1405543268116372/",
     "https://www.reddit.com/r/motorcyclegear/comments/1n89fsl/sena_50c_vs_60s_vs_cardo_packtalk_pro/",
-    "https://store-us.sena.com/products/spider-x-slim"
+    "https://store-us.sena.com/products/spider-x-slim",
+    "https://www.sena.com/en-us/stories/news/sena-the-instinct/",
+    "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-phantom-anc-v1-2-9/",
+    "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outrush-2-v1-0-3/",
+    "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outstar-2-v1-0-2/",
+    "https://www.sena.com/en-eu/product/outstar-2/",
+    "https://www.motorun.de/Sena-Outstar-2-Jet-Helmet-White",
+    "https://store-us.sena.com/products.json",
+    "https://www.youtube.com/watch?v=2Thz1YAv0WA",
+    "https://www.youtube.com/watch?v=kWJH4PQ2O04",
+    "https://www.youtube.com/@senatechnologies",
+    "https://www.reddit.com/r/motorcyclegear/comments/1potyi6/cardo_update_sena_and_ece_r2206/",
+    "https://www.revzilla.com/motorcycle/sena-vortex-bluetooth-communication-system"
   ],
   "customer_feedback": [
     {
@@ -1761,6 +1956,26 @@
       "topic": "Battery life complaint",
       "summary": "User noted Sena Specter has only 8 hours battery life, is based on 50S design, has extremely slow charging, and poor smart features overall.",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1tia8q5/sena_specter_helmet/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Pairing/Bluetooth issue",
+      "summary": "Rider reports the Sena app won't connect to their unit; commenters suggest factory reset, phone restart, app reinstall, and ensuring the unit is in pairing mode as common fixes.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1qc57sa/sena_app_not_connecting/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Spider RT1 / ST1",
+      "sentiment": "mixed",
+      "topic": "Reliability concern despite discount",
+      "summary": "Rider asks whether a heavily discounted Sena SRL-EXT intercom is worth buying; a commenter notes that specific model has had more reported issues than others despite the appealing price.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1s39kr5/sena_srlext_intercom_massive_discount_worth_it_at/"
     }
   ]
 }

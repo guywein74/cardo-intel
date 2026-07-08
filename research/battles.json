@@ -2819,7 +2819,7 @@
         "model": "Beyond GTS (smart helmet)",
         "price": "$1,199 (GT $949)"
       },
-      "exec_summary": "Cardo's first fully integrated road helmets (GTS $1,199 carbon / GT $949 fiberglass) put DMC mesh \u2014 up to 31 riders \u2014 plus JBL audio and ANC into a serviceable, wireless-charging shell. But they land into a Sena smart-helmet line that is years deep and far cheaper: the Specter ($649) matches the touring brief with Mesh 3.0 + Wave cellular at nearly half the GTS price, and the Phantom family starts at $439. Cardo's pitch is premium materials, rider count and upgradeable modules; Sena's is proven helmet manufacturing, cellular range and price.",
+      "exec_summary": "Cardo's first fully integrated road helmets (GTS $1,199 carbon / GT $949 fiberglass) put DMC mesh \u2014 up to 31 riders \u2014 plus JBL audio and ANC into a serviceable, wireless-charging shell. But they land into a Sena smart-helmet line that is years deep and far cheaper: the Specter ($649) matches the touring brief with Mesh 3.0 + Wave cellular at nearly half the GTS price, and the Phantom family starts at $549 (quietly raised from $439). Cardo's pitch is premium materials, rider count and upgradeable modules; Sena's is proven helmet manufacturing, cellular range and price.",
       "matchups": [
         {
           "brand": "Sena",
@@ -2844,15 +2844,15 @@
         {
           "brand": "Sena",
           "model": "Phantom family",
-          "price": "$439\u2013649",
-          "blurb": "60S-derived full-face integrated line: base $439, Extreme Bass $599, ANC $649, plus Camera variant. Mesh 3.0 + Harman Kardon + AI noise cancellation.",
+          "price": "$549\u2013649",
+          "blurb": "60S-derived full-face integrated line: base $549 (up from $439), Extreme Bass $599, ANC $649, plus Camera variant. Mesh 3.0 + Harman Kardon + AI noise cancellation.",
           "cardo_advantage": [
             "Higher rider count (31)",
             "Premium carbon build & materials",
             "Upgradeable modules vs fixed electronics"
           ],
           "competitor_advantage": [
-            "Base Phantom is ~$760 cheaper than GTS",
+            "Base Phantom is ~$650 cheaper than GTS",
             "Variant choice (ANC / Extreme Bass / Camera)",
             "AI-based noise cancellation",
             "Made in Sena's high-tech helmet factory"
@@ -3143,11 +3143,11 @@
               "good",
               "good"
             ],
-            "note": "GTS $1,199 is ~2x the Sena field; Phantom from $439",
+            "note": "GTS $1,199 is ~2x the Sena field; Phantom from $549",
             "values": [
               "$1199",
               "$649",
-              "$439",
+              "$549",
               "$479"
             ]
           }

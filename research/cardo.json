@@ -915,6 +915,12 @@
       "headline": "Backfill/missed item: Lazer (cycling helmet brand) launches VeloVox, an open-ear helmet-strap communication device built on Cardo's cellular VoIP intercom tech ($184.95), connecting up to 30 cyclists via data network with Shimano Di2/STEPS integration",
       "source": "Bikerumor / road.cc",
       "url": "https://bikerumor.com/lazer-velovox-audio-system/"
+    },
+    {
+      "date": "2026-07-08",
+      "headline": "Cardo BEYOND helmet wins a 2026 Red Dot Award: Product Design",
+      "source": "Cardo Systems blog / Visordown",
+      "url": "https://cardosystems.com/blogs/cardo-blog/beyond-red-dot-award"
     }
   ],
   "social_media": {
@@ -1041,7 +1047,7 @@
       {
         "date": "2026-07-04",
         "platform": "Instagram",
-        "summary": "Reel: 'Happy 4th of July \u2014 20% off' holiday promo (45 likes); top comment is a rider asking when the Beyond helmet finally drops.",
+        "summary": "Reel: 'Happy 4th of July — 20% off' holiday promo (45 likes); top comment is a rider asking when the Beyond helmet finally drops.",
         "url": "https://www.instagram.com/cardosystems/reel/DaXxIOHAAD7/"
       },
       {
@@ -1053,13 +1059,13 @@
       {
         "date": "2025-11-05",
         "platform": "Instagram",
-        "summary": "Beyond helmet reveal reel at EICMA 2025 (Hall 5, Booth G70) \u2014 4.5K likes, but the comments are dominated by 'when is it releasing?' frustration over the delayed launch.",
+        "summary": "Beyond helmet reveal reel at EICMA 2025 (Hall 5, Booth G70) — 4.5K likes, but the comments are dominated by 'when is it releasing?' frustration over the delayed launch.",
         "url": "https://www.instagram.com/cardosystems/reel/DQr5TLhl-h5/"
       },
       {
         "date": "2026-01-22",
         "platform": "Instagram",
-        "summary": "Packtalk Edge feature post (music / calls / rider-to-rider, weatherproof) \u2014 233 likes; comments push back on price and a long-promised firmware update.",
+        "summary": "Packtalk Edge feature post (music / calls / rider-to-rider, weatherproof) — 233 likes; comments push back on price and a long-promised firmware update.",
         "url": "https://www.instagram.com/cardosystems/p/DTzkgJWlKcz/"
       }
     ]
@@ -1742,6 +1748,16 @@
       "topic": "Charging issue",
       "summary": "User reported Packtalk Edge passenger headset not charging beyond 75%, with suspicion of a faulty battery. Indicates potential QC variability in battery hardware.",
       "url": "https://www.facebook.com/groups/1847605508861922/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Voice command issue",
+      "summary": "Rider reports 'Hey Cardo' voice activation frequently fails to engage even with voice commands enabled and mic sensitivity maxed; a recurring complaint echoed in multiple older threads about voice commands not working reliably on Packtalk models.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1pvofbv/hey_cardo_is_not_engaging/"
     }
   ]
 }
