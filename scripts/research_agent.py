@@ -120,7 +120,7 @@ Return the complete updated JSON for {brand}."""
     full_response = ""
     with client.messages.stream(
         model="claude-opus-4-8",
-        max_tokens=4000,
+        max_tokens=32000,
         messages=[{"role": "user", "content": prompt}]
     ) as stream:
         for text in stream.text_stream:
@@ -128,8 +128,12 @@ Return the complete updated JSON for {brand}."""
             # Print progress dots
             if len(full_response) % 500 == 0:
                 print(".", end="", flush=True)
+        stop_reason = stream.get_final_message().stop_reason
 
     print()  # Newline after dots
+
+    if stop_reason == "max_tokens":
+        print(f"⚠️ Response for {brand} was cut off at max_tokens ({len(full_response)} chars received)")
 
     # Parse the JSON response
     try:

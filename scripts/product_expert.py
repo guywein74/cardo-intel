@@ -129,15 +129,19 @@ Use straight ASCII quotes. Validate the JSON before outputting."""
     full_response = ""
     with client.messages.stream(
         model="claude-opus-4-8",
-        max_tokens=4000,
+        max_tokens=16000,
         messages=[{"role": "user", "content": prompt}]
     ) as stream:
         for text in stream.text_stream:
             full_response += text
             if len(full_response) % 500 == 0:
                 print(".", end="", flush=True)
+        stop_reason = stream.get_final_message().stop_reason
 
     print()
+
+    if stop_reason == "max_tokens":
+        print(f"⚠️ Response was cut off at max_tokens ({len(full_response)} chars received)")
 
     # Parse JSON from response
     try:
