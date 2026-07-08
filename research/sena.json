@@ -788,24 +788,26 @@
       "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) - $200 cheaper."
     },
     {
-      "name": "Phantom (full-face smart helmet family)",
+      "name": "Phantom (base)",
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 549,
       "street_price_usd": null,
-      "intercom_tech": "Integrated Mesh Intercom 3.0 + Bluetooth (60S-derived system)",
-      "range_km": null,
+      "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE, virtually unlimited range) + Bluetooth 5.3",
+      "range_km": 2.0,
       "max_riders": 24,
-      "audio": "2nd-gen Harman Kardon, AI-based noise cancellation",
-      "talk_time_hours": null,
+      "audio": "2nd Generation Harman Kardon speakers",
+      "talk_time_hours": 35,
       "waterproof": null,
       "features": [
-        "Attachment-free integrated comms",
-        "Variants: base $549, Extreme Bass (XB) $599, ANC $649, Camera, Unplugged",
-        "Made in Sena's own helmet factory"
+        "Mesh Intercom 3.0 - Open Mesh (6 channels, virtually unlimited participants) + Group Mesh (24 participants)",
+        "Wave Intercom (cellular, virtually unlimited range)",
+        "AI-based Noise Cancellation",
+        "DOT + ECE R22.06 certified",
+        "Weight 1690g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Family pricing re-confirmed via store-us.sena.com/products.json Jul 8 2026: base PHANTOM $549 (up from $439 previously listed), PHANTOM XB $599, PHANTOM ANC $649. No press announcement accompanied the base-model increase; treated as a quiet MSRP change."
+      "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing."
     },
     {
       "name": "Outstar 2",
@@ -831,7 +833,7 @@
         "Auto On/Off deep-sleep mode; safe direct-power riding without charging the battery"
       ],
       "release_year": 2025,
-      "notes": "Live on Sena's EU store (sena.com/en-eu/product/outstar-2/); not yet listed on the US Shopify store or products.json feed as of Jul 8 2026 - appears to be an EU-first rollout. EU retail observed at EUR 237.80 (motorun.de), converted to ~$258 est.; US MSRP unconfirmed/pending. First firmware update (v1.0.2) issued June 10, 2026.",
+      "notes": "Live on Sena's EU store (sena.com/en-eu/product/outstar-2/); not yet listed on the US Shopify store or products.json feed as of Jul 8 2026 - appears to be an EU-first rollout. EU retail observed at EUR 237.80 (motorun.de), converted to ~$258 est.; US MSRP unconfirmed/pending. First firmware update (v1.0.2) issued June 10, 2026. STATUS UPDATE Jul 8 2026: not found in store-us.sena.com products.json or in the live Smart Helmet / Other category listings on sena.com - appears discontinued from the current lineup. Retained here for historical record; exclude from 'current products' framing.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -879,7 +881,7 @@
       "name": "Impulse (modular smart helmet)",
       "category": "smart_helmet",
       "tier": null,
-      "msrp_usd": 479,
+      "msrp_usd": 599,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
       "range_km": null,
@@ -893,7 +895,7 @@
         "$599 bundle with extras"
       ],
       "release_year": 2023,
-      "notes": "US store price $479 (Jul 2026)."
+      "notes": "US store price $479 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $479, live store-us.sena.com (handle: impulse-1) shows $599 - prior figure was stale."
     },
     {
       "name": "Outrush 2 (modular smart helmet)",
@@ -937,7 +939,7 @@
       "name": "Outrush R (modular smart helmet)",
       "category": "smart_helmet",
       "tier": null,
-      "msrp_usd": 287,
+      "msrp_usd": 359,
       "street_price_usd": null,
       "intercom_tech": "Integrated Bluetooth intercom (no mesh)",
       "range_km": null,
@@ -949,13 +951,13 @@
         "Budget modular with built-in Bluetooth intercom"
       ],
       "release_year": 2021,
-      "notes": "US store price $287 (Jul 2026)."
+      "notes": "US store price $287 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $287, live store-us.sena.com (handle: outrushr) shows $359 - prior figure was stale."
     },
     {
       "name": "Cavalry 2 (half smart helmet)",
       "category": "smart_helmet",
       "tier": null,
-      "msrp_usd": 279,
+      "msrp_usd": 349,
       "street_price_usd": null,
       "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
       "range_km": null,
@@ -968,7 +970,98 @@
         "Cruiser-oriented"
       ],
       "release_year": 2024,
-      "notes": "US store price $279 (Jul 2026)."
+      "notes": "US store price $279 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $279, live store-us.sena.com (handle: cavalry2) shows $349 - prior figure was stale."
+    },
+    {
+      "name": "Phantom XB",
+      "category": "smart_helmet",
+      "tier": null,
+      "msrp_usd": 599,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE, virtually unlimited range) + Bluetooth 5.3",
+      "range_km": 2.0,
+      "max_riders": 24,
+      "audio": "2nd Generation HD Speaker with Pulse Drive Matrix (high-density multi-layered bass architecture)",
+      "talk_time_hours": 35,
+      "waterproof": null,
+      "features": [
+        "Pulse Drive Matrix bass-enhancement architecture (physical low-frequency transducer, not just EQ)",
+        "Mesh Intercom 3.0 - Open Mesh (6 channels) + Group Mesh (24 participants)",
+        "Wave Intercom (cellular, virtually unlimited range)",
+        "AI-based Noise Cancellation",
+        "DOT + ECE R22.06 certified",
+        "Weight 1720g (M, DOT)"
+      ],
+      "release_year": 2025,
+      "notes": "Phantom Family bass-focused variant; store handle 'phantom-xb-full-face-motorcycle-helmet-with-integrated-communiation-system-featuring-acoustic-audio-chambers', $599 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in notes text, not tracked as its own product - added per site audit."
+    },
+    {
+      "name": "Phantom ANC",
+      "category": "smart_helmet",
+      "tier": null,
+      "msrp_usd": 649,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE, virtually unlimited range) + Bluetooth 5.3",
+      "range_km": 2.0,
+      "max_riders": 24,
+      "audio": "HD Speaker with built-in Active Noise Cancellation (ANC) module",
+      "talk_time_hours": 35,
+      "waterproof": null,
+      "features": [
+        "Active Noise Cancellation - reduces high-speed wind noise by 20 dB",
+        "Mesh Intercom 3.0 - Open Mesh (6 channels) + Group Mesh (24 participants)",
+        "Wave Intercom (cellular, virtually unlimited range)",
+        "AI-based Noise Cancellation (comms-side, separate from hearing-protection ANC)",
+        "DOT + ECE R22.06 certified",
+        "Weight 1720g (M, DOT)"
+      ],
+      "release_year": 2025,
+      "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing."
+    },
+    {
+      "name": "Outforce (full-face smart helmet)",
+      "category": "smart_helmet",
+      "tier": null,
+      "msrp_usd": 199,
+      "street_price_usd": null,
+      "intercom_tech": "Built-in Bluetooth 5.1 (4-way intercom), HD 2-way when paired with one other rider",
+      "range_km": 0.9,
+      "max_riders": 4,
+      "audio": "Built-in speakers & mic",
+      "talk_time_hours": 12,
+      "waterproof": null,
+      "features": [
+        "DOT-rated full-face helmet with built-in Bluetooth comms (no mesh)",
+        "Retractable sun visor",
+        "Advanced Noise Control",
+        "Audio Multitasking (music + intercom simultaneously)",
+        "Weight 1600g (M, DOT)"
+      ],
+      "release_year": 2023,
+      "notes": "Entry-tier Bluetooth-only smart helmet - Sena's cheapest full-face comms helmet, well below the Mesh/Wave-equipped Phantom/Specter/Outlander line. $199 confirmed via store-us.sena.com (handle: outforce), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit."
+    },
+    {
+      "name": "Surge (open-face smart helmet)",
+      "category": "smart_helmet",
+      "tier": null,
+      "msrp_usd": 419,
+      "street_price_usd": null,
+      "intercom_tech": "Integrated Mesh Intercom 3.0 (Open Mesh 6-channel + Group Mesh 24-participant) + Wave Intercom (LTE) + Bluetooth 5.2",
+      "range_km": 1.6,
+      "max_riders": 24,
+      "audio": "HD speakers",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Open-face helmet, successor to the original Savage (first Bluetooth open-face helmet)",
+        "Mesh Intercom 3.0 - Open Mesh (1 mile / 1.6km range, 6 channels) + Group Mesh (24 participants)",
+        "Wave Intercom (cellular, virtually unlimited range)",
+        "Advanced Noise Control",
+        "Fiberglass composite shell, EPS foam liner",
+        "Weight 1100g ±50g (L size)"
+      ],
+      "release_year": 2025,
+      "notes": "Open-face Mesh-equipped helmet, positioned as the spiritual successor to Sena's original Savage. $419 confirmed via store-us.sena.com (handle: surge-3), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit."
     }
   ],
   "strengths": [
@@ -992,6 +1085,12 @@
     "Cross-brand pairing with Cardo historically cumbersome ('Intercom failed' errors, dropped bridges), frustrating mixed groups"
   ],
   "recent_news": [
+    {
+      "date": "2026-07-08",
+      "headline": "Data audit via direct sena.com/store-us.sena.com crawl found 2 fully missing helmets (Outforce $199, Surge $419) and stale pricing on 3 existing helmets (Impulse, Outrush R, Cavalry 2); Phantom family split from one generic entry into its 3 real purchasable SKUs (Phantom, Phantom XB, Phantom ANC)",
+      "source": "Internal data audit",
+      "url": "https://www.sena.com/en-us/product/motorcycling/smart-helmet/"
+    },
     {
       "date": "2024-11-07",
       "headline": "60S flagship unveiled at EICMA 2024 - world's first intercom with cellular Wave Intercom (unlimited range/riders), Mesh 3.0, Bluetooth 5.3, 2nd-gen Harman Kardon; EUR 399 / $439",
