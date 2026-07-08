@@ -136,7 +136,7 @@ sections[0].innerHTML = `
   <div class="card">
     <h2 style="margin-top:0">Recent moves (2025–2026)</h2>
     ${BRANDS.map(b=>`<div style="margin-bottom:12px"><div style="font-weight:600;font-size:12px;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
-      <div class="small muted" style="font-size:11px">${(b.recent_news||[]).slice(-3).reverse().map(n=>`<div style="margin:2px 0"><span style="color:var(--text);font-weight:600">${esc(n.date||"")}</span> ${esc(n.headline.slice(0,120))}</div>`).join("")}</div></div>`).join("")}
+      <div class="small muted" style="font-size:11px">${(b.recent_news||[]).slice(-3).reverse().map(n=>`<div style="margin:2px 0"><span style="color:var(--text);font-weight:600">${esc(n.date||"")}</span> ${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline.slice(0,120))}</a>`:esc(n.headline.slice(0,120))}</div>`).join("")}</div></div>`).join("")}
   </div>
 
   <!-- Bottom-right: Press & market -->
