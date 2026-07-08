@@ -106,21 +106,22 @@ TABS.forEach((t,i)=>{const b=document.createElement("button");b.textContent=t;b.
 const sections=TABS.map(()=>{const d=document.createElement("div");d.className="tab";main.appendChild(d);return d});
 function show(i){[...nav.children].forEach((b,j)=>b.classList.toggle("active",i===j));sections.forEach((s,j)=>s.classList.toggle("active",i===j))}
 
-/* ---------- Overview (2x2 matrix) ---------- */
+/* ---------- Overview (stacked, full-width sections) ---------- */
 sections[0].innerHTML = `
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
-  <!-- Top-left: Brand overview -->
-  <div class="card">
+  <!-- 1: Brand overview -->
+  <div class="card" style="margin-bottom:16px">
     <h2 style="margin-top:0">Brand overview</h2>
-    ${BRANDS.map(b=>`<div style="margin-bottom:14px"><div style="font-weight:700;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
+    <div class="grid g4">
+    ${BRANDS.map(b=>`<div><div style="font-weight:700;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
       <div class="small muted">${esc(b.company.hq.split(";")[0].split("(")[0])} · Founded ${esc((b.company.founded||"").match(/\d{4}/)?.[0]||"")}</div>
       <div class="small" style="margin-top:4px">${esc(b.company.positioning.split(";")[0].slice(0,140))}…</div>
       <div class="kv" style="padding:4px 0;border:none;font-size:12px"><span>Products</span><b>${b.products.length}</b></div>
       <div class="kv" style="padding:4px 0;border:none;font-size:12px"><span>Price range</span><b>${(()=>{const ps=b.products.map(p=>p.street_price_usd??p.msrp_usd).filter(v=>v!=null);return ps.length?fmt$(Math.min(...ps))+"-"+fmt$(Math.max(...ps)):"—"})()}</b></div></div>`).join("")}
+    </div>
   </div>
 
-  <!-- Top-right: Strengths & weaknesses matrix -->
-  <div class="card">
+  <!-- 2: Competitive positioning -->
+  <div class="card" style="margin-bottom:16px">
     <h2 style="margin-top:0">Competitive positioning</h2>
     <table style="font-size:12px;margin-bottom:8px">
       <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Strengths</th><th style="padding:6px">Weaknesses</th></tr></thead>
@@ -132,15 +133,8 @@ sections[0].innerHTML = `
     </table>
   </div>
 
-  <!-- Bottom-left: Recent moves -->
-  <div class="card">
-    <h2 style="margin-top:0">Recent moves (2025–2026)</h2>
-    ${BRANDS.map(b=>`<div style="margin-bottom:12px"><div style="font-weight:600;font-size:12px;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
-      <div class="small muted" style="font-size:11px">${(b.recent_news||[]).slice(-3).reverse().map(n=>`<div style="margin:2px 0"><span style="color:var(--text);font-weight:600">${esc(n.date||"")}</span> ${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline.slice(0,120))}</a>`:esc(n.headline.slice(0,120))}</div>`).join("")}</div></div>`).join("")}
-  </div>
-
-  <!-- Bottom-right: Press & market -->
-  <div class="card">
+  <!-- 3: Press coverage & market -->
+  <div class="card" style="margin-bottom:16px">
     <h2 style="margin-top:0">Press coverage & market</h2>
     <table style="font-size:12px">
       <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Reviews</th><th style="padding:6px">Awards</th><th style="padding:6px">Tone</th></tr></thead>
@@ -152,7 +146,15 @@ sections[0].innerHTML = `
       </tbody>
     </table>
   </div>
-</div>`;
+
+  <!-- 4: Recent moves -->
+  <div class="card">
+    <h2 style="margin-top:0">Recent moves (2025–2026)</h2>
+    <div class="grid g4">
+    ${BRANDS.map(b=>`<div><div style="font-weight:600;font-size:12px;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
+      <div class="small muted" style="font-size:11px">${(b.recent_news||[]).slice(-3).reverse().map(n=>`<div style="margin:2px 0"><span style="color:var(--text);font-weight:600">${esc(n.date||"")}</span> ${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline.slice(0,120))}</a>`:esc(n.headline.slice(0,120))}</div>`).join("")}</div></div>`).join("")}
+    </div>
+  </div>`;
 
 /* ---------- Products table ---------- */
 const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
