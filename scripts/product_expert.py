@@ -215,9 +215,9 @@ def main():
                 save_insights(insights)
                 print(f"\n✅ Product Expert completed successfully")
                 print(f"   Generated: {insights.get('generated')}")
-                print(f"   Market pulse items: {len(insights.get('market_pulse', []))}")
-                print(f"   Gaps identified: {len(insights.get('gaps', []))}")
-                print(f"   Recommendations: {len(insights.get('recommendations', []))}")
+                print(f"   Market pulse items: {len(insights.get('market_pulse') or [])}")
+                print(f"   Gaps identified: {len(insights.get('gaps') or [])}")
+                print(f"   Recommendations: {len(insights.get('recommendations') or [])}")
             else:
                 print("\n⚠️ Insights have validation issues but saved anyway")
                 save_insights(insights)
