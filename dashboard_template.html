@@ -149,12 +149,31 @@ sections[0].innerHTML = `
 
   <!-- 4: Recent moves -->
   <div class="card">
-    <h2 style="margin-top:0">Recent moves (2025–2026)</h2>
-    <div class="grid g4">
-    ${BRANDS.map(b=>`<div><div style="font-weight:600;font-size:12px;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
-      <div class="small muted" style="font-size:11px">${(b.recent_news||[]).slice(-3).reverse().map(n=>`<div style="margin:2px 0"><span style="color:var(--text);font-weight:600">${esc(n.date||"")}</span> ${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline.slice(0,120))}</a>`:esc(n.headline.slice(0,120))}</div>`).join("")}</div></div>`).join("")}
+    <h2 style="margin-top:0">Recent moves (2025–2026) <span class="small muted" id="rmCount" style="font-weight:400"></span></h2>
+    <div class="chips" id="rmChips">
+      ${BRANDS.map(b=>`<button class="chip on" data-rb="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
     </div>
+    <div id="rmList"></div>
   </div>`;
+
+/* ---------- Recent moves feed (single feed, newest first, brand filter) ---------- */
+const rmKey = d => {if(!d)return 0;const m=String(d).match(/(20\d\d)(?:-(\d\d?))?(?:-(\d\d?))?/);return m?(+m[1])*10000+(+(m[2]||0))*100+(+(m[3]||0)):0};
+let RECENT_MOVES=[];
+BRANDS.forEach(b=>(b.recent_news||[]).forEach(n=>RECENT_MOVES.push({brand:b.competitor,date:n.date,headline:n.headline,url:n.url})));
+RECENT_MOVES.sort((a,b)=>rmKey(b.date)-rmKey(a.date));
+let rmBrands=new Set(BRANDS.map(b=>b.competitor));
+function renderRecentMoves(){
+  const rows=RECENT_MOVES.filter(n=>rmBrands.has(n.brand));
+  sections[0].querySelector("#rmCount").textContent=`· ${rows.length} items`;
+  sections[0].querySelector("#rmList").innerHTML=rows.map(n=>`
+    <div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
+      <span class="small muted" style="width:76px;flex:none;font-variant-numeric:tabular-nums">${esc(n.date||"—")}</span>
+      <span class="brandtag small" style="color:${BCOLOR[n.brand]};width:56px;flex:none">${esc(n.brand)}</span>
+      <span class="small" style="flex:1;min-width:260px">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline)}</a>`:esc(n.headline)}</span>
+    </div>`).join("")||`<div style="padding:24px" class="muted">No moves match the filter.</div>`;
+}
+sections[0].querySelectorAll("#rmChips .chip[data-rb]").forEach(c=>c.onclick=()=>{const b=c.dataset.rb;c.classList.toggle("on");c.classList.contains("on")?rmBrands.add(b):rmBrands.delete(b);renderRecentMoves()});
+renderRecentMoves();
 
 /* ---------- Products table ---------- */
 const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
