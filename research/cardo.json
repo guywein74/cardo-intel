@@ -74,7 +74,8 @@
           "street_usd": 449.95,
           "segment_position": "Most expensive mainstream intercom on the market; RevZilla now runs a standing 10% discount ($449.95)"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/packtalk-pro"
     },
     {
       "name": "Packtalk Edge",
@@ -139,7 +140,8 @@
           "street_usd": 395.96,
           "segment_position": "Premium; priced above Sena 50S after 2025 hike but wins most head-to-heads"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/packtalk-edge"
     },
     {
       "name": "Packtalk Neo",
@@ -203,7 +205,8 @@
           "street_usd": 323.96,
           "segment_position": "Cheapest full-DMC mesh unit on the market - value flagship"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/packtalk-neo"
     },
     {
       "name": "Packtalk Outdoor",
@@ -267,7 +270,8 @@
           "street_usd": null,
           "segment_position": "Unique category (outdoor/ski mesh comms) - few direct competitors"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/packtalk-outdoor"
     },
     {
       "name": "Freecom 4x",
@@ -330,7 +334,8 @@
           "street_usd": 283.46,
           "segment_position": "Upper-mid Bluetooth-only; post-2025 hike it now overlaps entry mesh rivals' pricing"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/freecom-4x"
     },
     {
       "name": "Freecom 2x",
@@ -393,7 +398,8 @@
           "street_usd": 203.96,
           "segment_position": "Mid-price rider+passenger unit; JBL audio is its main differentiator vs cheaper 2-rider rivals"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/freecom-2x"
     },
     {
       "name": "Spirit HD",
@@ -456,7 +462,8 @@
           "street_usd": 161.96,
           "segment_position": "Budget tier; competes with Sena entry units and Chinese brands on price"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/spirit-hd"
     },
     {
       "name": "Spirit",
@@ -519,7 +526,8 @@
           "street_usd": 98.95,
           "segment_position": "Entry anchor; head-to-head with budget Chinese units (Fodsports, Lexin) on price"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/spirit"
     },
     {
       "name": "Packtalk-S",
@@ -583,7 +591,8 @@
           "street_usd": 377.96,
           "segment_position": "Premium OEM-integration tier, priced near Packtalk Edge"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/packtalk-s"
     },
     {
       "name": "4X-S",
@@ -646,7 +655,8 @@
           "street_usd": null,
           "segment_position": "Budget helmet-integrated tier, priced near Freecom 4x"
         }
-      }
+      },
+      "url": "https://cardosystems.com/products/4x-s"
     },
     {
       "name": "Schuberth SC EDGE",
@@ -714,7 +724,8 @@
           "street_usd": 359,
           "segment_position": "Premium OEM-integration tier for SCHUBERTH helmets, comparable positioning to Packtalk-S for Shoei"
         }
-      }
+      },
+      "url": "https://cardosystems.com/pages/support/sc-edge"
     },
     {
       "name": "Lazer VeloVox",
@@ -738,7 +749,8 @@
       ],
       "release_year": 2025,
       "notes": "Lazer (cycling helmet brand) partnership product using Cardo's communication technology, launched September 2025; not a motorcycle product - included as a Cardo-technology cycling accessory. $184.95 US / GBP160 / EUR160. Missed in prior update cycle - added as a previously-existing product.",
-      "category": "cycling_accessory"
+      "category": "cycling_accessory",
+      "url": "https://cardosystems.com/products/lazer-velovox"
     },
     {
       "name": "Packtalk Edgephones",
@@ -757,7 +769,8 @@
       ],
       "release_year": 2023,
       "notes": "Accessory headphones, launched at $149.95, now $159.95.",
-      "category": "headphones"
+      "category": "headphones",
+      "url": "https://cardosystems.com/products/packtalk-edgephones"
     },
     {
       "name": "Beyond GTS (smart helmet)",
@@ -779,7 +792,8 @@
       ],
       "release_year": 2026,
       "notes": "Cardo's first fully integrated road helmet; unveiled Jan 2026, on sale summer 2026. GT sibling: $949, fiberglass shell, ANC optional, smaller cable-charged battery.",
-      "category": "smart_helmet"
+      "category": "smart_helmet",
+      "url": "https://cardosystems.com/pages/beyond"
     },
     {
       "name": "Venture (integrated MX helmet)",
@@ -799,7 +813,8 @@
       ],
       "release_year": 2026,
       "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695.",
-      "category": "smart_helmet"
+      "category": "smart_helmet",
+      "url": "https://cardosystems.com/pages/venture"
     },
     {
       "name": "Packtalk Edgephones ORV",
@@ -822,7 +837,8 @@
         "Designed for UTV/ATV and other non-helmet off-road applications"
       ],
       "release_year": 2024,
-      "notes": "Off-road/UTV variant of Packtalk Edgephones, crafted for rough terrain and cellular-free connectivity for non-helmet applications. Compatible with Packtalk Edge, Edge ORV, Edge KTM, Edge Ducati, Edge Honda, Edge Simpson. 1-year warranty (Edgephones); 3-year warranty (Packtalk Edge unit)."
+      "notes": "Off-road/UTV variant of Packtalk Edgephones, crafted for rough terrain and cellular-free connectivity for non-helmet applications. Compatible with Packtalk Edge, Edge ORV, Edge KTM, Edge Ducati, Edge Honda, Edge Simpson. 1-year warranty (Edgephones); 3-year warranty (Packtalk Edge unit).",
+      "url": "https://cardosystems.com/products/packtalk-edgephones-orv"
     }
   ],
   "strengths": [

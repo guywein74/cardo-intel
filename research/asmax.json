@@ -73,7 +73,8 @@
           "street_usd": 139.99,
           "segment_position": "Mid-$100s 10-rider mesh — undercuts Cardo Packtalk Edge (~$390) by ~64% on spec-sheet parity"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/f1s"
     },
     {
       "name": "S1",
@@ -139,7 +140,8 @@
           "street_usd": 92.88,
           "segment_position": "Cheapest credible 8-rider mesh on the US market — budget tier (Fodsports/EJEAS money) with AI voice added"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/s1"
     },
     {
       "name": "Z1 / Z1 Plus",
@@ -202,7 +204,8 @@
           "street_usd": 89.99,
           "segment_position": "Sub-$90 10-rider mesh with magnetic mount — cheapest 10-rider tier; page removed from US store (likely superseded by S2)"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/z1"
     },
     {
       "name": "F1 Pro",
@@ -265,7 +268,8 @@
           "street_usd": 171,
           "segment_position": "ASMAX's ~$170-200 premium tier — still roughly half a Cardo Packtalk Edge / Sena 60S"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/f1-pro"
     },
     {
       "name": "F1 Pro Max",
@@ -326,7 +330,8 @@
           "street_usd": 269,
           "segment_position": "Range-topping flagship at ~$269 street (Malaysia dealer, Jul 2026; ~$319 in South Africa) — still well under Cardo/Sena flagship money"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/f1-pro-max-in-store-exclusive"
     },
     {
       "name": "Future 1",
@@ -389,7 +394,8 @@
           "street_usd": 155,
           "segment_position": "~$150 feature-rich mid-tier — undercuts Sena Spider ST1/Cardo Packtalk Neo class by 40-60%"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/future-1-in-store-exclusive"
     },
     {
       "name": "Future 1 EVA R (Evangelion Racing edition)",
@@ -450,7 +456,8 @@
           "street_usd": null,
           "segment_position": "Licensed collector edition (Japan) — premium over standard Future 1; JPY pricing not captured"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/future-1-eva-r-in-store-exclusive"
     },
     {
       "name": "S2",
@@ -514,7 +521,8 @@
           "street_usd": 98.03,
           "segment_position": "'Smart entry-level mesh' — successor to S1/Z1 value slot at ~$85-100 street (Malaysia/Philippines pricing), confirming it slots just under the S1"
         }
-      }
+      },
+      "url": "https://www.asmaxworld.com/products/s2"
     },
     {
       "name": "Accessories & adjacent lines",
@@ -554,7 +562,8 @@
         "Listed under ASMAX Accessories alongside Audio & Mic kits"
       ],
       "release_year": null,
-      "notes": "Audio-only headphone accessory pairing with ASMAX's mesh communicator units, analogous to Cardo's Edgephones. Official product page (asmaxworld.com/products/asmax-f1-ridephones) has limited public spec detail as of 2026-07-09; price and category confirmed, full spec sheet not published."
+      "notes": "Audio-only headphone accessory pairing with ASMAX's mesh communicator units, analogous to Cardo's Edgephones. Official product page (asmaxworld.com/products/asmax-f1-ridephones) has limited public spec detail as of 2026-07-09; price and category confirmed, full spec sheet not published.",
+      "url": "https://www.asmaxworld.com/products/asmax-f1-ridephones"
     }
   ],
   "strengths": [

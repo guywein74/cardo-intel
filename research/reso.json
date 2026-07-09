@@ -75,7 +75,8 @@
           "street_usd": 359,
           "segment_position": "Undercuts Cardo Packtalk Pro (~$459) by ~$100 at US MSRP and by $200+ at SEA street prices (~USD 220-250); priced near Packtalk Edge while carrying a flagship feature set"
         }
-      }
+      },
+      "url": "https://resosport.com/products/resopilot_pro"
     },
     {
       "name": "Reso Pilot Neo",
@@ -141,7 +142,8 @@
           "street_usd": 269,
           "segment_position": "Undercuts Cardo Packtalk Edge (~$400) by ~$130 and Sena 50S while keeping mesh + IP67; sits against Cardo Spirit HD/Freecom tier at SEA street prices (~$180-220)"
         }
-      }
+      },
+      "url": "https://resosport.com/products/resopilot_neo"
     },
     {
       "name": "Reso Pilot Lite",
@@ -260,7 +262,8 @@
           "street_usd": 119,
           "segment_position": "Accessory/commuter headset tier; no direct Cardo equivalent"
         }
-      }
+      },
+      "url": "https://resosport.com/products/headphones"
     }
   ],
   "strengths": [

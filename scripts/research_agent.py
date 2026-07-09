@@ -232,6 +232,9 @@ Every product in "new_or_updated_products" must include a "category" field, one 
 - "communicator" - the default: a standalone Bluetooth/mesh intercom unit, whether helmet-mounted or clamp-on
 Check {details.get('website')}'s full product catalog (not just what's in existing data) for any headphones-category products not yet tracked - this brand may have off-helmet audio accessories or industrial/multi-sport sub-brands worth capturing.
 
+PRODUCT PAGE URL:
+Every product in "new_or_updated_products" should include a "url" field: the direct link to that specific product's page on the brand's own official site (not a retailer, not a category/collection page). If you cannot find or verify the exact product page URL, use null rather than guessing - never fabricate a URL. When updating an existing product for another reason, include its correct "url" too if the existing entry is missing one.
+
 CRITICAL RULES:
 - Do NOT invent products, prices, or customer feedback
 - Do NOT create fake URLs - verify everything is real

@@ -222,7 +222,8 @@ function renderTable(){
     </tr>
     <tr class="expand" style="display:none"><td colspan="11">
       <b>Features:</b> ${(p.features||[]).map(esc).join(" · ")||"—"}<br>
-      ${p.notes?`<span class="muted"><b>Notes:</b> ${esc(p.notes)}</span>`:""}
+      ${p.notes?`<span class="muted"><b>Notes:</b> ${esc(p.notes)}</span><br>`:""}
+      ${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener" class="small">View product page ↗</a>`:""}
     </td></tr>`).join("");
   tb.querySelectorAll("tr.prod").forEach(r=>r.onclick=()=>{const e=r.nextElementSibling;e.style.display=e.style.display==="none"?"":"none"});
 }
@@ -379,7 +380,8 @@ function renderCompare(){
     ["Service reputation",p=>`<span class="small muted">${esc(p.dimensions?.quality?.service_reputation||"—")}</span>`],
     ["Released",p=>p.release_year??"—"],
     ["Key features",p=>`<ul class="tight small" style="text-align:left">${(p.features||[]).slice(0,8).map(f=>`<li>${esc(f.length>90?f.slice(0,90)+"…":f)}</li>`).join("")}</ul>`],
-    ["Notes",p=>`<span class="small muted">${esc((p.notes||"").slice(0,220))}</span>`]
+    ["Notes",p=>`<span class="small muted">${esc((p.notes||"").slice(0,220))}</span>`],
+    ["Product page",p=>p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener" class="small">View ↗</a>`:`<span class="muted">—</span>`]
   ];
   wrap.innerHTML=`<table><thead><tr><th style="min-width:130px">Spec</th>${models.map(p=>`<th style="color:${BCOLOR[p.brand]};min-width:170px">${esc(p.name)}</th>`).join("")}</tr></thead>
   <tbody>${rows.map(([label,fn])=>`<tr><td><b class="small">${label}</b></td>${models.map(p=>`<td>${fn(p)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;

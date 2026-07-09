@@ -73,7 +73,8 @@
           "street_usd": 459,
           "segment_position": "Undercuts Cardo's flagship tier while adding Bose audio + lifetime warranty"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/60s-evo"
     },
     {
       "name": "60S",
@@ -140,7 +141,8 @@
           "street_usd": 351,
           "segment_position": "Flagship priced below Cardo Packtalk Pro; now discounted ~20% post-EVO"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/60s-evo"
     },
     {
       "name": "60X",
@@ -207,7 +209,8 @@
           "street_usd": 459,
           "segment_position": "Replaces/sits alongside 60S EVO at the same price point, adding joystick controls and wireless charging"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/60x"
     },
     {
       "name": "50S",
@@ -273,7 +276,8 @@
           "street_usd": 341,
           "segment_position": "Mid-tier vs Cardo Packtalk Edge/Neo; aging and expected to be discounted as replacements land"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/50s-10"
     },
     {
       "name": "50R",
@@ -336,7 +340,8 @@
           "street_usd": 300,
           "segment_position": "Slim mid-tier mesh; sits against Cardo Packtalk Neo"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/50r-02"
     },
     {
       "name": "Spider RT1 / ST1",
@@ -400,7 +405,8 @@
           "street_usd": 199,
           "segment_position": "Budget mesh play; undercuts Cardo Packtalk Neo, competes with Packtalk Outdoor-type offers"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/spider-rt1-01"
     },
     {
       "name": "Spider X Slim",
@@ -466,7 +472,8 @@
           "street_usd": 299,
           "segment_position": "Mesh-only mid-tier undercutting the 60-series while adding Bose audio and lifetime warranty; successor to Spider RT1/ST1"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/spider-x-slim"
     },
     {
       "name": "5S",
@@ -532,7 +539,8 @@
           "street_usd": 135,
           "segment_position": "Entry tier vs Cardo Freecom 2X; currently discounted 20%"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/5s-10"
     },
     {
       "name": "5R",
@@ -595,7 +603,8 @@
           "street_usd": 139,
           "segment_position": "Entry tier vs Cardo Freecom 2X / Spirit"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/5r-01"
     },
     {
       "name": "5R LITE",
@@ -658,7 +667,8 @@
           "street_usd": 99,
           "segment_position": "Price-floor product; undercuts Cardo Spirit tier and guards the entry point"
         }
-      }
+      },
+      "url": "https://store-us.sena.com/products/5r-lite"
     },
     {
       "name": "Vortex",
@@ -744,7 +754,8 @@
         "22.5 g weight"
       ],
       "release_year": 2026,
-      "notes": "Launched June 2026 at $129 (confirmed store-us.sena.com, SKU MESHON-01). Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter."
+      "notes": "Launched June 2026 at $129 (confirmed store-us.sena.com, SKU MESHON-01). Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter.",
+      "url": "https://store-us.sena.com/products/meshon"
     },
     {
       "name": "Specter (modular smart helmet)",
@@ -765,7 +776,8 @@
         "Pinlock-ready shield"
       ],
       "release_year": 2026,
-      "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price."
+      "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price.",
+      "url": "https://store-us.sena.com/products/specter"
     },
     {
       "name": "Outlander (dual-sport smart helmet)",
@@ -785,7 +797,8 @@
         "Semi-oval interior, moisture-wicking liner"
       ],
       "release_year": 2026,
-      "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) - $200 cheaper."
+      "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) - $200 cheaper.",
+      "url": "https://store-us.sena.com/products/outlander"
     },
     {
       "name": "Phantom (base)",
@@ -807,7 +820,8 @@
         "Weight 1690g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing."
+      "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing.",
+      "url": "https://store-us.sena.com/products/phantom"
     },
     {
       "name": "Outstar 2",
@@ -895,7 +909,8 @@
         "$599 bundle with extras"
       ],
       "release_year": 2023,
-      "notes": "US store price $479 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $479, live store-us.sena.com (handle: impulse-1) shows $599 - prior figure was stale."
+      "notes": "US store price $479 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $479, live store-us.sena.com (handle: impulse-1) shows $599 - prior figure was stale.",
+      "url": "https://store-us.sena.com/products/impulse-1"
     },
     {
       "name": "Outrush 2 (modular smart helmet)",
@@ -914,7 +929,8 @@
         "Mesh intercom at mid price"
       ],
       "release_year": 2025,
-      "notes": "US store price $379 (Jul 2026)."
+      "notes": "US store price $379 (Jul 2026).",
+      "url": "https://store-us.sena.com/products/outrush-2"
     },
     {
       "name": "Stryker (full-face smart helmet)",
@@ -933,7 +949,8 @@
         "Harman Kardon audio"
       ],
       "release_year": 2023,
-      "notes": "US store price $324 (Jul 2026) - heavily discounted from launch."
+      "notes": "US store price $324 (Jul 2026) - heavily discounted from launch.",
+      "url": "https://store-us.sena.com/products/stryker-1"
     },
     {
       "name": "Outrush R (modular smart helmet)",
@@ -951,7 +968,8 @@
         "Budget modular with built-in Bluetooth intercom"
       ],
       "release_year": 2021,
-      "notes": "US store price $287 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $287, live store-us.sena.com (handle: outrushr) shows $359 - prior figure was stale."
+      "notes": "US store price $287 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $287, live store-us.sena.com (handle: outrushr) shows $359 - prior figure was stale.",
+      "url": "https://store-us.sena.com/products/outrushr"
     },
     {
       "name": "Cavalry 2 (half smart helmet)",
@@ -970,7 +988,8 @@
         "Cruiser-oriented"
       ],
       "release_year": 2024,
-      "notes": "US store price $279 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $279, live store-us.sena.com (handle: cavalry2) shows $349 - prior figure was stale."
+      "notes": "US store price $279 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $279, live store-us.sena.com (handle: cavalry2) shows $349 - prior figure was stale.",
+      "url": "https://store-us.sena.com/products/cavalry2"
     },
     {
       "name": "Phantom XB",
@@ -993,7 +1012,8 @@
         "Weight 1720g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Phantom Family bass-focused variant; store handle 'phantom-xb-full-face-motorcycle-helmet-with-integrated-communiation-system-featuring-acoustic-audio-chambers', $599 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in notes text, not tracked as its own product - added per site audit."
+      "notes": "Phantom Family bass-focused variant; store handle 'phantom-xb-full-face-motorcycle-helmet-with-integrated-communiation-system-featuring-acoustic-audio-chambers', $599 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in notes text, not tracked as its own product - added per site audit.",
+      "url": "https://store-us.sena.com/products/phantom-xb-full-face-motorcycle-helmet-with-integrated-communiation-system-featuring-acoustic-audio-chambers"
     },
     {
       "name": "Phantom ANC",
@@ -1016,7 +1036,8 @@
         "Weight 1720g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing."
+      "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing.",
+      "url": "https://store-us.sena.com/products/phantom-anc"
     },
     {
       "name": "Outforce (full-face smart helmet)",
@@ -1038,7 +1059,8 @@
         "Weight 1600g (M, DOT)"
       ],
       "release_year": 2023,
-      "notes": "Entry-tier Bluetooth-only smart helmet - Sena's cheapest full-face comms helmet, well below the Mesh/Wave-equipped Phantom/Specter/Outlander line. $199 confirmed via store-us.sena.com (handle: outforce), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit."
+      "notes": "Entry-tier Bluetooth-only smart helmet - Sena's cheapest full-face comms helmet, well below the Mesh/Wave-equipped Phantom/Specter/Outlander line. $199 confirmed via store-us.sena.com (handle: outforce), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit.",
+      "url": "https://store-us.sena.com/products/outforce"
     },
     {
       "name": "Surge (open-face smart helmet)",
@@ -1061,7 +1083,8 @@
         "Weight 1100g ±50g (L size)"
       ],
       "release_year": 2025,
-      "notes": "Open-face Mesh-equipped helmet, positioned as the spiritual successor to Sena's original Savage. $419 confirmed via store-us.sena.com (handle: surge-3), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit."
+      "notes": "Open-face Mesh-equipped helmet, positioned as the spiritual successor to Sena's original Savage. $419 confirmed via store-us.sena.com (handle: surge-3), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit.",
+      "url": "https://store-us.sena.com/products/surge-3"
     },
     {
       "name": "Tufftalk",
@@ -1084,7 +1107,8 @@
         "Over-the-Head and Hard Hat Mount configurations"
       ],
       "release_year": null,
-      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. 750mAh battery, 3h charge time."
+      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. 750mAh battery, 3h charge time.",
+      "url": "https://senaindustrial.com/products/tufftalk"
     },
     {
       "name": "Tufftalk Lite",
@@ -1106,7 +1130,8 @@
         "750mAh Lithium Polymer battery, 3h charge time"
       ],
       "release_year": 2018,
-      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company."
+      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company.",
+      "url": "https://senaindustrial.com/products/tufftalk-lite"
     },
     {
       "name": "Tufftalk M",
@@ -1129,7 +1154,8 @@
         "3h charge, 20-min quick charge for 3h use"
       ],
       "release_year": null,
-      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. Mesh talk time 8h vs 13h Bluetooth."
+      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. Mesh talk time 8h vs 13h Bluetooth.",
+      "url": "https://senaindustrial.com/products/tufftalk-m"
     },
     {
       "name": "CAST",
@@ -1152,7 +1178,8 @@
         "Mesh talk time 9h vs 12h Bluetooth; 20-min quick charge for 3h use"
       ],
       "release_year": null,
-      "notes": "Highest-tier product in Sena Industrial's hearing-protection headset collection (alongside Tufftalk/Tufftalk Lite/Tufftalk M), per https://senaindustrial.com/collections/communication-headsets-with-hearing-protection. Not marketed as a motorcycle product."
+      "notes": "Highest-tier product in Sena Industrial's hearing-protection headset collection (alongside Tufftalk/Tufftalk Lite/Tufftalk M), per https://senaindustrial.com/collections/communication-headsets-with-hearing-protection. Not marketed as a motorcycle product.",
+      "url": "https://senaindustrial.com/products/cast"
     }
   ],
   "strengths": [
