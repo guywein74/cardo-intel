@@ -112,7 +112,7 @@ sections[0].innerHTML = `
   <div class="card" style="margin-bottom:16px">
     <h2 style="margin-top:0">Brand overview</h2>
     <div class="grid g4">
-    ${BRANDS.map(b=>`<div><div style="font-weight:700;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}</div>
+    ${BRANDS.map(b=>`<div><div style="font-weight:700;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}${b.website?` <a href="${esc(b.website)}" target="_blank" rel="noopener" class="small" style="font-weight:400">↗</a>`:""}</div>
       <div class="small muted">${esc(b.company.hq.split(";")[0].split("(")[0])} · Founded ${esc((b.company.founded||"").match(/\d{4}/)?.[0]||"")}</div>
       <div class="small" style="margin-top:4px">${esc(b.company.positioning.split(";")[0].slice(0,140))}…</div>
       <div class="kv" style="padding:4px 0;border:none;font-size:12px"><span>Products</span><b>${b.products.length}</b></div>
@@ -169,7 +169,7 @@ function renderRecentMoves(){
     <div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
       <span class="small muted" style="width:76px;flex:none;font-variant-numeric:tabular-nums">${esc(n.date||"—")}</span>
       <span class="brandtag small" style="color:${BCOLOR[n.brand]};width:56px;flex:none">${esc(n.brand)}</span>
-      <span class="small" style="flex:1;min-width:260px">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline)}</a>`:esc(n.headline)}</span>
+      <span class="small" style="flex:1;min-width:260px">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline)}</a> <a href="${esc(n.url)}" target="_blank" rel="noopener">↗</a>`:esc(n.headline)}</span>
     </div>`).join("")||`<div style="padding:24px" class="muted">No moves match the filter.</div>`;
 }
 sections[0].querySelectorAll("#rmChips .chip[data-rb]").forEach(c=>c.onclick=()=>{const b=c.dataset.rb;c.classList.toggle("on");c.classList.contains("on")?rmBrands.add(b):rmBrands.delete(b);renderRecentMoves()});
@@ -519,10 +519,10 @@ sections[6].innerHTML=`
     return `
     <div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3>
       <div style="font-size:24px;font-weight:800">${reach?num(reach):"n/a"}<span class="small muted" style="font-weight:400"> tracked followers</span></div>
-      <div class="kv"><span>Instagram</span><b>${num(s.instagram?.followers)}</b></div>
-      <div class="kv"><span>Facebook</span><b>${num(s.facebook?.followers)}</b></div>
-      <div class="kv"><span>TikTok</span><b>${num(s.tiktok?.followers)}</b></div>
-      <div class="kv"><span>YouTube</span><b>${num(s.youtube?.subscribers)}</b></div>
+      <div class="kv"><span>Instagram${s.instagram?.url?` <a href="${esc(s.instagram.url)}" target="_blank" rel="noopener">↗</a>`:""}</span><b>${num(s.instagram?.followers)}</b></div>
+      <div class="kv"><span>Facebook${s.facebook?.url?` <a href="${esc(s.facebook.url)}" target="_blank" rel="noopener">↗</a>`:""}</span><b>${num(s.facebook?.followers)}</b></div>
+      <div class="kv"><span>TikTok${s.tiktok?.url?` <a href="${esc(s.tiktok.url)}" target="_blank" rel="noopener">↗</a>`:""}</span><b>${num(s.tiktok?.followers)}</b></div>
+      <div class="kv"><span>YouTube${s.youtube?.url?` <a href="${esc(s.youtube.url)}" target="_blank" rel="noopener">↗</a>`:""}</span><b>${num(s.youtube?.subscribers)}</b></div>
       <div class="kv"><span>Press reviews tracked</span><b>${(p.reviews||[]).length}</b></div>
       <div class="kv"><span>Awards</span><b>${(p.awards||[]).length}</b></div>
       <div class="small muted" style="margin-top:8px"><b>Press tone:</b> ${esc((p.overall_tone||"—").split(/[.;—]/)[0].slice(0,90))}</div>
@@ -587,8 +587,9 @@ sections[7].innerHTML=`
         <td class="small" style="padding:5px 0;border:none;width:40%;word-break:break-word">${esc(p.product||"—")}</td>
         <td class="small price" style="padding:5px 0;border:none;text-align:right;width:28%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap${fv&&fv.length>short.length?";cursor:help":""}"${fv&&fv.length>short.length?` title="${esc(fv)}"`:""}>${fv?"v"+esc(short):"—"}</td>
         <td style="padding:5px 0 5px 8px;border:none;text-align:right;white-space:nowrap;width:32%">
-          ${p.release_notes_url?`<a href="${esc(p.release_notes_url)}" target="_blank" class="small">notes</a>`:""}
-          ${p.user_manual_url?`${p.release_notes_url?" · ":""}<a href="${esc(p.user_manual_url)}" target="_blank" class="small">manual</a>`:""}
+          ${[p.release_notes_url?`<a href="${esc(p.release_notes_url)}" target="_blank" class="small">notes ↗</a>`:null,
+             p.user_manual_url?`<a href="${esc(p.user_manual_url)}" target="_blank" class="small">manual ↗</a>`:null,
+             p.support_url?`<a href="${esc(p.support_url)}" target="_blank" class="small">support ↗</a>`:null].filter(Boolean).join(" · ")}
         </td>
       </tr>`}).join("")}
       </tbody></table>`:(cs.firmware_baseline?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a"><b>Firmware baseline:</b> ${esc(cs.firmware_baseline)}</div>`:"")}
