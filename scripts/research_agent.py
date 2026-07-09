@@ -85,7 +85,7 @@ def run_research_agent(brand: str) -> dict:
 
 TASK: Update the research JSON for {brand} with the latest information gathered today.
 
-EXISTING DATA: {json.dumps(existing_data, indent=2)[:2000]}... (truncated)
+EXISTING DATA: {json.dumps(existing_data, indent=2)}
 
 TODAY'S DATE: {datetime.now().strftime('%Y-%m-%d')}
 

@@ -37,15 +37,23 @@ def run_product_expert(all_research: dict) -> dict:
     """
 
     # Prepare research summary for Claude (truncated for token limits)
-    research_summary = {
-        brand: {
-            "products_count": len(all_research.get(brand, {}).get("products", [])),
-            "recent_news_count": len(all_research.get(brand, {}).get("recent_news", [])),
-            "press_reviews_count": len(all_research.get(brand, {}).get("press_coverage", {}).get("reviews", [])),
-            "customer_feedback_count": len(all_research.get(brand, {}).get("customer_feedback", [])),
-            "latest_news": all_research.get(brand, {}).get("recent_news", [])[:3],
-            "latest_feedback": all_research.get(brand, {}).get("customer_feedback", [])[:3],
+    def brand_summary(brand: str) -> dict:
+        brand_data = all_research.get(brand) or {}
+        products = brand_data.get("products") or []
+        recent_news = brand_data.get("recent_news") or []
+        press_reviews = (brand_data.get("press_coverage") or {}).get("reviews") or []
+        customer_feedback = brand_data.get("customer_feedback") or []
+        return {
+            "products_count": len(products),
+            "recent_news_count": len(recent_news),
+            "press_reviews_count": len(press_reviews),
+            "customer_feedback_count": len(customer_feedback),
+            "latest_news": recent_news[:3],
+            "latest_feedback": customer_feedback[:3],
         }
+
+    research_summary = {
+        brand: brand_summary(brand)
         for brand in ["cardo", "sena", "asmax", "reso"]
     }
 
