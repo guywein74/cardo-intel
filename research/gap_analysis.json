@@ -41,8 +41,8 @@
         {
           "brand": "Sena",
           "product": "50S / Spider RT1",
-          "price": "$341 / $199",
-          "note": "Both are MESH units; Spider brings 24-rider mesh at $199"
+          "price": "$262 / $199",
+          "note": "Both are MESH units; 50S street price corrected 2026-07-09 to $262 (Amazon storefront, down from $341); Spider brings 24-rider mesh at $199"
         },
         {
           "brand": "Reso",
@@ -63,7 +63,7 @@
           "note": "Launched June 2026; mesh-only, Sound by Bose, lifetime warranty \u2014 sits squarely in the gap Cardo's Bluetooth-only Freecom can't fill"
         }
       ],
-      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while every competitor sells mesh. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95. Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
+      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while every competitor sells mesh. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now nearly $100 above Sena's 50S at its corrected $262 street price. Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
       "severity": "critical",
       "insight": "This is the single biggest structural hole in the lineup: a rider with a $250 budget who wants mesh cannot buy Cardo at all."
     },
@@ -211,7 +211,7 @@
     },
     {
       "title": "Distribution & OEM",
-      "detail": "80+ countries, Cycle Gear free-install, Shoei/HJC/KTM co-brands (now including dedicated Packtalk-S/4X-S units built for Shoei's Gen 3 helmets, launched April 2026) \u2014 challengers have almost no Western retail. Watch: Reso landed its first major developed-market distribution deal outside DTC/SEA in June 2026 (Daytona, a major Japanese parts wholesaler, now sells the Pilot Pro/Neo/Lite lineup in Japan) \u2014 an early crack worth monitoring, not yet a Western threat."
+      "detail": "80+ countries, Cycle Gear free-install, Shoei/HJC/KTM/Schuberth co-brands (Packtalk-S/4X-S for Shoei's Gen 3 helmets launched April 2026; HJC 4X $299.95/HJC Spirit $149.95 helmet-integrated units launched spring 2026, extending the OEM-integration playbook to a second major helmet brand; Schuberth SC EDGE ANC, previewed EICMA 2025, adds the first Cardo comm system with integrated Active Noise Cancelling, exclusive to the Schuberth C5 ANC helmet) \u2014 challengers have almost no Western retail or OEM helmet-integration deals. Watch: Reso landed its first major developed-market distribution deal outside DTC/SEA in June 2026 (Daytona, a major Japanese parts wholesaler, now sells the Pilot Pro/Neo/Lite lineup in Japan) \u2014 an early crack worth monitoring, not yet a Western threat."
     },
     {
       "title": "Smart-helmet firsts",

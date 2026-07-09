@@ -167,7 +167,7 @@
         "Operating range -20C to 55C"
       ],
       "release_year": 2026,
-      "notes": "Officially launched July 2, 2026 (previewed at EICMA Nov 2025 and AIMExpo Jan 2026). US store lists $879 for the dual pack (confirmed on store-us.sena.com, though listed out of stock at check time); single-pack price inferred at $459 from matching UK/EU ratio (GBP 359 single/669 dual, EUR 429/799) and parity with the 60S EVO's US single/dual pricing - treat single figure as high-confidence estimate pending direct confirmation. Bluetooth-only talk time 29h / Mesh 19h per sena.com spec page. Weight 58g.",
+      "notes": "Officially launched July 2, 2026 (previewed at EICMA Nov 2025 and AIMExpo Jan 2026). US store lists $879 for the dual pack and $459 for the single pack - both now directly confirmed via store-us.sena.com/products.json as of 2026-07-09 (single listed out of stock at check time; dual in stock), resolving the prior estimate. Bluetooth-only talk time 29h / Mesh 19h per sena.com spec page. Weight 58g.",
       "dimensions": {
         "form_factor": {
           "weight_g": 58,
@@ -216,7 +216,7 @@
       "name": "50S",
       "tier": "mid",
       "msrp_usd": 379,
-      "street_price_usd": 341,
+      "street_price_usd": 262,
       "intercom_tech": "Mesh 2.0 + Bluetooth 5.0",
       "range_km": 2,
       "max_riders": 24,
@@ -234,7 +234,7 @@
         "Wave intercom support added via app"
       ],
       "release_year": 2020,
-      "notes": "Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands.",
+      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $341 (Sena's own store discount); Amazon's official Sena storefront now shows a deeper $262.00 deal price against the $379 MSRP - updated to reflect the lower live price per Amazon-storefront check. Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands.",
       "dimensions": {
         "form_factor": {
           "weight_g": 64,
@@ -273,7 +273,7 @@
         },
         "price": {
           "msrp_usd": 379,
-          "street_usd": 341,
+          "street_usd": 262,
           "segment_position": "Mid-tier vs Cardo Packtalk Edge/Neo; aging and expected to be discounted as replacements land"
         }
       },
@@ -282,8 +282,8 @@
     {
       "name": "50R",
       "tier": "mid",
-      "msrp_usd": null,
-      "street_price_usd": 300,
+      "msrp_usd": 375,
+      "street_price_usd": 337.5,
       "intercom_tech": "Mesh 2.0 + Bluetooth 5.0",
       "range_km": 2,
       "max_riders": 24,
@@ -298,7 +298,7 @@
         "OTA updates"
       ],
       "release_year": 2020,
-      "notes": "Sources cite RRP around EUR 300 / $330; exact current US MSRP not confirmed. Talk time ~13h Bluetooth / ~11h Mesh.",
+      "notes": "PRICE CORRECTED 2026-07-09: msrp_usd was null (\"sources cite RRP around EUR 300/$330, exact current US MSRP not confirmed\") - direct store-us.sena.com/products.json crawl confirms single-pack MSRP is $375 (dual pack $679); street_price_usd updated from prior $300 estimate to $337.50, the current RevZilla discounted price (was $375). Talk time ~13h Bluetooth / ~11h Mesh.",
       "dimensions": {
         "form_factor": {
           "weight_g": 65,
@@ -336,8 +336,8 @@
           "warranty_years": 3
         },
         "price": {
-          "msrp_usd": null,
-          "street_usd": 300,
+          "msrp_usd": 375,
+          "street_usd": 337.5,
           "segment_position": "Slim mid-tier mesh; sits against Cardo Packtalk Neo"
         }
       },
@@ -546,7 +546,7 @@
       "name": "5R",
       "tier": "entry",
       "msrp_usd": 139,
-      "street_price_usd": 139,
+      "street_price_usd": 125.1,
       "intercom_tech": "Bluetooth 5.1 (2-way HD intercom per official spec; Ultimate Motorcycling cites 4-rider max pairing)",
       "range_km": 0.7,
       "max_riders": 2,
@@ -561,7 +561,7 @@
         "2-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Official sena.com spec: 700 m range, 2 riders, 36h talk time, 2.5h charge. Ultimate Motorcycling's Dec 2024 review cited 16h talk and a 4-rider max - discrepancy flagged in md. EUR 149.95.",
+      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $139 (= MSRP, no discount tracked); RevZilla now lists a 10% discount at $125.10 (was $139.00), confirmed live - updated to reflect current street price. Official sena.com spec: 700 m range, 2 riders, 36h talk time, 2.5h charge. Ultimate Motorcycling's Dec 2024 review cited 16h talk and a 4-rider max - discrepancy flagged in md. EUR 149.95.",
       "dimensions": {
         "form_factor": {
           "weight_g": 42,
@@ -600,7 +600,7 @@
         },
         "price": {
           "msrp_usd": 139,
-          "street_usd": 139,
+          "street_usd": 125.1,
           "segment_position": "Entry tier vs Cardo Freecom 2X / Spirit"
         }
       },
@@ -1280,6 +1280,12 @@
   ],
   "recent_news": [
     {
+      "date": "2026-07-09",
+      "headline": "Daily data audit via store-us.sena.com/products.json confirmed all 10 smart helmets on sena.com's Smart Helmet category page are already tracked (no missing models this run); resolved the 60X single-pack price from a high-confidence estimate to a directly confirmed $459; corrected stale pricing on 50R (msrp_usd was null, now $375, street $337.50 per RevZilla discount), 50S (street price updated to $262 per live Amazon storefront deal, down from $341 Sena-store price) and 5R (street price updated to $125.10 per RevZilla 10% discount, down from full $139 MSRP). RevZilla's cross-brand comms page currently lists Sena(70) SKUs, recorded here as a baseline for future SKU-count-drift checks.",
+      "source": "Internal data audit",
+      "url": "https://store-us.sena.com/products.json?limit=250"
+    },
+    {
       "date": "2026-07-08",
       "headline": "Data audit via direct sena.com/store-us.sena.com crawl found 2 fully missing helmets (Outforce $199, Surge $419) and stale pricing on 3 existing helmets (Impulse, Outrush R, Cavalry 2); Phantom family split from one generic entry into its 3 real purchasable SKUs (Phantom, Phantom XB, Phantom ANC)",
       "source": "Internal data audit",
@@ -1553,8 +1559,8 @@
       {
         "date": "2026-07-05",
         "platform": "Instagram",
-        "summary": "'NOW AVAILABLE: The All-New SENA 60X. Go further.' - official US availability announcement post highlighting Mesh Intercom 3.0, Wave Intercom and Sound by Bose",
-        "url": "https://www.instagram.com/senabluetooth/"
+        "summary": "'NOW AVAILABLE: The All-New SENA 60X. Go further. Stay connected...' - official US availability announcement post highlighting noise-canceling mic, customizable buttons/joystick and Limited Lifetime Warranty. URL corrected 2026-07-09: real permalink located via search (previously only the generic profile URL was available)",
+        "url": "https://www.instagram.com/p/DaDvFoZko09/"
       },
       {
         "date": "2026-07-08",
@@ -2000,6 +2006,18 @@
       ],
       "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outstar-2-v1-0-2/",
       "source": "Sena support notices"
+    },
+    {
+      "date": "2026-06-21",
+      "product": "Wave Intercom app",
+      "type": "app",
+      "version": "1.0.23",
+      "title": "Wave Intercom app 1.0.23 - routine stability release",
+      "changes": [
+        "Bug fixes and performance improvements"
+      ],
+      "url": "https://apps.apple.com/us/app/wave-intercom/id6670228363",
+      "source": "Apple App Store version history"
     }
   ],
   "current_software": {
@@ -2229,7 +2247,17 @@
     "https://www.youtube.com/watch?v=kWJH4PQ2O04",
     "https://www.youtube.com/@senatechnologies",
     "https://www.reddit.com/r/motorcyclegear/comments/1potyi6/cardo_update_sena_and_ece_r2206/",
-    "https://www.revzilla.com/motorcycle/sena-vortex-bluetooth-communication-system"
+    "https://www.revzilla.com/motorcycle/sena-vortex-bluetooth-communication-system",
+    "https://www.revzilla.com/motorcycle-bluetooth-communications",
+    "https://www.revzilla.com/motorcycle/sena-50s-harman-kardon-mesh-intercom",
+    "https://www.revzilla.com/motorcycle/sena-50r-harman-kardon-mesh-intercom",
+    "https://www.revzilla.com/motorcycle/sena-5r-bluetooth-headset",
+    "https://www.revzilla.com/motorcycle/sena-spider-x-slim-mesh-communication-system",
+    "https://www.amazon.com/stores/Sena/page/73A3C1E2-CE82-42B5-A3F9-1769FD10004B",
+    "https://www.instagram.com/p/DaDvFoZko09/",
+    "https://apps.apple.com/us/app/wave-intercom/id6670228363",
+    "https://www.sena.com/en-us/product/vortex/",
+    "https://www.sena.com/en-us/stories/news/"
   ],
   "customer_feedback": [
     {
@@ -2371,6 +2399,16 @@
       "topic": "Swapping between helmets",
       "summary": "Poster is buying a second helmet and asks how others manage swapping their 60S intercom between helmets.",
       "url": "https://www.facebook.com/groups/860066485997389/permalink/1409582741045758/"
+    },
+    {
+      "date": "2026-07-09",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60X",
+      "sentiment": "neutral",
+      "topic": "Comparison shopping: 60S EVO vs 60X",
+      "summary": "A rider switching from Cardo back to Sena for a new Gold Wing is undecided between the 'proven' 60S EVO or waiting for the 60X, and asks for early impressions from 60X owners.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1411397750864257/"
     }
   ]
 }

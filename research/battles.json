@@ -68,7 +68,7 @@
         {
           "brand": "Reso",
           "model": "Reso Pilot Lite",
-          "price": "~$90 (SEA only)",
+          "price": "~$118 (SEA only)",
           "blurb": "Bluetooth entry model sold via SEA dealers; specs opaque, not on the US store.",
           "cardo_advantage": [
             "Actually available in Western markets",
@@ -352,7 +352,7 @@
               "$179",
               "$139",
               "$89",
-              "$90"
+              "$118"
             ]
           }
         ]
@@ -388,7 +388,7 @@
         {
           "brand": "Sena",
           "model": "5R",
-          "price": "$139",
+          "price": "$139 → $125.10 street",
           "blurb": "Slim 3-button 4-rider Bluetooth unit, reviewed as strong value (Ultimate Motorcycling).",
           "cardo_advantage": [
             "HD audio quality",
@@ -397,7 +397,7 @@
           "competitor_advantage": [
             "4-rider intercom vs 2",
             "16h talk time",
-            "$40 cheaper"
+            "$55 cheaper at street"
           ]
         },
         {
@@ -691,7 +691,7 @@
             "values": [
               "$179",
               "$135",
-              "$139",
+              "$125",
               "$89"
             ]
           }
@@ -998,17 +998,18 @@
         "model": "Freecom 4x",
         "price": "$314.95 → $270 street"
       },
-      "exec_summary": "The 4-rider Freecom 4x holds the 'premium Bluetooth' niche on JBL sound and polish, but its price now overlaps Sena's mesh-capable 50R (~$300) and doubles ASMAX's F1 Pro (~$205, mesh + Bongiovi audio). The 2025 MSRP hike ($269.95 → $314.95) made this segment position visibly worse.",
+      "exec_summary": "The 4-rider Freecom 4x holds the 'premium Bluetooth' niche on JBL sound and polish; its $270 street price now actually undercuts Sena's mesh-capable 50R (confirmed $375 MSRP / $337.50 street), though it still doubles ASMAX's F1 Pro (~$205, mesh + Bongiovi audio). The 2025 MSRP hike ($269.95 → $314.95) made this segment position visibly worse even as the 50R comparison eases.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "50R",
-          "price": "~$300",
-          "blurb": "Low-profile Mesh 2.0 unit with Harman Kardon audio — mesh capability at Freecom 4x money.",
+          "price": "$375 → $337.50 street",
+          "blurb": "Low-profile Mesh 2.0 unit with Harman Kardon audio — now confirmed pricier than Freecom 4x, but still brings mesh where Cardo doesn't at this tier.",
           "cardo_advantage": [
             "Better waterproofing story",
             "Live Intercom UX simplicity",
-            "JBL tuning preference in reviews"
+            "JBL tuning preference in reviews",
+            "$67 cheaper at street"
           ],
           "competitor_advantage": [
             "Mesh 2.0 24 riders vs 4-rider BT",
@@ -1266,14 +1267,14 @@
           {
             "dimension": "Price",
             "scores": [
-              "bad",
+              "soso",
               "soso",
               "good"
             ],
-            "note": "2025 hike put 4x above a mesh-capable Sena",
+            "note": "50R confirmed $337.50 street (was ~$300 estimate) - Freecom 4x actually cheaper now; ASMAX F1 Pro still undercuts both",
             "values": [
               "$270",
-              "$300",
+              "$337",
               "$171"
             ]
           }
@@ -1289,12 +1290,12 @@
         "model": "Packtalk Neo",
         "price": "$359.95"
       },
-      "exec_summary": "Neo delivers full DMC Gen2 (31 riders post Mesh-Boost) at $80 under the Edge — but Reso's Pilot Neo undercuts it by ~$90 with IP67, 24h battery and 3-yr warranty, and Sena's 50S adds Harman Kardon at $341. Neo wins on mesh reliability and ecosystem; it loses the pure value math. This is the deck's 2024 'Neo vs Pilot Pro' story repeating one tier down. Sena's June 2026 Spider X Slim adds a fifth mid-mesh contender: Bose audio and a lifetime warranty at $299, undercutting the Neo by $61 but giving up cross-brand bridging and battery life.",
+      "exec_summary": "Neo delivers full DMC Gen2 (31 riders post Mesh-Boost) at $80 under the Edge — but Reso's Pilot Neo undercuts it by ~$90 with IP67, 24h battery and 3-yr warranty, and Sena's 50S now drops to $262 street (Amazon storefront), nearly $100 under the Neo. Neo wins on mesh reliability and ecosystem; it loses the pure value math even more decisively than before. This is the deck's 2024 'Neo vs Pilot Pro' story repeating one tier down. Sena's June 2026 Spider X Slim adds a fifth mid-mesh contender: Bose audio and a lifetime warranty at $299, undercutting the Neo by $61 but giving up cross-brand bridging and battery life.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "50S",
-          "price": "$379 → $341 street",
+          "price": "$379 → $262 street",
           "blurb": "Aging Mesh 2.0 mid-tier with Harman Kardon speakers and jog dial; firmware v2.7 drew community backlash; refresh expected as 2026 range lands.",
           "cardo_advantage": [
             "DMC reliability + 31 riders vs 24",
@@ -1304,7 +1305,7 @@
           "competitor_advantage": [
             "Harman Kardon audio brand",
             "Jog dial preferred by some riders",
-            "Street price $19 lower"
+            "Street price $97.95 lower (Amazon storefront deal)"
           ]
         },
         {
@@ -1664,15 +1665,15 @@
             "dimension": "Price",
             "scores": [
               "bad",
-              "soso",
+              "good",
               "good",
               "soso",
               "soso"
             ],
-            "note": "Neo most expensive mid-mesh; Reso $269 defines segment value",
+            "note": "Neo most expensive mid-mesh; 50S street price corrected to $262 (Amazon storefront), now undercutting Reso's $269",
             "values": [
               "$359",
-              "$341",
+              "$262",
               "$269",
               "$171",
               "$299"

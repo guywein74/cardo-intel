@@ -543,7 +543,7 @@
         "MAXRUNON 2X and D10 intercoms (outdoor sub-brand)"
       ],
       "release_year": null,
-      "notes": "Smart air pumps and audio kits round out the 'Smart Riding IoT Ecosystem'; MAXRUNON targets broader outdoor users under the MAXRUNOS app."
+      "notes": "Smart air pumps and audio kits round out the 'Smart Riding IoT Ecosystem'; MAXRUNON targets broader outdoor users under the MAXRUNOS app. MAXRUNON range confirmed Jul 2026 to include D9 ($45.95, 2-rider intercom, ~1000m range) alongside D10 (4-rider, ~1000-1600m) and 2X (2-rider, IPX5) -- all still motorcycle-focused, not a distinct outdoor-activity (hiking/ski) product line."
     },
     {
       "name": "ASMAX F1 RidePhones",
@@ -562,7 +562,7 @@
         "Listed under ASMAX Accessories alongside Audio & Mic kits"
       ],
       "release_year": null,
-      "notes": "Audio-only headphone accessory pairing with ASMAX's mesh communicator units, analogous to Cardo's Edgephones. Official product page (asmaxworld.com/products/asmax-f1-ridephones) has limited public spec detail as of 2026-07-09; price and category confirmed, full spec sheet not published.",
+      "notes": "Audio-only headphone accessory pairing with ASMAX's mesh communicator units, analogous to Cardo's Edgephones. Official product page (asmaxworld.com/products/asmax-f1-ridephones) has limited public spec detail; price confirmed at $99.99 (no sale price) but listing shows 'Sold out' as of 2026-07-09; full spec sheet still not published. No RevZilla listing found for this or any ASMAX product (checked https://www.revzilla.com/motorcycle-bluetooth-communications, Jul 2026 -- ASMAX still absent).",
       "url": "https://www.asmaxworld.com/products/asmax-f1-ridephones"
     }
   ],
@@ -586,6 +586,12 @@
     "No disclosed funding/financial backing; Shenzhen-based supply chain exposed to US tariff risk"
   ],
   "recent_news": [
+    {
+      "date": "2026-07-07",
+      "headline": "chris_asmax (US/wholesale-focused ASMAX rep Instagram account) posts a new intercom-branded reel captioned 'Javis are you there? #asmax #asmaxworld #motorcycle #riding #motorcycleintercom' (31 likes, 2 comments as of Jul 2026)",
+      "source": "Instagram (@chris_asmax)",
+      "url": "https://www.instagram.com/chris_asmax/"
+    },
     {
       "date": "2026-07-02",
       "headline": "ASMAX Connect (global OEM/dealer site) quietly lists a parallel 'X Pro / X Pro Max / Y Pro' naming set alongside F1 Pro / F1 Pro Max / Future 1 — identical specs (X Pro = F1 Pro's BT5.3/40mm, X Pro Max = F1 Pro Max's BT5.3/45mm, Y Pro = Future 1's BT5.4/40mm; same 1350mAh/50g/3km/Springlock mount) and identical marketing taglines, indicating a rebrand for OEM/private-label or alternate-market distribution rather than new hardware; chris_asmax Instagram posted 'X pro max' on Jul 2, 2026",
@@ -635,6 +641,12 @@
       "url": "https://www.youtube.com/watch?v=B7Xp04mDVFY"
     },
     {
+      "date": "2025-04-02",
+      "headline": "'Smart Riding IoT - ASMAX showcase Rider's Symphony at Tokyo Motorcycle Show' (2025 Japan International Motorcycle Show) -- ASMAX's MESH+5G tech dubbed the 'Sixth Sense for Riders'; press release teases the then-upcoming F1 Pro Max as 'an audio revolution'",
+      "source": "PRNewswire APAC (syndicated via Yahoo Finance)",
+      "url": "https://www.prnewswire.com/apac/news-releases/smart-riding-iot--asmax-showcase-riders-symphony-at-tokyo-motorcycle-show-302418372.html"
+    },
+    {
       "date": "2024-06-01",
       "headline": "F1/F1s, S1 and Z1 launch on Amazon US and asmaxworld.com, establishing US direct-to-consumer presence at $90-$140 price points",
       "source": "ASMAX DTC",
@@ -650,8 +662,8 @@
     },
     "facebook": {
       "page": "facebook.com/ASMAXWorld",
-      "followers": 448,
-      "notes": "ASMAXWorld page has only ~448 likes / 14 talking about it (Jul 2026) — negligible owned presence. Secondary page ASMAXOfficial (followers unknown) via asmaxconnect.com. LinkedIn company page: linkedin.com/company/asmax-world/",
+      "followers": 469,
+      "notes": "ASMAXWorld page grew slightly to ~469 likes / 11 talking about it (Jul 2026, up from ~448/14 previously) — still negligible owned presence. Secondary page ASMAXOfficial (followers unknown) via asmaxconnect.com. LinkedIn company page: linkedin.com/company/asmax-world/",
       "groups_notes": "Most Facebook activity is dealer/creator-driven, not brand-owned: SE Asia dealers (SEC Motosupply, Takong Racing KL, Moto Automain, MotorniJuan PH) post launch/promo/review content for Future 1, EVA R and S2; rider groups (e.g., Foreign Riders Thailand) mention ASMAX in intercom-recommendation threads; small independent reviewers (mr19works) post 'is it worth it' quick reviews.",
       "url": "https://www.facebook.com/ASMAXWorld/"
     },
@@ -688,6 +700,12 @@
     },
     "summary": "ASMAX's owned social media is small and fragmented (15K IG, ~450 FB likes, several parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit presence remains thin but is no longer zero — occasional low-upvote mentions in r/motorcyclegear and regional subs (r/motorMY, r/MotoUK) now surface ASMAX as a budget Cardo/Sena alternative, though it still has not meaningfully penetrated the Western enthusiast community. Jun 2026 brought ASMAX's first motorsport sponsorship (MDR Competicion, MotoJunior World Championship), a new brand-building lever beyond dealer-driven social content.",
     "recent_posts": [
+      {
+        "date": "2026-07-07",
+        "platform": "Instagram",
+        "summary": "chris_asmax posts a reel captioned 'Javis are you there? #asmax #asmaxworld #motorcycle #riding #motorcycleintercom' (31 likes, 2 comments).",
+        "url": "https://www.instagram.com/chris_asmax/"
+      },
       {
         "date": "2026-07-02",
         "platform": "Instagram",
@@ -794,6 +812,13 @@
   },
   "press_coverage": {
     "reviews": [
+      {
+        "outlet": "RiderXP (YouTube)",
+        "date": "2025-11-20",
+        "product": "S1 & F1 vs. Sena S20 Evo",
+        "verdict": "Sponsored (disclosed) head-to-head test of ASMAX S1/F1 against a premium Sena S20 Evo across solo audio, rider-to-passenger, rider-to-rider, build quality, battery and customer support; reviewer states ASMAX sent units but was given free rein to test/report honestly -- verdict frames budget ASMAX as closing much of the gap to premium Sena at a fraction of the price",
+        "url": "https://www.youtube.com/watch?v=-WelvkpyBN0"
+      },
       {
         "outlet": "MotoUK (via GenXrider)",
         "date": "2026-06-15",
@@ -903,7 +928,12 @@
     "https://www.instagram.com/p/DZhu53wm8PR/",
     "https://www.instagram.com/chris_asmax/",
     "https://www.reddit.com/r/motorcyclegear/comments/1u9svpp/are_cardos_and_senas_worth_it/",
-    "https://www.facebook.com/100057338053947/photos/stay-updated-stay-ahead-new-asmax-firmware-update-all-series-is-dropping-this-ap/1466381085283146/"
+    "https://www.facebook.com/100057338053947/photos/stay-updated-stay-ahead-new-asmax-firmware-update-all-series-is-dropping-this-ap/1466381085283146/",
+    "https://www.prnewswire.com/apac/news-releases/smart-riding-iot--asmax-showcase-riders-symphony-at-tokyo-motorcycle-show-302418372.html",
+    "https://www.youtube.com/watch?v=-WelvkpyBN0",
+    "https://www.maxrunon.com/",
+    "https://www.revzilla.com/motorcycle-bluetooth-communications",
+    "https://www.webbikeworld.com/motorcycle-intercom-reviews/"
   ],
   "firmware_updates": [
     {
@@ -1146,7 +1176,7 @@
     "app_ios_version": "1.0.16",
     "app_android_version": "1.1.59",
     "app_last_updated": "2026-06-25",
-    "notes": "Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors. Per-product current firmware versions and release-note/manual links are tracked in product_firmware below."
+    "notes": "Verified 2026-07-09: iOS App Store still shows v1.0.16 (Jun 24, 2026) as latest with no newer version history entries; Google Play listing (com.timuen.motohud.haiwai) shows 'Updated on Jun 4, 2026', consistent with previously tracked Android v1.1.59 -- no new release since last refresh. Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors. Per-product current firmware versions and release-note/manual links are tracked in product_firmware below."
   },
   "product_firmware": [
     {

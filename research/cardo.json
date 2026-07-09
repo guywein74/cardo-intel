@@ -75,7 +75,8 @@
           "segment_position": "Most expensive mainstream intercom on the market; RevZilla now runs a standing 10% discount ($449.95)"
         }
       },
-      "url": "https://cardosystems.com/products/packtalk-pro"
+      "url": "https://cardosystems.com/products/packtalk-pro",
+      "usage": "Motorcycle"
     },
     {
       "name": "Packtalk Edge",
@@ -141,7 +142,8 @@
           "segment_position": "Premium; priced above Sena 50S after 2025 hike but wins most head-to-heads"
         }
       },
-      "url": "https://cardosystems.com/products/packtalk-edge"
+      "url": "https://cardosystems.com/products/packtalk-edge",
+      "usage": "Motorcycle"
     },
     {
       "name": "Packtalk Neo",
@@ -206,7 +208,8 @@
           "segment_position": "Cheapest full-DMC mesh unit on the market - value flagship"
         }
       },
-      "url": "https://cardosystems.com/products/packtalk-neo"
+      "url": "https://cardosystems.com/products/packtalk-neo",
+      "usage": "Motorcycle"
     },
     {
       "name": "Packtalk Outdoor",
@@ -294,7 +297,7 @@
         "Fast charge USB-C"
       ],
       "release_year": 2021,
-      "notes": "MSRP raised from ~$269.95 to $314.95 in 2025; street prices often near old MSRP. Shoei (4X-S) and HJC (HJC 4X, $299.95) integrated versions exist. Street price confirmed 2026-07-08 via RevZilla ($283.46, -10%) and Amazon storefront (same $283.46), superseding a stale $270 figure.",
+      "notes": "MSRP raised from ~$269.95 to $314.95 in 2025; street prices often near old MSRP. Shoei (4X-S) and HJC (HJC 4X, $299.95) integrated versions exist. Street price confirmed 2026-07-08 via RevZilla ($283.46, -10%) and Amazon storefront (same $283.46), superseding a stale $270 figure. RevZilla's cross-brand comms page (revzilla.com/motorcycle-bluetooth-communications) shows 'Cardo Systems(58)' as the brand-filter SKU count as of 2026-07-09 (first time this count has been recorded here; now includes the new Cardo 4X Bluetooth Headset For HJC Helmets listing) - baseline for future SKU-count comparisons.",
       "dimensions": {
         "form_factor": {
           "weight_g": 37,
@@ -337,7 +340,8 @@
           "segment_position": "Upper-mid Bluetooth-only; post-2025 hike it now overlaps entry mesh rivals' pricing"
         }
       },
-      "url": "https://cardosystems.com/products/freecom-4x"
+      "url": "https://cardosystems.com/products/freecom-4x",
+      "usage": "Motorcycle"
     },
     {
       "name": "Freecom 2x",
@@ -401,7 +405,8 @@
           "segment_position": "Mid-price rider+passenger unit; JBL audio is its main differentiator vs cheaper 2-rider rivals"
         }
       },
-      "url": "https://cardosystems.com/products/freecom-2x"
+      "url": "https://cardosystems.com/products/freecom-2x",
+      "usage": "Motorcycle"
     },
     {
       "name": "Spirit HD",
@@ -465,7 +470,8 @@
           "segment_position": "Budget tier; competes with Sena entry units and Chinese brands on price"
         }
       },
-      "url": "https://cardosystems.com/products/spirit-hd"
+      "url": "https://cardosystems.com/products/spirit-hd",
+      "usage": "Motorcycle"
     },
     {
       "name": "Spirit",
@@ -529,7 +535,8 @@
           "segment_position": "Entry anchor; head-to-head with budget Chinese units (Fodsports, Lexin) on price"
         }
       },
-      "url": "https://cardosystems.com/products/spirit"
+      "url": "https://cardosystems.com/products/spirit",
+      "usage": "Motorcycle"
     },
     {
       "name": "Packtalk-S",
@@ -594,7 +601,8 @@
           "segment_position": "Premium OEM-integration tier, priced near Packtalk Edge"
         }
       },
-      "url": "https://cardosystems.com/products/packtalk-s"
+      "url": "https://cardosystems.com/products/packtalk-s",
+      "usage": "Motorcycle"
     },
     {
       "name": "4X-S",
@@ -658,12 +666,13 @@
           "segment_position": "Budget helmet-integrated tier, priced near Freecom 4x"
         }
       },
-      "url": "https://cardosystems.com/products/4x-s"
+      "url": "https://cardosystems.com/products/4x-s",
+      "usage": "Motorcycle"
     },
     {
       "name": "Schuberth SC EDGE",
       "tier": "flagship",
-      "msrp_usd": 349,
+      "msrp_usd": 445,
       "street_price_usd": 359,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2",
       "range_km": 1.6,
@@ -684,7 +693,7 @@
         "Fast charge (2-hour full charge)"
       ],
       "release_year": 2025,
-      "notes": "Unveiled at EICMA 2024, available from spring 2025 at Schuberth dealers/online; continuation of the Schuberth-Cardo partnership dating to the 2009 SRC-System. Cardo-reported MSRP ~$349; RevZilla lists at $359 (4/5 stars, 32 reviews). Missed in prior update cycle - added as a previously-existing product.",
+      "notes": "Unveiled at EICMA 2024, available from spring 2025 at Schuberth dealers/online; continuation of the Schuberth-Cardo partnership dating to the 2009 SRC-System. MSRP updated 2026-07-09: Schuberth's own US site (schuberth.com/us/sc-edge) now lists RRP $445 (up from the previously recorded ~$349 Cardo-reported figure); RevZilla/Cycle Gear street price still $359 (4/5 stars, 32 reviews), now a larger effective discount off the higher MSRP. See also the new SC EDGE ANC variant for the C5 ANC helmet.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -722,12 +731,217 @@
           "warranty_years": null
         },
         "price": {
-          "msrp_usd": 349,
+          "msrp_usd": 445,
           "street_usd": 359,
-          "segment_position": "Premium OEM-integration tier for SCHUBERTH helmets, comparable positioning to Packtalk-S for Shoei"
+          "segment_position": "Premium OEM-integration tier for SCHUBERTH helmets, comparable positioning to Packtalk-S for Shoei; MSRP raised to $445 per Schuberth's own US site (2026-07-09 check)"
         }
       },
-      "url": "https://cardosystems.com/pages/support/sc-edge"
+      "url": "https://cardosystems.com/pages/support/sc-edge",
+      "usage": "Motorcycle"
+    },
+    {
+      "name": "Schuberth SC EDGE ANC",
+      "tier": "flagship",
+      "msrp_usd": null,
+      "street_price_usd": null,
+      "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2, with integrated Active Noise Cancellation",
+      "range_km": 1.6,
+      "max_riders": 15,
+      "audio": "53mm speakers developed by Cardo Sound Labs (up from 40mm JBL on standard SC EDGE/Packtalk Edge)",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "World's first communication system to integrate Active Noise Cancellation (ANC), calibrated specifically to the SCHUBERTH C5 ANC helmet's acoustic profile",
+        "Purpose-built integration for SCHUBERTH C5 ANC helmet only (not compatible with other Schuberth or third-party helmets)",
+        "Based on the Packtalk Edge chipset with full 2nd-gen DMC mesh (15 riders, up to 8km group range)",
+        "Natural Voice Operation",
+        "OTA updates via Cardo Connect app",
+        "ANC targets constant wind/engine noise while preserving traffic, siren and situational-awareness sounds",
+        "ECE-R 22.06 SA homologated with the C5 ANC helmet"
+      ],
+      "release_year": 2026,
+      "notes": "Previewed at EICMA 2025, launched via Cardo blog post dated 2026-06-17 (cardosystems.com/blogs/cardo-blog/cardo-schuberth-sc-edge-anc). Schuberth's own site (schuberth.com/us/scedgeanc and /en/scedgeanc) lists RRP EUR529 with no US-dollar price yet published; third-party estimate (roadrunner.travel) pegs likely US pricing around $600. No Crash Detection (Pro-only feature). Companion product to the standard Schuberth SC EDGE (non-ANC), sold separately for the wider C5/E2/S3/J2 Schuberth range.",
+      "category": "headphones",
+      "usage": "Motorcycle",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "integrated",
+          "aesthetics": "Purpose-fitted module built into the SCHUBERTH C5 ANC helmet's factory comm cavity, no external clamp or antenna"
+        },
+        "ease_of_use": {
+          "controls": "Helmet-integrated button interface + Natural Voice Operation",
+          "mount": "Direct helmet integration (SCHUBERTH C5 ANC factory comm cavity), no clamp needed",
+          "cradle": "None - fits into helmet's factory comm cavity",
+          "voice_commands": "Natural Voice Operation ('Hey Cardo') + Siri/Google Assistant support",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app, no cables",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 53,
+          "speaker_brand": "Cardo Sound Labs",
+          "hd": true,
+          "quality_verdict": "Largest speaker driver in the Cardo lineup (53mm); Cardo says the extra surface area improves music/nav/voice clarity against the ANC-reduced noise floor"
+        },
+        "intercom": {
+          "type": "DMC Gen2 mesh + Bluetooth 5.2",
+          "range_km": 1.6,
+          "max_riders": 15,
+          "auto_reconnect": true,
+          "wideband_audio": true,
+          "cross_brand": "Bluetooth bridging to Sena and other major brands (lower group capacity, no self-healing mesh on cross-brand connections)"
+        },
+        "quality": {
+          "build": "ECE-R 22.06 SA homologated; ANC tuning co-developed and calibrated end-to-end by Cardo and Schuberth for the C5 ANC shell",
+          "ip_rating": null,
+          "service_reputation": "Same Cardo support channel",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": null,
+          "street_usd": null,
+          "segment_position": "New premium ANC tier above standard Packtalk Edge/Schuberth SC EDGE; EUR529 RRP, no US price confirmed yet"
+        }
+      },
+      "url": "https://cardosystems.com/blogs/cardo-blog/cardo-schuberth-sc-edge-anc"
+    },
+    {
+      "name": "HJC 4X",
+      "tier": "mid",
+      "msrp_usd": 299.95,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth 5.2 'Live Intercom' (no mesh)",
+      "range_km": 1.2,
+      "max_riders": 4,
+      "audio": "40mm Sound by JBL speakers, 3 sound profiles",
+      "talk_time_hours": 13,
+      "waterproof": "IP65",
+      "features": [
+        "Purpose-built integration for select HJC helmets (i71, i91, RPHA 31/60/71/71 Carbon/72/72 DOT/72 Carbon/72 Carbon ECE&DOT/91/91 Carbon, f31, f71, f71 Carbon)",
+        "Natural Voice Operation",
+        "OTA updates via Cardo Connect app",
+        "Universal Bluetooth intercom bridging to other brands",
+        "Built-in FM radio",
+        "Fast charge (20 min = 2 h talk)",
+        "Charge-while-riding",
+        "3.5mm jack for own earbuds/speakers"
+      ],
+      "release_year": 2026,
+      "notes": "Launched spring 2026 alongside HJC Spirit, expanding Cardo's helmet-integrated line beyond Shoei (Packtalk-S/4X-S) to HJC. Step up from HJC Spirit (adds group intercom to 4 riders, FM radio, longer battery). Ultimate Motorcycling First Look confirms $300 MSRP, 2026-05-21. Available on cardosystems.com and RevZilla ('Cardo 4X Bluetooth Headset For HJC Helmets').",
+      "category": "smart_helmet_accessory",
+      "usage": "Motorcycle",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "integrated",
+          "aesthetics": "Purpose-molded module for select HJC helmet shell cutouts, no external clamp or antenna"
+        },
+        "ease_of_use": {
+          "controls": "Helmet-integrated button interface + Natural Voice Operation",
+          "mount": "Direct helmet integration (HJC factory comm cavity), no clamp needed",
+          "cradle": "None - fits into helmet's factory comm cavity",
+          "voice_commands": "Natural Voice Operation ('Hey Cardo')",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "JBL",
+          "hd": null,
+          "quality_verdict": "Same 40mm JBL speakers as other Cardo integrated units, 3 selectable sound profiles"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.2 'Live Intercom' (no mesh)",
+          "range_km": 1.2,
+          "max_riders": 4,
+          "auto_reconnect": true,
+          "wideband_audio": null,
+          "cross_brand": "Universal Bluetooth bridging; pairs directly with current Sena/Midland/UClear units"
+        },
+        "quality": {
+          "build": "Integrated design preserves HJC's own helmet fit/certification per Cardo",
+          "ip_rating": "IP65",
+          "service_reputation": "Same Cardo support channel; 2-yr warranty",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 299.95,
+          "street_usd": null,
+          "segment_position": "Budget helmet-integrated tier for HJC, priced same as 4X-S/Freecom 4x"
+        }
+      },
+      "url": "https://cardosystems.com/products/hjc-4x"
+    },
+    {
+      "name": "HJC Spirit",
+      "tier": "entry",
+      "msrp_usd": 149.95,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth 5.2 (no mesh)",
+      "range_km": 0.4,
+      "max_riders": 2,
+      "audio": "40mm HD speakers (not JBL-branded)",
+      "talk_time_hours": 10,
+      "waterproof": "IP65",
+      "features": [
+        "Purpose-built integration for select HJC helmets (i71, i91, RPHA 31/60/71/71 Carbon/72/72 DOT/72 Carbon/72 Carbon ECE&DOT/91/91 Carbon, f31, f71, f71 Carbon)",
+        "OTA updates via Cardo Connect app",
+        "Universal Bluetooth intercom bridging to other brands",
+        "Fast charge (20 min = 2 h talk)",
+        "Charge-while-riding",
+        "3.5mm jack for own earbuds/speakers; optional 45mm JBL Audio Set upgrade ($110)"
+      ],
+      "release_year": 2026,
+      "notes": "Launched spring 2026 alongside HJC 4X; entry-level integrated intercom for select HJC helmets, no Natural Voice Operation or FM radio (differentiators vs HJC 4X). Ultimate Motorcycling First Look confirms $150 list price, 2026-05-06. Available on cardosystems.com.",
+      "category": "smart_helmet_accessory",
+      "usage": "Motorcycle",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": "",
+          "profile": "integrated",
+          "aesthetics": "Purpose-molded module for select HJC helmet shell cutouts, no external clamp or antenna"
+        },
+        "ease_of_use": {
+          "controls": "Helmet-integrated button interface (no Natural Voice Operation)",
+          "mount": "Direct helmet integration (HJC factory comm cavity), no clamp needed",
+          "cradle": "None - fits into helmet's factory comm cavity",
+          "voice_commands": "None (basic button interface only)",
+          "screen": "no",
+          "ota": "OTA firmware via Cardo Connect app",
+          "app": "Cardo Connect"
+        },
+        "sound": {
+          "speaker_size_mm": 40,
+          "speaker_brand": "Cardo HD (not JBL)",
+          "hd": true,
+          "quality_verdict": "Same 40mm HD speakers as standalone Spirit HD; optional 45mm JBL upgrade available"
+        },
+        "intercom": {
+          "type": "Bluetooth 5.2 (no mesh)",
+          "range_km": 0.4,
+          "max_riders": 2,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": "Universal Bluetooth bridging; pairs directly with current Sena/Midland/UClear units"
+        },
+        "quality": {
+          "build": "Integrated design preserves HJC's own helmet fit/certification per Cardo",
+          "ip_rating": "IP65",
+          "service_reputation": "Same Cardo support channel; 2-yr warranty",
+          "warranty_years": 2
+        },
+        "price": {
+          "msrp_usd": 149.95,
+          "street_usd": null,
+          "segment_position": "Entry helmet-integrated tier for HJC, priced same as standalone Spirit HD's list adjacent tier"
+        }
+      },
+      "url": "https://cardosystems.com/products/hjc-spirit"
     },
     {
       "name": "Lazer VeloVox",
@@ -752,7 +966,8 @@
       "release_year": 2025,
       "notes": "Lazer (cycling helmet brand) partnership product using Cardo's communication technology, launched September 2025; not a motorcycle product - included as a Cardo-technology cycling accessory. $184.95 US / GBP160 / EUR160. Missed in prior update cycle - added as a previously-existing product.",
       "category": "cycling_accessory",
-      "url": "https://cardosystems.com/products/lazer-velovox"
+      "url": "https://cardosystems.com/products/lazer-velovox",
+      "usage": "Cycling"
     },
     {
       "name": "Packtalk Edgephones",
@@ -772,7 +987,8 @@
       "release_year": 2023,
       "notes": "Accessory headphones, launched at $149.95, now $159.95.",
       "category": "headphones",
-      "url": "https://cardosystems.com/products/packtalk-edgephones"
+      "url": "https://cardosystems.com/products/packtalk-edgephones",
+      "usage": "Motorcycle"
     },
     {
       "name": "Beyond GTS (smart helmet)",
@@ -795,7 +1011,8 @@
       "release_year": 2026,
       "notes": "Cardo's first fully integrated road helmet; unveiled Jan 2026, on sale summer 2026. GT sibling: $949, fiberglass shell, ANC optional, smaller cable-charged battery.",
       "category": "smart_helmet",
-      "url": "https://cardosystems.com/pages/beyond"
+      "url": "https://cardosystems.com/pages/beyond",
+      "usage": "Motorcycle"
     },
     {
       "name": "Venture (integrated MX helmet)",
@@ -816,7 +1033,8 @@
       "release_year": 2026,
       "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695.",
       "category": "smart_helmet",
-      "url": "https://cardosystems.com/pages/venture"
+      "url": "https://cardosystems.com/pages/venture",
+      "usage": "Motorcycle, off-road/MX"
     },
     {
       "name": "Packtalk Edgephones ORV",
@@ -840,7 +1058,8 @@
       ],
       "release_year": 2024,
       "notes": "Off-road/UTV variant of Packtalk Edgephones, crafted for rough terrain and cellular-free connectivity for non-helmet applications. Compatible with Packtalk Edge, Edge ORV, Edge KTM, Edge Ducati, Edge Honda, Edge Simpson. 1-year warranty (Edgephones); 3-year warranty (Packtalk Edge unit).",
-      "url": "https://cardosystems.com/products/packtalk-edgephones-orv"
+      "url": "https://cardosystems.com/products/packtalk-edgephones-orv",
+      "usage": "Off-road vehicles (UTV/ATV)"
     }
   ],
   "strengths": [
@@ -963,6 +1182,30 @@
       "headline": "Cardo BEYOND helmet wins a 2026 Red Dot Award: Product Design",
       "source": "Cardo Systems blog / Visordown",
       "url": "https://cardosystems.com/blogs/cardo-blog/beyond-red-dot-award"
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Cardo launches HJC Spirit - entry-level integrated Bluetooth intercom for select HJC helmets (RPHA/f/i ranges), $149.95",
+      "source": "Ultimate Motorcycling",
+      "url": "https://ultimatemotorcycling.com/2026/05/06/cardo-hjc-spirit-integrated-helmet-intercom-system-first-look/"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Cardo launches HJC 4X - step-up integrated intercom for select HJC helmets with 4-rider Bluetooth Live Intercom and JBL audio, $299.95",
+      "source": "Ultimate Motorcycling",
+      "url": "https://ultimatemotorcycling.com/2026/05/21/cardo-hjc-4x-integrated-helmet-intercom-system-first-look/"
+    },
+    {
+      "date": "2026-06-17",
+      "headline": "Cardo and SCHUBERTH launch SC EDGE ANC - first communication system with integrated Active Noise Cancellation, exclusive to the SCHUBERTH C5 ANC helmet, with 53mm Cardo Sound Labs speakers (EUR529)",
+      "source": "Cardo Systems blog",
+      "url": "https://cardosystems.com/blogs/cardo-blog/cardo-schuberth-sc-edge-anc"
+    },
+    {
+      "date": "2026-07-01",
+      "headline": "Cardo Systems expands North American distribution via new Motovan partnership, strengthening Eastern Canada retail coverage",
+      "source": "Motorcycle & Powersports News",
+      "url": "https://www.motorcyclepowersportsnews.com/cardo-systems-expands-north-american-distribution-motovan-partnership/"
     }
   ],
   "social_media": {
@@ -1169,6 +1412,48 @@
         "platform": "Instagram",
         "summary": "Proud to share that Cardo BEYOND has been recognized with a Red Dot Award.\r\nBuilt for riders. Designed around the ride. Recognized for the way it brings communication, sound, connectivity, and comfort into one clean full-face helmet experience.\r\nA big moment for everyone involved in bringing BEYOND ",
         "url": "https://www.instagram.com/p/DakbC4VCCB6/"
+      },
+      {
+        "date": "2026-04-13",
+        "platform": "Instagram",
+        "summary": "'Mesh Boost update' reel - Cardo team gives an update on Mesh-Boost field testing in several countries, says quality bar must be met before wider rollout (152 likes, 41 comments)",
+        "url": "https://www.instagram.com/cardosystems/"
+      },
+      {
+        "date": "2026-06-10",
+        "platform": "Instagram",
+        "summary": "'Silence is being re-engineered' reel - inside Cardo Sound Labs, teasing the ANC development process behind Beyond and the new Schuberth SC EDGE ANC",
+        "url": "https://www.instagram.com/cardosystems/"
+      },
+      {
+        "date": "2026-06-10",
+        "platform": "Instagram",
+        "summary": "'ANC isn't just about comfort' reel - messaging around Active Noise Cancellation reducing rider fatigue, tied to the Beyond helmet and SC EDGE ANC launch window",
+        "url": "https://www.instagram.com/cardosystems/"
+      },
+      {
+        "date": "2026-07-03",
+        "platform": "Facebook",
+        "summary": "'You asked, we delivered' - launch video introducing the new Cardo integrated solutions for select HJC helmets (HJC 4X and HJC Spirit), on the main CardoSystems page (318 views)",
+        "url": "https://www.facebook.com/CardoSystems/"
+      },
+      {
+        "date": "2026-03-24",
+        "platform": "YouTube",
+        "summary": "'Best of 2025 - The Cardo Fam Did It Again' - year-in-review montage celebrating ambassadors, meetups and rider community moments from 2025 (626 views, 12 likes)",
+        "url": "https://www.youtube.com/watch?v=nFH2bGg8zlQ"
+      },
+      {
+        "date": "2026-07-09",
+        "platform": "Instagram",
+        "summary": "Cardo Ride app now supports Apple CarPlay navigation ('Your ride is now on the big screen') - update the app to use it; Android Auto support teased as coming next.",
+        "url": "https://www.instagram.com/p/DakmynOoG0A/"
+      },
+      {
+        "date": "2026-07-08",
+        "platform": "Instagram",
+        "summary": "Generic lifestyle/UGC-style repost ('Sunday to Saturday... you'll probably find me on two wheels') with adventure/dirtbike hashtags, no specific product callout.",
+        "url": "https://www.instagram.com/p/DaiPJQfhdOj/"
       }
     ]
   },
@@ -1292,6 +1577,27 @@
         "product": "Venture MX helmet",
         "verdict": "Detailed hands-on, activity-by-activity grades: Trail rides A+ (clearest use case, auto volume adjusts for ambient noise), Adventure bike rides A (clear calls even on remote dirt roads), Coaching B (limited by line-of-sight range), Pit communication B- (spotty over long course laps, needs dedicated pit attention), Motocross communication C (engine noise defeats intelligibility, hard to focus while racing)",
         "url": "https://dirtbikemagazine.com/review-cardo-venture-helmet-with-communication/"
+      },
+      {
+        "outlet": "Rider Magazine",
+        "date": "2025-02-24",
+        "product": "Packtalk Edge",
+        "verdict": "Positive long-distance touring review; JBL audio and music-pause-on-speech praised, but real-world battery life fell short of the claimed 13 hours (testers saw low-battery warnings after 8-10 hours of use)",
+        "url": "https://ridermagazine.com/2025/02/24/cardo-packtalk-edge-motorcycle-helmet-communicator-review/"
+      },
+      {
+        "outlet": "Ultimate Motorcycling",
+        "date": "2026-05-06",
+        "product": "HJC Spirit",
+        "verdict": "First Look - straightforward positive coverage of Cardo's new entry-level HJC-integrated intercom; notes lack of Natural Voice Operation and FM radio versus the step-up HJC 4X",
+        "url": "https://ultimatemotorcycling.com/2026/05/06/cardo-hjc-spirit-integrated-helmet-intercom-system-first-look/"
+      },
+      {
+        "outlet": "Ultimate Motorcycling",
+        "date": "2026-05-21",
+        "product": "HJC 4X",
+        "verdict": "First Look - positive coverage of the step-up HJC-integrated intercom; highlights 4-rider group connectivity, JBL audio and FM radio as the key upgrades over HJC Spirit",
+        "url": "https://ultimatemotorcycling.com/2026/05/21/cardo-hjc-4x-integrated-helmet-intercom-system-first-look/"
       }
     ],
     "awards": [
@@ -1616,6 +1922,30 @@
       "release_notes_url": null,
       "user_manual_url": null,
       "support_url": "https://cardosystems.com/pages/venture"
+    },
+    {
+      "product": "Schuberth SC EDGE ANC",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": null,
+      "support_url": "https://cardosystems.com/blogs/cardo-blog/cardo-schuberth-sc-edge-anc"
+    },
+    {
+      "product": "HJC 4X",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://cardosystems.com/products/hjc-4x",
+      "support_url": "https://cardosystems.com/products/hjc-4x"
+    },
+    {
+      "product": "HJC Spirit",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": null,
+      "user_manual_url": "https://cardosystems.com/products/hjc-spirit",
+      "support_url": "https://cardosystems.com/products/hjc-spirit"
     }
   ],
   "sources": [
@@ -1718,7 +2048,19 @@
     "https://cardosystems.com/pages/support/packtalk-edgephones",
     "https://cardosystems.com/pages/beyond",
     "https://cardosystems.com/pages/venture",
-    "https://cardosystems.com/us/release-notes"
+    "https://cardosystems.com/us/release-notes",
+    "https://cardosystems.com/products/hjc-4x",
+    "https://cardosystems.com/products/hjc-spirit",
+    "https://ultimatemotorcycling.com/2026/05/06/cardo-hjc-spirit-integrated-helmet-intercom-system-first-look/",
+    "https://ultimatemotorcycling.com/2026/05/21/cardo-hjc-4x-integrated-helmet-intercom-system-first-look/",
+    "https://cardosystems.com/blogs/cardo-blog/cardo-schuberth-sc-edge-anc",
+    "https://schuberth.com/en/scedgeanc",
+    "https://schuberth.com/us/scedgeanc",
+    "https://schuberth.com/us/sc-edge",
+    "https://www.motorcyclepowersportsnews.com/cardo-systems-expands-north-american-distribution-motovan-partnership/",
+    "https://ridermagazine.com/2025/02/24/cardo-packtalk-edge-motorcycle-helmet-communicator-review/",
+    "https://www.revzilla.com/motorcycle-bluetooth-communications",
+    "https://www.amazon.com/stores/CardoSystems/page/95F74CDD-7A0F-4ED8-AB53-8E5CD3DA4A1E"
   ],
   "customer_feedback": [
     {
