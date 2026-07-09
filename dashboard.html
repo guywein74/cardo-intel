@@ -725,12 +725,12 @@ if(!INS){
 
   <h2>Market pulse — what changed & why it matters</h2>
   <div class="card" style="padding:0;margin-bottom:24px">
-    ${(INS.market_pulse||[]).map(m=>`
-    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
-      <span class="small muted" style="width:80px;flex:none;font-variant-numeric:tabular-nums;font-weight:700">${esc(m.date||"—")}</span>
-      <span class="brandtag small" style="color:${BCOLOR[m.brand]||"var(--muted)"};width:52px;flex:none">${esc(m.brand||"")}</span>
-      <span class="small" style="flex:1;min-width:240px"><b>${esc(m.development||"")}</b><br><span class="muted">→ ${esc(m.implication||"")}</span></span>
-    </div>`).join("")}
+    <div id="mpHead" style="display:flex;gap:12px;padding:8px 16px;border-bottom:1px solid var(--border)">
+      <span class="small muted" data-k="date" style="width:80px;flex:none;cursor:pointer;user-select:none;text-transform:uppercase;letter-spacing:.5px;font-size:11px">Date <span class="arrow"></span></span>
+      <span class="small muted" data-k="brand" style="width:52px;flex:none;cursor:pointer;user-select:none;text-transform:uppercase;letter-spacing:.5px;font-size:11px">Brand <span class="arrow"></span></span>
+      <span class="small muted" style="flex:1;min-width:240px;text-transform:uppercase;letter-spacing:.5px;font-size:11px">Development</span>
+    </div>
+    <div id="mpList"></div>
   </div>
 
   <h2>Gap analysis</h2>
@@ -770,6 +770,25 @@ if(!INS){
       <div class="small muted"><b>Trigger:</b> ${esc(w.trigger||"")}</div>
     </div>`).join("")}
   </div>`;
+  let mpSortKey="date",mpSortDir=-1;
+  function renderMarketPulse(){
+    const rows=[...(INS.market_pulse||[])].sort((a,b)=>{
+      const x=a[mpSortKey]||"",y=b[mpSortKey]||"";
+      return String(x).localeCompare(String(y))*mpSortDir;
+    });
+    sections[9].querySelectorAll("#mpHead .arrow").forEach(a=>a.textContent="");
+    const ah=sections[9].querySelector(`#mpHead [data-k="${mpSortKey}"] .arrow`);if(ah)ah.textContent=mpSortDir>0?"↑":"↓";
+    sections[9].querySelector("#mpList").innerHTML=rows.map(m=>`
+    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
+      <span class="small muted" style="width:80px;flex:none;font-variant-numeric:tabular-nums;font-weight:700">${esc(m.date||"—")}</span>
+      <span class="brandtag small" style="color:${BCOLOR[m.brand]||"var(--muted)"};width:52px;flex:none">${esc(m.brand||"")}</span>
+      <span class="small" style="flex:1;min-width:240px"><b>${esc(m.development||"")}</b><br><span class="muted">→ ${esc(m.implication||"")}</span></span>
+    </div>`).join("");
+  }
+  sections[9].querySelectorAll("#mpHead [data-k]").forEach(h=>h.onclick=()=>{
+    const k=h.dataset.k;mpSortDir=(mpSortKey===k)?-mpSortDir:(k==="date"?-1:1);mpSortKey=k;renderMarketPulse();
+  });
+  renderMarketPulse();
 }
 
 show(0);
