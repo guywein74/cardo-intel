@@ -225,6 +225,13 @@ MATCHING RULES:
 - "strengths"/"weaknesses": only include if something genuinely changed; if included, provide the complete replacement list (these are short).
 - All other "new_*" arrays are appended to the existing lists - only include items that are not already present in the existing data.
 
+PRODUCT CATEGORY CLASSIFICATION:
+Every product in "new_or_updated_products" must include a "category" field, one of:
+- "smart_helmet" - a full helmet with integrated communication system
+- "headphones" - an audio-only accessory (over-ear or earmuff-style) that pairs with a separate communicator unit rather than being a standalone communicator itself (e.g. Cardo Packtalk Edgephones, ASMAX F1 RidePhones, Sena Tufftalk line). If it's marketed primarily as hearing protection or off-helmet audio rather than as a full intercom system, classify it here even if it has its own Bluetooth/mesh chip.
+- "communicator" - the default: a standalone Bluetooth/mesh intercom unit, whether helmet-mounted or clamp-on
+Check {details.get('website')}'s full product catalog (not just what's in existing data) for any headphones-category products not yet tracked - this brand may have off-helmet audio accessories or industrial/multi-sport sub-brands worth capturing.
+
 CRITICAL RULES:
 - Do NOT invent products, prices, or customer feedback
 - Do NOT create fake URLs - verify everything is real

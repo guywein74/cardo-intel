@@ -1062,6 +1062,74 @@
       ],
       "release_year": 2025,
       "notes": "Open-face Mesh-equipped helmet, positioned as the spiritual successor to Sena's original Savage. $419 confirmed via store-us.sena.com (handle: surge-3), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit."
+    },
+    {
+      "name": "Tufftalk",
+      "category": "headphones",
+      "tier": "mid",
+      "msrp_usd": 399.0,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth 4.1, 4-way intercom, Universal Intercom (works with non-Sena headsets)",
+      "range_km": 0.9,
+      "max_riders": 4,
+      "audio": "32mm HD speaker drivers, Advanced Noise Control, Ambient Mode",
+      "talk_time_hours": 15,
+      "waterproof": null,
+      "features": [
+        "Industrial hearing-protection earmuff with built-in Bluetooth intercom (Sena Industrial line, not motorcycle-specific)",
+        "Noise Reduction Rating 24 dB (over-the-head) / 22 dB (hard hat mount)",
+        "FM radio (76-108 MHz, 10 presets)",
+        "Voice activation (VOX), Jog Dial glove-operable controls",
+        "Smartphone and MP3 player connectivity",
+        "Over-the-Head and Hard Hat Mount configurations"
+      ],
+      "release_year": null,
+      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. 750mAh battery, 3h charge time."
+    },
+    {
+      "name": "Tufftalk Lite",
+      "category": "headphones",
+      "tier": "entry",
+      "msrp_usd": 249.0,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth 4.1, 4-way intercom, Universal Intercom",
+      "range_km": 0.8,
+      "max_riders": 4,
+      "audio": "HD speakers, Advanced Noise Control",
+      "talk_time_hours": 13,
+      "waterproof": null,
+      "features": [
+        "Lower-cost, lower-profile version of Tufftalk (Sena Industrial line, not motorcycle-specific)",
+        "Noise Reduction Rating 21 dB (over-the-head) / 20 dB (hard hat mount)",
+        "FM radio (10 presets)",
+        "Over-the-head or hardhat-mounted configurations",
+        "750mAh Lithium Polymer battery, 3h charge time"
+      ],
+      "release_year": 2018,
+      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company."
+    },
+    {
+      "name": "Tufftalk M",
+      "category": "headphones",
+      "tier": "mid",
+      "msrp_usd": 399.0,
+      "street_price_usd": null,
+      "intercom_tech": "Mesh 3.0 Intercom (Open mode: virtually unlimited users; Group mode: up to 24 users) + Bluetooth (HSP/HFP/A2DP/AVRCP, 4 users)",
+      "range_km": 1.1,
+      "max_riders": 24,
+      "audio": "HD speakers, Advanced Noise Control",
+      "talk_time_hours": 13,
+      "waterproof": null,
+      "features": [
+        "Mesh-networked version of Tufftalk (Sena Industrial line, not motorcycle-specific)",
+        "Noise Reduction Rating 26 dB (over-the-head) / 24 dB (hard hat mount)",
+        "Full-duplex hands-free communication",
+        "FM radio (10 presets)",
+        "Mesh range extends to 4.4 km with 6+ users in Open mode",
+        "3h charge, 20-min quick charge for 3h use"
+      ],
+      "release_year": null,
+      "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. Mesh talk time 8h vs 13h Bluetooth."
     }
   ],
   "strengths": [

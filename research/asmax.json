@@ -536,6 +536,25 @@
       ],
       "release_year": null,
       "notes": "Smart air pumps and audio kits round out the 'Smart Riding IoT Ecosystem'; MAXRUNON targets broader outdoor users under the MAXRUNOS app."
+    },
+    {
+      "name": "ASMAX F1 RidePhones",
+      "category": "headphones",
+      "tier": "entry",
+      "msrp_usd": 99.99,
+      "street_price_usd": null,
+      "intercom_tech": "None (passive accessory) - joins the paired F1/F1s/Z1 unit's Mesh + Bluetooth network",
+      "range_km": null,
+      "max_riders": null,
+      "audio": "Over-ear headphones with integrated mic",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "Off-helmet audio accessory - requires separate ASMAX F1/F1s/Z1 communicator unit (sold separately)",
+        "Listed under ASMAX Accessories alongside Audio & Mic kits"
+      ],
+      "release_year": null,
+      "notes": "Audio-only headphone accessory pairing with ASMAX's mesh communicator units, analogous to Cardo's Edgephones. Official product page (asmaxworld.com/products/asmax-f1-ridephones) has limited public spec detail as of 2026-07-09; price and category confirmed, full spec sheet not published."
     }
   ],
   "strengths": [
