@@ -1130,6 +1130,29 @@
       ],
       "release_year": null,
       "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. Mesh talk time 8h vs 13h Bluetooth."
+    },
+    {
+      "name": "CAST",
+      "category": "headphones",
+      "tier": "flagship",
+      "msrp_usd": 599.0,
+      "street_price_usd": null,
+      "intercom_tech": "Mesh 3.0 Intercom (Open mode: extends to 4.4 km with 6+ users; Group mode: up to 24 users) + Bluetooth 5.0 (HSP/HFP/A2DP/AVRCP)",
+      "range_km": 1.1,
+      "max_riders": 24,
+      "audio": "Outer speakers with ambient-noise detection for worksite safety, Advanced Noise Control",
+      "talk_time_hours": 12,
+      "waterproof": null,
+      "features": [
+        "Top-of-line Sena Industrial hearing-protection headset (senaindustrial.com, not motorcycle-specific)",
+        "Noise Reduction Rating 28 dB (over-the-head) / 23 dB (hard hat mount)",
+        "Full-duplex hands-free intercom, three-button control",
+        "Two-way radio connectivity",
+        "Over-the-head or hard hat mounting",
+        "Mesh talk time 9h vs 12h Bluetooth; 20-min quick charge for 3h use"
+      ],
+      "release_year": null,
+      "notes": "Highest-tier product in Sena Industrial's hearing-protection headset collection (alongside Tufftalk/Tufftalk Lite/Tufftalk M), per https://senaindustrial.com/collections/communication-headsets-with-hearing-protection. Not marketed as a motorcycle product."
     }
   ],
   "strengths": [
