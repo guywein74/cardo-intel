@@ -231,17 +231,34 @@ renderTable();
 /* ---------- Battles (deck-style segment head-to-heads) ---------- */
 const BAT=DATA.battles;
 const SC={good:["GOOD","#0f2b17","#56d364"],soso:["SO-SO","#3b2300","#f0a83a"],bad:["BAD/NONE","#3d1418","#ff7b72"]};
-let batMode="rank",curBattle=0;
+let batMode="rank",curBattle=0,curModels=[];
 const scell=(s,v)=>{const[t,bg,fg]=SC[s]||["?","#222","#999"];const show=(batMode==="value"&&v!=null&&v!=="")?v:t;return `<td style="background:${bg};color:${fg};font-weight:700;font-size:11px;letter-spacing:.3px;text-align:center">${esc(show)}</td>`};
+// Pool every rated model across all battles (same 16-dimension schema everywhere), keyed "brand|model",
+// so any model rated in ANY battle can be swapped into ANY battle's comparison matrix.
+const RATED_POOL={};
+BAT.battles.forEach(b=>{
+  b.ratings.models.forEach(([br,m],ci)=>{
+    const key=br+"|"+m;
+    if(RATED_POOL[key])return;
+    const cells={};
+    b.ratings.rows.forEach(r=>{cells[r.dimension]={score:r.scores[ci],value:(r.values||[])[ci]}});
+    RATED_POOL[key]={brand:br,model:m,cells};
+  });
+});
+const POOL_KEYS=Object.keys(RATED_POOL).sort((a,b)=>RATED_POOL[a].brand.localeCompare(RATED_POOL[b].brand)||RATED_POOL[a].model.localeCompare(RATED_POOL[b].model));
+const poolOptions=selectedKey=>BRANDS.map(br=>br.competitor).map(brand=>{
+  const opts=POOL_KEYS.filter(k=>RATED_POOL[k].brand===brand).map(k=>`<option value="${esc(k)}"${k===selectedKey?" selected":""}>${esc(RATED_POOL[k].model)}</option>`).join("");
+  return opts?`<optgroup label="${esc(brand)}">${opts}</optgroup>`:"";
+}).join("");
 sections[2].innerHTML=`
-  <div class="note-banner">Deck-style segment battles (format of the internal “Competitive Landscape” deck): each Cardo model vs its direct segment rivals, rated <b style="color:#56d364">GOOD</b> / <b style="color:#f0a83a">SO-SO</b> / <b style="color:#ff7b72">BAD-NONE</b> across 16 dimensions. Use the <b>Rank / Value</b> toggle to swap the ratings for the actual figures (riders, range, price…). Hover dimension names for sub-criteria. * = pending testing/verification.</div>
+  <div class="note-banner">Deck-style segment battles (format of the internal “Competitive Landscape” deck): each Cardo model vs its direct segment rivals, rated <b style="color:#56d364">GOOD</b> / <b style="color:#f0a83a">SO-SO</b> / <b style="color:#ff7b72">BAD-NONE</b> across 16 dimensions. Use the <b>Rank / Value</b> toggle to swap the ratings for the actual figures (riders, range, price…). Hover dimension names for sub-criteria. Use ⇄ on a column to swap in any other rated model, or + to add one. * = pending testing/verification.</div>
   <div class="chips" id="batChips">${BAT.battles.map((b,i)=>`<button class="chip${i===0?" on":""}" data-i="${i}">${esc(b.hero.model.split(" (")[0].split(" /")[0])}<span class="muted" style="font-weight:400"> · ${esc(b.segment)}</span></button>`).join("")}</div>
   <div class="chips" style="margin-top:-6px"><span class="small muted" style="align-self:center">Cells:</span><button class="chip on" id="modeRank">Rank</button><button class="chip" id="modeVal">Value</button></div>
   <div id="batBody"></div>`;
 function renderBattle(i){
   curBattle=i;
   const b=BAT.battles[i];
-  const legend=BAT.dimensions_legend;
+  curModels=b.ratings.models.map(([br,m])=>[br,m]);
   sections[2].querySelectorAll("#batChips .chip").forEach((c,j)=>c.classList.toggle("on",i===j));
   sections[2].querySelector("#batBody").innerHTML=`
   <div class="card" style="margin-bottom:16px">
@@ -249,10 +266,7 @@ function renderBattle(i){
     <div class="small" style="margin:4px 0 8px"><b style="color:var(--cardo)">${esc(b.hero.model)}</b> — ${esc(b.hero.price)}</div>
     <div class="small"><b>Executive summary:</b> ${esc(b.exec_summary)}</div>
   </div>
-  <div class="card" style="padding:0;overflow-x:auto;margin-bottom:16px">
-    <table class="matrix"><thead><tr><th style="min-width:120px">Dimension</th>${b.ratings.models.map(([br,m])=>`<th style="color:${BCOLOR[br]};min-width:110px">${esc(m)}</th>`).join("")}<th style="min-width:180px">Notes</th></tr></thead>
-    <tbody>${b.ratings.rows.map(r=>`<tr><td title="${esc(legend[r.dimension]||"")}" style="cursor:help"><b class="small">${esc(r.dimension)}</b></td>${r.scores.map((s,ci)=>scell(s,(r.values||[])[ci])).join("")}<td class="small muted" style="text-align:left">${esc(r.note||"")}</td></tr>`).join("")}</tbody></table>
-  </div>
+  <div class="card" style="padding:0;overflow-x:auto;margin-bottom:16px" id="matrixWrap"></div>
   <div class="grid g2">
   ${b.matchups.map(m=>`
     <div class="card">
@@ -265,9 +279,57 @@ function renderBattle(i){
       ${m.to_test&&m.to_test.length?`<div class="small muted" style="margin-top:10px">* Will be tested: ${m.to_test.map(esc).join("; ")}</div>`:""}
     </div>`).join("")}
   </div>`;
+  renderMatrix();
+}
+function renderMatrix(){
+  const legend=BAT.dimensions_legend;
+  const dims=BAT.battles[curBattle].ratings.rows.map(r=>r.dimension);
+  const originalCount=BAT.battles[curBattle].ratings.models.length;
+  const head=`<th style="min-width:120px">Dimension</th>${curModels.map(([br,m],ci)=>{
+    const key=br+"|"+m;
+    return `<th style="color:${BCOLOR[br]};min-width:110px">
+      <span class="mname">${esc(m)}</span>
+      <span class="swapicon" data-ci="${ci}" title="Change model" style="cursor:pointer;opacity:.55;font-size:11px;margin-left:4px">⇄</span>
+      ${ci>=originalCount?`<span class="rmicon" data-ci="${ci}" title="Remove column" style="cursor:pointer;opacity:.55;font-size:11px;margin-left:2px">✕</span>`:""}
+      <div class="swapsel" data-ci="${ci}" style="display:none;margin-top:4px"><select style="width:100%;font-size:11px">${poolOptions(key)}</select></div>
+    </th>`;
+  }).join("")}${curModels.length<7?`<th style="min-width:40px;text-align:center"><span class="addicon" title="Add model to compare" style="cursor:pointer;opacity:.7;font-size:16px">+</span></th>`:""}<th style="min-width:180px">Notes</th>`;
+  const body=dims.map((dim,ri)=>{
+    const note=BAT.battles[curBattle].ratings.rows[ri].note||"";
+    const cells=curModels.map(([br,m])=>{
+      const c=RATED_POOL[br+"|"+m]?.cells?.[dim];
+      return scell(c?.score,c?.value);
+    }).join("");
+    return `<tr><td title="${esc(legend[dim]||"")}" style="cursor:help"><b class="small">${esc(dim)}</b></td>${cells}${curModels.length<7?"<td></td>":""}<td class="small muted" style="text-align:left">${esc(note)}</td></tr>`;
+  }).join("");
+  const wrap=sections[2].querySelector("#matrixWrap");
+  wrap.innerHTML=`<table class="matrix"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+  wrap.querySelectorAll(".swapicon").forEach(el=>el.onclick=()=>{
+    const sel=wrap.querySelector(`.swapsel[data-ci="${el.dataset.ci}"]`);
+    sel.style.display=sel.style.display==="none"?"block":"none";
+  });
+  wrap.querySelectorAll(".swapsel select").forEach(sel=>sel.onchange=()=>{
+    const ci=Number(sel.closest(".swapsel").dataset.ci);
+    const [br,m]=sel.value.split("|");
+    curModels[ci]=[br,m];
+    renderMatrix();
+  });
+  wrap.querySelectorAll(".rmicon").forEach(el=>el.onclick=()=>{
+    curModels.splice(Number(el.dataset.ci),1);
+    renderMatrix();
+  });
+  const addBtn=wrap.querySelector(".addicon");
+  if(addBtn)addBtn.onclick=()=>{
+    const used=new Set(curModels.map(([br,m])=>br+"|"+m));
+    const next=POOL_KEYS.find(k=>!used.has(k));
+    if(!next)return;
+    const [br,m]=next.split("|");
+    curModels.push([br,m]);
+    renderMatrix();
+  };
 }
 sections[2].querySelectorAll("#batChips .chip").forEach(c=>c.onclick=()=>renderBattle(Number(c.dataset.i)));
-function setMode(m){batMode=m;sections[2].querySelector("#modeRank").classList.toggle("on",m==="rank");sections[2].querySelector("#modeVal").classList.toggle("on",m==="value");renderBattle(curBattle)}
+function setMode(m){batMode=m;sections[2].querySelector("#modeRank").classList.toggle("on",m==="rank");sections[2].querySelector("#modeVal").classList.toggle("on",m==="value");renderMatrix()}
 sections[2].querySelector("#modeRank").onclick=()=>setMode("rank");
 sections[2].querySelector("#modeVal").onclick=()=>setMode("value");
 renderBattle(0);
