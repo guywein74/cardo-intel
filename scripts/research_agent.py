@@ -256,13 +256,13 @@ Return the delta JSON now."""
     if stop_reason == "max_tokens":
         print(f"⚠️ Response for {brand} was cut off at max_tokens ({len(full_response)} chars received)")
 
-    # Parse the JSON response
+    # Parse the JSON response. raw_decode reads exactly one JSON value and
+    # ignores any trailing text, unlike find('{')/rfind('}') which breaks
+    # if the response has commentary after the JSON object.
     try:
         json_start = full_response.find('{')
-        json_end = full_response.rfind('}') + 1
-        if json_start >= 0 and json_end > json_start:
-            json_str = full_response[json_start:json_end]
-            delta = json.loads(json_str)
+        if json_start >= 0:
+            delta, _ = json.JSONDecoder().raw_decode(full_response, json_start)
             print(f"✅ Parsed {brand} delta from Claude: {list(delta.keys()) or '(no changes)'}")
         else:
             print(f"⚠️ No JSON found in Claude response for {brand}, treating as no changes")

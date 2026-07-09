@@ -151,13 +151,14 @@ Use straight ASCII quotes. Validate the JSON before outputting."""
     if stop_reason == "max_tokens":
         print(f"⚠️ Response was cut off at max_tokens ({len(full_response)} chars received)")
 
-    # Parse JSON from response
+    # Parse JSON from response. Use raw_decode instead of find('{')/rfind('}')
+    # so trailing text after a valid JSON object (commentary, etc.) doesn't
+    # break the parse - raw_decode reads exactly one JSON value and ignores
+    # whatever follows it.
     try:
         json_start = full_response.find('{')
-        json_end = full_response.rfind('}') + 1
-        if json_start >= 0 and json_end > json_start:
-            json_str = full_response[json_start:json_end]
-            insights = json.loads(json_str)
+        if json_start >= 0:
+            insights, _ = json.JSONDecoder().raw_decode(full_response, json_start)
 
             # Ensure generated date is today
             insights["generated"] = datetime.now().strftime('%Y-%m-%d')
