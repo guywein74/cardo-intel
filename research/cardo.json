@@ -273,7 +273,7 @@
       "name": "Freecom 4x",
       "tier": "mid",
       "msrp_usd": 314.95,
-      "street_price_usd": 270,
+      "street_price_usd": 283.46,
       "intercom_tech": "Bluetooth 5.2 'Live Intercom' (no mesh)",
       "range_km": 1.2,
       "max_riders": 4,
@@ -288,7 +288,7 @@
         "Fast charge USB-C"
       ],
       "release_year": 2021,
-      "notes": "MSRP raised from ~$269.95 to $314.95 in 2025; street prices often near old MSRP. Shoei (4X-S) and HJC (HJC 4X, $299.95) integrated versions exist.",
+      "notes": "MSRP raised from ~$269.95 to $314.95 in 2025; street prices often near old MSRP. Shoei (4X-S) and HJC (HJC 4X, $299.95) integrated versions exist. Street price confirmed 2026-07-08 via RevZilla ($283.46, -10%) and Amazon storefront (same $283.46), superseding a stale $270 figure.",
       "dimensions": {
         "form_factor": {
           "weight_g": 37,
@@ -327,7 +327,7 @@
         },
         "price": {
           "msrp_usd": 314.95,
-          "street_usd": 270,
+          "street_usd": 283.46,
           "segment_position": "Upper-mid Bluetooth-only; post-2025 hike it now overlaps entry mesh rivals' pricing"
         }
       }
@@ -336,7 +336,7 @@
       "name": "Freecom 2x",
       "tier": "entry",
       "msrp_usd": 254.95,
-      "street_price_usd": 210,
+      "street_price_usd": 203.96,
       "intercom_tech": "Bluetooth 5.2 'Live Intercom' (no mesh)",
       "range_km": 0.8,
       "max_riders": 2,
@@ -351,7 +351,7 @@
         "Fast charge USB-C"
       ],
       "release_year": 2021,
-      "notes": "Rider+passenger / 2-rider use case. MSRP raised from $209.95 to $254.95 in 2025.",
+      "notes": "Rider+passenger / 2-rider use case. MSRP raised from $209.95 to $254.95 in 2025. Street price confirmed 2026-07-08: Amazon storefront $203.96 (-20%), RevZilla $229.46 (-10%); lowest verified price used.",
       "dimensions": {
         "form_factor": {
           "weight_g": 37,
@@ -390,7 +390,7 @@
         },
         "price": {
           "msrp_usd": 254.95,
-          "street_usd": 210,
+          "street_usd": 203.96,
           "segment_position": "Mid-price rider+passenger unit; JBL audio is its main differentiator vs cheaper 2-rider rivals"
         }
       }
@@ -399,7 +399,7 @@
       "name": "Spirit HD",
       "tier": "entry",
       "msrp_usd": 179.95,
-      "street_price_usd": null,
+      "street_price_usd": 161.96,
       "intercom_tech": "Bluetooth 5.2 (no mesh)",
       "range_km": 0.6,
       "max_riders": 2,
@@ -414,7 +414,7 @@
         "Universal Bluetooth connectivity"
       ],
       "release_year": 2021,
-      "notes": "Budget line, 2-year warranty. HJC Spirit integrated version $149.95.",
+      "notes": "Budget line, 2-year warranty. HJC Spirit integrated version $149.95. Street price confirmed 2026-07-08: RevZilla and Amazon storefront both list $161.96 (-10% off $179.95).",
       "dimensions": {
         "form_factor": {
           "weight_g": 35,
@@ -453,7 +453,7 @@
         },
         "price": {
           "msrp_usd": 179.95,
-          "street_usd": null,
+          "street_usd": 161.96,
           "segment_position": "Budget tier; competes with Sena entry units and Chinese brands on price"
         }
       }
@@ -462,7 +462,7 @@
       "name": "Spirit",
       "tier": "entry",
       "msrp_usd": 109.95,
-      "street_price_usd": null,
+      "street_price_usd": 98.95,
       "intercom_tech": "Bluetooth (no mesh)",
       "range_km": 0.4,
       "max_riders": 2,
@@ -477,7 +477,7 @@
         "Charge-while-riding"
       ],
       "release_year": 2021,
-      "notes": "Entry price anchor of the range. 2-year warranty.",
+      "notes": "Entry price anchor of the range. 2-year warranty. Street price confirmed 2026-07-08: RevZilla and Amazon storefront both list $98.95 (-10% off $109.95).",
       "dimensions": {
         "form_factor": {
           "weight_g": 35,
@@ -516,7 +516,7 @@
         },
         "price": {
           "msrp_usd": 109.95,
-          "street_usd": null,
+          "street_usd": 98.95,
           "segment_position": "Entry anchor; head-to-head with budget Chinese units (Fodsports, Lexin) on price"
         }
       }
