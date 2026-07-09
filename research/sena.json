@@ -1180,6 +1180,82 @@
       "release_year": null,
       "notes": "Highest-tier product in Sena Industrial's hearing-protection headset collection (alongside Tufftalk/Tufftalk Lite/Tufftalk M), per https://senaindustrial.com/collections/communication-headsets-with-hearing-protection. Not marketed as a motorcycle product.",
       "url": "https://senaindustrial.com/products/cast"
+    },
+    {
+      "name": "Snowtalk 2",
+      "category": "outdoor",
+      "usage": "Ski, snowboard",
+      "tier": "entry",
+      "msrp_usd": 99.0,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth (HSP/HFP/A2DP/AVRCP), HD intercom",
+      "range_km": 0.7,
+      "max_riders": 4,
+      "audio": "32mm speaker (4.4mm thin, fits ski helmet ear pads), Advanced Noise Control",
+      "talk_time_hours": 6.5,
+      "waterproof": null,
+      "features": [
+        "Installs directly into snow helmet ear pads",
+        "External wired microphone (70mm) for helmet strap mounting",
+        "Three-button glove-friendly controls",
+        "Sena Outdoor App with Smart Intercom Pairing via QR codes",
+        "Phone calls and music streaming",
+        "Operating range -10C to 55C"
+      ],
+      "release_year": null,
+      "notes": "Snow-sports-specific communicator, designed to be built into ski/snowboard helmet ear pads rather than clamped to a moto helmet shell.",
+      "url": "https://www.sena.com/en-us/product/snowtalk2/"
+    },
+    {
+      "name": "BiKom 20",
+      "category": "outdoor",
+      "usage": "Cycling",
+      "tier": "mid",
+      "msrp_usd": 169.0,
+      "street_price_usd": null,
+      "intercom_tech": "Mesh Intercom 3.0 (virtually unlimited participants, open mesh) + Bluetooth 5.2 (HSP/HFP/A2DP/AVRCP)",
+      "range_km": 0.8,
+      "max_riders": null,
+      "audio": "Open-ear headset design, Advanced Noise Control",
+      "talk_time_hours": 8,
+      "waterproof": "IPX7",
+      "features": [
+        "20g ultra-lightweight cycling communicator",
+        "Audible Bicycle Computer (ABC) with voice prompts",
+        "Foldable mute-capable microphone",
+        "6 customizable communication channels",
+        "OTA firmware updates",
+        "Strap and cap-clip mounts, installs in under a minute",
+        "Dual pack available at $319"
+      ],
+      "release_year": null,
+      "notes": "Purpose-built cycling communicator, not a repurposed moto unit - open-ear design keeps ambient road awareness.",
+      "url": "https://www.sena.com/en-us/product/bikom-20/"
+    },
+    {
+      "name": "pi",
+      "category": "outdoor",
+      "usage": "Cycling, skating, multi-sport",
+      "tier": "entry",
+      "msrp_usd": 99.0,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth, 2-way HD intercom",
+      "range_km": 0.4,
+      "max_riders": 2,
+      "audio": "Advanced Noise Control",
+      "talk_time_hours": 6,
+      "waterproof": null,
+      "features": [
+        "Universal clip converts any helmet with standard straps into a smart helmet",
+        "Two-button operation on left speaker",
+        "Sena Cycling App compatibility",
+        "Clips to straps up to 18mm wide",
+        "Weighs 37g, 2.5h charge time",
+        "Operating range -10C to 55C"
+      ],
+      "release_year": null,
+      "notes": "Sena's most general-purpose outdoor unit - not tied to one sport, clips onto whatever helmet strap the rider already has (cycling, skating, other strap-helmet activities).",
+      "url": "https://www.sena.com/en-us/product/pi/"
     }
   ],
   "strengths": [

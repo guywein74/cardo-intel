@@ -271,7 +271,9 @@
           "segment_position": "Unique category (outdoor/ski mesh comms) - few direct competitors"
         }
       },
-      "url": "https://cardosystems.com/products/packtalk-outdoor"
+      "url": "https://cardosystems.com/products/packtalk-outdoor",
+      "category": "outdoor",
+      "usage": "Ski, snowboard, cycling"
     },
     {
       "name": "Freecom 4x",

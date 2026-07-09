@@ -98,7 +98,7 @@ const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
 /* products flattened */
 let PRODUCTS=[];
 BRANDS.forEach(br=>br.products.forEach(p=>PRODUCTS.push({brand:br.competitor,...p})));
-PRODUCTS.forEach(p=>{p.eff=(p.street_price_usd??p.msrp_usd);p.isHelmet=/helmet/i.test(p.name);p.isHeadphone=/headphone|edgephones|ridephones|tufftalk|earbud/i.test(p.name);p.cat=p.category||(p.isHelmet?"smart_helmet":p.isHeadphone?"headphones":"communicator");p.mesh=/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")});
+PRODUCTS.forEach(p=>{p.eff=(p.street_price_usd??p.msrp_usd);p.isHelmet=/helmet/i.test(p.name);p.isHeadphone=/headphone|edgephones|ridephones|tufftalk|earbud/i.test(p.name);p.isOutdoor=/\bsnowtalk\b|\bbikom\b|\boutdoor\b/i.test(p.name);p.cat=p.category||(p.isHelmet?"smart_helmet":p.isHeadphone?"headphones":p.isOutdoor?"outdoor":"communicator");p.usage=p.usage||"Motorcycle";p.mesh=/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")});
 
 /* ---------- nav ---------- */
 const nav=document.getElementById("nav"),main=document.getElementById("main");
@@ -176,17 +176,19 @@ sections[0].querySelectorAll("#rmChips .chip[data-rb]").forEach(c=>c.onclick=()=
 renderRecentMoves();
 
 /* ---------- Products table ---------- */
-const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
+const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["usage","Usage"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
 const YEARS=Array.from(new Set(PRODUCTS.map(p=>p.release_year).filter(y=>y))).sort((a,b)=>b-a);
 const TIER_ORDER=["flagship","mid","entry"];
+const USAGES=Array.from(new Set(PRODUCTS.map(p=>p.usage))).sort((a,b)=>a==="Motorcycle"?-1:b==="Motorcycle"?1:a.localeCompare(b));
 const tiersFor=cat=>{const s=new Set(PRODUCTS.filter(p=>cat==="all"||p.cat===cat).map(p=>p.tier).filter(Boolean));return TIER_ORDER.filter(t=>s.has(t)).concat([...s].filter(t=>!TIER_ORDER.includes(t)))};
 const tierOpts=cat=>`<option value="all">All tiers</option>`+tiersFor(cat).map(t=>`<option>${esc(t)}</option>`).join("");
-let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fCat="all",fTier="all",fYear="all",fMesh=false,fSearch="";
+let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fCat="all",fTier="all",fYear="all",fUsage="all",fMesh=false,fSearch="";
 sections[1].innerHTML=`
   <div class="chips">
     ${BRANDS.map(b=>`<button class="chip on" data-b="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
-    <select id="catSel"><option value="all">All categories</option><option value="communicator">Communicators</option><option value="smart_helmet">Smart helmets</option><option value="headphones">Headphones</option></select>
+    <select id="catSel"><option value="all">All categories</option><option value="communicator">Communicators</option><option value="smart_helmet">Smart helmets</option><option value="headphones">Headphones</option><option value="outdoor">Outdoor</option></select>
     <select id="tierSel">${tierOpts("all")}</select>
+    <select id="usageSel"><option value="all">All usage</option>${USAGES.map(u=>`<option value="${esc(u)}">${esc(u)}</option>`).join("")}</select>
     <select id="yearSel"><option value="all">All years</option>${YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")}</select>
     <button class="chip" id="meshChip">Mesh only</button>
     <input type="search" id="srch" placeholder="Search product / feature…" style="flex:1;min-width:180px">
@@ -198,29 +200,32 @@ sections[1].innerHTML=`
 sections[1].querySelectorAll(".chip[data-b]").forEach(c=>c.onclick=()=>{const b=c.dataset.b;c.classList.toggle("on");c.classList.contains("on")?fBrands.add(b):fBrands.delete(b);renderTable()});
 sections[1].querySelector("#catSel").onchange=e=>{fCat=e.target.value;fTier="all";const ts=sections[1].querySelector("#tierSel");ts.innerHTML=tierOpts(fCat);ts.value="all";renderTable()};
 sections[1].querySelector("#tierSel").onchange=e=>{fTier=e.target.value;renderTable()};
+sections[1].querySelector("#usageSel").onchange=e=>{fUsage=e.target.value;renderTable()};
 sections[1].querySelector("#yearSel").onchange=e=>{fYear=e.target.value;renderTable()};
 sections[1].querySelector("#meshChip").onclick=e=>{fMesh=!fMesh;e.target.classList.toggle("on",fMesh);renderTable()};
 sections[1].querySelector("#srch").oninput=e=>{fSearch=e.target.value.toLowerCase();renderTable()};
 sections[1].querySelectorAll("th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=(sortKey===k)?-sortDir:1;sortKey=k;renderTable()});
 function renderTable(){
   const tb=sections[1].querySelector("tbody");
-  let rows=PRODUCTS.filter(p=>fBrands.has(p.brand)&&(fCat==="all"||p.cat===fCat)&&(fTier==="all"||p.tier===fTier)&&(fYear==="all"||p.release_year==fYear)&&(!fMesh||p.mesh)&&(!fSearch||JSON.stringify(p).toLowerCase().includes(fSearch)));
+  let rows=PRODUCTS.filter(p=>fBrands.has(p.brand)&&(fCat==="all"||p.cat===fCat)&&(fTier==="all"||p.tier===fTier)&&(fUsage==="all"||p.usage===fUsage)&&(fYear==="all"||p.release_year==fYear)&&(!fMesh||p.mesh)&&(!fSearch||JSON.stringify(p).toLowerCase().includes(fSearch)));
   rows.sort((a,b)=>{let x=a[sortKey],y=b[sortKey];if(x==null)return 1;if(y==null)return -1;return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*sortDir});
   sections[1].querySelectorAll("th .arrow").forEach(a=>a.textContent="");
   const th=sections[1].querySelector(`th[data-k="${sortKey}"] .arrow`);if(th)th.textContent=sortDir>0?"↑":"↓";
   sections[1].querySelector("#count").textContent=rows.length+" products";
+  const catBadge=p=>p.cat==="smart_helmet"?`<span class="badge b-partial">smart helmet</span>`:p.cat==="headphones"?`<span class="badge b-partial">headphones</span>`:p.cat==="outdoor"?`<span class="badge b-partial">outdoor</span>`:esc(p.tier||"—");
   tb.innerHTML=rows.map((p,i)=>`
     <tr class="prod" data-i="${i}">
       <td><b>${esc(p.name)}</b></td>
       <td><span class="brandtag" style="color:${BCOLOR[p.brand]}">${p.brand}</span></td>
-      <td>${p.cat==="smart_helmet"?`<span class="badge b-partial">smart helmet</span>`:p.cat==="headphones"?`<span class="badge b-partial">headphones</span>`:esc(p.tier||"—")}</td>
+      <td>${catBadge(p)}</td>
+      <td class="small">${esc(p.usage)}</td>
       <td class="price">${fmt$(p.msrp_usd)}</td>
       <td class="price">${p.street_price_usd!=null&&p.msrp_usd!=null&&p.street_price_usd<p.msrp_usd?`<b>${fmt$(p.street_price_usd)}</b>`:fmt$(p.street_price_usd)}</td>
       <td class="small">${esc((p.intercom_tech||"—").slice(0,60))}</td>
       <td>${p.range_km??"—"}</td><td>${p.max_riders??"—"}</td><td>${p.talk_time_hours??"—"}</td>
       <td class="small">${esc((p.waterproof||"—").slice(0,26))}</td><td>${p.release_year??"—"}</td>
     </tr>
-    <tr class="expand" style="display:none"><td colspan="11">
+    <tr class="expand" style="display:none"><td colspan="12">
       <b>Features:</b> ${(p.features||[]).map(esc).join(" · ")||"—"}<br>
       ${p.notes?`<span class="muted"><b>Notes:</b> ${esc(p.notes)}</span><br>`:""}
       ${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener" class="small">View product page ↗</a>`:""}
@@ -364,7 +369,8 @@ function renderCompare(){
   const hl=(v,b)=>v!=null&&v===b?` style="color:var(--ok);font-weight:800"`:"";
   const rows=[
     ["Brand",p=>`<span class="brandtag" style="color:${BCOLOR[p.brand]}">${p.brand}</span>`],
-    ["Tier / type",p=>p.cat==="smart_helmet"?`<span class="badge b-partial">smart helmet</span>`:p.cat==="headphones"?`<span class="badge b-partial">headphones</span>`:esc(p.tier||"—")],
+    ["Tier / type",p=>p.cat==="smart_helmet"?`<span class="badge b-partial">smart helmet</span>`:p.cat==="headphones"?`<span class="badge b-partial">headphones</span>`:p.cat==="outdoor"?`<span class="badge b-partial">outdoor</span>`:esc(p.tier||"—")],
+    ["Usage",p=>esc(p.usage)],
     ["MSRP",p=>`<span class="price">${fmt$(p.msrp_usd)}</span>`],
     ["Street / effective",p=>`<span class="price"${hl(eff(p),best.priceMin)}>${fmt$(eff(p))}</span>`],
     ["Intercom tech",p=>`<span class="small">${esc(p.intercom_tech||"—")}</span>`],
@@ -400,17 +406,17 @@ renderCompare();
 
 /* ---------- Pricing chart ---------- */
 sections[4].innerHTML=`
-  <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button><select id="pTierSel">${tierOpts("communicator")}<option value="smart_helmet">smart helmets</option><option value="headphones">headphones</option></select></div>
+  <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button><select id="pTierSel">${tierOpts("communicator")}<option value="smart_helmet">smart helmets</option><option value="headphones">headphones</option><option value="outdoor">outdoor</option></select></div>
   <div class="card"><div id="chart"></div>
   <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry / helmet</span><span>hover for details</span></div></div>
   <h2>Price ladder — cheapest helmet-mount mesh unit per brand</h2>
-  <div class="grid g4">${BRANDS.map(b=>{const m=b.products.filter(p=>/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")&&(p.street_price_usd??p.msrp_usd)!=null&&!/helmet|edgephones|ridephones|tufftalk|headset|headphone|accessor/i.test(p.name));if(!m.length)return "";const c=m.reduce((a,p)=>((p.street_price_usd??p.msrp_usd)<(a.street_price_usd??a.msrp_usd)?p:a));return `<div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3><div style="font-size:26px;font-weight:800" class="price">${fmt$(c.street_price_usd??c.msrp_usd)}</div><div class="small muted">${esc(c.name)} — cheapest mesh-capable unit</div></div>`}).join("")}</div>`;
+  <div class="grid g4">${BRANDS.map(b=>{const m=b.products.filter(p=>/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")&&(p.street_price_usd??p.msrp_usd)!=null&&!["smart_helmet","headphones","outdoor"].includes(p.category)&&!/helmet|edgephones|ridephones|tufftalk|headset|headphone|accessor|snowtalk|bikom|\boutdoor\b/i.test(p.name));if(!m.length)return "";const c=m.reduce((a,p)=>((p.street_price_usd??p.msrp_usd)<(a.street_price_usd??a.msrp_usd)?p:a));return `<div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3><div style="font-size:26px;font-weight:800" class="price">${fmt$(c.street_price_usd??c.msrp_usd)}</div><div class="small muted">${esc(c.name)} — cheapest mesh-capable unit</div></div>`}).join("")}</div>`;
 let inclHelmets=false,pTier="all";
 sections[4].querySelector("#helmChip").onclick=e=>{inclHelmets=!inclHelmets;e.target.classList.toggle("on",inclHelmets);drawChart()};
 sections[4].querySelector("#pTierSel").onchange=e=>{pTier=e.target.value;drawChart()};
 const tt=document.getElementById("tt");
 function drawChart(){
-  const pts=PRODUCTS.filter(p=>p.eff!=null&&(pTier==="smart_helmet"?p.cat==="smart_helmet":pTier==="headphones"?p.cat==="headphones":((inclHelmets||!p.isHelmet)&&!p.isHeadphone&&(pTier==="all"||p.tier===pTier))));
+  const pts=PRODUCTS.filter(p=>p.eff!=null&&(pTier==="smart_helmet"?p.cat==="smart_helmet":pTier==="headphones"?p.cat==="headphones":pTier==="outdoor"?p.cat==="outdoor":((inclHelmets||!p.isHelmet)&&!p.isHeadphone&&!p.isOutdoor&&p.cat!=="outdoor"&&(pTier==="all"||p.tier===pTier))));
   const W=1100,H=380,L=60,R=20,T=20,B=40,maxP=(pts.length?Math.max(...pts.map(p=>p.eff)):500)*1.08;
   const bx={};BRANDS.forEach((b,i)=>bx[b.competitor]=L+(W-L-R)*(i+0.5)/BRANDS.length);
   const y=v=>T+(H-T-B)*(1-v/maxP);
@@ -424,7 +430,7 @@ function drawChart(){
       const jitter=((i%3)-1)*22;
       const cx=bx[br]+jitter,cy=y(p.eff),c=BHEX[br];
       const shape=p.tier==="flagship"?`<path d="M${cx} ${cy-7} L${cx+7} ${cy+6} L${cx-7} ${cy+6} Z" fill="${c}"/>`:p.tier==="mid"?`<rect x="${cx-5.5}" y="${cy-5.5}" width="11" height="11" fill="${c}"/>`:`<circle cx="${cx}" cy="${cy}" r="6" fill="${c}"/>`;
-      s+=`<g class="pt" data-n="${esc(p.name)}" data-b="${br}" data-p="${p.eff}" data-m="${p.msrp_usd??""}" data-t="${p.tier||(p.cat==="smart_helmet"?"smart helmet":p.cat==="headphones"?"headphones":"")}" style="cursor:pointer">${shape}</g>`;
+      s+=`<g class="pt" data-n="${esc(p.name)}" data-b="${br}" data-p="${p.eff}" data-m="${p.msrp_usd??""}" data-t="${p.tier||(p.cat==="smart_helmet"?"smart helmet":p.cat==="headphones"?"headphones":p.cat==="outdoor"?"outdoor":"")}" style="cursor:pointer">${shape}</g>`;
     });
   });
   s+="</svg>";

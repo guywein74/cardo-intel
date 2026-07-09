@@ -229,8 +229,12 @@ PRODUCT CATEGORY CLASSIFICATION:
 Every product in "new_or_updated_products" must include a "category" field, one of:
 - "smart_helmet" - a full helmet with integrated communication system
 - "headphones" - an audio-only accessory (over-ear or earmuff-style) that pairs with a separate communicator unit rather than being a standalone communicator itself (e.g. Cardo Packtalk Edgephones, ASMAX F1 RidePhones, Sena Tufftalk line). If it's marketed primarily as hearing protection or off-helmet audio rather than as a full intercom system, classify it here even if it has its own Bluetooth/mesh chip.
+- "outdoor" - a communicator designed for non-motorcycle activities (ski/snowboard, cycling, skating, general outdoor/strap-helmet use) even if it uses the same underlying Bluetooth/mesh tech as the moto lineup, e.g. Cardo Packtalk Outdoor, Sena Snowtalk 2, Sena BiKom 20, Sena pi. If it's marketed at a specific non-moto sport or as a general multi-sport clip-on unit, classify it here.
 - "communicator" - the default: a standalone Bluetooth/mesh intercom unit, whether helmet-mounted or clamp-on
-Check {details.get('website')}'s full product catalog (not just what's in existing data) for any headphones-category products not yet tracked - this brand may have off-helmet audio accessories or industrial/multi-sport sub-brands worth capturing.
+Check {details.get('website')}'s full product catalog (not just what's in existing data) for any headphones-category or outdoor-category products not yet tracked - this brand may have off-helmet audio accessories, ski/cycling-specific units, or industrial/multi-sport sub-brands worth capturing.
+
+PRODUCT USAGE:
+Every product in "new_or_updated_products" should include a "usage" field: a short string describing what activity it's designed for, e.g. "Motorcycle" (the default for the main lineup), "Ski, snowboard", "Cycling", "Cycling, skating, multi-sport". Base this on how the brand actually markets the product, not a guess - check the product page's stated use case.
 
 PRODUCT PAGE URL:
 Every product in "new_or_updated_products" should include a "url" field: the direct link to that specific product's page on the brand's own official site (not a retailer, not a category/collection page). If you cannot find or verify the exact product page URL, use null rather than guessing - never fabricate a URL. When updating an existing product for another reason, include its correct "url" too if the existing entry is missing one.
