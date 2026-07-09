@@ -436,6 +436,7 @@ function drawChart(){
 drawChart();
 
 /* ---------- Gap analysis ---------- */
+const SEVERITY_ORDER=["critical","high","medium","low"];
 sections[5].innerHTML=`
   <h2>Pricing gaps by segment</h2>
   ${GAP.pricing_gaps.map(g=>`
@@ -447,19 +448,46 @@ sections[5].innerHTML=`
     <div class="small muted" style="margin-top:6px"><b>Insight:</b> ${esc(g.insight)}</div>
   </div>`).join("")}
   <h2>Feature gaps — Cardo vs the field</h2>
-  <div class="card" style="padding:0;overflow-x:auto"><table><thead><tr><th>Feature</th><th>Cardo status</th><th>Cardo</th><th>Competition</th><th>Severity</th><th>Recommendation</th></tr></thead>
-  <tbody>${GAP.feature_gaps.map(f=>`<tr>
-    <td><b>${esc(f.feature)}</b></td>
-    <td><span class="badge b-${f.cardo_status.replace(" ","-")}">${f.cardo_status}</span></td>
-    <td class="small" style="min-width:200px">${esc(f.cardo_note)}</td>
-    <td class="small" style="min-width:220px">${esc(f.competitor_note)}</td>
-    <td><span class="badge b-${f.severity}">${f.severity}</span></td>
-    <td class="small" style="min-width:200px">${esc(f.recommendation)}</td></tr>`).join("")}
-  </tbody></table></div>
+  <div class="chips">
+    <select id="fgSevSel"><option value="all">All severities</option>${SEVERITY_ORDER.filter(s=>new Set(GAP.feature_gaps.map(f=>f.severity)).has(s)).map(s=>`<option value="${s}">${s[0].toUpperCase()+s.slice(1)}</option>`).join("")}</select>
+    <select id="fgStatusSel"><option value="all">All statuses</option>${[...new Set(GAP.feature_gaps.map(f=>f.cardo_status))].sort().map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select>
+    <span class="small muted" id="fgCount"></span>
+  </div>
+  <div class="card" style="padding:0;overflow-x:auto"><table id="fgTable"><thead><tr>
+    <th data-k="feature">Feature <span class="arrow"></span></th>
+    <th data-k="cardo_status">Cardo status <span class="arrow"></span></th>
+    <th>Cardo</th><th>Competition</th>
+    <th data-k="severity">Severity <span class="arrow"></span></th>
+    <th>Recommendation</th></tr></thead>
+  <tbody></tbody></table></div>
   <h2>Where Cardo leads</h2>
   <div class="grid g4">${GAP.advantages.map(a=>`<div class="card"><h3 style="color:var(--ok)">✓ ${esc(a.title)}</h3><div class="small">${esc(a.detail)}</div></div>`).join("")}</div>
   <h2>Recommended actions</h2>
   <div class="card reclist">${GAP.recommendations.map(r=>`<div class="rec"><div class="n">${r.priority}</div><div><b>${esc(r.title)}</b><div class="small muted">${esc(r.detail)}</div></div></div>`).join("")}</div>`;
+let fgSev="all",fgStatus="all",fgSortKey="severity",fgSortDir=1;
+function renderFeatureGaps(){
+  const tb=sections[5].querySelector("#fgTable tbody");
+  let rows=GAP.feature_gaps.filter(f=>(fgSev==="all"||f.severity===fgSev)&&(fgStatus==="all"||f.cardo_status===fgStatus));
+  rows=[...rows].sort((a,b)=>{
+    let x=a[fgSortKey],y=b[fgSortKey];
+    if(fgSortKey==="severity"){x=SEVERITY_ORDER.indexOf(a.severity);y=SEVERITY_ORDER.indexOf(b.severity)}
+    return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*fgSortDir;
+  });
+  sections[5].querySelectorAll("#fgTable th .arrow").forEach(a=>a.textContent="");
+  const th=sections[5].querySelector(`#fgTable th[data-k="${fgSortKey}"] .arrow`);if(th)th.textContent=fgSortDir>0?"↑":"↓";
+  sections[5].querySelector("#fgCount").textContent=rows.length+" of "+GAP.feature_gaps.length+" features";
+  tb.innerHTML=rows.map(f=>`<tr>
+    <td><b>${esc(f.feature)}</b></td>
+    <td><span class="badge b-${f.cardo_status.replace(" ","-")}">${esc(f.cardo_status)}</span></td>
+    <td class="small" style="min-width:200px">${esc(f.cardo_note)}</td>
+    <td class="small" style="min-width:220px">${esc(f.competitor_note)}</td>
+    <td><span class="badge b-${f.severity}">${esc(f.severity)}</span></td>
+    <td class="small" style="min-width:200px">${esc(f.recommendation)}</td></tr>`).join("");
+}
+sections[5].querySelector("#fgSevSel").onchange=e=>{fgSev=e.target.value;renderFeatureGaps()};
+sections[5].querySelector("#fgStatusSel").onchange=e=>{fgStatus=e.target.value;renderFeatureGaps()};
+sections[5].querySelectorAll("#fgTable th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;fgSortDir=(fgSortKey===k)?-fgSortDir:1;fgSortKey=k;renderFeatureGaps()});
+renderFeatureGaps();
 
 /* ---------- Social & Press: dashboard + media feed ---------- */
 const num = v => v==null?"n/a":(v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?Math.round(v/1e3)+"K":v);
