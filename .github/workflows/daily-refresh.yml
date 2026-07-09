@@ -65,12 +65,20 @@ jobs:
           python scripts/research_agent.py reso
           echo "✅ Reso research complete"
 
-      - name: Run Social Media Listener agent
+      - name: Run Social Media Listener agent (Reddit)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/social_media_listener.py
           echo "✅ Social Media Listener complete"
+
+      - name: Run Apify Social Listener (Facebook Groups + Instagram)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+        run: |
+          python scripts/apify_social_listener.py
+          echo "✅ Apify Social Listener complete"
 
       - name: Run Product Expert agent
         env:

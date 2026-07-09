@@ -1798,6 +1798,86 @@
       "topic": "Voice command issue",
       "summary": "Rider reports 'Hey Cardo' voice activation frequently fails to engage even with voice commands enabled and mic sensitivity maxed; a recurring complaint echoed in multiple older threads about voice commands not working reliably on Packtalk models.",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1pvofbv/hey_cardo_is_not_engaging/"
+    },
+    {
+      "date": "2026-07-09",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Music sharing pairing confusion",
+      "summary": "A rider trying to pair a Packtalk Pro with a partner's Packtalk Slim for music sharing found the DMC-to-Bluetooth-intercom-mode switching process confusing and inconsistent, and was frustrated that a premium product requires multi-step button-hold combinations rather than one-touch pairing.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4502804486675331/"
+    },
+    {
+      "date": "2026-07-09",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "neutral",
+      "topic": "Replacement part request",
+      "summary": "An owner's Packtalk Edge clip broke and asked whether the part can be purchased separately rather than replacing the whole unit.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4502801986675581/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Spirit HD",
+      "sentiment": "negative",
+      "topic": "Hard reset failure",
+      "summary": "An owner could not get their Spirit HD to perform a hard reset despite repeatedly pressing the documented 3-button combination.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4502434690045644/"
+    },
+    {
+      "date": "2026-07-08",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Spirit HD",
+      "sentiment": "negative",
+      "topic": "App pairing failure",
+      "summary": "A new owner of a pair of Spirit HDs could not connect either unit to the Cardo app despite following manuals and YouTube tutorials, and asked the community for help.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4502276093394837/"
+    },
+    {
+      "date": "2026-07-07",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Neo",
+      "sentiment": "negative",
+      "topic": "Rain causing mic feedback loop",
+      "summary": "An owner reported their Packtalk Neo malfunctions in rain, causing the microphone to loop back other riders' audio, and asked for tips on protecting the unit from heavy rain.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4501521743470272/"
+    },
+    {
+      "date": "2026-07-07",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Half-helmet compatibility question",
+      "summary": "A rider asked how Packtalk units perform on half helmets, specifically whether wind and engine noise interferes with performance.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4501126516843128/"
+    },
+    {
+      "date": "2026-07-07",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Bike/phone/headset setup confusion",
+      "summary": "A new Packtalk Pro owner on a 2026 Road Glide CVO described significant confusion trying to get voice commands and navigation working across the motorcycle, phone, and headset simultaneously.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4500599483562498/"
+    },
+    {
+      "date": "2026-07-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Cross-brand pairing regression",
+      "summary": "A rider whose Packtalk Bold paired fine with a friend's Sena unit last year found the connection now drops every 15-20 seconds even at close range, despite using the same two devices as before.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4500493113573135/"
     }
   ]
 }

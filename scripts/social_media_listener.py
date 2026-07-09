@@ -33,12 +33,11 @@ def run_social_media_listener() -> dict:
 
 TODAY'S DATE: """ + datetime.now().strftime('%Y-%m-%d') + """
 
-TASK: Search for and collect NEW customer feedback from:
-1. Reddit r/motorcyclegear (public, searchable)
-2. Cardo owners Facebook group (member-gated, limited access expected)
-3. Sena owners Facebook group (member-gated)
-4. ASMAX owners Facebook group (member-gated)
-5. Reso owners Facebook group (member-gated)
+TASK: Search for and collect NEW customer feedback from Reddit r/motorcyclegear (public, searchable).
+
+Facebook Group and Instagram feedback is handled separately by scripts/apify_social_listener.py,
+which uses real Apify scraper actors rather than this model's own recall - do not attempt to
+generate Facebook content here, it has no way to verify real posts exist.
 
 SEARCH TERMS:
 - "Cardo" + "Packtalk", "Edge", "Pro", "mesh", "battery", "range", "pairing"
@@ -48,21 +47,20 @@ SEARCH TERMS:
 
 CRITICAL RULES:
 1. ONLY REAL POSTS - Never fabricate customer feedback, posts, or URLs
-2. Expect limited success on Facebook (member-gated) - that's normal
-3. Reddit is the most reliable source - focus here
-4. Extract sentiment: positive, negative, mixed, or neutral
-5. Include real product names (exact match with products[] in JSONs)
-6. Summarize in 1-3 sentences (real words, no invention)
-7. Include real URLs or null if not available
-8. Do NOT duplicate existing posts (check dates)
+2. Reddit only - do not include Facebook or Instagram content, that's handled elsewhere
+3. Extract sentiment: positive, negative, mixed, or neutral
+4. Include real product names (exact match with products[] in JSONs)
+5. Summarize in 1-3 sentences (real words, no invention)
+6. Include real URLs or null if not available
+7. Do NOT duplicate existing posts (check dates)
 
 OUTPUT FORMAT: Return JSON object with keys for each brand:
 {
   "cardo": [
     {
       "date": "YYYY-MM-DD",
-      "source": "Reddit" or "Facebook Group",
-      "forum": "r/motorcyclegear" or group name,
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
       "product": "exact product name or General",
       "sentiment": "positive|negative|mixed|neutral",
       "topic": "2-5 word label",

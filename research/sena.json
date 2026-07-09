@@ -2193,6 +2193,36 @@
       "topic": "Reliability concern despite discount",
       "summary": "Rider asks whether a heavily discounted Sena SRL-EXT intercom is worth buying; a commenter notes that specific model has had more reported issues than others despite the appealing price.",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1s39kr5/sena_srlext_intercom_massive_discount_worth_it_at/"
+    },
+    {
+      "date": "2026-06-28",
+      "source": "Facebook Group",
+      "forum": "Sena Bluetooth Users Group",
+      "product": "Spider RT1 / ST1",
+      "sentiment": "negative",
+      "topic": "Firmware update breaks Bluetooth",
+      "summary": "An owner's Spider ST1 stopped connecting via Bluetooth after a firmware update; reinstalling firmware didn't help, and factory reset button combinations only reach pairing mode, not a true reset.",
+      "url": "https://www.facebook.com/groups/536803186737125/permalink/2557679127982844/"
+    },
+    {
+      "date": "2026-06-21",
+      "source": "Facebook Group",
+      "forum": "Sena Bluetooth Users Group",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Voice commands not working",
+      "summary": "An owner of a Sena SLR series unit reported voice commands ('Hey Google') show as listening on their phone but never execute, even after a firmware update.",
+      "url": "https://www.facebook.com/groups/536803186737125/permalink/2551276411956449/"
+    },
+    {
+      "date": "2026-06-09",
+      "source": "Facebook Group",
+      "forum": "Sena Bluetooth Users Group",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Firmware update and app connection failure",
+      "summary": "A Harley-Davidson-branded Sena 30K owner reported firmware updates no longer apply, the mesh won't start on channel one, group/channel can't be changed, and the new Sena Motorcycles mobile app won't connect at all - noted these HD-branded units are getting hard to find/support.",
+      "url": "https://www.facebook.com/groups/536803186737125/permalink/2540215289729228/"
     }
   ]
 }

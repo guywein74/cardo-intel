@@ -1286,6 +1286,76 @@
       "topic": "Price/performance",
       "summary": "User compared ASMAX F1 favorably to alternatives, noting it is roughly the same price as competitors while offering better value and supports mesh networking.",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1tgz0lx/are_these_junk_or_should_i_buy_one/"
+    },
+    {
+      "date": "2026-07-05",
+      "source": "Facebook Group",
+      "forum": "Asmax F1 intercom user community",
+      "product": "F1s",
+      "sentiment": "negative",
+      "topic": "Mount retention failure",
+      "summary": "An owner of a 2-pack of F1s units reported the main unit repeatedly pops out of its mount when anything touches the release buttons, causing it to fall off multiple times while riding - once landing in the street.",
+      "url": "https://www.facebook.com/groups/1275973273584175/permalink/1766277674553730/"
+    },
+    {
+      "date": "2026-07-06",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "F1 Pro",
+      "sentiment": "neutral",
+      "topic": "Pricing question",
+      "summary": "A prospective buyer asked whether a quoted price they saw is the normal current price for the F1 Pro.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1005408418977155/"
+    },
+    {
+      "date": "2026-07-07",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "S2",
+      "sentiment": "neutral",
+      "topic": "Pre-purchase experience question",
+      "summary": "A prospective buyer asked existing owners about their real-world experience with the S2 before purchasing.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1005868105597853/"
+    },
+    {
+      "date": "2026-06-27",
+      "source": "Facebook Group",
+      "forum": "Asmax F1 intercom user community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Regional version incompatibility",
+      "summary": "An owner reported a China-market ASMAX unit could not connect with a Europe-market ASMAX unit, calling the cross-region pairing experience frustrating.",
+      "url": "https://www.facebook.com/groups/1275973273584175/permalink/1758856765295821/"
+    },
+    {
+      "date": "2026-06-16",
+      "source": "Facebook Group",
+      "forum": "Asmax F1 intercom user community",
+      "product": "F1",
+      "sentiment": "neutral",
+      "topic": "Mesh setup and range question",
+      "summary": "A user asked the community how to set up Mesh Mode on the F1 and what its real-world range is.",
+      "url": "https://www.facebook.com/groups/1275973273584175/permalink/1750053736176124/"
+    },
+    {
+      "date": "2026-06-15",
+      "source": "Facebook Group",
+      "forum": "Asmax F1 intercom user community",
+      "product": "F1",
+      "sentiment": "negative",
+      "topic": "Audio dropout and echo",
+      "summary": "A user with two F1 units reported audio cutting out with echo and delay despite updated settings, and asked whether others have seen the same issue (post in French).",
+      "url": "https://www.facebook.com/groups/1275973273584175/permalink/1749134389601392/"
+    },
+    {
+      "date": "2026-06-15",
+      "source": "Facebook Group",
+      "forum": "Asmax F1 intercom user community",
+      "product": "F1 Pro",
+      "sentiment": "negative",
+      "topic": "One-way audio in group mode",
+      "summary": "A user testing an F1 Pro in Free/Group mode reported other riders could hear them, but they could not hear others at all.",
+      "url": "https://www.facebook.com/groups/1275973273584175/permalink/1748800739634757/"
     }
   ]
 }
