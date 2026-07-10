@@ -20,8 +20,8 @@
         {
           "brand": "ASMAX",
           "product": "F1s / F1 Pro Max",
-          "price": "$139.99 / $269 street",
-          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) \u2014 flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price"
+          "price": "$120.39 street (Amazon coupon, was $139.99) / $269 street",
+          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) \u2014 flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price; F1s also dropped further on Amazon's clippable coupon price"
         },
         {
           "brand": "Sena",
@@ -41,8 +41,8 @@
         {
           "brand": "Sena",
           "product": "50S / Spider RT1",
-          "price": "$262 / $199",
-          "note": "Both are MESH units; 50S street price corrected 2026-07-09 to $262 (Amazon storefront, down from $341); Spider brings 24-rider mesh at $199"
+          "price": "$262 / $239",
+          "note": "Both are MESH units; 50S street price corrected 2026-07-09 to $262 (Amazon storefront, down from $341); Spider RT1/ST1 repriced 2026-07-10 from $199 to $239 and now out of stock on Sena's own store (possible sign of a wind-down ahead of the Spider X Slim successor)"
         },
         {
           "brand": "Reso",
@@ -90,13 +90,13 @@
           "note": "Bluetooth entry, not yet in US"
         }
       ],
-      "gap": "ASMAX delivers mesh, AI voice control, a published waterproof rating and 2-yr warranty at $89.99 \u2014 below Cardo's most basic Bluetooth-only unit.",
+      "gap": "ASMAX delivers mesh, AI voice control, a published waterproof rating and 2-yr warranty at $83.99 (down from $89.99 as of July 2026) \u2014 below Cardo's most basic Bluetooth-only unit.",
       "severity": "high",
       "insight": "The entry tier is where the next generation of riders forms brand loyalty. Value-per-dollar at this tier has been conceded to Chinese challengers; only brand trust and dealer presence defend it today."
     },
     {
       "segment": "Smart helmets",
-      "cardo": "Beyond GT $949 / GTS $1,199 / Venture MX $799 (summer 2026)",
+      "cardo": "Beyond GT $949 / GTS $1,299 (MSRP raised from $1,199, launch pushed to late 2026) / Venture MX $799",
       "competitors": [
         {
           "brand": "Sena",
@@ -107,7 +107,7 @@
       ],
       "gap": "Cardo enters the category premium-first while Sena floods it with 8 models including a camera helmet. Venture (first integrated-mesh MX helmet) is a genuine first.",
       "severity": "medium",
-      "insight": "Category too young to score; watch Phantom CAM (camera is a feature Cardo has nowhere in the portfolio)."
+      "insight": "Category too young to score; watch Phantom CAM (camera is a feature Cardo has nowhere in the portfolio). GTS's July 2026 Red Dot Award: Product Design win is a genuine design credential, but the same announcement revealed a $100 MSRP hike and a summer-to-late-2026 launch slip — good PR paired with worse fundamentals."
     }
   ],
   "feature_gaps": [
@@ -139,7 +139,7 @@
       "feature": "Mesh below $250",
       "cardo_status": "missing",
       "cardo_note": "Freecom and Spirit lines are Bluetooth-only. Cheapest moto mesh is Packtalk Neo at $359.95.",
-      "competitor_note": "Sena Spider RT1 $199 (24-rider Mesh 2.0), ASMAX S1 $89.99 (8-rider mesh), Reso Pilot Neo $269 (15-rider mesh, IP67).",
+      "competitor_note": "Sena Spider RT1/ST1 $239 (24-rider Mesh 2.0, repriced from $199 in July 2026 and now out of stock on Sena's own store), ASMAX S1 $83.99 (8-rider mesh), Reso Pilot Neo $269 (15-rider mesh, IP67).",
       "severity": "critical",
       "recommendation": "A 'Packtalk Lite' style DMC unit at $199-249 (or bringing DMC to the Freecom platform) closes the lineup's biggest hole before ASMAX's 2025 generation reaches US retail."
     },
@@ -215,7 +215,7 @@
     },
     {
       "title": "Smart-helmet firsts",
-      "detail": "Venture is the world's first integrated-mesh MX helmet; Beyond GTS has replaceable battery + serviceable modules."
+      "detail": "Venture is the world's first integrated-mesh MX helmet; Beyond GTS has replaceable battery + serviceable modules and won a 2026 Red Dot Award: Product Design, though its MSRP rose to $1,299 and launch slipped to late 2026 in the same announcement."
     },
     {
       "title": "Community trust window",

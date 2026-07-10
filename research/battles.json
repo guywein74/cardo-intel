@@ -28,28 +28,27 @@
         "model": "Spirit",
         "price": "$109.95"
       },
-      "exec_summary": "Spirit still anchors the range on brand trust and OTA support, but at this price point ASMAX now sells MESH with an offline AI assistant and a published waterproof rating — a spec sheet Spirit cannot match. Sena 5R LITE matches Spirit's simplicity $10 cheaper. The entry tier is defended by distribution and brand, not by product.",
+      "exec_summary": "Spirit still anchors the range on brand trust and OTA support, but at this price point ASMAX now sells MESH with an offline AI assistant and a published waterproof rating — a spec sheet Spirit cannot match. Sena raised 5R LITE's price to $109 in July 2026, so it now costs about the same as Spirit rather than undercutting it — the entry tier is defended by distribution and brand, not by product.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "5R LITE",
-          "price": "$99",
-          "blurb": "Sena's lowest-profile entry unit; basic 2-rider Bluetooth, water-resistant.",
+          "price": "$109",
+          "blurb": "Sena's lowest-profile entry unit; basic 2-rider Bluetooth, water-resistant. Repriced from $99 to $109 in July 2026 (store-us.sena.com), now roughly at parity with Spirit.",
           "cardo_advantage": [
             "OTA updates via app",
             "Universal Bluetooth bridging",
             "Fast charge + charge-while-riding"
           ],
           "competitor_advantage": [
-            "$10 cheaper",
             "Slimmest profile in segment"
           ]
         },
         {
           "brand": "ASMAX",
           "model": "S1",
-          "price": "$89.99",
-          "blurb": "Mesh + BT 5.4 dual-chip, offline 'Hi Max' AI voice, IPX7, FOTA — flagship-class spec at the cheapest price in the market.",
+          "price": "$83.99",
+          "blurb": "Mesh + BT 5.4 dual-chip, offline 'Hi Max' AI voice, IPX7, FOTA — flagship-class spec at the cheapest price in the market. Amazon street price dropped from $89.99 to $83.99 in July 2026.",
           "cardo_advantage": [
             "Brand trust & Western dealer/service network",
             "Proven long-term firmware support"
@@ -59,7 +58,7 @@
             "Offline AI voice control",
             "Published IPX7 rating",
             "40mm speakers vs Spirit's 32mm",
-            "$20 cheaper"
+            "$26 cheaper"
           ],
           "to_test": [
             "Real-world range (claims 8 km, reviews ~1.2 km)"
@@ -350,8 +349,8 @@
             "note": "Spirit most expensive in segment",
             "values": [
               "$179",
-              "$139",
-              "$89",
+              "$109",
+              "$84",
               "$118"
             ]
           }
@@ -707,21 +706,21 @@
         "model": "Freecom 2x",
         "price": "$254.95 → $210 street"
       },
-      "exec_summary": "Freecom 2x sells premium 2-rider Bluetooth with JBL sound — but Sena's Spider RT1 offers 24-rider MESH for $11 less and ASMAX Future 1 brings mesh + AI at $155. A 2-rider BT unit above $200 is structurally hard to defend in 2026; JBL audio and Live Intercom UX are the remaining pillars.",
+      "exec_summary": "Freecom 2x sells premium 2-rider Bluetooth with JBL sound. Sena's Spider RT1/ST1 was repriced from $199 to $239 in July 2026 and is now marked out of stock on Sena's own store (possibly being wound down ahead of the Spider X Slim successor) — Freecom 2x now actually undercuts it at $210 street, though Spider still offers 24-rider MESH vs Freecom's 2-rider BT. ASMAX Future 1 still brings mesh + AI at $155. A 2-rider BT unit above $200 is structurally hard to defend in 2026; JBL audio and Live Intercom UX are the remaining pillars.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "Spider RT1 / ST1",
-          "price": "$199",
-          "blurb": "Affordable Mesh 2.0-only unit (24 riders, 8 km multi-hop). Successor Spider X Slim with Mesh 3.0 announced at EICMA 2025.",
+          "price": "$239 (out of stock on Sena's own store)",
+          "blurb": "Affordable Mesh 2.0-only unit (24 riders, 8 km multi-hop). Repriced from $199 to $239 in July 2026, and all variants now show out of stock on store-us.sena.com — a likely sign the line is being sunset ahead of the Spider X Slim (Mesh 3.0) successor announced at EICMA 2025.",
           "cardo_advantage": [
             "Sound by JBL 40mm",
             "Bluetooth phone+intercom flexibility",
-            "Polished app/OTA experience"
+            "Polished app/OTA experience",
+            "$29 cheaper at street now that Spider RT1/ST1 is repriced to $239"
           ],
           "competitor_advantage": [
             "24-rider MESH vs 2-rider BT",
-            "$11 cheaper",
             "Fast charge 20 min = 3.5 h"
           ],
           "to_test": [
@@ -975,14 +974,14 @@
           {
             "dimension": "Price",
             "scores": [
+              "soso",
               "bad",
-              "good",
               "good"
             ],
-            "note": "Most expensive, least intercom capability in segment",
+            "note": "Spider RT1/ST1 repriced to $239 (was $199) and now out of stock on Sena's own store; Freecom 2x undercuts it at $210 street but still lacks mesh",
             "values": [
               "$210",
-              "$199",
+              "$239",
               "$155"
             ]
           }
@@ -1691,7 +1690,7 @@
         "model": "Packtalk Pro",
         "price": "$499.95"
       },
-      "exec_summary": "Cardo still owns the reliability crown — DMC, IP67, crash detection, and nearly every 'best overall' verdict. But the price umbrella is under attack from three directions: Sena 60S EVO ($459) with Bose audio + lifetime warranty, Reso Pilot Pro ($359) matching the safety stack, and ASMAX F1s ($140) resetting the price floor. Wave/CloudTalk-style cellular intercom is the marketing capability gap; the 2025 MSRP hikes are the self-inflicted one.",
+      "exec_summary": "Cardo still owns the reliability crown — DMC, IP67, crash detection, and nearly every 'best overall' verdict. But the price umbrella is under attack from three directions: Sena 60S EVO ($459) with Bose audio + lifetime warranty, Reso Pilot Pro ($359) matching the safety stack, and ASMAX F1s ($120 with Amazon coupon, down from $140) resetting the price floor even lower. Wave/CloudTalk-style cellular intercom is the marketing capability gap; the 2025 MSRP hikes are the self-inflicted one.",
       "matchups": [
         {
           "brand": "Sena",
@@ -1778,8 +1777,8 @@
         {
           "brand": "ASMAX",
           "model": "F1s",
-          "price": "$139.99",
-          "blurb": "The price-floor reset: mesh + offline AI voice + IP67 + FOTA at 28% of Packtalk Pro's price. Range claims don't survive testing, but the value optics damage the whole premium tier.",
+          "price": "$139.99 → $120.39 w/ Amazon coupon",
+          "blurb": "The price-floor reset: mesh + offline AI voice + IP67 + FOTA at ~24% of Packtalk Pro's price (down from ~28% before the July 2026 coupon price drop). Range claims don't survive testing, but the value optics damage the whole premium tier.",
           "cardo_advantage": [
             "Real range & mesh reliability",
             "Audio quality",
@@ -2176,7 +2175,7 @@
               "$459",
               "$459",
               "$359",
-              "$139"
+              "$120"
             ]
           }
         ]
@@ -2191,13 +2190,13 @@
         "model": "Packtalk Edge",
         "price": "$439.95 → $396 street"
       },
-      "exec_summary": "The Edge is the previous-gen DMC flagship, now the smart value pick below the Packtalk Pro: same 2nd-gen Dynamic Mesh, 40mm JBL audio and IP67 build, minus the Pro's IMU crash detection. At $396 street it collides head-on with the Sena 60S, which is also ~$351 discounted post-EVO and counters with Wave cellular intercom and a 24-rider mesh. Edge wins on JBL audio and mesh polish; 60S wins on unlimited-range Wave and rider count. ASMAX F1s undercuts both on paper-spec at ~$227.",
+      "exec_summary": "The Edge is the previous-gen DMC flagship, now the smart value pick below the Packtalk Pro: same 2nd-gen Dynamic Mesh, 40mm JBL audio and IP67 build, minus the Pro's IMU crash detection. At $396 street it collides head-on with the Sena 60S, which is also ~$351 discounted post-EVO and counters with Wave cellular intercom and a 24-rider mesh — though as of July 2026 the 60S is showing out of stock on Sena's own store (MSRP unchanged at $439), leaving Amazon's official storefront as the only channel still selling it, near full price, so the $351 comparison point may not hold much longer. Edge wins on JBL audio and mesh polish; 60S wins on unlimited-range Wave and rider count. ASMAX F1s undercuts both on paper-spec at ~$227.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "60S",
           "price": "$439 → ~$351",
-          "blurb": "Prior Sena flagship, now discounted under the 60S EVO. Mesh 3.0 + Wave cellular + Harman Kardon, 24-rider mesh.",
+          "blurb": "Prior Sena flagship, now discounted under the 60S EVO — and as of July 2026 marked out of stock on Sena's own store, still buyable via Amazon's official Sena storefront near full price. Mesh 3.0 + Wave cellular + Harman Kardon, 24-rider mesh.",
           "cardo_advantage": [
             "Sound by JBL 40mm vs Harman Kardon (subjective, but Edge audio well-reviewed)",
             "DMC mesh reconnection speed & polish",
@@ -2520,7 +2519,7 @@
             "values": [
               "$396",
               "$459",
-              "$139",
+              "$120",
               "$359"
             ]
           }
@@ -2818,9 +2817,9 @@
       "hero": {
         "brand": "Cardo",
         "model": "Beyond GTS (smart helmet)",
-        "price": "$1,199 (GT $949)"
+        "price": "$1,299 (GT $949)"
       },
-      "exec_summary": "Cardo's first fully integrated road helmets (GTS $1,199 carbon / GT $949 fiberglass) put DMC mesh — up to 31 riders — plus JBL audio and ANC into a serviceable, wireless-charging shell. But they land into a Sena smart-helmet line that is years deep and far cheaper: the Specter ($649) matches the touring brief with Mesh 3.0 + Wave cellular at nearly half the GTS price, and the Phantom family starts at $549 (quietly raised from $439). Cardo's pitch is premium materials, rider count and upgradeable modules; Sena's is proven helmet manufacturing, cellular range and price.",
+      "exec_summary": "Cardo's first fully integrated road helmets (GTS $1,299 carbon / GT $949 fiberglass) put DMC mesh — up to 31 riders — plus JBL audio and ANC into a serviceable, wireless-charging shell, and the GTS just picked up a 2026 Red Dot Award: Product Design. But they land into a Sena smart-helmet line that is years deep and far cheaper: the Specter ($649) matches the touring brief with Mesh 3.0 + Wave cellular at half the GTS price, and the Phantom family starts at $549 (quietly raised from $439). Cardo's own July 2026 award announcement also revealed the GTS's MSRP rose from $1,199 to $1,299 and its launch slipped from summer to late 2026 — giving Sena more runway before Cardo ships. Cardo's pitch is premium materials, rider count, upgradeable modules and now a design award; Sena's is proven helmet manufacturing, cellular range and price.",
       "matchups": [
         {
           "brand": "Sena",
@@ -3214,9 +3213,9 @@
               "good",
               "good"
             ],
-            "note": "GTS $1,199 is ~2x the Sena field; Phantom from $549",
+            "note": "GTS $1,299 (MSRP raised, launch slipped to late 2026) is ~2x the Sena field; Phantom from $549",
             "values": [
-              "$1199",
+              "$1299",
               "$649",
               "$549",
               "$479",
