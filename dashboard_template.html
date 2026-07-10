@@ -27,7 +27,8 @@ html[data-theme="sepia"]{
   --ok:#3f7d3a; --warn:#9c6b12; --bad:#a8302c; --partial:#6a4fa0;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:60px}
+html{overflow-x:hidden}
+body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:60px;overflow-x:hidden;max-width:100vw}
 header{padding:28px 32px 0}
 h1{font-size:24px;font-weight:700}
 h1 .accent{color:var(--cardo)}
@@ -94,7 +95,7 @@ a{color:var(--link);text-decoration:none}
 </head>
 <body>
 <header style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap">
-  <div>
+  <div style="flex:1;min-width:0">
     <h1>Cardo <span class="accent">Competitive Intelligence</span></h1>
     <div class="sub">Cardo vs Sena vs ASMAX vs Reso · compiled by research agents · last updated <span id="lastUpdated">—</span></div>
   </div>
@@ -176,20 +177,20 @@ sections[0].innerHTML = `
   <!-- 2: Competitive positioning -->
   <div class="card" style="margin-bottom:16px">
     <h2 style="margin-top:0">Competitive positioning</h2>
-    <table style="font-size:12px;margin-bottom:8px">
+    <div style="overflow-x:auto"><table style="font-size:12px;margin-bottom:8px">
       <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Strengths</th><th style="padding:6px">Weaknesses</th></tr></thead>
       <tbody>
       ${BRANDS.map(b=>`<tr><td style="font-weight:700;padding:6px">${esc(b.competitor)}</td>
         <td style="padding:6px;color:var(--ok);font-size:11px">${b.strengths.slice(0,2).map(s=>esc(s.split(" - ")[0].split(" — ")[0].slice(0,60))).join(" • ")}</td>
         <td style="padding:6px;color:var(--bad);font-size:11px">${b.weaknesses.slice(0,2).map(s=>esc(s.split(" - ")[0].split(" — ")[0].slice(0,60))).join(" • ")}</td></tr>`).join("")}
       </tbody>
-    </table>
+    </table></div>
   </div>
 
   <!-- 3: Press coverage & market -->
   <div class="card" style="margin-bottom:16px">
     <h2 style="margin-top:0">Press coverage & market</h2>
-    <table style="font-size:12px">
+    <div style="overflow-x:auto"><table style="font-size:12px">
       <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Reviews</th><th style="padding:6px">Awards</th><th style="padding:6px">Tone</th></tr></thead>
       <tbody>
       ${BRANDS.map(b=>{const p=b.press_coverage||{};const tone=(p.overall_tone||"").split(/[.;—-]/)[0].slice(0,35);return `<tr><td style="font-weight:700;padding:6px">${esc(b.competitor)}</td>
@@ -197,7 +198,7 @@ sections[0].innerHTML = `
         <td style="padding:6px;text-align:center">${(p.awards||[]).length}</td>
         <td style="padding:6px;font-size:11px;color:var(--muted)">${esc(tone)}</td></tr>`}).join("")}
       </tbody>
-    </table>
+    </table></div>
   </div>
 
   <!-- 4: Recent moves -->
