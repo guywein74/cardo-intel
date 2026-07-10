@@ -36,7 +36,6 @@ jobs:
       - name: Run Cardo research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: |
           python scripts/research_agent.py cardo
           echo "✅ Cardo research complete"
@@ -44,7 +43,6 @@ jobs:
       - name: Run Sena research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: |
           python scripts/research_agent.py sena
           echo "✅ Sena research complete"
@@ -52,7 +50,6 @@ jobs:
       - name: Run ASMAX research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: |
           python scripts/research_agent.py asmax
           echo "✅ ASMAX research complete"
@@ -60,7 +57,6 @@ jobs:
       - name: Run Reso research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: |
           python scripts/research_agent.py reso
           echo "✅ Reso research complete"
