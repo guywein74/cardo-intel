@@ -1454,6 +1454,18 @@
         "platform": "Instagram",
         "summary": "Generic lifestyle/UGC-style repost ('Sunday to Saturday... you'll probably find me on two wheels') with adventure/dirtbike hashtags, no specific product callout.",
         "url": "https://www.instagram.com/p/DaiPJQfhdOj/"
+      },
+      {
+        "date": "2026-07-09",
+        "platform": "Instagram",
+        "summary": "Working from home is great, working from my motorcycle is better👍🏽 I can not tell you how much business I handle while rolling down the road thanks to my @cardosystems \n\nWe are making our last few stops of the convoy ending July 11th at @milwaukeeharley where we will give 1 rider a new 2026 @harleyd",
+        "url": "https://www.instagram.com/p/Dak9z8DRyf1/"
+      },
+      {
+        "date": "2026-07-10",
+        "platform": "Instagram",
+        "summary": "From first sketches to final form, BEYOND was designed around one thing: the rider.\nProud to see that vision recognized with a Red Dot Award.\nBuilt for riders. Designed to go BEYOND. \n\n#Cardo #Cardosystems #CardoFam",
+        "url": "https://www.instagram.com/p/Dam55zDjDlV/"
       }
     ]
   },
@@ -2362,6 +2374,36 @@
       "topic": "CarPlay intercom interruption",
       "summary": "User with a reliable Packtalk Edge connected to a CarPlay device reports that sat nav directions come through like a phone call, cutting off the intercom and interrupting conversations at roundabouts and junctions.",
       "url": "https://www.facebook.com/groups/1847605508861922/permalink/4503032073319239/"
+    },
+    {
+      "date": "2026-07-09",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Freecom 4x",
+      "sentiment": "negative",
+      "topic": "Voice command issue",
+      "summary": "User's Freecom 4 does not recognize voice commands and asks about a YouTube tip to change the language to English (UK), which is not available as an option in their app.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4503611729927940/"
+    },
+    {
+      "date": "2026-07-09",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Physical damage on road",
+      "summary": "User's newly purchased Cardo, only 3 hours old, fell off the cradle after being hit by a bird and was destroyed on the road; they ask about repair or replacement options.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4503610636594716/"
+    },
+    {
+      "date": "2026-07-09",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk-S",
+      "sentiment": "negative",
+      "topic": "Garmin phone call audio",
+      "summary": "User with a Garmin Zumo XT2, iPhone 17, and Packtalk-S Integrated does not get incoming call audio through the Cardo; the sound only comes through the Garmin speaker and they seek a settings fix.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4503356133286833/"
     }
   ]
 }

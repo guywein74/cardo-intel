@@ -1404,6 +1404,26 @@
       "topic": "One-way audio in group mode",
       "summary": "A user testing an F1 Pro in Free/Group mode reported other riders could hear them, but they could not hear others at all.",
       "url": "https://www.facebook.com/groups/1275973273584175/permalink/1748800739634757/"
+    },
+    {
+      "date": "2026-07-10",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "F1 Pro",
+      "sentiment": "mixed",
+      "topic": "Unit variant difference",
+      "summary": "User bought two Asmax F1 Pro units and noticed one has a detachable unit that is harder to remove at the back part, asking if there are different variants of the F1 Pro.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1008637171987613/"
+    },
+    {
+      "date": "2026-07-10",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "F1 Pro Max",
+      "sentiment": "negative",
+      "topic": "One-way audio pairing",
+      "summary": "User paired an Asmax F1 Pro Max with a FreedConn FX Pro via Universal Pairing but only gets one-way audio; they can hear the FreedConn on the Asmax but not vice versa, and is asking for solutions.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1008306865353977/"
     }
   ]
 }
