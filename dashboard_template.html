@@ -12,7 +12,7 @@
   --ok:#3fb950; --warn:#d29922; --bad:#f85149; --partial:#a371f7;
 }
 html[data-theme="light"]{
-  --bg:#f5f6f8; --panel:#ffffff; --panel2:#eef0f3; --border:#d7dbe1; --divider:#e4e7eb; --text:#1b1f24; --muted:#5b6472; --link:#0969da; --tooltip-bg:#1b1f24f2; --note-bg:#eef0f3; --expand-bg:#f0f2f5; --expand-text:#32383f;
+  --bg:#f5f6f8; --panel:#ffffff; --panel2:#eef0f3; --border:#d7dbe1; --divider:#e4e7eb; --text:#000000; --muted:#000000; --link:#0969da; --tooltip-bg:#1b1f24f2; --note-bg:#eef0f3; --expand-bg:#f0f2f5; --expand-text:#000000;
   --cardo:#c8002a; --sena:#ad7209; --asmax:#0c7f96; --reso:#6b4fd6;
   --ok:#1a7f37; --warn:#9a6700; --bad:#cf222e; --partial:#8250df;
 }
@@ -25,6 +25,16 @@ html[data-theme="sepia"]{
   --bg:#f1e7d0; --panel:#faf3e3; --panel2:#ede0c4; --border:#d9c8a4; --divider:#e3d3ac; --text:#3b2f22; --muted:#7a6a51; --link:#8a5a2b; --tooltip-bg:#3b2f22f2; --note-bg:#ede0c4; --expand-bg:#ece0c6; --expand-text:#4a3c2b;
   --cardo:#b3222f; --sena:#a3690a; --asmax:#0f7d8c; --reso:#6a4fa0;
   --ok:#3f7d3a; --warn:#9c6b12; --bad:#a8302c; --partial:#6a4fa0;
+}
+html[data-theme="nord"]{
+  --bg:#2e3440; --panel:#3b4252; --panel2:#434c5e; --border:#4c566a; --divider:#434c5e; --text:#eceff4; --muted:#d8dee9; --link:#88c0d0; --tooltip-bg:#2e3440f2; --note-bg:#3b4252; --expand-bg:#2e3440; --expand-text:#e5e9f0;
+  --cardo:#bf616a; --sena:#ebcb8b; --asmax:#88c0d0; --reso:#b48ead;
+  --ok:#a3be8c; --warn:#ebcb8b; --bad:#bf616a; --partial:#b48ead;
+}
+html[data-theme="contrast"]{
+  --bg:#000000; --panel:#0a0a0a; --panel2:#161616; --border:#4a4a4a; --divider:#2e2e2e; --text:#ffffff; --muted:#ffffff; --link:#4da6ff; --tooltip-bg:#000000f2; --note-bg:#161616; --expand-bg:#0a0a0a; --expand-text:#ffffff;
+  --cardo:#ff4d6d; --sena:#ffd60a; --asmax:#00e5ff; --reso:#c39bff;
+  --ok:#00e676; --warn:#ffd60a; --bad:#ff4d6d; --partial:#c39bff;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{overflow-x:hidden}
@@ -107,6 +117,8 @@ a{color:var(--link);text-decoration:none}
       <option value="light">Bright</option>
       <option value="midnight">Midnight</option>
       <option value="sepia">Sepia</option>
+      <option value="nord">Nord</option>
+      <option value="contrast">High contrast</option>
     </select>
   </div>
 </header>
