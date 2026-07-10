@@ -4,11 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cardo Competitive Intelligence — July 2026</title>
+<script>(function(){try{document.documentElement.setAttribute("data-theme",localStorage.getItem("cardoTheme")||"dark")}catch(e){}})();</script>
 <style>
-:root{
-  --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --border:#2d3644; --text:#e6edf3; --muted:#8b949e;
+:root, html[data-theme="dark"]{
+  --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --border:#2d3644; --divider:#1f2733; --text:#e6edf3; --muted:#8b949e; --link:#58a6ff; --tooltip-bg:#000c; --note-bg:#131a24; --expand-bg:#11161d; --expand-text:#c9d1d9;
   --cardo:#e6002d; --sena:#f7a600; --asmax:#22c1dd; --reso:#8e6bff;
   --ok:#3fb950; --warn:#d29922; --bad:#f85149; --partial:#a371f7;
+}
+html[data-theme="light"]{
+  --bg:#f5f6f8; --panel:#ffffff; --panel2:#eef0f3; --border:#d7dbe1; --divider:#e4e7eb; --text:#1b1f24; --muted:#5b6472; --link:#0969da; --tooltip-bg:#1b1f24f2; --note-bg:#eef0f3; --expand-bg:#f0f2f5; --expand-text:#32383f;
+  --cardo:#c8002a; --sena:#ad7209; --asmax:#0c7f96; --reso:#6b4fd6;
+  --ok:#1a7f37; --warn:#9a6700; --bad:#cf222e; --partial:#8250df;
+}
+html[data-theme="midnight"]{
+  --bg:#05070d; --panel:#0c1220; --panel2:#101a2e; --border:#1e2a42; --divider:#182337; --text:#dce6f5; --muted:#7c8aa3; --link:#6ea8fe; --tooltip-bg:#000c; --note-bg:#0c1220; --expand-bg:#0a0f1a; --expand-text:#c3cee0;
+  --cardo:#ff3b5c; --sena:#ffb020; --asmax:#2fd9f5; --reso:#a58bff;
+  --ok:#3fb950; --warn:#d29922; --bad:#f85149; --partial:#a371f7;
+}
+html[data-theme="sepia"]{
+  --bg:#f1e7d0; --panel:#faf3e3; --panel2:#ede0c4; --border:#d9c8a4; --divider:#e3d3ac; --text:#3b2f22; --muted:#7a6a51; --link:#8a5a2b; --tooltip-bg:#3b2f22f2; --note-bg:#ede0c4; --expand-bg:#ece0c6; --expand-text:#4a3c2b;
+  --cardo:#b3222f; --sena:#a3690a; --asmax:#0f7d8c; --reso:#6a4fa0;
+  --ok:#3f7d3a; --warn:#9c6b12; --bad:#a8302c; --partial:#6a4fa0;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:60px}
@@ -35,10 +51,10 @@ main{padding:24px 32px;width:100%;margin:0}
 table{width:100%;border-collapse:collapse}
 th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer;user-select:none}
 th .arrow{opacity:.7}
-td{padding:9px 10px;border-bottom:1px solid #1f2733;vertical-align:top}
+td{padding:9px 10px;border-bottom:1px solid var(--divider);vertical-align:top}
 tbody tr.prod{cursor:pointer}
 tbody tr.prod:hover{background:var(--panel2)}
-tr.expand td{background:#11161d;font-size:13px;color:#c9d1d9;padding:14px 16px}
+tr.expand td{background:var(--expand-bg);font-size:13px;color:var(--expand-text);padding:14px 16px}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
 .chip{border:1px solid var(--border);background:var(--panel);color:var(--muted);border-radius:16px;padding:5px 14px;cursor:pointer;font:600 13px inherit}
 .chip.on{color:var(--text);border-color:currentColor}
@@ -55,7 +71,7 @@ input[type=search],select{background:var(--panel);border:1px solid var(--border)
 .reclist{counter-reset:rec}
 .rec{display:flex;gap:14px;margin-bottom:12px}
 .rec .n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--cardo);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
-.kv{display:flex;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px dashed #232c3a;font-size:13px}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px dashed var(--divider);font-size:13px}
 .kv:last-child{border:none}
 .kv b{font-variant-numeric:tabular-nums}
 .two{columns:2;column-gap:28px}
@@ -67,19 +83,33 @@ ul.tight li{margin-bottom:5px}
 .news b{color:var(--muted);font-size:12px;margin-right:8px}
 .gapseg{margin-bottom:16px}
 .gapseg .comp{margin:8px 0 0;padding-left:0;list-style:none}
-.gapseg .comp li{padding:6px 0;border-top:1px dashed #232c3a;font-size:13px}
+.gapseg .comp li{padding:6px 0;border-top:1px dashed var(--divider);font-size:13px}
 svg text{fill:var(--muted);font-size:11px}
-.tt{position:fixed;pointer-events:none;background:#000c;border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:12px;z-index:9;display:none;max-width:280px}
-.note-banner{background:#131a24;border:1px solid var(--border);border-radius:8px;padding:10px 14px;color:var(--muted);font-size:12px;margin-bottom:16px}
+.tt{position:fixed;pointer-events:none;background:var(--tooltip-bg);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:12px;z-index:9;display:none;max-width:280px}
+.note-banner{background:var(--note-bg);border:1px solid var(--border);border-radius:8px;padding:10px 14px;color:var(--muted);font-size:12px;margin-bottom:16px}
 h2{font-size:18px;margin:26px 0 12px}
 h2:first-child{margin-top:0}
-a{color:#58a6ff;text-decoration:none}
+a{color:var(--link);text-decoration:none}
 </style>
 </head>
 <body>
-<header>
-  <h1>Cardo <span class="accent">Competitive Intelligence</span></h1>
-  <div class="sub">Cardo vs Sena vs ASMAX vs Reso · compiled by research agents · data as of July 2026</div>
+<header style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap">
+  <div>
+    <h1>Cardo <span class="accent">Competitive Intelligence</span></h1>
+    <div class="sub">Cardo vs Sena vs ASMAX vs Reso · compiled by research agents · last updated <span id="lastUpdated">—</span></div>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center;flex:none;padding-top:2px">
+    <div style="display:flex;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+      <button id="fontDec" title="Decrease text size" style="background:var(--panel);color:var(--text);border:none;padding:6px 12px;cursor:pointer;font:600 13px inherit;border-right:1px solid var(--border)">A−</button>
+      <button id="fontInc" title="Increase text size" style="background:var(--panel);color:var(--text);border:none;padding:6px 12px;cursor:pointer;font:600 13px inherit">A+</button>
+    </div>
+    <select id="themeSel" title="Dashboard style">
+      <option value="dark">Dark</option>
+      <option value="light">Bright</option>
+      <option value="midnight">Midnight</option>
+      <option value="sepia">Sepia</option>
+    </select>
+  </div>
 </header>
 <nav id="nav"></nav>
 <main id="main"></main>
@@ -94,6 +124,29 @@ const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Ana
 const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt$ = v => v==null?"—":"$"+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
+
+/* ---------- last updated ---------- */
+if(DATA.built_at){
+  const bd=new Date(DATA.built_at);
+  document.getElementById("lastUpdated").textContent=isNaN(bd)?DATA.built_at:
+    bd.toLocaleString(undefined,{dateStyle:"long",timeStyle:"short"})+" ("+Intl.DateTimeFormat().resolvedOptions().timeZone+")";
+}
+
+/* ---------- theme switcher ---------- */
+const themeSel=document.getElementById("themeSel");
+themeSel.value=document.documentElement.getAttribute("data-theme")||"dark";
+themeSel.onchange=()=>{
+  document.documentElement.setAttribute("data-theme",themeSel.value);
+  try{localStorage.setItem("cardoTheme",themeSel.value)}catch(e){}
+};
+
+/* ---------- font size controls ---------- */
+let fontScale=100;
+try{fontScale=+localStorage.getItem("cardoFontScale")||100}catch(e){}
+function applyFontScale(){document.body.style.zoom=fontScale+"%"}
+applyFontScale();
+document.getElementById("fontInc").onclick=()=>{fontScale=Math.min(160,fontScale+10);applyFontScale();try{localStorage.setItem("cardoFontScale",fontScale)}catch(e){}};
+document.getElementById("fontDec").onclick=()=>{fontScale=Math.max(70,fontScale-10);applyFontScale();try{localStorage.setItem("cardoFontScale",fontScale)}catch(e){}};
 
 /* products flattened */
 let PRODUCTS=[];
@@ -166,7 +219,7 @@ function renderRecentMoves(){
   const rows=RECENT_MOVES.filter(n=>rmBrands.has(n.brand));
   sections[0].querySelector("#rmCount").textContent=`· ${rows.length} items`;
   sections[0].querySelector("#rmList").innerHTML=rows.map(n=>`
-    <div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
+    <div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--divider);align-items:baseline;flex-wrap:wrap">
       <span class="small muted" style="width:76px;flex:none;font-variant-numeric:tabular-nums">${esc(n.date||"—")}</span>
       <span class="brandtag small" style="color:${BCOLOR[n.brand]};width:56px;flex:none">${esc(n.brand)}</span>
       <span class="small" style="flex:1;min-width:260px">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline)}</a> <a href="${esc(n.url)}" target="_blank" rel="noopener">↗</a>`:esc(n.headline)}</span>
@@ -423,7 +476,7 @@ function drawChart(){
   const bx={};BRANDS.forEach((b,i)=>bx[b.competitor]=L+(W-L-R)*(i+0.5)/BRANDS.length);
   const y=v=>T+(H-T-B)*(1-v/maxP);
   let s=`<svg viewBox="0 0 ${W} ${H}" style="width:100%">`;
-  for(let g=0;g<=5;g++){const v=maxP*g/5;s+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="#232c3a"/><text x="${L-8}" y="${y(v)+4}" text-anchor="end">$${Math.round(v)}</text>`}
+  for(let g=0;g<=5;g++){const v=maxP*g/5;s+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--divider)"/><text x="${L-8}" y="${y(v)+4}" text-anchor="end">$${Math.round(v)}</text>`}
   BRANDS.forEach(b=>{s+=`<text x="${bx[b.competitor]}" y="${H-12}" text-anchor="middle" style="font-size:13px;font-weight:700;fill:${BHEX[b.competitor]}">${b.competitor}</text>`});
   const byBrand={};pts.forEach(p=>{(byBrand[p.brand]=byBrand[p.brand]||[]).push(p)});
   Object.entries(byBrand).forEach(([br,ps])=>{
@@ -550,7 +603,7 @@ function renderFeed(){
   const rows=FEED.filter(f=>mfBrands.has(f.brand)&&(mfType==="All"||f.type===mfType)&&(!mfQ||[f.source,f.domain,f.title,f.brand].join(" ").toLowerCase().includes(mfQ)));
   sections[6].querySelector("#mfCount").textContent=`· ${rows.length} items`;
   sections[6].querySelector("#mfList").innerHTML=rows.map(f=>{const[bg,fg]=TCOL[f.type];return `
-    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
+    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid var(--divider);align-items:baseline;flex-wrap:wrap">
       <span class="small muted" style="width:64px;flex:none;font-variant-numeric:tabular-nums">${esc(f.date||"—")}</span>
       <span class="brandtag small" style="color:${BCOLOR[f.brand]};width:52px;flex:none">${f.brand}</span>
       <span class="badge" style="background:${bg};color:${fg};flex:none">${f.type}</span>
@@ -589,9 +642,9 @@ sections[7].innerHTML=`
       <div class="kv"><span>App last updated</span><b>${esc(cs.app_last_updated||"—")}</b></div>
       <div class="kv"><span>Firmware updates tracked</span><b>${cnt}</b></div>
       ${lastDate?`<div class="kv"><span>Most recent update</span><b>${esc(lastDate)}</b></div>`:""}
-      ${cs.notes?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a">${esc(cs.notes)}</div>`:""}
+      ${cs.notes?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed var(--divider)">${esc(cs.notes)}</div>`:""}
       ${pf.length?`
-      <div class="small" style="margin-top:14px;padding-top:12px;border-top:1px solid #232c3a;font-weight:700">Firmware by product</div>
+      <div class="small" style="margin-top:14px;padding-top:12px;border-top:1px solid var(--divider);font-weight:700">Firmware by product</div>
       <table style="margin-top:6px;table-layout:fixed"><tbody>
       ${pf.map(p=>{const fv=p.firmware_version?String(p.firmware_version):null;const short=fv?fv.split(/[\s(]/)[0]:"—";return `<tr>
         <td class="small" style="padding:5px 0;border:none;width:40%;word-break:break-word">${esc(p.product||"—")}</td>
@@ -602,7 +655,7 @@ sections[7].innerHTML=`
              p.support_url?`<a href="${esc(p.support_url)}" target="_blank" class="small">support ↗</a>`:null].filter(Boolean).join(" · ")}
         </td>
       </tr>`}).join("")}
-      </tbody></table>`:(cs.firmware_baseline?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed #232c3a"><b>Firmware baseline:</b> ${esc(cs.firmware_baseline)}</div>`:"")}
+      </tbody></table>`:(cs.firmware_baseline?`<div class="small muted" style="margin-top:10px;padding-top:10px;border-top:1px dashed var(--divider)"><b>Firmware baseline:</b> ${esc(cs.firmware_baseline)}</div>`:"")}
     </div>`}).join("")}
   </div>
   <h2>Update history <span class="small muted" id="fwCount" style="font-weight:400"></span></h2>
@@ -790,7 +843,7 @@ if(!INS){
     sections[9].querySelectorAll("#mpHead .arrow").forEach(a=>a.textContent="");
     const ah=sections[9].querySelector(`#mpHead [data-k="${mpSortKey}"] .arrow`);if(ah)ah.textContent=mpSortDir>0?"↑":"↓";
     sections[9].querySelector("#mpList").innerHTML=rows.map(m=>`
-    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid #1f2733;align-items:baseline;flex-wrap:wrap">
+    <div style="display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid var(--divider);align-items:baseline;flex-wrap:wrap">
       <span class="small muted" style="width:80px;flex:none;font-variant-numeric:tabular-nums;font-weight:700">${esc(m.date||"—")}</span>
       <span class="brandtag small" style="color:${BCOLOR[m.brand]||"var(--muted)"};width:52px;flex:none">${esc(m.brand||"")}</span>
       <span class="small" style="flex:1;min-width:240px"><b>${esc(m.development||"")}</b><br><span class="muted">→ ${esc(m.implication||"")}</span></span>

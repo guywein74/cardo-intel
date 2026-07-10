@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build dashboard.html by embedding research JSON into dashboard_template.html."""
 import json, pathlib
+from datetime import datetime, timezone
 
 root = pathlib.Path(__file__).parent
 research = root / "research"
@@ -29,7 +30,7 @@ matrix = [
     {"cap": "Tier-1 Western press coverage", "Cardo": ["y", "wins most 'best intercom' roundups"], "Sena": ["y", "MCN 4/5, iF Design awards"], "ASMAX": ["n", "regional/PR only"], "Reso": ["n", "SEA outlets only"]},
 ]
 
-data = {"brands": brands, "gap": gap, "battles": battles, "insights": insights}
+data = {"brands": brands, "gap": gap, "battles": battles, "insights": insights, "built_at": datetime.now(timezone.utc).isoformat()}
 tpl = (root / "dashboard_template.html").read_text()
 out = tpl.replace("/*__DATA__*/", json.dumps(data, ensure_ascii=False))
 (root / "dashboard.html").write_text(out)
