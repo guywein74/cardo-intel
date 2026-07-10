@@ -5,7 +5,7 @@
     "hq": "Shenzhen, China per Tracxn; registered office listed on resosport.com contact page: Office 5, 8/F, Mega Cube, 8 Wang Kwong, Kowloon Bay, Kowloon, Hong Kong SAR",
     "founded": "2024 (brand launched late 2024; founding team of ex-DJI engineers, concept dates to a fall 2021 ride incident, ~3 years development)",
     "positioning": "Premium-spec mesh communicator at a mid-market price; tagline 'Communication gear built for those who refuse to be out of range'. Explicitly framed by press and dealers as a Cardo Packtalk Pro / Sena 50S rival with DJI engineering pedigree.",
-    "channels": "DTC via resosport.com (USD pricing, 2-day US shipping, 30-day returns; only Pilot Pro, Pilot Neo, Headset, and 45mm speaker accessory sold on the US store as of July 2026 -- Pilot Lite is PH/SEA-only); dealer network in Philippines (Motojini, Ridebuy, Alpha Lifestyle Club, Takong Racing, Bandidos Pitstop), Malaysia (MRoute19), UAE (Motofever); eBay listings. No official Reso storefront on Amazon.com or RevZilla found as of July 2026 -- confirmed again this refresh via a fresh RevZilla Bluetooth-communications category scrape (Reso brand absent from the filter list: Airoh, Alien Rider, Alpinestars, Cardo, EXOCOM, HJC, Icon, Nexx, Schuberth, Scorpion, Sena, Show Chrome, UCLEAR) and an Amazon.com search that surfaced only an unrelated third-party seller's Reso-compatible replacement microphone accessory, not an official Reso listing. Daytona Corporation - one of Japan's largest motorcycle parts manufacturer/wholesalers - has been the official Japan distributor for RESO since June 2026, selling a 3-model lineup (PILOT PRO/NEO/LITE, Daytona part numbers 66271/66272/66270-class) on daytona.co.jp, Amazon.co.jp, and Webike, with retail JPY pricing (see recent_news); this remains Reso's first major-distributor deal in a developed market outside its DTC/SEA-dealer channels. NEW (June 2026): Reso also made its first move into the Indian market as the Official Intercom Partner of World Motorcycle Day (WMD) India 2026, a 10th-edition event organized by the Association of Biking Community (ABC) India, held 21 June 2026 in Bengaluru -- a sponsorship/awareness play rather than a confirmed retail-distribution deal, but the first documented Reso brand presence in India."
+    "channels": "DTC via resosport.com (USD pricing, 2-day US shipping, 30-day returns; only Pilot Pro, Pilot Neo, Headset, and 45mm speaker accessory sold on the US store as of July 2026 -- Pilot Lite is PH/SEA-only); dealer network in Philippines (Motojini, Ridebuy, Alpha Lifestyle Club, Takong Racing, Bandidos Pitstop), Malaysia (MRoute19), UAE (Motofever); eBay listings. No official Reso storefront on Amazon.com or RevZilla found as of July 2026 -- confirmed again this refresh via a fresh RevZilla Bluetooth-communications category scrape (Reso brand absent from the filter list: Airoh, Alien Rider, Alpinestars, Cardo, EXOCOM, HJC, Icon, Nexx, Schuberth, Scorpion, Sena, Show Chrome, UCLEAR) and an Amazon.com search that surfaced only an unrelated third-party seller's Reso-compatible replacement microphone accessory, not an official Reso listing. Daytona Corporation - one of Japan's largest motorcycle parts manufacturer/wholesalers - has been the official Japan distributor for RESO since June 2026, selling a 3-model lineup (PILOT PRO/NEO/LITE, Daytona part numbers 66271/66272/66270-class) on daytona.co.jp, Amazon.co.jp, and Webike, with retail JPY pricing (see recent_news); this remains Reso's first major-distributor deal in a developed market outside its DTC/SEA-dealer channels. NEW (June 2026): Reso also made its first move into the Indian market as the Official Intercom Partner of World Motorcycle Day (WMD) India 2026, a 10th-edition event organized by the Association of Biking Community (ABC) India, held 21 June 2026 in Bengaluru -- a sponsorship/awareness play rather than a confirmed retail-distribution deal, but the first documented Reso brand presence in India. NEW (found this refresh, July 2026): Reso has also quietly reached a Latin American retailer -- MotoMundi, a Chilean motorcycle-gear chain, now carries a dedicated RESO brand page (motomundi.cl/reso) stocking Pilot Pro, Pilot Neo (CLP $199,900 ≈ USD 210), and Pilot Lite -- the first documented Reso retail listing in South America, alongside the existing PH/Malaysia/UAE dealer network."
   },
   "products": [
     {
@@ -101,7 +101,7 @@
         "15W fast charge (5 min = ~2 h use; full in 50-60 min)"
       ],
       "release_year": 2025,
-      "notes": "Same 1950 mAh battery and 2.5 km / 12 km group range as Pro but 15 riders max. Lacks Pro's DuoSync software mesh, GNSS, real-time map, and SOS crash alerts. One source listed it at $179, likely regional/promo pricing. One retailer describes it as 'dual-channel mesh' — official site says single mesh channel; official spec used here. 3-year warranty. PH press (yugatech.com, ~May-June 2026) confirms official PH SRP of P9,800 and lists 'FlowTalk Grouping Technology, up to 8 riders Hi-Fi low-latency mode' as an additional Neo feature alongside its single-channel hardware mesh, plus a 1,400 mAh battery (distinct from the Pro's 1950 mAh) delivering the same 24-hour rating via lower power draw, and a 'Snap Base' mount (vs Pro's magnetic base).",
+      "notes": "Same 1950 mAh battery and 2.5 km / 12 km group range as Pro but 15 riders max. Lacks Pro's DuoSync software mesh, GNSS, real-time map, and SOS crash alerts. One source listed it at $179, likely regional/promo pricing. One retailer describes it as 'dual-channel mesh' — official site says single mesh channel; official spec used here. 3-year warranty. PH press (yugatech.com, ~May-June 2026) confirms official PH SRP of P9,800 and lists 'FlowTalk Grouping Technology, up to 8 riders Hi-Fi low-latency mode' as an additional Neo feature alongside its single-channel hardware mesh, plus a 1,400 mAh battery (distinct from the Pro's 1950 mAh) delivering the same 24-hour rating via lower power draw, and a 'Snap Base' mount (vs Pro's magnetic base). NEW (per Daytona/Webike Japan coverage, July 2026): Reso's official branding for Neo's single-channel hardware mesh is 'UniSync' (vs the Pro's dual hardware+software 'DuoSync'), confirming the two models use distinct proprietary mesh-tech names rather than a shared one. The same PR coverage claims Pilot Pro has held the #1 sales position (market/region unspecified, likely China domestic) for 17 consecutive months as of July 2026, and that Daytona is running a trade-in campaign in Japan for riders upgrading from other intercom brands to the Reso Pilot lineup.",
       "usage": "Motorcycle",
       "dimensions": {
         "form_factor": {
@@ -229,7 +229,7 @@
         "Reso Link app compatible (iOS/Android)"
       ],
       "release_year": 2025,
-      "notes": "Listed 'Sold Out' on resosport.com as of July 2026; minimal published specs. 1-year accessory warranty referenced. In the Philippines a 'headset' accessory was priced at PHP 4,800 at launch.",
+      "notes": "Back in stock on resosport.com as of this refresh (2026-07-10) -- shown with an active 'Add to cart' button at $119/$149 (20% off), reversing the 'Sold Out' status noted in the prior refresh; minimal published specs otherwise. 1-year accessory warranty referenced. In the Philippines a 'headset' accessory was priced at PHP 4,800 at launch.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -422,19 +422,37 @@
       "headline": "Reso Pilot Lite fully detailed for the first time: FlowTalk proprietary Bluetooth grouping (not hardware mesh) supporting up to 8 riders in HD low-latency mode, 24-hour battery life, 21 g weight, IP67 waterproofing, and PH SRP cut to P6,899",
       "source": "RESO Philippines (Facebook) / multiple PH dealer reposts",
       "url": "https://www.facebook.com/resolink.ph/posts/light-on-price-heavy-on-essentialsmeet-the-reso-pilot-lite-built-for-riders-who-/122155763732729220/"
+    },
+    {
+      "date": "2026-07-01",
+      "headline": "PR feature explains Reso Pilot NEO's proprietary 'UniSync' hardware-mesh tech (distinct from Pro's dual-mesh 'DuoSync'), cites Pilot Pro as #1 in sales for 17 consecutive months, and promotes a Daytona trade-in campaign for riders switching from other intercom brands to the Reso Pilot lineup in Japan",
+      "source": "Webike Plus (sponsored/PR content, credited to Daytona Co., Ltd.)",
+      "url": "https://japan.webike.net/moto_news/the-next-generation-intercom-reso-pilot-neo-is-here-enjoy-comfortable-group-rides-with-its-unique-mesh-communication-and-long-operating-hours-thanks-to-its-large-capacity-battery/"
+    },
+    {
+      "date": "2026-07-10",
+      "headline": "Reso brand discovered listed for retail sale in Chile via MotoMundi, a Chilean motorcycle-gear chain, with a dedicated RESO brand page stocking Pilot Pro, Pilot Neo (CLP $199,900 approx USD 210) and Pilot Lite -- first documented Reso retail presence in South America/Latin America",
+      "source": "MotoMundi.cl (Chile) product/brand listings",
+      "url": "https://www.motomundi.cl/reso"
+    },
+    {
+      "date": "2026-07-05",
+      "headline": "Reso (@resoglobal) sponsored the Costa Rica edition of the CFMOTO MT CHALLENGE 2026 off-road qualifier (held 4-5 July in Santa Ana/Lindora), alongside Acerbis Costa Rica and Rebel Tyres Costa Rica -- first documented Reso brand activation/sponsorship in Central America",
+      "source": "Instagram (creator recaps tagging @resoglobal, aggregated)",
+      "url": "https://www.instagram.com/resoglobal/"
     }
   ],
   "social_media": {
     "instagram": {
       "handle": "@resoglobal",
-      "followers": 1162,
-      "notes": "Official global account 'Reso Sport' (linked from resosport.com contact page). Follower count of 1,162 retrieved via search-result snippet (\"Reso Sport 1,162 followers 31 following\") as of July 2026 -- first reliable count found for this account after prior refreshes reported it as unretrievable. Product reels, model-comparison explainers, and dealer/reviewer repost content. A separate @resosport handle exists ('RésoSport') but is NOT linked from the company site — likely unrelated. Third-party IG coverage from PH/SEA dealers (Durian Bikers, Alpha Lifestyle) and reviewer reels.",
+      "followers": 1200,
+      "notes": "Official global account 'Reso Sport' (linked from resosport.com contact page). Follower count of 1,162 retrieved via search-result snippet as of the prior (June/early-July 2026) refresh; this refresh (2026-07-10) finds a fresh bio snippet reading \"1.2K+ followers · 31 following · 33 posts\" -- rounded/imprecise but consistent with modest continued growth from 1,162; treat 1,200 as an approximate figure pending a precise re-count. Product reels, model-comparison explainers, and dealer/reviewer repost content. A separate @resosport handle exists ('RésoSport') but is NOT linked from the company site — likely unrelated. Third-party IG coverage from PH/SEA dealers (Durian Bikers, Alpha Lifestyle) and reviewer reels.",
       "url": "https://www.instagram.com/resoglobal/"
     },
     "facebook": {
       "page": "Official global page: facebook.com/profile.php?id=61567279220678 ('Reso'); regional pages: RESO Philippines (facebook.com/resolink.ph) and RESO Thailand (facebook.com/reso.th)",
-      "followers": 4901,
-      "groups_notes": "Follower figure is for RESO Philippines page (4,901 likes / 599 'talking about' as of July 2026, up from ~2.1K likes / ~393 'talking about' at the last check in June 2026 -- more than double in under a month); global page count not retrievable. Owner-run community group 'RESO intercom Philippines' (facebook.com/groups/1596231854382040), member count unknown; the resosport.com site footer also now links a separate 'Reso Community' Facebook group (facebook.com/groups/1298604058407564), relationship to the owner-run PH group unclear. Reso discussion also circulates in large PH rider/intercom buy-and-sell groups; TopGear PH's Reso posts on Facebook drew significant engagement. Facebook is clearly their primary community channel, consistent with SEA-first strategy.",
+      "followers": 4931,
+      "groups_notes": "Follower figure is for RESO Philippines page (4,931 likes as of this refresh, 2026-07-10, up slightly from 4,901 likes / 599 'talking about' at the prior refresh in early July 2026, which itself was up from ~2.1K likes / ~393 'talking about' in June 2026 -- growth has plateaued after the earlier rapid doubling); global page count not retrievable. Owner-run community group 'RESO intercom Philippines' (facebook.com/groups/1596231854382040), member count unknown; the resosport.com site footer also now links a separate 'Reso Community' Facebook group (facebook.com/groups/1298604058407564), relationship to the owner-run PH group unclear. Reso discussion also circulates in large PH rider/intercom buy-and-sell groups; TopGear PH's Reso posts on Facebook drew significant engagement. Facebook is clearly their primary community channel, consistent with SEA-first strategy.",
       "notes": "Regional page structure (PH under 'Reso Link Ph' branding, Thailand) mirrors distributor-led go-to-market. Cadence on PH page: multiple posts per week (product education, app how-tos, dealer promos, expo appearances). New as of ~June 2026: a dedicated 'Reso Philippines' Instagram account (@resophilippines, distinct from global @resoglobal) also launched, passing 200+ followers in its first month.",
       "url": "https://www.facebook.com/profile.php?id=61567279220678"
     },
@@ -457,7 +475,7 @@
       "notes": "No official Reso TikTok account linked from the company site or found in search. However, organic/dealer TikTok traction in SEA is significant: PH media account @insidemoto (Pilot Pro unboxing ASMR tagging 'RESO Philippines / RESO Link Ph'), Indonesian helmet retailer @istanahelmetofficial, dedicated TikTok discover pages for 'Reso Pilot Pro', 'Reso Pilot Pro review', and 'Reso Pilot Pro vs ASMAX' comparisons. TikTok chatter also benchmarks Reso against ASMAX, another Chinese challenger brand.",
       "url": "https://www.tiktok.com/search?q=reso+motorcycle+intercom"
     },
-    "summary": "Reso's social footprint is small, young, and SEA-centric, but growing fast on the PH page: Facebook is the hub (regional pages + owner-run PH community group; the RESO Philippines page more than doubled from ~2.1K to 4,901 likes between June and early July 2026), matching the Philippines-first launch. A dedicated 'Reso Philippines' Instagram account (@resophilippines) also launched around June 2026 alongside the global @resoglobal account. The official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started, though a US-based long-term reviewer (MotoStories and More) posted a positive 30-day Pilot Neo test in late June 2026 paired with a product giveaway, a small but notable data point of organic Western YouTube interest. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides. NEW (June 2026): a fresh wave of organic Japanese social chatter (X/Twitter, motovlog YouTube) followed Daytona's official RESO distribution launch in Japan, with riders discussing switching from existing brands and praising wind-noise handling — the first organic social traction observed in a developed market outside the Philippines.",
+    "summary": "Reso's social footprint is small, young, and SEA-centric, but growing fast on the PH page: Facebook is the hub (regional pages + owner-run PH community group; the RESO Philippines page more than doubled from ~2.1K to 4,901 likes between June and early July 2026, then edged up further to 4,931 likes by 2026-07-10, suggesting growth has plateaued after the earlier rapid doubling), matching the Philippines-first launch. A dedicated 'Reso Philippines' Instagram account (@resophilippines) also launched around June 2026 alongside the global @resoglobal account, which itself grew modestly from ~1,162 to roughly 1.2K followers over the same window. The official YouTube link is dead, leaving brand narrative to third-party reviewers; TikTok has no official account but real dealer/reviewer momentum in PH/Indonesia. Reddit and Western rider communities show essentially zero organic presence — a major awareness gap vs Cardo/Sena and the clearest signal that Western market penetration hasn't started, though a US-based long-term reviewer (MotoStories and More) posted a positive 30-day Pilot Neo test in late June 2026 paired with a product giveaway, a small but notable data point of organic Western YouTube interest. Community sentiment where it exists (FB groups, TikTok, YouTube reviews) is strongly positive on value, noise reduction, and voice control; the recurring complaint is the small user base for group rides. NEW (June 2026): a fresh wave of organic Japanese social chatter (X/Twitter, motovlog YouTube) followed Daytona's official RESO distribution launch in Japan, with riders discussing switching from existing brands and praising wind-noise handling — the first organic social traction observed in a developed market outside the Philippines. NEW (this refresh, July 2026): Reso's global @resoglobal account also surfaced sponsoring the CFMOTO MT CHALLENGE Costa Rica 2026 off-road qualifier (4-5 July, Santa Ana/Lindora) alongside Acerbis CR and Rebel Tyres CR, and a Chilean gear retailer (MotoMundi) began stocking the full Pilot lineup — together the first documented Reso footprint (sponsorship + retail) in Latin America.",
     "recent_posts": [
       {
         "date": "2026-06-29",
@@ -596,6 +614,12 @@
         "platform": "Facebook",
         "summary": "RESO Philippines page video 'LIGHT ON PRICE. HEAVY ON ESSENTIALS. Meet the RESO Pilot Lite' — full relaunch push for the Pilot Lite detailing FlowTalk Bluetooth grouping (up to 8 riders), 24-hour battery life, IP67 waterproofing, and new SRP of P6,899; emphasizes cross-model sync with Pro/Neo ('One ecosystem. One ride.').",
         "url": "https://www.facebook.com/resolink.ph/posts/light-on-price-heavy-on-essentialsmeet-the-reso-pilot-lite-built-for-riders-who-/122155763732729220/"
+      },
+      {
+        "date": "2026-07-05",
+        "platform": "Instagram",
+        "summary": "Costa Rican content creators tagged @resoglobal as a sponsor (alongside @acerbiscr and @rebeltyrescr) of the CFMOTO MT CHALLENGE Costa Rica 2026 off-road qualifying event in Santa Ana/Lindora (held 4-5 July) — Reso's first documented brand activation in Central America, mirroring the earlier WMD India sponsorship playbook.",
+        "url": "https://www.instagram.com/resoglobal/"
       }
     ]
   },
@@ -705,11 +729,18 @@
         "product": "Pilot Pro, Pilot Neo, Pilot Lite (full PH lineup spec roundup)",
         "verdict": "Spec-forward, positive-leaning roundup of the complete PH lineup and pricing (Pro P13,999 / Neo P9,800 / Lite P6,899); frames Pilot Pro as going 'straight at Cardo's Packtalk Edge and the Sena 50S... at a more accessible price point'; first outlet to publish detailed Neo battery (1,400 mAh) and FlowTalk grouping-tech specs, plus full accessory pricing",
         "url": "https://moto.yugatech.com/news/reso-pilot-series-ph-pro-neo-lite-available/"
+      },
+      {
+        "outlet": "Webike Plus",
+        "date": "2026-07-01",
+        "product": "Pilot Neo (Daytona Japan)",
+        "verdict": "Sponsored/PR feature ('[PR] DAYTONA Co., Ltd.') explaining Reso's Bluetooth-vs-Mesh technology for consumer education, naming Neo's proprietary hardware mesh 'UniSync' (vs Pro's 'DuoSync'), citing an unverified Daytona/Reso claim that Pilot Pro has been the #1-selling model for 17 consecutive months, and promoting a trade-in campaign; positive but explicitly marked as paid/sponsored content rather than independent editorial review",
+        "url": "https://japan.webike.net/moto_news/the-next-generation-intercom-reso-pilot-neo-is-here-enjoy-comfortable-group-rides-with-its-unique-mesh-communication-and-long-operating-hours-thanks-to-its-large-capacity-battery/"
       }
     ],
     "awards": [],
     "overall_tone": "Enthusiastic in Philippine/SEA moto media, where Reso is framed as a legitimate 'Cardo killer' value disruptor with DJI pedigree; now also gaining a genuinely enthusiastic wave of Japanese trade/consumer press following Daytona's June 2026 distribution launch (Webike, Bikebros, Response.jp, Motomegane, Dirtbikeplus, autoby.jp) — first time Reso has broken into a major developed-market motorcycle-parts trade press ecosystem. Still effectively invisible in major English-language Western motorcycle press — no reviews or news found from MCN, Cycle World, RideApart, webBikeWorld, Bennetts BikeSocial, RevZilla Common Tread, or Motorcyclist as of July 2026 (this refresh re-checked all of these plus Motorcycle.com and found only unrelated content, e.g. a Facebook comment on an MCN Sena 50S review post where a reader mentions switching to a Reso Pilot Pro -- organic word-of-mouth, not editorial coverage)",
-    "summary": "All substantive coverage (2025-2026) originates from Philippine outlets (TopGear PH, Zigwheels PH, MotoPinas, Ridebuy, YugaTech) plus niche English-language gear blogs (phtoll, MotoMelody, Throttle&Far), Spanish-language YouTube, and now — since June 2026 — a wave of Japanese trade/consumer motorcycle press (Webike Plus, Bikebros News, Response.jp, Motomegane, Dirtbikeplus, autoby.jp) covering Daytona's official RESO distribution launch in Japan. Verdicts are consistently positive on value, noise reduction, voice control, and battery; consistent caveats are the small installed base and cellular-dependent soft mesh. No awards found. The Daytona deal is the most significant distribution/credibility milestone found to date: Daytona is a major, long-established Japanese motorcycle parts manufacturer/wholesaler, and its endorsement gives Reso a legitimate foothold in a developed market with an established dealer and e-commerce network (daytona.co.jp, Amazon.co.jp, Webike) for the first time outside DTC and SEA dealer channels. Reso also picked up its first India-market brand presence in June 2026 as Official Intercom Partner of World Motorcycle Day India 2026 (a sponsorship/activation, not yet a confirmed retail-distribution deal)."
+    "summary": "All substantive coverage (2025-2026) originates from Philippine outlets (TopGear PH, Zigwheels PH, MotoPinas, Ridebuy, YugaTech) plus niche English-language gear blogs (phtoll, MotoMelody, Throttle&Far), Spanish-language YouTube, and now — since June 2026 — a wave of Japanese trade/consumer motorcycle press (Webike Plus, Bikebros News, Response.jp, Motomegane, Dirtbikeplus, autoby.jp) covering Daytona's official RESO distribution launch in Japan. Verdicts are consistently positive on value, noise reduction, voice control, and battery; consistent caveats are the small installed base and cellular-dependent soft mesh. No awards found. The Daytona deal is the most significant distribution/credibility milestone found to date: Daytona is a major, long-established Japanese motorcycle parts manufacturer/wholesaler, and its endorsement gives Reso a legitimate foothold in a developed market with an established dealer and e-commerce network (daytona.co.jp, Amazon.co.jp, Webike) for the first time outside DTC and SEA dealer channels. Reso also picked up its first India-market brand presence in June 2026 as Official Intercom Partner of World Motorcycle Day India 2026 (a sponsorship/activation, not yet a confirmed retail-distribution deal). NEW (this refresh, July 2026): a follow-up Webike Plus piece (2026-07-01) is explicitly labeled sponsored/PR content from Daytona rather than independent editorial coverage, so it is weighted accordingly; it did surface Reso's official 'UniSync' branding for the Neo's hardware mesh and an unverified '#1 sales for 17 consecutive months' claim for the Pilot Pro. Still no confirmed coverage from major English-language Western outlets (MCN, Cycle World, RideApart, webBikeWorld, Bennetts BikeSocial, RevZilla Common Tread, Motorcyclist, Motorcycle.com) as of 2026-07-10."
   },
   "sources": [
     "https://resosport.com/pages/contact",
@@ -771,7 +802,12 @@
     "https://www.instagram.com/reel/DUfiG5aj7kM/",
     "https://www.linkedin.com/posts/jerry-ma-273091272_reso-resopiotpro-motorcycle-activity-7408802928398016512-VUxX",
     "https://www.revzilla.com/motorcycle-bluetooth-communications",
-    "https://www.amazon.com/Installation-Microphone-Motorcycle-Connectivity-Communication/dp/B0GYH9BH7D"
+    "https://www.amazon.com/Installation-Microphone-Motorcycle-Connectivity-Communication/dp/B0GYH9BH7D",
+    "https://japan.webike.net/moto_news/the-next-generation-intercom-reso-pilot-neo-is-here-enjoy-comfortable-group-rides-with-its-unique-mesh-communication-and-long-operating-hours-thanks-to-its-large-capacity-battery/",
+    "https://www.motomundi.cl/reso",
+    "https://www.motomundi.cl/intercomunicadores-reso",
+    "https://resosport.com/collections/all",
+    "https://apps.apple.com/id/app/reso-link/id6504927409"
   ],
   "firmware_updates": [
     {
@@ -1048,6 +1084,36 @@
       "topic": "Praise for reliability",
       "summary": "In a thread asking for helmet speaker/communication system recommendations, a rider says they are currently using the Reso Pilot Pro and are very happy with it.",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1tr84r3/looking_for_helmet_speakers_and_communication/"
+    },
+    {
+      "date": "2026-07-10",
+      "source": "Reddit",
+      "forum": "r/PHMotorcycles",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Brand tier mention",
+      "summary": "In a discussion about intercom shopping at a moto expo, a commenter placed Reso alongside Sena and Cardo as options in the mid-to-high budget tier.",
+      "url": "https://www.reddit.com/r/PHMotorcycles/comments/1shazaf/makina_moto_day_1_intercom/"
+    },
+    {
+      "date": "2026-07-10",
+      "source": "Reddit",
+      "forum": "r/PHMotorcycles",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Mesh range spec discussion",
+      "summary": "A rider asked for opinions on Reso intercoms, highlighting its claimed range of almost 12km on hard mesh and 2.5km on soft mesh.",
+      "url": "https://www.reddit.com/r/PHMotorcycles/comments/1ja29pq/reso_intercom_whats_your_thoughts_about_this/"
+    },
+    {
+      "date": "2026-07-10",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Upgrade from cheap knockoff",
+      "summary": "A rider explained they were looking to move on from an Amazon knockoff intercom that wasn't cutting it, seeking a better system without paying $400, in a thread asking who has used Reso.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1oqngid/has_anyone_used_reso_coms/"
     }
   ]
 }
