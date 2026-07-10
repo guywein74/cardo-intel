@@ -406,11 +406,13 @@ renderCompare();
 
 /* ---------- Pricing chart ---------- */
 sections[4].innerHTML=`
+  <div style="max-width:1200px">
   <div class="chips"><button class="chip on" id="commChip">Communicators</button><button class="chip" id="helmChip">Include smart helmets</button><select id="pTierSel">${tierOpts("communicator")}<option value="smart_helmet">smart helmets</option><option value="headphones">headphones</option><option value="outdoor">outdoor</option></select></div>
-  <div class="card" style="max-width:1200px"><div id="chart"></div>
+  <div class="card"><div id="chart"></div>
   <div class="legend"><span>● dot = effective price (street where verified, else MSRP)</span><span style="color:var(--ok)">▲ flagship</span><span style="color:#79b8ff">■ mid</span><span style="color:var(--muted)">● entry / helmet</span><span>hover for details</span></div></div>
   <h2>Price ladder — cheapest helmet-mount mesh unit per brand</h2>
-  <div class="grid g4">${BRANDS.map(b=>{const m=b.products.filter(p=>/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")&&(p.street_price_usd??p.msrp_usd)!=null&&!["smart_helmet","headphones","outdoor"].includes(p.category)&&!/helmet|edgephones|ridephones|tufftalk|headset|headphone|accessor|snowtalk|bikom|\boutdoor\b/i.test(p.name));if(!m.length)return "";const c=m.reduce((a,p)=>((p.street_price_usd??p.msrp_usd)<(a.street_price_usd??a.msrp_usd)?p:a));return `<div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3><div style="font-size:26px;font-weight:800" class="price">${fmt$(c.street_price_usd??c.msrp_usd)}</div><div class="small muted">${esc(c.name)} — cheapest mesh-capable unit</div></div>`}).join("")}</div>`;
+  <div class="grid g4">${BRANDS.map(b=>{const m=b.products.filter(p=>/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")&&(p.street_price_usd??p.msrp_usd)!=null&&!["smart_helmet","headphones","outdoor"].includes(p.category)&&!/helmet|edgephones|ridephones|tufftalk|headset|headphone|accessor|snowtalk|bikom|\boutdoor\b/i.test(p.name));if(!m.length)return "";const c=m.reduce((a,p)=>((p.street_price_usd??p.msrp_usd)<(a.street_price_usd??a.msrp_usd)?p:a));return `<div class="card"><h3>${dot(b.competitor)}${b.competitor}</h3><div style="font-size:26px;font-weight:800" class="price">${fmt$(c.street_price_usd??c.msrp_usd)}</div><div class="small muted">${esc(c.name)} — cheapest mesh-capable unit</div></div>`}).join("")}</div>
+  </div>`;
 let inclHelmets=false,pTier="all";
 sections[4].querySelector("#helmChip").onclick=e=>{inclHelmets=!inclHelmets;e.target.classList.toggle("on",inclHelmets);drawChart()};
 sections[4].querySelector("#pTierSel").onchange=e=>{pTier=e.target.value;drawChart()};
