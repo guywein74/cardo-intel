@@ -1529,6 +1529,228 @@
       "topic": "Praise for mesh/audio quality",
       "summary": "An ASMAX F1 user said music sounds awesome and mesh communication is seamless and clear even with the visor up, also praising the GPS turn-by-turn announcements.",
       "url": "https://www.reddit.com/r/AussieRiders/comments/1splibx/cardo_yay_or_nay/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "Future 1",
+      "sentiment": "neutral",
+      "topic": "Extra kit inquiry",
+      "summary": "User planning to buy the Asmax Future 1 asks if an extra kit is available for a second helmet, noting that only the F1 Pro is available on the SEC Shopee store.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1009612918556705/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "S2",
+      "sentiment": "neutral",
+      "topic": "Giveaway promotion",
+      "summary": "A promotional post encouraging users to follow and join the mechanics for a chance to win an Asmax S2 intercom.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1009325711918759/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Racing mesh intercom",
+      "summary": "Promotional post highlighting how ASMAX Mesh Intercom keeps AVRP Racing Training riders connected to their coaches for real-time guidance on the track.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1009322745252389/"
     }
-  ]
+  ],
+  "amazon_pricing": {
+    "fetched_at": "2026-07-13T15:33:28.682267+00:00",
+    "domain": "US",
+    "products": [
+      {
+        "asin": "B0GGZTM2PZ",
+        "title": "ASMAX F1s Motorcycle Bluetooth Headset with Smart Voice Control, 10 Riders Mesh Helmet Communication Systems, ENC/APP FOTA/Audio Multitasking/EQ Modes, 5-Mile Intercom for Snowmobile/ATV/Ski",
+        "brand": "ASMAX",
+        "manufacturer": "Shenzhen Asmax Infinite Technology Co., Ltd",
+        "current": {
+          "amazon": null,
+          "new": 139.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 139.99,
+          "sales_rank": 23439,
+          "rating": 4.4,
+          "review_count": 1231,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 139.99,
+          "max": 139.99,
+          "avg": 139.99
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 26242,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0GGZTM2PZ"
+      },
+      {
+        "asin": "B0GGZZH2GS",
+        "title": "ASMAX F1s Motorcycle Bluetooth Headset with Smart Voice Control, 10 Riders Mesh Helmet Communication Systems, ENC/APP FOTA/Audio Multitasking/EQ Modes, 5-Mile Intercom for Snowmobile, 2 Pack",
+        "brand": "ASMAX",
+        "manufacturer": "ASMAX",
+        "current": {
+          "amazon": null,
+          "new": 259.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 259.99,
+          "sales_rank": 23525,
+          "rating": 4.4,
+          "review_count": 1231,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 259.99,
+          "max": 259.99,
+          "avg": 259.99
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 26490,
+        "category": "Bluetooth Headsets",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0GGZZH2GS"
+      },
+      {
+        "asin": "B0D1R1GDYP",
+        "title": "ASMX F1s Motorcycle Bluetooth Headset with Smart Voice Control, 10 Riders Mesh Helmet Communication Systems, ENC/APP FOTA/Audio Multitasking/No-Magnet Mount, 5-Mile Intercom for Snowmobile/ATV/Ski",
+        "brand": "ASMAX",
+        "manufacturer": "ASMAX",
+        "current": {
+          "amazon": null,
+          "new": 145.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 249.0,
+          "sales_rank": 23535,
+          "rating": 4.4,
+          "review_count": 1231,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 103.99,
+          "max": 259.0,
+          "avg": 145.16
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 26399,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0D1R1GDYP"
+      },
+      {
+        "asin": "B0D1RG3371",
+        "title": "ASMX F1s Motorcycle Bluetooth Headset with Smart Voice Control, 10 Riders Mesh Helmet Communication Systems, ENC/APP FOTA/Audio Multitasking/No-Magnet Mount, 5mi Intercom for Snowmobile/ATV, 2 Pack",
+        "brand": "ASMAX",
+        "manufacturer": "ASMAX",
+        "current": {
+          "amazon": null,
+          "new": 265.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 429.0,
+          "sales_rank": 23525,
+          "rating": 4.4,
+          "review_count": 1231,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 190.2,
+          "max": 279.99,
+          "avg": 257.43
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 26485,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0D1RG3371"
+      },
+      {
+        "asin": "B0D7P59LHZ",
+        "title": "ASMAX S1 Motorcycle Bluetooth Headset with Smart Voice Control, Mesh Helmet Communication Systems, Noise Cancellation/Waterproof/FM Radio/FOTA Update/EQ Modes, 8 Riders Intercom Fit for ATV, 1 Pack",
+        "brand": "ASMAX",
+        "manufacturer": "ASMAX",
+        "current": {
+          "amazon": null,
+          "new": 83.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 89.99,
+          "sales_rank": 15807,
+          "rating": 4.5,
+          "review_count": 1185,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 63.99,
+          "max": 109.99,
+          "avg": 82.66
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 19433,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0D7P59LHZ"
+      },
+      {
+        "asin": "B0D7P5MF7C",
+        "title": "ASMAX S1 Motorcycle Bluetooth Headset with Smart Voice Control, Mesh Helmet Communication Systems, Noise Cancellation/Waterproof/FM Radio/FOTA Update/EQ Modes, 8 Riders Intercom Fit for ATV, 2 Pack",
+        "brand": "ASMAX",
+        "manufacturer": "ASMAX",
+        "current": {
+          "amazon": null,
+          "new": 145.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 159.99,
+          "sales_rank": 15378,
+          "rating": 4.5,
+          "review_count": 1185,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 109.64,
+          "max": 179.99,
+          "avg": 145.99
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 19441,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0D7P5MF7C"
+      }
+    ]
+  }
 }
