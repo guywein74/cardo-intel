@@ -2548,6 +2548,96 @@
       "topic": "Comparison vs Cardo",
       "summary": "A Sena 60S owner recommended it over the Cardo Packtalk Edge, citing good sound quality and long battery life at a lower price ($299 vs $335).",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1uef58i/sena_60s_vs_cardo_packtalk_edge/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Sena Bluetooth Users Group",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Support contact issue",
+      "summary": "User reports the online support ticket form crashes on submission and public email addresses bounce back, requesting the message be forwarded to Europe support and to be contacted only via Email or WhatsApp.",
+      "url": "https://www.facebook.com/groups/536803186737125/permalink/2569326083484815/"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60X",
+      "sentiment": "neutral",
+      "topic": "60X vs 60S EVO comparison",
+      "summary": "Post compares the 60X and 60S EVO, noting the 60X has built-in AI noise cancellation and a battery saver feature, while the 60S EVO lacks ANC but supports IEM/earbuds that do noise cancellation.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1414427887227910/"
+    },
+    {
+      "date": "2026-07-12",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "Connection dropping intercom",
+      "summary": "User reports poor connection when pairing a 60S with a partner's 20S EVO in Bluetooth mode, including frequent lost connections, interference noise, voice cutting out, and shorter range, and asks about buying a +mesh to convert the 20S to mesh.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1413764557294243/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "One-way intercom audio",
+      "summary": "User asks if others have experienced the 60S Bluetooth comms failing where the other party can hear them but they can't hear the other, fixed temporarily by disconnecting/reconnecting; also experienced with SLR-II, 10S and 50S units.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1413190930684939/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "mixed",
+      "topic": "Intercom delay setup",
+      "summary": "User bought a 60S duo pack for music, calls, and passenger intercom, and reports a noticeable delay during intercom, asking for advice on whether to use Bluetooth instead of mesh for pillion intercom and how to set it up.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1413118270692205/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "neutral",
+      "topic": "Bluetooth earbuds pairing",
+      "summary": "User asks whether Bluetooth earbuds can be paired to the phone and/or the Sena 60S while still having music and intercom.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1413064294030936/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60X",
+      "sentiment": "positive",
+      "topic": "60X install evaluation",
+      "summary": "User posts an ongoing evaluation of the Sena 60X, reporting a straightforward install on a Shoei Neotech II with a wiring configuration difference that doesn't affect installation, and notes instructions suggest using speaker spacers.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1412911084046257/"
+    },
+    {
+      "date": "2026-07-11",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60X",
+      "sentiment": "neutral",
+      "topic": "60X user guide",
+      "summary": "User shares the Sena 60X User Guide 1.0.0 (English), noting it was not yet available on the website or in the Sena Motorcycle App.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1412878424049523/"
+    },
+    {
+      "date": "2026-07-10",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S EVO",
+      "sentiment": "negative",
+      "topic": "Buyer's remorse over 60X",
+      "summary": "User who just purchased the 60S EVO is considering returning it because Sena dropped the 60X, and asks for others' thoughts.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1412234494113916/"
     }
   ]
 }
