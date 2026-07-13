@@ -17,6 +17,9 @@ import pathlib
 from datetime import datetime
 from anthropic import Anthropic
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from keepa_scan import fetch_brand_pricing  # noqa: E402  (needs sys.path tweak above)
+
 # Initialize Anthropic client
 client = Anthropic()
 
@@ -343,6 +346,14 @@ def main():
     try:
         # Run research
         updated_data = run_research_agent(brand)
+
+        # Amazon pricing (Keepa) — each brand's agent fetches its own product
+        # pricing/BSR/rating as part of its normal run. Never fatal: skips
+        # cleanly if KEEPA_API_KEY isn't configured or the brand has no ASINs.
+        print(f"Fetching Amazon pricing for {brand} via Keepa...")
+        pricing = fetch_brand_pricing(brand)
+        if pricing:
+            updated_data["amazon_pricing"] = pricing
 
         # Validate
         if validate_research_data(brand, updated_data):

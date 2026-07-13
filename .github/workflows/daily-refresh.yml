@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install anthropic
+          pip install anthropic keepa
 
       - name: Configure Git
         run: |
@@ -36,6 +36,7 @@ jobs:
       - name: Run Cardo research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
         run: |
           python scripts/research_agent.py cardo
           echo "✅ Cardo research complete"
@@ -43,6 +44,7 @@ jobs:
       - name: Run Sena research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
         run: |
           python scripts/research_agent.py sena
           echo "✅ Sena research complete"
@@ -50,6 +52,7 @@ jobs:
       - name: Run ASMAX research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
         run: |
           python scripts/research_agent.py asmax
           echo "✅ ASMAX research complete"
@@ -57,6 +60,7 @@ jobs:
       - name: Run Reso research agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
         run: |
           python scripts/research_agent.py reso
           echo "✅ Reso research complete"
@@ -91,9 +95,7 @@ jobs:
       - name: Validate JavaScript
         run: |
           if command -v node &> /dev/null; then
-            sed -n '/<script>/,/<\/script>/p' dashboard.html | sed '1d;$d' > /tmp/check.js
-            node -c /tmp/check.js
-            echo "✅ JavaScript validation passed"
+            python3 scripts/validate_dashboard_js.py
           else
             echo "⚠️ Node.js not available, skipping JS validation"
           fi
