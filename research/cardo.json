@@ -2702,6 +2702,1355 @@
       "topic": "CarPlay headset bypass",
       "summary": "User still likes their Cardo for longer and group rides but uses a headset bypass for everyday commuting with CarPlay, and asks if others have done the same.",
       "url": "https://www.facebook.com/groups/1847605508861922/permalink/4504420186513761/"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Discontinued unit update failure",
+      "summary": "User with an older PackTalk gets an app error connecting to the intercom, and the CardoUpdate app doesn't detect the unit. Notes the product is discontinued and no longer receives software updates.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4507460616209718/"
     }
-  ]
+  ],
+  "amazon_pricing": {
+    "fetched_at": "2026-07-13T15:33:19.146188+00:00",
+    "domain": "US",
+    "products": [
+      {
+        "asin": "B09MQ7R1D8",
+        "title": "Cardo Systems Spirit Motorcycle Bluetooth Communication Headset, 2-Way Bluetooth, Thin 32mm Speakers, Waterproof, Universal Connectivity - Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 98.95,
+          "new": 98.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 109.95,
+          "sales_rank": 745,
+          "rating": 4.5,
+          "review_count": 4242,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 59.99,
+          "max": 109.95,
+          "avg": 95.49
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 882,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09MQ7R1D8"
+      },
+      {
+        "asin": "B09MQ8HT1G",
+        "title": "Cardo Systems Spirit Motorcycle Bluetooth Communication Headset - Black, Dual Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 188.96,
+          "new": 188.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 209.95,
+          "sales_rank": 745,
+          "rating": 4.5,
+          "review_count": 4242,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 90.0,
+          "max": 198.95,
+          "avg": 183.38
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 882,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09MQ8HT1G"
+      },
+      {
+        "asin": "B09MQ8NVXG",
+        "title": "Cardo Systems Spirit HD Motorcycle Bluetooth Communication Headset, 2-Way Bluetooth, Thin 40mm Speakers, Waterproof, Universal Connectivity - Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 161.96,
+          "new": 161.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 179.95,
+          "sales_rank": 743,
+          "rating": 4.5,
+          "review_count": 2922,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 107.97,
+          "max": 161.96,
+          "avg": 156.58
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 607,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09MQ8NVXG"
+      },
+      {
+        "asin": "B09NF1N197",
+        "title": "Cardo Spirit HD Motorcycle Bluetooth Communication Headset, Connect Up to 2 Riders, FM Radio - Dual Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 305.96,
+          "new": 305.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 339.95,
+          "sales_rank": 743,
+          "rating": 4.5,
+          "review_count": 2922,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 173.95,
+          "max": 305.96,
+          "avg": 297.22
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 883,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09NF1N197"
+      },
+      {
+        "asin": "B09MQ6TG4Q",
+        "title": "Cardo Systems FREECOM 2X Motorcycle 2-Way Helmet Bluetooth Communication System Headset Intercom, Universal Bluetooth Connectivity, Waterproof, 40mm Speakers - Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 229.46,
+          "new": 229.46,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 254.95,
+          "sales_rank": 13394,
+          "rating": 4.4,
+          "review_count": 2941,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 139.96,
+          "max": 229.46,
+          "avg": 221.24
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 11637,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09MQ6TG4Q"
+      },
+      {
+        "asin": "B09MQ7TZ8M",
+        "title": "Cardo Systems FREECOM 2X Motorcycle 2-Way Helmet Bluetooth Communication System Headset Intercom, Universal Bluetooth Connectivity, Waterproof, 40mm Speakers - Dual Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 427.46,
+          "new": 427.46,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 474.95,
+          "sales_rank": 13459,
+          "rating": 4.4,
+          "review_count": 2941,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 209.95,
+          "max": 427.46,
+          "avg": 410.06
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 11647,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09MQ7TZ8M"
+      },
+      {
+        "asin": "B09MQ7C185",
+        "title": "Cardo Systems FREECOM 4X Motorcycle 4-Way Helmet Bluetooth Communication System Headset Intercom, Universal Bluetooth Connectivity, Waterproof, 40mm Speakers - Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 283.46,
+          "new": 283.46,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 314.95,
+          "sales_rank": 12280,
+          "rating": 4.3,
+          "review_count": 2488,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 174.65,
+          "max": 283.46,
+          "avg": 273.88
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 9380,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09MQ7C185"
+      },
+      {
+        "asin": "B09MQ6NBZH",
+        "title": "Cardo Systems FREECOM 4X Motorcycle 4-Way Helmet Bluetooth Communication System Headset Intercom, Universal Bluetooth Connectivity, Waterproof, 40mm Speakers - Dual Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 521.96,
+          "new": 521.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 579.95,
+          "sales_rank": 12280,
+          "rating": 4.3,
+          "review_count": 2488,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 340.0,
+          "max": 521.96,
+          "avg": 501.18
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 9364,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09MQ6NBZH"
+      },
+      {
+        "asin": "B09W6QMM65",
+        "title": "Cardo PACKTALK Edge Motorcycle Bluetooth Communication System Headset Intercom - Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 395.96,
+          "new": 390.85,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 439.95,
+          "sales_rank": 3300,
+          "rating": 4.5,
+          "review_count": 3304,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 260.0,
+          "max": 395.96,
+          "avg": 384.14
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 2716,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09W6QMM65"
+      },
+      {
+        "asin": "B09W6FDNQ2",
+        "title": "Cardo PACKTALK Edge Motorcycle Bluetooth Communication System Headset Intercom - Dual Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 719.96,
+          "new": 715.94,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 799.95,
+          "sales_rank": 3304,
+          "rating": 4.5,
+          "review_count": 3304,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 446.58,
+          "max": 719.96,
+          "avg": 696.09
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 2706,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09W6FDNQ2"
+      },
+      {
+        "asin": "B0B5FH3HRC",
+        "title": "Cardo Systems Packtalk Edge KTM Edition, Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 395.96,
+          "new": 395.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 439.95,
+          "sales_rank": -1,
+          "rating": 4.6,
+          "review_count": 119,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 265.0,
+          "max": 395.96,
+          "avg": 380.95
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": -1,
+        "category": "Speaker Systems",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0B5FH3HRC"
+      },
+      {
+        "asin": "B0BFC4SPXK",
+        "title": "Cardo PACKTALK Edge Off-Road Vehicles, Communication for Every Terrain,Black",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 395.96,
+          "new": 395.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 439.95,
+          "sales_rank": 3304,
+          "rating": 4.2,
+          "review_count": 167,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 292.46,
+          "max": 395.96,
+          "avg": 385.92
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 2714,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0BFC4SPXK"
+      },
+      {
+        "asin": "B0C7J2Q9KW",
+        "title": "Cardo PACKTALK Edge Off-Road Vehicles ORV, Snowmobile, Side x Side, ATV Communication for Every Terrain - Duo Pack, Black",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 719.96,
+          "new": 717.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 799.95,
+          "sales_rank": 3304,
+          "rating": 4.2,
+          "review_count": 167,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 516.99,
+          "max": 719.96,
+          "avg": 699.44
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 2713,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0C7J2Q9KW"
+      },
+      {
+        "asin": "B0BNH2XTKD",
+        "title": "Cardo Packtalk Neo Motorcycle Helmet Communication Intercom System, Waterproof, 2nd Generation Mesh - Connect Up to 15 Riders, Natural Voice Operation, 40mm High Definition Speakers - Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 323.96,
+          "new": 323.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 359.95,
+          "sales_rank": 8395,
+          "rating": 4.6,
+          "review_count": 1117,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 239.96,
+          "max": 349.95,
+          "avg": 314.34
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 6338,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0BNH2XTKD"
+      },
+      {
+        "asin": "B0BNGR4Q7C",
+        "title": "Cardo Packtalk Neo Motorcycle Helmet Communication Intercom System, Waterproof, 2nd Generation Mesh - Connect Up to 15 Riders, Natural Voice Operation, 40mm High Definition Speakers - Dual Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 602.96,
+          "new": 602.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 669.95,
+          "sales_rank": 8395,
+          "rating": 4.6,
+          "review_count": 1117,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 439.99,
+          "max": 649.95,
+          "avg": 581.61
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 6349,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0BNGR4Q7C"
+      },
+      {
+        "asin": "B0CK8M9SNJ",
+        "title": "Cardo FREECOM 4X & SPIRIT HD BUNDLE",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 369.71,
+          "new": 369.71,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 434.95,
+          "sales_rank": 506395,
+          "rating": 4.3,
+          "review_count": 74,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 319.95,
+          "max": 434.95,
+          "avg": 413.63
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 491029,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CK8M9SNJ"
+      },
+      {
+        "asin": "B0CZS57XYN",
+        "title": "Cardo PACKTALK PRO Motorcycle Helmet Communication System Intercom, Crash Detection, Auto On/Off, Air Mount, 45mm Speakers, Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 449.95,
+          "new": 449.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 499.95,
+          "sales_rank": 5880,
+          "rating": 4.4,
+          "review_count": 784,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 350.0,
+          "max": 749.99,
+          "avg": 426.87
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 4175,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CZS57XYN"
+      },
+      {
+        "asin": "B09PJSN61V",
+        "title": "FREECOM-X/Spirit 2ND Helmet JBL KIT",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 116.96,
+          "new": 116.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 129.95,
+          "sales_rank": 25787,
+          "rating": 4.6,
+          "review_count": 406,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 39.96,
+          "max": 129.95,
+          "avg": 114.66
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 27127,
+        "category": "Bluetooth Headsets",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09PJSN61V"
+      },
+      {
+        "asin": "B09PJSYFLG",
+        "title": "Cardo FREECOM-X/Spirit 2ND Helmet KIT",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 89.96,
+          "new": 89.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 99.95,
+          "sales_rank": 40714,
+          "rating": 4.6,
+          "review_count": 329,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 63.69,
+          "max": 97.12,
+          "avg": 87.38
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 42008,
+        "category": "Helmets",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09PJSYFLG"
+      },
+      {
+        "asin": "B0B1GNMLF2",
+        "title": "Cardo Systems Freecom-X/Spirit Half Helmet Kit",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 47.63,
+          "new": 47.63,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 54.95,
+          "sales_rank": 95299,
+          "rating": 4.2,
+          "review_count": 83,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 37.46,
+          "max": 61.95,
+          "avg": 53.45
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 119209,
+        "category": "Helmets",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0B1GNMLF2"
+      },
+      {
+        "asin": "B018XC14BK",
+        "title": "Cardo Packtalk Audio & Microphone Kit (Single Pack) - Will Not Fit Packtalk Edge, Pro, Neo or Edge ORV Models",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 91.14,
+          "new": 89.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 99.95,
+          "sales_rank": 114784,
+          "rating": 4.7,
+          "review_count": 1853,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 33.28,
+          "max": 149.24,
+          "avg": 87.66
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 80746,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B018XC14BK"
+      },
+      {
+        "asin": "B09PJSJJVQ",
+        "title": "PACKTALK Bold 2ND Helmet JBL KIT (Will not fit Packtalk Edge, Pro, Outdoor, Neo or Custom)",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 116.96,
+          "new": 116.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 129.95,
+          "sales_rank": 39018,
+          "rating": 4.7,
+          "review_count": 259,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 86.0,
+          "max": 129.95,
+          "avg": 113.76
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 88751,
+        "category": "Adapters",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B09PJSJJVQ"
+      },
+      {
+        "asin": "B01AXDGWPU",
+        "title": "Cardo Boom Microphone Cradle (for PackTalk Bold/Black and SmartPack Systems) (Black, Single Pack) - Will Not Fit Packtalk Edge, Pro or Neo",
+        "brand": "Cardo",
+        "manufacturer": "scala rider",
+        "current": {
+          "amazon": 54.95,
+          "new": 54.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 54.95,
+          "sales_rank": 496993,
+          "rating": 4.6,
+          "review_count": 643,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 17.53,
+          "max": 54.95,
+          "avg": 52.58
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 291332,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B01AXDGWPU"
+      },
+      {
+        "asin": "B0B495VC19",
+        "title": "Cardo Packtalk Pro/Edge 2ND Helmet Kit - Sound by JBL, Perfect for Your Additional Helmet, Allows for Simple Moving Your Communicaion System Between Helmets",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 125.96,
+          "new": 125.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 139.95,
+          "sales_rank": 5970,
+          "rating": 4.7,
+          "review_count": 953,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 91.16,
+          "max": 125.96,
+          "avg": 121.64
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 5504,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0B495VC19"
+      },
+      {
+        "asin": "B0B48WXL2C",
+        "title": "Cardo Packtalk Half Helmet Kit, For Use With Half Helmets, Extra-long boom microphone for half-helmet use. Cradle or speakers are not included.",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 49.45,
+          "new": 49.45,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 54.95,
+          "sales_rank": 5961,
+          "rating": 4.7,
+          "review_count": 953,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 39.96,
+          "max": 59.95,
+          "avg": 47.18
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 5491,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0B48WXL2C"
+      },
+      {
+        "asin": "B0CK8LYPYX",
+        "title": "PACKTALK Edge Half Helmet KIT - Comes with A Built-in Air-Mount Cradle, A Shorter Speaker Cable for Less Hassle, and A Pre-Installed Boom Mic. Speakers are Not Included.",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 72.91,
+          "new": 67.46,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 74.95,
+          "sales_rank": 71322,
+          "rating": 4.6,
+          "review_count": 162,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 41.21,
+          "max": 88.91,
+          "avg": 65.78
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 52461,
+        "category": "Helmets",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CK8LYPYX"
+      },
+      {
+        "asin": "B0BNGS83GB",
+        "title": "Cardo Packtalk Neo JBL Second Helmet Kit,Black",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 99.95,
+          "new": 99.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 129.95,
+          "sales_rank": 30064,
+          "rating": 4.5,
+          "review_count": 150,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 79.95,
+          "max": 136.88,
+          "avg": 96.58
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 26138,
+        "category": "Accessories",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0BNGS83GB"
+      },
+      {
+        "asin": "B0B48GR6P9",
+        "title": "Cardo 40MM Speakers",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": null,
+          "new": 67.16,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 59.95,
+          "sales_rank": 259785,
+          "rating": 4.0,
+          "review_count": 10,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 43.85,
+          "max": 94.46,
+          "avg": 65.96
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 1537651,
+        "category": "Component Speakers",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0B48GR6P9"
+      },
+      {
+        "asin": "B0F8P4LS3G",
+        "title": "Cardo IP67 Waterproof Microphone, Compatible with All Cardo Devices (not Compatible with EDGEPHONES and EDGEPHONES ORV)",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": 24.95,
+          "new": 24.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 24.95,
+          "sales_rank": 2808,
+          "rating": 4.6,
+          "review_count": 87,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 18.71,
+          "max": 31.57,
+          "avg": 23.9
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 2664,
+        "category": "Windscreens",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0F8P4LS3G"
+      },
+      {
+        "asin": "B0CK8MZSKZ",
+        "title": "PACKTALK SHOEI ADAPTOR - Gen 2",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 19.27,
+          "new": 19.27,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 21.95,
+          "sales_rank": 25965,
+          "rating": 4.0,
+          "review_count": 197,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 15.96,
+          "max": 23.43,
+          "avg": 19.29
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 26774,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CK8MZSKZ"
+      },
+      {
+        "asin": "B0F1YYRFGD",
+        "title": "PACKTALK SHOEI ADAPTOR - Gen 3",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 21.95,
+          "new": 21.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 21.95,
+          "sales_rank": 25965,
+          "rating": 4.5,
+          "review_count": 161,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 16.46,
+          "max": 34.67,
+          "avg": 19.83
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 26604,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0F1YYRFGD"
+      },
+      {
+        "asin": "B07RJTTXBG",
+        "title": "Cardo 45mm Audio Set, Works with Most Helmet Communicators (Single Pack)",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 98.95,
+          "new": 98.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 109.95,
+          "sales_rank": 8712,
+          "rating": 4.5,
+          "review_count": 2196,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 34.95,
+          "max": 114.35,
+          "avg": 96.15
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 7588,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B07RJTTXBG"
+      },
+      {
+        "asin": "B0F1YC74W7",
+        "title": "Cardo Speaker Amplifier Pad",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": null,
+          "new": 28.07,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": null,
+          "sales_rank": 506954,
+          "rating": 3.2,
+          "review_count": 8,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 13.51,
+          "max": 28.22,
+          "avg": 27.43
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 480439,
+        "category": "Spikes",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0F1YC74W7"
+      },
+      {
+        "asin": "B0FB47LJVQ",
+        "title": "Cardo Hybrid Boom Microphone for Open and Modular Helmets",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": null,
+          "new": 29.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": null,
+          "sales_rank": 1327722,
+          "rating": 4.6,
+          "review_count": 11,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 14.99,
+          "max": 46.84,
+          "avg": 32.1
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 738655,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0FB47LJVQ"
+      },
+      {
+        "asin": "B0CV7WJQD8",
+        "title": "Cardo Refresh KIT for PACKTALK/FREECOM X/Spirit Series",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 19.75,
+          "new": 19.75,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 21.95,
+          "sales_rank": 3631,
+          "rating": 4.8,
+          "review_count": 806,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 14.97,
+          "max": 29.94,
+          "avg": 19.39
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 3517,
+        "category": "Helmet Accessories",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CV7WJQD8"
+      },
+      {
+        "asin": "B0CK8N5NR7",
+        "title": "Cardo Packtalk Edgephone for ORV - Crafted for the Rough terrains and Cellular-Free connectivity for Non-Helmet Applications - Single Pack",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 476.95,
+          "new": 476.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 529.95,
+          "sales_rank": 28866,
+          "rating": 3.9,
+          "review_count": 90,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 349.99,
+          "max": 489.95,
+          "avg": 464.86
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 40419,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CK8N5NR7"
+      },
+      {
+        "asin": "B0DJGJ2WMS",
+        "title": "Cardo Packtalk Edgephone for ORV - Crafted for the Rough terrains and Cellular-Free connectivity for Non-Helmet Applications - Duo Pack",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 899.96,
+          "new": 899.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 999.95,
+          "sales_rank": 28218,
+          "rating": 3.9,
+          "review_count": 90,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 529.95,
+          "max": 949.95,
+          "avg": 869.72
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 22770,
+        "category": "Over-Ear Headphones",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0DJGJ2WMS"
+      },
+      {
+        "asin": "B0CK8MWNVW",
+        "title": "Cardo PACKTALK EDGEPHONES",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": 151.59,
+          "new": 143.96,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 159.95,
+          "sales_rank": 29191,
+          "rating": 4.6,
+          "review_count": 121,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 119.96,
+          "max": 296.58,
+          "avg": 140.41
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 40362,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CK8MWNVW"
+      },
+      {
+        "asin": "B0BHTXB3JW",
+        "title": "Cardo PACKTALK Outdoor Helmet Communication System, Great for Ski, Snowboard and Cycling (White, Single Pack)",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": null,
+          "new": 258.99,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 269.95,
+          "sales_rank": 167345,
+          "rating": 4.6,
+          "review_count": 277,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 175.0,
+          "max": 269.95,
+          "avg": 265.83
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 226937,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0BHTXB3JW"
+      },
+      {
+        "asin": "B0BHTTVSSS",
+        "title": "Cardo PACKTALK Outdoor Helmet Communication System, Great for Ski, Snowboard and Cycling (Black, Single Pack)",
+        "brand": "Cardo",
+        "manufacturer": "CARDO",
+        "current": {
+          "amazon": null,
+          "new": 269.79,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 269.95,
+          "sales_rank": 168085,
+          "rating": 4.6,
+          "review_count": 277,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 180.0,
+          "max": 269.95,
+          "avg": 269.55
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 222803,
+        "category": "Helmet Communication",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0BHTTVSSS"
+      },
+      {
+        "asin": "B0CK4VVY6R",
+        "title": "Cardo Packtalk Outdoor Helmet Communication System for Skiing, Snowboarding, Mountain Biking, Cycling and Other Outdoor Activities - Black - Dual Pack",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": null,
+          "new": 494.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 494.95,
+          "sales_rank": 199031,
+          "rating": 4.6,
+          "review_count": 277,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 269.95,
+          "max": 494.95,
+          "avg": 493.33
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 148436,
+        "category": "Winter Sports Accessories",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CK4VVY6R"
+      },
+      {
+        "asin": "B0CPQ7ZFM7",
+        "title": "Cardo Packtalk Outdoor Helmet Communication System for Skiing, Snowboarding, Mountain Biking, Cycling and Other Outdoor Activities",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": null,
+          "new": 488.98,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 494.95,
+          "sales_rank": 167345,
+          "rating": 4.6,
+          "review_count": 277,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 337.46,
+          "max": 494.95,
+          "avg": 490.66
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 151732,
+        "category": "Bluetooth Headsets",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CPQ7ZFM7"
+      },
+      {
+        "asin": "B0CK51TRR6",
+        "title": "Cardo Packtalk Outdoor 2nd Helmet Kit, Communication Device Accessory for Additional Helmet Use, Multifunctional Kit for Helmets, Add-On for Second Helmet Usage",
+        "brand": "Cardo",
+        "manufacturer": "Cardo",
+        "current": {
+          "amazon": null,
+          "new": 84.95,
+          "buybox": null,
+          "buybox_seller": null,
+          "list_price": 79.95,
+          "sales_rank": 414652,
+          "rating": 4.6,
+          "review_count": 30,
+          "offer_count": 0
+        },
+        "range_new": {
+          "min": 59.96,
+          "max": 89.95,
+          "avg": 84.95
+        },
+        "range_buybox": {
+          "min": null,
+          "max": null,
+          "avg": null
+        },
+        "sales_rank_avg": 277634,
+        "category": "Skiing",
+        "offers": [],
+        "keepa_url": "https://keepa.com/#!product/1-B0CK51TRR6"
+      }
+    ]
+  }
 }
