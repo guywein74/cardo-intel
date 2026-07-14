@@ -1,13 +1,14 @@
-name: Daily Competitive Research Refresh
+name: Weekly Competitive Research Refresh
 
 on:
   schedule:
-    # Run every day at 9 AM UTC (adjustable)
-    - cron: '0 9 * * *'
+    # Run every Monday at 10:00 AM US Eastern (14:00 UTC during EDT; drifts
+    # to 15:00 UTC during EST since GitHub Actions cron doesn't follow DST)
+    - cron: '0 14 * * 1'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  daily-refresh:
+  weekly-refresh:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -115,7 +116,7 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git add research/*.json dashboard.html index.html
-          git commit -m "Daily data refresh $(date +%Y-%m-%d)"
+          git commit -m "Weekly data refresh $(date +%Y-%m-%d)"
           git push origin HEAD:main
           echo "✅ Changes pushed to GitHub"
 
@@ -133,7 +134,7 @@ jobs:
       - name: Summary
         if: always()
         run: |
-          echo "=== Daily Refresh Summary ==="
+          echo "=== Weekly Refresh Summary ==="
           echo "Date: $(date -u)"
           echo "Status: ${{ job.status }}"
           if [ "${{ steps.check_changes.outputs.has_changes }}" = "true" ]; then
@@ -144,10 +145,10 @@ jobs:
 
   notify-failure:
     runs-on: ubuntu-latest
-    needs: daily-refresh
+    needs: weekly-refresh
     if: failure()
     steps:
       - name: Log failure
         run: |
-          echo "❌ Daily refresh workflow failed!"
+          echo "❌ Weekly refresh workflow failed!"
           echo "Check the logs at: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
