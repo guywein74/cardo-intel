@@ -5,7 +5,7 @@
     "hq": "Israel (R&D and main operations), with US office (Plano, TX) and operations in Americas, Europe and Asia; owned by EMK Capital since 2021 ($150M acquisition from Fortissimo Capital and founder)",
     "founded": "2003 (by Dr. Abraham Glezerman; pioneered Bluetooth motorcycle communicators in 2004)",
     "positioning": "Premium global market leader in motorcycle/powersports wireless communication; 6M+ devices sold in 80+ countries; differentiators are Dynamic Mesh Communication (DMC), Sound by JBL audio, IP67 waterproofing and free OTA feature upgrades; expanding in 2026 from bolt-on communicators into fully integrated smart helmets (Beyond GT/GTS, Venture)",
-    "channels": "D2C via cardosystems.com; major moto e-tail (RevZilla, Cycle Gear incl. free-install partnership, Amazon, FortNine); brick-and-mortar dealers in 80+ countries; OEM/co-branded integrations (Shoei Packtalk-S/4X-S, HJC 4X/Spirit, KTM-branded Edge, Schuberth SC EDGE); also licenses tech outside motorcycling (Lazer VeloVox cycling communicator)"
+    "channels": "D2C via cardosystems.com; major moto e-tail (RevZilla, Cycle Gear incl. free-install partnership, Amazon, FortNine); brick-and-mortar dealers in 80+ countries, expanded 2026-07 via new Motovan distribution partnership in Eastern Canada; OEM/co-branded integrations (Shoei Packtalk-S/4X-S, HJC 4X/Spirit, KTM-branded Edge, Schuberth SC EDGE, Leatt-branded Freecom 4X/Packtalk Edge kits confirmed via dedicated cardosystems.com support pages); also licenses tech outside motorcycling (Lazer VeloVox cycling communicator); marketing partnership with Insta360 pairing action cameras with Cardo comms (since Dec 2025)"
   },
   "products": [
     {
@@ -149,7 +149,7 @@
       "name": "Packtalk Neo",
       "tier": "mid",
       "msrp_usd": 359.95,
-      "street_price_usd": 321.93,
+      "street_price_usd": 323.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
       "max_riders": 15,
@@ -165,7 +165,7 @@
         "Clip/plate mount (no Air Mount)"
       ],
       "release_year": 2023,
-      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price is now $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%, still current on RevZilla as of 2026-07-10); lowest verified price used. RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09 (SKU churn, not a discontinuation confirmed).",
+      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price was $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%). Re-verified 2026-07-14: the deeper Amazon deal has expired - both Amazon storefront and RevZilla now show $323.96 (-10% off $359.95), so street_price_usd reverts to $323.96 (current lowest confirmed price). RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09, and has since ticked down again to 'Cardo Systems(56)' as of 2026-07-14 (SKU churn, not a discontinuation confirmed).",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -347,7 +347,7 @@
       "name": "Freecom 2x",
       "tier": "entry",
       "msrp_usd": 254.95,
-      "street_price_usd": 203.96,
+      "street_price_usd": 229.46,
       "intercom_tech": "Bluetooth 5.2 'Live Intercom' (no mesh)",
       "range_km": 0.8,
       "max_riders": 2,
@@ -362,7 +362,7 @@
         "Fast charge USB-C"
       ],
       "release_year": 2021,
-      "notes": "Rider+passenger / 2-rider use case. MSRP raised from $209.95 to $254.95 in 2025. Street price confirmed 2026-07-08: Amazon storefront $203.96 (-20%), RevZilla $229.46 (-10%); lowest verified price used.",
+      "notes": "Rider+passenger / 2-rider use case. MSRP raised from $209.95 to $254.95 in 2025. Street price confirmed 2026-07-08: Amazon storefront $203.96 (-20%), RevZilla $229.46 (-10%); lowest verified price used. Re-verified 2026-07-14: the -20% Amazon deal has expired; Amazon storefront and RevZilla both now show $229.46 (-10% off $254.95), so street_price_usd reverts to $229.46 (current lowest confirmed price).",
       "dimensions": {
         "form_factor": {
           "weight_g": 37,
@@ -973,7 +973,7 @@
       "name": "Packtalk Edgephones",
       "tier": "mid",
       "msrp_usd": 159.95,
-      "street_price_usd": null,
+      "street_price_usd": 143.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2), joins Packtalk networks",
       "range_km": 1.6,
       "max_riders": 15,
@@ -985,7 +985,7 @@
         "ORV version available"
       ],
       "release_year": 2023,
-      "notes": "Accessory headphones, launched at $149.95, now $159.95.",
+      "notes": "Accessory headphones, launched at $149.95, now $159.95. Street price confirmed 2026-07-14 via RevZilla ('Cardo Systems Packtalk Edgephones ORV' listing spans both the base and ORV variants): base $159.95 variant currently $143.96 (-10%).",
       "category": "headphones",
       "url": "https://cardosystems.com/products/packtalk-edgephones",
       "usage": "Motorcycle"
@@ -1041,7 +1041,7 @@
       "category": "headphones",
       "tier": "mid",
       "msrp_usd": 529.95,
-      "street_price_usd": 426.96,
+      "street_price_usd": 476.91,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2), joins Packtalk Edge ORV network; wireless handsfree, always-on",
       "range_km": null,
       "max_riders": null,
@@ -1057,7 +1057,7 @@
         "Designed for UTV/ATV and other non-helmet off-road applications"
       ],
       "release_year": 2024,
-      "notes": "Off-road/UTV variant of Packtalk Edgephones, crafted for rough terrain and cellular-free connectivity for non-helmet applications. Compatible with Packtalk Edge, Edge ORV, Edge KTM, Edge Ducati, Edge Honda, Edge Simpson. 1-year warranty (Edgephones); 3-year warranty (Packtalk Edge unit). Street price confirmed 2026-07-10: RevZilla lists this SKU across variants from $143.96 to $426.96 (was $159.95 to $529.95, -19%); the $426.96 deal price maps to the $529.95 MSRP variant tracked here and is used as street_price_usd.",
+      "notes": "Off-road/UTV variant of Packtalk Edgephones, crafted for rough terrain and cellular-free connectivity for non-helmet applications. Compatible with Packtalk Edge, Edge ORV, Edge KTM, Edge Ducati, Edge Honda, Edge Simpson. 1-year warranty (Edgephones); 3-year warranty (Packtalk Edge unit). Street price confirmed 2026-07-10: RevZilla lists this SKU across variants from $143.96 to $426.96 (was $159.95 to $529.95, -19%); the $426.96 deal price maps to the $529.95 MSRP variant tracked here and is used as street_price_usd. Re-verified 2026-07-14: RevZilla's discount on this SKU narrowed to -10% (from $159.95 to $476.91, was up to $529.95); the deeper -19% deal on the ORV variant has expired, so street_price_usd updates to $476.91 (current lowest confirmed price).",
       "url": "https://cardosystems.com/products/packtalk-edgephones-orv",
       "usage": "Off-road vehicles (UTV/ATV)"
     }
@@ -1212,6 +1212,12 @@
       "headline": "Cardo expands its connected riding ecosystem with Apple CarPlay: Cardo Ride 4.6.0 (released 2026-07-02) brings CarPlay dashboard integration to the Cardo Ride Pro subscription tier; Android Auto compatibility announced as coming soon",
       "source": "Cardo Systems press release via Superbike News UK / Cycle News",
       "url": "https://superbike-news.co.uk/cardo-expands-its-connected-riding-ecosystem-with-apple-carplay/"
+    },
+    {
+      "date": "2025-12-30",
+      "headline": "Backfill/missed item: Insta360 and Cardo Systems announce a marketing partnership pairing action cameras with Cardo's communication systems, kicked off at BMW Motorrad Days with a shared booth and joint tutorials on integrating the two product lines; still being promoted via giveaways as of July 2026",
+      "source": "Insta360 blog",
+      "url": "https://www.insta360.com/blog/news/cardo-partners-with-insta360.html"
     }
   ],
   "social_media": {
@@ -1219,14 +1225,14 @@
       "handle": "@cardosystems",
       "followers": 230000,
       "url": "https://www.instagram.com/cardosystems/",
-      "notes": "~230K followers, 3,777 posts (Google-indexed profile, updated 2026-07-10; up from ~228K/3,700+ recorded 2026-07-09). Frequent posting: product launches, rider lifestyle reels, #CardoFam UGC, event coverage (EICMA). Network of regional accounts (@cardosystems_de, _india, _korea, @cardosystemsindonesia)."
+      "notes": "~230K followers, 3,777 posts (Google-indexed profile, updated 2026-07-10; up from ~228K/3,700+ recorded 2026-07-09). Re-verified 2026-07-14: still ~230K followers, no material change. Frequent posting: product launches, rider lifestyle reels, #CardoFam UGC, event coverage (EICMA). Network of regional accounts (@cardosystems_de, _india, _korea, @cardosystemsindonesia)."
     },
     "facebook": {
       "page": "facebook.com/CardoSystems",
       "followers": 353009,
       "url": "https://www.facebook.com/CardoSystems/",
       "groups_notes": "Public group 'Cardo Systems PackTalk and Edge Community' (facebook.com/groups/1847605508861922) is the main owner community; member count not retrievable without login. Cardo Outdoor page has ~116K followers; many small regional pages (Cardo UK 2.4K, Malaysia 4.3K, Philippines 2.9K, Indonesia 1.6K, NZ 168). Cardo topics also active in model-specific owner groups/forums (Road Glide, GL1800Riders, KRX).",
-      "notes": "Main global page follower count updated 2026-07-10 to 353,009 likes (Google-indexed profile snippet), up from 352,835 recorded 2026-07-09."
+      "notes": "Main global page follower count updated 2026-07-10 to 353,009 likes (Google-indexed profile snippet), up from 352,835 recorded 2026-07-09. Re-verified 2026-07-14: 352,936 likes (Google-indexed snippet) - essentially flat, within normal snapshot noise."
     },
     "reddit": {
       "url": "https://www.reddit.com/search/?q=cardo+motorcycle+intercom",
@@ -1508,6 +1514,18 @@
         "platform": "Instagram",
         "summary": "It could not be easier to connect your Cardo Packtalk to you navigation system 🤌🏻 the new launcher from @dmdnavigation is also absolutely fantastic 🤩\n\n#tshansenadventure #dmd2next #adventure #cardosystems",
         "url": "https://www.instagram.com/p/DaqFAI4tmTg/"
+      },
+      {
+        "date": "2026-07-14",
+        "platform": "Instagram",
+        "summary": "Sponsored rider post using discount code HUBZ, thanking Cardo Systems as a sponsor and explaining that Cardo comm units are how the rider and companions talk while riding.",
+        "url": "https://www.instagram.com/p/DaxhOP_xmd4/"
+      },
+      {
+        "date": "2026-07-13",
+        "platform": "Instagram",
+        "summary": "Post captioned 'Sarah's first ride!!' promoting a discount code (NICKANDSARAH) and tagging @cardosystems in a couple-goals themed riding post.",
+        "url": "https://www.instagram.com/p/DavFKeABhcM/"
       }
     ]
   },
@@ -1673,6 +1691,13 @@
         "product": "Beyond GTS (smart helmet)",
         "verdict": "Reports the 2026 Red Dot Award: Product Design win for Beyond GTS (developed with Kiska Design); notes the helmet's integrated Packtalk Pro/DMC system, 53mm speakers and ANC as the recognized features, while cautioning 'design awards don't always translate into products riders actually want to buy'",
         "url": "https://www.visordown.com/news/cardo-beyond-gts-lands-red-dot-design-award"
+      },
+      {
+        "outlet": "RideApart",
+        "date": "2025-12-06",
+        "product": "Beyond GTS (smart helmet)",
+        "verdict": "Backfill/missed item: hands-on wind-tunnel test of the Beyond GTS/GT's Active Noise Cancellation at EICMA, run at 74 mph (120 km/h); positive - reviewer (initially skeptical of ANC replacing earplugs) reported a noticeable wind-noise reduction and called the music clarity at speed 'the clearest I've ever heard' at that speed",
+        "url": "https://www.rideapart.com/news/780145/cardo-noise-canceling-beyond-gts-wind-tunnel-test/"
       }
     ],
     "awards": [
@@ -1890,7 +1915,7 @@
     "app_ios_version": "8.14",
     "app_android_version": "8.14",
     "app_last_updated": "2026-06-07",
-    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer; see product_firmware for per-product firmware versions. Re-verified 2026-07-10 via Apple App Store and APKCombo: Cardo Connect remains at 8.14, unchanged since 2026-06-07. Note: Cardo Ride (the separate ride-tracking/navigation app, App Store id 1087005682) is versioned independently of Cardo Connect - Cardo Ride reached v4.6.0 on 2026-07-02, adding Apple CarPlay dashboard support for Cardo Ride Pro subscribers."
+    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer; see product_firmware for per-product firmware versions. Re-verified 2026-07-10 via Apple App Store and APKCombo: Cardo Connect remains at 8.14, unchanged since 2026-06-07. Re-verified again 2026-07-14: still 8.14 on both platforms and Cardo Ride still at 4.6.0, no new releases found. Note: Cardo Ride (the separate ride-tracking/navigation app, App Store id 1087005682) is versioned independently of Cardo Connect - Cardo Ride reached v4.6.0 on 2026-07-02, adding Apple CarPlay dashboard support for Cardo Ride Pro subscribers."
   },
   "product_firmware": [
     {
@@ -2026,16 +2051,16 @@
       "firmware_version": null,
       "firmware_last_updated": null,
       "release_notes_url": null,
-      "user_manual_url": "https://cardosystems.com/products/hjc-4x",
-      "support_url": "https://cardosystems.com/products/hjc-4x"
+      "user_manual_url": "https://cardosystems.com/pages/support/hjc-4-x",
+      "support_url": "https://cardosystems.com/pages/support/hjc-4-x"
     },
     {
       "product": "HJC Spirit",
       "firmware_version": null,
       "firmware_last_updated": null,
       "release_notes_url": null,
-      "user_manual_url": "https://cardosystems.com/products/hjc-spirit",
-      "support_url": "https://cardosystems.com/products/hjc-spirit"
+      "user_manual_url": "https://cardosystems.com/pages/support/hjc-spirit",
+      "support_url": "https://cardosystems.com/pages/support/hjc-spirit"
     }
   ],
   "sources": [
@@ -2712,6 +2737,86 @@
       "topic": "Discontinued unit update failure",
       "summary": "User with an older PackTalk gets an app error connecting to the intercom, and the CardoUpdate app doesn't detect the unit. Notes the product is discontinued and no longer receives software updates.",
       "url": "https://www.facebook.com/groups/1847605508861922/permalink/4507460616209718/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Product lineup confusion",
+      "summary": "A rider shopping for a Cardo was confused between the Packtalk Edge and Packtalk Pro, having seen the Edge at Cycle Gear for around $359 before learning the Pro is actually the top-of-line model.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1joqxpu/which_cardo_should_i_get/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Freecom 4x",
+      "sentiment": "neutral",
+      "topic": "Comparison vs Freecom 4x",
+      "summary": "A commenter compared the Packtalk Slim and Freecom 4x, noting the Slim supports mesh with Bluetooth 4.1 while the Freecom 4x has Bluetooth 5.2 but lacks mesh.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/173e0td/cardo_packtalk_slim_vs_freecom_4x/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Edge",
+      "sentiment": "mixed",
+      "topic": "Mesh compatibility confusion",
+      "summary": "A rider struggled to get their Cardo Edge mesh working with a Sena DWO7 Pro despite Cardo marketing claiming interoperability with similar mesh-based products.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1n6x8il/cardo_edge_and_sena_dwo_7_pro_mesh_intercom/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Pairing/Bluetooth issue",
+      "summary": "A Packtalk Edge owner asked how to force simultaneous Bluetooth pairing to both their phone and motorcycle without deleting and re-establishing the pairing each time.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1purh53/cardo_packtalk_edge_phone_motorcycle_parings/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "neutral",
+      "topic": "Android Auto / car audio integration",
+      "summary": "A rider asked for help getting a Packtalk Edge to work with an Android Fold5 and a Diamond Audio MSHD14 head unit for music, calls, and Android Auto display.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4507926339496479/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "mixed",
+      "topic": "GMRS radio integration",
+      "summary": "A new member said he and a friend repeatedly tried and failed to reliably integrate BTech GMRS radios with their Packtalk Edge units for long-distance riding, calling it their 'last hope' after giving up.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4507880586167721/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Pro",
+      "sentiment": "mixed",
+      "topic": "Harley Boom audio routing workaround",
+      "summary": "A rider with a Harley Road Glide and factory BOOM audio figured out how to route only music (not calls) to his Packtalk Pro headset via the phone's audio output setting, after Cardo support told him via email it wasn't possible.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4507844969504616/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Pro",
+      "sentiment": "neutral",
+      "topic": "Android Auto / hardwired console conflict",
+      "summary": "A new Packtalk Pro owner asked for help because calls route through his Harley's hardwired console instead of the headset when Android Auto is active, while he wants music through the bike and calls through the Pro.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4507818029507310/"
     }
   ],
   "amazon_pricing": {

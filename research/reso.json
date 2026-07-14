@@ -5,7 +5,7 @@
     "hq": "Shenzhen, China per Tracxn; registered office listed on resosport.com contact page: Office 5, 8/F, Mega Cube, 8 Wang Kwong, Kowloon Bay, Kowloon, Hong Kong SAR",
     "founded": "2024 (brand launched late 2024; founding team of ex-DJI engineers, concept dates to a fall 2021 ride incident, ~3 years development)",
     "positioning": "Premium-spec mesh communicator at a mid-market price; tagline 'Communication gear built for those who refuse to be out of range'. Explicitly framed by press and dealers as a Cardo Packtalk Pro / Sena 50S rival with DJI engineering pedigree.",
-    "channels": "DTC via resosport.com (USD pricing, 2-day US shipping, 30-day returns; only Pilot Pro, Pilot Neo, Headset, and 45mm speaker accessory sold on the US store as of July 2026 -- Pilot Lite is PH/SEA-only); dealer network in Philippines (Motojini, Ridebuy, Alpha Lifestyle Club, Takong Racing, Bandidos Pitstop), Malaysia (MRoute19), UAE (Motofever); eBay listings. No official Reso storefront on Amazon.com or RevZilla found as of July 2026 -- confirmed again this refresh via a fresh RevZilla Bluetooth-communications category scrape (Reso brand absent from the filter list: Airoh, Alien Rider, Alpinestars, Cardo, EXOCOM, HJC, Icon, Nexx, Schuberth, Scorpion, Sena, Show Chrome, UCLEAR) and an Amazon.com search that surfaced only an unrelated third-party seller's Reso-compatible replacement microphone accessory, not an official Reso listing. Daytona Corporation - one of Japan's largest motorcycle parts manufacturer/wholesalers - has been the official Japan distributor for RESO since June 2026, selling a 3-model lineup (PILOT PRO/NEO/LITE, Daytona part numbers 66271/66272/66270-class) on daytona.co.jp, Amazon.co.jp, and Webike, with retail JPY pricing (see recent_news); this remains Reso's first major-distributor deal in a developed market outside its DTC/SEA-dealer channels. NEW (June 2026): Reso also made its first move into the Indian market as the Official Intercom Partner of World Motorcycle Day (WMD) India 2026, a 10th-edition event organized by the Association of Biking Community (ABC) India, held 21 June 2026 in Bengaluru -- a sponsorship/awareness play rather than a confirmed retail-distribution deal, but the first documented Reso brand presence in India. NEW (found this refresh, July 2026): Reso has also quietly reached a Latin American retailer -- MotoMundi, a Chilean motorcycle-gear chain, now carries a dedicated RESO brand page (motomundi.cl/reso) stocking Pilot Pro, Pilot Neo (CLP $199,900 ≈ USD 210), and Pilot Lite -- the first documented Reso retail listing in South America, alongside the existing PH/Malaysia/UAE dealer network."
+    "channels": "DTC via resosport.com (USD pricing, 2-day US shipping, 30-day returns; only Pilot Pro, Pilot Neo, Headset, and 45mm speaker accessory sold on the US store as of July 2026 -- Pilot Lite is PH/SEA-only); dealer network in Philippines (Motojini, Ridebuy, Alpha Lifestyle Club, Takong Racing, Bandidos Pitstop), Malaysia (MRoute19), UAE (Motofever); eBay listings. No official Reso storefront on Amazon.com or RevZilla found as of July 2026 -- confirmed again this refresh via a fresh RevZilla Bluetooth-communications category scrape (Reso brand absent from the filter list: Airoh, Alien Rider, Alpinestars, Cardo, EXOCOM, HJC, Icon, Nexx, Schuberth, Scorpion, Sena, Show Chrome, UCLEAR) and an Amazon.com search that surfaced only an unrelated third-party seller's Reso-compatible replacement microphone accessory, not an official Reso listing. Daytona Corporation - one of Japan's largest motorcycle parts manufacturer/wholesalers - has been the official Japan distributor for RESO since June 2026, selling a 3-model lineup (PILOT PRO/NEO/LITE, Daytona part numbers 66271/66272/66270-class) on daytona.co.jp, Amazon.co.jp, and Webike, with retail JPY pricing (see recent_news); this remains Reso's first major-distributor deal in a developed market outside its DTC/SEA-dealer channels. NEW (June 2026): Reso also made its first move into the Indian market as the Official Intercom Partner of World Motorcycle Day (WMD) India 2026, a 10th-edition event organized by the Association of Biking Community (ABC) India, held 21 June 2026 in Bengaluru -- a sponsorship/awareness play rather than a confirmed retail-distribution deal, but the first documented Reso brand presence in India. NEW (found this refresh, July 2026): Reso has also quietly reached a Latin American retailer -- MotoMundi, a Chilean motorcycle-gear chain, now carries a dedicated RESO brand page (motomundi.cl/reso) stocking Pilot Pro, Pilot Neo (CLP $199,900 ≈ USD 210), and Pilot Lite -- the first documented Reso retail listing in South America, alongside the existing PH/Malaysia/UAE dealer network. This refresh (2026-07-14) re-confirmed both checks again: a fresh RevZilla motorcycle-bluetooth-communications scrape still shows the identical 14-brand filter list with no Reso entry, and no official Reso storefront exists on Amazon.com (search still surfaces only unrelated listings, e.g. Pilot Corporation of America pens and third-party accessories). Separately, Reso's only confirmed Amazon presence remains Amazon.co.jp via Japan distributor Daytona, which ran RESO Pilot Pro/Neo/Lite as discounted Prime Day deals (21-22% off) 2026-07-10 through 07-13 (see recent_news) -- this is a Daytona-run Amazon.co.jp listing, not a direct Reso storefront on Amazon.com."
   },
   "products": [
     {
@@ -440,6 +440,12 @@
       "headline": "Reso (@resoglobal) sponsored the Costa Rica edition of the CFMOTO MT CHALLENGE 2026 off-road qualifier (held 4-5 July in Santa Ana/Lindora), alongside Acerbis Costa Rica and Rebel Tyres Costa Rica -- first documented Reso brand activation/sponsorship in Central America",
       "source": "Instagram (creator recaps tagging @resoglobal, aggregated)",
       "url": "https://www.instagram.com/resoglobal/"
+    },
+    {
+      "date": "2026-07-10",
+      "headline": "Daytona's RESO Pilot Pro/Neo/Lite intercoms discounted 21-22% on Amazon.co.jp (Pilot Pro Y37,999, Pilot Neo Y25,800, Pilot Lite Y14,799) as part of Japan's 2026 Amazon Prime Day sale event (running July 10-13) -- first documented Reso presence in an Amazon Prime Day promotion, built on the Daytona/Amazon.co.jp distribution channel launched in June 2026; this remains a Daytona-operated Amazon.co.jp listing, not a direct Reso storefront on Amazon.com",
+      "source": "Bike Life Lab (8190.jp)",
+      "url": "https://www.8190.jp/bikelifelab/news-bike-gear-sale/2026/07/amazon-prime-day/daytona-motorcycle-intercom-reso/"
     }
   ],
   "social_media": {
@@ -620,6 +626,12 @@
         "platform": "Instagram",
         "summary": "Costa Rican content creators tagged @resoglobal as a sponsor (alongside @acerbiscr and @rebeltyrescr) of the CFMOTO MT CHALLENGE Costa Rica 2026 off-road qualifying event in Santa Ana/Lindora (held 4-5 July) — Reso's first documented brand activation in Central America, mirroring the earlier WMD India sponsorship playbook.",
         "url": "https://www.instagram.com/resoglobal/"
+      },
+      {
+        "date": "2026-07-14",
+        "platform": "Instagram",
+        "summary": "Short brand post captioned 'Clearer communication, boundless rides.' with hashtags for Reso Pilot and motorcycle intercom.",
+        "url": "https://www.instagram.com/p/DaxDTIpAjfR/"
       }
     ]
   },
@@ -736,6 +748,20 @@
         "product": "Pilot Neo (Daytona Japan)",
         "verdict": "Sponsored/PR feature ('[PR] DAYTONA Co., Ltd.') explaining Reso's Bluetooth-vs-Mesh technology for consumer education, naming Neo's proprietary hardware mesh 'UniSync' (vs Pro's 'DuoSync'), citing an unverified Daytona/Reso claim that Pilot Pro has been the #1-selling model for 17 consecutive months, and promoting a trade-in campaign; positive but explicitly marked as paid/sponsored content rather than independent editorial review",
         "url": "https://japan.webike.net/moto_news/the-next-generation-intercom-reso-pilot-neo-is-here-enjoy-comfortable-group-rides-with-its-unique-mesh-communication-and-long-operating-hours-thanks-to-its-large-capacity-battery/"
+      },
+      {
+        "outlet": "NOBUWHIRLWIND (YouTube)",
+        "product": "Pilot Pro (Daytona/Japan)",
+        "date": "2026-07-03",
+        "verdict": "Positive/enthusiastic motovlog review titled (translated) '[Upset] Is B+COM's throne in danger? Daytona's new intercom is crazy value-destroying [DAYTONA RESO PILOT PRO Review]' -- frames Pilot Pro as a serious price/value challenge to B+COM (RS Taichi), Japan's dominant domestic intercom brand, alongside comparisons to other brands, pairing method, MESH connection, and firmware",
+        "url": "https://www.youtube.com/watch?v=0q9SXy46TcU"
+      },
+      {
+        "outlet": "NOBUWHIRLWIND (YouTube)",
+        "product": "Pilot Pro (Daytona/Japan)",
+        "date": "2026-07-10",
+        "verdict": "Positive real-world road-test follow-up titled (translated) '[Better than B+com] Road-testing Daytona's new RESO PILOT PRO intercom! How's the audio quality and usability while riding?' -- praises noise-free voice clarity, GPS, MESH range, and action-cam recording; concludes it is 'a different level' from budget Chinese intercoms and 'the best and strongest intercom'",
+        "url": "https://www.youtube.com/watch?v=XP31ZhwhruM"
       }
     ],
     "awards": [],
@@ -981,14 +1007,26 @@
       ],
       "url": "https://apps.apple.com/id/app/reso-link/id6504927409",
       "source": "Apple App Store version history (Reso Link app listing)"
+    },
+    {
+      "date": "2026-07-10",
+      "product": "All Reso Pilot series",
+      "type": "app",
+      "version": "3.0.1",
+      "title": "Reso Link app bug-fix update",
+      "changes": [
+        "Fixed some minor bugs (per App Store version history; no user-facing feature changes disclosed)"
+      ],
+      "url": "https://apps.apple.com/id/app/reso-link/id6504927409",
+      "source": "Apple App Store version history (Reso Link app listing); Android release on Google Play (com.zowoi.kero.app) shows matching update dated 2026-07-12"
     }
   ],
   "current_software": {
     "app_name": "Reso Link",
-    "app_ios_version": "3.0.01",
-    "app_android_version": "3.0.01",
-    "app_last_updated": "2026-07-01",
-    "notes": "Reso ships device firmware as OTA updates delivered through the Reso Link companion app (iOS build 6504927409 on the App Store; Android package com.zowoi.kero.app on Google Play), rather than via a standalone desktop updater. The Reso Link app itself is versioned and its App Store release notes (traceable back to v1.3.1 on 2024-09-25) are the only reliable public changelog; device-level firmware version numbers are not separately disclosed to consumers."
+    "app_ios_version": "3.0.1",
+    "app_android_version": "3.0.1",
+    "app_last_updated": "2026-07-12",
+    "notes": "Reso ships device firmware as OTA updates delivered through the Reso Link companion app (iOS build 6504927409 on the App Store; Android package com.zowoi.kero.app on Google Play), rather than via a standalone desktop updater. The Reso Link app itself is versioned and its App Store release notes (traceable back to v1.3.1 on 2024-09-25) are the only reliable public changelog; device-level firmware version numbers are not separately disclosed to consumers. Update (this refresh, 2026-07-14): App Store version history shows a new iOS build 3.0.1 released 2026-07-10 (changelog: 'Fixed some minor bugs', no feature changes disclosed); Google Play listing for the Android package (com.zowoi.kero.app, developer 'Reso Pilot', 1K+ installs) shows 'Updated on Jul 12, 2026' but does not expose a version number on its store listing."
   },
   "product_firmware": [
     {

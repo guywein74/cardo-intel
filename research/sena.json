@@ -80,7 +80,7 @@
       "name": "60S",
       "tier": "flagship",
       "msrp_usd": 439,
-      "street_price_usd": 351,
+      "street_price_usd": 326.71,
       "intercom_tech": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular intercom",
       "range_km": 2,
       "max_riders": 24,
@@ -99,7 +99,7 @@
         "3-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level.",
+      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level. PRICE CORRECTED 2026-07-14: street_price_usd was $351; Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price at $326.71 (range $319.95-$439, list $439.00), still below the direct-store $438.50 figure previously noted - updated to this lower confirmed price. Direct sena store listing remains out of stock at unchanged $439 MSRP as of 2026-07-10.",
       "dimensions": {
         "form_factor": {
           "weight_g": 68,
@@ -216,7 +216,7 @@
       "name": "50S",
       "tier": "mid",
       "msrp_usd": 379,
-      "street_price_usd": 262,
+      "street_price_usd": 319.95,
       "intercom_tech": "Mesh 2.0 + Bluetooth 5.0",
       "range_km": 2,
       "max_riders": 24,
@@ -234,7 +234,7 @@
         "Wave intercom support added via app"
       ],
       "release_year": 2020,
-      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $341 (Sena's own store discount); Amazon's official Sena storefront now shows a deeper $262.00 deal price against the $379 MSRP - updated to reflect the lower live price per Amazon-storefront check. Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands.",
+      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $341 (Sena's own store discount); Amazon's official Sena storefront now shows a deeper $262.00 deal price against the $379 MSRP - updated to reflect the lower live price per Amazon-storefront check. Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands. PRICE CORRECTED 2026-07-14: street_price_usd was $262.00; that deeper deal appears to have expired - Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price back up at $319.95 (list $379.00) - updated to reflect the current live price.",
       "dimensions": {
         "form_factor": {
           "weight_g": 64,
@@ -283,7 +283,7 @@
       "name": "50R",
       "tier": "mid",
       "msrp_usd": 375,
-      "street_price_usd": 337.5,
+      "street_price_usd": 261.37,
       "intercom_tech": "Mesh 2.0 + Bluetooth 5.0",
       "range_km": 2,
       "max_riders": 24,
@@ -298,7 +298,7 @@
         "OTA updates"
       ],
       "release_year": 2020,
-      "notes": "PRICE CORRECTED 2026-07-09: msrp_usd was null (\"sources cite RRP around EUR 300/$330, exact current US MSRP not confirmed\") - direct store-us.sena.com/products.json crawl confirms single-pack MSRP is $375 (dual pack $679); street_price_usd updated from prior $300 estimate to $337.50, the current RevZilla discounted price (was $375). Talk time ~13h Bluetooth / ~11h Mesh.",
+      "notes": "PRICE CORRECTED 2026-07-09: msrp_usd was null (\"sources cite RRP around EUR 300/$330, exact current US MSRP not confirmed\") - direct store-us.sena.com/products.json crawl confirms single-pack MSRP is $375 (dual pack $679); street_price_usd updated from prior $300 estimate to $337.50, the current RevZilla discounted price (was $375). Talk time ~13h Bluetooth / ~11h Mesh. PRICE CORRECTED 2026-07-14: street_price_usd was $337.50 (RevZilla); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's official listing at a lower $261.37 (list $375.00) - updated to the lower confirmed Amazon deal price per the mandate to use the lowest current listed/deal price.",
       "dimensions": {
         "form_factor": {
           "weight_g": 65,
@@ -363,7 +363,7 @@
         "App support"
       ],
       "release_year": 2021,
-      "notes": "Affordable mesh-only entry. Talk time up to 20h per official RT1 spec page. Reviews cite good value but wind-noise handling, durability and Android app issues. Successor 'Spider X Slim' with Mesh 3.0 announced at EICMA 2025. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $199; live store-us.sena.com/products.json crawl (handles spider-rt1-01 and spider-st1-10) shows single-pack price now $239.00 (dual $439.00) - AND all variants of both RT1 and ST1 are marked out of stock (available:false) on Sena's own store as of today, a likely sign the line is being sunset in favor of the Spider X Slim successor. Amazon's Sena storefront still lists Spider RT1 in stock at $239.00 but Spider ST1 at a separate $191.41 deal price (list $219.00) - the two SKUs may be diverging in price/availability across channels; Sena's own store price ($239) used as authoritative msrp here.",
+      "notes": "Affordable mesh-only entry. Talk time up to 20h per official RT1 spec page. Reviews cite good value but wind-noise handling, durability and Android app issues. Successor 'Spider X Slim' with Mesh 3.0 announced at EICMA 2025. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $199; live store-us.sena.com/products.json crawl (handles spider-rt1-01 and spider-st1-10) shows single-pack price now $239.00 (dual $439.00) - AND all variants of both RT1 and ST1 are marked out of stock (available:false) on Sena's own store as of today, a likely sign the line is being sunset in favor of the Spider X Slim successor. Amazon's Sena storefront still lists Spider RT1 in stock at $239.00 but Spider ST1 at a separate $191.41 deal price (list $219.00) - the two SKUs may be diverging in price/availability across channels; Sena's own store price ($239) used as authoritative msrp here. STOCK UPDATE 2026-07-14: partial restock on store-us.sena.com/products.json - RT1 Single Pack ($239) is back in stock (RT1 Dual still out); ST1 Dual Pack ($439) is back in stock (ST1 Single still out) - no longer a full storewide stock-out as of 2026-07-10, though availability remains split/inconsistent across the two SKUs' pack sizes.",
       "dimensions": {
         "form_factor": {
           "weight_g": 65,
@@ -693,7 +693,7 @@
         "Limited lifetime warranty"
       ],
       "release_year": 2026,
-      "notes": "Launched July 7, 2026 at $189 single (confirmed RevZilla). Positioned as entry-level Bluetooth intercom with flagship-level features (wireless charging, Quick Pair, Advanced Noise Control) previously absent from budget tiers. Replaces aging 5R/5S line as the new entry point. 2-way pairing only, no mesh or Wave cellular. STOCK UPDATE 2026-07-10: not found on store-us.sena.com/products.json (no matching handle; direct URL guesses /products/vortex and /products/vortex-2 both 404) and RevZilla lists it 'Out of Stock' for all combinations at the confirmed $189.00 price - Vortex appears to be sold out at launch across the checked channels, though the marketing page at sena.com/en-us/product/vortex/ remains live.",
+      "notes": "Launched July 7, 2026 at $189 single (confirmed RevZilla). Positioned as entry-level Bluetooth intercom with flagship-level features (wireless charging, Quick Pair, Advanced Noise Control) previously absent from budget tiers. Replaces aging 5R/5S line as the new entry point. 2-way pairing only, no mesh or Wave cellular. STOCK UPDATE 2026-07-10: not found on store-us.sena.com/products.json (no matching handle; direct URL guesses /products/vortex and /products/vortex-2 both 404) and RevZilla lists it 'Out of Stock' for all combinations at the confirmed $189.00 price - Vortex appears to be sold out at launch across the checked channels, though the marketing page at sena.com/en-us/product/vortex/ remains live. STOCK UPDATE 2026-07-14: now live and IN STOCK on store-us.sena.com/products.json (handle: vortex, SKU VORTEX-01/VORTEX-01D) at the confirmed $189.00 single / $359.00 dual - the launch-week stock-out has resolved. Not found in the visible RevZilla motorcycle-bluetooth-communications grid as of this check.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -937,7 +937,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 324,
-      "street_price_usd": null,
+      "street_price_usd": 299,
       "intercom_tech": "Integrated Mesh Intercom + Bluetooth",
       "range_km": null,
       "max_riders": null,
@@ -949,7 +949,7 @@
         "Harman Kardon audio"
       ],
       "release_year": 2023,
-      "notes": "US store price $324 (Jul 2026) - heavily discounted from launch.",
+      "notes": "US store price $324 (Jul 2026) - heavily discounted from launch. STREET PRICE ADDED 2026-07-14: Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current listing at $299.00 (list $499.00 per Amazon's own reference price, though Sena's own store lists $324.35) - below Sena's direct-store figure, so recorded as street_price_usd.",
       "url": "https://store-us.sena.com/products/stryker-1"
     },
     {
@@ -1203,7 +1203,7 @@
         "Operating range -10C to 55C"
       ],
       "release_year": null,
-      "notes": "Snow-sports-specific communicator, designed to be built into ski/snowboard helmet ear pads rather than clamped to a moto helmet shell.",
+      "notes": "Snow-sports-specific communicator, designed to be built into ski/snowboard helmet ear pads rather than clamped to a moto helmet shell. STOCK UPDATE 2026-07-14: store-us.sena.com/products.json (SKU SNOWTALK2-01) now shows this SKU out of stock (available:false) at the unchanged $99.00 price - flagged here as a possible sign of seasonal restock timing or discontinuation pending confirmation.",
       "url": "https://www.sena.com/en-us/product/snowtalk2/"
     },
     {
@@ -1238,7 +1238,7 @@
       "usage": "Cycling, skating, multi-sport",
       "tier": "entry",
       "msrp_usd": 99.0,
-      "street_price_usd": null,
+      "street_price_usd": 89.0,
       "intercom_tech": "Bluetooth, 2-way HD intercom",
       "range_km": 0.4,
       "max_riders": 2,
@@ -1254,7 +1254,7 @@
         "Operating range -10C to 55C"
       ],
       "release_year": null,
-      "notes": "Sena's most general-purpose outdoor unit - not tied to one sport, clips onto whatever helmet strap the rider already has (cycling, skating, other strap-helmet activities).",
+      "notes": "Sena's most general-purpose outdoor unit - not tied to one sport, clips onto whatever helmet strap the rider already has (cycling, skating, other strap-helmet activities). STREET PRICE ADDED 2026-07-14: Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current lowest new-condition price at $89.00 (list $99.00), below MSRP.",
       "url": "https://www.sena.com/en-us/product/pi/"
     },
     {
@@ -1263,7 +1263,7 @@
       "usage": "Ski, snowboard, sledding, backcountry/winter sports",
       "tier": "mid",
       "msrp_usd": 249.0,
-      "street_price_usd": 249.0,
+      "street_price_usd": 201.31,
       "intercom_tech": "Mesh Intercom 3.0 (open-terrain range, virtually unlimited participants) + Wave Intercom (LTE cellular, virtually unlimited range) + Bluetooth 5.2",
       "range_km": 1.0,
       "max_riders": null,
@@ -1281,8 +1281,61 @@
         "2-year warranty"
       ],
       "release_year": 2025,
-      "notes": "MISSED IN PRIOR RESEARCH - added 2026-07-10 after being spotted live for sale on store-us.sena.com/products.json (SKU SUMMITX-01, in stock) during the mandatory pricing-diff crawl; not previously tracked in products[]. Sena's official press release (sena.com/en-us/stories/news/sena-technologies-introduces-the-summit-x-outdoor-communicator-built-for-snow-ready-for-any-adventure/) dates the launch to November 18, 2025 (EICMA/winter-season timing), so this was available before the file's 2026-06-10 cutoff but had never been captured - a second confirmed miss (after Outforce/Surge) showing the outdoor/non-moto catalog needs the same store-JSON discipline as the smart-helmet line. Notable as Sena's first non-motorcycle product to carry the Wave cellular intercom, extending that differentiator into the outdoor/winter-sports category alongside Cardo's more moto-only Wave-equivalent gap. Firmware user guide on file dated v1.1.0 (2026-01-30).",
+      "notes": "MISSED IN PRIOR RESEARCH - added 2026-07-10 after being spotted live for sale on store-us.sena.com/products.json (SKU SUMMITX-01, in stock) during the mandatory pricing-diff crawl; not previously tracked in products[]. Sena's official press release (sena.com/en-us/stories/news/sena-technologies-introduces-the-summit-x-outdoor-communicator-built-for-snow-ready-for-any-adventure/) dates the launch to November 18, 2025 (EICMA/winter-season timing), so this was available before the file's 2026-06-10 cutoff but had never been captured - a second confirmed miss (after Outforce/Surge) showing the outdoor/non-moto catalog needs the same store-JSON discipline as the smart-helmet line. Notable as Sena's first non-motorcycle product to carry the Wave cellular intercom, extending that differentiator into the outdoor/winter-sports category alongside Cardo's more moto-only Wave-equivalent gap. Firmware user guide on file dated v1.1.0 (2026-01-30). PRICE CORRECTED 2026-07-14: street_price_usd was $249.00 (=MSRP, no discount); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current lowest new-condition price at $201.31, below MSRP - updated.",
       "url": "https://store-us.sena.com/products/summit-x-outdoor-communicator-with-wave-and-mesh-intercom"
+    },
+    {
+      "name": "Latitude",
+      "category": "smart_helmet",
+      "usage": "Ski, snowboard",
+      "tier": null,
+      "msrp_usd": 159,
+      "street_price_usd": 135.0,
+      "intercom_tech": "Bluetooth (HSP/HFP/A2DP/AVRCP), 2-way HD intercom, 4-way standard intercom",
+      "range_km": 1.0,
+      "max_riders": 4,
+      "audio": "Built-in speakers & mic in the ear pads, Advanced Noise Control, SBC codec",
+      "talk_time_hours": 8,
+      "waterproof": null,
+      "features": [
+        "Snow helmet (hybrid ABS/PC injection-mold shell, EPS liner) with Bluetooth intercom built directly into the ear pads",
+        "Glove-friendly jog dial on the left earpad",
+        "4-way standard intercom; 2-way HD Intercom mode for richer audio between a pair",
+        "Phone pairing for music, GPS navigation, and calls",
+        "Multi-language voice prompts (battery/pairing status)",
+        "Sena Outdoor App with Smart Intercom Pairing via QR codes",
+        "ASTM F2040-18 / CE EN 1077:2007 Class B impact certified",
+        "2-year warranty (electronics and helmet integrity)"
+      ],
+      "release_year": null,
+      "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: latitude, $159 M/L) during the mandatory pricing crawl. A ski/snowboard smart helmet with built-in Bluetooth intercom (not motorcycle-specific), part of Sena's outdoor snow-sports line alongside Snowtalk 2 (headset-only) and the newer Mesh-equipped Latitude S2. Amazon lists it at $135.00 (list $159.00) per Keepa data fetched 2026-07-13.",
+      "url": "https://store-us.sena.com/products/latitude-s1-snow-helmet"
+    },
+    {
+      "name": "Latitude S2",
+      "category": "smart_helmet",
+      "usage": "Ski, snowboard",
+      "tier": null,
+      "msrp_usd": 269,
+      "street_price_usd": null,
+      "intercom_tech": "Mesh Intercom 3.0 (Open Mesh, 6 channels, virtually unlimited participants) + Bluetooth 5.2",
+      "range_km": 0.8,
+      "max_riders": null,
+      "audio": "40mm HD speakers built into the ear pads, Advanced Noise Control",
+      "talk_time_hours": 10,
+      "waterproof": null,
+      "features": [
+        "Upgraded successor to Latitude - replaces the jog dial with 4 glove-friendly buttons on both sides of the helmet",
+        "Mesh Intercom 3.0 (0.8 km / 0.5 mi range in open terrain), replacing Latitude's Bluetooth-only intercom",
+        "Over-the-Air (OTA) firmware updates via the Sena Outdoor App",
+        "Safe Power Mode - ride wired to external power without charging/degrading the battery",
+        "ABS/polycarbonate shell, EPS liner, 360-degree adjustable retention dial, integrated goggle strap",
+        "ASTM F2040-18 / EN 1077:2007 Class B impact certified",
+        "2-year warranty"
+      ],
+      "release_year": 2025,
+      "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: lts2) during the mandatory pricing crawl. Product imagery/assets dated November 2025, consistent with an EICMA/winter-season launch. $269 confirmed live on store-us.sena.com (Medium in stock, Large out of stock as of 2026-07-14). No Amazon listing found to establish a street price.",
+      "url": "https://store-us.sena.com/products/lts2"
     }
   ],
   "strengths": [
@@ -1306,6 +1359,12 @@
     "Cross-brand pairing with Cardo historically cumbersome ('Intercom failed' errors, dropped bridges), frustrating mixed groups"
   ],
   "recent_news": [
+    {
+      "date": "2026-07-14",
+      "headline": "Daily mandatory crawl (smart-helmet category page + store-us.sena.com/products.json) turned up two fully missing snow-sports smart helmets - Latitude ($159, Bluetooth-only) and Latitude S2 ($269, upgraded to Mesh Intercom 3.0) - now added to products[]. Stock changes: VORTEX is now live and in stock on store-us.sena.com ($189 single/$359 dual) after being absent/404 on 2026-07-10; Spider RT1/ST1 partially restocked (RT1 single and ST1 dual back in stock, RT1 dual and ST1 single still out); Snowtalk 2 newly shows out of stock at its unchanged $99 price. Price corrections via Keepa/Amazon pricing data (fetched 2026-07-13): 50R street lowered $337.50 to $261.37; 60S street lowered $351 to $326.71; 50S street raised $262 back up to $319.95 (prior deep discount appears to have expired); added street prices for Stryker ($299 vs $324 store), pi ($89 vs $99 MSRP) and SUMMIT X ($201.31 vs $249 MSRP), all previously null/at-MSRP. Wave Intercom companion app updated to v1.0.24 (2026-07-13, routine bug-fix release). RevZilla's Sena(70) SKU filter count is unchanged from 2026-07-09/07-10; Vortex/60X/Spider X Slim still not visible in RevZilla's browsable comms grid despite being live on Sena's own store and Amazon.",
+      "source": "Internal data audit",
+      "url": "https://store-us.sena.com/products.json?limit=250"
+    },
     {
       "date": "2026-07-10",
       "headline": "Daily data audit via store-us.sena.com/products.json turned up one fully missing outdoor product - SUMMIT X ($249, Wave+Mesh snow-sports communicator, live since Nov 2025) - now added to products[]. Price corrections: 5R LITE msrp/street raised from $99 to $109 (only 4 left in stock); Spider RT1/ST1 raised from $199 to $239 and now shows ALL variants out of stock on Sena's own store (likely being sunset for Spider X Slim); 60S now shows fully out of stock on store-us.sena.com at its unchanged $439 MSRP; Vortex (launched 2026-07-07) is absent from store-us.sena.com entirely (404 on direct URL) and shows Out of Stock on RevZilla at its confirmed $189 price - both consistent with new-flagship/entry-tier launch sellouts also reported by owners in the '60s, 60s EVO, and 60x Users' Facebook group today. Added street_price_usd for Outrush R ($313.31, Amazon deal vs $359 MSRP) and BiKom 20 ($157 Amazon deal vs $169 MSRP) which had been null. RevZilla's cross-brand comms page brand filter now reads Sena(68), down from Sena(70) recorded 2026-07-09 - consistent with the Spider RT1/ST1 and 60S stock-outs pulling SKUs from RevZilla's filterable catalog.",
@@ -1457,9 +1516,9 @@
     },
     "youtube": {
       "channel": "youtube.com/@senatechnologies (handle @senatechnologies; plus Sena Outdoor and Sena Deutschland sub-channels)",
-      "subscribers": 39700,
+      "subscribers": 39800,
       "url": "https://www.youtube.com/@senatechnologies",
-      "notes": "39.7K subscribers, 706 videos (checked July 2026). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
+      "notes": "39.8K subscribers, 713 videos (updated 2026-07-14 check; was 39.7K/706 videos in prior July 2026 check). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
     },
     "tiktok": {
       "handle": "@senabluetooth",
@@ -2046,6 +2105,18 @@
       "type": "app",
       "version": "1.0.23",
       "title": "Wave Intercom app 1.0.23 - routine stability release",
+      "changes": [
+        "Bug fixes and performance improvements"
+      ],
+      "url": "https://apps.apple.com/us/app/wave-intercom/id6670228363",
+      "source": "Apple App Store version history"
+    },
+    {
+      "date": "2026-07-13",
+      "product": "Wave Intercom app",
+      "type": "app",
+      "version": "1.0.24",
+      "title": "Wave Intercom app 1.0.24 - routine stability release",
       "changes": [
         "Bug fixes and performance improvements"
       ],
@@ -2638,6 +2709,56 @@
       "topic": "Buyer's remorse over 60X",
       "summary": "User who just purchased the 60S EVO is considering returning it because Sena dropped the 60X, and asks for others' thoughts.",
       "url": "https://www.facebook.com/groups/860066485997389/permalink/1412234494113916/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Spider RT1 / ST1",
+      "sentiment": "mixed",
+      "topic": "Lag/sound quality complaint",
+      "summary": "A commenter said the Spider ST1 is fully waterproof and generally good, but called it laggy with sound quality that isn't great.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1k4qgpz/sena_spider_st1/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Upgrade / mesh value question",
+      "summary": "A mostly-solo rider asked whether upgrading to a newer Sena intercom is worthwhile, weighing the value of mesh connectivity offered by Sena versus Cardo, the two main players in the market.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1uor5qd/sena_intercom_question_is_getting_newer_and_more/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Phantom (base)",
+      "sentiment": "neutral",
+      "topic": "Feature interest, few reviews",
+      "summary": "A rider asked if anyone had tried the Sena Phantom smart mesh helmet, saying they're especially interested in the brake light and noise cancelling features but had found few actual user reviews so far.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1izhqxp/anyone_tried_on_the_sena_phantom_smart_mesh/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Phantom (base)",
+      "sentiment": "positive",
+      "topic": "Value comparison vs standalone 60S",
+      "summary": "A commenter described the Phantom as essentially a 60S built into a helmet and noted its price currently hovers around $300 direct from Sena, framing it as good value versus buying a separate helmet and comm unit.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1nhtpow/sena_phantom_full_face_helmet/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Momentum INC discontinued, replaced by Phantom ANC",
+      "summary": "Commenters confirmed the Sena Momentum INC has been discontinued and that its replacement is the Phantom ANC, which adds active noise cancellation and is sold as part of the newer Phantom family.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1snczyf/sena_momentum/"
     }
   ],
   "amazon_pricing": {

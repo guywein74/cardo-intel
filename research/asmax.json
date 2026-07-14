@@ -12,7 +12,7 @@
       "name": "F1s",
       "tier": "flagship",
       "msrp_usd": 226.99,
-      "street_price_usd": 120.39,
+      "street_price_usd": 125.99,
       "intercom_tech": "Mesh + Bluetooth 5.3 dual-chip; CloudTalk cloud/cross-brand mode; universal BT pairing",
       "range_km": 8,
       "max_riders": 10,
@@ -31,7 +31,7 @@
         "2-year warranty"
       ],
       "release_year": 2024,
-      "notes": "US flagship on asmaxworld.com. Amazon US listing claims '5-mile intercom'; real-world reviews report ~0.7-1.2 km between closest riders. MSRP appears inflated; effectively always sold ~$140. Street price updated Jul 2026 from mandatory Amazon storefront scrape: regular listing $139.99 (1-pack, unchanged) but clippable coupon drops it to $120.39 (200+ bought in past month); 2-pack listed at $259.99 (regular) / $223.59 (with coupon). asmaxworld.com direct listing still shows flat $139.99 with no coupon.",
+      "notes": "US flagship on asmaxworld.com. Amazon US listing claims '5-mile intercom'; real-world reviews report ~0.7-1.2 km between closest riders. MSRP appears inflated; effectively always sold ~$140. Street price updated 2026-07-14 from mandatory Amazon storefront scrape: regular listing $139.99 (1-pack, unchanged) but clippable coupon now drops it to $125.99 (up from $120.39 on the prior refresh -- coupon got slightly less generous, still 200+ bought in past month); 2-pack unchanged at $259.99 (regular) / $223.59 (with coupon). asmaxworld.com direct listing (collections/headsets, re-scraped 2026-07-14) still shows flat $139.99 with no coupon.",
       "dimensions": {
         "form_factor": {
           "weight_g": 50,
@@ -70,7 +70,7 @@
         },
         "price": {
           "msrp_usd": 226.99,
-          "street_usd": 120.39,
+          "street_usd": 125.99,
           "segment_position": "Mid-$100s 10-rider mesh — undercuts Cardo Packtalk Edge (~$390) by ~68% at the coupon price on spec-sheet parity"
         }
       },
@@ -80,7 +80,7 @@
       "name": "S1",
       "tier": "entry",
       "msrp_usd": 121.99,
-      "street_price_usd": 83.99,
+      "street_price_usd": 79.79,
       "intercom_tech": "Mesh + Bluetooth 5.4 dual-chip; ASMAX Mode / CloudTalk Mode up to 50 riders (cloud/cellular)",
       "range_km": 8,
       "max_riders": 8,
@@ -98,7 +98,7 @@
         "2-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US. Street price updated Jul 2026 from mandatory Amazon storefront scrape: 1-pack $83.99 (no coupon needed, 100+ bought in past month), 2-pack $145.99 regular / $138.69 with coupon -- undercuts both the asmaxworld.com direct-site prices ($92.88 on the product page, 'From $89.99' on the collections page), still well under $121.99 MSRP.",
+      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US. Street price updated 2026-07-14 from mandatory Amazon storefront scrape: 1-pack now shows a clippable coupon for the first time, $83.99 regular -> $79.79 with coupon (100+ bought in past month, up from no-coupon-needed on the prior refresh); 2-pack unchanged at $145.99 ($73.00/count). asmaxworld.com collections/headsets page (re-scraped 2026-07-14) unchanged at 'From $89.99 USD', still well under $121.99 MSRP.",
       "dimensions": {
         "form_factor": {
           "weight_g": 41,
@@ -137,7 +137,7 @@
         },
         "price": {
           "msrp_usd": 121.99,
-          "street_usd": 83.99,
+          "street_usd": 79.79,
           "segment_position": "Cheapest credible 8-rider mesh on the US market — budget tier (Fodsports/EJEAS money) with AI voice added"
         }
       },
@@ -536,10 +536,10 @@
       "talk_time_hours": null,
       "waterproof": null,
       "features": [
-        "T10 tire inflator ($58.99, unchanged)",
-        "T20 jump starter + inflator ($67.99, down from $84.99/$129.99)",
-        "T30 mini pump ($49.99 regular/$42.99 with coupon, down from $52.99/$109.99)",
-        "T40 tire inflator (new SKU on Amazon US Jul 2026: $39.99 regular/$37.99 with coupon; not yet listed on asmaxworld.com)",
+        "T10 tire inflator ($49.99 sale price / $58.99 list, -15%, unchanged as of 2026-07-14)",
+        "T20 jump starter + inflator ($69.99 flat as of 2026-07-14, up from $67.99; no coupon shown)",
+        "T30 mini pump ($44.99 flat as of 2026-07-14, down from $49.99 regular/$42.99 coupon -- no coupon needed now)",
+        "T40 tire inflator (new SKU on Amazon US Jul 2026: $39.99 regular/$37.99 with coupon; not yet listed on asmaxworld.com; not seen in the 2026-07-14 storefront widget re-scrape, likely just not featured in the curated store carousel)",
         "Audio/mic/mount kits $33.87-$45.99",
         "MAXRUNON D9, D10 and 2Y intercoms (outdoor sub-brand)"
       ],
@@ -664,7 +664,7 @@
     "instagram": {
       "handle": "@asmaxworld_official",
       "followers": 15000,
-      "notes": "~15K followers, 153 following, 358 posts (per Google-indexed profile, Jul 2026, up from 151/357) — count still rounds to 15K. Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM; frequent dealer/rider tag-ins (SEC Motosupply, blackout.spain). Secondary handles: @asmaxofficial (linked from asmaxconnect.com, followers unknown; posted a new promo Jul 5, 2026) and @chris_asmax (OEM/wholesale-focused account, now ~475 followers / 13 posts as of Jul 2026, up from ~444/8 -- run by a US-based reseller who also promotes non-ASMAX comms gear, e.g. Sena's Phantom XB smart helmet, alongside ASMAX content).",
+      "notes": "~15K followers, 153 following, 358 posts (re-checked via firecrawl search 2026-07-14, unchanged from prior refresh) — count still rounds to 15K. Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM; frequent dealer/rider tag-ins (SEC Motosupply, blackout.spain). Secondary handles: @asmaxofficial (linked from asmaxconnect.com, followers unknown; posted a new promo Jul 5, 2026) and @chris_asmax (OEM/wholesale-focused account, now 480 followers / 15 posts as of 2026-07-14, up from ~475/13 -- run by a US-based reseller who also promotes non-ASMAX comms gear, e.g. Sena's Phantom XB smart helmet, alongside ASMAX content).",
       "url": "https://www.instagram.com/asmaxworld_official/"
     },
     "facebook": {
@@ -820,6 +820,12 @@
         "platform": "Instagram",
         "summary": "Muchos me preguntan qué suelo llevar siempre en una de las bolsas de @loneridergear  cuando viajamos en moto.\n\nY una de esas cosas que casi nunca falta es una bomba de inflar. Cuando haces viajes largos, llevar una encima da bastante tranquilidad.\n\nEn este caso llevo la ASMAX T20, que además de infl",
         "url": "https://www.instagram.com/p/DZndcsIDR6S/"
+      },
+      {
+        "date": "2026-07-12",
+        "platform": "Instagram",
+        "summary": "chris_asmax posts 'Your ride. Your soundtrack. 45mm Box. ASMAX Acoustic Lab tuned. Flagship sound.' promoting the 45mm-speaker flagship (F1 Pro Max) (8 likes, 0 comments).",
+        "url": "https://www.instagram.com/p/Dat-8tzzzCN/"
       }
     ]
   },
@@ -960,7 +966,10 @@
     "https://apps.apple.com/us/app/maxrunos/id6740626069",
     "https://play.google.com/store/apps/details?id=com.timuen.maxonos.haiwai",
     "https://www.instagram.com/p/DacR7oaky5r/",
-    "https://www.asmaxconnect.com/CompanyNews.html"
+    "https://www.asmaxconnect.com/CompanyNews.html",
+    "https://apps.apple.com/us/app/asmax-world/id6476167600",
+    "https://play.google.com/store/apps/details?id=com.timuen.motohud.haiwai",
+    "https://www.instagram.com/p/Dat-8tzzzCN/"
   ],
   "firmware_updates": [
     {
@@ -1234,14 +1243,29 @@
       ],
       "url": "https://apps.apple.com/us/app/maxrunos/id6740626069",
       "source": "Apple App Store - MAXRUNOS version history"
+    },
+    {
+      "date": "2026-07-13",
+      "product": "All models",
+      "type": "app",
+      "version": "1.0.17",
+      "title": "UI/UX polish update (User Agreement flow, Language Assistant menu, group chat, audio-effects pop-ups)",
+      "changes": [
+        "Optimized the confirmation interaction for the User Agreement and Privacy Policy",
+        "Moved the Language Assistant toggle on the device page into the Mobile Phone menu",
+        "Improved the group chat cancellation feature (private chat function)",
+        "Optimized pop-up messages in the headphone audio effects section"
+      ],
+      "url": "https://apps.apple.com/us/app/asmax-world/id6476167600",
+      "source": "Apple App Store - ASMAX WORLD version history"
     }
   ],
   "current_software": {
     "app_name": "ASMAX WORLD",
-    "app_ios_version": "1.0.16",
+    "app_ios_version": "1.0.17",
     "app_android_version": "1.1.59",
-    "app_last_updated": "2026-06-25",
-    "notes": "Verified 2026-07-10: iOS App Store still shows v1.0.16 (Jun 24, 2026) as latest with no newer version history entries; Google Play listing (com.timuen.motohud.haiwai) shows 'Updated on Jun 4, 2026' (one listing snapshot showed Jun 5), consistent with previously tracked Android v1.1.59 -- no new release since last refresh. Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors. Per-product current firmware versions and release-note/manual links are tracked in product_firmware below. MAXRUNOS companion app (iOS id6740626069, Android com.timuen.maxonos.haiwai) is developed by the same company (Shenzhen Asmax Infinite Technology Co,Ltd) and checked separately Jul 2026: iOS v1.0.10 (Jun 14, 2026), Android 'Updated on Jun 11, 2026' -- both newer than any previously-tracked snapshot, so are recorded for the first time in firmware_updates below; the app has also begun supporting third-party white-labeled headset models (MR02, RETOUCH X8) not sold under the ASMAX/MAXRUNON brand names."
+    "app_last_updated": "2026-07-13",
+    "notes": "Verified 2026-07-14: iOS App Store now shows v1.0.17 (released ~2026-07-13, listed as '1d ago' at scrape time) -- UI/UX polish release (User Agreement/Privacy Policy confirmation flow, moved Language Assistant toggle into the Mobile Phone menu, improved group-chat cancellation, optimized headphone audio-effects pop-ups); no new intercom feature. Google Play listing (com.timuen.motohud.haiwai) now shows 'Updated on Jul 12, 2026' (up from Jun 4/5, 2026), but the Play Store page no longer surfaces an explicit version string, so app_android_version is carried over unconfirmed from the last verified snapshot (1.1.59) pending a version number re-check. Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors. Per-product current firmware versions and release-note/manual links are tracked in product_firmware below. MAXRUNOS companion app (iOS id6740626069, Android com.timuen.maxonos.haiwai) is developed by the same company (Shenzhen Asmax Infinite Technology Co,Ltd) and checked separately Jul 2026: iOS v1.0.10 (Jun 14, 2026), Android 'Updated on Jun 11, 2026' -- both newer than any previously-tracked snapshot, so are recorded for the first time in firmware_updates below; the app has also begun supporting third-party white-labeled headset models (MR02, RETOUCH X8) not sold under the ASMAX/MAXRUNON brand names."
   },
   "product_firmware": [
     {
@@ -1559,6 +1583,46 @@
       "topic": "Racing mesh intercom",
       "summary": "Promotional post highlighting how ASMAX Mesh Intercom keeps AVRP Racing Training riders connected to their coaches for real-time guidance on the track.",
       "url": "https://www.facebook.com/groups/795939769924022/permalink/1009322745252389/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/snowmobiling",
+      "product": "S1",
+      "sentiment": "positive",
+      "topic": "Value/range praise",
+      "summary": "A user said they bought a cheap set of ASMAX S1 units on Amazon and were quite impressed for the price, describing them as loud and clear with great range and easy phone linking.",
+      "url": "https://www.reddit.com/r/snowmobiling/comments/1qh76kf/ekon_travel_bluetooth_comms/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/MotoUK",
+      "product": "General",
+      "sentiment": "mixed",
+      "topic": "Mesh brand lock-in",
+      "summary": "A user called ASMAX comms excellent for phone connectivity, dual Bluetooth chips, battery life and loudness, but noted mesh mode only pairs ASMAX-to-ASMAX, the same brand-lock-in limitation as Cardo-to-Cardo.",
+      "url": "https://www.reddit.com/r/MotoUK/comments/1hbdsmg/asmax_helmet_coms/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "S1",
+      "sentiment": "mixed",
+      "topic": "Call audio bug",
+      "summary": "A buyer of the ASMAX S1 said voice commands and general sound quality worked fine, but reported no audio and no phone ring during incoming/outgoing calls.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1j3gmjs/asmax_s1_helmet_intercom/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Reddit",
+      "forum": "r/MotorradDeutschland",
+      "product": "S1",
+      "sentiment": "positive",
+      "topic": "Cross-brand pairing/value",
+      "summary": "A commenter recommended the ASMAX S1 for about 50-60 euros on AliExpress, saying they are happy with it, that it can connect to Sena devices, and that music quality and volume are good.",
+      "url": "https://www.reddit.com/r/MotorradDeutschland/comments/1nkwtza/headset_tipps/"
     }
   ],
   "amazon_pricing": {
