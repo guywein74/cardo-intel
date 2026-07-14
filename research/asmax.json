@@ -1623,10 +1623,20 @@
       "topic": "Cross-brand pairing/value",
       "summary": "A commenter recommended the ASMAX S1 for about 50-60 euros on AliExpress, saying they are happy with it, that it can connect to Sena devices, and that music quality and volume are good.",
       "url": "https://www.reddit.com/r/MotorradDeutschland/comments/1nkwtza/headset_tipps/"
+    },
+    {
+      "date": "2026-07-14",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Authorized retailer advisory",
+      "summary": "Advises customers to purchase ASMAX intercoms exclusively from SEC Motosupply (Caloocan main branch) for the best experience and peace of mind.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1011529568365040/"
     }
   ],
   "amazon_pricing": {
-    "fetched_at": "2026-07-13T15:33:28.682267+00:00",
+    "fetched_at": "2026-07-14T10:47:45.307085+00:00",
     "domain": "US",
     "products": [
       {
@@ -1640,9 +1650,9 @@
           "buybox": null,
           "buybox_seller": null,
           "list_price": 139.99,
-          "sales_rank": 23439,
+          "sales_rank": 29243,
           "rating": 4.4,
-          "review_count": 1231,
+          "review_count": 1213,
           "offer_count": 0
         },
         "range_new": {
@@ -1655,7 +1665,7 @@
           "max": null,
           "avg": null
         },
-        "sales_rank_avg": 26242,
+        "sales_rank_avg": 26122,
         "category": "Helmet Communication",
         "offers": [],
         "keepa_url": "https://keepa.com/#!product/1-B0GGZTM2PZ"
@@ -1671,9 +1681,9 @@
           "buybox": null,
           "buybox_seller": null,
           "list_price": 259.99,
-          "sales_rank": 23525,
+          "sales_rank": 30708,
           "rating": 4.4,
-          "review_count": 1231,
+          "review_count": 1212,
           "offer_count": 0
         },
         "range_new": {
@@ -1686,7 +1696,7 @@
           "max": null,
           "avg": null
         },
-        "sales_rank_avg": 26490,
+        "sales_rank_avg": 26401,
         "category": "Bluetooth Headsets",
         "offers": [],
         "keepa_url": "https://keepa.com/#!product/1-B0GGZZH2GS"
@@ -1702,22 +1712,22 @@
           "buybox": null,
           "buybox_seller": null,
           "list_price": 249.0,
-          "sales_rank": 23535,
+          "sales_rank": 29243,
           "rating": 4.4,
-          "review_count": 1231,
+          "review_count": 1213,
           "offer_count": 0
         },
         "range_new": {
           "min": 103.99,
           "max": 259.0,
-          "avg": 145.16
+          "avg": 145.17
         },
         "range_buybox": {
           "min": null,
           "max": null,
           "avg": null
         },
-        "sales_rank_avg": 26399,
+        "sales_rank_avg": 26313,
         "category": "Helmet Communication",
         "offers": [],
         "keepa_url": "https://keepa.com/#!product/1-B0D1R1GDYP"
@@ -1733,22 +1743,22 @@
           "buybox": null,
           "buybox_seller": null,
           "list_price": 429.0,
-          "sales_rank": 23525,
+          "sales_rank": 29243,
           "rating": 4.4,
-          "review_count": 1231,
+          "review_count": 1213,
           "offer_count": 0
         },
         "range_new": {
           "min": 190.2,
           "max": 279.99,
-          "avg": 257.43
+          "avg": 257.51
         },
         "range_buybox": {
           "min": null,
           "max": null,
           "avg": null
         },
-        "sales_rank_avg": 26485,
+        "sales_rank_avg": 26401,
         "category": "Helmet Communication",
         "offers": [],
         "keepa_url": "https://keepa.com/#!product/1-B0D1RG3371"
@@ -1764,7 +1774,7 @@
           "buybox": null,
           "buybox_seller": null,
           "list_price": 89.99,
-          "sales_rank": 15807,
+          "sales_rank": 13909,
           "rating": 4.5,
           "review_count": 1185,
           "offer_count": 0
@@ -1772,14 +1782,14 @@
         "range_new": {
           "min": 63.99,
           "max": 109.99,
-          "avg": 82.66
+          "avg": 82.7
         },
         "range_buybox": {
           "min": null,
           "max": null,
           "avg": null
         },
-        "sales_rank_avg": 19433,
+        "sales_rank_avg": 19343,
         "category": "Helmet Communication",
         "offers": [],
         "keepa_url": "https://keepa.com/#!product/1-B0D7P59LHZ"
@@ -1795,9 +1805,9 @@
           "buybox": null,
           "buybox_seller": null,
           "list_price": 159.99,
-          "sales_rank": 15378,
+          "sales_rank": 14148,
           "rating": 4.5,
-          "review_count": 1185,
+          "review_count": 1187,
           "offer_count": 0
         },
         "range_new": {
@@ -1810,7 +1820,7 @@
           "max": null,
           "avg": null
         },
-        "sales_rank_avg": 19441,
+        "sales_rank_avg": 19352,
         "category": "Helmet Communication",
         "offers": [],
         "keepa_url": "https://keepa.com/#!product/1-B0D7P5MF7C"
