@@ -140,10 +140,10 @@
             ],
             "note": "Spirit 32mm generic vs S1 40mm; both non-HD",
             "values": [
-              "40mm Cardo HD",
+              "32mm Cardo",
               "40mm Sena HD",
-              "40mm ASMAX in-hous",
-              "—"
+              "40mm ASMAX",
+              "40mm Reso"
             ]
           },
           {
@@ -480,10 +480,10 @@
             ],
             "note": "Spirit HD 40mm HD + profiles; Z1 40mm HiFi",
             "values": [
-              "40mm Cardo HD",
+              "40mm Cardo",
               "40mm Sena HD",
               "40mm Sena HD",
-              "40mm ASMAX in-hous"
+              "40mm ASMAX"
             ]
           },
           {
@@ -800,7 +800,7 @@
             "values": [
               "40mm JBL",
               "40mm Sena HD",
-              "40mm ASMAX 40mm"
+              "40mm ASMAX Bongiovi"
             ]
           },
           {
@@ -1091,8 +1091,8 @@
             "note": "JBL vs Harman Kardon wash; Bongiovi unproven in West",
             "values": [
               "40mm JBL",
-              "40mm SOUND BY",
-              "40mm ASMAX 40mm,"
+              "40mm Harman Kardon",
+              "40mm ASMAX Bongiovi"
             ]
           },
           {
@@ -1438,9 +1438,9 @@
             "note": "JBL vs HK; Reso self-developed (good reviews, less brand)",
             "values": [
               "40mm JBL",
-              "40mm SOUND BY",
-              "40mm Reso in-house",
-              "40mm ASMAX 40mm,",
+              "40mm Harman Kardon",
+              "40mm Reso",
+              "45mm ASMAX Bongiovi",
               "40mm Bose"
             ]
           },
@@ -1886,10 +1886,10 @@
               "45mm JBL",
               "40mm JBL",
               "40mm Bose",
-              "40mm Sound by",
               "40mm Bose",
-              "40mm Reso in-house",
-              "Triple noise red"
+              "40mm Harman Kardon",
+              "40mm Reso",
+              "ASMAX"
             ]
           },
           {
@@ -2310,9 +2310,9 @@
             "note": "Edge 40mm JBL vs 60S Harman Kardon (both strong); F1s/Reso value speakers",
             "values": [
               "40mm JBL",
-              "40mm Bose",
-              "Triple noise red",
-              "40mm Reso in-house"
+              "40mm Harman Kardon",
+              "ASMAX",
+              "40mm Reso"
             ]
           },
           {
