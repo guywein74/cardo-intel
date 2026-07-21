@@ -154,12 +154,12 @@
               "good",
               "bad"
             ],
-            "note": "Only S1 has mesh (8 riders); Spirit/5R LITE 2-rider BT",
+            "note": "Only S1 has mesh (8 riders); Spirit/5R LITE 2-rider BT, Pilot Lite BT-only (no hardware mesh)",
             "values": [
-              "mesh",
+              "BT only",
               "BT only",
               "mesh",
-              "mesh"
+              "BT only"
             ]
           },
           {
@@ -496,7 +496,7 @@
             ],
             "note": "Z1 mesh 10 riders; 5R pairs 4; Spirit HD/5S 2-rider",
             "values": [
-              "mesh",
+              "BT only",
               "BT only",
               "BT only",
               "mesh"
@@ -812,7 +812,7 @@
             ],
             "note": "2-rider BT vs 24-rider mesh; Future 1 mesh but brand-locked",
             "values": [
-              "mesh",
+              "BT only",
               "mesh",
               "mesh"
             ]
@@ -1104,7 +1104,7 @@
             ],
             "note": "4-rider BT vs 24-rider mesh; F1 Pro 10-rider brand-locked mesh",
             "values": [
-              "mesh",
+              "BT only",
               "mesh",
               "mesh"
             ]
