@@ -1,5 +1,5 @@
 {
-  "note": "Deck-style segment battles (modeled on 'Competitive Landscape - December 2024.pptx'). Ratings: good | soso | bad, from Cardo's perspective, based on agent research + review consensus as of July 2026. Dimension sub-criteria mirror the internal deck.",
+  "note": "Deck-style segment battles (modeled on 'Competitive Landscape - December 2024.pptx'). Ratings: good | soso | bad, judged objectively on each product's own merits for a real buyer (NOT relative to whether it beats Cardo's specific number) - a competitor with a fully-functional, well-reviewed feature earns 'good' even where Cardo's own version is stronger; 'soso'/'bad' must be justified by a genuine documented shortcoming (reliability complaints, missing capability, real limitation), not merely 'not as good as Cardo'. Based on agent research + review consensus as of July 2026. Revised 2026-07-15 to remove a Cardo-favoring bias found in the original ratings (see git history). Dimension sub-criteria mirror the internal deck.",
   "dimensions_legend": {
     "Form factor": "Size, esthetics and aerodynamics",
     "Ease of Use": "Wheel, cradle, mount, voice commands, screen, OTA",
@@ -473,12 +473,12 @@
           {
             "dimension": "Sound",
             "scores": [
-              "good",
+              "soso",
               "soso",
               "soso",
               "good"
             ],
-            "note": "Spirit HD 40mm HD + profiles; Z1 40mm HiFi",
+            "note": "Spirit HD, 5S and 5R all use unbranded/house 40mm speakers with no independently-verified quality edge over each other (Spirit HD's '3 sound profiles' is a UI feature, not a proven audio-quality advantage); Z1 branded 'HiFi' 40mm",
             "values": [
               "40mm Cardo",
               "40mm Sena HD",
@@ -1431,11 +1431,11 @@
             "scores": [
               "good",
               "good",
-              "soso",
+              "good",
               "good",
               "good"
             ],
-            "note": "JBL vs HK; Reso self-developed (good reviews, less brand)",
+            "note": "JBL vs HK; Reso self-developed, well-reviewed despite being a newer brand",
             "values": [
               "40mm JBL",
               "40mm Harman Kardon",
@@ -1449,11 +1449,11 @@
             "scores": [
               "good",
               "soso",
-              "soso",
-              "soso",
-              "soso"
+              "good",
+              "good",
+              "good"
             ],
-            "note": "DMC 31 riders benchmark; 50S mesh dropouts; Reso 15, brand-locked",
+            "note": "All genuinely mesh-capable at group sizes real riders use. 50S soso: uses older Mesh 2.0 - a 2025 Ultimate Motorcycling review of the 60S called it 'a clear step up from the 50S' specifically on mesh stability, no direct dropout reports found. Pilot Neo/F1 Pro Max/Spider X Slim have no documented functional flaw (rider-count vs Cardo's 31 and brand-lock don't by themselves justify a lower score - brand-lock is captured separately in Cross-brand pairing)",
             "values": [
               "DMC mesh",
               "mesh",
