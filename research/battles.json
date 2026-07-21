@@ -335,7 +335,7 @@
               "2yr",
               "2yr",
               "2yr",
-              "—"
+              "3yr"
             ]
           },
           {
@@ -966,9 +966,9 @@
             ],
             "note": "Freecom 2x — · Spider RT1 / ST1 — · Future 1 —",
             "values": [
-              "—",
-              "—",
-              "—"
+              "2yr",
+              "2yr",
+              "2yr"
             ]
           },
           {
@@ -1258,9 +1258,9 @@
             ],
             "note": "Freecom 4x — · 50R — · F1 Pro —",
             "values": [
-              "—",
-              "—",
-              "—"
+              "2yr",
+              "3yr",
+              "2yr"
             ]
           },
           {
@@ -1653,10 +1653,10 @@
             ],
             "note": "Packtalk Neo 3yr · 50S — · Pilot Neo 3yr · F1 Pro Max —",
             "values": [
+              "2yr",
               "3yr",
-              "—",
               "3yr",
-              "—",
+              "2yr",
               "lifetime"
             ]
           },
@@ -2145,13 +2145,13 @@
               "good",
               "soso"
             ],
-            "note": "Packtalk Pro 3yr · Packtalk Edge 3yr · 60S EVO lifetime · 60X lifetime · 60S lifetime · Pilot Pro 3yr · F1s 2yr",
+            "note": "Packtalk Pro 3yr · Packtalk Edge 3yr · 60S EVO lifetime · 60X lifetime · 60S 3yr · Pilot Pro 3yr · F1s 2yr",
             "values": [
               "3yr",
               "3yr",
               "lifetime",
               "lifetime",
-              "lifetime",
+              "3yr",
               "3yr",
               "2yr"
             ]
@@ -2499,10 +2499,10 @@
               "soso",
               "good"
             ],
-            "note": "Packtalk Edge 3yr · 60S lifetime · F1s 2yr · Pilot Pro 3yr",
+            "note": "Packtalk Edge 3yr · 60S 3yr · F1s 2yr · Pilot Pro 3yr",
             "values": [
               "3yr",
-              "lifetime",
+              "3yr",
               "2yr",
               "3yr"
             ]

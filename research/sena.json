@@ -201,7 +201,7 @@
         "quality": {
           "build": "New flagship shell with magnetic mount and wireless charging; no long-term verdicts yet",
           "ip_rating": "IPX7",
-          "service_reputation": "n/a - just launched",
+          "service_reputation": "Ticket-based support via sena.com; covered by Sena's Limited Lifetime Warranty on the main unit (battery/clamp kit 5 yr), confirmed via Sena's official 60X launch announcement",
           "warranty_years": null
         },
         "price": {
@@ -397,8 +397,8 @@
         "quality": {
           "build": "Durability complaints appear in owner reviews; no waterproof rating published",
           "ip_rating": "none published",
-          "service_reputation": "Same Sena ticket support; limited upgrade path frustrated owners",
-          "warranty_years": null
+          "service_reputation": "Same Sena ticket support; limited upgrade path frustrated owners; standard 2-year warranty confirmed via Sena's official RT1/ST1 product pages (predates the 60-series lifetime warranty program)",
+          "warranty_years": 2
         },
         "price": {
           "msrp_usd": 239,
