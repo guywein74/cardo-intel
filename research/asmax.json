@@ -31,7 +31,7 @@
         "2-year warranty"
       ],
       "release_year": 2024,
-      "notes": "US flagship on asmaxworld.com. Amazon US listing claims '5-mile intercom'; real-world reviews report ~0.7-1.2 km between closest riders. MSRP appears inflated; effectively always sold ~$140. Street price updated 2026-07-14 from mandatory Amazon storefront scrape: regular listing $139.99 (1-pack, unchanged) but clippable coupon now drops it to $125.99 (up from $120.39 on the prior refresh -- coupon got slightly less generous, still 200+ bought in past month); 2-pack unchanged at $259.99 (regular) / $223.59 (with coupon). asmaxworld.com direct listing (collections/headsets, re-scraped 2026-07-14) still shows flat $139.99 with no coupon.",
+      "notes": "US flagship on asmaxworld.com. Amazon US listing claims '5-mile intercom'; real-world reviews report ~0.7-1.2 km between closest riders. MSRP appears inflated; effectively always sold ~$140. Street price updated 2026-07-14 from mandatory Amazon storefront scrape: regular listing $139.99 (1-pack, unchanged) but clippable coupon now drops it to $125.99 (up from $120.39 on the prior refresh -- coupon got slightly less generous, still 200+ bought in past month); 2-pack unchanged at $259.99 (regular) / $223.59 (with coupon). asmaxworld.com direct listing (collections/headsets, re-scraped 2026-07-27) still shows flat $139.99/$226.99 with no coupon, unchanged. 2026-07-27 refresh: mandatory Amazon storefront/RevZilla scrapes could not be completed this cycle (Firecrawl team credits exhausted at 0/1,000 for the Jul 5-Aug 5 billing period; direct Amazon fetch also blocked with HTTP 503) -- street_price_usd retained from the last verified 2026-07-20 Keepa-sourced amazon_pricing snapshot below rather than guessed. Also found: Malaysia dealer mytakongracing.com lists a near-identical spec set (BT5.3, 1250mAh, IP67, 40mm, 10-rider, ENC, 2-yr warranty) under the name 'F1 Plus' at RM 799 (~USD 196) -- same parallel/regional-naming pattern already seen with X Pro/Y Pro; not treated as a separate product.",
       "dimensions": {
         "form_factor": {
           "weight_g": 50,
@@ -98,7 +98,7 @@
         "2-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US. Street price updated 2026-07-14 from mandatory Amazon storefront scrape: 1-pack now shows a clippable coupon for the first time, $83.99 regular -> $79.79 with coupon (100+ bought in past month, up from no-coupon-needed on the prior refresh); 2-pack unchanged at $145.99 ($73.00/count). asmaxworld.com collections/headsets page (re-scraped 2026-07-14) unchanged at 'From $89.99 USD', still well under $121.99 MSRP.",
+      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US. Street price updated 2026-07-14 from mandatory Amazon storefront scrape: 1-pack now shows a clippable coupon for the first time, $83.99 regular -> $79.79 with coupon (100+ bought in past month, up from no-coupon-needed on the prior refresh); 2-pack unchanged at $145.99 ($73.00/count). asmaxworld.com collections/headsets page (re-scraped 2026-07-27) unchanged at 'From $89.99 USD', still well under $121.99 MSRP. 2026-07-27: mandatory Amazon storefront scrape could not be completed (Firecrawl credits exhausted for the billing cycle; direct Amazon fetch blocked with HTTP 503), so street_price_usd is carried over unconfirmed from the 2026-07-20 Keepa snapshot in amazon_pricing below (new price $85.99, list $89.99 at that fetch -- roughly consistent with the coupon price here, no material change indicated). Positive June 2026 press pickup: Throttle and Far's mesh-intercom buying guide (Jun 5, 2026) singles out the S1 as the budget pick, 'shows that mesh communication does not have to cost a lot.'",
       "dimensions": {
         "form_factor": {
           "weight_g": 41,
@@ -226,7 +226,7 @@
         "Universal helmet compatibility"
       ],
       "release_year": 2025,
-      "notes": "Street price updated Jul 2026 from Jerung Wheels (Malaysia): RM 699 sale price (down from RM 899 list, ~USD 171 at MYR/USD ~4.07). Also seen at SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379). Not yet on the US store. Marketing cites '3-15 km' chained mesh. As of Jul 2026, asmaxconnect.com (global OEM/dealer site) also lists this exact spec set (BT5.3, 40mm BOX speaker, 1350mAh, 50g, Springlock mount) under the name 'X Pro' with an identical tagline, alongside the still-live 'F1 Pro' page — appears to be parallel OEM/private-label branding rather than a new product.",
+      "notes": "Street price updated Jul 2026 from Jerung Wheels (Malaysia): RM 699 sale price (down from RM 899 list, ~USD 171 at MYR/USD ~4.07). Also seen at SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379). Not yet on the US store. Marketing cites '3-15 km' chained mesh. As of Jul 2026, asmaxconnect.com (global OEM/dealer site) also lists this exact spec set (BT5.3, 40mm BOX speaker, 1350mAh, 50g, Springlock mount) under the name 'X Pro' with an identical tagline, alongside the still-live 'F1 Pro' page — appears to be parallel OEM/private-label branding rather than a new product. Confirmed 2026-07-23: ASMAX Connect published an official 'Regional Product Versions & Distribution and Support Policy' notice explicitly listing Future 1, F1 Pro, F1 Pro Max, X Pro, X Pro Max, Y Pro and S2 together as distinct named products, and distinguishing 'International Version' vs 'Chinese Version' units (incompatible apps -- Chinese-version units only work with the China ASMAX app, not the international ASMAX World app; no cross-border warranty/return/exchange/firmware conversion support; distributors restricted to assigned territories). This is the first official confirmation of the naming split, though it still doesn't clarify whether X Pro et al. are China-market renames of F1 Pro et al. or genuinely separate SKUs.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -588,6 +588,18 @@
   ],
   "recent_news": [
     {
+      "date": "2026-07-23",
+      "headline": "ASMAX Connect publishes official 'Regional Product Versions & Distribution and Support Policy' notice: formally distinguishes 'International Version' from 'Chinese Version' products (incompatible apps -- China units only pair with the China ASMAX app, not ASMAX World), states Chinese-version units carry no international warranty/return/exchange/firmware-conversion support outside Mainland China, and restricts authorized distributors to assigned territories; explicitly lists Future 1, F1 Pro, F1 Pro Max, X Pro, X Pro Max, Y Pro and S2 together, the first official acknowledgment tying the parallel X Pro/Y Pro naming to the main F1 Pro/F1 Pro Max/Future 1 lineup",
+      "source": "ASMAX Connect (Announcement)",
+      "url": "https://www.asmaxconnect.com/Announcement/ZwuaP7sJ1ram.html"
+    },
+    {
+      "date": "2026-07-15",
+      "headline": "ASMAX announces Valentin Debise -- French WorldSSP (World Supersport) race winner and six-time French Supersport champion, six WorldSSP race wins in the 2026 season -- as Global Brand Ambassador; ASMAX's second named athlete/team partnership after the Jun 2026 MDR Competicion MotoJunior deal; cross-posted to the asmaxworld.com blog on Jul 23, 2026",
+      "source": "ASMAX Connect (Company News) / asmaxworld.com blog",
+      "url": "https://www.asmaxconnect.com/CompanyNews/WZhDuZ5OWlDB.html"
+    },
+    {
       "date": "2026-07-07",
       "headline": "chris_asmax (US/wholesale-focused ASMAX rep Instagram account) posts a new intercom-branded reel captioned 'Javis are you there? #asmax #asmaxworld #motorcycle #riding #motorcycleintercom' (31 likes, 2 comments as of Jul 2026)",
       "source": "Instagram (@chris_asmax)",
@@ -663,8 +675,8 @@
   "social_media": {
     "instagram": {
       "handle": "@asmaxworld_official",
-      "followers": 15000,
-      "notes": "~15K followers, 153 following, 358 posts (re-checked via firecrawl search 2026-07-14, unchanged from prior refresh) — count still rounds to 15K. Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM; frequent dealer/rider tag-ins (SEC Motosupply, blackout.spain). Secondary handles: @asmaxofficial (linked from asmaxconnect.com, followers unknown; posted a new promo Jul 5, 2026) and @chris_asmax (OEM/wholesale-focused account, now 480 followers / 15 posts as of 2026-07-14, up from ~475/13 -- run by a US-based reseller who also promotes non-ASMAX comms gear, e.g. Sena's Phantom XB smart helmet, alongside ASMAX content).",
+      "followers": 16000,
+      "notes": "~16K followers, 154 following, 360 posts (re-checked via web search 2026-07-27, up from ~15K/153/358 on the 2026-07-14 refresh) — steady small growth, count now rounds to 16K. Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM; frequent dealer/rider tag-ins (SEC Motosupply, blackout.spain). Secondary handles: @asmaxofficial (linked from asmaxconnect.com, followers unknown; posted a new promo Jul 5, 2026) and @chris_asmax (OEM/wholesale-focused account, ~480 followers / 15 posts as of the 2026-07-14 refresh, not independently reconfirmed 2026-07-27 -- run by a US-based reseller who also promotes non-ASMAX comms gear, e.g. Sena's Phantom XB smart helmet, alongside ASMAX content). Note: could not verify via Facebook whether the ASMAXWorld page's ~469 likes figure has moved since the 2026-07-14 refresh -- a 2026-07-27 web search surfaced only a stale cached '448 likes' snapshot predating that refresh, so facebook.followers below is left unchanged rather than overwritten with an unreliable number.",
       "url": "https://www.instagram.com/asmaxworld_official/"
     },
     "facebook": {
@@ -826,11 +838,30 @@
         "platform": "Instagram",
         "summary": "chris_asmax posts 'Your ride. Your soundtrack. 45mm Box. ASMAX Acoustic Lab tuned. Flagship sound.' promoting the 45mm-speaker flagship (F1 Pro Max) (8 likes, 0 comments).",
         "url": "https://www.instagram.com/p/Dat-8tzzzCN/"
+      },
+      {
+        "date": "2026-07-26",
+        "platform": "Instagram",
+        "summary": "Rider/influencer @seanmorganvlogs posted a video tagging @asmaxworld_official, calling it 'the best headset for riders who want the premium riding experience.'",
+        "url": "https://www.instagram.com/p/DbP6Np3tKxO/"
+      },
+      {
+        "date": "2026-07-25",
+        "platform": "Instagram",
+        "summary": "Content creator @adobo_moto posted about the ASMAX F1S as a budget-friendly Bluetooth mesh intercom for sportbike riders.",
+        "url": "https://www.instagram.com/p/DbMgEcrIReB/"
       }
     ]
   },
   "press_coverage": {
     "reviews": [
+      {
+        "outlet": "Throttle and Far",
+        "date": "2026-06-05",
+        "product": "S1",
+        "verdict": "Positive budget pick in a 6-system mesh-intercom buying guide: 'The ASMAX S1 shows that mesh communication does not have to cost a lot.' Praises reliable mesh/voice commands and audio quality exceeding its price point; notes cross-brand mesh compatibility is limited and the S1 works best when the whole group buys the same unit. Framed as best for budget-conscious groups buying matching units.",
+        "url": "https://throttleandfar.com/gear/which-mesh-intercom-is-right-for-you/"
+      },
       {
         "outlet": "RiderXP (YouTube)",
         "date": "2025-11-20",
@@ -969,7 +1000,12 @@
     "https://www.asmaxconnect.com/CompanyNews.html",
     "https://apps.apple.com/us/app/asmax-world/id6476167600",
     "https://play.google.com/store/apps/details?id=com.timuen.motohud.haiwai",
-    "https://www.instagram.com/p/Dat-8tzzzCN/"
+    "https://www.instagram.com/p/Dat-8tzzzCN/",
+    "https://www.asmaxconnect.com/Announcement/ZwuaP7sJ1ram.html",
+    "https://www.asmaxconnect.com/CompanyNews/WZhDuZ5OWlDB.html",
+    "https://www.asmaxworld.com/blogs/news/meet-valentin-debise-asmax-brand-ambassador",
+    "https://throttleandfar.com/gear/which-mesh-intercom-is-right-for-you/",
+    "https://www.mytakongracing.com/products/asmax-registered-f1-intercom-set-"
   ],
   "firmware_updates": [
     {
@@ -1265,7 +1301,7 @@
     "app_ios_version": "1.0.17",
     "app_android_version": "1.1.59",
     "app_last_updated": "2026-07-13",
-    "notes": "Verified 2026-07-14: iOS App Store now shows v1.0.17 (released ~2026-07-13, listed as '1d ago' at scrape time) -- UI/UX polish release (User Agreement/Privacy Policy confirmation flow, moved Language Assistant toggle into the Mobile Phone menu, improved group-chat cancellation, optimized headphone audio-effects pop-ups); no new intercom feature. Google Play listing (com.timuen.motohud.haiwai) now shows 'Updated on Jul 12, 2026' (up from Jun 4/5, 2026), but the Play Store page no longer surfaces an explicit version string, so app_android_version is carried over unconfirmed from the last verified snapshot (1.1.59) pending a version number re-check. Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors. Per-product current firmware versions and release-note/manual links are tracked in product_firmware below. MAXRUNOS companion app (iOS id6740626069, Android com.timuen.maxonos.haiwai) is developed by the same company (Shenzhen Asmax Infinite Technology Co,Ltd) and checked separately Jul 2026: iOS v1.0.10 (Jun 14, 2026), Android 'Updated on Jun 11, 2026' -- both newer than any previously-tracked snapshot, so are recorded for the first time in firmware_updates below; the app has also begun supporting third-party white-labeled headset models (MR02, RETOUCH X8) not sold under the ASMAX/MAXRUNON brand names."
+    "notes": "Re-checked 2026-07-27: iOS App Store still shows v1.0.17 (2026-07-13) as the latest version, no newer release in the intervening two weeks. Verified 2026-07-14: iOS App Store now shows v1.0.17 (released ~2026-07-13, listed as '1d ago' at scrape time) -- UI/UX polish release (User Agreement/Privacy Policy confirmation flow, moved Language Assistant toggle into the Mobile Phone menu, improved group-chat cancellation, optimized headphone audio-effects pop-ups); no new intercom feature. Google Play listing (com.timuen.motohud.haiwai) now shows 'Updated on Jul 12, 2026' (up from Jun 4/5, 2026), but the Play Store page no longer surfaces an explicit version string, so app_android_version is carried over unconfirmed from the last verified snapshot (1.1.59) pending a version number re-check. Updates are delivered via FOTA (firmware-over-the-air) pushed through the ASMAX WORLD app (iOS/Android; a separate MAXRUNOS app serves the MAXRUNON sub-brand) - no desktop tool or cable required. Cadence is frequent but mostly incremental: the app has shipped roughly monthly point releases since 2024 (mostly bug-fix/'known issues' patches) punctuated by a few feature milestones - CloudTalk Mode (Jun 2025), rider-passenger music sharing (Dec 2025), and the ASMAX Mode hybrid mesh+cellular relaunch (Apr 2026). Rollouts are explicitly staged by model, so availability can lag across the lineup for days; firmware updates are also announced ad hoc via Facebook/Instagram rather than a public changelog, and are less consistently versioned than the App Store release notes. User-reported issues after firmware updates include reduced max volume, cold-weather shutdowns, and mic-sensitivity complaints; ASMAX MODE requires both the app and device firmware to be current on all paired units or it fails with 'Operation failed'/'Please update device' errors. Per-product current firmware versions and release-note/manual links are tracked in product_firmware below. MAXRUNOS companion app (iOS id6740626069, Android com.timuen.maxonos.haiwai) is developed by the same company (Shenzhen Asmax Infinite Technology Co,Ltd) and checked separately Jul 2026: iOS v1.0.10 (Jun 14, 2026), Android 'Updated on Jun 11, 2026' -- both newer than any previously-tracked snapshot, so are recorded for the first time in firmware_updates below; the app has also begun supporting third-party white-labeled headset models (MR02, RETOUCH X8) not sold under the ASMAX/MAXRUNON brand names."
   },
   "product_firmware": [
     {
@@ -1683,6 +1719,46 @@
       "topic": "Accessories inquiry",
       "summary": "User asks if anyone is selling accessories such as speakers, mount, and mic.",
       "url": "https://www.facebook.com/groups/795939769924022/permalink/1015012264683437/"
+    },
+    {
+      "date": "2026-04-29",
+      "source": "Reddit",
+      "forum": "r/PHMotorcycles",
+      "product": "Future 1",
+      "sentiment": "positive",
+      "topic": "Praise for value / mesh performance",
+      "summary": "Detailed owner review of the ASMAX Future 1 (bought discounted for ~PHP 4,620) praises fast, reliable mesh pairing across ASMAX models (unlike Freedconn's FX Pro/FX Plus, which can't mesh with each other), ~1km mesh range, and speaker quality the reviewer felt rivaled Cardo's JBL speakers, though voice command was sometimes unresponsive.",
+      "url": "https://www.reddit.com/r/PHMotorcycles/comments/1sz20dr/asmax_future_1_future_1_evar_review_underrated/"
+    },
+    {
+      "date": "2026-07-25",
+      "source": "Facebook Group",
+      "forum": "Asmax F1 intercom user community",
+      "product": "F1 Pro",
+      "sentiment": "negative",
+      "topic": "Poor mic/audio quality complaint",
+      "summary": "Buyer of an F1 Pro dual pack says a $25 AliExpress intercom sounded better — his wife's voice came through scratchy and narrow-band, and phone call clients report heavily distorted mic audio.",
+      "url": "https://www.facebook.com/groups/1275973273584175/permalink/1782538496260981/"
+    },
+    {
+      "date": "2026-07-23",
+      "source": "Facebook Group",
+      "forum": "Asmax F1 intercom user community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Inaudible call ringtone",
+      "summary": "Italian-language post: an iPhone 15 user says the incoming call ringtone is inaudible despite trying every setting in the ASMAX app.",
+      "url": "https://www.facebook.com/groups/1275973273584175/permalink/1780451859802978/"
+    },
+    {
+      "date": "2026-07-17",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "F1 Pro",
+      "sentiment": "mixed",
+      "topic": "Inconsistent build quality between units",
+      "summary": "Buyer of two F1 Pro units (different colors) from the same order found inconsistent mounting mechanisms (one needs a button press to release, the other doesn't) and noticeably weaker speaker volume on one unit versus the other.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1014353568082640/"
     }
   ],
   "amazon_pricing": {

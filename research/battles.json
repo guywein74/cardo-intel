@@ -28,13 +28,13 @@
         "model": "Spirit",
         "price": "$109.95"
       },
-      "exec_summary": "Spirit still anchors the range on brand trust and OTA support, but at this price point ASMAX now sells MESH with an offline AI assistant and a published waterproof rating — a spec sheet Spirit cannot match. Sena raised 5R LITE's price to $109 in July 2026, so it now costs about the same as Spirit rather than undercutting it — the entry tier is defended by distribution and brand, not by product.",
+      "exec_summary": "Spirit still anchors the range on brand trust and OTA support, but at this price point ASMAX now sells MESH with an offline AI assistant and a published waterproof rating — a spec sheet Spirit cannot match. Sena's 5R LITE briefly reached parity with Spirit after a July 2026 MSRP hike to $109, but a RevZilla discount has since pulled its street price back to $98 — Reso's Pilot Lite ($118, SEA-only) is now the priciest unit in the segment. The entry tier is defended by distribution and brand, not by product.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "5R LITE",
-          "price": "$109",
-          "blurb": "Sena's lowest-profile entry unit; basic 2-rider Bluetooth, water-resistant. Repriced from $99 to $109 in July 2026 (store-us.sena.com), now roughly at parity with Spirit.",
+          "price": "$98.10",
+          "blurb": "Sena's lowest-profile entry unit; basic 2-rider Bluetooth, water-resistant. MSRP raised from $99 to $109 in July 2026 (store-us.sena.com), but a RevZilla discount now puts street price at $98.10, again slightly undercutting Spirit's street price.",
           "cardo_advantage": [
             "OTA updates via app",
             "Universal Bluetooth bridging",
@@ -47,8 +47,8 @@
         {
           "brand": "ASMAX",
           "model": "S1",
-          "price": "$83.99",
-          "blurb": "Mesh + BT 5.4 dual-chip, offline 'Hi Max' AI voice, IPX7, FOTA — flagship-class spec at the cheapest price in the market. Amazon street price dropped from $89.99 to $83.99 in July 2026.",
+          "price": "$79.79",
+          "blurb": "Mesh + BT 5.4 dual-chip, offline 'Hi Max' AI voice, IPX7, FOTA — flagship-class spec at the cheapest price in the market. Amazon coupon price dropped further to $79.79 in July 2026 (from $83.99).",
           "cardo_advantage": [
             "Brand trust & Western dealer/service network",
             "Proven long-term firmware support"
@@ -58,7 +58,7 @@
             "Offline AI voice control",
             "Published IPX7 rating",
             "40mm speakers vs Spirit's 32mm",
-            "$26 cheaper"
+            "~$19 cheaper than Spirit's street price"
           ],
           "to_test": [
             "Real-world range (claims 8 km, reviews ~1.2 km)"
@@ -341,16 +341,16 @@
           {
             "dimension": "Price",
             "scores": [
-              "soso",
               "good",
               "good",
-              "good"
+              "good",
+              "soso"
             ],
-            "note": "Spirit most expensive in segment",
+            "note": "Reso Pilot Lite now priciest in segment (SEA-only, ~$118); Spirit and 5R LITE both around $98-99 street after Sena's RevZilla discount, ASMAX S1 remains segment value leader at $79.79",
             "values": [
-              "$179",
-              "$109",
-              "$84",
+              "$98.95",
+              "$98.10",
+              "$79.79",
               "$118"
             ]
           }

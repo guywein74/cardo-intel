@@ -347,7 +347,7 @@
       "name": "Spider RT1 / ST1",
       "tier": "mid",
       "msrp_usd": 239,
-      "street_price_usd": 239,
+      "street_price_usd": 191.2,
       "intercom_tech": "Mesh 2.0 only (Bluetooth for phone/music, no Bluetooth intercom)",
       "range_km": 2,
       "max_riders": 24,
@@ -363,7 +363,7 @@
         "App support"
       ],
       "release_year": 2021,
-      "notes": "Affordable mesh-only entry. Talk time up to 20h per official RT1 spec page. Reviews cite good value but wind-noise handling, durability and Android app issues. Successor 'Spider X Slim' with Mesh 3.0 announced at EICMA 2025. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $199; live store-us.sena.com/products.json crawl (handles spider-rt1-01 and spider-st1-10) shows single-pack price now $239.00 (dual $439.00) - AND all variants of both RT1 and ST1 are marked out of stock (available:false) on Sena's own store as of today, a likely sign the line is being sunset in favor of the Spider X Slim successor. Amazon's Sena storefront still lists Spider RT1 in stock at $239.00 but Spider ST1 at a separate $191.41 deal price (list $219.00) - the two SKUs may be diverging in price/availability across channels; Sena's own store price ($239) used as authoritative msrp here. STOCK UPDATE 2026-07-14: partial restock on store-us.sena.com/products.json - RT1 Single Pack ($239) is back in stock (RT1 Dual still out); ST1 Dual Pack ($439) is back in stock (ST1 Single still out) - no longer a full storewide stock-out as of 2026-07-10, though availability remains split/inconsistent across the two SKUs' pack sizes.",
+      "notes": "Affordable mesh-only entry. Talk time up to 20h per official RT1 spec page. Reviews cite good value but wind-noise handling, durability and Android app issues. Successor 'Spider X Slim' with Mesh 3.0 announced at EICMA 2025. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $199; live store-us.sena.com/products.json crawl (handles spider-rt1-01 and spider-st1-10) shows single-pack price now $239.00 (dual $439.00) - AND all variants of both RT1 and ST1 are marked out of stock (available:false) on Sena's own store as of today, a likely sign the line is being sunset in favor of the Spider X Slim successor. Amazon's Sena storefront still lists Spider RT1 in stock at $239.00 but Spider ST1 at a separate $191.41 deal price (list $219.00) - the two SKUs may be diverging in price/availability across channels; Sena's own store price ($239) used as authoritative msrp here. STOCK UPDATE 2026-07-14: partial restock on store-us.sena.com/products.json - RT1 Single Pack ($239) is back in stock (RT1 Dual still out); ST1 Dual Pack ($439) is back in stock (ST1 Single still out) - no longer a full storewide stock-out as of 2026-07-10, though availability remains split/inconsistent across the two SKUs' pack sizes. PRICE CORRECTED 2026-07-27: street_price_usd was $239; RevZilla's motorcycle-bluetooth-communications listing shows the Spider ST1 variant discounted to $191.20 (RT1 variant still full price at $239.00) - recording the lower ST1 deal price as the current street price per the lowest-listed-price mandate. Amazon storefront check failed (503 blocked) this run so could not cross-verify against Amazon. RevZilla motorcycle-bluetooth-communications category page listed 28 total Sena SKUs as of 2026-07-27 (not previously tracked as a baseline count).",
       "dimensions": {
         "form_factor": {
           "weight_g": 65,
@@ -402,7 +402,7 @@
         },
         "price": {
           "msrp_usd": 239,
-          "street_usd": 239,
+          "street_usd": 191.2,
           "segment_position": "Budget mesh play; undercuts Cardo Packtalk Neo, competes with Packtalk Outdoor-type offers. Price raised from $199 to $239 and now out of stock storewide (2026-07-10 check) - likely being wound down for the Spider X Slim successor"
         }
       },
@@ -610,7 +610,7 @@
       "name": "5R LITE",
       "tier": "entry",
       "msrp_usd": 109,
-      "street_price_usd": 109,
+      "street_price_usd": 98.1,
       "intercom_tech": "Bluetooth (2-way HD intercom)",
       "range_km": 0.7,
       "max_riders": 2,
@@ -625,7 +625,7 @@
         "2-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Cheapest current Sena unit; 700 m working distance; 16h talk / 2.5h charge per official spec page. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $99, live store-us.sena.com product page (SKU 5RLITE-01) now shows $109.00 with only 4 units left in stock - price increase confirmed, no longer the price-floor product it was framed as.",
+      "notes": "Cheapest current Sena unit; 700 m working distance; 16h talk / 2.5h charge per official spec page. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $99, live store-us.sena.com product page (SKU 5RLITE-01) now shows $109.00 with only 4 units left in stock - price increase confirmed, no longer the price-floor product it was framed as. PRICE CORRECTED 2026-07-27: street_price_usd was $109 (no discount recorded); RevZilla's motorcycle-bluetooth-communications listing now shows a 10% discount at $98.10 (was $109.00) - updated to reflect the current lower street price. Amazon storefront check failed (503 blocked) this run so could not cross-verify against Amazon.",
       "dimensions": {
         "form_factor": {
           "weight_g": 32,
@@ -664,7 +664,7 @@
         },
         "price": {
           "msrp_usd": 109,
-          "street_usd": 109,
+          "street_usd": 98.1,
           "segment_position": "Entry-floor product; still undercuts Cardo Spirit tier though the $99 price point was raised to $109 as of 2026-07-10"
         }
       },
@@ -1478,6 +1478,12 @@
       "headline": "Outrush 2 v1.0.3 and Outstar 2 v1.0.2 firmware updates: shared fixes for remote-control connectivity, Mesh Intercom performance, BMW/Harley-Davidson/Ducati TFT display connectivity, and OTA low-battery messaging",
       "source": "Sena support notices",
       "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outrush-2-v1-0-3/"
+    },
+    {
+      "date": "2026-07-16",
+      "headline": "5S firmware v2.3.2 released: adds BMW TFT display support, improves Bluetooth Intercom and Audio Multitasking stability, fixes an iPhone-pairing app-connectivity bug and in-call volume adjustment issue",
+      "source": "Sena support notices",
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-5s-v2-3-2/"
     }
   ],
   "social_media": {
@@ -1485,7 +1491,7 @@
       "handle": "@senabluetooth (Sena North America); regional: @sena_europe, @senabluetooth_japan, @senabluetoothindia, @sena_indonesia",
       "followers": 76000,
       "url": "https://www.instagram.com/senabluetooth/",
-      "notes": "~76K followers, ~1,910 posts (checked July 2026). Bio: 'The Global Leader in Intercom Communication Innovations for Motorsports, Action Sports & Outdoor Sports'. Content mix: product promo and launch announcements, how-to/pairing tutorials, rider lifestyle/UGC reposts. Per-post engagement rate not verifiable from search data."
+      "notes": "~76K followers, ~1,921 posts (checked 2026-07-27, up from ~1,910). Bio: 'The Global Leader in Intercom Communication Innovations for Motorsports, Action Sports & Outdoor Sports'. Content mix: product promo and launch announcements, how-to/pairing tutorials, rider lifestyle/UGC reposts. Per-post engagement rate not verifiable from search data."
     },
     "facebook": {
       "page": "facebook.com/SenaBluetooth",
@@ -1707,6 +1713,18 @@
         "platform": "Instagram",
         "summary": "📣🏍️ 🛜 ✌️👥🍃\nAn amplified ride synced to our nature = What it means to #RideConnected with #Sena\n \n#AwakenYourInstinct #EmojiCombos",
         "url": "https://www.instagram.com/p/Da5maYWP9q0/"
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "Instagram",
+        "summary": "Sena giveaway of a 60S EVO (Mesh 3.0/2.0, Bose sound, dual helmet setup), entry via bio link.",
+        "url": "https://www.instagram.com/p/DbJSMlhhtrQ/"
+      },
+      {
+        "date": "2026-07-21",
+        "platform": "Instagram",
+        "summary": "Sena Outlander-branded story post: 'When the unexpected hits, the crew steps up. The race is still on.'",
+        "url": "https://www.instagram.com/p/DbD5Q0gSw6Y/"
       }
     ]
   },
@@ -2128,6 +2146,23 @@
       ],
       "url": "https://apps.apple.com/us/app/wave-intercom/id6670228363",
       "source": "Apple App Store version history"
+    },
+    {
+      "date": "2026-07-16",
+      "product": "5S",
+      "type": "firmware",
+      "version": "2.3.2",
+      "title": "5S firmware v2.3.2",
+      "changes": [
+        "Added support for the BMW TFT display",
+        "Enhanced stability for Audio Multitasking",
+        "Improved Bluetooth Intercom stability",
+        "Corrected connectivity issue between Sena Motorcycles App and device after iPhone pairing",
+        "Fixed volume adjustment problems during phone calls",
+        "Removed firmware version number from device identification"
+      ],
+      "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-5s-v2-3-2/",
+      "source": "Sena support notices"
     }
   ],
   "current_software": {
@@ -2188,9 +2223,9 @@
     },
     {
       "product": "5S",
-      "firmware_version": null,
-      "firmware_last_updated": null,
-      "release_notes_url": null,
+      "firmware_version": "2.3.2",
+      "firmware_last_updated": "2026-07-16",
+      "release_notes_url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-5s-v2-3-2/",
       "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_5S_2.3.0_en_250114.pdf",
       "support_url": "https://www.sena.com/en-us/support/5s/"
     },
@@ -2795,6 +2830,86 @@
       "topic": "Muffled with visor closed",
       "summary": "User reports that with the visor closed, friends cannot understand them on the 60S, but with the visor open they are clear. They ask if others have the same problem and a solution.",
       "url": "https://www.facebook.com/groups/860066485997389/permalink/1417775023559863/"
+    },
+    {
+      "date": "2026-06-04",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Auto-volume feature complaint",
+      "summary": "Rider using a Sena SRL Mesh integrated comm (~$600 CAD, in a Shoei Neotec 2) says the auto-volume feature is 'absolutely atrocious' — either deafeningly loud or barely audible — and that adjusting app settings made little difference.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1twruot/sena_audio_volume_control/"
+    },
+    {
+      "date": "2026-06-05",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Outrush 2 (modular smart helmet)",
+      "sentiment": "neutral",
+      "topic": "Pairing/Bluetooth issue",
+      "summary": "User couldn't get intercom pairing mode working between a Sena Outrush 2 helmet and an Outrush 1 helmet (no pairing voice prompt heard); a commenter suggested resetting both units since Sena changes button combos between models.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1tx7g2u/sena_outrush_2_helmet_intercom_pairing_with_sena/"
+    },
+    {
+      "date": "2026-07-26",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "App won't connect",
+      "summary": "New 60S owner reports the Sena app won't connect even though the unit works fine for calls and music via Bluetooth.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1424796376191061/"
+    },
+    {
+      "date": "2026-07-24",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "Mesh audio cutting out",
+      "summary": "Rider using mesh with his wife on separate bikes reports the first word of speech gets cut off and sometimes she can't hear him at all, even with sensitivity set to max.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1423363093001056/"
+    },
+    {
+      "date": "2026-07-24",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "Specter (modular smart helmet)",
+      "sentiment": "positive",
+      "topic": "Praise for Specter integrated audio",
+      "summary": "Group member posted a positive ride review of the Sena Specter modular helmet, which integrates 2nd-generation 60S Harman Kardon speakers/mic, saying he was 'very impressed.'",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1423258656344833/"
+    },
+    {
+      "date": "2026-07-23",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "Firmware bug breaking bike integration",
+      "summary": "After updating to the latest firmware, a rider's Sena 60S no longer holds a stable Bluetooth connection to their BMW R1300RT's system — the Bluetooth icon just flashes; it worked fine before the app update.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1422438559760176/"
+    },
+    {
+      "date": "2026-07-23",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Praise for customer service",
+      "summary": "Group admin publicly thanked Sena employees Gabe Saez and Kevin Garcia for customer service he called 'above and beyond' what a manufacturer normally provides, saying their approach 'should be an industry standard.'",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1422401806430518/"
+    },
+    {
+      "date": "2026-07-23",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "Mesh mutes music volume",
+      "summary": "Hungarian-language post: user reports that turning on mesh mode drops music volume to zero with no way to raise it, despite resetting the device and adjusting all settings.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1422112443126121/"
     }
   ],
   "amazon_pricing": {

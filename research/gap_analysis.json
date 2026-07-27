@@ -41,8 +41,8 @@
         {
           "brand": "Sena",
           "product": "50S / Spider RT1",
-          "price": "$262 / $239",
-          "note": "Both are MESH units; 50S street price corrected 2026-07-09 to $262 (Amazon storefront, down from $341); Spider RT1/ST1 repriced 2026-07-10 from $199 to $239 and now out of stock on Sena's own store (possible sign of a wind-down ahead of the Spider X Slim successor)"
+          "price": "$262 / $191",
+          "note": "Both are MESH units; 50S street price corrected 2026-07-09 to $262 (Amazon storefront, down from $341); Spider RT1/ST1 MSRP raised 2026-07-10 from $199 to $239 (both variants now back in stock on Sena's own store after a brief stock-out), but a RevZilla discount on the ST1 variant now puts street price at $191.20 as of 2026-07-27"
         },
         {
           "brand": "Reso",
@@ -80,8 +80,8 @@
         {
           "brand": "ASMAX",
           "product": "S1 / S2 / Z1",
-          "price": "$89.99",
-          "note": "MESH + 8-10 riders + offline AI voice + IPX7/IP67 + FOTA at Spirit price"
+          "price": "$79.79-89.99",
+          "note": "MESH + 8-10 riders + offline AI voice + IPX7/IP67 + FOTA at Spirit price; S1 Amazon coupon price dropped further to $79.79 as of 2026-07-27"
         },
         {
           "brand": "Reso",
