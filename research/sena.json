@@ -80,7 +80,7 @@
       "name": "60S",
       "tier": "flagship",
       "msrp_usd": 439,
-      "street_price_usd": 326.71,
+      "street_price_usd": 358.35,
       "intercom_tech": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular intercom",
       "range_km": 2,
       "max_riders": 24,
@@ -99,7 +99,7 @@
         "3-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level. PRICE CORRECTED 2026-07-14: street_price_usd was $351; Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price at $326.71 (range $319.95-$439, list $439.00), still below the direct-store $438.50 figure previously noted - updated to this lower confirmed price. Direct sena store listing remains out of stock at unchanged $439 MSRP as of 2026-07-10.",
+      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level. PRICE CORRECTED 2026-07-14: street_price_usd was $351; Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price at $326.71 (range $319.95-$439, list $439.00), still below the direct-store $438.50 figure previously noted - updated to this lower confirmed price. Direct sena store listing remains out of stock at unchanged $439 MSRP as of 2026-07-10. PRICE CORRECTED 2026-08-10: street_price_usd was $326.71 (Amazon deal price fetched 2026-07-13); mandatory Amazon Sena storefront re-crawl now shows the 60S deal price at $358.35 (list $439.00, -18%) - price has risen since the July snapshot, updated to reflect the current confirmed Amazon deal price. Also corrected a stale url field that pointed to the 60S EVO product page (store-us.sena.com/products/60s-evo) instead of the 60S's own page.",
       "dimensions": {
         "form_factor": {
           "weight_g": 68,
@@ -138,11 +138,11 @@
         },
         "price": {
           "msrp_usd": 439,
-          "street_usd": 351,
-          "segment_position": "Flagship priced below Cardo Packtalk Pro; now discounted ~20% post-EVO"
+          "street_usd": 358.35,
+          "segment_position": "Flagship priced below Cardo Packtalk Pro; now discounted ~18% post-EVO"
         }
       },
-      "url": "https://store-us.sena.com/products/60s-evo"
+      "url": "https://store-us.sena.com/products/60s"
     },
     {
       "name": "60X",
@@ -298,7 +298,7 @@
         "OTA updates"
       ],
       "release_year": 2020,
-      "notes": "PRICE CORRECTED 2026-07-09: msrp_usd was null (\"sources cite RRP around EUR 300/$330, exact current US MSRP not confirmed\") - direct store-us.sena.com/products.json crawl confirms single-pack MSRP is $375 (dual pack $679); street_price_usd updated from prior $300 estimate to $337.50, the current RevZilla discounted price (was $375). Talk time ~13h Bluetooth / ~11h Mesh. PRICE CORRECTED 2026-07-14: street_price_usd was $337.50 (RevZilla); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's official listing at a lower $261.37 (list $375.00) - updated to the lower confirmed Amazon deal price per the mandate to use the lowest current listed/deal price.",
+      "notes": "PRICE CORRECTED 2026-07-09: msrp_usd was null (\"sources cite RRP around EUR 300/$330, exact current US MSRP not confirmed\") - direct store-us.sena.com/products.json crawl confirms single-pack MSRP is $375 (dual pack $679); street_price_usd updated from prior $300 estimate to $337.50, the current RevZilla discounted price (was $375). Talk time ~13h Bluetooth / ~11h Mesh. PRICE CORRECTED 2026-07-14: street_price_usd was $337.50 (RevZilla); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's official listing at a lower $261.37 (list $375.00) - updated to the lower confirmed Amazon deal price per the mandate to use the lowest current listed/deal price. RETAILER CHECK 2026-08-10: RevZilla's motorcycle-bluetooth-communications brand filter now reads Sena(76) SKUs, up notably from Sena(68) last recorded - consistent with the run of 2026 launches (60X, Vortex, Spider X Slim, MeshON, Latitude/Latitude S2, SUMMIT X) expanding RevZilla's carried Sena catalog since that baseline.",
       "dimensions": {
         "form_factor": {
           "weight_g": 65,
@@ -805,7 +805,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 549,
-      "street_price_usd": null,
+      "street_price_usd": 373.32,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE, virtually unlimited range) + Bluetooth 5.3",
       "range_km": 2.0,
       "max_riders": 24,
@@ -820,7 +820,7 @@
         "Weight 1690g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing.",
+      "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing. PRICE ADDED 2026-08-10: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Phantom listing (list price $549.00, matching this SKU's MSRP exactly) at a $373.32 deal price (-32%) - recorded as street_price_usd. Two other Amazon listings under the same generic 'Phantom and ANC' title were seen at $544.02 and $649.00 with no visible list-price strikethrough; those could not be confidently attributed to this base SKU vs. Phantom XB/ANC so were not used here.",
       "url": "https://store-us.sena.com/products/phantom"
     },
     {
@@ -847,7 +847,7 @@
         "Auto On/Off deep-sleep mode; safe direct-power riding without charging the battery"
       ],
       "release_year": 2025,
-      "notes": "Live on Sena's EU store (sena.com/en-eu/product/outstar-2/); not yet listed on the US Shopify store or products.json feed as of Jul 8 2026 - appears to be an EU-first rollout. EU retail observed at EUR 237.80 (motorun.de), converted to ~$258 est.; US MSRP unconfirmed/pending. First firmware update (v1.0.2) issued June 10, 2026. STATUS UPDATE Jul 8 2026: not found in store-us.sena.com products.json or in the live Smart Helmet / Other category listings on sena.com - appears discontinued from the current lineup. Retained here for historical record; exclude from 'current products' framing.",
+      "notes": "Live on Sena's EU store (sena.com/en-eu/product/outstar-2/); not yet listed on the US Shopify store or products.json feed as of Jul 8 2026 - appears to be an EU-first rollout. EU retail observed at EUR 237.80 (motorun.de), converted to ~$258 est.; US MSRP unconfirmed/pending. First firmware update (v1.0.2) issued June 10, 2026. STATUS UPDATE Jul 8 2026: not found in store-us.sena.com products.json or in the live Smart Helmet / Other category listings on sena.com - appears discontinued from the current lineup. Retained here for historical record; exclude from 'current products' framing. RECONFIRMED 2026-08-10: mandatory store-us.sena.com/products.json crawl (250+9 items, full catalog) and the live sena.com Smart Helmet category listing (10 families: Phantom Family, Specter, Outlander, Stryker, Outrush 2, Outforce, Impulse, Outrush R, Surge, Cavalry 2) both still show no Outstar 2 entry - discontinuation from the US/global lineup remains the working conclusion a month later.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -1484,6 +1484,12 @@
       "headline": "5S firmware v2.3.2 released: adds BMW TFT display support, improves Bluetooth Intercom and Audio Multitasking stability, fixes an iPhone-pairing app-connectivity bug and in-call volume adjustment issue",
       "source": "Sena support notices",
       "url": "https://www.sena.com/stories/notice/sena-releases-firmware-updates-for-the-5s-v2-3-2/"
+    },
+    {
+      "date": "2026-08-10",
+      "headline": "Daily mandatory crawl (smart-helmet category page + store-us.sena.com/products.json, 259 total SKUs) confirmed Outforce ($199) and Surge ($419) remain correctly listed from a prior audit - no helmets found missing this run - and reconfirmed Outstar 2 is still absent from both the live category page and the store feed a month after first being flagged as likely discontinued. No live-price drift found across the 35 tracked products except the 60S and Phantom (base), corrected via the mandatory Amazon storefront crawl: 60S street price raised $326.71 to $358.35 (list $439, Amazon deal); Phantom (base) street price added at $373.32 (was null; list $549 matches this SKU exactly). Also fixed a stale url field on the 60S entry that had pointed to the 60S EVO product page. RevZilla's Sena(N) brand-filter SKU count rose to 76, up from the last recorded 68 - consistent with 2026's run of new launches (60X, Vortex, Spider X Slim, MeshON, Latitude/Latitude S2, SUMMIT X) broadening RevZilla's carried Sena catalog. sena.com's News and Notices pages show no new product announcements, firmware releases, or app updates since the 2026-07-16 5S v2.3.2 notice (Notices index #219 remains the latest entry); Sena Motorcycles app (v3.5) and Wave Intercom app (v1.0.24) are unchanged. No new press reviews with a rating/verdict found for the newer 60X, Vortex, or Spider X Slim models (all launched within the last ~5 weeks) from MCN, Bennetts BikeSocial, RideApart, webBikeWorld, FortNine, or RevZilla Common Tread as of this check.",
+      "source": "Internal data audit",
+      "url": "https://store-us.sena.com/products.json?limit=250"
     }
   ],
   "social_media": {
@@ -1522,9 +1528,9 @@
     },
     "youtube": {
       "channel": "youtube.com/@senatechnologies (handle @senatechnologies; plus Sena Outdoor and Sena Deutschland sub-channels)",
-      "subscribers": 39800,
+      "subscribers": 40100,
       "url": "https://www.youtube.com/@senatechnologies",
-      "notes": "39.8K subscribers, 713 videos (updated 2026-07-14 check; was 39.7K/706 videos in prior July 2026 check). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
+      "notes": "40.1K subscribers, 723 videos (updated 2026-08-10 check; was 39.8K/713 videos in 2026-07-14 check). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
     },
     "tiktok": {
       "handle": "@senabluetooth",
@@ -2170,7 +2176,7 @@
     "app_ios_version": "3.5",
     "app_android_version": "3.5",
     "app_last_updated": "2026-06-17",
-    "notes": "Firmware ships as free OTA updates delivered through the Sena Motorcycles companion app (Bluetooth-paired), with a WiFi Adapter/WiFi Charging Cable or the Sena Device Manager desktop tool as alternate delivery paths for older units without direct app-based OTA. Sena publishes granular per-model release notes on sena.com/stories/notice/ (over 200 dated notices since 2023), often multiple point releases per quarter per model, mostly bug-fix and compatibility patches (BMW/Harley-Davidson TFT and infotainment pairing, action-camera conflicts, Bluetooth stability) rather than headline feature drops - see product_firmware for current per-product firmware versions and firmware_updates for the full history. The Sena Motorcycles app itself updates roughly monthly (per Apple App Store version history) and carries a poor App Store rating (2.1/5, 122 ratings) with recurring complaints about pairing loops and connection reliability; the separate Wave Intercom app updates even more frequently (near-biweekly cadence in 2025-26) and has steadily added features (Friends Wave, voice mode, landscape mode, expanded language/TTS support) alongside frequent 'bug fixes and performance improvements' releases."
+    "notes": "Firmware ships as free OTA updates delivered through the Sena Motorcycles companion app (Bluetooth-paired), with a WiFi Adapter/WiFi Charging Cable or the Sena Device Manager desktop tool as alternate delivery paths for older units without direct app-based OTA. Sena publishes granular per-model release notes on sena.com/stories/notice/ (over 200 dated notices since 2023), often multiple point releases per quarter per model, mostly bug-fix and compatibility patches (BMW/Harley-Davidson TFT and infotainment pairing, action-camera conflicts, Bluetooth stability) rather than headline feature drops - see product_firmware for current per-product firmware versions and firmware_updates for the full history. The Sena Motorcycles app itself updates roughly monthly (per Apple App Store version history) and carries a poor App Store rating (2.1/5, 122 ratings) with recurring complaints about pairing loops and connection reliability; the separate Wave Intercom app updates even more frequently (near-biweekly cadence in 2025-26) and has steadily added features (Friends Wave, voice mode, landscape mode, expanded language/TTS support) alongside frequent 'bug fixes and performance improvements' releases. CHECKED 2026-08-10: no new Sena Motorcycles app release since v3.5 (Jun 17); no new Wave Intercom app release since v1.0.24 (Jul 13); sena.com's numbered Notices firmware log (index #219, SENA RELEASES FIRMWARE UPDATES FOR THE 5S v2.3.2, Jul 16 2026) remains the most recent published firmware notice site-wide - confirms no per-model firmware releases in the Jul 16-Aug 10 window."
   },
   "product_firmware": [
     {
@@ -2332,6 +2338,22 @@
       "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
       "user_manual_url": "https://firmware.sena.com/senabluetoothmanager/UserGuide_SUMMIT_X_1.1.0_en_260130.pdf",
       "support_url": "https://www.sena.com/en-us/support/summit-x/"
+    },
+    {
+      "product": "Outforce (full-face smart helmet)",
+      "firmware_version": "1.0.1",
+      "firmware_last_updated": "2022-06-30",
+      "release_notes_url": "https://www.sena.com/en-us/support/outforce/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/outforce/"
+    },
+    {
+      "product": "Surge (open-face smart helmet)",
+      "firmware_version": "1.2",
+      "firmware_last_updated": "2025-10-01",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-surge-v1-2/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/surge/"
     }
   ],
   "sources": [

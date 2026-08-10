@@ -99,7 +99,7 @@
         "Mesh-Boost: 31-rider DMC, Remote Grouping, Public Mesh, Cellular Intercom"
       ],
       "release_year": 2022,
-      "notes": "Launched 2022 at $389.95; MSRP raised to $439.95 (2025). Street price $395.96 at Cycle Gear (10% off). 3-year warranty. ORV and KTM editions available. Edgephones ($159.95) extend same DMC network off-helmet. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 463 reviews.",
+      "notes": "Launched 2022 at $389.95; MSRP raised to $439.95 (2025). Street price $395.96 at Cycle Gear (10% off). 3-year warranty. ORV and KTM editions available. Edgephones ($159.95) extend same DMC network off-helmet. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 463 reviews. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (up from 463); Amazon storefront shows 4.5/5 stars, 3,376 reviews.",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -165,7 +165,7 @@
         "Clip/plate mount (no Air Mount)"
       ],
       "release_year": 2023,
-      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price was $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%). Re-verified 2026-07-14: the deeper Amazon deal has expired - both Amazon storefront and RevZilla now show $323.96 (-10% off $359.95), so street_price_usd reverts to $323.96 (current lowest confirmed price). RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09, and has since ticked down again to 'Cardo Systems(56)' as of 2026-07-14 (SKU churn, not a discontinuation confirmed). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla 'Cardo Systems' brand-filter SKU count still (56), unchanged since 2026-07-14.",
+      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price was $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%). Re-verified 2026-07-14: the deeper Amazon deal has expired - both Amazon storefront and RevZilla now show $323.96 (-10% off $359.95), so street_price_usd reverts to $323.96 (current lowest confirmed price). RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09, and has since ticked down again to 'Cardo Systems(56)' as of 2026-07-14 (SKU churn, not a discontinuation confirmed). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla 'Cardo Systems' brand-filter SKU count still (56), unchanged since 2026-07-14. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95), RevZilla rating 4.5/5 stars, 76 reviews (first time captured for this product); brand-filter SKU count jumped to 'Cardo Systems(67)', up 11 from the 56 recorded 2026-07-14 - notable increase but no single new-product cause confirmed, likely accessory/kit/replacement-part SKUs (e.g. the new Venture helmet accessory listings) being folded into the same brand filter alongside the helmet launch. Amazon storefront also shows 4.6/5 stars, 1,161 reviews for the single pack (2026-08-10).",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -231,7 +231,7 @@
         "Single/Duo/Family 4-pack"
       ],
       "release_year": 2024,
-      "notes": "Non-moto expansion (ski, snowboard, cycling). 2-year warranty. Street price confirmed 2026-07-10: Amazon storefront lists the Black single pack flat at MSRP ($269.95, no discount) but the White single pack shows a lower deal price of $258.99; RevZilla also lists flat at $269.95. Lowest verified Amazon price used as street_price_usd. Re-verified 2026-07-21 via cached Amazon storefront snapshot: Black single pack still flat at MSRP $269.95 (no discount), White single pack still $258.99; no change.",
+      "notes": "Non-moto expansion (ski, snowboard, cycling). 2-year warranty. Street price confirmed 2026-07-10: Amazon storefront lists the Black single pack flat at MSRP ($269.95, no discount) but the White single pack shows a lower deal price of $258.99; RevZilla also lists flat at $269.95. Lowest verified Amazon price used as street_price_usd. Re-verified 2026-07-21 via cached Amazon storefront snapshot: Black single pack still flat at MSRP $269.95 (no discount), White single pack still $258.99; no change. Re-verified 2026-08-10 via live Amazon storefront check: Black single pack now shows a discount too ($260.29, 4.6/5 stars, 279 reviews), White single pack unchanged at $258.99 (4.6/5 stars, 279 reviews) and remains the lower of the two, so street_price_usd stays $258.99.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -427,7 +427,7 @@
         "Universal Bluetooth connectivity"
       ],
       "release_year": 2021,
-      "notes": "Budget line, 2-year warranty. HJC Spirit integrated version $149.95. Street price confirmed 2026-07-08: RevZilla and Amazon storefront both list $161.96 (-10% off $179.95). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $161.96 (-10% off $179.95); RevZilla rating 4.5/5 stars, 101 reviews.",
+      "notes": "Budget line, 2-year warranty. HJC Spirit integrated version $149.95. Street price confirmed 2026-07-08: RevZilla and Amazon storefront both list $161.96 (-10% off $179.95). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $161.96 (-10% off $179.95); RevZilla rating 4.5/5 stars, 101 reviews. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $161.96 (-10% off $179.95); RevZilla rating 4.5/5 stars, 104 reviews (up from 101); Amazon storefront shows 4.4/5 stars, 3,004 reviews.",
       "dimensions": {
         "form_factor": {
           "weight_g": 35,
@@ -492,7 +492,7 @@
         "Charge-while-riding"
       ],
       "release_year": 2021,
-      "notes": "Entry price anchor of the range. 2-year warranty. Street price confirmed 2026-07-08: RevZilla and Amazon storefront both list $98.95 (-10% off $109.95). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $98.95 (-10% off $109.95); RevZilla rating 4.5/5 stars, 120 reviews.",
+      "notes": "Entry price anchor of the range. 2-year warranty. Street price confirmed 2026-07-08: RevZilla and Amazon storefront both list $98.95 (-10% off $109.95). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $98.95 (-10% off $109.95); RevZilla rating 4.5/5 stars, 120 reviews. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $98.95 (-10% off $109.95); RevZilla rating 4/5 stars, 123 reviews (up from 120); Amazon storefront shows 4.5/5 stars, 4,364 reviews.",
       "dimensions": {
         "form_factor": {
           "weight_g": 35,
@@ -1017,23 +1017,25 @@
     {
       "name": "Venture (integrated MX helmet)",
       "tier": null,
-      "msrp_usd": 799,
+      "msrp_usd": 799.95,
       "street_price_usd": null,
       "intercom_tech": "Integrated DMC mesh",
       "range_km": null,
       "max_riders": null,
       "audio": "JBL-partnered audio components",
-      "talk_time_hours": null,
+      "talk_time_hours": 13,
       "waterproof": null,
       "features": [
         "World's first integrated mesh motocross/off-road helmet",
         "Built on Leatt Moto 8.5 helmet platform",
-        "Real-time comms without stopping; coaching and emergency alert use cases"
+        "Real-time comms without stopping; coaching and emergency alert use cases",
+        "Up to 5-year helmet warranty; 3-year warranty on the integrated communication system (Powersports Business)",
+        "360-Degree Turbine rotational-impact mitigation technology"
       ],
       "release_year": 2026,
-      "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695.",
+      "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695 (site now shows $799.95). Opened for pre-order in the US and Canada on 2026-08-06 via cardosystems.com/products/venture and Facebook/Instagram announcement posts; cardosystems.com lists shipping 'end of August', RevZilla's new listing (Cardo Venture Bluetooth Helmet, $799.95, also live 2026-08-10) says 'not expected to ship until early-September' - pre-orders filled first on both. GearJunkie first-ride review (2026-08-03) scored it 8.5/10 (Comfort 9, Safety Features 8, Comms System 9, Value 7.9) - 'a home run for the brand'. Accessory SKUs (Velcro Kit, Turbines Kit, Liner Kit, Sun Peak) also now listed on RevZilla.",
       "category": "smart_helmet",
-      "url": "https://cardosystems.com/pages/venture",
+      "url": "https://cardosystems.com/products/venture",
       "usage": "Motorcycle, off-road/MX"
     },
     {
@@ -1224,21 +1226,45 @@
       "headline": "Cardo Systems launches #BestRideEver Instagram Reel contest: riders submit an original Reel about their most memorable ride for a chance to win $1,500 in Cardo store credit (most-viewed eligible Reel wins); contest runs 2026-07-30 to 2026-08-30",
       "source": "Cardo Systems blog",
       "url": "https://cardosystems.com/blogs/cardo-blog/show-us-your-bestrideever-and-win-1-500-in-cardo-store-credit"
+    },
+    {
+      "date": "2026-08-06",
+      "headline": "Cardo Venture off-road helmet opens for pre-order in the US and Canada at $799.95 (cardosystems.com/products/venture); RevZilla lists the helmet the same week at $799.95 with a 'not expected to ship until early-September' notice, while Cardo's own site says shipping 'end of August'",
+      "source": "Cardo Systems (Facebook/Instagram) / cardosystems.com / RevZilla",
+      "url": "https://cardosystems.com/products/venture"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "GearJunkie publishes first-ride review of the Cardo Venture off-road helmet, scoring it 8.5/10 and calling it 'a home run for the brand'",
+      "source": "GearJunkie",
+      "url": "https://gearjunkie.com/motors/cardo-venture-off-road-helmet-review"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "Cardo Ride app update 4.6.1: Apple CarPlay support goes live on the dashboard (first version) plus improved AI Trip Images sharing assets",
+      "source": "Apple App Store version history",
+      "url": "https://apps.apple.com/us/app/cardo-ride-motorcycle-app/id1087005682"
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Cardo Ride app update 4.6.2: new map styles, reWind trip-recap videos now render trip photos directly into the recap, upgraded background ride tracking, and a polished CarPlay map interface",
+      "source": "Apple App Store version history",
+      "url": "https://apps.apple.com/us/app/cardo-ride-motorcycle-app/id1087005682"
     }
   ],
   "social_media": {
     "instagram": {
       "handle": "@cardosystems",
-      "followers": 236000,
+      "followers": 238000,
       "url": "https://www.instagram.com/cardosystems/",
-      "notes": "~230K followers, 3,777 posts (Google-indexed profile, updated 2026-07-10; up from ~228K/3,700+ recorded 2026-07-09). Re-verified 2026-07-14: still ~230K followers, no material change. Frequent posting: product launches, rider lifestyle reels, #CardoFam UGC, event coverage (EICMA). Network of regional accounts (@cardosystems_de, _india, _korea, @cardosystemsindonesia). Re-verified 2026-07-27 (Google-indexed profile snippet): ~236K followers, 3,794 posts, up from ~230K/3,777 recorded 2026-07-14."
+      "notes": "~230K followers, 3,777 posts (Google-indexed profile, updated 2026-07-10; up from ~228K/3,700+ recorded 2026-07-09). Re-verified 2026-07-14: still ~230K followers, no material change. Frequent posting: product launches, rider lifestyle reels, #CardoFam UGC, event coverage (EICMA). Network of regional accounts (@cardosystems_de, _india, _korea, @cardosystemsindonesia). Re-verified 2026-07-27 (Google-indexed profile snippet): ~236K followers, 3,794 posts, up from ~230K/3,777 recorded 2026-07-14. Re-verified 2026-08-10 (Google-indexed profile snippet): 238K followers, 3,823 posts, up from ~236K/3,794 recorded 2026-07-27."
     },
     "facebook": {
       "page": "facebook.com/CardoSystems",
-      "followers": 353253,
+      "followers": 353454,
       "url": "https://www.facebook.com/CardoSystems/",
       "groups_notes": "Public group 'Cardo Systems PackTalk and Edge Community' (facebook.com/groups/1847605508861922) is the main owner community; member count not retrievable without login. Cardo Outdoor page has ~116K followers; many small regional pages (Cardo UK 2.4K, Malaysia 4.3K, Philippines 2.9K, Indonesia 1.6K, NZ 168). Cardo topics also active in model-specific owner groups/forums (Road Glide, GL1800Riders, KRX).",
-      "notes": "Main global page follower count updated 2026-07-10 to 353,009 likes (Google-indexed profile snippet), up from 352,835 recorded 2026-07-09. Re-verified 2026-07-14: 352,936 likes (Google-indexed snippet) - essentially flat, within normal snapshot noise. Re-verified 2026-07-27 (Google-indexed profile snippet): 353,253 likes (4,377 talking about this), up slightly from 352,936 recorded 2026-07-14."
+      "notes": "Main global page follower count updated 2026-07-10 to 353,009 likes (Google-indexed profile snippet), up from 352,835 recorded 2026-07-09. Re-verified 2026-07-14: 352,936 likes (Google-indexed snippet) - essentially flat, within normal snapshot noise. Re-verified 2026-07-27 (Google-indexed profile snippet): 353,253 likes (4,377 talking about this), up slightly from 352,936 recorded 2026-07-14. Re-verified 2026-08-10 (Google-indexed profile snippet): 353,454 likes (2,358 talking about this), up slightly from 353,253 recorded 2026-07-27."
     },
     "reddit": {
       "url": "https://www.reddit.com/search/?q=cardo+motorcycle+intercom",
@@ -1265,7 +1291,7 @@
       "channel": "Cardo Systems (youtube.com/c/CardoSystemsGlobal)",
       "subscribers": 85000,
       "url": "https://www.youtube.com/c/CardoSystemsGlobal/",
-      "notes": "84.8K subscribers, ~1,000 videos (verified on-channel July 2026). Content: setup/pairing tutorials, firmware how-tos, launch films (Beyond, Venture), rider stories; separate 'Cardo Outdoor' channel. Big-reviewer coverage on YouTube: FortNine (Packtalk 'best unit out there', with range-claim criticism), webBikeWorld, Bennetts, MCN - overwhelmingly favorable verdicts with price caveats. Re-verified 2026-07-27 (on-channel, live browser check): 85K subscribers, ~1K videos, up slightly from 84.8K. Latest upload still the Venture launch/teaser videos from late June 2026 ('1 month ago') and the 'Wired to Wireless Ep.3' UTV Invasion video - no new uploads found since the last check."
+      "notes": "84.8K subscribers, ~1,000 videos (verified on-channel July 2026). Content: setup/pairing tutorials, firmware how-tos, launch films (Beyond, Venture), rider stories; separate 'Cardo Outdoor' channel. Big-reviewer coverage on YouTube: FortNine (Packtalk 'best unit out there', with range-claim criticism), webBikeWorld, Bennetts, MCN - overwhelmingly favorable verdicts with price caveats. Re-verified 2026-07-27 (on-channel, live browser check): 85K subscribers, ~1K videos, up slightly from 84.8K. Latest upload still the Venture launch/teaser videos from late June 2026 ('1 month ago') and the 'Wired to Wireless Ep.3' UTV Invasion video - no new uploads found since the last check. Re-verified 2026-08-10 (on-channel header, live check): 85.1K subscribers, ~1K videos - essentially flat since 2026-07-27; the channel's video grid did not render in this check's scrape (JS-heavy lazy-load), so no new upload titles could be confirmed beyond what's already logged in recent_posts."
     },
     "tiktok": {
       "handle": "@cardosystems",
@@ -1592,6 +1618,24 @@
         "platform": "Instagram",
         "summary": "Cardo post asking followers to help locate the owner of a helmet found at Romaniacs.",
         "url": "https://www.instagram.com/p/DbSREwBIhlm/"
+      },
+      {
+        "date": "2026-07-30",
+        "platform": "Facebook",
+        "summary": "'Best Ride Ever is officially open' - post confirming the #BestRideEver Reel contest submission window is live (2026-07-30 to 2026-08-30, $1,500 Cardo store credit prize) on the main CardoSystems page",
+        "url": "https://www.facebook.com/CardoSystems/"
+      },
+      {
+        "date": "2026-08-06",
+        "platform": "Instagram",
+        "summary": "'Breaking news - Now available for pre orders in the US and Canada' - announcement that the new off-road communication helmet, Cardo Venture, is open for pre-order",
+        "url": "https://www.instagram.com/cardosystems/"
+      },
+      {
+        "date": "2026-08-06",
+        "platform": "Facebook",
+        "summary": "'Breaking news! Our brand new Venture helmet is now available for pre orders in the US and Canada' - links to cardosystems.com/products/venture, on the main CardoSystems page",
+        "url": "https://www.facebook.com/CardoSystems/"
       }
     ]
   },
@@ -1764,6 +1808,13 @@
         "product": "Beyond GTS (smart helmet)",
         "verdict": "Backfill/missed item: hands-on wind-tunnel test of the Beyond GTS/GT's Active Noise Cancellation at EICMA, run at 74 mph (120 km/h); positive - reviewer (initially skeptical of ANC replacing earplugs) reported a noticeable wind-noise reduction and called the music clarity at speed 'the clearest I've ever heard' at that speed",
         "url": "https://www.rideapart.com/news/780145/cardo-noise-canceling-beyond-gts-wind-tunnel-test/"
+      },
+      {
+        "outlet": "GearJunkie",
+        "date": "2026-08-03",
+        "product": "Venture (integrated MX helmet)",
+        "verdict": "8.5/10 first-ride review (Comfort 9, Safety Features 8, Comms System 9, Value 7.9); 'for a first effort, Cardo knocked it out of the park' - praised comfort, style, ventilation and clear DMC comms on the trail; first dirt helmet with integrated communications at time of publication",
+        "url": "https://gearjunkie.com/motors/cardo-venture-off-road-helmet-review"
       }
     ],
     "awards": [
@@ -1974,6 +2025,36 @@
       ],
       "url": "https://apps.apple.com/us/app/cardo-ride-motorcycle-app/id1087005682",
       "source": "iTunes lookup API (currentVersionReleaseDate 2026-07-02T22:01:39Z, version 4.6.0) and Cardo Systems press release 'Cardo Expands Its Connected Riding Ecosystem with Apple CarPlay' (published via Superbike News UK and Cycle News, 2026-07-09)"
+    },
+    {
+      "date": "2026-07-30",
+      "product": "All models",
+      "type": "app",
+      "version": "4.6.1",
+      "title": "Cardo Ride 4.6.1 - Apple CarPlay goes fully live, improved AI Trip Images",
+      "changes": [
+        "Apple CarPlay: first live version now on the dashboard (builds on the 4.6.0 groundwork)",
+        "AI Trip Images: improved sharing-asset generation from ride photos",
+        "Minor under-the-hood performance tweaks"
+      ],
+      "url": "https://apps.apple.com/us/app/cardo-ride-motorcycle-app/id1087005682",
+      "source": "Apple App Store version history (verified 2026-08-10)"
+    },
+    {
+      "date": "2026-08-05",
+      "product": "All models",
+      "type": "app",
+      "version": "4.6.2",
+      "title": "Cardo Ride 4.6.2 - new map styles, richer reWind recaps",
+      "changes": [
+        "New map styles",
+        "Enhanced reWind trip-recap videos: trip photos now render directly into the recap",
+        "Ride tracking upgraded to record seamlessly whether the app is in the foreground or background",
+        "Polished CarPlay map interface",
+        "Overall app stability improvements"
+      ],
+      "url": "https://apps.apple.com/us/app/cardo-ride-motorcycle-app/id1087005682",
+      "source": "Apple App Store version history (verified 2026-08-10)"
     }
   ],
   "current_software": {
@@ -1981,7 +2062,7 @@
     "app_ios_version": "8.14",
     "app_android_version": "8.14",
     "app_last_updated": "2026-06-07",
-    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer; see product_firmware for per-product firmware versions. Re-verified 2026-07-10 via Apple App Store and APKCombo: Cardo Connect remains at 8.14, unchanged since 2026-06-07. Re-verified again 2026-07-14: still 8.14 on both platforms and Cardo Ride still at 4.6.0, no new releases found. Note: Cardo Ride (the separate ride-tracking/navigation app, App Store id 1087005682) is versioned independently of Cardo Connect - Cardo Ride reached v4.6.0 on 2026-07-02, adding Apple CarPlay dashboard support for Cardo Ride Pro subscribers. Re-verified 2026-07-27 via Apple App Store: Cardo Connect still at 8.14 (last updated June 3 per App Store display), and Cardo Ride still at 4.6.0 (last updated July 2) - no new releases found since the 2026-07-14 check."
+    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer; see product_firmware for per-product firmware versions. Re-verified 2026-07-10 via Apple App Store and APKCombo: Cardo Connect remains at 8.14, unchanged since 2026-06-07. Re-verified again 2026-07-14: still 8.14 on both platforms and Cardo Ride still at 4.6.0, no new releases found. Note: Cardo Ride (the separate ride-tracking/navigation app, App Store id 1087005682) is versioned independently of Cardo Connect - Cardo Ride reached v4.6.0 on 2026-07-02, adding Apple CarPlay dashboard support for Cardo Ride Pro subscribers. Re-verified 2026-07-27 via Apple App Store: Cardo Connect still at 8.14 (last updated June 3 per App Store display), and Cardo Ride still at 4.6.0 (last updated July 2) - no new releases found since the 2026-07-14 check. Re-verified 2026-08-10 via Apple App Store: Cardo Connect still at 8.14, no new release. Cardo Ride has moved on twice since the last check - 4.6.1 (2026-07-30, CarPlay goes fully live plus improved AI Trip Images) and 4.6.2 (~2026-08-05, new map styles, richer reWind recaps with embedded trip photos, upgraded background ride tracking, polished CarPlay map, stability fixes); see firmware_updates for full changelogs."
   },
   "product_firmware": [
     {
@@ -2236,6 +2317,9 @@
     "https://ultimatemotorcycling.com/2026/05/21/cardo-hjc-4x-integrated-helmet-intercom-system-first-look/",
     "https://cardosystems.com/blogs/cardo-blog/cardo-schuberth-sc-edge-anc",
     "https://schuberth.com/en/scedgeanc",
+    "https://gearjunkie.com/motors/cardo-venture-off-road-helmet-review",
+    "https://cardosystems.com/products/venture",
+    "https://www.revzilla.com/motorcycle/cardo-venture-bluetooth-helmet",
     "https://schuberth.com/us/scedgeanc",
     "https://schuberth.com/us/sc-edge",
     "https://www.motorcyclepowersportsnews.com/cardo-systems-expands-north-american-distribution-motovan-partnership/",
