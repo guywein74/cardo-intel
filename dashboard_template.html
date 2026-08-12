@@ -330,7 +330,7 @@ const poolOptions=selectedKey=>BRANDS.map(br=>br.competitor).map(brand=>{
   return opts?`<optgroup label="${esc(brand)}">${opts}</optgroup>`:"";
 }).join("");
 sections[2].innerHTML=`
-  <div class="note-banner">Deck-style segment battles (format of the internal “Competitive Landscape” deck): each Cardo model vs its direct segment rivals, rated <b style="color:#56d364">GOOD</b> / <b style="color:#f0a83a">SO-SO</b> / <b style="color:#ff7b72">BAD-NONE</b> across 16 dimensions. Use the <b>Rank / Value</b> toggle to swap the ratings for the actual figures (riders, range, price…). Hover dimension names for sub-criteria. Use ⇄ on a column to swap in any other rated model, or + to add one. * = pending testing/verification.</div>
+  <div class="note-banner">Deck-style segment battles (format of the internal “Competitive Landscape” deck): each Cardo model vs its direct segment rivals, rated <b style="color:#56d364">GOOD</b> / <b style="color:#f0a83a">SO-SO</b> / <b style="color:#ff7b72">BAD-NONE</b> across ${BAT.battles[0].ratings.rows.length} dimensions. Use the <b>Rank / Value</b> toggle to swap the ratings for the actual figures (riders, range, price…). Hover dimension names for sub-criteria. Use ⇄ on a column to swap in any other rated model, or + to add one. * = pending testing/verification.</div>
   <div class="chips" id="batChips">${BAT.battles.map((b,i)=>`<button class="chip${i===0?" on":""}" data-i="${i}">${esc(b.hero.model.split(" (")[0].split(" /")[0])}<span class="muted" style="font-weight:400"> · ${esc(b.segment)}</span></button>`).join("")}</div>
   <div class="chips" style="margin-top:-6px"><span class="small muted" style="align-self:center">Cells:</span><button class="chip on" id="modeRank">Rank</button><button class="chip" id="modeVal">Value</button></div>
   <div id="batBody"></div>`;
@@ -491,7 +491,7 @@ sections[4].querySelector("#helmChip").onclick=e=>{inclHelmets=!inclHelmets;e.ta
 sections[4].querySelector("#pTierSel").onchange=e=>{pTier=e.target.value;drawChart()};
 const tt=document.getElementById("tt");
 function drawChart(){
-  const pts=PRODUCTS.filter(p=>p.eff!=null&&(pTier==="smart_helmet"?p.cat==="smart_helmet":pTier==="headphones"?p.cat==="headphones":pTier==="outdoor"?p.cat==="outdoor":((inclHelmets||!p.isHelmet)&&!p.isHeadphone&&!p.isOutdoor&&p.cat!=="outdoor"&&(pTier==="all"||p.tier===pTier))));
+  const pts=PRODUCTS.filter(p=>p.eff!=null&&(pTier==="smart_helmet"?p.cat==="smart_helmet":pTier==="headphones"?p.cat==="headphones":pTier==="outdoor"?p.cat==="outdoor":((inclHelmets||p.cat!=="smart_helmet")&&p.cat!=="headphones"&&p.cat!=="outdoor"&&(pTier==="all"||p.tier===pTier))));
   const W=1100,H=380,L=60,R=20,T=20,B=40,maxP=(pts.length?Math.max(...pts.map(p=>p.eff)):500)*1.08;
   const bx={};BRANDS.forEach((b,i)=>bx[b.competitor]=L+(W-L-R)*(i+0.5)/BRANDS.length);
   const y=v=>T+(H-T-B)*(1-v/maxP);
