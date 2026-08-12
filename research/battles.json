@@ -283,30 +283,30 @@
               "soso",
               "bad",
               "good",
-              "bad"
+              "soso"
             ],
-            "note": "Spirit voice cmds · 5R LITE none · S1 AI assistant · Pilot Lite none",
+            "note": "Spirit voice cmds · 5R LITE none · S1 AI assistant · Pilot Lite claims an intelligent voice assistant per official specs, not independently reviewed (*)",
             "values": [
               "voice cmds",
               "none",
               "AI asst",
-              "none"
+              "voice asst*"
             ]
           },
           {
             "dimension": "Software & OTA",
             "scores": [
               "good",
-              "soso",
               "good",
-              "soso"
+              "good",
+              "good"
             ],
-            "note": "Spirit app+OTA · 5R LITE app · S1 app+OTA · Pilot Lite app",
+            "note": "All four support OTA firmware updates via their companion apps (Sena Motorcycles, ASMAX World, Reso Link)",
             "values": [
               "app+OTA",
-              "app",
               "app+OTA",
-              "app"
+              "app+OTA",
+              "app+OTA"
             ]
           },
           {
@@ -713,17 +713,17 @@
             "dimension": "Software & OTA",
             "scores": [
               "good",
-              "soso",
-              "soso",
-              "soso",
+              "good",
+              "good",
+              "good",
               "good"
             ],
-            "note": "Spirit HD app+OTA · 5S app · 5R app · Z1 / Z1 Plus app; Vortex OTA via Sena Motorcycles app",
+            "note": "All five support OTA firmware updates via their companion apps",
             "values": [
               "app+OTA",
-              "app",
-              "app",
-              "app",
+              "app+OTA",
+              "app+OTA",
+              "app+OTA",
               "app+OTA"
             ]
           },
@@ -2353,17 +2353,17 @@
               "soso",
               "soso",
               "soso",
-              "bad",
+              "soso",
               "soso",
               "good",
               "good"
             ],
-            "note": "Packtalk Pro voice cmds · Packtalk Edge voice cmds · 60S EVO voice cmds · 60X none · 60S voice cmds · Pilot Pro AI assistant · F1s AI assistant",
+            "note": "Packtalk Pro voice cmds · Packtalk Edge voice cmds · 60S EVO voice cmds · 60X voice cmds (per Sena spec page) · 60S voice cmds · Pilot Pro AI assistant · F1s AI assistant",
             "values": [
               "voice cmds",
               "voice cmds",
               "voice cmds",
-              "none",
+              "voice cmds",
               "voice cmds",
               "AI asst",
               "AI asst"
@@ -2375,17 +2375,17 @@
               "good",
               "good",
               "good",
-              "soso",
+              "good",
               "good",
               "good",
               "good"
             ],
-            "note": "Packtalk Pro app+OTA · Packtalk Edge app+OTA · 60S EVO app+OTA · 60X app · 60S app+OTA · Pilot Pro app+OTA · F1s app+OTA",
+            "note": "All seven support OTA firmware updates via their companion apps",
             "values": [
               "app+OTA",
               "app+OTA",
               "app+OTA",
-              "app",
+              "app+OTA",
               "app+OTA",
               "app+OTA",
               "app+OTA"
