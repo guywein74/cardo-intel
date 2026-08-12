@@ -16,7 +16,10 @@
     "Voice / AI": "Voice commands and AI-assistant capability (excludes AI noise-cancellation)",
     "Software & OTA": "Companion app and over-the-air feature updates",
     "Safety features": "Crash detection, SOS/emergency alerts",
-    "Warranty & service": "Warranty length and service network"
+    "Warranty & service": "Warranty length and service network",
+    "VoIP": "Cellular/VoIP calling independent of mesh/Bluetooth intercom (e.g. Wave, Mesh-Boost, CloudTalk)",
+    "Wireless charging": "Qi/pad charging vs wired-only (fast USB-C still counts as wired)",
+    "Detachable battery": "User-swappable battery vs sealed unit"
   },
   "battles": [
     {
@@ -167,15 +170,15 @@
             "scores": [
               "bad",
               "soso",
-              "good",
+              "bad",
               "soso"
             ],
-            "note": "Spirit 0.6km · 5R LITE 0.7km · S1 cellular · Pilot Lite mesh",
+            "note": "Spirit 0.6km · 5R LITE 0.7km · S1 claims 8km cellular but reviews measure ~1.2km with obstacles · Pilot Lite BT-only, no published range figure",
             "values": [
               "0.6km",
               "0.7km",
-              "cellular",
-              "mesh"
+              "1.2km (claimed 8km)",
+              "—"
             ]
           },
           {
@@ -215,7 +218,7 @@
             "scores": [
               "soso",
               "soso",
-              "good",
+              "soso",
               "soso"
             ],
             "note": "Spirit std · 5R LITE std · S1 fast · Pilot Lite std",
@@ -339,6 +342,54 @@
             ]
           },
           {
+            "dimension": "VoIP",
+            "values": [
+              "?",
+              "none",
+              "cellular",
+              "none"
+            ],
+            "scores": [
+              null,
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only",
+              "wired only",
+              "?"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              null
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "sealed",
+              "sealed",
+              "sealed",
+              "?"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              null
+            ],
+            "note": ""
+          },
+          {
             "dimension": "Price",
             "scores": [
               "good",
@@ -435,6 +486,10 @@
           [
             "ASMAX",
             "Z1 / Z1 Plus"
+          ],
+          [
+            "Sena",
+            "Vortex"
           ]
         ],
         "rows": [
@@ -444,13 +499,15 @@
               "soso",
               "soso",
               "good",
+              "soso",
               "soso"
             ],
-            "note": "5R slimmest; Z1 magnetic mount",
+            "note": "5R slimmest; Z1 magnetic mount; Vortex weight unpublished",
             "values": [
               "35g",
               "48g",
               "42g",
+              "—",
               "—"
             ]
           },
@@ -460,14 +517,16 @@
               "good",
               "good",
               "soso",
+              "good",
               "good"
             ],
-            "note": "5S LCD + jog dial; Spirit HD app + OTA; Z1 voice",
+            "note": "5S LCD + jog dial; Spirit HD app + OTA; Z1 voice; Vortex adds magnetic mount + Quick Pair button",
             "values": [
               "wheel+btn",
               "jog dial",
               "buttons",
-              "wheel+btn"
+              "wheel+btn",
+              "magnetic+QP"
             ]
           },
           {
@@ -476,14 +535,16 @@
               "soso",
               "soso",
               "soso",
-              "good"
+              "good",
+              "soso"
             ],
-            "note": "Spirit HD, 5S and 5R all use unbranded/house 40mm speakers with no independently-verified quality edge over each other (Spirit HD's '3 sound profiles' is a UI feature, not a proven audio-quality advantage); Z1 branded 'HiFi' 40mm",
+            "note": "Spirit HD, 5S and 5R all use unbranded/house 40mm speakers with no independently-verified quality edge over each other (Spirit HD's '3 sound profiles' is a UI feature, not a proven audio-quality advantage); Z1 branded 'HiFi' 40mm; Vortex 40mm HD speakers, too new for reviewer consensus",
             "values": [
               "40mm Cardo",
               "40mm Sena HD",
               "40mm Sena HD",
-              "40mm ASMAX"
+              "40mm ASMAX",
+              "40mm Sena HD"
             ]
           },
           {
@@ -492,14 +553,16 @@
               "bad",
               "bad",
               "soso",
-              "good"
+              "good",
+              "bad"
             ],
-            "note": "Z1 mesh 10 riders; 5R pairs 4; Spirit HD/5S 2-rider",
+            "note": "Z1 mesh 10 riders; 5R pairs 4; Spirit HD/5S 2-rider; Vortex 2-rider BT only, no mesh",
             "values": [
               "BT only",
               "BT only",
               "BT only",
-              "mesh"
+              "mesh",
+              "BT only"
             ]
           },
           {
@@ -508,14 +571,16 @@
               "bad",
               "soso",
               "soso",
-              "good"
+              "good",
+              "soso"
             ],
-            "note": "Spirit HD 0.6km · 5S 0.7km · 5R 0.7km · Z1 / Z1 Plus 8km",
+            "note": "Spirit HD 0.6km · 5S 0.7km · 5R 0.7km · Z1 / Z1 Plus 8km; Vortex 1.2km",
             "values": [
               "0.6km",
               "0.7km",
               "0.7km",
-              "8km"
+              "8km",
+              "1.2km"
             ]
           },
           {
@@ -524,14 +589,16 @@
               "bad",
               "bad",
               "bad",
-              "soso"
+              "soso",
+              "bad"
             ],
-            "note": "Spirit HD 2r · 5S 2r · 5R 2r · Z1 / Z1 Plus 10r",
+            "note": "Spirit HD 2r · 5S 2r · 5R 2r · Z1 / Z1 Plus 10r; Vortex 2r",
             "values": [
               "2",
               "2",
               "2",
-              "10"
+              "10",
+              "2"
             ]
           },
           {
@@ -540,14 +607,16 @@
               "soso",
               "good",
               "good",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Spirit HD 13h · 5S 18h · 5R 36h · Z1 / Z1 Plus —",
+            "note": "Spirit HD 13h · 5S 18h · 5R 36h · Z1 / Z1 Plus —; Vortex 27h",
             "values": [
               "13h",
               "18h",
               "36h",
-              "—"
+              "—",
+              "27h"
             ]
           },
           {
@@ -556,14 +625,16 @@
               "soso",
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Spirit HD std · 5S std · 5R std · Z1 / Z1 Plus std",
+            "note": "Spirit HD std · 5S std · 5R std · Z1 / Z1 Plus std; Vortex has genuine wireless (Qi-style) charging, the only one in this segment",
             "values": [
               "std",
               "std",
               "std",
-              "std"
+              "std",
+              "wireless"
             ]
           },
           {
@@ -572,14 +643,16 @@
               "soso",
               "soso",
               "soso",
+              "good",
               "good"
             ],
-            "note": "Spirit HD Waterproof per Cardo (no published IP rating) · 5S Water-resistant · 5R Water-resistant · Z1 / Z1 Plus IP67",
+            "note": "Spirit HD Waterproof per Cardo (no published IP rating) · 5S Water-resistant · 5R Water-resistant · Z1 / Z1 Plus IP67; Vortex IPX7",
             "values": [
               "Waterproo",
               "Water-res",
               "Water-res",
-              "IP67"
+              "IP67",
+              "IPX7"
             ]
           },
           {
@@ -588,14 +661,16 @@
               "soso",
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
-            "note": "No published IP on Spirit HD or 5-series; Z1 IP67 but QC unknowns",
+            "note": "No published IP on Spirit HD or 5-series; Z1 IP67 but QC unknowns; Vortex just launched Jul 2026, no service track record yet",
             "values": [
               "Waterproo",
               "Water-res",
               "Water-res",
-              "IP67"
+              "IP67",
+              "IPX7"
             ]
           },
           {
@@ -604,11 +679,13 @@
               "good",
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
-            "note": "Spirit HD universal · 5S BT only · 5R BT only · Z1 / Z1 Plus BT only",
+            "note": "Spirit HD universal · 5S BT only · 5R BT only · Z1 / Z1 Plus BT only; Vortex standard BT HFP only",
             "values": [
               "universal",
+              "BT only",
               "BT only",
               "BT only",
               "BT only"
@@ -620,13 +697,15 @@
               "soso",
               "soso",
               "bad",
+              "soso",
               "soso"
             ],
-            "note": "Spirit HD voice cmds · 5S voice cmds · 5R none · Z1 / Z1 Plus voice cmds",
+            "note": "Spirit HD voice cmds · 5S voice cmds · 5R none · Z1 / Z1 Plus voice cmds; Vortex has voice commands",
             "values": [
               "voice cmds",
               "voice cmds",
               "none",
+              "voice cmds",
               "voice cmds"
             ]
           },
@@ -636,14 +715,16 @@
               "good",
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Spirit HD app+OTA · 5S app · 5R app · Z1 / Z1 Plus app",
+            "note": "Spirit HD app+OTA · 5S app · 5R app · Z1 / Z1 Plus app; Vortex OTA via Sena Motorcycles app",
             "values": [
               "app+OTA",
               "app",
               "app",
-              "app"
+              "app",
+              "app+OTA"
             ]
           },
           {
@@ -652,10 +733,12 @@
               "bad",
               "bad",
               "bad",
+              "bad",
               "bad"
             ],
-            "note": "Spirit HD none · 5S none · 5R none · Z1 / Z1 Plus none",
+            "note": "Spirit HD none · 5S none · 5R none · Z1 / Z1 Plus none; Vortex none",
             "values": [
+              "none",
               "none",
               "none",
               "none",
@@ -668,15 +751,71 @@
               "soso",
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Spirit HD 2yr · 5S 2yr · 5R 2yr · Z1 / Z1 Plus 2yr",
+            "note": "Spirit HD 2yr · 5S 2yr · 5R 2yr · Z1 / Z1 Plus 2yr; Vortex ships with Sena's limited lifetime warranty, undercutting the segment's usual 2yr",
             "values": [
               "2yr",
               "2yr",
               "2yr",
-              "2yr"
+              "2yr",
+              "lifetime"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "?",
+              "none",
+              "none",
+              "cellular",
+              "none"
+            ],
+            "scores": [
+              null,
+              "soso",
+              "soso",
+              "good",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only",
+              "wireless"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "good"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
@@ -684,14 +823,16 @@
               "bad",
               "good",
               "good",
-              "good"
+              "good",
+              "bad"
             ],
-            "note": "Spirit HD most expensive in segment at $179.95",
+            "note": "Spirit HD most expensive in segment at $179.95; Vortex $189 is now the priciest in this segment, undercut by 5S/5R/Z1 despite being the newest entrant",
             "values": [
               "$179",
               "$135",
               "$125",
-              "$89"
+              "$89",
+              "$189"
             ]
           }
         ]
@@ -862,8 +1003,8 @@
           {
             "dimension": "Charging",
             "scores": [
-              "good",
-              "good",
+              "soso",
+              "soso",
               "soso"
             ],
             "note": "Freecom 2x fast · Spider RT1 / ST1 fast · Future 1 std",
@@ -970,6 +1111,48 @@
               "2yr",
               "2yr"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "?",
+              "cellular",
+              "cellular"
+            ],
+            "scores": [
+              null,
+              "good",
+              "good"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only",
+              "wired only"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "sealed",
+              "sealed",
+              "sealed"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
@@ -1154,7 +1337,7 @@
           {
             "dimension": "Charging",
             "scores": [
-              "good",
+              "soso",
               "soso",
               "soso"
             ],
@@ -1262,6 +1445,48 @@
               "3yr",
               "2yr"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "?",
+              "cellular",
+              "cellular"
+            ],
+            "scores": [
+              null,
+              "good",
+              "good"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only",
+              "wired only"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "sealed",
+              "sealed",
+              "sealed"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
@@ -1519,9 +1744,9 @@
           {
             "dimension": "Charging",
             "scores": [
-              "good",
               "soso",
-              "good",
+              "soso",
+              "soso",
               "soso",
               "soso"
             ],
@@ -1659,6 +1884,60 @@
               "2yr",
               "lifetime"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "cellular",
+              "cellular",
+              "none",
+              "cellular",
+              "cellular"
+            ],
+            "scores": [
+              "good",
+              "good",
+              "soso",
+              "good",
+              "good"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
@@ -1923,17 +2202,17 @@
               "good",
               "good",
               "good",
-              "good"
+              "bad"
             ],
-            "note": "Packtalk Pro 1.6km · Packtalk Edge 1.6km · 60S EVO cellular · 60X cellular · 60S cellular · Pilot Pro cellular · F1s cellular",
+            "note": "Packtalk Pro/Edge 1.6km hardware mesh · 60S EVO/60X/60S 2km hardware mesh, plus genuine Wave cellular for effectively unlimited range · Pilot Pro 2.5km hardware mesh (12km group relay per Reso spec), plus genuine cellular/hotspot software mesh · F1s claims 8km cellular via CloudTalk but reviews measure ~0.7-1.2km with obstacles",
             "values": [
               "1.6km",
               "1.6km",
-              "cellular",
-              "cellular",
-              "cellular",
-              "cellular",
-              "cellular"
+              "2km+cellular",
+              "2km+cellular",
+              "2km+cellular",
+              "2.5km+cellular",
+              "1km (claimed 8km)"
             ]
           },
           {
@@ -1983,13 +2262,13 @@
           {
             "dimension": "Charging",
             "scores": [
+              "soso",
+              "soso",
+              "soso",
               "good",
-              "good",
-              "good",
-              "good",
-              "good",
-              "good",
-              "good"
+              "soso",
+              "soso",
+              "soso"
             ],
             "note": "Packtalk Pro fast · Packtalk Edge fast · 60S EVO fast · 60X wireless · 60S fast · Pilot Pro fast · F1s fast",
             "values": [
@@ -2155,6 +2434,72 @@
               "3yr",
               "2yr"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "cellular",
+              "cellular",
+              "cellular",
+              "cellular",
+              "cellular",
+              "none",
+              "cellular"
+            ],
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "soso",
+              "good"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only",
+              "wired only",
+              "wireless",
+              "wired only",
+              "wired only",
+              "wired only"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "good",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
@@ -2336,15 +2681,15 @@
             "scores": [
               "good",
               "good",
-              "good",
+              "bad",
               "good"
             ],
-            "note": "Packtalk Edge 1.6km · 60S cellular · F1s cellular · Pilot Pro cellular",
+            "note": "Packtalk Edge 1.6km hardware mesh · 60S 2km hardware mesh plus genuine Wave cellular · F1s claims 8km cellular via CloudTalk but reviews measure ~0.7-1.2km with obstacles · Pilot Pro 2.5km hardware mesh plus genuine cellular/hotspot software mesh",
             "values": [
               "1.6km",
-              "cellular",
-              "cellular",
-              "cellular"
+              "2km+cellular",
+              "1km (claimed 8km)",
+              "2.5km+cellular"
             ]
           },
           {
@@ -2382,10 +2727,10 @@
           {
             "dimension": "Charging",
             "scores": [
-              "good",
-              "good",
-              "good",
-              "good"
+              "soso",
+              "soso",
+              "soso",
+              "soso"
             ],
             "note": "Packtalk Edge fast · 60S fast · F1s fast · Pilot Pro fast",
             "values": [
@@ -2508,6 +2853,54 @@
             ]
           },
           {
+            "dimension": "VoIP",
+            "values": [
+              "cellular",
+              "cellular",
+              "cellular",
+              "none"
+            ],
+            "scores": [
+              "good",
+              "good",
+              "good",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed"
+            ],
+            "scores": [
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
             "dimension": "Price",
             "scores": [
               "soso",
@@ -2535,35 +2928,50 @@
         "model": "Packtalk Edgephones",
         "price": "$159.95"
       },
-      "exec_summary": "Edgephones are over-ear headphones carrying full 2nd-gen Dynamic Mesh — they let a coach, parent, pit-crew member or open-face rider join a Packtalk mesh network without a helmet-mounted unit. No competitor ships a mesh-networked over-ear product: Sena, ASMAX and Reso can only approximate it by strapping a standard intercom to an open-face helmet, and generic Bluetooth headphones have no group mesh at all. This is white space Cardo owns outright.",
+      "exec_summary": "Edgephones are over-ear headphones carrying full 2nd-gen Dynamic Mesh — they let a coach, parent, pit-crew member or open-face rider join a Packtalk mesh network without a helmet-mounted unit. Cardo remains the only brand with a true mesh-networked over-ear product, but the field isn't empty: ASMAX F1 RidePhones ($99.99) is a real passive off-helmet accessory for F1/F1s/Z1 owners, Reso Headset ($119 street) plays a similar role in the Reso app ecosystem, and Sena's closest analog is Tufftalk Lite ($249) — a genuine Bluetooth headset, but sold through Sena's industrial hearing-protection sub-brand, not marketed for motorcycling. None of the three rivals offer mesh grouping off-helmet; that specific white space is still Cardo's alone.",
       "matchups": [
         {
           "brand": "Sena",
-          "model": "(no direct equivalent)",
-          "price": "—",
-          "blurb": "Sena has no mesh over-ear headphone. Closest workaround is clipping a 5S/50S onto an open-face helmet or headband — bulkier, helmet-oriented, not built for off-helmet use.",
+          "model": "Tufftalk Lite",
+          "price": "$249",
+          "blurb": "A real Bluetooth headset with its own 4-way intercom radio and Universal Intercom cross-brand pairing — but it's sold via senaindustrial.com as worksite hearing protection, not marketed as a motorcycle product, and costs more than Edgephones.",
           "cardo_advantage": [
-            "Only true mesh-networked over-ear headphone",
-            "Joins any Packtalk DMC group instantly",
-            "Purpose-built for coaches/pit/parents/off-helmet"
+            "Only true mesh-networked over-ear headphone (15-rider DMC)",
+            "Joins any Packtalk group instantly, no separate app",
+            "$89 cheaper at street price"
           ],
           "competitor_advantage": [
-            "A spare 5S/50S can be adapted if already owned"
+            "Genuine cross-brand Universal Intercom pairing (works with non-Sena headsets)",
+            "Has its own standalone BT radio — doesn't require a paired main unit"
           ]
         },
         {
-          "brand": "Generic",
-          "model": "Bluetooth headphones",
-          "price": "$40–150",
-          "blurb": "Consumer BT over-ear/earbuds. Music and calls only — no motorcycle group intercom, no mesh, no rider-to-rider.",
+          "brand": "ASMAX",
+          "model": "ASMAX F1 RidePhones",
+          "price": "$99.99",
+          "blurb": "A genuine passive off-helmet accessory, but with no radio of its own — it only works clipped to a separately-owned F1/F1s/Z1 unit, inheriting whatever mesh/range that unit provides.",
           "cardo_advantage": [
-            "Full DMC group intercom (15 riders)",
-            "Integrates with the rider's existing Packtalk network",
-            "JBL Sound"
+            "Independently mesh-capable — doesn't require owning another Cardo unit first",
+            "15-rider DMC group vs. inherited/unpublished group size",
+            "Branded JBL audio vs. unbranded drivers"
           ],
           "competitor_advantage": [
-            "Cheaper if group comms not needed",
-            "Wider consumer availability"
+            "$44 cheaper (base MSRP)",
+            "Works with ASMAX's CloudTalk cellular mode if the paired unit supports it"
+          ]
+        },
+        {
+          "brand": "Reso",
+          "model": "Reso Headset",
+          "price": "$119",
+          "blurb": "A basic Bluetooth headset within the Reso Link app ecosystem — functional for calls/music but with no mesh grouping and minimal published specs.",
+          "cardo_advantage": [
+            "Only true mesh-networked over-ear headphone",
+            "Far more detailed published specs (range, group size, audio partner)"
+          ],
+          "competitor_advantage": [
+            "$25 cheaper at street price",
+            "Explicit 1-year accessory warranty stated"
           ]
         }
       ],
@@ -2575,23 +2983,29 @@
           ],
           [
             "Sena",
-            "adapted unit"
+            "Tufftalk Lite"
           ],
           [
-            "Generic",
-            "BT headphones"
+            "ASMAX",
+            "ASMAX F1 RidePhones"
+          ],
+          [
+            "Reso",
+            "Headset"
           ]
         ],
         "rows": [
           {
             "dimension": "Form factor",
             "scores": [
-              "good",
               "soso",
-              "good"
+              "soso",
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones purpose-built over-ear; adapted intercom awkward off-helmet",
+            "note": "None of the four publish a weight spec; all are over-ear headphone form factors, not helmet-mounted units",
             "values": [
+              "—",
               "—",
               "—",
               "—"
@@ -2602,13 +3016,15 @@
             "scores": [
               "good",
               "soso",
-              "good"
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones one-tap join DMC; generic BT trivial but no group",
+            "note": "Edgephones auto-joins the wearer's existing Packtalk DMC network; Tufftalk Lite and Reso Headset pair over standard Bluetooth; F1 RidePhones has no radio of its own and only works clipped to a paired F1/F1s/Z1 unit",
             "values": [
-              "—",
-              "—",
-              "—"
+              "mesh join",
+              "BT pairing",
+              "passive/paired",
+              "app pairing"
             ]
           },
           {
@@ -2616,13 +3032,15 @@
             "scores": [
               "good",
               "soso",
-              "good"
+              "soso",
+              "soso"
             ],
-            "note": "Sound by JBL over-ear; generic varies",
+            "note": "Edgephones is the only one with a named audio partner (JBL); the rest use house-brand drivers with no independently verified quality edge",
             "values": [
-              "Over-ear headpho",
-              "—",
-              "—"
+              "JBL",
+              "unbranded HD",
+              "ASMAX",
+              "unbranded"
             ]
           },
           {
@@ -2630,13 +3048,15 @@
             "scores": [
               "good",
               "soso",
-              "bad"
+              "bad",
+              "soso"
             ],
-            "note": "Only Edgephones is native mesh; adapted unit works but helmet-oriented; generic none",
+            "note": "Edgephones carries full 2nd-gen DMC mesh; Tufftalk Lite has its own BT 4.1 4-way radio (real, if not mesh); F1 RidePhones has zero standalone radio and is entirely dependent on a separately-purchased ASMAX communicator; Reso Headset has its own basic BT link",
             "values": [
-              "DMC mesh",
-              "—",
-              "—"
+              "mesh",
+              "BT only",
+              "none (passive)",
+              "BT only"
             ]
           },
           {
@@ -2644,11 +3064,13 @@
             "scores": [
               "good",
               "soso",
-              "bad"
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones 1.6km · adapted unit:— · BT headphones:—",
+            "note": "F1 RidePhones has no range of its own (inherits whatever the paired unit provides); Reso Headset range unpublished",
             "values": [
               "1.6km",
+              "0.8km",
               "—",
               "—"
             ]
@@ -2658,11 +3080,13 @@
             "scores": [
               "good",
               "soso",
-              "bad"
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones 15r · adapted unit:— · BT headphones:—",
+            "note": "F1 RidePhones/Reso Headset group size unpublished or inherited from a paired device",
             "values": [
               "15",
+              "4",
               "—",
               "—"
             ]
@@ -2672,11 +3096,13 @@
             "scores": [
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
-            "note": "Edgephones — · adapted unit:— · BT headphones:—",
+            "note": "Only Tufftalk Lite publishes a talk-time figure",
             "values": [
               "—",
+              "13h",
               "—",
               "—"
             ]
@@ -2686,10 +3112,12 @@
             "scores": [
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
-            "note": "Edgephones std · adapted unit:— · BT headphones:—",
+            "note": "No wireless/fast charging confirmed on any of the four; only Tufftalk Lite's wired charging is documented",
             "values": [
+              "—",
               "std",
               "—",
               "—"
@@ -2698,12 +3126,14 @@
           {
             "dimension": "Waterproofing",
             "scores": [
-              "bad",
               "soso",
-              "bad"
+              "soso",
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones — · adapted unit:— · BT headphones:—",
+            "note": "No IP rating published for any off-helmet audio accessory across the four brands",
             "values": [
+              "—",
               "—",
               "—",
               "—"
@@ -2712,12 +3142,14 @@
           {
             "dimension": "Quality",
             "scores": [
-              "good",
+              "soso",
+              "soso",
               "soso",
               "soso"
             ],
-            "note": "Cardo-built for the use case",
+            "note": "All four are low-volume accessory SKUs with no independent long-term reliability data",
             "values": [
+              "—",
               "—",
               "—",
               "—"
@@ -2726,85 +3158,145 @@
           {
             "dimension": "Cross-brand pairing",
             "scores": [
-              "bad",
               "soso",
-              "bad"
+              "good",
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones proprietary · adapted unit:— · BT headphones:—",
+            "note": "Tufftalk Lite's Universal Intercom (HFP) genuinely pairs with non-Sena headsets; Edgephones/F1 RidePhones/Reso Headset are locked to their own brand's network",
             "values": [
-              "proprietary",
-              "—",
-              "—"
+              "Cardo mesh only",
+              "universal",
+              "ASMAX only",
+              "Reso only"
             ]
           },
           {
             "dimension": "Voice / AI",
             "scores": [
-              "bad",
+              "soso",
+              "soso",
               "soso",
               "soso"
             ],
-            "note": "Edgephones none · adapted unit:— · BT headphones:—",
+            "note": "No voice-command layer on any pure audio accessory in this segment — not a real gap given the product category",
             "values": [
               "none",
-              "—",
-              "—"
+              "none",
+              "none",
+              "none"
             ]
           },
           {
             "dimension": "Software & OTA",
             "scores": [
               "soso",
-              "good",
-              "bad"
+              "soso",
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones app · adapted unit:— · BT headphones:—",
+            "note": "Edgephones rides on the Cardo Connect app via its host network; Reso Headset is Reso Link app compatible; Tufftalk Lite (FM radio, no app) and F1 RidePhones (passive) have no software layer",
             "values": [
               "app",
-              "—",
-              "—"
+              "none",
+              "none",
+              "app"
             ]
           },
           {
             "dimension": "Safety features",
             "scores": [
-              "bad",
-              "bad",
-              "bad"
+              "soso",
+              "soso",
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones none · adapted unit:— · BT headphones:—",
+            "note": "None carry crash detection — expected for an audio accessory, not a real shortcoming versus the primary communicator it pairs with",
             "values": [
               "none",
-              "—",
-              "—"
+              "none",
+              "none",
+              "none"
             ]
           },
           {
             "dimension": "Warranty & service",
             "scores": [
               "soso",
-              "good",
-              "bad"
+              "soso",
+              "soso",
+              "soso"
             ],
-            "note": "Edgephones — · adapted unit:— · BT headphones:—",
+            "note": "Only Reso Headset's notes reference an explicit 1-year accessory warranty; the others don't publish a specific term for this SKU",
             "values": [
               "—",
               "—",
-              "—"
+              "—",
+              "1yr"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "?",
+              "none",
+              "none",
+              "?"
+            ],
+            "scores": [
+              null,
+              "soso",
+              "soso",
+              null
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "?",
+              "wired only",
+              "?",
+              "?"
+            ],
+            "scores": [
+              null,
+              "soso",
+              null,
+              null
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "?",
+              "sealed",
+              "?",
+              "?"
+            ],
+            "scores": [
+              null,
+              "soso",
+              null,
+              null
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
             "scores": [
-              "good",
               "soso",
+              "bad",
+              "good",
               "good"
             ],
-            "note": "$159.95 for mesh over-ear is category-unique",
+            "note": "F1 RidePhones ($99.99) and Reso Headset ($119 street) undercut Edgephones; Tufftalk Lite ($249) is the priciest by far and is sold via Sena's industrial safety sub-brand, not marketed as a motorcycle product",
             "values": [
-              "$159",
-              "—",
-              "—"
+              "$143.96",
+              "$249",
+              "$99.99",
+              "$119"
             ]
           }
         ]
@@ -2900,6 +3392,14 @@
           [
             "Sena",
             "Phantom ANC"
+          ],
+          [
+            "Sena",
+            "Outforce"
+          ],
+          [
+            "Sena",
+            "Surge"
           ]
         ],
         "rows": [
@@ -2911,10 +3411,14 @@
               "good",
               "soso",
               "good",
+              "good",
+              "soso",
               "good"
             ],
             "note": "GTS carbon full-face; Specter/Phantom premium; Impulse modular heavier",
             "values": [
+              "—",
+              "—",
               "—",
               "—",
               "—",
@@ -2931,10 +3435,14 @@
               "good",
               "soso",
               "good",
-              "good"
+              "good",
+              "soso",
+              "soso"
             ],
             "note": "All hands-free voice; GTS integrated controls",
             "values": [
+              "—",
+              "—",
               "—",
               "—",
               "—",
@@ -2951,7 +3459,9 @@
               "good",
               "soso",
               "good",
-              "good"
+              "good",
+              "soso",
+              "soso"
             ],
             "note": "GTS JBL+ANC; Specter/Phantom Harman Kardon (+AI NC on Phantom)",
             "values": [
@@ -2960,7 +3470,9 @@
               "2nd-gen Harman K",
               "Sound by Harman ",
               "HD Pulse Drive Matrix bass",
-              "HD Speaker + ANC (-20dB wind)"
+              "HD Speaker + ANC (-20dB wind)",
+              "Built-in speakers",
+              "HD speakers"
             ]
           },
           {
@@ -2971,15 +3483,19 @@
               "good",
               "soso",
               "good",
+              "good",
+              "bad",
               "good"
             ],
-            "note": "GTS DMC 31 riders; Specter adds Wave cellular; Phantom Mesh 3.0; Impulse mesh",
+            "note": "GTS DMC 31 riders; Specter adds Wave cellular; Phantom Mesh 3.0; Impulse mesh; Outforce ($199) is Sena's cheapest full-face comms helmet — Bluetooth-only, no mesh, 4-rider cap; Surge ($419) is the open-face Mesh 3.0 + Wave successor to the original Savage",
             "values": [
               "DMC mesh",
               "mesh",
               "mesh",
               "mesh",
               "mesh",
+              "mesh",
+              "BT only",
               "mesh"
             ]
           },
@@ -2991,7 +3507,9 @@
               "soso",
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "soso",
+              "good"
             ],
             "note": "Beyond GTS 2km · Specter cellular · Phantom mesh · Impulse mesh",
             "values": [
@@ -3000,7 +3518,9 @@
               "mesh",
               "mesh",
               "mesh",
-              "mesh"
+              "mesh",
+              "0.9km",
+              "cellular"
             ]
           },
           {
@@ -3011,6 +3531,8 @@
               "good",
               "soso",
               "good",
+              "good",
+              "soso",
               "good"
             ],
             "note": "Beyond GTS 31r · Specter 24r · Phantom 24r · Impulse —",
@@ -3020,6 +3542,8 @@
               "24",
               "—",
               "24",
+              "24",
+              "4",
               "24"
             ]
           },
@@ -3028,6 +3552,8 @@
             "scores": [
               "soso",
               "good",
+              "soso",
+              "soso",
               "soso",
               "soso",
               "soso",
@@ -3040,6 +3566,8 @@
               "—",
               "—",
               "—",
+              "—",
+              "12h",
               "—"
             ]
           },
@@ -3051,11 +3579,15 @@
               "soso",
               "soso",
               "soso",
+              "soso",
+              "soso",
               "soso"
             ],
             "note": "Beyond GTS wireless · Specter std · Phantom std · Impulse std",
             "values": [
               "wireless",
+              "std",
+              "std",
               "std",
               "std",
               "std",
@@ -3071,10 +3603,14 @@
               "bad",
               "bad",
               "bad",
+              "bad",
+              "bad",
               "bad"
             ],
             "note": "Beyond GTS — · Specter — · Phantom — · Impulse —",
             "values": [
+              "—",
+              "—",
               "—",
               "—",
               "—",
@@ -3091,10 +3627,14 @@
               "good",
               "soso",
               "good",
+              "good",
+              "soso",
               "good"
             ],
             "note": "GTS carbon + serviceable modules (new/unproven); Sena proven helmet mfg",
             "values": [
+              "—",
+              "—",
               "—",
               "—",
               "—",
@@ -3111,10 +3651,14 @@
               "soso",
               "soso",
               "soso",
+              "soso",
+              "soso",
               "soso"
             ],
             "note": "Beyond GTS BT only · Specter BT only · Phantom BT only · Impulse BT only",
             "values": [
+              "BT only",
+              "BT only",
               "BT only",
               "BT only",
               "BT only",
@@ -3131,11 +3675,15 @@
               "bad",
               "bad",
               "bad",
+              "bad",
+              "bad",
               "bad"
             ],
             "note": "Beyond GTS voice cmds · Specter none · Phantom none · Impulse none",
             "values": [
               "voice cmds",
+              "none",
+              "none",
               "none",
               "none",
               "none",
@@ -3151,10 +3699,14 @@
               "soso",
               "soso",
               "soso",
+              "soso",
+              "soso",
               "soso"
             ],
             "note": "Beyond GTS app · Specter app · Phantom app · Impulse app",
             "values": [
+              "app",
+              "app",
               "app",
               "app",
               "app",
@@ -3171,11 +3723,15 @@
               "bad",
               "bad",
               "bad",
+              "bad",
+              "bad",
               "bad"
             ],
             "note": "Beyond GTS crash/SOS · Specter none · Phantom none · Impulse none",
             "values": [
               "crash/SOS",
+              "none",
+              "none",
               "none",
               "none",
               "none",
@@ -3191,6 +3747,8 @@
               "soso",
               "soso",
               "soso",
+              "soso",
+              "soso",
               "soso"
             ],
             "note": "Beyond GTS — · Specter — · Phantom — · Impulse —",
@@ -3200,14 +3758,90 @@
               "—",
               "—",
               "—",
+              "—",
+              "—",
               "—"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "?",
+              "cellular",
+              "cellular",
+              "cellular",
+              "cellular",
+              "cellular",
+              "none",
+              "cellular"
+            ],
+            "scores": [
+              null,
+              "good",
+              "good",
+              "good",
+              "good",
+              "good",
+              "soso",
+              "good"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wireless",
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only",
+              "wired only"
+            ],
+            "scores": [
+              "good",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "swappable",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed",
+              "sealed"
+            ],
+            "scores": [
+              "good",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso",
+              "soso"
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
             "scores": [
               "bad",
               "soso",
+              "good",
+              "good",
               "good",
               "good",
               "good",
@@ -3220,7 +3854,9 @@
               "$549",
               "$479",
               "$599",
-              "$649"
+              "$649",
+              "$199",
+              "$419"
             ]
           }
         ]
@@ -3447,6 +4083,42 @@
               "—",
               "—"
             ]
+          },
+          {
+            "dimension": "VoIP",
+            "values": [
+              "?",
+              "cellular"
+            ],
+            "scores": [
+              null,
+              "good"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Wireless charging",
+            "values": [
+              "wired only",
+              "wired only"
+            ],
+            "scores": [
+              "soso",
+              "soso"
+            ],
+            "note": ""
+          },
+          {
+            "dimension": "Detachable battery",
+            "values": [
+              "?",
+              "sealed"
+            ],
+            "scores": [
+              null,
+              "soso"
+            ],
+            "note": ""
           },
           {
             "dimension": "Price",
