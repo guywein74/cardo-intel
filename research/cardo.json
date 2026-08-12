@@ -19,6 +19,9 @@
       "audio": "45mm Sound by JBL speakers, sound profiles, auto volume",
       "talk_time_hours": 13,
       "waterproof": "IP67",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Crash detection via built-in IMU + phone (alerts emergency contact; region-limited, user-toggleable since fw 4.7)",
         "Auto On/Off",
@@ -89,6 +92,9 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP67",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Natural Voice Operation",
         "OTA updates",
@@ -156,6 +162,9 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP67",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Natural Voice Operation",
         "OTA updates",
@@ -222,6 +231,9 @@
       "audio": "40mm Sound by JBL speakers (not waterproof) + wired mic; supports wireless earbuds/AirPods",
       "talk_time_hours": 10,
       "waterproof": "IP67 (unit)",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Natural Voice Operation",
         "OTA updates",
@@ -289,6 +301,9 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "Waterproof per Cardo (IP65 per third-party spec listings)",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Natural Voice Operation",
         "OTA updates",
@@ -354,6 +369,9 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "Waterproof per Cardo (IP65 per third-party spec listings)",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Natural Voice Operation",
         "OTA updates",
@@ -419,6 +437,9 @@
       "audio": "40mm HD speakers (not JBL-branded), 3 sound profiles",
       "talk_time_hours": 13,
       "waterproof": "Waterproof per Cardo (no published IP rating)",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "OTA updates via app",
         "FM radio (6 presets)",
@@ -484,6 +505,9 @@
       "audio": "32mm speakers, 3.5mm jack for custom earbuds",
       "talk_time_hours": null,
       "waterproof": "Waterproof per Cardo (no published IP rating)",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "OTA updates",
         "Universal Bluetooth bridging to other brands",
@@ -549,6 +573,9 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP67",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Purpose-built integration for SHOEI Gen 3 helmets (GT-Air 3, NEOTEC 3, J-Cruise 3)",
         "Natural Voice Operation",
@@ -615,6 +642,9 @@
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP65",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Purpose-built integration for SHOEI Gen 3 helmets (GT-Air 3, NEOTEC 3, J-Cruise 3)",
         "Natural Voice Operation",
@@ -680,6 +710,9 @@
       "audio": "Pre-fitted speakers (Packtalk Edge chipset-based audio)",
       "talk_time_hours": 13,
       "waterproof": "IPX5",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Purpose-built integration for SCHUBERTH helmets (C5 Carbon, C5, E2 Carbon, E2, S3, J2)",
         "Speakers and antenna pre-integrated into compatible helmets - no retrofitting",
@@ -750,6 +783,9 @@
       "audio": "53mm speakers developed by Cardo Sound Labs (up from 40mm JBL on standard SC EDGE/Packtalk Edge)",
       "talk_time_hours": null,
       "waterproof": null,
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "World's first communication system to integrate Active Noise Cancellation (ANC), calibrated specifically to the SCHUBERTH C5 ANC helmet's acoustic profile",
         "Purpose-built integration for SCHUBERTH C5 ANC helmet only (not compatible with other Schuberth or third-party helmets)",
@@ -818,6 +854,9 @@
       "audio": "40mm Sound by JBL speakers, 3 sound profiles",
       "talk_time_hours": 13,
       "waterproof": "IP65",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Purpose-built integration for select HJC helmets (i71, i91, RPHA 31/60/71/71 Carbon/72/72 DOT/72 Carbon/72 Carbon ECE&DOT/91/91 Carbon, f31, f71, f71 Carbon)",
         "Natural Voice Operation",
@@ -887,6 +926,9 @@
       "audio": "40mm HD speakers (not JBL-branded)",
       "talk_time_hours": 10,
       "waterproof": "IP65",
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "features": [
         "Purpose-built integration for select HJC helmets (i71, i91, RPHA 31/60/71/71 Carbon/72/72 DOT/72 Carbon/72 Carbon ECE&DOT/91/91 Carbon, f31, f71, f71 Carbon)",
         "OTA updates via Cardo Connect app",
@@ -954,6 +996,9 @@
       "audio": "Open-ear dual-unit design, cycling-specific EQ, powerful speakers",
       "talk_time_hours": 11,
       "waterproof": "IP54",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": null,
       "features": [
         "Open-ear helmet-strap-mounted design (one unit per side), no buttons needed to talk",
         "Cellular/VoIP-based intercom via Cardo Connect app - range limited only by data coverage, connects up to 30 riders",
@@ -980,6 +1025,9 @@
       "audio": "Over-ear headphones, Sound by JBL",
       "talk_time_hours": null,
       "waterproof": null,
+      "voip": null,
+      "wireless_charging": null,
+      "detachable_battery": null,
       "features": [
         "Off-helmet DMC communication for coaches/pit crews/parents",
         "ORV version available"
@@ -1001,6 +1049,9 @@
       "audio": "Integrated JBL-developed audio, standard Active Noise Cancellation",
       "talk_time_hours": null,
       "waterproof": null,
+      "voip": null,
+      "wireless_charging": true,
+      "detachable_battery": true,
       "features": [
         "Carbon-fiber composite shell",
         "Wireless charging, detachable/replaceable battery",
@@ -1025,6 +1076,9 @@
       "audio": "JBL-partnered audio components",
       "talk_time_hours": 13,
       "waterproof": null,
+      "voip": null,
+      "wireless_charging": false,
+      "detachable_battery": null,
       "features": [
         "World's first integrated mesh motocross/off-road helmet",
         "Built on Leatt Moto 8.5 helmet platform",
@@ -1050,6 +1104,9 @@
       "audio": "Over-ear headphones, 40mm JBL speaker driver, passive noise reduction NRR 15",
       "talk_time_hours": null,
       "waterproof": "Splash-protected",
+      "voip": null,
+      "wireless_charging": null,
+      "detachable_battery": null,
       "features": [
         "Off-helmet accessory - requires separate Packtalk Edge ORV unit (sold separately)",
         "Magnetic Air Mount",

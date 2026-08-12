@@ -74,7 +74,10 @@
           "segment_position": "Undercuts Cardo's flagship tier while adding Bose audio + lifetime warranty"
         }
       },
-      "url": "https://store-us.sena.com/products/60s-evo"
+      "url": "https://store-us.sena.com/products/60s-evo",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "60S",
@@ -142,7 +145,10 @@
           "segment_position": "Flagship priced below Cardo Packtalk Pro; now discounted ~18% post-EVO"
         }
       },
-      "url": "https://store-us.sena.com/products/60s"
+      "url": "https://store-us.sena.com/products/60s",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "60X",
@@ -210,7 +216,10 @@
           "segment_position": "Replaces/sits alongside 60S EVO at the same price point, adding joystick controls and wireless charging"
         }
       },
-      "url": "https://store-us.sena.com/products/60x"
+      "url": "https://store-us.sena.com/products/60x",
+      "voip": true,
+      "wireless_charging": true,
+      "detachable_battery": false
     },
     {
       "name": "50S",
@@ -277,7 +286,10 @@
           "segment_position": "Mid-tier vs Cardo Packtalk Edge/Neo; aging and expected to be discounted as replacements land"
         }
       },
-      "url": "https://store-us.sena.com/products/50s-10"
+      "url": "https://store-us.sena.com/products/50s-10",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "50R",
@@ -341,7 +353,10 @@
           "segment_position": "Slim mid-tier mesh; sits against Cardo Packtalk Neo"
         }
       },
-      "url": "https://store-us.sena.com/products/50r-02"
+      "url": "https://store-us.sena.com/products/50r-02",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Spider RT1 / ST1",
@@ -406,7 +421,10 @@
           "segment_position": "Budget mesh play; undercuts Cardo Packtalk Neo, competes with Packtalk Outdoor-type offers. Price raised from $199 to $239 and now out of stock storewide (2026-07-10 check) - likely being wound down for the Spider X Slim successor"
         }
       },
-      "url": "https://store-us.sena.com/products/spider-rt1-01"
+      "url": "https://store-us.sena.com/products/spider-rt1-01",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Spider X Slim",
@@ -473,7 +491,10 @@
           "segment_position": "Mesh-only mid-tier undercutting the 60-series while adding Bose audio and lifetime warranty; successor to Spider RT1/ST1"
         }
       },
-      "url": "https://store-us.sena.com/products/spider-x-slim"
+      "url": "https://store-us.sena.com/products/spider-x-slim",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "5S",
@@ -540,7 +561,10 @@
           "segment_position": "Entry tier vs Cardo Freecom 2X; currently discounted 20%"
         }
       },
-      "url": "https://store-us.sena.com/products/5s-10"
+      "url": "https://store-us.sena.com/products/5s-10",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "5R",
@@ -604,7 +628,10 @@
           "segment_position": "Entry tier vs Cardo Freecom 2X / Spirit"
         }
       },
-      "url": "https://store-us.sena.com/products/5r-01"
+      "url": "https://store-us.sena.com/products/5r-01",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "5R LITE",
@@ -668,7 +695,10 @@
           "segment_position": "Entry-floor product; still undercuts Cardo Spirit tier though the $99 price point was raised to $109 as of 2026-07-10"
         }
       },
-      "url": "https://store-us.sena.com/products/5r-lite"
+      "url": "https://store-us.sena.com/products/5r-lite",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Vortex",
@@ -735,7 +765,10 @@
           "street_usd": 189,
           "segment_position": "Entry tier at $189; undercuts Cardo Spirit ($98.95 on sale) but offers wireless charging and Quick Pair as differentiators; replaces 5R/5S pricing ladder"
         }
-      }
+      },
+      "voip": false,
+      "wireless_charging": true,
+      "detachable_battery": false
     },
     {
       "name": "MeshON",
@@ -755,7 +788,10 @@
       ],
       "release_year": 2026,
       "notes": "Launched June 2026 at $129 (confirmed store-us.sena.com, SKU MESHON-01). Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter.",
-      "url": "https://store-us.sena.com/products/meshon"
+      "url": "https://store-us.sena.com/products/meshon",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Specter (modular smart helmet)",
@@ -777,7 +813,10 @@
       ],
       "release_year": 2026,
       "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price.",
-      "url": "https://store-us.sena.com/products/specter"
+      "url": "https://store-us.sena.com/products/specter",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Outlander (dual-sport smart helmet)",
@@ -798,7 +837,10 @@
       ],
       "release_year": 2026,
       "notes": "Unveiled EICMA Nov 2025, available 2026 at $599. Direct rival to Cardo Venture MX ($799) - $200 cheaper.",
-      "url": "https://store-us.sena.com/products/outlander"
+      "url": "https://store-us.sena.com/products/outlander",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Phantom (base)",
@@ -821,7 +863,10 @@
       ],
       "release_year": 2025,
       "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing. PRICE ADDED 2026-08-10: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Phantom listing (list price $549.00, matching this SKU's MSRP exactly) at a $373.32 deal price (-32%) - recorded as street_price_usd. Two other Amazon listings under the same generic 'Phantom and ANC' title were seen at $544.02 and $649.00 with no visible list-price strikethrough; those could not be confidently attributed to this base SKU vs. Phantom XB/ANC so were not used here.",
-      "url": "https://store-us.sena.com/products/phantom"
+      "url": "https://store-us.sena.com/products/phantom",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Outstar 2",
@@ -889,7 +934,10 @@
           "street_usd": 258,
           "segment_position": "Budget commuter smart helmet undercutting Phantom/Outrush lines; brings Wave cellular intercom down to the entry-level open-face segment"
         }
-      }
+      },
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Impulse (modular smart helmet)",
@@ -910,7 +958,10 @@
       ],
       "release_year": 2023,
       "notes": "US store price $479 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $479, live store-us.sena.com (handle: impulse-1) shows $599 - prior figure was stale.",
-      "url": "https://store-us.sena.com/products/impulse-1"
+      "url": "https://store-us.sena.com/products/impulse-1",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Outrush 2 (modular smart helmet)",
@@ -930,7 +981,10 @@
       ],
       "release_year": 2025,
       "notes": "US store price $379 (Jul 2026).",
-      "url": "https://store-us.sena.com/products/outrush-2"
+      "url": "https://store-us.sena.com/products/outrush-2",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Stryker (full-face smart helmet)",
@@ -950,7 +1004,10 @@
       ],
       "release_year": 2023,
       "notes": "US store price $324 (Jul 2026) - heavily discounted from launch. STREET PRICE ADDED 2026-07-14: Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current listing at $299.00 (list $499.00 per Amazon's own reference price, though Sena's own store lists $324.35) - below Sena's direct-store figure, so recorded as street_price_usd.",
-      "url": "https://store-us.sena.com/products/stryker-1"
+      "url": "https://store-us.sena.com/products/stryker-1",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Outrush R (modular smart helmet)",
@@ -969,7 +1026,10 @@
       ],
       "release_year": 2021,
       "notes": "US store price $287 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $287, live store-us.sena.com (handle: outrushr) shows $359 - prior figure was stale. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $313.31 deal price (list $359.00).",
-      "url": "https://store-us.sena.com/products/outrushr"
+      "url": "https://store-us.sena.com/products/outrushr",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Cavalry 2 (half smart helmet)",
@@ -989,7 +1049,10 @@
       ],
       "release_year": 2024,
       "notes": "US store price $279 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $279, live store-us.sena.com (handle: cavalry2) shows $349 - prior figure was stale.",
-      "url": "https://store-us.sena.com/products/cavalry2"
+      "url": "https://store-us.sena.com/products/cavalry2",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Phantom XB",
@@ -1013,7 +1076,10 @@
       ],
       "release_year": 2025,
       "notes": "Phantom Family bass-focused variant; store handle 'phantom-xb-full-face-motorcycle-helmet-with-integrated-communiation-system-featuring-acoustic-audio-chambers', $599 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in notes text, not tracked as its own product - added per site audit.",
-      "url": "https://store-us.sena.com/products/phantom-xb-full-face-motorcycle-helmet-with-integrated-communiation-system-featuring-acoustic-audio-chambers"
+      "url": "https://store-us.sena.com/products/phantom-xb-full-face-motorcycle-helmet-with-integrated-communiation-system-featuring-acoustic-audio-chambers",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Phantom ANC",
@@ -1037,7 +1103,10 @@
       ],
       "release_year": 2025,
       "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing.",
-      "url": "https://store-us.sena.com/products/phantom-anc"
+      "url": "https://store-us.sena.com/products/phantom-anc",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Outforce (full-face smart helmet)",
@@ -1060,7 +1129,10 @@
       ],
       "release_year": 2023,
       "notes": "Entry-tier Bluetooth-only smart helmet - Sena's cheapest full-face comms helmet, well below the Mesh/Wave-equipped Phantom/Specter/Outlander line. $199 confirmed via store-us.sena.com (handle: outforce), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit.",
-      "url": "https://store-us.sena.com/products/outforce"
+      "url": "https://store-us.sena.com/products/outforce",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Surge (open-face smart helmet)",
@@ -1084,7 +1156,10 @@
       ],
       "release_year": 2025,
       "notes": "Open-face Mesh-equipped helmet, positioned as the spiritual successor to Sena's original Savage. $419 confirmed via store-us.sena.com (handle: surge-3), Jul 8 2026 direct site crawl. Was completely absent from prior research - added per site audit.",
-      "url": "https://store-us.sena.com/products/surge-3"
+      "url": "https://store-us.sena.com/products/surge-3",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Tufftalk",
@@ -1108,7 +1183,10 @@
       ],
       "release_year": null,
       "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. 750mAh battery, 3h charge time.",
-      "url": "https://senaindustrial.com/products/tufftalk"
+      "url": "https://senaindustrial.com/products/tufftalk",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": true
     },
     {
       "name": "Tufftalk Lite",
@@ -1131,7 +1209,10 @@
       ],
       "release_year": 2018,
       "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company.",
-      "url": "https://senaindustrial.com/products/tufftalk-lite"
+      "url": "https://senaindustrial.com/products/tufftalk-lite",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Tufftalk M",
@@ -1155,7 +1236,10 @@
       ],
       "release_year": null,
       "notes": "Sold via senaindustrial.com, a distinct Sena sub-brand for industrial/worksite hearing protection - not marketed as a motorcycle product, but same parent company. Mesh talk time 8h vs 13h Bluetooth.",
-      "url": "https://senaindustrial.com/products/tufftalk-m"
+      "url": "https://senaindustrial.com/products/tufftalk-m",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "CAST",
@@ -1179,7 +1263,10 @@
       ],
       "release_year": null,
       "notes": "Highest-tier product in Sena Industrial's hearing-protection headset collection (alongside Tufftalk/Tufftalk Lite/Tufftalk M), per https://senaindustrial.com/collections/communication-headsets-with-hearing-protection. Not marketed as a motorcycle product.",
-      "url": "https://senaindustrial.com/products/cast"
+      "url": "https://senaindustrial.com/products/cast",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": true
     },
     {
       "name": "Snowtalk 2",
@@ -1204,7 +1291,10 @@
       ],
       "release_year": null,
       "notes": "Snow-sports-specific communicator, designed to be built into ski/snowboard helmet ear pads rather than clamped to a moto helmet shell. STOCK UPDATE 2026-07-14: store-us.sena.com/products.json (SKU SNOWTALK2-01) now shows this SKU out of stock (available:false) at the unchanged $99.00 price - flagged here as a possible sign of seasonal restock timing or discontinuation pending confirmation.",
-      "url": "https://www.sena.com/en-us/product/snowtalk2/"
+      "url": "https://www.sena.com/en-us/product/snowtalk2/",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "BiKom 20",
@@ -1230,7 +1320,10 @@
       ],
       "release_year": null,
       "notes": "Purpose-built cycling communicator, not a repurposed moto unit - open-ear design keeps ambient road awareness. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $157.00 deal price (list $169.00).",
-      "url": "https://www.sena.com/en-us/product/bikom-20/"
+      "url": "https://www.sena.com/en-us/product/bikom-20/",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "pi",
@@ -1255,7 +1348,10 @@
       ],
       "release_year": null,
       "notes": "Sena's most general-purpose outdoor unit - not tied to one sport, clips onto whatever helmet strap the rider already has (cycling, skating, other strap-helmet activities). STREET PRICE ADDED 2026-07-14: Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current lowest new-condition price at $89.00 (list $99.00), below MSRP.",
-      "url": "https://www.sena.com/en-us/product/pi/"
+      "url": "https://www.sena.com/en-us/product/pi/",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "SUMMIT X",
@@ -1282,7 +1378,10 @@
       ],
       "release_year": 2025,
       "notes": "MISSED IN PRIOR RESEARCH - added 2026-07-10 after being spotted live for sale on store-us.sena.com/products.json (SKU SUMMITX-01, in stock) during the mandatory pricing-diff crawl; not previously tracked in products[]. Sena's official press release (sena.com/en-us/stories/news/sena-technologies-introduces-the-summit-x-outdoor-communicator-built-for-snow-ready-for-any-adventure/) dates the launch to November 18, 2025 (EICMA/winter-season timing), so this was available before the file's 2026-06-10 cutoff but had never been captured - a second confirmed miss (after Outforce/Surge) showing the outdoor/non-moto catalog needs the same store-JSON discipline as the smart-helmet line. Notable as Sena's first non-motorcycle product to carry the Wave cellular intercom, extending that differentiator into the outdoor/winter-sports category alongside Cardo's more moto-only Wave-equivalent gap. Firmware user guide on file dated v1.1.0 (2026-01-30). PRICE CORRECTED 2026-07-14: street_price_usd was $249.00 (=MSRP, no discount); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current lowest new-condition price at $201.31, below MSRP - updated.",
-      "url": "https://store-us.sena.com/products/summit-x-outdoor-communicator-with-wave-and-mesh-intercom"
+      "url": "https://store-us.sena.com/products/summit-x-outdoor-communicator-with-wave-and-mesh-intercom",
+      "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Latitude",
@@ -1309,7 +1408,10 @@
       ],
       "release_year": null,
       "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: latitude, $159 M/L) during the mandatory pricing crawl. A ski/snowboard smart helmet with built-in Bluetooth intercom (not motorcycle-specific), part of Sena's outdoor snow-sports line alongside Snowtalk 2 (headset-only) and the newer Mesh-equipped Latitude S2. Amazon lists it at $135.00 (list $159.00) per Keepa data fetched 2026-07-13.",
-      "url": "https://store-us.sena.com/products/latitude-s1-snow-helmet"
+      "url": "https://store-us.sena.com/products/latitude-s1-snow-helmet",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     },
     {
       "name": "Latitude S2",
@@ -1335,7 +1437,10 @@
       ],
       "release_year": 2025,
       "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: lts2) during the mandatory pricing crawl. Product imagery/assets dated November 2025, consistent with an EICMA/winter-season launch. $269 confirmed live on store-us.sena.com (Medium in stock, Large out of stock as of 2026-07-14). No Amazon listing found to establish a street price.",
-      "url": "https://store-us.sena.com/products/lts2"
+      "url": "https://store-us.sena.com/products/lts2",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false
     }
   ],
   "strengths": [

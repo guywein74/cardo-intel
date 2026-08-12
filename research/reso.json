@@ -33,6 +33,9 @@
         "Software mesh gives claimed 'unlimited' range over cellular"
       ],
       "release_year": 2024,
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "notes": "Range: 2.5 km point-to-point hardware mesh, 12 km group relay (30 riders), unlimited via software mesh with mobile data. Battery 1950 mAh: 13 h mesh+music, 18 h music only, 33 h power-saving. Warranty 3 years (main unit). Street prices vary widely: $359 on resosport.com, $250 at Motojini, PHP 12,500-13,999 (~USD 220-245) in the Philippines. UPDATE (this refresh, 2026-08-10): the site has migrated from resosport.com (now 301-redirects) to resopilot.com; the canonical product page now shows 'Sold Out' at the unchanged sale/regular prices of $359/$399 -- confirmed via direct scrape. A separate duplicate listing ('RESOPILOT Pro' at /products/test-pro) shows 'Add to cart' at the same $359/$399, likely a staging/migration artifact rather than a real restocked SKU.",
       "usage": "Motorcycle",
       "dimensions": {
@@ -101,6 +104,9 @@
         "15W fast charge (5 min = ~2 h use; full in 50-60 min)"
       ],
       "release_year": 2025,
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": false,
       "notes": "Same 1950 mAh battery and 2.5 km / 12 km group range as Pro but 15 riders max. Lacks Pro's DuoSync software mesh, GNSS, real-time map, and SOS crash alerts. One source listed it at $179, likely regional/promo pricing. One retailer describes it as 'dual-channel mesh' — official site says single mesh channel; official spec used here. 3-year warranty. PH press (yugatech.com, ~May-June 2026) confirms official PH SRP of P9,800 and lists 'FlowTalk Grouping Technology, up to 8 riders Hi-Fi low-latency mode' as an additional Neo feature alongside its single-channel hardware mesh, plus a 1,400 mAh battery (distinct from the Pro's 1950 mAh) delivering the same 24-hour rating via lower power draw, and a 'Snap Base' mount (vs Pro's magnetic base). NEW (per Daytona/Webike Japan coverage, July 2026): Reso's official branding for Neo's single-channel hardware mesh is 'UniSync' (vs the Pro's dual hardware+software 'DuoSync'), confirming the two models use distinct proprietary mesh-tech names rather than a shared one. The same PR coverage claims Pilot Pro has held the #1 sales position (market/region unspecified, likely China domestic) for 17 consecutive months as of July 2026, and that Daytona is running a trade-in campaign in Japan for riders upgrading from other intercom brands to the Reso Pilot lineup. UPDATE (this refresh, 2026-08-10): the site has migrated from resosport.com (now 301-redirects) to resopilot.com; the canonical product page now shows 'Sold Out' at the unchanged sale/regular prices of $269/$320 -- confirmed via direct scrape. A separate duplicate listing ('RESOPILOT Neo' at /products/test-neo) shows 'Add to cart' at $269 sale but a lower $299 regular price (vs $320 on the canonical page), likely a staging/migration artifact rather than a confirmed price cut -- msrp_usd left unchanged pending confirmation. Also newly found (2026-08-10): Reso Pilot Neo is now sold in India via resosport.in (operated by ALN Auto Pvt Ltd) at INR 23,999 sale / 26,362 regular (~USD 276/303), part of a 'Launch special' running through August 31, 2026.",
       "usage": "Motorcycle",
       "dimensions": {
@@ -169,6 +175,9 @@
         "Cross-model connectivity with Pilot Pro and Pilot Neo"
       ],
       "release_year": 2025,
+      "voip": false,
+      "wireless_charging": null,
+      "detachable_battery": null,
       "notes": "Formally detailed and reviewed by PH press (yugatech.com) as of ~May-June 2026 with full PH lineup now available: Pro P13,999 / Neo P9,800 / Lite P6,899 SRP. Prior entries in this dataset used a rougher Malaysia (RM399) conversion; updated street price uses the more recent and detailed PH SRP (P6,899 ≈ USD 118 at ~PHP 58.5/USD). Reso/dealer marketing states 300 mAh battery and 21 g weight (vs Pro/Neo's shared 1950 mAh/65 g chassis), consistent with a smaller, simplified device; some retailer copy (e.g. guanhow.easy.co) instead cites ~12-hour battery life, so battery-life claims vary by source. Not listed on the US resosport.com store (only Pro, Neo, Headset, and speaker accessory sold there) as of July 2026. 3-year warranty on the intercom unit, 1-year on cradle/speakers/mic per PH marketing. UPDATE (this refresh, 2026-08-10): Reso Pilot Lite is now also sold via the new India DTC site resosport.in (operated by ALN Auto Pvt Ltd, Secunderabad) at INR 14,999 (~USD 172, no discount shown), alongside its existing PH/SEA dealer availability; still not sold on the US resopilot.com store.",
       "dimensions": {
         "form_factor": {
@@ -229,6 +238,9 @@
         "Reso Link app compatible (iOS/Android)"
       ],
       "release_year": 2025,
+      "voip": null,
+      "wireless_charging": null,
+      "detachable_battery": null,
       "notes": "Back in stock on resosport.com as of this refresh (2026-07-10) -- shown with an active 'Add to cart' button at $119/$149 (20% off), reversing the 'Sold Out' status noted in the prior refresh; minimal published specs otherwise. 1-year accessory warranty referenced. In the Philippines a 'headset' accessory was priced at PHP 4,800 at launch.",
       "dimensions": {
         "form_factor": {
