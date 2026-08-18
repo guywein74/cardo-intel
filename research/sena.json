@@ -31,7 +31,7 @@
         "Limited lifetime warranty on main unit (battery/mount 5 yr)"
       ],
       "release_year": 2026,
-      "notes": "Launched May 2026; dual pack $879. Talk time 27h Bluetooth / 19h Mesh. MCN: 'considerably cheaper than Cardo's flagship'. First Sena with lifetime warranty.",
+      "notes": "Launched May 2026; dual pack $879. Talk time 27h Bluetooth / 19h Mesh. MCN: 'considerably cheaper than Cardo's flagship'. First Sena with lifetime warranty. STOCK NOTE 2026-08-17: mandatory store-us.sena.com/products.json crawl now shows both Single and Dual packs out of stock (available:false) at the unchanged $459/$879 MSRP - first time this SKU has shown a full stock-out; still purchasable at full price ($459.00, no discount) via Amazon's official Sena storefront.",
       "dimensions": {
         "form_factor": {
           "weight_g": 68,
@@ -83,7 +83,7 @@
       "name": "60S",
       "tier": "flagship",
       "msrp_usd": 439,
-      "street_price_usd": 358.35,
+      "street_price_usd": 338.81,
       "intercom_tech": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular intercom",
       "range_km": 2,
       "max_riders": 24,
@@ -102,7 +102,7 @@
         "3-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level. PRICE CORRECTED 2026-07-14: street_price_usd was $351; Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price at $326.71 (range $319.95-$439, list $439.00), still below the direct-store $438.50 figure previously noted - updated to this lower confirmed price. Direct sena store listing remains out of stock at unchanged $439 MSRP as of 2026-07-10. PRICE CORRECTED 2026-08-10: street_price_usd was $326.71 (Amazon deal price fetched 2026-07-13); mandatory Amazon Sena storefront re-crawl now shows the 60S deal price at $358.35 (list $439.00, -18%) - price has risen since the July snapshot, updated to reflect the current confirmed Amazon deal price. Also corrected a stale url field that pointed to the 60S EVO product page (store-us.sena.com/products/60s-evo) instead of the 60S's own page.",
+      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level. PRICE CORRECTED 2026-07-14: street_price_usd was $351; Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price at $326.71 (range $319.95-$439, list $439.00), still below the direct-store $438.50 figure previously noted - updated to this lower confirmed price. Direct sena store listing remains out of stock at unchanged $439 MSRP as of 2026-07-10. PRICE CORRECTED 2026-08-10: street_price_usd was $326.71 (Amazon deal price fetched 2026-07-13); mandatory Amazon Sena storefront re-crawl now shows the 60S deal price at $358.35 (list $439.00, -18%) - price has risen since the July snapshot, updated to reflect the current confirmed Amazon deal price. Also corrected a stale url field that pointed to the 60S EVO product page (store-us.sena.com/products/60s-evo) instead of the 60S's own page. PRICE CORRECTED 2026-08-17: street_price_usd was $358.35; mandatory Amazon Sena storefront re-crawl now shows the deal price back down to $338.81 (list $439.00, -23%) - updated to the lower confirmed price. STOCK NOTE 2026-08-17: store-us.sena.com/products.json still shows both Single Pack and Dual Pack as out of stock (available:false) at the unchanged $439/$829 MSRP - the flagship slot continues to be effectively wound down in favor of 60S EVO/60X while remaining purchasable via Amazon.",
       "dimensions": {
         "form_factor": {
           "weight_g": 68,
@@ -225,7 +225,7 @@
       "name": "50S",
       "tier": "mid",
       "msrp_usd": 379,
-      "street_price_usd": 319.95,
+      "street_price_usd": 310.36,
       "intercom_tech": "Mesh 2.0 + Bluetooth 5.0",
       "range_km": 2,
       "max_riders": 24,
@@ -243,7 +243,7 @@
         "Wave intercom support added via app"
       ],
       "release_year": 2020,
-      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $341 (Sena's own store discount); Amazon's official Sena storefront now shows a deeper $262.00 deal price against the $379 MSRP - updated to reflect the lower live price per Amazon-storefront check. Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands. PRICE CORRECTED 2026-07-14: street_price_usd was $262.00; that deeper deal appears to have expired - Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price back up at $319.95 (list $379.00) - updated to reflect the current live price.",
+      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $341 (Sena's own store discount); Amazon's official Sena storefront now shows a deeper $262.00 deal price against the $379 MSRP - updated to reflect the lower live price per Amazon-storefront check. Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands. PRICE CORRECTED 2026-07-14: street_price_usd was $262.00; that deeper deal appears to have expired - Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price back up at $319.95 (list $379.00) - updated to reflect the current live price. PRICE CORRECTED 2026-08-17: street_price_usd was $319.95; mandatory Amazon Sena storefront re-crawl shows a deeper $310.36 deal price (-18%, list $379.00), lower than both the prior figure and RevZilla's concurrent $341.10 (10% off) listing - updated to the lowest confirmed current price per the mandate.",
       "dimensions": {
         "form_factor": {
           "weight_g": 64,
@@ -294,7 +294,7 @@
     {
       "name": "50R",
       "tier": "mid",
-      "msrp_usd": 375,
+      "msrp_usd": 339,
       "street_price_usd": 261.37,
       "intercom_tech": "Mesh 2.0 + Bluetooth 5.0",
       "range_km": 2,
@@ -310,7 +310,7 @@
         "OTA updates"
       ],
       "release_year": 2020,
-      "notes": "PRICE CORRECTED 2026-07-09: msrp_usd was null (\"sources cite RRP around EUR 300/$330, exact current US MSRP not confirmed\") - direct store-us.sena.com/products.json crawl confirms single-pack MSRP is $375 (dual pack $679); street_price_usd updated from prior $300 estimate to $337.50, the current RevZilla discounted price (was $375). Talk time ~13h Bluetooth / ~11h Mesh. PRICE CORRECTED 2026-07-14: street_price_usd was $337.50 (RevZilla); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's official listing at a lower $261.37 (list $375.00) - updated to the lower confirmed Amazon deal price per the mandate to use the lowest current listed/deal price. RETAILER CHECK 2026-08-10: RevZilla's motorcycle-bluetooth-communications brand filter now reads Sena(76) SKUs, up notably from Sena(68) last recorded - consistent with the run of 2026 launches (60X, Vortex, Spider X Slim, MeshON, Latitude/Latitude S2, SUMMIT X) expanding RevZilla's carried Sena catalog since that baseline.",
+      "notes": "PRICE CORRECTED 2026-07-09: msrp_usd was null (\"sources cite RRP around EUR 300/$330, exact current US MSRP not confirmed\") - direct store-us.sena.com/products.json crawl confirms single-pack MSRP is $375 (dual pack $679); street_price_usd updated from prior $300 estimate to $337.50, the current RevZilla discounted price (was $375). Talk time ~13h Bluetooth / ~11h Mesh. PRICE CORRECTED 2026-07-14: street_price_usd was $337.50 (RevZilla); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's official listing at a lower $261.37 (list $375.00) - updated to the lower confirmed Amazon deal price per the mandate to use the lowest current listed/deal price. RETAILER CHECK 2026-08-10: RevZilla's motorcycle-bluetooth-communications brand filter now reads Sena(76) SKUs, up notably from Sena(68) last recorded - consistent with the run of 2026 launches (60X, Vortex, Spider X Slim, MeshON, Latitude/Latitude S2, SUMMIT X) expanding RevZilla's carried Sena catalog since that baseline. PRICE CORRECTED 2026-08-17: msrp_usd was $375; mandatory store-us.sena.com/products.json crawl (SKU 50R-02) now shows single-pack at $339.00 (dual $599.00, both in stock) - a genuine price cut on Sena's own store. RevZilla's listing still references the old $375 as its 'was' price with a 10% discount to $337.50, suggesting their comparison price hasn't caught up yet. street_price_usd ($261.37) left unchanged as the last confirmed lower figure (still below the new $339 MSRP) but it predates this MSRP cut and was not re-confirmed on Amazon this run - worth re-verifying next pass.",
       "dimensions": {
         "form_factor": {
           "weight_g": 65,
@@ -723,7 +723,8 @@
         "Limited lifetime warranty"
       ],
       "release_year": 2026,
-      "notes": "Launched July 7, 2026 at $189 single (confirmed RevZilla). Positioned as entry-level Bluetooth intercom with flagship-level features (wireless charging, Quick Pair, Advanced Noise Control) previously absent from budget tiers. Replaces aging 5R/5S line as the new entry point. 2-way pairing only, no mesh or Wave cellular. STOCK UPDATE 2026-07-10: not found on store-us.sena.com/products.json (no matching handle; direct URL guesses /products/vortex and /products/vortex-2 both 404) and RevZilla lists it 'Out of Stock' for all combinations at the confirmed $189.00 price - Vortex appears to be sold out at launch across the checked channels, though the marketing page at sena.com/en-us/product/vortex/ remains live. STOCK UPDATE 2026-07-14: now live and IN STOCK on store-us.sena.com/products.json (handle: vortex, SKU VORTEX-01/VORTEX-01D) at the confirmed $189.00 single / $359.00 dual - the launch-week stock-out has resolved. Not found in the visible RevZilla motorcycle-bluetooth-communications grid as of this check.",
+      "notes": "Launched July 7, 2026 at $189 single (confirmed RevZilla). Positioned as entry-level Bluetooth intercom with flagship-level features (wireless charging, Quick Pair, Advanced Noise Control) previously absent from budget tiers. Replaces aging 5R/5S line as the new entry point. 2-way pairing only, no mesh or Wave cellular. STOCK UPDATE 2026-07-10: not found on store-us.sena.com/products.json (no matching handle; direct URL guesses /products/vortex and /products/vortex-2 both 404) and RevZilla lists it 'Out of Stock' for all combinations at the confirmed $189.00 price - Vortex appears to be sold out at launch across the checked channels, though the marketing page at sena.com/en-us/product/vortex/ remains live. STOCK UPDATE 2026-07-14: now live and IN STOCK on store-us.sena.com/products.json (handle: vortex, SKU VORTEX-01/VORTEX-01D) at the confirmed $189.00 single / $359.00 dual - the launch-week stock-out has resolved. Not found in the visible RevZilla motorcycle-bluetooth-communications grid as of this check. UPDATE 2026-08-17: now appears on RevZilla's motorcycle-bluetooth-communications grid at the unchanged $189.00 (no discount); no price drift found on Sena's own store or Amazon either (all confirm $189.00 single/$359.00 dual, in stock).",
+      "url": "https://store-us.sena.com/products/vortex",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -787,7 +788,7 @@
         "22.5 g weight"
       ],
       "release_year": 2026,
-      "notes": "Launched June 2026 at $129 (confirmed store-us.sena.com, SKU MESHON-01). Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter.",
+      "notes": "Launched June 2026 at $129 (confirmed store-us.sena.com, SKU MESHON-01). Strategic ecosystem play: pulls competitor-headset owners into Sena mesh groups. Successor to older +Mesh adapter. STOCK NOTE 2026-08-17: mandatory store-us.sena.com/products.json crawl now shows this SKU out of stock (available:false) at the unchanged $129.00 MSRP.",
       "url": "https://store-us.sena.com/products/meshon",
       "voip": false,
       "wireless_charging": false,
@@ -798,7 +799,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 649,
-      "street_price_usd": null,
+      "street_price_usd": 599.0,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE) + Bluetooth",
       "range_km": null,
       "max_riders": 24,
@@ -812,7 +813,7 @@
         "Pinlock-ready shield"
       ],
       "release_year": 2026,
-      "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price.",
+      "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price. STREET PRICE ADDED 2026-08-17: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Specter listing (Matte Black, L) at a $599.00 deal price (-8%, list $649.00 matching this SKU's MSRP exactly).",
       "url": "https://store-us.sena.com/products/specter",
       "voip": true,
       "wireless_charging": false,
@@ -847,7 +848,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 549,
-      "street_price_usd": 373.32,
+      "street_price_usd": 509.03,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE, virtually unlimited range) + Bluetooth 5.3",
       "range_km": 2.0,
       "max_riders": 24,
@@ -862,7 +863,7 @@
         "Weight 1690g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing. PRICE ADDED 2026-08-10: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Phantom listing (list price $549.00, matching this SKU's MSRP exactly) at a $373.32 deal price (-32%) - recorded as street_price_usd. Two other Amazon listings under the same generic 'Phantom and ANC' title were seen at $544.02 and $649.00 with no visible list-price strikethrough; those could not be confidently attributed to this base SKU vs. Phantom XB/ANC so were not used here.",
+      "notes": "Base model of the Phantom Family; confirmed at $549 via store-us.sena.com product listing (handle: phantom), Jul 8 2026 direct site crawl. Family also includes PHANTOM Camera (120 FOV/f2.4 action camera, 1690g) and PHANTOM Unplugged (intercom-ready shell only, no built-in comms, 1540g) - both announced on sena.com/en-us/product/phantom-family/ but NOT yet listed as individually purchasable SKUs on store-us.sena.com as of Jul 8 2026; excluded from products[] until they have real pricing. PRICE ADDED 2026-08-10: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Phantom listing (list price $549.00, matching this SKU's MSRP exactly) at a $373.32 deal price (-32%) - recorded as street_price_usd. Two other Amazon listings under the same generic 'Phantom and ANC' title were seen at $544.02 and $649.00 with no visible list-price strikethrough; those could not be confidently attributed to this base SKU vs. Phantom XB/ANC so were not used here. PRICE CORRECTED 2026-08-17: street_price_usd was $373.32; this run's Amazon storefront crawl now shows that specific listing (list $549.00, matching this SKU) at a shallower $509.03 deal (-7%) - the deep 32% discount from 2026-08-10 appears to have been a temporary promo that has since expired. Amazon also shows a separate 'Phantom and ANC' listing at $548.65 with no visible list-price reference, and Phantom ANC itself (list $649.00) is now discounted to $617.13 - recorded separately on that entry.",
       "url": "https://store-us.sena.com/products/phantom",
       "voip": true,
       "wireless_charging": false,
@@ -1014,7 +1015,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 359,
-      "street_price_usd": 313.31,
+      "street_price_usd": 359.0,
       "intercom_tech": "Integrated Bluetooth intercom (no mesh)",
       "range_km": null,
       "max_riders": 4,
@@ -1025,7 +1026,7 @@
         "Budget modular with built-in Bluetooth intercom"
       ],
       "release_year": 2021,
-      "notes": "US store price $287 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $287, live store-us.sena.com (handle: outrushr) shows $359 - prior figure was stale. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $313.31 deal price (list $359.00).",
+      "notes": "US store price $287 (Jul 2026). PRICE CORRECTED Jul 8 2026: was recorded at $287, live store-us.sena.com (handle: outrushr) shows $359 - prior figure was stale. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $313.31 deal price (list $359.00). PRICE CORRECTED 2026-08-17: street_price_usd was $313.31; this run's Amazon storefront crawl shows the listing back at full price ($359.00, no list-price strikethrough) - the discount from 2026-07-10 appears to have expired, updated to reflect no confirmed discount this run (not found on RevZilla's browsable grid either).",
       "url": "https://store-us.sena.com/products/outrushr",
       "voip": false,
       "wireless_charging": false,
@@ -1086,7 +1087,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 649,
-      "street_price_usd": null,
+      "street_price_usd": 617.13,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE, virtually unlimited range) + Bluetooth 5.3",
       "range_km": 2.0,
       "max_riders": 24,
@@ -1102,7 +1103,7 @@
         "Weight 1720g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing.",
+      "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing. STREET PRICE ADDED 2026-08-17: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Phantom ANC listing (list $649.00, matching this SKU's MSRP exactly) at a $617.13 deal price (-5%).",
       "url": "https://store-us.sena.com/products/phantom-anc",
       "voip": true,
       "wireless_charging": false,
@@ -1290,7 +1291,7 @@
         "Operating range -10C to 55C"
       ],
       "release_year": null,
-      "notes": "Snow-sports-specific communicator, designed to be built into ski/snowboard helmet ear pads rather than clamped to a moto helmet shell. STOCK UPDATE 2026-07-14: store-us.sena.com/products.json (SKU SNOWTALK2-01) now shows this SKU out of stock (available:false) at the unchanged $99.00 price - flagged here as a possible sign of seasonal restock timing or discontinuation pending confirmation.",
+      "notes": "Snow-sports-specific communicator, designed to be built into ski/snowboard helmet ear pads rather than clamped to a moto helmet shell. STOCK UPDATE 2026-07-14: store-us.sena.com/products.json (SKU SNOWTALK2-01) now shows this SKU out of stock (available:false) at the unchanged $99.00 price - flagged here as a possible sign of seasonal restock timing or discontinuation pending confirmation. STOCK UPDATE 2026-08-17: back in stock (available:true) at the unchanged $99.00 MSRP - confirms the 2026-07-14 stock-out was temporary, not a discontinuation.",
       "url": "https://www.sena.com/en-us/product/snowtalk2/",
       "voip": false,
       "wireless_charging": false,
@@ -1302,7 +1303,7 @@
       "usage": "Cycling",
       "tier": "mid",
       "msrp_usd": 169.0,
-      "street_price_usd": 157.0,
+      "street_price_usd": 167.7,
       "intercom_tech": "Mesh Intercom 3.0 (virtually unlimited participants, open mesh) + Bluetooth 5.2 (HSP/HFP/A2DP/AVRCP)",
       "range_km": 0.8,
       "max_riders": null,
@@ -1319,7 +1320,7 @@
         "Dual pack available at $319"
       ],
       "release_year": null,
-      "notes": "Purpose-built cycling communicator, not a repurposed moto unit - open-ear design keeps ambient road awareness. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $157.00 deal price (list $169.00).",
+      "notes": "Purpose-built cycling communicator, not a repurposed moto unit - open-ear design keeps ambient road awareness. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $157.00 deal price (list $169.00). PRICE CORRECTED 2026-08-17: street_price_usd was $157.00; this run's Amazon storefront crawl shows a shallower $167.70 deal - the discount has narrowed but the unit is still listed marginally below the $169.00 MSRP. Also added a new firmware entry this run (v1.5.1, Jul 7 2026) that fixes ABC voice-prompt wording, released just after the v1.5 ABC feature launch already on file.",
       "url": "https://www.sena.com/en-us/product/bikom-20/",
       "voip": false,
       "wireless_charging": false,
@@ -1407,7 +1408,7 @@
         "2-year warranty (electronics and helmet integrity)"
       ],
       "release_year": null,
-      "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: latitude, $159 M/L) during the mandatory pricing crawl. A ski/snowboard smart helmet with built-in Bluetooth intercom (not motorcycle-specific), part of Sena's outdoor snow-sports line alongside Snowtalk 2 (headset-only) and the newer Mesh-equipped Latitude S2. Amazon lists it at $135.00 (list $159.00) per Keepa data fetched 2026-07-13.",
+      "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: latitude, $159 M/L) during the mandatory pricing crawl. A ski/snowboard smart helmet with built-in Bluetooth intercom (not motorcycle-specific), part of Sena's outdoor snow-sports line alongside Snowtalk 2 (headset-only) and the newer Mesh-equipped Latitude S2. Amazon lists it at $135.00 (list $159.00) per Keepa data fetched 2026-07-13. LIKELY DISCONTINUED 2026-08-17: mandatory store-us.sena.com/products.json crawl (250+ SKUs) no longer contains a 'latitude' handle or any variant of this base Latitude model - only 'Latitude S2' (handle: lts2) is present. Web search found third-party listings describing it as no longer available direct from Sena. Retained here for historical record; flagged as likely discontinued/superseded by Latitude S2.",
       "url": "https://store-us.sena.com/products/latitude-s1-snow-helmet",
       "voip": false,
       "wireless_charging": false,
@@ -1441,6 +1442,91 @@
       "voip": false,
       "wireless_charging": false,
       "detachable_battery": false
+    },
+    {
+      "name": "APEX",
+      "usage": "Motorcycle",
+      "tier": "mid",
+      "msrp_usd": 265,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth 6.0, 2-way intercom (Universal Intercom, one-button pairing)",
+      "range_km": 1.6,
+      "max_riders": 2,
+      "audio": "2nd Generation 40mm HD speakers, AI-based noise cancellation",
+      "talk_time_hours": 20,
+      "waterproof": "IPX7",
+      "features": [
+        "Modular Sandwich Battery System - user-replaceable battery, includes spare battery + dual charging dock",
+        "Glove-friendly thumbwheel interface (rotate + press) for volume, music, calls and intercom",
+        "Magnetic helmet mount with interchangeable faceplates (Silver Stone default, Alpine White, Matte Black included)",
+        "Wireless charging compatible (Qi-certified chargers)",
+        "Integrated FM radio",
+        "Voice commands, OTA firmware updates, Auto On/Off",
+        "USB-C charging, ~2h full charge",
+        "Limited Lifetime Warranty"
+      ],
+      "release_year": 2026,
+      "notes": "ADDED 2026-08-17 via mandatory store-us.sena.com/products.json crawl (handle: apex, SKU APEX-01/APEX-01D). Officially unveiled as a preview at EICMA Nov 2025 (positioned then as 'SF successors, replaceable batteries') but only went on sale with a full Sena newsroom launch on Aug 5, 2026 ('Sena Introduces APEX and APEX PLUS, Next Generation Bluetooth Communication Systems Designed for the Modern Rider') - this is the first run that found it purchasable. APEX = 2-way intercom (1:1); the 4-way sibling is sold as a separate SKU, APEX PLUS. VP of Sales Jakub Smykal: 'designed for the rider who values premium features like replaceable batteries and intuitive controls, but doesn't necessarily need the complexity of an advanced system.' Not yet reviewed by MCN/RevZilla/etc. (too new). Dual pack $499.",
+      "url": "https://store-us.sena.com/products/apex",
+      "voip": false,
+      "wireless_charging": true,
+      "detachable_battery": true
+    },
+    {
+      "name": "APEX PLUS",
+      "usage": "Motorcycle",
+      "tier": "mid",
+      "msrp_usd": 325,
+      "street_price_usd": null,
+      "intercom_tech": "Bluetooth 6.0, 4-way intercom (Universal Intercom, one-button pairing)",
+      "range_km": 1.6,
+      "max_riders": 4,
+      "audio": "2nd Generation 40mm HD speakers, AI-based noise cancellation",
+      "talk_time_hours": 20,
+      "waterproof": "IPX7",
+      "features": [
+        "Modular Sandwich Battery System - user-replaceable battery, includes spare battery + dual charging dock",
+        "Glove-friendly thumbwheel interface (rotate + press) for volume, music, calls and intercom",
+        "Magnetic helmet mount with interchangeable faceplates (Silver Stone default, Alpine White, Matte Black included)",
+        "Wireless charging compatible (Qi-certified chargers)",
+        "Integrated FM radio",
+        "Voice commands, OTA firmware updates, Auto On/Off",
+        "USB-C charging, ~2h full charge",
+        "Limited Lifetime Warranty"
+      ],
+      "release_year": 2026,
+      "notes": "ADDED 2026-08-17 via mandatory store-us.sena.com/products.json crawl (handle: apex, SKU APEX-PLUS-01/APEX-PLUS-01D - shares the same product page/handle as APEX, differentiated by the 'Model' variant option). Launched alongside APEX on Aug 5, 2026 per Sena newsroom. Up-sells the base APEX with 4-way (vs 2-way) intercom capability at the same hardware/feature set otherwise. Not yet reviewed by MCN/RevZilla/etc. (too new). Dual pack $599.",
+      "url": "https://store-us.sena.com/products/apex",
+      "voip": false,
+      "wireless_charging": true,
+      "detachable_battery": true
+    },
+    {
+      "name": "PRISM 2",
+      "usage": "Motorcycle",
+      "tier": "mid",
+      "msrp_usd": 349,
+      "street_price_usd": null,
+      "intercom_tech": "Records Mesh Intercom 2.0/3.0 conversations (Open Mesh and Group Mesh simultaneously) directly onto video via built-in WiFi link to a paired Sena intercom; not itself an intercom headset",
+      "range_km": null,
+      "max_riders": null,
+      "audio": "Internal mic or direct Mesh Intercom audio capture; independent left/right channel assignment; Advanced Noise Control",
+      "talk_time_hours": null,
+      "waterproof": "IPX7",
+      "features": [
+        "4K/30fps video (Sony IMX317 sensor), 165-degree FOV, 20MP photo, Electronic Image Stabilization",
+        "Records Mesh Intercom conversations synced to video without adapters/cables - core differentiator per Sena's launch messaging",
+        "Dual touchscreens: 2.4-inch rear LCD + 1.4-inch front LCD",
+        "Magnetic quick-mount locking system, multiple motorcycle/action-sports mount options",
+        "Built-in WiFi, works with the Sena Camera+ App",
+        "EIS does not function at the fastest frame rates (2.7K60, 1080p120, 720p120) per Ultimate Motorcycling's first-look"
+      ],
+      "release_year": 2026,
+      "notes": "ADDED 2026-08-17: new action-camera product launched Aug 11, 2026 ('Sena Launches PRISM 2: The Easiest Way to Record Mesh Intercom Conversations and Every Moment of the Ride'), confirmed purchasable at $349 via store-us.sena.com/products.json (handle: prism2). Successor to the original Sena Prism/Prism Tube cameras. Not a standalone communicator - pairs with a Sena Mesh Intercom device (60S/60S EVO/60X/50S/etc.) to capture group-ride audio alongside 4K video. First press coverage: Ultimate Motorcycling 'First Look: 7 Fast Facts, Plus Specs' (Aug 16, 2026), positive/neutral tone, frames it as solving a genuine group-ride content-creation problem.",
+      "url": "https://store-us.sena.com/products/prism2",
+      "voip": false,
+      "wireless_charging": false,
+      "detachable_battery": null
     }
   ],
   "strengths": [
@@ -1595,6 +1681,24 @@
       "headline": "Daily mandatory crawl (smart-helmet category page + store-us.sena.com/products.json, 259 total SKUs) confirmed Outforce ($199) and Surge ($419) remain correctly listed from a prior audit - no helmets found missing this run - and reconfirmed Outstar 2 is still absent from both the live category page and the store feed a month after first being flagged as likely discontinued. No live-price drift found across the 35 tracked products except the 60S and Phantom (base), corrected via the mandatory Amazon storefront crawl: 60S street price raised $326.71 to $358.35 (list $439, Amazon deal); Phantom (base) street price added at $373.32 (was null; list $549 matches this SKU exactly). Also fixed a stale url field on the 60S entry that had pointed to the 60S EVO product page. RevZilla's Sena(N) brand-filter SKU count rose to 76, up from the last recorded 68 - consistent with 2026's run of new launches (60X, Vortex, Spider X Slim, MeshON, Latitude/Latitude S2, SUMMIT X) broadening RevZilla's carried Sena catalog. sena.com's News and Notices pages show no new product announcements, firmware releases, or app updates since the 2026-07-16 5S v2.3.2 notice (Notices index #219 remains the latest entry); Sena Motorcycles app (v3.5) and Wave Intercom app (v1.0.24) are unchanged. No new press reviews with a rating/verdict found for the newer 60X, Vortex, or Spider X Slim models (all launched within the last ~5 weeks) from MCN, Bennetts BikeSocial, RideApart, webBikeWorld, FortNine, or RevZilla Common Tread as of this check.",
       "source": "Internal data audit",
       "url": "https://store-us.sena.com/products.json?limit=250"
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Sena Introduces APEX and APEX PLUS: next-generation Bluetooth intercoms (2-way and 4-way) with a Modular Sandwich Battery System (user-replaceable battery), Bluetooth 6.0, thumbwheel controls, wireless charging and Limited Lifetime Warranty at $265/$325 single. First previewed at EICMA Nov 2025 as SF-series successors; this is the on-sale launch",
+      "source": "Sena newsroom",
+      "url": "https://www.sena.com/en-us/stories/news/sena-introduces-apex-and-apex-plus-next-generation-bluetooth-communication-systems-designed-for-the-modern-rider/"
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Sena Launches PRISM 2: 4K/30fps action camera ($349) that records Mesh Intercom 2.0/3.0 conversations directly onto video via WiFi link to a paired intercom, without adapters or cables - successor to the original Prism/Prism Tube cameras",
+      "source": "Sena newsroom",
+      "url": "https://www.sena.com/en-us/stories/news/sena-launches-prism-2-the-easiest-way-to-record-mesh-intercom-conversations-and-every-moment-of-the-ride/"
+    },
+    {
+      "date": "2026-08-17",
+      "headline": "Daily mandatory crawl (smart-helmet category page, 10 families all already tracked, no new helmets + store-us.sena.com/products.json, 250+ SKUs) found two genuinely new hardware launches missed by prior runs: APEX/APEX PLUS Bluetooth intercoms (on sale since Aug 5, previously only tracked as an EICMA preview) and the brand-new PRISM 2 action camera (launched Aug 11) - both added to products[]. Price correction: 50R msrp_usd lowered $375 to $339 on Sena's own store (a genuine cut; RevZilla's reference price hasn't caught up yet). Amazon storefront re-crawl moved several street prices: 60S down $358.35 to $338.81; 50S down $319.95 to $310.36; Phantom (base) up $373.32 to $509.03 (the deep 2026-08-10 discount expired); Outrush R up $313.31 to $359.00 (discount expired, now full price); BiKom 20 up $157.00 to $167.70 (discount narrowed); added new street prices for Specter ($599 vs $649 MSRP) and Phantom ANC ($617.13 vs $649 MSRP), both previously null. Stock changes on Sena's own store: 60S EVO now shows both packs out of stock for the first time (previously only 60S was out); MeshON now out of stock (was in stock 2026-07-14); Snowtalk 2 back in stock (was out 2026-07-14); the original Latitude (non-S2) snow helmet has disappeared from the store feed entirely and is flagged as likely discontinued in favor of Latitude S2. Backfilled a missed firmware notice, BiKom 20 v1.5.1 (Jul 7 2026, ABC voice-prompt fix), found via the Notices index; no new firmware or app releases since (Notices index still tops out at #219, 5S v2.3.2, Jul 16). Sena Motorcycles app remains v3.5 (App Store rating now 2.1/5 with 125 ratings, up from 122); Wave Intercom app remains v1.0.24. First press coverage of PRISM 2 landed same-day: Ultimate Motorcycling's Aug 16 first-look. RevZilla's Sena(N) brand-filter SKU count unchanged at 76.",
+      "source": "Internal data audit",
+      "url": "https://store-us.sena.com/products.json?limit=250"
     }
   ],
   "social_media": {
@@ -1635,7 +1739,7 @@
       "channel": "youtube.com/@senatechnologies (handle @senatechnologies; plus Sena Outdoor and Sena Deutschland sub-channels)",
       "subscribers": 40100,
       "url": "https://www.youtube.com/@senatechnologies",
-      "notes": "40.1K subscribers, 723 videos (updated 2026-08-10 check; was 39.8K/713 videos in 2026-07-14 check). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
+      "notes": "40.1K subscribers, 724 videos (updated 2026-08-17 check; was 40.1K/723 videos on 2026-08-10, 39.8K/713 videos on 2026-07-14). Subscriber count has plateaued while upload cadence stays steady (~1 video/week). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26."
     },
     "tiktok": {
       "handle": "@senabluetooth",
@@ -1836,6 +1940,42 @@
         "platform": "Instagram",
         "summary": "Sena Outlander-branded story post: 'When the unexpected hits, the crew steps up. The race is still on.'",
         "url": "https://www.instagram.com/p/DbD5Q0gSw6Y/"
+      },
+      {
+        "date": "2026-08-17",
+        "platform": "Instagram",
+        "summary": "Official Sena Bluetooth post launching the SENA PRISM 2 action camera, combining 4K recording with Mesh Intercom for riders.",
+        "url": "https://www.instagram.com/p/DcJ2Kw7jl13/"
+      },
+      {
+        "date": "2026-08-05",
+        "platform": "Instagram",
+        "summary": "Official launch post: 'Sena launches Apex and Apex Plus, its first bluetooth intercoms with replaceable batteries' - announcement pointing to the sena.com product page",
+        "url": "https://www.instagram.com/p/DcJHkGUCgDY/"
+      },
+      {
+        "date": "2026-08-17",
+        "platform": "Facebook Group",
+        "summary": "Thread 'Sena 60x motorcycle comms unit review: great sound...' in the 'Sena 60s, 60s EVO, and 60x Users' owner group - member reports the 60X 'seems to be better for audio/sound and battery life' than prior Sena units and announces battery strength on power on/off similar to Cardo",
+        "url": "https://www.facebook.com/groups/860066485997389/posts/1430841472253218/"
+      },
+      {
+        "date": "2026-08-17",
+        "platform": "Facebook Group",
+        "summary": "Thread 'Sena 60S EVO Bluetooth speaker issue with no sound' in the owner group - member traces a dead-speaker fault to a bent contact pin on the mount and shares the fix ('that little tab that slides up into the unit... was bent out')",
+        "url": "https://www.facebook.com/groups/860066485997389/posts/1427496155921083/"
+      },
+      {
+        "date": "2026-08-17",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Sena 60S vs Cardo Packtalk Edge' - commenter notes Sena has open-proximity chat to talk to any nearby Sena user while 'Cardo has allegedly had this' too, framing it as a near-parity feature race (date estimated from post ID)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1uef58i/sena_60s_vs_cardo_packtalk_edge/"
+      },
+      {
+        "date": "2026-08-17",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear troubleshooting thread 'Sena SRL3 music interrupting while riding' - community advice centers on disabling VOX Intercom and adjusting the Intercom-Audio Overlay Sensitivity in the Sena Motorcycles App (date estimated from post ID)",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1rpu36e/sena_srl3_music_interrupting_while_riding/"
       }
     ]
   },
@@ -1924,6 +2064,13 @@
         "product": "Sena vs Cardo comparison",
         "verdict": "Critical of marketing claims: testing found Sena's advertised range advantage over Cardo 'isn't actually true' - highly influential with the enthusiast audience",
         "url": "https://fortnine.ca/en/best-motorcycle-communication-systems-2017"
+      },
+      {
+        "outlet": "Ultimate Motorcycling",
+        "date": "2026-08-16",
+        "product": "PRISM 2",
+        "verdict": "Positive/neutral first-look: '7 Fast Facts, Plus Specs' frames the camera's Mesh Intercom audio recording as solving a genuine group-ride content problem; only caveat noted is that Electronic Image Stabilization doesn't work at the fastest frame rates (2.7K60, 1080p120, 720p120), which the reviewer flags as more consequential on a motorcycle than a helmet camera due to engine buzz at highway speed",
+        "url": "https://ultimatemotorcycling.com/2026/08/16/sena-prism-2-action-camera-first-look-7-fast-facts-plus-specs/"
       }
     ],
     "awards": [
@@ -1931,7 +2078,7 @@
       "Red Dot Award for product design: MeshPort Blue (industrial hearing-protection comm device, adjacent product line)",
       "60S design award win (2025) cited in Motorionline's test coverage"
     ],
-    "overall_tone": "Broadly positive-to-enthusiastic on hardware innovation - Wave cellular intercom, the Bose partnership and the lifetime warranty reliably generate headlines, and MCN gave the 60S a 4/5 long-term verdict. But there is a consistent critical undercurrent on software: AI noise cancellation underdelivering at speed (1000PS), Wave app bugs (MCN), and Cardo still winning most head-to-head 'best overall' verdicts (Bikenrider 2026, pmaxmotor 2025). US legacy outlets (Cycle World, RideApart, Motorcyclist) showed little indexed 2024-26 Sena review coverage; Sena's strongest press traction is UK/EU (MCN, Bennetts, 1000PS, Motorionline) plus specialist/ADV outlets (ADV Pulse, Ultimate Motorcycling).",
+    "overall_tone": "Broadly positive-to-enthusiastic on hardware innovation - Wave cellular intercom, the Bose partnership and the lifetime warranty reliably generate headlines, and MCN gave the 60S a 4/5 long-term verdict. But there is a consistent critical undercurrent on software: AI noise cancellation underdelivering at speed (1000PS), Wave app bugs (MCN), and Cardo still winning most head-to-head 'best overall' verdicts (Bikenrider 2026, pmaxmotor 2025). US legacy outlets (Cycle World, RideApart, Motorcyclist) showed little indexed 2024-26 Sena review coverage; Sena's strongest press traction is UK/EU (MCN, Bennetts, 1000PS, Motorionline) plus specialist/ADV outlets (ADV Pulse, Ultimate Motorcycling). UPDATE 2026-08-17: no reviews with a rating/verdict yet for 60X, Vortex, Spider X Slim, APEX/APEX PLUS (all launched within the last 6 weeks); PRISM 2 got same-day first-look coverage from Ultimate Motorcycling, continuing the pattern of fast trade-press pickup on new hardware ahead of long-form verdicts.",
     "summary": "Press treats Sena as the innovation-pace leader (Wave, Bose, EICMA range overhauls) but not the reliability leader: reviewers repeatedly recommend Cardo Packtalk for group-riding dependability while crediting Sena for value, feature breadth and range of products. Award wins are design-focused (iF, Red Dot) rather than editorial 'best intercom of the year' titles."
   },
   "firmware_updates": [
@@ -2170,6 +2317,18 @@
       "source": "Sena support notices"
     },
     {
+      "date": "2026-07-07",
+      "product": "BiKom 20",
+      "type": "firmware",
+      "version": "1.5.1",
+      "title": "BiKom 20 v1.5.1 - ABC voice prompt correction",
+      "changes": [
+        "Corrected the voice prompts for the Audible Bicycle Computer (ABC) feature"
+      ],
+      "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-bikom-20-v1-5-1/",
+      "source": "Sena support notices"
+    },
+    {
       "date": "2026-06-09",
       "product": "Phantom (full-face smart helmet family)",
       "type": "firmware",
@@ -2251,8 +2410,9 @@
       "product": "Wave Intercom app",
       "type": "app",
       "version": "1.0.24",
-      "title": "Wave Intercom app 1.0.24 - routine stability release",
+      "title": "Wave Intercom app 1.0.24 - expanded language support",
       "changes": [
+        "Expanded language support: Spanish and Italian now available",
         "Bug fixes and performance improvements"
       ],
       "url": "https://apps.apple.com/us/app/wave-intercom/id6670228363",
@@ -2281,7 +2441,7 @@
     "app_ios_version": "3.5",
     "app_android_version": "3.5",
     "app_last_updated": "2026-06-17",
-    "notes": "Firmware ships as free OTA updates delivered through the Sena Motorcycles companion app (Bluetooth-paired), with a WiFi Adapter/WiFi Charging Cable or the Sena Device Manager desktop tool as alternate delivery paths for older units without direct app-based OTA. Sena publishes granular per-model release notes on sena.com/stories/notice/ (over 200 dated notices since 2023), often multiple point releases per quarter per model, mostly bug-fix and compatibility patches (BMW/Harley-Davidson TFT and infotainment pairing, action-camera conflicts, Bluetooth stability) rather than headline feature drops - see product_firmware for current per-product firmware versions and firmware_updates for the full history. The Sena Motorcycles app itself updates roughly monthly (per Apple App Store version history) and carries a poor App Store rating (2.1/5, 122 ratings) with recurring complaints about pairing loops and connection reliability; the separate Wave Intercom app updates even more frequently (near-biweekly cadence in 2025-26) and has steadily added features (Friends Wave, voice mode, landscape mode, expanded language/TTS support) alongside frequent 'bug fixes and performance improvements' releases. CHECKED 2026-08-10: no new Sena Motorcycles app release since v3.5 (Jun 17); no new Wave Intercom app release since v1.0.24 (Jul 13); sena.com's numbered Notices firmware log (index #219, SENA RELEASES FIRMWARE UPDATES FOR THE 5S v2.3.2, Jul 16 2026) remains the most recent published firmware notice site-wide - confirms no per-model firmware releases in the Jul 16-Aug 10 window."
+    "notes": "Firmware ships as free OTA updates delivered through the Sena Motorcycles companion app (Bluetooth-paired), with a WiFi Adapter/WiFi Charging Cable or the Sena Device Manager desktop tool as alternate delivery paths for older units without direct app-based OTA. Sena publishes granular per-model release notes on sena.com/stories/notice/ (over 200 dated notices since 2023), often multiple point releases per quarter per model, mostly bug-fix and compatibility patches (BMW/Harley-Davidson TFT and infotainment pairing, action-camera conflicts, Bluetooth stability) rather than headline feature drops - see product_firmware for current per-product firmware versions and firmware_updates for the full history. The Sena Motorcycles app itself updates roughly monthly (per Apple App Store version history) and carries a poor App Store rating (2.1/5, 122 ratings) with recurring complaints about pairing loops and connection reliability; the separate Wave Intercom app updates even more frequently (near-biweekly cadence in 2025-26) and has steadily added features (Friends Wave, voice mode, landscape mode, expanded language/TTS support) alongside frequent 'bug fixes and performance improvements' releases. CHECKED 2026-08-10: no new Sena Motorcycles app release since v3.5 (Jun 17); no new Wave Intercom app release since v1.0.24 (Jul 13); sena.com's numbered Notices firmware log (index #219, SENA RELEASES FIRMWARE UPDATES FOR THE 5S v2.3.2, Jul 16 2026) remains the most recent published firmware notice site-wide - confirms no per-model firmware releases in the Jul 16-Aug 10 window. CHECKED 2026-08-17: still no new Sena Motorcycles app release since v3.5 (App Store rating now 2.1/5 with 125 ratings, up from 122); still no new Wave Intercom app release since v1.0.24. Notices index found a firmware notice that had been missed in prior runs - #218, BiKom 20 v1.5.1 (Jul 7 2026, ABC voice-prompt fix) - now backfilled into firmware_updates; #219 (5S v2.3.2, Jul 16) remains the latest indexed notice, so nothing new firmware-wise in the Jul 16-Aug 17 window. Two brand-new hardware launches this run (APEX/APEX PLUS Bluetooth intercoms, Aug 5; PRISM 2 action camera, Aug 11) do not yet have published firmware version numbers or release notes on sena.com/stories/notice/ - too new."
   },
   "product_firmware": [
     {
@@ -2459,6 +2619,38 @@
       "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-surge-v1-2/",
       "user_manual_url": null,
       "support_url": "https://www.sena.com/en-us/support/surge/"
+    },
+    {
+      "product": "BiKom 20",
+      "firmware_version": "1.5.1",
+      "firmware_last_updated": "2026-07-07",
+      "release_notes_url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-bikom-20-v1-5-1/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/bikom-20/"
+    },
+    {
+      "product": "APEX",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/apex/"
+    },
+    {
+      "product": "APEX PLUS",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/apex/"
+    },
+    {
+      "product": "PRISM 2",
+      "firmware_version": null,
+      "firmware_last_updated": null,
+      "release_notes_url": "https://www.sena.com/en-us/stories/notices/",
+      "user_manual_url": null,
+      "support_url": "https://www.sena.com/en-us/support/prism2/"
     }
   ],
   "sources": [
@@ -2545,7 +2737,22 @@
     "https://store-us.sena.com/products/5r-lite",
     "https://store-us.sena.com/products/spider-rt1-01",
     "https://store-us.sena.com/products/60s",
-    "https://www.revzilla.com/motorcycle/sena-vortex-bluetooth-communication-system"
+    "https://www.revzilla.com/motorcycle/sena-vortex-bluetooth-communication-system",
+    "https://www.sena.com/en-us/stories/news/sena-introduces-apex-and-apex-plus-next-generation-bluetooth-communication-systems-designed-for-the-modern-rider/",
+    "https://store-us.sena.com/products/apex",
+    "https://www.sena.com/en-us/stories/news/sena-launches-prism-2-the-easiest-way-to-record-mesh-intercom-conversations-and-every-moment-of-the-ride/",
+    "https://store-us.sena.com/products/prism2",
+    "https://ultimatemotorcycling.com/2026/08/16/sena-prism-2-action-camera-first-look-7-fast-facts-plus-specs/",
+    "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-bikom-20-v1-5-1/",
+    "https://www.sena.com/en-us/stories/notices/",
+    "https://apps.apple.com/us/app/sena-motorcycles/id1575310271",
+    "https://www.instagram.com/p/DcJHkGUCgDY/",
+    "https://www.facebook.com/groups/860066485997389/posts/1430841472253218/",
+    "https://www.facebook.com/groups/860066485997389/posts/1427496155921083/",
+    "https://www.reddit.com/r/motorcyclegear/comments/1uef58i/sena_60s_vs_cardo_packtalk_edge/",
+    "https://www.reddit.com/r/motorcyclegear/comments/1rpu36e/sena_srl3_music_interrupting_while_riding/",
+    "https://www.reddit.com/r/motorcyclegear/comments/1nhtpow/sena_phantom_full_face_helmet/",
+    "https://www.reddit.com/r/motorcyclegear/comments/1p01z2y/first_full_face_helmet_sena_stryker_has_amazing/"
   ],
   "customer_feedback": [
     {
@@ -3037,6 +3244,116 @@
       "topic": "Mesh mutes music volume",
       "summary": "Hungarian-language post: user reports that turning on mesh mode drops music volume to zero with no way to raise it, despite resetting the device and adjusting all settings.",
       "url": "https://www.facebook.com/groups/860066485997389/permalink/1422112443126121/"
+    },
+    {
+      "date": "2026-08-18",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Hardware defect",
+      "summary": "User's Sena headset broke; on inspecting the connections they found one of the small metal pins in the battery connector was missing, which they worked around by cutting and reworking the connectors.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1sz1mrx/sena_headset_broken_possible_fix/"
+    },
+    {
+      "date": "2026-08-18",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Multitasking/audio conflict",
+      "summary": "User reports their Sena unit connects to both phone and GPS but can't play both at once - turn-by-turn directions either don't come through during music, or the music stops when directions play.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/146mdq0/sena_multitask_problem/"
+    },
+    {
+      "date": "2026-08-18",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Reliability complaint",
+      "summary": "User shopping for an HJC RPHA 91 intercom notes that a Sena-based unit (a rebranded Sena B21) didn't work for them, unsure whether it was a faulty individual unit or a problem with the B21 model itself.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1nwci4f/intercom_for_hjc_rpha_91_carbon/"
+    },
+    {
+      "date": "2026-08-18",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Spider RT1 / ST1",
+      "sentiment": "positive",
+      "topic": "Praise for reliability",
+      "summary": "User recommending comms for an HJC RPHA91 says they have used both the Sena Spider RT1 and ST1, and both worked really well without any issues.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1n1rgsg/best_commsbluetooth_unit_to_go_with_hjc_rpha91/"
+    },
+    {
+      "date": "2026-08-16",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60X",
+      "sentiment": "neutral",
+      "topic": "Mode memory question",
+      "summary": "A member switching from Cardo asked whether the 60X remembers which mode (mesh or Bluetooth) it was in when powered off and restarted, or requires re-selecting the mode each time.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1442507874419911/"
+    },
+    {
+      "date": "2026-08-16",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "neutral",
+      "topic": "Music sharing + intercom question",
+      "summary": "A member asked how a rider and passenger both using Sena 60S units can share the same Bluetooth music stream on their headsets while also using intercom, without playing music through the bike's speakers.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1442366634434035/"
+    },
+    {
+      "date": "2026-08-16",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Housing piece broke/detached",
+      "summary": "A member (posting in German) said the lower cover/fairing came off their unit after only a few days of use and that they contacted Sena to request a replacement.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1442388597765172/"
+    },
+    {
+      "date": "2026-08-16",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Clamp mount fitment issue",
+      "summary": "A member called the Sena 60-series clamp mount design 'awful,' saying it won't fit on their Bell, Nolan, or Simpson helmets, leaving the £120 sticky mount as their only option.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1442012081136157/"
+    },
+    {
+      "date": "2026-08-16",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60X",
+      "sentiment": "negative",
+      "topic": "Mesh echo issue",
+      "summary": "A member reported installing two new 60X units, with Bluetooth working fine but mesh intercom producing a severe echo that persists even at the slightest sound, and asked if they're missing a setting.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1441744567829575/"
+    },
+    {
+      "date": "2026-08-17",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Phantom (base)",
+      "sentiment": "positive",
+      "topic": "Value perception",
+      "summary": "A poster describes the Phantom as 'essentially a 60S with a helmet built around it,' calling it comfortable and noting the price 'currently hovers around $300' from Sena - well below the $549 MSRP, consistent with the deep Amazon discounting tracked on this SKU.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1nhtpow/sena_phantom_full_face_helmet/"
+    },
+    {
+      "date": "2026-08-17",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Stryker (full-face smart helmet)",
+      "sentiment": "positive",
+      "topic": "First-helmet praise",
+      "summary": "A first-time full-face buyer reports the Sena Stryker has 'amazing sounding speakers, and communication system,' crediting Sena for building in cameras and integrated comms as genuine innovation versus other helmet brands.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1p01z2y/first_full_face_helmet_sena_stryker_has_amazing/"
     }
   ],
   "amazon_pricing": {

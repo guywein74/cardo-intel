@@ -847,7 +847,7 @@
         "model": "Freecom 2x",
         "price": "$254.95 → $210 street"
       },
-      "exec_summary": "Freecom 2x sells premium 2-rider Bluetooth with JBL sound. Sena's Spider RT1/ST1 was repriced from $199 to $239 in July 2026 and is now marked out of stock on Sena's own store (possibly being wound down ahead of the Spider X Slim successor) — Freecom 2x now actually undercuts it at $210 street, though Spider still offers 24-rider MESH vs Freecom's 2-rider BT. ASMAX Future 1 still brings mesh + AI at $155. A 2-rider BT unit above $200 is structurally hard to defend in 2026; JBL audio and Live Intercom UX are the remaining pillars.",
+      "exec_summary": "Freecom 2x sells premium 2-rider Bluetooth with JBL sound, but faces a fresh same-segment rival: Sena's APEX, launched Aug 5, 2026 at $265 MSRP - a 2-way Bluetooth-only intercom (no mesh) that doesn't undercut on price yet, but adds a user-replaceable battery and Qi wireless charging, two genuine Freecom weaknesses, plus a Limited Lifetime Warranty. Sena's Spider RT1/ST1 was separately repriced from $199 to $239 in July 2026 and is now marked out of stock on Sena's own store (possibly being wound down ahead of the Spider X Slim successor) — Freecom 2x still undercuts it at $210 street, though Spider offers 24-rider MESH vs Freecom's 2-rider BT. ASMAX Future 1 still brings mesh + AI at $155. A 2-rider BT unit above $200 is structurally hard to defend in 2026 against both mesh challengers and Sena's own hardware-forward APEX; JBL audio and Live Intercom UX are the remaining pillars, but the replaceable-battery gap is now a live competitive liability, not just a hypothetical one.",
       "matchups": [
         {
           "brand": "Sena",
@@ -884,6 +884,26 @@
             "14h talk + fast charge",
             "~$60-100 cheaper"
           ]
+        },
+        {
+          "brand": "Sena",
+          "model": "APEX",
+          "price": "$265 (dual pack $499)",
+          "blurb": "Launched Aug 5, 2026 (previewed at EICMA Nov 2025): Sena's new 2-way Bluetooth-only intercom - Universal Intercom BT 6.0, 20h talk, IPX7, user-replaceable Modular Sandwich Battery with spare battery + dual charging dock included, Qi wireless charging, Limited Lifetime Warranty. Sena VP Jakub Smykal pitched it as 'for the rider who values premium features like replaceable batteries and intuitive controls, but doesn't necessarily need the complexity of an advanced system' - i.e. a direct Bluetooth-only rival to Freecom 2x, not a mesh play.",
+          "cardo_advantage": [
+            "JBL-branded audio vs APEX's unbranded 'HD' speakers",
+            "Proven multi-year reliability record vs brand-new (Aug 2026), unreviewed hardware",
+            "Established street-price discounting ($210) vs APEX's undiscounted $265 launch MSRP"
+          ],
+          "competitor_advantage": [
+            "User-replaceable battery + spare battery/dual charging dock included - Freecom's sealed battery is a real long-term-ownership weakness",
+            "Qi wireless charging (Freecom is wired-only)",
+            "Limited Lifetime Warranty vs Freecom's 2-year coverage",
+            "Interchangeable magnetic faceplates for styling"
+          ],
+          "to_test": [
+            "Real-world sound quality and range once independently reviewed (too new for MCN/RevZilla verdicts as of Aug 2026)"
+          ]
         }
       ],
       "ratings": {
@@ -899,6 +919,10 @@
           [
             "ASMAX",
             "Future 1"
+          ],
+          [
+            "Sena",
+            "APEX"
           ]
         ],
         "rows": [
@@ -907,13 +931,15 @@
             "scores": [
               "good",
               "soso",
-              "good"
+              "good",
+              "soso"
             ],
-            "note": "Freecom slim; Future 1 50 g magnetic",
+            "note": "Freecom slim; Future 1 50 g magnetic; APEX too new for a size/weight verdict (unpublished as of Aug 2026)",
             "values": [
               "37g",
               "65g",
-              "50g"
+              "50g",
+              "—"
             ]
           },
           {
@@ -921,13 +947,15 @@
             "scores": [
               "good",
               "soso",
+              "good",
               "good"
             ],
             "note": "Natural Voice + OTA vs Spider's app issues; Future 1 AI voice",
             "values": [
               "wheel+btn",
               "jog dial",
-              "wheel+btn"
+              "wheel+btn",
+              "thumbwheel"
             ]
           },
           {
@@ -935,13 +963,15 @@
             "scores": [
               "good",
               "bad",
+              "soso",
               "soso"
             ],
-            "note": "JBL 40mm vs Spider standard HD; Future 1 tuned 40mm",
+            "note": "JBL 40mm vs Spider standard HD; Future 1 tuned 40mm; APEX 40mm HD, no named audio partner, unreviewed",
             "values": [
               "40mm JBL",
               "40mm Sena HD",
-              "40mm ASMAX Bongiovi"
+              "40mm ASMAX Bongiovi",
+              "40mm HD (unbranded)"
             ]
           },
           {
@@ -949,13 +979,15 @@
             "scores": [
               "bad",
               "good",
-              "soso"
+              "soso",
+              "bad"
             ],
-            "note": "2-rider BT vs 24-rider mesh; Future 1 mesh but brand-locked",
+            "note": "2-rider BT vs 24-rider mesh; Future 1 mesh but brand-locked; APEX Bluetooth-only (no mesh) despite premium positioning",
             "values": [
               "BT only",
               "mesh",
-              "mesh"
+              "mesh",
+              "BT only, 2-rider"
             ]
           },
           {
@@ -963,13 +995,15 @@
             "scores": [
               "soso",
               "good",
+              "good",
               "good"
             ],
-            "note": "Freecom 2x 0.8km · Spider RT1 / ST1 2km · Future 1 3km",
+            "note": "Freecom 2x 0.8km · Spider RT1 / ST1 2km · Future 1 3km; APEX 1.6km",
             "values": [
               "0.8km",
               "2km",
-              "3km"
+              "3km",
+              "1.6km"
             ]
           },
           {
@@ -977,13 +1011,15 @@
             "scores": [
               "bad",
               "good",
-              "soso"
+              "soso",
+              "bad"
             ],
-            "note": "Freecom 2x 2r · Spider RT1 / ST1 24r · Future 1 10r",
+            "note": "Freecom 2x 2r · Spider RT1 / ST1 24r · Future 1 10r · APEX 2",
             "values": [
               "2",
               "24",
-              "10"
+              "10",
+              "2"
             ]
           },
           {
@@ -991,18 +1027,21 @@
             "scores": [
               "soso",
               "good",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Freecom 2x 13h · Spider RT1 / ST1 20h · Future 1 14h",
+            "note": "Freecom 2x 13h · Spider RT1 / ST1 20h · Future 1 14h · APEX 20h",
             "values": [
               "13h",
               "20h",
-              "14h"
+              "14h",
+              "20h"
             ]
           },
           {
             "dimension": "Charging",
             "scores": [
+              "soso",
               "soso",
               "soso",
               "soso"
@@ -1011,7 +1050,8 @@
             "values": [
               "fast",
               "fast",
-              "std"
+              "std",
+              "std (~2h)"
             ]
           },
           {
@@ -1019,12 +1059,14 @@
             "scores": [
               "soso",
               "bad",
+              "good",
               "good"
             ],
-            "note": "Freecom 2x Waterproof per Cardo (IP65 per third-party spec listings) · Spider RT1 / ST1 — · Future 1 IPX7",
+            "note": "Freecom 2x Waterproof per Cardo (IP65 per third-party spec listings) · Spider RT1 / ST1 — · Future 1 IPX7 · APEX IPX7",
             "values": [
               "Waterproo",
               "—",
+              "IPX7",
               "IPX7"
             ]
           },
@@ -1033,12 +1075,14 @@
             "scores": [
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
             "note": "Freecom 'waterproof' unrated officially; Spider durability complaints; ASMAX QC young",
             "values": [
               "Waterproo",
               "—",
+              "IPX7",
               "IPX7"
             ]
           },
@@ -1047,13 +1091,15 @@
             "scores": [
               "good",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
             "note": "Freecom 2x universal · Spider RT1 / ST1 BT only · Future 1 BT only",
             "values": [
               "universal",
               "BT only",
-              "BT only"
+              "BT only",
+              "universal"
             ]
           },
           {
@@ -1061,13 +1107,15 @@
             "scores": [
               "soso",
               "bad",
-              "good"
+              "good",
+              "soso"
             ],
             "note": "Freecom 2x voice cmds · Spider RT1 / ST1 none · Future 1 AI assistant",
             "values": [
               "voice cmds",
               "none",
-              "AI asst"
+              "AI asst",
+              "voice cmds"
             ]
           },
           {
@@ -1075,12 +1123,14 @@
             "scores": [
               "good",
               "soso",
+              "good",
               "good"
             ],
             "note": "Freecom 2x app+OTA · Spider RT1 / ST1 app · Future 1 app+OTA",
             "values": [
               "app+OTA",
               "app",
+              "app+OTA",
               "app+OTA"
             ]
           },
@@ -1089,10 +1139,12 @@
             "scores": [
               "bad",
               "bad",
+              "bad",
               "bad"
             ],
             "note": "Freecom 2x none · Spider RT1 / ST1 none · Future 1 none",
             "values": [
+              "none",
               "none",
               "none",
               "none"
@@ -1103,13 +1155,15 @@
             "scores": [
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Freecom 2x — · Spider RT1 / ST1 — · Future 1 —",
+            "note": "Freecom 2x — · Spider RT1 / ST1 — · Future 1 — · APEX lifetime (Limited Lifetime Warranty, a category-first for this battle)",
             "values": [
               "2yr",
               "2yr",
-              "2yr"
+              "2yr",
+              "lifetime"
             ]
           },
           {
@@ -1117,12 +1171,14 @@
             "values": [
               "?",
               "cellular",
-              "cellular"
+              "cellular",
+              "none"
             ],
             "scores": [
               null,
               "good",
-              "good"
+              "good",
+              "soso"
             ],
             "note": ""
           },
@@ -1131,41 +1187,47 @@
             "values": [
               "wired only",
               "wired only",
-              "wired only"
+              "wired only",
+              "wireless"
             ],
             "scores": [
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": ""
+            "note": "APEX adds Qi wireless charging - the only unit in this battle that does"
           },
           {
             "dimension": "Detachable battery",
             "values": [
               "sealed",
               "sealed",
-              "sealed"
+              "sealed",
+              "swappable"
             ],
             "scores": [
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": ""
+            "note": "APEX has a user-replaceable Modular Sandwich Battery (spare battery + dual dock included) - the only unit in this battle with a swappable battery, directly answering Freecom 2x's sealed-battery weakness"
           },
           {
             "dimension": "Price",
             "scores": [
               "soso",
               "bad",
-              "good"
+              "good",
+              "soso"
             ],
-            "note": "Spider RT1/ST1 repriced to $239 (was $199) and now out of stock on Sena's own store; Freecom 2x undercuts it at $210 street but still lacks mesh",
+            "note": "Spider RT1/ST1 repriced to $239 (was $199) and now out of stock on Sena's own store; Freecom 2x undercuts it at $210 street but still lacks mesh; APEX launches at $265 MSRP (no street discount confirmed yet)",
             "values": [
               "$210",
               "$239",
-              "$155"
+              "$155",
+              "$265"
             ]
           }
         ]
@@ -1180,23 +1242,23 @@
         "model": "Freecom 4x",
         "price": "$314.95 → $270 street"
       },
-      "exec_summary": "The 4-rider Freecom 4x holds the 'premium Bluetooth' niche on JBL sound and polish; its $270 street price now actually undercuts Sena's mesh-capable 50R (confirmed $375 MSRP / $337.50 street), though it still doubles ASMAX's F1 Pro (~$205, mesh + Bongiovi audio). The 2025 MSRP hike ($269.95 → $314.95) made this segment position visibly worse even as the 50R comparison eases.",
+      "exec_summary": "The 4-rider Freecom 4x holds the 'premium Bluetooth' niche on JBL sound and polish, but the ground under it just shifted twice. Sena cut the mesh-capable 50R's MSRP from $375 to $339 in August 2026; at its last-confirmed $261 street price, the 24-rider-mesh 50R is now actually cheaper than the 4-rider Bluetooth-only Freecom 4x ($270 street), reversing the earlier 'Freecom undercuts 50R' read. And Sena's new APEX PLUS (launched Aug 5, 2026 at $325 MSRP) is a near-exact Bluetooth-only rival - 4-way intercom, no mesh, same segment as Freecom 4x - pricier than Freecom on paper but adding a user-replaceable battery and wireless charging, two things Freecom lacks. Freecom 4x still comfortably beats ASMAX's F1 Pro (~$205, mesh + Bongiovi audio) on polish and JBL sound. The 2025 MSRP hike ($269.95 → $314.95) already made this segment hard to defend; the 50R cut and APEX PLUS launch compound it.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "50R",
-          "price": "$375 → $337.50 street",
-          "blurb": "Low-profile Mesh 2.0 unit with Harman Kardon audio — now confirmed pricier than Freecom 4x, but still brings mesh where Cardo doesn't at this tier.",
+          "price": "$339 → $261 street (MSRP cut from $375, Aug 2026)",
+          "blurb": "Low-profile Mesh 2.0 unit with Harman Kardon audio - Sena cut its MSRP from $375 to $339 in Aug 2026; at its last-confirmed $261 street price it now actually undercuts Freecom 4x while still bringing mesh where Cardo doesn't at this tier.",
           "cardo_advantage": [
-            "Better waterproofing story",
+            "Better waterproofing story (IP67 vs water-resistant)",
             "Live Intercom UX simplicity",
-            "JBL tuning preference in reviews",
-            "$67 cheaper at street"
+            "JBL tuning preference in reviews"
           ],
           "competitor_advantage": [
             "Mesh 2.0 24 riders vs 4-rider BT",
             "Harman Kardon audio",
-            "Slimmer profile"
+            "Slimmer profile",
+            "~$9 cheaper at street after the Aug 2026 MSRP cut, despite offering mesh"
           ]
         },
         {
@@ -1218,6 +1280,26 @@
           "to_test": [
             "Real range vs '3-15 km' marketing"
           ]
+        },
+        {
+          "brand": "Sena",
+          "model": "APEX PLUS",
+          "price": "$325 (dual pack $599)",
+          "blurb": "Launched Aug 5, 2026 alongside the base APEX: same hardware/audio, up-sold to 4-way Bluetooth-only intercom (Universal Intercom, BT 6.0), 20h talk, IPX7, user-replaceable Modular Sandwich Battery + spare battery/dual dock, Qi wireless charging, Limited Lifetime Warranty. A direct Bluetooth-only rival to Freecom 4x, not a mesh play.",
+          "cardo_advantage": [
+            "JBL-branded audio vs APEX PLUS's unbranded 'HD' speakers",
+            "Proven multi-year reliability record vs brand-new (Aug 2026), unreviewed hardware",
+            "Established street-price discounting ($270) vs APEX PLUS's undiscounted $325 launch MSRP"
+          ],
+          "competitor_advantage": [
+            "User-replaceable battery + spare battery/dual charging dock included - Freecom's sealed battery is a real long-term-ownership weakness",
+            "Qi wireless charging (Freecom is wired-only)",
+            "Limited Lifetime Warranty vs Freecom's 2-year coverage",
+            "Longer rated talk time (20h vs 13h)"
+          ],
+          "to_test": [
+            "Real-world sound quality and range once independently reviewed (too new for MCN/RevZilla verdicts as of Aug 2026)"
+          ]
         }
       ],
       "ratings": {
@@ -1233,6 +1315,10 @@
           [
             "ASMAX",
             "F1 Pro"
+          ],
+          [
+            "Sena",
+            "APEX PLUS"
           ]
         ],
         "rows": [
@@ -1241,12 +1327,14 @@
             "scores": [
               "good",
               "good",
+              "soso",
               "soso"
             ],
-            "note": "50R low-profile 3-button; 4x slim",
+            "note": "50R low-profile 3-button; 4x slim; APEX PLUS too new for a size/weight verdict (unpublished as of Aug 2026)",
             "values": [
               "37g",
               "65g",
+              "—",
               "—"
             ]
           },
@@ -1255,13 +1343,15 @@
             "scores": [
               "good",
               "soso",
+              "good",
               "good"
             ],
             "note": "Natural Voice + app polish; 50R aging UX; F1 Pro AI voice",
             "values": [
               "wheel+btn",
               "buttons",
-              "wheel+btn"
+              "wheel+btn",
+              "thumbwheel"
             ]
           },
           {
@@ -1269,13 +1359,15 @@
             "scores": [
               "good",
               "good",
+              "soso",
               "soso"
             ],
-            "note": "JBL vs Harman Kardon wash; Bongiovi unproven in West",
+            "note": "JBL vs Harman Kardon wash; Bongiovi unproven in West; APEX PLUS 40mm HD, no named audio partner, unreviewed",
             "values": [
               "40mm JBL",
               "40mm Harman Kardon",
-              "40mm ASMAX Bongiovi"
+              "40mm ASMAX Bongiovi",
+              "40mm HD (unbranded)"
             ]
           },
           {
@@ -1283,13 +1375,15 @@
             "scores": [
               "bad",
               "good",
-              "soso"
+              "soso",
+              "bad"
             ],
-            "note": "4-rider BT vs 24-rider mesh; F1 Pro 10-rider brand-locked mesh",
+            "note": "4-rider BT vs 24-rider mesh; F1 Pro 10-rider brand-locked mesh; APEX PLUS Bluetooth-only (no mesh) despite premium positioning",
             "values": [
               "BT only",
               "mesh",
-              "mesh"
+              "mesh",
+              "BT only, 4-rider"
             ]
           },
           {
@@ -1297,13 +1391,15 @@
             "scores": [
               "soso",
               "good",
+              "good",
               "good"
             ],
-            "note": "Freecom 4x 1.2km · 50R 2km · F1 Pro 3km",
+            "note": "Freecom 4x 1.2km · 50R 2km · F1 Pro 3km; APEX PLUS 1.6km",
             "values": [
               "1.2km",
               "2km",
-              "3km"
+              "3km",
+              "1.6km"
             ]
           },
           {
@@ -1311,13 +1407,15 @@
             "scores": [
               "bad",
               "good",
-              "soso"
+              "soso",
+              "bad"
             ],
-            "note": "Freecom 4x 4r · 50R 24r · F1 Pro 10r",
+            "note": "Freecom 4x 4r · 50R 24r · F1 Pro 10r · APEX PLUS 4",
             "values": [
               "4",
               "24",
-              "10"
+              "10",
+              "4"
             ]
           },
           {
@@ -1325,18 +1423,21 @@
             "scores": [
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Freecom 4x 13h · 50R 13h · F1 Pro 14h",
+            "note": "Freecom 4x 13h · 50R 13h · F1 Pro 14h · APEX PLUS 20h",
             "values": [
               "13h",
               "13h",
-              "14h"
+              "14h",
+              "20h"
             ]
           },
           {
             "dimension": "Charging",
             "scores": [
+              "soso",
               "soso",
               "soso",
               "soso"
@@ -1345,7 +1446,8 @@
             "values": [
               "fast",
               "std",
-              "std"
+              "std",
+              "std (~2h)"
             ]
           },
           {
@@ -1353,12 +1455,14 @@
             "scores": [
               "soso",
               "soso",
+              "good",
               "good"
             ],
-            "note": "Freecom 4x Waterproof per Cardo (IP65 per third-party spec listings) · 50R Water-resistant (no official IP rating) · F1 Pro IPX7",
+            "note": "Freecom 4x Waterproof per Cardo (IP65 per third-party spec listings) · 50R Water-resistant (no official IP rating) · F1 Pro IPX7 · APEX PLUS IPX7",
             "values": [
               "Waterproo",
               "Water-res",
+              "IPX7",
               "IPX7"
             ]
           },
@@ -1367,12 +1471,14 @@
             "scores": [
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
             "note": "4x IP65-ish unpublished; 50R water-resistant only; ASMAX QC young",
             "values": [
               "Waterproo",
               "Water-res",
+              "IPX7",
               "IPX7"
             ]
           },
@@ -1381,12 +1487,14 @@
             "scores": [
               "good",
               "soso",
+              "good",
               "good"
             ],
             "note": "Freecom 4x universal · 50R BT only · F1 Pro universal",
             "values": [
               "universal",
               "BT only",
+              "universal",
               "universal"
             ]
           },
@@ -1395,10 +1503,12 @@
             "scores": [
               "soso",
               "soso",
+              "soso",
               "soso"
             ],
             "note": "Freecom 4x voice cmds · 50R voice cmds · F1 Pro voice cmds",
             "values": [
+              "voice cmds",
               "voice cmds",
               "voice cmds",
               "voice cmds"
@@ -1409,10 +1519,12 @@
             "scores": [
               "good",
               "good",
+              "good",
               "good"
             ],
             "note": "Freecom 4x app+OTA · 50R app+OTA · F1 Pro app+OTA",
             "values": [
+              "app+OTA",
               "app+OTA",
               "app+OTA",
               "app+OTA"
@@ -1423,10 +1535,12 @@
             "scores": [
               "bad",
               "bad",
+              "bad",
               "bad"
             ],
             "note": "Freecom 4x none · 50R none · F1 Pro none",
             "values": [
+              "none",
               "none",
               "none",
               "none"
@@ -1437,13 +1551,15 @@
             "scores": [
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": "Freecom 4x — · 50R — · F1 Pro —",
+            "note": "Freecom 4x — · 50R — · F1 Pro — · APEX PLUS lifetime (Limited Lifetime Warranty)",
             "values": [
               "2yr",
               "3yr",
-              "2yr"
+              "2yr",
+              "lifetime"
             ]
           },
           {
@@ -1451,12 +1567,14 @@
             "values": [
               "?",
               "cellular",
-              "cellular"
+              "cellular",
+              "none"
             ],
             "scores": [
               null,
               "good",
-              "good"
+              "good",
+              "soso"
             ],
             "note": ""
           },
@@ -1465,41 +1583,47 @@
             "values": [
               "wired only",
               "wired only",
-              "wired only"
+              "wired only",
+              "wireless"
             ],
             "scores": [
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": ""
+            "note": "APEX PLUS adds Qi wireless charging - the only Bluetooth-only unit in this battle that does"
           },
           {
             "dimension": "Detachable battery",
             "values": [
               "sealed",
               "sealed",
-              "sealed"
+              "sealed",
+              "swappable"
             ],
             "scores": [
               "soso",
               "soso",
-              "soso"
+              "soso",
+              "good"
             ],
-            "note": ""
+            "note": "APEX PLUS has a user-replaceable Modular Sandwich Battery (spare battery + dual dock included) - answering Freecom 4x's sealed-battery weakness"
           },
           {
             "dimension": "Price",
             "scores": [
               "soso",
-              "soso",
-              "good"
+              "good",
+              "good",
+              "soso"
             ],
-            "note": "50R confirmed $337.50 street (was ~$300 estimate) - Freecom 4x actually cheaper now; ASMAX F1 Pro still undercuts both",
+            "note": "50R MSRP cut from $375 to $339 (Sena's own store, Aug 2026); at its last-confirmed $261 street price it now undercuts Freecom 4x, reversing the earlier 'Freecom undercuts 50R' read. ASMAX F1 Pro remains cheapest overall; new rival APEX PLUS launches at $325, pricier than Freecom 4x",
             "values": [
               "$270",
-              "$337",
-              "$171"
+              "$261",
+              "$171",
+              "$325"
             ]
           }
         ]
@@ -1514,12 +1638,12 @@
         "model": "Packtalk Neo",
         "price": "$359.95"
       },
-      "exec_summary": "Neo delivers full DMC Gen2 (31 riders post Mesh-Boost) at $80 under the Edge — but Reso's Pilot Neo undercuts it by ~$90 with IP67, 24h battery and 3-yr warranty, and Sena's 50S now drops to $262 street (Amazon storefront), nearly $100 under the Neo. Neo wins on mesh reliability and ecosystem; it loses the pure value math even more decisively than before. This is the deck's 2024 'Neo vs Pilot Pro' story repeating one tier down. Sena's June 2026 Spider X Slim adds a fifth mid-mesh contender: Bose audio and a lifetime warranty at $299, undercutting the Neo by $61 but giving up cross-brand bridging and battery life.",
+      "exec_summary": "Neo delivers full DMC Gen2 (31 riders, confirmed live via the Aug 17 2026 Mesh-Boost GA) at $80 under the Edge — but Reso's Pilot Neo undercuts it by ~$90 with IP67, 24h battery and 3-yr warranty, and Sena's 50S sits at $310 street (Amazon storefront, re-confirmed Aug 17 2026), still under the Neo but no longer the standout value it was at its earlier $262 snapshot. Neo wins on mesh reliability, ecosystem, and now outright group size (31 vs 50S's 24); it still loses the pure value math to Reso and Sena's Spider X Slim. This is the deck's 2024 'Neo vs Pilot Pro' story repeating one tier down. Sena's June 2026 Spider X Slim adds a fifth mid-mesh contender: Bose audio and a lifetime warranty at $299, undercutting the Neo by $61 but giving up cross-brand bridging and battery life.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "50S",
-          "price": "$379 → $262 street",
+          "price": "$379 → $310 street",
           "blurb": "Aging Mesh 2.0 mid-tier with Harman Kardon speakers and jog dial; firmware v2.7 drew community backlash; refresh expected as 2026 range lands.",
           "cardo_advantage": [
             "DMC reliability + 31 riders vs 24",
@@ -1529,7 +1653,7 @@
           "competitor_advantage": [
             "Harman Kardon audio brand",
             "Jog dial preferred by some riders",
-            "Street price $97.95 lower (Amazon storefront deal)"
+            "Street price ~$50 lower (Amazon storefront deal, $310 vs Neo's $359.95)"
           ]
         },
         {
@@ -1714,9 +1838,9 @@
               "soso",
               "good"
             ],
-            "note": "Packtalk Neo 15r · 50S 24r · Pilot Neo 15r · F1 Pro Max 10r",
+            "note": "Packtalk Neo 31r (Mesh-Boost, GA Aug 17 2026; was 15r native DMC) · 50S 24r · Pilot Neo 15r · F1 Pro Max 10r · Spider X Slim 24r",
             "values": [
-              "15",
+              "31",
               "24",
               "15",
               "10",
@@ -1943,15 +2067,15 @@
             "dimension": "Price",
             "scores": [
               "bad",
-              "good",
+              "soso",
               "good",
               "soso",
               "soso"
             ],
-            "note": "Neo most expensive mid-mesh; 50S street price corrected to $262 (Amazon storefront), now undercutting Reso's $269",
+            "note": "Neo most expensive mid-mesh; 50S street price re-confirmed 2026-08-17 at $310 (Amazon storefront), up from the earlier $262 snapshot - now pricier than Reso's $269 and Spider X Slim's $299, no longer the segment's value pick",
             "values": [
               "$359",
-              "$262",
+              "$310",
               "$269",
               "$171",
               "$299"
@@ -1969,7 +2093,7 @@
         "model": "Packtalk Pro",
         "price": "$499.95"
       },
-      "exec_summary": "Cardo still owns the reliability crown — DMC, IP67, crash detection, and nearly every 'best overall' verdict. But the price umbrella is under attack from three directions: Sena 60S EVO ($459) with Bose audio + lifetime warranty, Reso Pilot Pro ($359) matching the safety stack, and ASMAX F1s ($120 with Amazon coupon, down from $140) resetting the price floor even lower. Wave/CloudTalk-style cellular intercom is the marketing capability gap; the 2025 MSRP hikes are the self-inflicted one.",
+      "exec_summary": "Cardo still owns the reliability crown — DMC, IP67, crash detection, and nearly every 'best overall' verdict. Mesh-Boost reached general availability Aug 17 2026, pushing Pro/Edge DMC groups from 15 to 31 riders — now the largest group size in this table, edging past Reso's 30-rider Pilot Pro claim. But the price umbrella is under attack from three directions: Sena 60S EVO ($459) with Bose audio + lifetime warranty, Reso Pilot Pro ($359) matching the safety stack, and ASMAX F1s ($120 with Amazon coupon, down from $140) resetting the price floor even lower. Wave/CloudTalk-style cellular intercom is the marketing capability gap; the 2025 MSRP hikes are the self-inflicted one.",
       "matchups": [
         {
           "brand": "Sena",
@@ -2226,10 +2350,10 @@
               "good",
               "soso"
             ],
-            "note": "Packtalk Pro 15r · Packtalk Edge 15r · 60S EVO 24r · 60X 24r · 60S 24r · Pilot Pro 30r · F1s 10r",
+            "note": "Packtalk Pro 31r (Mesh-Boost, GA Aug 17 2026; was 15r native) · Packtalk Edge 31r (same) · 60S EVO 24r · 60X 24r · 60S 24r · Pilot Pro 30r · F1s 10r",
             "values": [
-              "15",
-              "15",
+              "31",
+              "31",
               "24",
               "24",
               "24",
@@ -2512,13 +2636,13 @@
               "good",
               "good"
             ],
-            "note": "Pro most expensive on market post-2025 hikes; 60S EVO/60X/60S/Reso/ASMAX all undercut",
+            "note": "Pro most expensive on market post-2025 hikes; 60S EVO/60X/Reso/ASMAX all undercut, and 60S (corrected to its actual $339 street price, was mistakenly listed at $459) undercuts hardest of the Sena trio",
             "values": [
               "$499",
               "$396",
               "$459",
               "$459",
-              "$459",
+              "$339",
               "$359",
               "$120"
             ]
@@ -2535,23 +2659,23 @@
         "model": "Packtalk Edge",
         "price": "$439.95 → $396 street"
       },
-      "exec_summary": "The Edge is the previous-gen DMC flagship, now the smart value pick below the Packtalk Pro: same 2nd-gen Dynamic Mesh, 40mm JBL audio and IP67 build, minus the Pro's IMU crash detection. At $396 street it collides head-on with the Sena 60S, which is also ~$351 discounted post-EVO and counters with Wave cellular intercom and a 24-rider mesh — though as of July 2026 the 60S is showing out of stock on Sena's own store (MSRP unchanged at $439), leaving Amazon's official storefront as the only channel still selling it, near full price, so the $351 comparison point may not hold much longer. Edge wins on JBL audio and mesh polish; 60S wins on unlimited-range Wave and rider count. ASMAX F1s undercuts both on paper-spec at ~$227.",
+      "exec_summary": "The Edge is the previous-gen DMC flagship, now the smart value pick below the Packtalk Pro: same 2nd-gen Dynamic Mesh (31-rider groups since the Aug 17 2026 Mesh-Boost GA), 40mm JBL audio and IP67 build, minus the Pro's IMU crash detection. At $396 street it collides head-on with the Sena 60S, now confirmed at $339 street (Amazon storefront, re-checked Aug 17 2026) and countering with Wave cellular intercom and a 24-rider mesh cap — though as of July 2026 the 60S is still showing out of stock on Sena's own store (MSRP unchanged at $439), leaving Amazon's official storefront as the only channel still selling it. Edge now wins on both JBL audio/mesh polish and outright rider-group size (31 vs 24) since Mesh-Boost shipped; 60S's remaining edge is Wave's unlimited-range cellular and a lower street price. ASMAX F1s undercuts both on paper-spec at ~$227.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "60S",
-          "price": "$439 → ~$351",
-          "blurb": "Prior Sena flagship, now discounted under the 60S EVO — and as of July 2026 marked out of stock on Sena's own store, still buyable via Amazon's official Sena storefront near full price. Mesh 3.0 + Wave cellular + Harman Kardon, 24-rider mesh.",
+          "price": "$439 → $339 street",
+          "blurb": "Prior Sena flagship, now discounted under the 60S EVO — and as of July 2026 marked out of stock on Sena's own store, still buyable via Amazon's official Sena storefront. Mesh 3.0 + Wave cellular + Harman Kardon, 24-rider mesh.",
           "cardo_advantage": [
             "Sound by JBL 40mm vs Harman Kardon (subjective, but Edge audio well-reviewed)",
             "DMC mesh reconnection speed & polish",
             "Universal Bluetooth bridging to any brand",
-            "3-year warranty"
+            "3-year warranty",
+            "31-rider DMC group cap (Mesh-Boost, GA Aug 2026) vs 60S's 24-rider mesh cap"
           ],
           "competitor_advantage": [
             "Wave LTE cellular intercom (unlimited range)",
-            "24-rider mesh vs Edge's 15",
-            "~$45 cheaper at street",
+            "~$57 cheaper at street ($339 vs Edge's $396)",
             "Backward-compatible Mesh 2.0/3.0"
           ]
         },
@@ -2668,7 +2792,7 @@
               "good",
               "good"
             ],
-            "note": "All mesh; 60S adds Wave cellular, Reso claims 30 riders, Edge 15 / F1s 10",
+            "note": "All mesh; 60S adds Wave cellular, Reso claims 30 riders, Edge now 31 via Mesh-Boost (was 15) / F1s 10",
             "values": [
               "DMC mesh",
               "Mesh 3.0",
@@ -2700,9 +2824,9 @@
               "soso",
               "good"
             ],
-            "note": "Packtalk Edge 15r · 60S 24r · F1s 10r · Pilot Pro 30r",
+            "note": "Packtalk Edge 31r (Mesh-Boost, GA Aug 17 2026; was 15r native) · 60S 24r · F1s 10r · Pilot Pro 30r",
             "values": [
-              "15",
+              "31",
               "24",
               "10",
               "30"
@@ -2904,14 +3028,14 @@
             "dimension": "Price",
             "scores": [
               "soso",
-              "soso",
+              "good",
               "good",
               "soso"
             ],
-            "note": "F1s cheapest; Edge/60S mid; Reso $399 DTC",
+            "note": "F1s cheapest; 60S corrected to its actual $339 street price (was mistakenly listed at $459) - now clearly undercuts both Edge and Reso; Reso $399 DTC",
             "values": [
               "$396",
-              "$459",
+              "$339",
               "$120",
               "$359"
             ]

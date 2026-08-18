@@ -41,8 +41,8 @@
         {
           "brand": "Sena",
           "product": "50S / Spider RT1",
-          "price": "$262 / $191",
-          "note": "Both are MESH units; 50S street price corrected 2026-07-09 to $262 (Amazon storefront, down from $341); Spider RT1/ST1 MSRP raised 2026-07-10 from $199 to $239 (both variants now back in stock on Sena's own store after a brief stock-out), but a RevZilla discount on the ST1 variant now puts street price at $191.20 as of 2026-07-27"
+          "price": "$310 / $191",
+          "note": "Both are MESH units; 50S street price re-confirmed 2026-08-17 at $310 (Amazon storefront) - up from the $262 figure recorded 2026-07-09, that deeper deal having since expired; Spider RT1/ST1 MSRP raised 2026-07-10 from $199 to $239 (both variants now back in stock on Sena's own store after a brief stock-out), but a RevZilla discount on the ST1 variant now puts street price at $191.20 as of 2026-07-27"
         },
         {
           "brand": "Reso",
@@ -61,11 +61,17 @@
           "product": "Spider X Slim",
           "price": "$299 ($569 dual)",
           "note": "Launched June 2026; mesh-only, Sound by Bose, lifetime warranty \u2014 sits squarely in the gap Cardo's Bluetooth-only Freecom can't fill"
+        },
+        {
+          "brand": "Sena",
+          "product": "APEX / APEX PLUS",
+          "price": "$265 / $325",
+          "note": "Launched Aug 5, 2026, same price window as Freecom 2x/4x \u2014 but unlike every other competitor listed in this segment, APEX/APEX PLUS are Bluetooth-only (no mesh), so they don't close Cardo's mesh gap; they do add a user-replaceable battery, Qi wireless charging and a Limited Lifetime Warranty that Freecom lacks"
         }
       ],
-      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while every competitor sells mesh. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now nearly $100 above Sena's 50S at its corrected $262 street price. Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
+      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while nearly every competitor sells mesh - Sena's own new APEX/APEX PLUS (Aug 2026) is the one exception, a Bluetooth-only pair aimed at the same niche as Freecom rather than at Cardo's mesh gap. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now about $50 above Sena's 50S at its re-confirmed $310 street price (Aug 2026; was $262 at an earlier, since-expired discount). Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
       "severity": "critical",
-      "insight": "This is the single biggest structural hole in the lineup: a rider with a $250 budget who wants mesh cannot buy Cardo at all."
+      "insight": "This is the single biggest structural hole in the lineup: a rider with a $250 budget who wants mesh cannot buy Cardo at all. Sena's APEX/APEX PLUS launch shows even Sena still sees demand for Bluetooth-only in this price band, but that doesn't change Cardo's mesh-side exposure."
     },
     {
       "segment": "Entry (under $200)",
