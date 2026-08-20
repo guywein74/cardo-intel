@@ -15,7 +15,7 @@
       "street_price_usd": 449.95,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
-      "max_riders": 15,
+      "max_riders": 31,
       "audio": "45mm Sound by JBL speakers, sound profiles, auto volume",
       "talk_time_hours": 13,
       "waterproof": "IP67",
@@ -35,7 +35,7 @@
         "Mesh-Boost update: DMC groups to 31 riders, Remote Grouping, Public Mesh, VoIP Cellular Intercom"
       ],
       "release_year": 2024,
-      "notes": "Launched May 2024 at $459, now $499.95. First Cardo with crash detection. 3-year warranty. Duo twin-pack released March 2026 (~8% saving). Max riders 15 native DMC, 31 after free Mesh-Boost OTA. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $449.95 (-10% off $499.95); RevZilla rating 4/5 stars, 88 reviews. Re-verified 2026-08-18 via live RevZilla check: price unchanged at $449.95 (-10% off $499.95); RevZilla rating 4/5 stars, 89 reviews (up from 88). Mesh-Boost OTA (31-rider DMC, Public Mesh, Remote Grouping) reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware.",
+      "notes": "Launched May 2024 at $459, now $499.95. First Cardo with crash detection. 3-year warranty. Duo twin-pack released March 2026 (~8% saving). Max riders 15 native DMC, 31 after free Mesh-Boost OTA. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $449.95 (-10% off $499.95); RevZilla rating 4/5 stars, 88 reviews. Re-verified 2026-08-18 via live RevZilla check: price unchanged at $449.95 (-10% off $499.95); RevZilla rating 4/5 stars, 89 reviews (up from 88). Mesh-Boost OTA (31-rider DMC, Public Mesh, Remote Grouping) reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware. max_riders field updated 2026-08-19 from 15 (native) to 31 to reflect the Mesh-Boost OTA now generally available (GA 2026-08-17) - see feature/notes detail above for the native-vs-boosted history.",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -61,7 +61,7 @@
         "intercom": {
           "type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom",
           "range_km": 1.6,
-          "max_riders": 15,
+          "max_riders": 31,
           "auto_reconnect": true,
           "wideband_audio": true,
           "cross_brand": "Universal Bluetooth bridging - pairs with Sena/other brands by emulating a phone"
@@ -88,7 +88,7 @@
       "street_price_usd": 395.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
-      "max_riders": 15,
+      "max_riders": 31,
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP67",
@@ -105,7 +105,7 @@
         "Mesh-Boost: 31-rider DMC, Remote Grouping, Public Mesh, Cellular Intercom"
       ],
       "release_year": 2022,
-      "notes": "Launched 2022 at $389.95; MSRP raised to $439.95 (2025). Street price $395.96 at Cycle Gear (10% off). 3-year warranty. ORV and KTM editions available. Edgephones ($159.95) extend same DMC network off-helmet. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 463 reviews. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (up from 463); Amazon storefront shows 4.5/5 stars, 3,376 reviews. Re-verified 2026-08-18 via live RevZilla and Amazon checks: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (unchanged); Amazon storefront now shows 4.5/5 stars, 3,396 reviews (up from 3,376). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware.",
+      "notes": "Launched 2022 at $389.95; MSRP raised to $439.95 (2025). Street price $395.96 at Cycle Gear (10% off). 3-year warranty. ORV and KTM editions available. Edgephones ($159.95) extend same DMC network off-helmet. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 463 reviews. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (up from 463); Amazon storefront shows 4.5/5 stars, 3,376 reviews. Re-verified 2026-08-18 via live RevZilla and Amazon checks: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (unchanged); Amazon storefront now shows 4.5/5 stars, 3,396 reviews (up from 3,376). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware. max_riders field updated 2026-08-19 from 15 (native) to 31 to reflect the Mesh-Boost OTA now generally available (GA 2026-08-17) - see feature/notes detail above for the native-vs-boosted history.",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -131,7 +131,7 @@
         "intercom": {
           "type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom",
           "range_km": 1.6,
-          "max_riders": 15,
+          "max_riders": 31,
           "auto_reconnect": true,
           "wideband_audio": true,
           "cross_brand": "Universal Bluetooth bridging - emulates a phone to pair with Sena and others"
@@ -158,7 +158,7 @@
       "street_price_usd": 323.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
-      "max_riders": 15,
+      "max_riders": 31,
       "audio": "40mm Sound by JBL speakers",
       "talk_time_hours": 13,
       "waterproof": "IP67",
@@ -174,7 +174,7 @@
         "Clip/plate mount (no Air Mount)"
       ],
       "release_year": 2023,
-      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price was $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%). Re-verified 2026-07-14: the deeper Amazon deal has expired - both Amazon storefront and RevZilla now show $323.96 (-10% off $359.95), so street_price_usd reverts to $323.96 (current lowest confirmed price). RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09, and has since ticked down again to 'Cardo Systems(56)' as of 2026-07-14 (SKU churn, not a discontinuation confirmed). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla 'Cardo Systems' brand-filter SKU count still (56), unchanged since 2026-07-14. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95), RevZilla rating 4.5/5 stars, 76 reviews (first time captured for this product); brand-filter SKU count jumped to 'Cardo Systems(67)', up 11 from the 56 recorded 2026-07-14 - notable increase but no single new-product cause confirmed, likely accessory/kit/replacement-part SKUs (e.g. the new Venture helmet accessory listings) being folded into the same brand filter alongside the helmet launch. Amazon storefront also shows 4.6/5 stars, 1,161 reviews for the single pack (2026-08-10). Re-verified 2026-08-18 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla rating 4.5/5 stars, 75 reviews (essentially flat vs 76 recorded 2026-08-10). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware.",
+      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price was $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%). Re-verified 2026-07-14: the deeper Amazon deal has expired - both Amazon storefront and RevZilla now show $323.96 (-10% off $359.95), so street_price_usd reverts to $323.96 (current lowest confirmed price). RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09, and has since ticked down again to 'Cardo Systems(56)' as of 2026-07-14 (SKU churn, not a discontinuation confirmed). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla 'Cardo Systems' brand-filter SKU count still (56), unchanged since 2026-07-14. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95), RevZilla rating 4.5/5 stars, 76 reviews (first time captured for this product); brand-filter SKU count jumped to 'Cardo Systems(67)', up 11 from the 56 recorded 2026-07-14 - notable increase but no single new-product cause confirmed, likely accessory/kit/replacement-part SKUs (e.g. the new Venture helmet accessory listings) being folded into the same brand filter alongside the helmet launch. Amazon storefront also shows 4.6/5 stars, 1,161 reviews for the single pack (2026-08-10). Re-verified 2026-08-18 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla rating 4.5/5 stars, 75 reviews (essentially flat vs 76 recorded 2026-08-10). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware. max_riders field updated 2026-08-19 from 15 (native) to 31 to reflect the Mesh-Boost OTA now generally available (GA 2026-08-17) - see feature/notes detail above for the native-vs-boosted history.",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -200,7 +200,7 @@
         "intercom": {
           "type": "DMC Gen2 mesh + Bluetooth 5.2 + app-based VoIP cellular intercom",
           "range_km": 1.6,
-          "max_riders": 15,
+          "max_riders": 31,
           "auto_reconnect": true,
           "wideband_audio": true,
           "cross_brand": "Universal Bluetooth bridging to other brands"

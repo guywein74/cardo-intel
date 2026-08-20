@@ -112,7 +112,7 @@
             "note": "5R LITE slimmest; Spirit dated but compact; S1 41 g",
             "values": [
               "35g",
-              "42g",
+              "32g",
               "41g",
               "—"
             ]
@@ -205,10 +205,10 @@
               "soso",
               "soso"
             ],
-            "note": "Spirit 13h · 5R LITE 36h · S1 13h · Pilot Lite —",
+            "note": "Spirit 13h · 5R LITE 16h · S1 13h · Pilot Lite —",
             "values": [
               "13h",
-              "36h",
+              "16h",
               "13h",
               "—"
             ]
@@ -216,14 +216,14 @@
           {
             "dimension": "Charging",
             "scores": [
-              "soso",
+              "good",
               "soso",
               "soso",
               "soso"
             ],
-            "note": "Spirit std · 5R LITE std · S1 fast · Pilot Lite std",
+            "note": "Spirit fast (20min=2h) · 5R LITE std · S1 fast · Pilot Lite std",
             "values": [
-              "std",
+              "fast",
               "std",
               "fast",
               "std"
@@ -235,14 +235,14 @@
               "soso",
               "soso",
               "good",
-              "bad"
+              "good"
             ],
-            "note": "Spirit Waterproof per Cardo (no published IP rating) · 5R LITE Water-resistant · S1 IPX7 · Pilot Lite —",
+            "note": "Spirit Waterproof per Cardo (no published IP rating) · 5R LITE Water-resistant · S1 IPX7 · Pilot Lite IP67",
             "values": [
               "Waterproo",
               "Water-res",
               "IPX7",
-              "—"
+              "IP67"
             ]
           },
           {
@@ -251,29 +251,29 @@
               "soso",
               "soso",
               "soso",
-              "bad"
+              "good"
             ],
-            "note": "No published IP on Spirit; S1 IPX7 but young-brand QC; Lite unknown",
+            "note": "No published IP on Spirit; S1 IPX7 but young-brand QC; Lite IP67 published",
             "values": [
               "Waterproo",
               "Water-res",
               "IPX7",
-              "—"
+              "IP67"
             ]
           },
           {
             "dimension": "Cross-brand pairing",
             "scores": [
               "good",
-              "soso",
-              "soso",
+              "good",
+              "good",
               "soso"
             ],
-            "note": "Spirit universal · 5R LITE BT only · S1 BT only · Pilot Lite BT only",
+            "note": "Spirit universal · 5R LITE universal HFP · S1 universal BT + CloudTalk · Pilot Lite BT only, no cross-brand documented",
             "values": [
               "universal",
-              "BT only",
-              "BT only",
+              "universal",
+              "universal",
               "BT only"
             ]
           },
@@ -677,18 +677,18 @@
             "dimension": "Cross-brand pairing",
             "scores": [
               "good",
-              "soso",
-              "soso",
-              "soso",
-              "soso"
+              "good",
+              "good",
+              "good",
+              "good"
             ],
-            "note": "Spirit HD universal · 5S BT only · 5R BT only · Z1 / Z1 Plus BT only; Vortex standard BT HFP only",
+            "note": "Spirit HD universal · 5S/5R universal HFP · Z1/Z1 Plus universal BT + CloudTalk · Vortex universal HFP expected (standard Sena implementation)",
             "values": [
               "universal",
-              "BT only",
-              "BT only",
-              "BT only",
-              "BT only"
+              "universal",
+              "universal",
+              "universal",
+              "universal"
             ]
           },
           {
@@ -1062,9 +1062,9 @@
               "good",
               "good"
             ],
-            "note": "Freecom 2x Waterproof per Cardo (IP65 per third-party spec listings) · Spider RT1 / ST1 — · Future 1 IPX7 · APEX IPX7",
+            "note": "Freecom 2x waterproof claimed by Cardo, IP65 per third-party listings (no official rating) · Spider RT1 / ST1 no rating published · Future 1 IPX7 · APEX IPX7",
             "values": [
-              "Waterproo",
+              "IP65*",
               "—",
               "IPX7",
               "IPX7"
@@ -1078,9 +1078,9 @@
               "soso",
               "soso"
             ],
-            "note": "Freecom 'waterproof' unrated officially; Spider durability complaints; ASMAX QC young",
+            "note": "Freecom 2x waterproof claimed by Cardo, IP65 per third-party listings (no official rating) · Spider durability complaints in reviews · ASMAX too new for track record · APEX too new for track record",
             "values": [
-              "Waterproo",
+              "IP65*",
               "—",
               "IPX7",
               "IPX7"
@@ -1090,15 +1090,15 @@
             "dimension": "Cross-brand pairing",
             "scores": [
               "good",
-              "soso",
-              "soso",
+              "bad",
+              "good",
               "good"
             ],
-            "note": "Freecom 2x universal · Spider RT1 / ST1 BT only · Future 1 BT only",
+            "note": "Freecom 2x universal · Spider RT1/ST1 none (mesh-only, no bridge to other brands) · Future 1 universal BT pairing · APEX universal HFP",
             "values": [
               "universal",
-              "BT only",
-              "BT only",
+              "none",
+              "universal",
               "universal"
             ]
           },
@@ -1458,9 +1458,9 @@
               "good",
               "good"
             ],
-            "note": "Freecom 4x Waterproof per Cardo (IP65 per third-party spec listings) · 50R Water-resistant (no official IP rating) · F1 Pro IPX7 · APEX PLUS IPX7",
+            "note": "Freecom 4x waterproof claimed by Cardo, IP65 per third-party listings (no official rating) · 50R water-resistant, no official IP rating · F1 Pro IPX7 · APEX PLUS IPX7",
             "values": [
-              "Waterproo",
+              "IP65*",
               "Water-res",
               "IPX7",
               "IPX7"
@@ -1474,9 +1474,9 @@
               "soso",
               "soso"
             ],
-            "note": "4x IP65-ish unpublished; 50R water-resistant only; ASMAX QC young",
+            "note": "4x waterproof claimed by Cardo, IP65 per third-party listings (no official rating) · 50R water-resistant only, no official IP rating · ASMAX too new for track record · APEX PLUS too new for track record",
             "values": [
-              "Waterproo",
+              "IP65*",
               "Water-res",
               "IPX7",
               "IPX7"
@@ -1486,14 +1486,14 @@
             "dimension": "Cross-brand pairing",
             "scores": [
               "good",
-              "soso",
+              "good",
               "good",
               "good"
             ],
-            "note": "Freecom 4x universal · 50R BT only · F1 Pro universal",
+            "note": "Freecom 4x universal · 50R universal HFP · F1 Pro universal · APEX PLUS universal HFP",
             "values": [
               "universal",
-              "BT only",
+              "universal",
               "universal",
               "universal"
             ]
@@ -1892,12 +1892,12 @@
               "good",
               "good"
             ],
-            "note": "Packtalk Neo IP67 · 50S Water-resistant (no official IP rating) · Pilot Neo IP67 · F1 Pro Max IPX7",
+            "note": "Packtalk Neo IP67 · 50S Water-resistant (no official IP rating) · Pilot Neo IP67 · F1 Pro Max IP67",
             "values": [
               "IP67",
               "Water-res",
               "IP67",
-              "IPX7",
+              "IP67",
               "IPX7"
             ]
           },
@@ -1910,12 +1910,12 @@
               "soso",
               "good"
             ],
-            "note": "Neo IP67 2-yr; 50S water-resistant; Reso IP67 3-yr but young brand",
+            "note": "Neo IP67 2-yr; 50S water-resistant; Reso IP67 3-yr but young brand; F1 Pro Max IP67 but too new for track record",
             "values": [
               "IP67",
               "Water-res",
               "IP67",
-              "IPX7",
+              "IP67",
               "IPX7"
             ]
           },
@@ -1928,7 +1928,7 @@
               "good",
               "bad"
             ],
-            "note": "Packtalk Neo universal · 50S universal · Pilot Neo BT only · F1 Pro Max universal",
+            "note": "Packtalk Neo universal · 50S universal · Pilot Neo BT only (no cross-brand documented) · F1 Pro Max universal · Spider X Slim none (mesh-only)",
             "values": [
               "universal",
               "universal",
@@ -2372,13 +2372,13 @@
               "soso",
               "soso"
             ],
-            "note": "Packtalk Pro 13h · Packtalk Edge 13h · 60S EVO 27h · 60X 29h · 60S 27h · Pilot Pro 13h · F1s —",
+            "note": "Packtalk Pro 13h · Packtalk Edge 13h · 60S EVO 27h · 60X 29h · 60S 24h · Pilot Pro 13h · F1s —",
             "values": [
               "13h",
               "13h",
               "27h",
               "29h",
-              "27h",
+              "24h",
               "13h",
               "—"
             ]
@@ -2460,15 +2460,15 @@
               "soso",
               "good"
             ],
-            "note": "Packtalk Pro universal · Packtalk Edge universal · 60S EVO BT only · 60X universal · 60S BT only · Pilot Pro BT only · F1s BT only",
+            "note": "Packtalk Pro/Edge universal · 60S EVO/60S universal HFP but MCN reports it works one-way pairing with Cardo · 60X universal · Pilot Pro BT only (no cross-brand documented) · F1s universal BT + CloudTalk",
             "values": [
               "universal",
               "universal",
-              "BT only",
+              "universal*",
               "universal",
+              "universal*",
               "BT only",
-              "BT only",
-              "BT only"
+              "universal"
             ]
           },
           {
@@ -2840,10 +2840,10 @@
               "soso",
               "soso"
             ],
-            "note": "Packtalk Edge 13h · 60S 27h · F1s — · Pilot Pro 13h",
+            "note": "Packtalk Edge 13h · 60S 24h · F1s — · Pilot Pro 13h",
             "values": [
               "13h",
-              "27h",
+              "24h",
               "—",
               "13h"
             ]
@@ -2904,11 +2904,11 @@
               "good",
               "soso"
             ],
-            "note": "Packtalk Edge universal · 60S BT only · F1s BT only · Pilot Pro BT only",
+            "note": "Packtalk Edge universal · 60S universal HFP but MCN reports one-way pairing with Cardo · F1s universal BT + CloudTalk · Pilot Pro BT only (no cross-brand documented)",
             "values": [
               "universal",
-              "BT only",
-              "BT only",
+              "universal*",
+              "universal",
               "BT only"
             ]
           },
