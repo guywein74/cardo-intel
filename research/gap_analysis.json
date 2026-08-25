@@ -20,8 +20,8 @@
         {
           "brand": "ASMAX",
           "product": "F1s / F1 Pro Max",
-          "price": "$120.39 street (Amazon coupon, was $139.99) / $269 street",
-          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) \u2014 flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price; F1s also dropped further on Amazon's clippable coupon price"
+          "price": "$125.29 street (Amazon promo, was $139.99 list) / $269 street",
+          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) \u2014 flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price; F1s's pricing mechanism shifted from a clippable Amazon coupon to a flat promo price (now $125.29, up slightly from the $118.99 coupon price)"
         },
         {
           "brand": "Sena",
@@ -41,8 +41,8 @@
         {
           "brand": "Sena",
           "product": "50S / Spider RT1",
-          "price": "$310 / $191",
-          "note": "Both are MESH units; 50S street price re-confirmed 2026-08-17 at $310 (Amazon storefront) - up from the $262 figure recorded 2026-07-09, that deeper deal having since expired; Spider RT1/ST1 MSRP raised 2026-07-10 from $199 to $239 (both variants now back in stock on Sena's own store after a brief stock-out), but a RevZilla discount on the ST1 variant now puts street price at $191.20 as of 2026-07-27"
+          "price": "$320 / $235",
+          "note": "Both are MESH units; 50S street price re-confirmed 2026-08-25 at $320 (Amazon storefront) - up from the $262 figure recorded 2026-07-09, that deeper deal having since expired; Spider RT1/ST1 MSRP raised 2026-07-10 from $199 to $239, and the Amazon Sena storefront now shows the ST1 variant at a $234.89 deal price as of 2026-08-25 (RT1 variant still full price at $239)"
         },
         {
           "brand": "Reso",
@@ -69,7 +69,7 @@
           "note": "Launched Aug 5, 2026, same price window as Freecom 2x/4x \u2014 but unlike every other competitor listed in this segment, APEX/APEX PLUS are Bluetooth-only (no mesh), so they don't close Cardo's mesh gap; they do add a user-replaceable battery, Qi wireless charging and a Limited Lifetime Warranty that Freecom lacks"
         }
       ],
-      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while nearly every competitor sells mesh - Sena's own new APEX/APEX PLUS (Aug 2026) is the one exception, a Bluetooth-only pair aimed at the same niche as Freecom rather than at Cardo's mesh gap. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now about $50 above Sena's 50S at its re-confirmed $310 street price (Aug 2026; was $262 at an earlier, since-expired discount). Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
+      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while nearly every competitor sells mesh - Sena's own new APEX/APEX PLUS (Aug 2026) is the one exception, a Bluetooth-only pair aimed at the same niche as Freecom rather than at Cardo's mesh gap. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now about $40 above Sena's 50S at its re-confirmed $320 street price (Aug 25 2026; was $262 at an earlier, since-expired discount). Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
       "severity": "critical",
       "insight": "This is the single biggest structural hole in the lineup: a rider with a $250 budget who wants mesh cannot buy Cardo at all. Sena's APEX/APEX PLUS launch shows even Sena still sees demand for Bluetooth-only in this price band, but that doesn't change Cardo's mesh-side exposure."
     },
@@ -113,7 +113,7 @@
       ],
       "gap": "Cardo enters the category premium-first while Sena floods it with 8 models including a camera helmet. Venture (first integrated-mesh MX helmet) is a genuine first.",
       "severity": "medium",
-      "insight": "Category too young to score; watch Phantom CAM (camera is a feature Cardo has nowhere in the portfolio). GTS's July 2026 Red Dot Award: Product Design win is a genuine design credential, but the same announcement revealed a $100 MSRP hike and a summer-to-late-2026 launch slip — good PR paired with worse fundamentals."
+      "insight": "Category too young to score; watch Phantom CAM (camera is a feature Cardo has nowhere in the portfolio). GTS's July 2026 Red Dot Award: Product Design win is a genuine design credential, but the same announcement revealed a $100 MSRP hike and a summer-to-late-2026 launch slip \u2014 good PR paired with worse fundamentals."
     }
   ],
   "feature_gaps": [
