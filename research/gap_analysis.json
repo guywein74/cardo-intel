@@ -20,8 +20,8 @@
         {
           "brand": "ASMAX",
           "product": "F1s / F1 Pro Max",
-          "price": "$125.29 street (Amazon promo, was $139.99 list) / $269 street",
-          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) \u2014 flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price; F1s's pricing mechanism shifted from a clippable Amazon coupon to a flat promo price (now $125.29, up slightly from the $118.99 coupon price)"
+          "price": "$112.76 street (Amazon promo + coupon, was $139.99 list) / $269 street",
+          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) \u2014 flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price; F1s's price dropped further as of 2026-08-29 when Amazon layered a clippable coupon on top of its existing -11% promo, taking it to $112.76 \u2014 the lowest price yet recorded for this SKU"
         },
         {
           "brand": "Sena",
@@ -41,14 +41,14 @@
         {
           "brand": "Sena",
           "product": "50S / Spider RT1",
-          "price": "$320 / $235",
-          "note": "Both are MESH units; 50S street price re-confirmed 2026-08-25 at $320 (Amazon storefront) - up from the $262 figure recorded 2026-07-09, that deeper deal having since expired; Spider RT1/ST1 MSRP raised 2026-07-10 from $199 to $239, and the Amazon Sena storefront now shows the ST1 variant at a $234.89 deal price as of 2026-08-25 (RT1 variant still full price at $239)"
+          "price": "$284.25 / $179.25",
+          "note": "Both are MESH units; a sitewide Sena sale (2026-08-29, ~25% off) pulled 50S street price down to $284.25, from the $320 recorded 2026-08-25 (which was itself up from the $262 figure recorded 2026-07-09, that earlier deeper deal having since expired); Spider RT1/ST1 MSRP raised 2026-07-10 from $199 to $239, and the same sitewide sale now puts its street price at $179.25, down from the $234.89 Amazon deal price recorded 2026-08-25"
         },
         {
           "brand": "Reso",
           "product": "Pilot Neo",
-          "price": "$269-320",
-          "note": "Mesh, 15 riders, IP67, 24h talk, 3-yr warranty"
+          "price": "$269-299",
+          "note": "Mesh, 15 riders, IP67, 24h talk, 3-yr warranty; MSRP dropped 2026-08-29 from $320 to $299 (sale street price unchanged at $269)"
         },
         {
           "brand": "ASMAX",
@@ -69,7 +69,7 @@
           "note": "Launched Aug 5, 2026, same price window as Freecom 2x/4x \u2014 but unlike every other competitor listed in this segment, APEX/APEX PLUS are Bluetooth-only (no mesh), so they don't close Cardo's mesh gap; they do add a user-replaceable battery, Qi wireless charging and a Limited Lifetime Warranty that Freecom lacks"
         }
       ],
-      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while nearly every competitor sells mesh - Sena's own new APEX/APEX PLUS (Aug 2026) is the one exception, a Bluetooth-only pair aimed at the same niche as Freecom rather than at Cardo's mesh gap. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now about $40 above Sena's 50S at its re-confirmed $320 street price (Aug 25 2026; was $262 at an earlier, since-expired discount). Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
+      "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while nearly every competitor sells mesh - Sena's own new APEX/APEX PLUS (Aug 2026) is the one exception, a Bluetooth-only pair aimed at the same niche as Freecom rather than at Cardo's mesh gap. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now about $76 above Sena's 50S, whose street price a sitewide Sena sale (Aug 29 2026) pulled back down to $284.25 from the $320 recorded Aug 25 2026 (was $262 at an even earlier, since-expired discount). Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
       "severity": "critical",
       "insight": "This is the single biggest structural hole in the lineup: a rider with a $250 budget who wants mesh cannot buy Cardo at all. Sena's APEX/APEX PLUS launch shows even Sena still sees demand for Bluetooth-only in this price band, but that doesn't change Cardo's mesh-side exposure."
     },
