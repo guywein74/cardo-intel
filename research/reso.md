@@ -1,6 +1,34 @@
 # RESO / ResoSport — Competitive Intelligence Notes (for Cardo Systems)
 
-Researched: 2026-07-02. Companion data file: `/Users/guyw/Desktop/Claude/Cardo/research/reso.json`
+## Latest Refresh (2026-08-31)
+
+### Stock Status — 🎯 MAJOR CHANGE
+- **Pilot Pro** ($359–$399 DTC) & **Pilot Neo** ($269–$299 DTC): **back in stock** after continuous sold-out status since 2026-08-10 domain migration
+
+### New Products
+- None found
+
+### Pricing
+- No price changes; Pilot Lite URL shifted (`/products/reso-pilot-lite` → `/products/resopilot_lite`) — no price/stock impact
+
+### Firmware & Apps
+- Reso Link: v3.0.3 (last updated 2026-07-29) — no new release
+
+### Distribution
+- Amazon storefront: unconfirmed (attempted link returned HTTP 503)
+- RevZilla: absent
+
+### Customer Feedback
+- No new verified items this cycle
+
+### Press & Social
+- No new press reviews found
+- No new verified social posts
+- Facebook (Reso Philippines): flat at 5,007 likes, 168 talking-about
+
+---
+
+Historical research date: 2026-07-02. Companion data file: `/Users/guyw/Desktop/Claude/Cardo/research/reso.json`
 
 ## 1. Company overview
 

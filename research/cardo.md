@@ -1,6 +1,30 @@
 # Cardo Systems — Baseline Research Notes (for gap analysis vs Sena, ASMAX, Reso)
 
-Research date: 2026-07-02. All prices are current cardosystems.com list prices unless noted.
+## Latest Refresh (2026-08-31)
+
+### New Products
+- **Packtalk Edge ORV** ($439.95 MSRP, $395.96 street) — off-road/UTV variant
+- **HJC Packtalk** ($419.95 MSRP, $377.96 street) — helmet-integrated flagship
+
+### Pricing
+- All existing models stable (verified via RevZilla)
+- Amazon storefront unavailable (firecrawl credits exhausted)
+
+### Firmware & Apps
+- Cardo Connect: v9.1 (last updated 2026-08-17) — no new release
+- Cardo Ride: v4.6.2 (last updated 2026-08-05) — no new release
+
+### Customer Feedback (from Reddit & Facebook Groups)
+- **+9 items documented**: Mesh-Boost regression complaints (DMC auto-mute toggling, Apple Music pausing during intercom, dual Bluetooth connections breaking)
+- Notable pattern: Schuberth-branded Cardo units (SC Edge, SC Edge ANC) disproportionately represented in regression reports
+
+### Press & Social
+- No new press reviews found
+- No new verified social posts
+
+---
+
+Historical research date: 2026-07-02. All prices are current cardosystems.com list prices unless noted.
 
 ## 1. Company
 

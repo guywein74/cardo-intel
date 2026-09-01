@@ -1,5 +1,42 @@
 # Sena Competitive Research Notes (for Cardo Systems)
-Research date: 2026-07-02. Companion data file: `/Users/guyw/Desktop/Claude/Cardo/research/sena.json`
+
+## Latest Refresh (2026-08-31)
+
+### New Products
+- **50C "Harman Kardon smart helmet"** ($599 MSRP, $449.25 street) — legacy 2022 product, newly discovered in tracking database
+
+### Pricing Updates
+- 60S: $378 → $360 street
+- Specter: $599 → $610 street
+- Outlander: $565 → $580 street
+- Phantom ANC: $610 → $615 street
+- BiKom 20: $164.67 → $164.55 street
+
+### Stock Changes
+- 60X (both Single and Dual packs): out-of-stock
+- PRISM 2: out-of-stock for first time since Aug 11 launch
+
+### Firmware & Apps
+- No new per-model firmware notices (latest wave: Aug 19–20)
+- Sena Motorcycles app: v3.5 (unchanged)
+- Wave Intercom app: v1.0.25 (unchanged)
+
+### Distribution & Availability
+- RevZilla SKU count: 77 (down 1 from 78 on Aug 29) — first decline recorded
+- Sitewide ~25% off promotional sale remains active
+
+### Customer Feedback (from Reddit & Facebook Groups)
+- **+5 items documented**: firmware reliability concerns (60S/60X mesh breaking post-OTA, 30K/Spider ST1 Bluetooth drops post-update, update-fails-at-28% errors)
+- Notable pattern: riders comparing unfavorably to Cardo's proven OTA track record
+
+### Social & YouTube
+- 4 videos from July backfilled: Spider X Slim, Vortex (×2), 60X Tech Talk
+- Channel: 40.2K subscribers, 726 videos
+- No new press reviews found for 60X/Vortex/Spider X Slim/APEX/PRISM 2
+
+---
+
+Historical research date: 2026-07-02. Companion data file: `/Users/guyw/Desktop/Claude/Cardo/research/sena.json`
 
 ## 1. Company Overview
 - **Founded 1998** in South Korea as an industrial/enterprise Bluetooth networking company; pivoted to motorcycling when the founder (an avid rider) launched the **SMH10 in 2010** — effectively creating the modern moto-communicator category alongside Cardo.

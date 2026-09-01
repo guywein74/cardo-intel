@@ -1,6 +1,32 @@
 # ASMAX — Competitive Intelligence Notes (for Cardo Systems)
 
-Research date: 2026-07-02. Companion data file: `/Users/guyw/Desktop/Claude/Cardo/research/asmax.json`
+## Latest Refresh (2026-08-31)
+
+### New Products
+- None found
+
+### Pricing
+- All existing models unchanged (asmaxworld.com direct prices stable)
+- Amazon storefront: unavailable (firecrawl credits exhausted)
+- RevZilla: ASMAX completely absent
+
+### Firmware & Apps
+- ASMAX WORLD app: v1.0.17 (last updated 2026-07-13) — no new release
+- HS3 teaser from early August still unreleased
+
+### Customer Feedback (from Reddit & Facebook Groups)
+- **No new verified items this cycle**
+
+### Press Coverage
+- **+1 new review**: It's Better On The Road (2026-06-19, positive — "reliable mesh intercom, clear audio at speed")
+
+### Social Media
+- No new verified social posts
+- Facebook/Instagram counts remain flat
+
+---
+
+Historical research date: 2026-07-02. Companion data file: `/Users/guyw/Desktop/Claude/Cardo/research/asmax.json`
 
 ## 1. Who they are
 
