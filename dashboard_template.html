@@ -194,6 +194,8 @@ const TAB_GROUPS = {
   "Analysis": ["Products","Battles","Pricing","Gap Analysis","Social & Press","Software & Firmware","Voice of the Customer","Product Insights"]
 };
 const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const linkify = s => esc(s).replace(/((?:https?:\/\/)?(?:[a-z0-9-]+\.)+(?:com|net|org|io)\b[^\s<>"'),]*)/gi,
+  m => `<a href="${m.startsWith("http")?m:"https://"+m}" target="_blank" rel="noopener">${m}</a>`);
 const fmt$ = v => v==null?"—":"$"+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
 
@@ -916,8 +918,8 @@ if(!INS){
     <h2 style="margin-top:0">Product Insights</h2>
     <span class="small muted">by the Product Expert agent · generated ${esc(INS.generated||"—")}</span>
   </div>
-  ${INS.analyst_note?`<div class="card" style="margin-bottom:16px;border-left:3px solid var(--cardo)"><div class="small" style="font-style:italic">"${esc(INS.analyst_note)}"</div><div class="small muted" style="margin-top:6px">— Product Expert (consumer-electronics PM)</div></div>`:""}
-  <div class="card" style="margin-bottom:24px"><h3>Executive summary</h3><div class="small" style="line-height:1.7">${esc(INS.executive_summary||"—")}</div></div>
+  ${INS.analyst_note?`<div class="card" style="margin-bottom:16px;border-left:3px solid var(--cardo)"><div class="small" style="font-style:italic">"${linkify(INS.analyst_note)}"</div><div class="small muted" style="margin-top:6px">— Product Expert (consumer-electronics PM)</div></div>`:""}
+  <div class="card" style="margin-bottom:24px"><h3>Executive summary</h3><div class="small" style="line-height:1.7;white-space:pre-line">${linkify(INS.executive_summary||"—")}</div></div>
 
   <h2>Market pulse — what changed & why it matters</h2>
   <div class="card" style="padding:0;margin-bottom:24px">
