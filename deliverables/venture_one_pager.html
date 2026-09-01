@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cardo Venture — Dealer Sales Sheet</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #101418;
+    width: 1100px;
+    background: #fff;
+  }
+  .page {
+    width: 1100px;
+    min-height: 1425px;
+    position: relative;
+    background: #fff;
+  }
+
+  /* HEADER */
+  .header {
+    background: #0b0d10;
+    color: #fff;
+    padding: 26px 40px 22px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::after {
+    content: "";
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 260px; height: 260px;
+    background: radial-gradient(circle, #1e88c7 0%, transparent 70%);
+    opacity: 0.35;
+  }
+  .brand-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+  }
+  .brand-row .cardo-logo {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  .brand-row .tag {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #7fd4ff;
+    text-transform: uppercase;
+    border: 1px solid #2a3b46;
+    border-radius: 20px;
+    padding: 5px 12px;
+  }
+  .title-row {
+    margin-top: 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    position: relative;
+    z-index: 2;
+  }
+  .title-row h1 {
+    margin: 0;
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+  .title-row .sub {
+    font-size: 15px;
+    color: #b9c3cc;
+    font-weight: 400;
+    max-width: 520px;
+    line-height: 1.4;
+  }
+
+  /* HERO */
+  .hero {
+    position: relative;
+    background: linear-gradient(135deg, #10151a 0%, #1a2530 55%, #0d1216 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 40px;
+    height: 300px;
+  }
+  .hero img {
+    height: 290px;
+    object-fit: contain;
+    filter: drop-shadow(0 20px 25px rgba(0,0,0,0.5));
+  }
+  .hero-callouts {
+    color: #fff;
+    max-width: 380px;
+  }
+  .hero-callouts .price {
+    font-size: 40px;
+    font-weight: 800;
+    color: #7fd4ff;
+  }
+  .hero-callouts .price span {
+    font-size: 15px;
+    color: #b9c3cc;
+    font-weight: 400;
+    display: block;
+    margin-top: 2px;
+  }
+  .hero-badges {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .hero-badges span {
+    background: rgba(127,212,255,0.12);
+    border: 1px solid rgba(127,212,255,0.4);
+    color: #cdeeff;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+
+  /* MAIN GRID */
+  .content {
+    padding: 26px 40px 20px 40px;
+  }
+  .section-label {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1e88c7;
+    margin-bottom: 8px;
+  }
+
+  .row2 {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 22px;
+    margin-bottom: 22px;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 18px;
+  }
+  .feature {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid #eef1f3;
+  }
+  .feature .icon {
+    width: 30px; height: 30px;
+    flex: 0 0 30px;
+    border-radius: 8px;
+    background: #0b0d10;
+    color: #7fd4ff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .feature h3 {
+    margin: 0 0 2px 0;
+    font-size: 13.5px;
+    font-weight: 800;
+  }
+  .feature p {
+    margin: 0;
+    font-size: 11.5px;
+    color: #4b5560;
+    line-height: 1.35;
+  }
+
+  .side-photo {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #0b0d10;
+  }
+  .side-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .side-photo .cap {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.85), transparent);
+    color: #fff;
+    padding: 30px 14px 10px 14px;
+    font-size: 11.5px;
+    line-height: 1.4;
+  }
+  .side-photo .cap b { color: #7fd4ff; }
+
+  /* VALUE COMPARE STRIP */
+  .value-strip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .value-card {
+    background: #f4f7f9;
+    border-radius: 10px;
+    padding: 14px 16px;
+    border: 1px solid #e3e9ed;
+  }
+  .value-card h4 {
+    margin: 0 0 6px 0;
+    font-size: 12.5px;
+    font-weight: 800;
+    color: #101418;
+  }
+  .value-card .num {
+    font-size: 24px;
+    font-weight: 800;
+    color: #0b0d10;
+  }
+  .value-card .num.blue { color: #1e88c7; }
+  .value-card p {
+    margin: 4px 0 0 0;
+    font-size: 10.5px;
+    color: #5a6570;
+    line-height: 1.35;
+  }
+
+  /* SELLING FLOOR / OBJECTIONS */
+  .row3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+  .panel {
+    background: #0b0d10;
+    color: #fff;
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .panel .section-label { color: #7fd4ff; }
+  .pitch {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #d7dde2;
+    margin: 0 0 10px 0;
+    padding-left: 14px;
+    border-left: 2px solid #1e88c7;
+  }
+  .pitch b { color: #fff; }
+
+  .qa {
+    font-size: 11px;
+  }
+  .qa .q {
+    font-weight: 800;
+    color: #fff;
+    margin-top: 9px;
+  }
+  .qa .a {
+    color: #b9c3cc;
+    margin: 2px 0 0 0;
+    line-height: 1.4;
+  }
+
+  /* ICP STRIP */
+  .icp {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .icp .chip {
+    background: #eaf6ff;
+    border: 1px solid #cdeeff;
+    border-radius: 8px;
+    padding: 9px 12px;
+    font-size: 11px;
+    color: #0b3a52;
+    font-weight: 600;
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 22px;
+    padding: 16px 40px;
+    background: #0b0d10;
+    color: #8b96a0;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer b { color: #fff; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="brand-row">
+      <div class="cardo-logo">&gt; cardo</div>
+      <div class="tag">Dealer &amp; P&amp;A Sales Sheet</div>
+    </div>
+    <div class="title-row">
+      <h1>VENTURE</h1>
+      <div class="sub">The world's first fully integrated off-road helmet with built-in mesh intercom. Built on the Leatt Moto 8.5 platform — powered by Cardo DMC.</div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <img src="img_hero.png" alt="Cardo Venture helmet">
+    <div class="hero-callouts">
+      <div class="price">$799 <span>MSRP &nbsp;|&nbsp; Available late summer 2026</span></div>
+      <div class="hero-badges">
+        <span>ECE 22.06 &amp; DOT</span>
+        <span>15-Rider Mesh Intercom</span>
+        <span>IP67 Waterproof</span>
+        <span>JBL 40mm Audio</span>
+        <span>1 Mile Range</span>
+        <span>5-Yr Shell Warranty</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <!-- FEATURES + SIDE PHOTO -->
+    <div class="row2">
+      <div>
+        <div class="section-label">Why It's Different</div>
+        <div class="feature-grid">
+          <div class="feature">
+            <div class="icon">M</div>
+            <div><h3>2nd-Gen DMC Mesh Intercom</h3><p>Connects up to 15 riders, 1-mile range, self-healing — no manual re-pairing when riders drop out of line-of-sight.</p></div>
+          </div>
+          <div class="feature">
+            <div class="icon">L</div>
+            <div><h3>Leatt Moto 8.5 Safety Platform</h3><p>Kevlar/carbon/fiberglass shell + 4-density EPS + 360° Turbine Technology to mitigate rotational &amp; concussive impact.</p></div>
+          </div>
+          <div class="feature">
+            <div class="icon">V</div>
+            <div><h3>Hands-Free "Hey Cardo" Control</h3><p>Natural voice operation for calls, music, and intercom — hands stay on the bars at all times.</p></div>
+          </div>
+          <div class="feature">
+            <div class="icon">W</div>
+            <div><h3>IP67 Waterproof Electronics</h3><p>Fully sealed system survives 3 ft of water for 30 min — built for mud, rain, and river crossings.</p></div>
+          </div>
+          <div class="feature">
+            <div class="icon">S</div>
+            <div><h3>JBL 40mm Sound + Bluetooth 5.2</h3><p>Immersive audio, phone calls, music/FM radio, plus Live Bluetooth Intercom with other major comm brands.</p></div>
+          </div>
+          <div class="feature">
+            <div class="icon">T</div>
+            <div><h3>Fully Serviceable Electronics</h3><p>Every component — mic, battery, brain box — is removable and upgradeable with a standard T10 Torx bit.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="side-photo">
+        <img src="img_group_ride.png" alt="Riders connected via Cardo Venture mesh intercom on the trail">
+        <div class="cap"><b>Group-ride ready.</b> DMC mesh keeps up to 15 riders connected across a 1-mile range — automatically, with no pairing required.</div>
+      </div>
+    </div>
+
+    <!-- VALUE STRIP -->
+    <div class="value-strip">
+      <div class="value-card">
+        <h4>The Upsell Math</h4>
+        <div class="num blue">$799</div>
+        <p>vs. Leatt Moto 8.5 ($549) + premium bolt-on comm unit ($850+ combined). Venture is a fully integrated package for less — and it looks better doing it.</p>
+      </div>
+      <div class="value-card">
+        <h4>Battery &amp; Charging</h4>
+        <div class="num">6–13 hrs</div>
+        <p>USB-C quick charge: 20 min = 2 hrs of ride time. Charge-while-riding supported via power bank.</p>
+      </div>
+      <div class="value-card">
+        <h4>Warranty Coverage</h4>
+        <div class="num">5 / 3 / 1</div>
+        <p>Years on shell / electronics / battery (2-yr battery warranty in EU) — best-in-class peace of mind.</p>
+      </div>
+    </div>
+
+    <!-- SELLING FLOOR + OBJECTIONS -->
+    <div class="row3">
+      <div class="panel">
+        <div class="section-label">How To Sell It</div>
+        <p class="pitch"><b>Lead with the hassle-elimination story.</b> No wire-routing through the liner, no bulky pod glued to the shell — it arrives ready to ride, balanced, and clean.</p>
+        <p class="pitch"><b>Anchor on the ICP:</b> ADV/dual-sport groups, trail riders, and off-road coaches who need hands-free, real-time communication over long distances or during instruction.</p>
+        <p class="pitch"><b>Reframe the price</b> as a bundle, not an add-on — a Moto 8.5-grade helmet <i>plus</i> a premium mesh comm system for less than buying both separately.</p>
+        <p class="pitch"><b>Note the fit:</b> not a hard sell for race-day motocross (audio can be a focus distraction) — position for trail, ADV, and coaching instead.</p>
+      </div>
+      <div class="panel">
+        <div class="section-label">Objection Handling</div>
+        <div class="qa">
+          <div class="q">"What if the electronics break?"</div>
+          <div class="a">Every component is removable &amp; serviceable with a standard T10 Torx bit — no full helmet replacement needed.</div>
+          <div class="q">"Will mud/sweat kill the electronics?"</div>
+          <div class="a">IP67-rated: submersible in 3 ft of water for 30 min. Liner and cheek pads snap out for washing.</div>
+          <div class="q">"My buddies use Sena — can I still talk to them?"</div>
+          <div class="a">Yes — Live Bluetooth Intercom connects with headsets from other major comm brands.</div>
+          <div class="q">"Isn't it heavy with all that tech?"</div>
+          <div class="a">1425g (M) fully loaded — lighter and better balanced than a standard helmet plus an external bolt-on pod.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="icp">
+      <div class="chip">🏍️ ADV &amp; Dual-Sport Riders — long-distance group communication</div>
+      <div class="chip">🎯 Off-Road Coaches — real-time, hands-free trail/track feedback</div>
+      <div class="chip">⚡ Early Adopters — first-ever integrated mesh off-road helmet</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div>Source: Official Cardo/Leatt product materials, press releases &amp; verified reviews (compiled 2026-07-09).</div>
+    <div><b>Cardo Systems</b> &nbsp;|&nbsp; cardosystems.com/pages/venture</div>
+  </div>
+
+</div>
+</body>
+</html>
