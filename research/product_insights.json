@@ -1,262 +1,271 @@
 {
-  "generated": "2026-08-29",
-  "analyst_note": "The headline this cycle is pricing, not firmware. Cardo and Sena both ran deep, simultaneous Labor Day-style sales today, and the pattern tells you more than the numbers: Cardo cut Freecom 4x, Freecom 2x and Packtalk Neo to -30% off MSRP -- exactly the mid/entry-mesh segment gap_analysis.json has flagged as exposed for over a year -- while leaving Packtalk Pro and Edge alone at their normal -10%. That is not panic discounting, it is targeted discounting of the weak spots, and it is a tacit confession that the 2025 MSRP hikes on those two Freecom units landed too high: Freecom 4x's sale price ($220.47) is now below its pre-hike MSRP (~$269.95), and Freecom 2x's sale price ($178.47) is below its pre-hike MSRP ($209.95) too. You do not discount 30% off a price you set correctly nine months ago. Meanwhile Sena's sitewide ~25% sale quietly closed the loop on last cycle's 50R MSRP confusion -- two independent sources now confirm $375 is the real number and the $339 reading from August 17 was a temporary promo, not a cut -- while its actual flagship, the 60S, sits out of stock on Sena's own store and is only buyable on Amazon, where the price just rose to $378. Both incumbents, in other words, are protecting their halo product's price integrity while discounting everything under it, and both are getting squeezed by the same forces from below: ASMAX's F1s hit a new floor of $112.76 this week, putting real mesh and AI voice control within $14 of Cardo's cheapest, mesh-less Spirit. Mesh Boost, by contrast, is actually calming down. Twelve days post-launch, we are no longer seeing the launch-week horror stories (bricked units, entire seven-rider groups with zero communication); what is left is narrower and more structural -- a Schuberth SC Edge owner still can't reach Public Mesh because Cardo hasn't shipped that firmware yet, and a Harley WHIM owner is stuck in mono because WHIM only fully supports Sena and Harley-branded hardware. That is a real gap, but it is a smaller, more fixable one than what we were writing about a week ago, and it is offset by genuinely positive owner stories -- a rider reporting flawless mesh performance over nearly 1,000 km, several unprompted 'met a stranger on Public Mesh' posts. Reso, meanwhile, keeps cutting price (Pilot Neo MSRP down from $320 to $299) into a US storefront that just shrank to three SKUs with everything showing Sold Out -- that is not a competitive pricing move, it is inventory clearance dressed up as one.",
-  "executive_summary": "This cycle's real story is that Cardo's own pricing behavior just validated the gap analysis: a Labor Day sale hit Freecom 2x, Freecom 4x and Packtalk Neo -- the exact mid-tier Bluetooth and cheapest-mesh segment this file has called Cardo's biggest structural hole for a year -- cutting them 30% off MSRP and, in Freecom's case, below the price Cardo charged before its own 2025 hikes. Packtalk Pro and Edge were left untouched, so the flagship premium and its unmatched-by-warranty gap versus Sena's 60S EVO/60X ($459, lifetime warranty vs Cardo's $499.95, 3-year) are exactly where they were a month ago. Sena ran its own sitewide ~25% sale and, in the process, resolved last cycle's open question: the 50R's brief $339 MSRP reading was a temporary promotion, not a real cut, with $375 now confirmed by two independent sources -- while Sena's actual flagship, the 60S, is out of stock direct and rising in price on Amazon ($378, up from $360), suggesting real demand pressure the sitewide discount didn't touch. Mesh Boost, twelve days past general availability, has stopped generating the acute launch-week failures and is now producing narrower, more diagnosable complaints -- a Schuberth SC Edge owner still can't use Public Mesh because that firmware hasn't shipped, and a Harley WHIM-connected Packtalk can't get phone calls heard by other riders because WHIM treats non-Sena, non-Harley hardware as second class -- alongside real praise (a flawless near-1,000 km ride, spontaneous Public Mesh connections). Below the incumbents, ASMAX's F1s hit its lowest price yet ($112.76, stacked Amazon coupon-and-promo) and now sits within $14 of Cardo's mesh-less, entry-level Spirit while delivering mesh and an offline AI voice assistant Spirit doesn't have; ASMAX also teased a September 20 Chongqing trade-show reveal. Reso is moving the opposite direction, cutting its Pilot Neo MSRP to $299 even as its primary US store contracts to just three listed products, all Sold Out -- a brand retreating from the exact market Cardo defends hardest while it keeps expanding into Japan, India, Australia and Vietnam. The through-line for Cardo: the product story (DMC's now-largest 31-rider ceiling, unique crash detection, calming Mesh Boost sentiment) is intact, but this week is a case study in how a brand's own discounting can undercut the pricing story it told the market less than a year ago.",
+  "generated": "2026-08-31",
+  "analyst_note": "This refresh pulls from four fully-updated brand files plus corrected battles/gap-analysis pricing. The single biggest story this cycle is not a competitor move - it's ours: Mesh-Boost finally went GA on Aug 17 after nearly two years in development, and within two weeks it has generated a steady drip of regression complaints (DMC auto-mute broken, Apple Music pausing, dual-BT connections breaking, Schuberth units losing single words in conversation) severe enough that they now outweigh the feature's own PR value in raw community sentiment. Everything else - Sena's 50C surfacing as an undocumented live SKU, Sena's own firmware wave breaking things that worked before, Reso's three-week stockout ending, ASMAX's stagnant app - is real but secondary to the fact that our flagship software release needs a visible, fast follow-up fix before it becomes 'the update that broke Cardo' in owner forums the way Sena's 50S v2.7 backlash became shorthand for Sena's software problems.",
+  "executive_summary": "Cardo shipped Mesh-Boost GA on Aug 17, 2026 (Cardo Connect 9.1, firmware 5.4) and immediately generated a wave of regression reports: DMC no longer auto-mutes intercom during phone calls, Apple Music self-pauses on Packtalk Pro, dual-Bluetooth connections break, lost mesh groups, and Schuberth SC EDGE units specifically report single words dropping out of conversation - with SC EDGE / Harley firmware support for the feature still not shipped as of month-end. This is a self-inflicted wound layered on top of real structural gaps: the sub-$250 mesh hole is still open (Sena's 50S/Spider RT1, Reso's Pilot Neo, and ASMAX's whole catalog all sell mesh under $290 while Cardo's cheapest mesh unit, Packtalk Neo, sits at $359.95), and Sena just matched or beat two of Cardo's remaining differentiators - APEX/APEX PLUS bring a user-replaceable battery, Qi wireless charging and a Limited Lifetime Warranty to the exact price band Freecom 2x/4x occupies, undercutting Cardo's sealed-battery, wired-only, 2-year-warranty story. Competitors aren't clean either: Sena's own Aug 19-20 firmware wave (60S v1.2.11, 60S EVO v1.0.3, 60X v1.0.1) is drawing fresh complaints (static over Bluetooth to Cardo units, mesh broken after updating), and the same 30K/Spider ST1 Bluetooth-breaks-on-firmware-update pattern recurs across multiple Reddit threads this summer. Reso ended a three-week 'Sold Out' stretch on Pilot Pro/Neo (tied to its resosport.com to resopilot.com domain migration) on Aug 31, and Sena's own catalog just surfaced a previously untracked SKU (the 50C, a 2022-era Harman Kardon mesh/camera unit at $449.25 street) that had apparently gone unlisted in Sena's own marketing for years - a reminder that even the market leader's product-line hygiene is loose. Across all four brands, riders in Reddit and Facebook threads increasingly name Fodsport, Freedconn and EJEAS as 'good enough' alternatives to both Cardo and Sena, a duopoly-fatigue signal that should worry both incumbents more than either worries about the other.",
   "market_pulse": [
     {
-      "date": "2026-08-29",
-      "brand": "Cardo",
-      "development": "A Labor Day-style sale hits Cardo's mid-tier and cheapest-mesh lines specifically: Freecom 4x drops to $220.47 (-30% off $314.95 MSRP, up from -10%), Freecom 2x to $178.47 (-30% off $254.95, up from -10%), and Packtalk Neo to $251.95-$251.97 (-30% off $359.95, up from -10%). Packtalk Pro and Edge are untouched, holding their usual -10% ($449.95 and $393.95-$395.96 respectively). Entry-tier Spirit and Spirit HD are also untouched.",
-      "implication": "The exact segments gap_analysis.json has flagged as Cardo's biggest structural weakness (mid-tier Bluetooth, cheapest mesh) are the ones getting discounted, while the flagship premium and warranty gap versus Sena stay exactly where they were. Freecom's new sale prices sit below the units' own pre-2025-hike MSRPs, which is hard to read as anything other than the hikes having overshot."
-      },
-    {
-      "date": "2026-08-29",
-      "brand": "Sena",
-      "development": "Sena runs a sitewide ~25% off promotion across nearly its whole catalog (50R to $281.25, 50S to $284.25, Spider RT1/ST1 to $179.25, 5R to $104.25, and more), and in the process resolves last cycle's open question about the 50R: two independent sources (Sena's own store and RevZilla) now confirm $375 is the real MSRP, and the $339 figure recorded on August 17 was a temporary promotional price, not a permanent cut. Meanwhile the 60S flagship remains out of stock direct and is only available via Amazon, where its price rose to $378 (from $360 on 8/25) against an unchanged $439 list.",
-      "implication": "Sena discounted everything except its most in-demand unit, mirroring Cardo's own flagship-protection move the same day. The 50R MSRP correction is also a useful caution: single-day price snapshots move for promotional reasons as often as structural ones, cutting both ways when comparing brands."
-    },
-    {
-      "date": "2026-08-29",
-      "brand": "ASMAX",
-      "development": "ASMAX's F1s hits its lowest recorded price ($112.76 on Amazon, a clippable coupon stacked on top of an existing -11% promo, down from $118.99), putting a mesh-and-AI-voice unit within $14 of Cardo's cheapest, mesh-less Spirit ($98.95). The same week, ASMAX teases a September 20, 2026 appearance at CIMAMotor 2026 in Chongqing via Facebook and Instagram, tying together earlier cryptic 'EVA-R' and Chongqing posts into what looks like a show-timed product reveal.",
-      "implication": "The entry-price floor under Cardo keeps dropping, and ASMAX is signaling more is coming rather than resting on its current lineup."
-    },
-    {
-      "date": "2026-08-29",
+      "date": "2026-08-31",
       "brand": "Reso",
-      "development": "Reso quietly cuts its Pilot Neo MSRP from $320 to $299 even as its primary US storefront (resopilot.com) contracts to just three listed items -- Pilot Pro, Neo and Lite -- with the Headset and both hardware accessories gone from the catalog entirely, and every remaining SKU, including duplicate 'test' listings that had stayed purchasable through prior checks, now showing Sold Out.",
-      "implication": "A price cut into an empty, Sold-Out storefront reads as inventory clearance rather than a competitive move. Reso's real growth (Japan, India, Australia, Vietnam, a first BMW Motorrad festival appearance) continues everywhere except the US market Cardo competes hardest in."
+      "development": "Pilot Pro and Pilot Neo return to 'Add to cart' on resopilot.com, ending three weeks of sitewide 'Sold Out' status that began Aug 10 with the resosport.com-to-resopilot.com domain migration. Prices unchanged ($359/$399 Pro, $269/$299 Neo).",
+      "implication": "A young DTC brand going fully out of stock across its two hero SKUs for three weeks during a domain migration is a real execution risk, not a marketing choice - it likely cost Reso sales during a period when its Pilot Pro/Neo value story was otherwise gaining organic Reddit traction."
     },
     {
-      "date": "2026-08-27 to 2026-08-29",
-      "brand": "Cardo",
-      "development": "Twelve days after Mesh Boost's general availability, the acute launch-week failures (total group breakdowns, bricked units) are no longer surfacing in owner reports; what remains is narrower. A Schuberth SC Edge owner got an error trying to reach Public Mesh because Cardo hasn't shipped the required firmware for that integration yet; a Harley WHIM-connected Packtalk owner found other riders couldn't hear their phone calls because WHIM only fully supports Sena and Harley-branded units, leaving other brands on mono; and a Manitoba customer found Cardo's listed customer-service phone number 'unavailable in her region' despite the site claiming US/Canada support. Against that, genuine praise also landed: a rider reported flawless Mesh performance over nearly 1,000 km, and several owners posted unprompted stories of Public Mesh connecting them with strangers mid-ride.",
-      "implication": "The core Mesh Boost experience is stabilizing, but the rollout has exposed Cardo's second-tier ecosystem -- OEM helmet integrations and non-US support access -- as an afterthought relative to the core Packtalk line."
-    },
-    {
-      "date": "2026-08-27",
+      "date": "2026-08-31",
       "brand": "Sena",
-      "development": "The Wave Intercom companion app updates to v1.0.25 with an improved voice module for smoother communication, and its App Store rating climbs to 3.6/5 (14 ratings) -- the first rating this app has shown in this dataset -- while the flagship Sena Motorcycles app remains stuck at 2.1/5 across 125 ratings, unchanged for weeks.",
-      "implication": "Sena's newer, narrower Wave app is measurably better received than its legacy general-purpose app, a split worth tracking as more hardware and features route through Wave."
+      "development": "RevZilla's cross-brand scrape surfaces the Sena 50C (Harman Kardon Mesh Intercom & Camera) as a live, purchasable product that had never appeared in prior tracking - a legacy 2022-launched SKU, now confirmed at $449.25 street ($599 MSRP) under Sena's ongoing sitewide sale.",
+      "implication": "Sena's own product catalog is loosely maintained enough that a $449 SKU with a built-in camera went untracked for months of daily research; the same audit found the RevZilla Sena SKU count actually fell (78 to 77) the same week, the first drop recorded - worth watching as a sign of quiet delisting alongside the sale."
     },
     {
-      "date": "2026-08-25",
-      "brand": "Sena",
-      "development": "Three-plus weeks after their August 5 (APEX/APEX PLUS) and August 11 (PRISM 2) launches, none of Sena's newest products -- 60X, Vortex, Spider X Slim, APEX/APEX PLUS or PRISM 2 -- has received a single tier-1 hands-on review with a verdict from MCN, Bennetts BikeSocial, RideApart, webBikeWorld, FortNine or RevZilla Common Tread; only launch-news pickups exist.",
-      "implication": "The review window during which Cardo could credibly get ahead of APEX's user-replaceable battery advantage, and PRISM 2's mesh-audio recording hook, is still wide open."
-    },
-    {
-      "date": "2026-08-19",
+      "date": "2026-08-30/31",
       "brand": "Cardo",
-      "development": "RideApart's Mesh Boost coverage continues to frame the Public Mesh feature -- open, proximity-based voice chat with any nearby Public-Mesh-enabled rider, no pre-pairing required -- as arguably the bigger story versus the headlined 15-to-31-rider DMC group-size increase, calling it 'basically proximity voice chat for motorcycles.'",
-      "implication": "Still the cleanest unambiguously positive press angle from the entire Mesh Boost rollout, and a feature no competitor ships in this form today."
+      "development": "Mesh-Boost regression reports continue two weeks post-GA: a Packtalk Edge owner reports DMC no longer auto-mutes intercom during phone calls (previously automatic, now requires a manual 2-second button hold); a Packtalk Pro owner reports Apple Music pausing itself roughly every 15 seconds since the update; an AGV Insyde (Cardo-powered) owner reports losing the ability to connect to new-generation Mesh users entirely; two separate Schuberth SC EDGE owners report single words dropping out of mesh conversations.",
+      "implication": "These are not isolated one-off complaints - they cluster specifically around the Aug 17 firmware 5.4 / app 9.1 release and span multiple product lines (Packtalk Edge, Packtalk Pro, Schuberth SC EDGE, third-party AGV Insyde), which is the signature of a real regression, not user error."
+    },
+    {
+      "date": "2026-08-29",
+      "brand": "Sena",
+      "development": "Sena launches a sitewide ~25% off promotional sale across most of its catalog (first observed Aug 29), pulling 60S to $360, 50S to $284.25 (down from $320 on Aug 25), Spider RT1/ST1 to $179.25, 5S to $126.75, and 5R to $104.25.",
+      "implication": "This single promotion resets nearly every Cardo-vs-Sena price comparison in the battles deck - Freecom 4x's own Labor Day discount ($220.47) now barely beats the discounted 50R ($281.25 mesh unit), and 5R LITE at $81.75 now undercuts Spirit outright. Cardo's own discounting cadence needs to track Sena's promotional calendar, not just its MSRP moves."
+    },
+    {
+      "date": "2026-08-19/20",
+      "brand": "Sena",
+      "development": "Sena ships a coordinated 60-series firmware wave (60S v1.2.11, 60S EVO v1.0.3, 60X v1.0.1 - the 60X's first update since its July 2 launch) adding a Microphone Gain control, but within days customer feedback reports a 60X owner riding in a mixed Sena/Cardo group getting intermittent static over the Bluetooth bridge to a Packtalk Pro since updating to 1.0.1, and a separate user reporting mesh stopped working entirely after updating.",
+      "implication": "Sena is repeating its own well-documented pattern (see 30K/Spider ST1 Bluetooth-breaks-on-update threads from June-July) of firmware updates degrading exactly the features they're meant to improve - useful context for Cardo's own Mesh-Boost regression story: this is an industry-wide QA discipline problem, not uniquely Cardo's."
+    },
+    {
+      "date": "2026-08-17",
+      "brand": "Cardo",
+      "development": "Mesh-Boost reaches general availability nearly two years after first announcement (Nov 2024): Cardo Connect jumps to v9.1, Packtalk Pro/Edge/Neo firmware to v5.4, delivering 31-rider DMC groups (up from 15), Public Mesh proximity chat, and Remote Grouping. Harley-Davidson and Schuberth device support still pending, expected Q4 2026.",
+      "implication": "The headline feature (31-rider groups, matching or beating Sena's 24-rider Mesh 3.0 cap) is a genuine product win and the strongest OTA value story in the category - but shipping it to only part of the installed base (no Harley/Schuberth day one) while early adopters report the regressions above undercuts the launch's own narrative."
+    },
+    {
+      "date": "2026-08-10",
+      "brand": "Reso",
+      "development": "Reso's global/US DTC storefront migrates domains from resosport.com to resopilot.com; canonical Pilot Pro and Pilot Neo product pages immediately show 'Sold Out' at unchanged prices, a status that persists for three weeks.",
+      "implication": "Coincides with Reso simultaneously expanding retail footprint into Chile, Vietnam, India, and Australia DTC storefronts in July-August - the core US/global store going dark for weeks during an international growth push suggests operational strain, a vulnerability Cardo's own distribution reliability can be messaged against."
+    },
+    {
+      "date": "2026-08-05",
+      "brand": "Sena",
+      "development": "Sena launches APEX (2-way, $265) and APEX PLUS (4-way, $325) Bluetooth-only intercoms: user-replaceable Modular Sandwich Battery with spare battery and dual charging dock included, Qi wireless charging, BT 6.0, and a Limited Lifetime Warranty - positioned by Sena VP Jakub Smykal as being 'for the rider who values premium features like replaceable batteries and intuitive controls' without mesh complexity.",
+      "implication": "This is a direct, purpose-built rival to Freecom 2x/4x in the exact same segment (Bluetooth-only, not mesh) - it directly answers two long-standing Freecom weaknesses (sealed battery, wired-only charging) that gap_analysis.json has flagged for months. Freecom's current Labor Day discount pricing still undercuts APEX/APEX PLUS by roughly $87-100, but that price edge erodes the moment Sena runs its own promotion on APEX."
+    },
+    {
+      "date": "2026-08 (ongoing)",
+      "brand": "Multi-brand",
+      "development": "Across Reddit and Facebook Group threads on all four brand files, riders repeatedly name Fodsport, Freedconn and EJEAS as 'good enough' budget alternatives - one Cardo thread has a rider switching from a Spirit to a Fodsport M1-S citing better 8-person group support; a Sena thread has a commenter stating flatly 'Cardo and Sena are both overpriced for what they are. Freedconn and EJEAS work just as well for a fraction of the cost.'",
+      "implication": "This is a duopoly-fatigue signal, not a single-brand problem - both Cardo and Sena are being priced out of value-conscious riders' consideration sets simultaneously by sub-$100 Chinese brands, a threat neither incumbent's competitive strategy currently names directly (ASMAX and Reso get tracked; Fodsport/Freedconn/EJEAS do not)."
     }
   ],
   "gaps": [
     {
-      "title": "Mesh Boost's Acute Bugs Faded, But It Exposed a Second-Tier Ecosystem Problem",
-      "severity": "high",
+      "title": "Mesh-Boost GA regression wave",
+      "severity": "critical",
       "category": "software",
-      "description": "Twelve days after Mesh Boost's August 17 general availability, the group-breaking failures from launch week are no longer showing up in owner reports. What has replaced them is a narrower but still real pattern: named OEM-integrated and third-party-connected hardware is lagging the core Packtalk line. A Schuberth SC Edge owner cannot reach Public Mesh because the required firmware hasn't shipped for that device yet. A Harley WHIM-connected Packtalk can initiate a call, but other riders can't hear it, because WHIM was built to fully support only Sena and Harley-branded units, leaving everything else on mono. A separate Edge owner reported private-comm connection issues right after installing the update, even though public mesh worked fine for them.",
+      "description": "Two weeks after Mesh-Boost's Aug 17 general-availability release (Cardo Connect 9.1, firmware 5.4), customer feedback across Facebook Group and Reddit shows a consistent cluster of regressions rather than scattered complaints: DMC no longer auto-mutes intercom during phone calls, Apple Music self-pauses on Packtalk Pro roughly every 15 seconds, mesh groups disappearing after the update, a Packtalk Pro bricked when firmware failed at 98%, an AGV Insyde unit unable to connect to new-generation Mesh users, and Schuberth SC EDGE owners reporting single words dropping out of mesh conversations. Schuberth and Harley-Davidson device support for Mesh-Boost has still not shipped as of Aug 31, more than two weeks after the GA date, despite the update already being live for the rest of the fleet.",
       "evidence": [
-        "Customer feedback 2026-08-28: 'A Schuberth SC Edge owner asked about connecting to Public Mesh and got an error saying it isn't possible yet; the top comment confirmed the required firmware update from Cardo hasn't shipped for SC Edge yet.'",
-        "Customer feedback 2026-08-28: 'A rider with a Cardo Packtalk connected to a Harley Street Glide WHIM system couldn't get others to hear phone calls; a commenter explained the WHIM was designed to fully support only Sena/Harley-branded units, with other brands limited to mono sound.'",
-        "Customer feedback 2026-08-29: 'After installing the new Mesh Boost update, a user had private-comm connection issues (though public mesh worked fine); commenters suggested cycling through modes to fix it.'"
+        "2026-08-30 Packtalk Edge: 'Since a recent update, a Packtalk Edge user finds that receiving or dialing a phone call no longer automatically mutes DMC intercom for a private call as expected, requiring a manual 2-second button hold'",
+        "2026-08-30 Packtalk Pro: 'After the Mesh Boost firmware update, a Packtalk Pro user reports Apple Music playback pauses itself after about 15 seconds and repeats the same behavior on the next track'",
+        "2026-08-17 firmware v5.4 launch date confirmed in recent_news; Harley-Davidson and Schuberth device support 'still pending, expected Q4 2026' per the same entry",
+        "2026-08-17 Packtalk Pro: 'firmware update failed at 98%' bricked the device, pursuing warranty exchange",
+        "2026-08-31 Schuberth SC EDGE (x2): 'single words get lost in conversation and they must repeat several words'"
       ],
-      "customer_signal": "A Schuberth SC Edge owner asked about connecting to Public Mesh and got an error saying it isn't possible yet -- the required firmware update from Cardo hasn't shipped for SC Edge.",
-      "competitor_benchmark": "Sena's coordinated August 19-20 firmware wave patched its full 60-series (60S, 60S EVO, and the 60X's first-ever update) in one coordinated push; two weeks post-GA, Cardo is still leaving named OEM-integration products (Schuberth) and third-party head units (Harley WHIM) behind the core line's fix cadence."
+      "customer_signal": "Multiple owners across Packtalk Pro, Packtalk Edge, and Schuberth SC EDGE report the Aug 17 Mesh-Boost update broke previously-working call-muting, music playback, and mesh connectivity - a cluster pattern, not isolated defects.",
+      "competitor_benchmark": "Sena's own Aug 19-20 firmware wave for the 60-series is drawing near-identical complaints (static over BT bridging, mesh broken after update) - this is a category-wide QA discipline gap, but Cardo's version lands on a much larger, more visible launch."
     },
     {
-      "title": "A Real Sub-$300 Mesh Unit Still Doesn't Exist -- A Sale Just Proved the Price Point Works",
+      "title": "Sub-$250 mesh hole still unfilled",
       "severity": "critical",
       "category": "pricing",
-      "description": "Packtalk Neo's everyday price is $359.95 MSRP (normally ~$324 street at the usual -10% discount); only a temporary Labor Day promotion pushed it to $251.95-$251.97. The moment that sale ends, Cardo again has zero motorcycle mesh SKUs under $300, while Sena (Spider RT1/ST1 at an everyday MSRP of $239), ASMAX (S1 at an everyday street price of $79.79) and Reso (Pilot Neo at $299 MSRP / $269 street) all sell mesh under $300 as standing pricing, not a flash discount.",
+      "description": "Cardo's cheapest mesh-capable unit remains Packtalk Neo at $359.95. Every other tracked brand sells mesh well under $300: Sena's 50S is $284.25 street (sitewide sale) and Spider RT1/ST1 is $179.25 street; Reso's Pilot Neo is $269-299; ASMAX sells mesh from $79.79 (S1) through $155-171 (Future 1, F1 Pro). A rider with a sub-$250 budget who wants mesh cannot buy a Cardo product at all.",
       "evidence": [
-        "cardo.json Packtalk Neo: msrp_usd 359.95; street_price_usd 251.95 explicitly logged as a Labor Day sale price, up from the standing $323.96 (-10%) recorded through 2026-08-25",
-        "sena.json Spider RT1/ST1: msrp_usd 239 (everyday reference price, not a sale price)",
-        "asmax.json S1: street_price_usd 79.79 (Amazon coupon price, standing for weeks)",
-        "reso_products: Pilot Neo msrp_usd 299 (cut from 320 on 2026-08-29), street_price_usd 269"
+        "gap_analysis.json: 'Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now about $76 above Sena's 50S'",
+        "battles.json entry-bt/mid-bt: ASMAX S1 sells mesh (8 riders) at $79.79; Future 1 sells mesh (10 riders) at ~$155",
+        "gap_analysis.json feature_gaps: 'Mesh below $250 ... severity: critical ... A \"Packtalk Lite\" style DMC unit at $199-249 ... closes the lineup's biggest hole'"
       ],
       "customer_signal": null,
-      "competitor_benchmark": "Even at its temporary sale price, Neo is still roughly $73 above Reso's everyday Pilot Neo and more than 3x ASMAX's S1 -- and unlike theirs, Cardo's discount is explicitly time-limited."
+      "competitor_benchmark": "Sena's new Spider X Slim ($299, June 2026 launch) adds Bose audio and a lifetime warranty directly into this gap; ASMAX's entire catalog undercuts Cardo's mesh floor by 2-4x."
     },
     {
-      "title": "Freecom Still Has No Replaceable Battery While Sena's Price-Matched APEX Sits Unreviewed",
+      "title": "Sena firmware repeatedly breaks working Bluetooth/mesh features",
       "severity": "high",
-      "category": "product",
-      "description": "Every Cardo motorcycle communicator, including both Freecom units, ships with a sealed, non-replaceable battery. Sena's APEX ($265) and APEX PLUS ($325), on sale since August 5 within $10-11 of Freecom 2x's $254.95 and Freecom 4x's $314.95 MSRPs, ship with a user-replaceable Modular Sandwich Battery (spare battery and dual charging dock included) plus Qi wireless charging that Freecom lacks entirely. Now more than three weeks post-launch, APEX/APEX PLUS still has zero independent press reviews.",
+      "category": "software",
+      "description": "A recurring pattern across multiple Sena product lines: firmware updates that are supposed to improve reliability instead break Bluetooth pairing or mesh that worked fine before. Documented on Spider ST1 (Bluetooth stopped connecting after update, factory reset only reaches pairing mode), Sena 30K (multiple owners report firmware updates failing or breaking Bluetooth to iPhone), and now the brand-new 60X within weeks of its first post-launch firmware.",
       "evidence": [
-        "cardo.json: detachable_battery is false across every motorcycle communicator, including Freecom 4x at MSRP $314.95",
-        "sena.json APEX/APEX PLUS: 'Modular Sandwich Battery System - user-replaceable battery, includes spare battery + dual charging dock' plus Qi wireless charging",
-        "sena.json recent_news 2026-08-25: 'No new press reviews with a rating/verdict found for 60X, Vortex, Spider X Slim, APEX/APEX PLUS, or PRISM2... as of this check'",
-        "Customer feedback (Cardo, recurring): 'Members report battery life concerns after 1 year, with some experiencing only 4.5 hours instead of the claimed 12-14 hours.'"
+        "2026-06-28 Spider ST1: 'stopped connecting via Bluetooth after a firmware update; reinstalling firmware didn't help'",
+        "2026-07-28 Sena 30K: 'unit won't stay connected via Bluetooth to their iPhone 14 since updating the firmware'",
+        "2026-08-30 60X: 'static/noise over Bluetooth to Cardo after firmware update ... since updating to firmware 1.0.1 the Bluetooth link to a Cardo Packtalk Pro intermittently degrades to static'",
+        "2026-08-31 General: 'After updating, a user reports music and phone connection work fine but mesh no longer works'"
       ],
-      "customer_signal": "Members report Packtalk Edge battery life concerns after 1 year, with some experiencing only 4.5 hours instead of the claimed 12-14 hours.",
-      "competitor_benchmark": "Sena APEX $265 / APEX PLUS $325 vs Cardo Freecom 2x $254.95 / Freecom 4x $314.95 MSRP -- near-identical prices, but only Sena ships a swappable battery, and it still has no press verdict crediting the advantage."
+      "customer_signal": "Owners across three different Sena product generations (30K, Spider ST1, 60X) independently report firmware updates breaking Bluetooth or mesh connectivity that worked before the update.",
+      "competitor_benchmark": "This is a direct opening for Cardo's OTA reliability messaging - but only if Cardo's own Mesh-Boost rollout is not simultaneously generating the same complaint pattern (see 'Mesh-Boost GA regression wave' above)."
     },
     {
-      "title": "Flagship Price and Warranty Gap Is Unchanged -- Cardo Chose Not to Touch It This Week",
+      "title": "Flagship price/warranty gap widened by APEX launch",
       "severity": "high",
       "category": "pricing",
-      "description": "Packtalk Pro remains $499.95 MSRP / $449.95 street with a 3-year warranty, untouched by this week's discounting even as Freecom and Neo dropped up to 30%. It still costs $40 more than Sena's warranty-superior 60S EVO and 60X (both $459, limited lifetime warranty on the main unit). Choosing to discount everything except the flagship keeps the exact gap flagged in prior cycles frozen in place rather than closing it.",
+      "description": "Sena's Aug 5 APEX/APEX PLUS launch adds a user-replaceable battery (with spare battery and dual charging dock included), Qi wireless charging, and a Limited Lifetime Warranty at $265/$325 - directly in Freecom 2x/4x's price band and attacking two structural Freecom weaknesses (sealed battery, wired-only charging) that were previously only hypothetical competitive risks. Separately, Sena's 60S EVO/60X already carry a lifetime warranty at $459, against Packtalk Pro's $499.95 and 3-year coverage.",
       "evidence": [
-        "cardo.json Packtalk Pro: msrp_usd 499.95, street_price_usd 449.95 (unchanged 2026-08-25 to 2026-08-29), warranty_years 3",
-        "sena_products.json 60S EVO / 60X: msrp_usd 459 each, both carrying a limited lifetime warranty on the main unit",
-        "cardo.json recent_news 2026-08-29: Freecom 4x, Freecom 2x and Packtalk Neo all discounted -30% the same day Packtalk Pro/Edge pricing held flat"
+        "battles.json mid-bt: APEX 'user-replaceable Modular Sandwich Battery ... Qi wireless charging ... Limited Lifetime Warranty' vs Freecom 2x's 'sealed' battery and 'wired only' charging",
+        "battles.json high-bt: APEX PLUS $325 vs Freecom 4x $314.95 MSRP, same Bluetooth-only segment, same swappable-battery/wireless-charging/lifetime-warranty advantages",
+        "gap_analysis.json: 'Sena 60S EVO introduced a limited LIFETIME warranty on the main unit ... Evaluate matching lifetime coverage on Packtalk Pro/Edge'"
       ],
       "customer_signal": null,
-      "competitor_benchmark": "Sena 60S EVO/60X at $459 plus lifetime warranty vs Cardo Packtalk Pro at $499.95 plus 3-year warranty -- unchanged for a second straight refresh cycle, with no Cardo response."
+      "competitor_benchmark": "Freecom 2x/4x currently hold a real price edge only because of Cardo's own Labor Day discounting ($178.47/$220.47 street) against APEX/APEX PLUS's undiscounted launch MSRPs - that edge disappears the moment Sena runs a comparable promotion, which its Aug 29 sitewide sale shows it is willing to do broadly."
     },
     {
-      "title": "Discounting Freecom 30% Off MSRP Within Nine Months Undercuts the 2025 Price-Hike Story",
-      "severity": "medium",
-      "category": "pricing",
-      "description": "Cardo raised Freecom 4x's MSRP from roughly $269.95 to $314.95 and Freecom 2x's from $209.95 to $254.95 in 2025. Today's Labor Day sale prices -- $220.47 for the 4x and $178.47 for the 2x -- sit below both units' pre-hike MSRPs. Selling below where you priced a product before you raised its price is hard to square with the hike having reflected added value; it reads more like a price that overshot and is now being corrected through discounting rather than an acknowledged rollback.",
-      "evidence": [
-        "cardo.json Freecom 4x: 'MSRP raised from ~$269.95 to $314.95 in 2025'; street_price_usd now 220.47 (Labor Day sale, -30% off the raised MSRP)",
-        "cardo.json Freecom 2x: 'MSRP raised from $209.95 to $254.95 in 2025'; street_price_usd now 178.47 (Labor Day sale, -30% off the raised MSRP)",
-        "Cardo social_media recent_posts, 2026-06-18 (r/motorcyclegear): 'What do you guys use instead of a cardo' thread includes the complaint that it's 'insane that cardos cost more than actual helmets'"
-      ],
-      "customer_signal": "insane that cardos cost more than actual helmets",
-      "competitor_benchmark": "Neither Sena's nor ASMAX's discounting this cycle pushed prices below their own pre-hike reference points in the same way -- this is a Cardo-specific pricing-credibility issue, not a category-wide pattern."
-    },
-    {
-      "title": "ASMAX's F1s at $112.76 Now Sits Within $14 of Cardo's Cheapest Unit -- With Mesh and AI Voice Spirit Lacks",
-      "severity": "high",
-      "category": "pricing",
-      "description": "Cardo's Spirit ($98.95 street) is Bluetooth-only, has no mesh, and uses basic 32mm unbranded speakers. ASMAX's F1s just hit its lowest recorded price ($112.76 on Amazon, a coupon stacked on an existing promo), delivering mesh intercom, an offline 'Hi Max' AI voice assistant that works without a phone connection, and Bongiovi-tuned audio -- a materially richer spec sheet for $14 more than Cardo's cheapest product.",
-      "evidence": [
-        "cardo.json Spirit: street_price_usd 98.95, intercom_tech 'Bluetooth (no mesh)', audio '32mm speakers'",
-        "asmax_products.json F1s: street_price_usd 112.76 (Amazon coupon-on-promo, 2026-08-29, the lowest yet recorded), tier 'flagship'",
-        "asmax.json strengths: 'Offline Hi Max AI voice assistant (EN/ES/JA) that works without phone/internet; reviewers confirm it registers reliably at highway speed with gloves'"
-      ],
-      "customer_signal": "sees no reason to pay $300-500 for Cardo or Sena when ASMAX does the job for about half the price (r/sgmotorbikers, 2026-08-29)",
-      "competitor_benchmark": "Spirit's only real advantages over F1s are brand trust and a US service network -- the spec sheet itself now favors the $14-more-expensive ASMAX unit outright."
-    },
-    {
-      "title": "UTV Guide's Mesh-Reliability Finding Still Awaits a Retest -- No Public Cardo Response Yet",
+      "title": "ASMAX ships flagship specs but can't shake audio-quality and mounting complaints",
       "severity": "medium",
       "category": "product",
-      "description": "UTV Guide's August 23 field test of the Venture helmet found vehicle-to-vehicle DMC mesh connectivity inconsistent across a spread-out multi-UTV group in mountainous terrain, with the lead vehicle dropping out of the mesh despite intermediate riders that should have bridged it under DMC's self-healing design. The reviewer explicitly noted the test predated the August 17 Mesh Boost update and planned to retest. As of this refresh, no retest has been published and no public Cardo response has surfaced.",
+      "description": "ASMAX continues to win on spec-sheet value (mesh, AI voice, IPX7/IP67, Bongiovi tuning) at a fraction of Cardo/Sena pricing, but customer feedback shows recurring quality-control friction: audio delay/latency on F1 Pro, a mount retention failure, and audio dropout/echo complaints, on top of the brand's own app going 7+ weeks without an update as of Aug 31 2026 - the longest gap recorded since tracking began.",
       "evidence": [
-        "cardo.json weaknesses: 'UTV Guide's 2026-08-23 Venture field test adds a group-mesh-specific data point: vehicle-to-vehicle DMC connectivity was inconsistent across a spread-out multi-UTV group in mountainous terrain, even with intermediate connected riders that should have bridged the mesh -- though the test predated the 2026-08-17 Mesh Boost update and the reviewer plans to retest'",
-        "cardo.json press_coverage: UTV Guide's review is described as 'mixed' with the vehicle-to-vehicle mesh finding as the notable criticism against an otherwise positive helmet review"
+        "2026-08-22 F1 Pro: 'A user asks whether it's normal for there to be noticeable delay/lag in conversation on the ASMAX F1 Pro'",
+        "asmax.json customer_feedback topics include 'Mount retention failure' and 'Audio dropout and echo'",
+        "asmax.json current_software: 'iOS App Store still shows v1.0.17 (2026-07-13) as the latest version ... now just over seven weeks with no newer release, still the longest gap observed since tracking began'"
       ],
-      "customer_signal": null,
-      "competitor_benchmark": "This remains an open, citable, independent finding directly contradicting Cardo's own 'largest, most reliable mesh network' framing of Mesh Boost -- the longer it goes unaddressed, the more it risks calcifying before the promised retest lands."
+      "customer_signal": "F1 Pro owners report noticeable call-audio latency/lag and dropout/echo issues even as other threads praise the same product's mount security and value.",
+      "competitor_benchmark": "ASMAX's spec sheet (mesh, AI voice, IPX7) undercuts Cardo's entry/mid tiers by 2-4x on paper, but its QC and software-support cadence remain genuine, documented weaknesses relative to Cardo's - this is where 'you get what you pay for' messaging is actually defensible, not just marketing spin."
     },
     {
-      "title": "Non-US Support Access Gaps Persist Alongside the Firmware Rollout",
+      "title": "Reso's DTC infrastructure is fragile during its highest-growth period",
+      "severity": "medium",
+      "category": "gtm",
+      "description": "Reso's core US/global storefront (resopilot.com, migrated from resosport.com on Aug 10) went fully 'Sold Out' on its two hero SKUs (Pilot Pro, Pilot Neo) for three straight weeks, only recovering Aug 31 - during the same period Reso was simultaneously launching new DTC storefronts in India and Australia and expanding retail into Chile, Vietnam and the Philippines.",
+      "evidence": [
+        "2026-08-10 recent_news: 'canonical Reso Pilot Pro and Pilot Neo product pages ... all now show Sold Out status at unchanged prices, coinciding with a R[domain migration]'",
+        "2026-08-31 recent_news: 'Reso Pilot Pro and Pilot Neo return to Add to cart status ... ending three weeks of Sold Out status'",
+        "2026-08-17/25/29 recent_news: parallel accessory delistings (Headset, then 45mm HD Speaker + 2nd Helmet Kit) during the same stockout window"
+      ],
+      "customer_signal": "2026-08-17 Reso Pilot Pro: a commenter looking for a second helmet kit at second-hand price implies the retail channel wasn't a viable option during the stockout window.",
+      "competitor_benchmark": "Reso's product itself earns consistently positive Reddit sentiment (10 of 18 recent feedback entries positive, only 1 negative) - the brand's growth is currently gated by operational execution, not product quality, which is a narrower and more time-sensitive vulnerability than a product problem would be."
+    },
+    {
+      "title": "Duopoly fatigue: riders naming sub-$100 Chinese brands as viable alternatives to both Cardo and Sena",
+      "severity": "medium",
+      "category": "gtm",
+      "description": "Across both Cardo and Sena feedback, riders increasingly cite Fodsport, Freedconn and EJEAS by name as adequate substitutes, framing both premium incumbents as overpriced rather than debating Cardo-vs-Sena on merits. Neither battles.json nor gap_analysis.json currently tracks these brands as competitors.",
+      "evidence": [
+        "2026-05-07 Cardo Spirit: rider switched to a Fodsport M1-S (8-person support) and 'found it a lot better' than the 2-rider-limited Spirit",
+        "2025-11-10 Sena 60S: 'Cardo and Sena are both overpriced for what they are. Freedconn and EJEAS work just as well for a fraction of the cost'",
+        "2025-10-22 Cardo Spirit HD: Philippines buyers called the HD's markup over base Spirit or a Freedconn FX 'highway robbery'"
+      ],
+      "customer_signal": "Multiple independent Reddit/Facebook threads across both Cardo and Sena feedback name the same three budget brands (Fodsport, Freedconn, EJEAS) unprompted as reasons not to buy either premium brand.",
+      "competitor_benchmark": "This threat is invisible in the current competitive tracking, which focuses on ASMAX and Reso (both selling above $80) - the sub-$100 Chinese long tail is a distinct and currently unmonitored category risk."
+    },
+    {
+      "title": "OEM/branded-partner firmware support lags the core product line",
       "severity": "medium",
       "category": "support",
-      "description": "A Manitoba (Canada) customer reported that Cardo's only listed customer-service phone number says it is unavailable in her region, despite the website advertising US/Canada support, and asked how to reach anyone. This sits on top of a long-documented pattern -- Trustpilot holds roughly 1,900+ Cardo reviews with a recurring 'customer service is non-existent' theme, a weakness independently corroborated by webBikeWorld.",
+      "description": "Schuberth and Harley-Davidson branded Cardo units are structurally behind on firmware: Mesh-Boost still hasn't shipped to them as of Aug 31 (two weeks-plus after core GA, still 'expected Q4 2026'), the Schuberth C5 Edge unit specifically cannot be updated to newer firmware at all per one owner, and a Harley WHIM-integrated system reportedly only fully supports Sena/Harley-branded units for call audio, leaving Cardo-on-Harley riders unable to have others hear their phone calls.",
       "evidence": [
-        "Customer feedback 2026-08-28: 'A Canadian (Manitoba) customer said the only Cardo customer service number listed says it's unavailable in her region, despite the website claiming US/Canada support, and asked how to reach anyone.'",
-        "cardo.json social_media summary: 'Trustpilot holds ~1,900+ reviews with a heavy customer service is non-existent complaint theme... corroborating the weakness flagged by webBikeWorld'"
+        "2026-08-17 recent_news: 'Harley-Davidson and Schuberth device support still pending, expected Q4 2026'",
+        "2026-08-29 General: 'rider asks why the Cardo Edge unit built for the Schuberth C5 helmet cannot be updated to the newer firmware, expressing frustration at being left behind'",
+        "2026-08-28 General: 'the WHIM was designed to fully support only Sena/Harley-branded [units]' for phone call audio on a Harley Street Glide"
       ],
-      "customer_signal": "the only Cardo customer service number listed says it's unavailable in her region, despite the website claiming US/Canada support",
-      "competitor_benchmark": "Sena's own software support is not obviously stronger (Sena Motorcycles app stuck at 2.1/5, 125 ratings) -- this looks like an industry-wide soft spot, but Cardo's is the one with a documented, specific access failure this cycle."
+      "customer_signal": "A Schuberth C5 Edge owner and a Harley WHIM-connected Cardo owner both report being functionally left behind by OEM co-branded hardware that doesn't receive the same update cadence or feature parity as core Packtalk units.",
+      "competitor_benchmark": "OEM/helmet-integration deals are one of Cardo's few uncontested advantages (advantages.title 'Distribution & OEM' in gap_analysis.json) - letting firmware support lag on exactly those units undermines the thing that differentiates Cardo from ASMAX/Reso most clearly."
     }
   ],
   "recommendations": [
     {
       "priority": 1,
       "horizon": "now",
-      "title": "Ship the pending Schuberth SC Edge Public Mesh firmware and fix Harley WHIM mono-audio fallback",
-      "rationale": "These are now the two most concrete, named gaps left in the Mesh Boost rollout -- both are narrow, well-defined technical asks (ship the already-promised Q4 2026 firmware early for Schuberth; fix WHIM's audio routing for non-Sena/Harley hardware) rather than an open-ended bug hunt.",
-      "expected_impact": "Closes the last visible complaint categories from Mesh Boost's rollout before they harden into 'Cardo's OEM integrations are second class' as a standing narrative.",
-      "effort": "medium",
-      "addresses_gaps": ["Mesh Boost's Acute Bugs Faded, But It Exposed a Second-Tier Ecosystem Problem"]
+      "title": "Ship an emergency Mesh-Boost hotfix for the DMC auto-mute, Apple Music pause, and mesh-connectivity regressions",
+      "rationale": "Two weeks post-GA, the regression cluster (call auto-mute broken, music self-pausing, AGV Insyde losing mesh connectivity, Schuberth word dropouts) is specific and reproducible enough across independent reports that it reads as a real defect, not noise. Left unpatched, it converts a genuinely strong feature launch (31-rider DMC, matching/beating Sena's cap) into the story owners tell instead.",
+      "expected_impact": "Prevents Mesh-Boost from becoming Cardo's own version of the '50S v2.7 firmware backlash' that has dogged Sena's reputation for over a year; protects the launch's PR value.",
+      "effort": "high",
+      "addresses_gaps": ["Mesh-Boost GA regression wave"]
     },
     {
       "priority": 2,
       "horizon": "now",
-      "title": "Fix the Canadian (and broader non-US) customer-support phone routing gap",
-      "rationale": "A customer being told the listed US/Canada support number is unavailable in her region is a cheap, concrete fix relative to the multi-year Trustpilot pattern it reinforces -- this is a routing/vendor issue, not a headcount problem.",
-      "expected_impact": "Removes a specific, documented failure point from the longest-running weakness in Cardo's public reputation.",
+      "title": "Publish a known-issues page and proactive owner communication for Mesh-Boost",
+      "rationale": "Even before a full hotfix ships, naming the known regressions publicly (rather than letting owners discover them one Facebook thread at a time) reduces the sense of being ignored that is visible in several 2026-08 threads, and buys time for engineering to actually fix root causes rather than patch reactively.",
+      "expected_impact": "Lowers community frustration and repeat-complaint volume while the real fix is in progress; costs almost nothing to execute.",
       "effort": "low",
-      "addresses_gaps": ["Non-US Support Access Gaps Persist Alongside the Firmware Rollout"]
+      "addresses_gaps": ["Mesh-Boost GA regression wave", "OEM/branded-partner firmware support lags the core product line"]
     },
     {
       "priority": 3,
       "horizon": "next",
-      "title": "Ship a permanently-priced sub-$300 DMC mesh SKU instead of relying on flash sales to prove the price point",
-      "rationale": "Today's Labor Day sale pushed Neo to $251.95 and it clearly still sold -- the demand and margin case at that price point is no longer theoretical, only the standing SKU is missing.",
-      "expected_impact": "Closes the single largest structural hole in the lineup permanently rather than for a long weekend, defending the entry/mid-tier buyer before Sena's Spider X Slim, ASMAX's US retail push, or Reso's price cuts consolidate that band.",
+      "title": "Ship a sub-$250 DMC-mesh unit ('Packtalk Lite' or a mesh-enabled Freecom variant)",
+      "rationale": "This is the single largest structural hole in the lineup and has been flagged as critical since at least July 2026 - Sena, Reso and ASMAX all sell mesh under $300, several well under $200, and Cardo currently has nothing to offer that buyer.",
+      "expected_impact": "Closes the price/mesh gap before ASMAX's next-generation lineup reaches full US retail distribution and before Sena's Spider X Slim/Spider RT1 lock in more entry-mesh mindshare.",
       "effort": "high",
-      "addresses_gaps": ["A Real Sub-$300 Mesh Unit Still Doesn't Exist -- A Sale Just Proved the Price Point Works"]
+      "addresses_gaps": ["Sub-$250 mesh hole still unfilled"]
     },
     {
       "priority": 4,
       "horizon": "next",
-      "title": "Add a user-replaceable battery to Freecom before APEX/APEX PLUS gets its first press review",
-      "rationale": "APEX/APEX PLUS have now sat unreviewed for over three weeks at prices within $10-11 of Freecom -- a genuine competitive window that closes the moment a major outlet credits the swappable-battery advantage.",
-      "expected_impact": "Removes the clearest hardware differentiator Sena is using against Freecom at price parity, while existing battery-life complaints in Cardo's own customer feedback make the internal case straightforward.",
-      "effort": "high",
-      "addresses_gaps": ["Freecom Still Has No Replaceable Battery While Sena's Price-Matched APEX Sits Unreviewed"]
+      "title": "Commit to and publicly date the Schuberth/Harley-Davidson Mesh-Boost rollout",
+      "rationale": "OEM helmet integration is one of Cardo's few clean, uncontested advantages over ASMAX and Reso. Letting Schuberth and Harley-branded units run two-plus generations behind on firmware turns a strength into a visible weak point for exactly the customers paying the most for the co-branded premium hardware.",
+      "expected_impact": "Protects the OEM-integration story that differentiates Cardo from every competitor in this tracking set; reduces the specific 'left behind' complaints from Schuberth/Harley owners.",
+      "effort": "medium",
+      "addresses_gaps": ["OEM/branded-partner firmware support lags the core product line", "Mesh-Boost GA regression wave"]
     },
     {
       "priority": 5,
       "horizon": "next",
-      "title": "Match Sena's Limited Lifetime Warranty on Packtalk Pro and Edge",
-      "rationale": "Cardo chose to discount everything except its flagship this week, which means the warranty gap versus Sena's identically-positioned 60S EVO/60X is exactly where it was a month ago with no plan to close it.",
-      "expected_impact": "Removes Sena's warranty-based argument for undercutting Cardo's flagship price, reinforcing rather than undermining the premium positioning Cardo chose to protect.",
-      "effort": "low",
-      "addresses_gaps": ["Flagship Price and Warranty Gap Is Unchanged -- Cardo Chose Not to Touch It This Week"]
+      "title": "Match Sena's lifetime warranty on Packtalk Pro/Edge, or make the 3-year+DMC-reliability tradeoff explicit in marketing",
+      "rationale": "Sena now offers a Limited Lifetime Warranty on three separate product lines (60S EVO, 60X, and now APEX/APEX PLUS) at price points that bracket Cardo's flagship and mid/premium-Bluetooth tiers. Cardo's 3-year (Edge/Pro) and 2-year (rest of line) coverage increasingly reads as the outlier, not the standard.",
+      "expected_impact": "Removes a straightforward, easy-to-communicate reason for price-sensitive flagship shoppers to choose Sena; if lifetime coverage isn't feasible on BOM/reliability-risk grounds, an explicit 'why we don't' marketing angle is cheaper than silence.",
+      "effort": "medium",
+      "addresses_gaps": ["Flagship price/warranty gap widened by APEX launch"]
     },
     {
       "priority": 6,
       "horizon": "later",
-      "title": "Set a pricing floor for Freecom that doesn't fall below its own pre-2025 MSRP",
-      "rationale": "Selling Freecom below where it was priced before the 2025 hike, within nine months of that hike, is starting to generate exactly the 'Cardo is overpriced' commentary the hike was presumably meant to avoid triggering via undersupply.",
-      "expected_impact": "Protects long-term pricing credibility so future promotions read as genuine discounts rather than evidence the list price was never real.",
-      "effort": "medium",
-      "addresses_gaps": ["Discounting Freecom 30% Off MSRP Within Nine Months Undercuts the 2025 Price-Hike Story"]
+      "title": "Move to staged/canary firmware rollouts with an opt-in beta channel",
+      "rationale": "Both Cardo (Mesh-Boost) and Sena (60-series Aug wave, Spider ST1, 30K) are independently generating firmware-breaks-working-features complaints this cycle. A canary/opt-in rollout structure would catch the DMC auto-mute and Apple Music regressions before they reached the full installed base.",
+      "expected_impact": "Reduces the blast radius and repeat frequency of future regression incidents across the whole line, not just Mesh-Boost.",
+      "effort": "high",
+      "addresses_gaps": ["Mesh-Boost GA regression wave", "Sena firmware repeatedly breaks working Bluetooth/mesh features"]
     },
     {
       "priority": 7,
       "horizon": "later",
-      "title": "Ship an entry unit that answers ASMAX's F1s at its new $112 price point",
-      "rationale": "Spirit's spec sheet (Bluetooth-only, no mesh, 32mm unbranded speakers) is now outclassed by a competitor product $14 more expensive -- brand trust alone will not hold this line indefinitely as ASMAX's US retail presence grows.",
-      "expected_impact": "Defends the entry tier on product merit rather than distribution and brand alone, ahead of ASMAX's teased September product reveal.",
-      "effort": "high",
-      "addresses_gaps": ["ASMAX's F1s at $112.76 Now Sits Within $14 of Cardo's Cheapest Unit -- With Mesh and AI Voice Spirit Lacks"]
+      "title": "Launch an owned Reddit/community engagement program aimed at riders currently drifting toward Fodsport/Freedconn/EJEAS",
+      "rationale": "Duopoly fatigue is showing up unprompted in both Cardo and Sena threads, naming the same three budget brands. Neither incumbent currently tracks or messages against this segment - the value argument (reliability, OTA support, dealer network) that already works against ASMAX/Reso in gap_analysis.json's 'advantages' section applies just as well here, but isn't being made.",
+      "expected_impact": "Recaptures value-conscious riders in the community layer before they normalize a sub-$100 purchase; low direct cost, mainly a resourcing/ownership decision.",
+      "effort": "low",
+      "addresses_gaps": ["Duopoly fatigue: riders naming sub-$100 Chinese brands as viable alternatives to both Cardo and Sena"]
     },
     {
       "priority": 8,
       "horizon": "later",
-      "title": "Get ahead of UTV Guide's promised retest with proactive engineering data",
-      "rationale": "The reviewer explicitly plans to retest post-Mesh-Boost; publishing Cardo's own multi-vehicle mesh performance data now, or explaining the terrain/spacing conditions that likely triggered the original dropout, is cheaper than waiting for a second independent finding to set the narrative.",
-      "expected_impact": "Converts a still-open, potentially damaging finding into a demonstrated fix or a credible explanation, protecting the DMC reliability reputation that remains Cardo's biggest competitive moat.",
-      "effort": "medium",
-      "addresses_gaps": ["UTV Guide's Mesh-Reliability Finding Still Awaits a Retest -- No Public Cardo Response Yet"]
+      "title": "Sharpen 'reliability you can trust' messaging specifically against ASMAX's QC and support-cadence gaps",
+      "rationale": "ASMAX's spec sheet genuinely undercuts Cardo on paper, but its own customers report audio latency, mount failures, and dropout/echo issues, and its companion app has gone 7+ weeks without an update - the longest gap recorded in this tracking. This is a defensible, evidence-based contrast rather than generic brand-superiority marketing.",
+      "expected_impact": "Gives price-sensitive shoppers comparing ASMAX a concrete, documented reason (not just brand trust) to pay the Cardo premium.",
+      "effort": "low",
+      "addresses_gaps": ["ASMAX ships flagship specs but can't shake audio-quality and mounting complaints"]
     }
   ],
   "watchlist": [
     {
-      "item": "Whether Freecom/Neo's Labor Day prices revert or become the new normal street price",
-      "why": "If -30% off MSRP sticks as the ongoing street price rather than reverting to the usual -10% after the sale window closes, it is a de facto admission that the 2025 MSRP hikes were not sustainable at the original level.",
-      "trigger": "Re-check Freecom 4x/2x and Packtalk Neo pricing in two weeks; a reversion to -10% closes this question, a continued -20%+ discount reopens the pricing-credibility gap permanently."
+      "item": "Mesh-Boost regression complaint volume through September",
+      "why": "The current cluster (auto-mute, Apple Music, AGV Insyde mesh loss, Schuberth dropouts) is already broad enough to be a pattern rather than noise, and it's only two weeks post-GA.",
+      "trigger": "If complaint volume keeps growing or a mainstream outlet (RevZilla, MCN, FortNine) picks up the regression story, escalate to a public hotfix announcement and root-cause postmortem rather than letting it resolve quietly through routine point releases."
     },
     {
-      "item": "UTV Guide's promised Venture mesh retest post-Mesh-Boost",
-      "why": "The reviewer explicitly flagged that their multi-vehicle mesh-reliability finding predated the August 17 Mesh Boost update and plans to retest, and no retest has published yet.",
-      "trigger": "If the retest still finds vehicle-to-vehicle mesh dropouts in spread-out groups, the self-healing DMC marketing claim needs a public response; if it resolves, use the retest as proof Mesh Boost delivered on reliability, not just rider count."
+      "item": "Schuberth/Harley-Davidson Mesh-Boost rollout timeline",
+      "why": "Currently dated 'Q4 2026' with no firmer commitment, more than two weeks after core GA; one Schuberth C5 Edge owner reports being unable to update at all.",
+      "trigger": "If Q4 2026 slips again, expect renewed friction from OEM partners and co-branded-unit owners; treat any further slip as a signal to accelerate or communicate proactively rather than let owners discover it via support tickets."
     },
     {
-      "item": "ASMAX's September 20, 2026 CIMAMotor (Chongqing) reveal",
-      "why": "Teasers referencing Chongqing and an 'EVA-R' racing collaboration suggest a show-timed product announcement, which would be ASMAX's first major reveal since the April 2026 ASMAX Mode launch.",
-      "trigger": "Any new ASMAX product or spec sheet announced at or around the September 19-22 Chongqing show should trigger an immediate competitive re-read of the entry tier."
+      "item": "Reso's post-migration stock stability",
+      "why": "Pilot Pro/Neo just came back in stock Aug 31 after a three-week outage tied to the resosport.com-to-resopilot.com migration, during a period of aggressive new-market DTC expansion (India, Australia).",
+      "trigger": "If Pilot Pro/Neo go out of stock again within the next month, treat it as evidence of a systemic fulfillment/ops problem rather than a one-off migration hiccup, and reassess how seriously to weight Reso as a near-term competitive threat."
     },
     {
-      "item": "First tier-1 press verdict on Sena APEX/APEX PLUS or PRISM 2",
-      "why": "Both product families have gone over three weeks without a hands-on review from any major outlet, an unusually long silence for Sena launches at this price tier.",
-      "trigger": "The first verdict crediting APEX's replaceable battery or PRISM 2's intercom-recording hook should trigger an immediate reassessment of Freecom and camera-integration priorities."
+      "item": "Sena APEX/APEX PLUS independent reviews and any promotional discounting",
+      "why": "Currently undiscounted at $265/$325 MSRP, so Freecom 2x/4x still hold a real price edge post-Labor-Day-sale - but Sena has shown with its Aug 29 sitewide sale that it will discount broadly.",
+      "trigger": "If Sena runs a comparable discount on APEX/APEX PLUS, or if a first independent review (RevZilla/MCN/FortNine) lands with a positive verdict, the Freecom price advantage evaporates and the swappable-battery/wireless-charging gap becomes the dominant story in this segment."
     },
     {
-      "item": "Reso's three-SKU, all-Sold-Out US catalog",
-      "why": "Reso's US storefront has contracted for three straight refresh cycles (delisted Headset, delisted accessories, now all core SKUs Sold Out) even as the brand cuts prices and expands internationally.",
-      "trigger": "If resopilot.com restocks or Reso announces a US retail/distributor deal comparable to its Japan Daytona partnership, reassess it as a Western competitive threat; until then, treat the US threat as effectively dormant."
+      "item": "ASMAX's Sept 20, 2026 Chongqing Motor Expo teaser reveal",
+      "why": "ASMAX's Aug 27 Facebook teaser ('Beyond expectations. Beyond connection. Something new is arriving') points to a specific reveal date, following the Future1 EVA-R teaser pattern from Aug 24.",
+      "trigger": "When the Chongqing reveal lands, check the new product's spec sheet and US-availability timeline immediately - ASMAX's EICMA 2025 lineup (F1 Pro Max, Future 1) took roughly 6-9 months to reach confirmed Western pricing, so an early read on this one buys lead time."
     }
   ]
 }

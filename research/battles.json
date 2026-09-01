@@ -2142,8 +2142,8 @@
         {
           "brand": "Sena",
           "model": "60S",
-          "price": "$439 → $378 street",
-          "blurb": "2024 flagship now discounted ~14% as EVO lands (Amazon deal price rose to $378 as of Aug 29 2026, up from $360 on Aug 25) — price pressure directly on the Edge, though less than earlier in Aug.",
+          "price": "$439 → $360 street",
+          "blurb": "2024 flagship now discounted ~18% as EVO lands (Amazon deal price back down to $360 as of Aug 31 2026, after briefly rising to $378 on Aug 29) — price pressure directly on the Edge.",
           "cardo_advantage": [
             "Mesh reliability, IP67, voice control",
             "Edge street price competitive at $393.95"
@@ -2152,7 +2152,7 @@
             "Wave cellular intercom",
             "24h talk",
             "RideGlow/flashlight extras",
-            "~$16 under Edge street"
+            "~$34 under Edge street"
           ]
         },
         {
@@ -2636,13 +2636,13 @@
               "good",
               "good"
             ],
-            "note": "Pro most expensive on market post-2025 hikes; 60S EVO/60X/Reso/ASMAX all undercut, and 60S (Amazon deal price $378 as of Aug 29 2026, up from $360 on Aug 25) still undercuts hardest of the Sena trio",
+            "note": "Pro most expensive on market post-2025 hikes; 60S EVO/60X/Reso/ASMAX all undercut, and 60S (Amazon deal price back down to $360 as of Aug 31 2026, after briefly rising to $378 on Aug 29) still undercuts hardest of the Sena trio",
             "values": [
               "$499",
               "$394",
               "$459",
               "$459",
-              "$378",
+              "$360",
               "$359",
               "$113"
             ]
@@ -2659,13 +2659,13 @@
         "model": "Packtalk Edge",
         "price": "$439.95 → $393.95 street"
       },
-      "exec_summary": "The Edge is the previous-gen DMC flagship, now the smart value pick below the Packtalk Pro: same 2nd-gen Dynamic Mesh (31-rider groups since the Aug 17 2026 Mesh-Boost GA), 40mm JBL audio and IP67 build, minus the Pro's IMU crash detection. At $393.95 street it collides head-on with the Sena 60S, whose Amazon deal price rose to $378 as of Aug 29 2026 (up from $360 on Aug 25) — narrowing the Edge's price disadvantage to just ~$16 — and countering with Wave cellular intercom and a 24-rider mesh cap; the 60S is still showing out of stock on Sena's own store (MSRP unchanged at $439), leaving Amazon's official storefront as the only channel still selling it. Edge now wins on both JBL audio/mesh polish and outright rider-group size (31 vs 24) since Mesh-Boost shipped; 60S's remaining edge is Wave's unlimited-range cellular and a modestly lower street price. ASMAX F1s undercuts both on paper-spec at ~$227 MSRP (street price now as low as $112.76 with Amazon's latest coupon).",
+      "exec_summary": "The Edge is the previous-gen DMC flagship, now the smart value pick below the Packtalk Pro: same 2nd-gen Dynamic Mesh (31-rider groups since the Aug 17 2026 Mesh-Boost GA), 40mm JBL audio and IP67 build, minus the Pro's IMU crash detection. At $393.95 street it collides head-on with the Sena 60S, whose Amazon deal price settled back to $360 as of Aug 31 2026 (after briefly rising to $378 on Aug 29) — keeping the Edge's price disadvantage at ~$34 — and countering with Wave cellular intercom and a 24-rider mesh cap; the 60S is still showing out of stock on Sena's own store (MSRP unchanged at $439), leaving Amazon's official storefront as the only channel still selling it. Edge now wins on both JBL audio/mesh polish and outright rider-group size (31 vs 24) since Mesh-Boost shipped; 60S's remaining edge is Wave's unlimited-range cellular and a lower street price. ASMAX F1s undercuts both on paper-spec at ~$227 MSRP (street price now as low as $112.76 with Amazon's latest coupon).",
       "matchups": [
         {
           "brand": "Sena",
           "model": "60S",
-          "price": "$439 → $378 street",
-          "blurb": "Prior Sena flagship, now discounted under the 60S EVO — and as of July 2026 marked out of stock on Sena's own store, still buyable via Amazon's official Sena storefront. Mesh 3.0 + Wave cellular + Harman Kardon, 24-rider mesh. Amazon deal price rose to $378 as of Aug 29 2026 (from $360 on Aug 25), narrowing its price edge over the Edge.",
+          "price": "$439 → $360 street",
+          "blurb": "Prior Sena flagship, now discounted under the 60S EVO — and as of July 2026 marked out of stock on Sena's own store, still buyable via Amazon's official Sena storefront. Mesh 3.0 + Wave cellular + Harman Kardon, 24-rider mesh. Amazon deal price settled back to $360 as of Aug 31 2026 (after briefly rising to $378 on Aug 29), holding a healthy price edge over the Edge.",
           "cardo_advantage": [
             "Sound by JBL 40mm vs Harman Kardon (subjective, but Edge audio well-reviewed)",
             "DMC mesh reconnection speed & polish",
@@ -2675,7 +2675,7 @@
           ],
           "competitor_advantage": [
             "Wave LTE cellular intercom (unlimited range)",
-            "~$16 cheaper at street ($378 vs Edge's $393.95)",
+            "~$34 cheaper at street ($360 vs Edge's $393.95)",
             "Backward-compatible Mesh 2.0/3.0"
           ]
         },
@@ -3032,10 +3032,10 @@
               "good",
               "soso"
             ],
-            "note": "F1s cheapest; 60S Amazon deal price rose to $378 as of Aug 29 2026 (from $360 on Aug 25) - still undercuts both Edge and Reso, but by a narrower margin than before; Reso $399 DTC",
+            "note": "F1s cheapest; 60S Amazon deal price back down to $360 as of Aug 31 2026 (after briefly rising to $378 on Aug 29) - undercuts both Edge and Reso by a healthy margin again; Reso $399 DTC",
             "values": [
               "$394",
-              "$378",
+              "$360",
               "$113",
               "$359"
             ]
@@ -3995,12 +3995,12 @@
         "model": "Venture (integrated MX helmet)",
         "price": "$799"
       },
-      "exec_summary": "The Venture is billed as the world's first integrated-mesh motocross helmet, built on the Leatt Moto 8.5 platform with DMC mesh and JBL-partnered audio — a genuine first for the pure off-road segment. Its nearest rival is Sena's Outlander dual-sport smart helmet, now $565 street (Amazon storefront, Aug 2026) vs $599 MSRP - about $235 cheaper than Venture's $799.95, more road-versatile, and carrying Mesh 3.0 + Wave cellular. A UTV Guide field test (Aug 23 2026) also found the Venture's vehicle-to-vehicle DMC mesh inconsistent across a spread-out multi-UTV convoy in mountainous terrain, pre-dating the Aug 17 2026 Mesh Boost update (retest pending); and Dancing the Polka's UK review (Aug 13 2026) questioned Venture's price relative to buying a standalone Leatt Moto 8.5 + Packtalk Edge separately. Venture owns the MX-specific niche; Outlander wins on price and dual-sport flexibility.",
+      "exec_summary": "The Venture is billed as the world's first integrated-mesh motocross helmet, built on the Leatt Moto 8.5 platform with DMC mesh and JBL-partnered audio — a genuine first for the pure off-road segment. Its nearest rival is Sena's Outlander dual-sport smart helmet, now $580 street (Amazon storefront, Aug 2026; briefly $565) vs $599 MSRP - about $220 cheaper than Venture's $799.95, more road-versatile, and carrying Mesh 3.0 + Wave cellular. A UTV Guide field test (Aug 23 2026) also found the Venture's vehicle-to-vehicle DMC mesh inconsistent across a spread-out multi-UTV convoy in mountainous terrain, pre-dating the Aug 17 2026 Mesh Boost update (retest pending); and Dancing the Polka's UK review (Aug 13 2026) questioned Venture's price relative to buying a standalone Leatt Moto 8.5 + Packtalk Edge separately. Venture owns the MX-specific niche; Outlander wins on price and dual-sport flexibility.",
       "matchups": [
         {
           "brand": "Sena",
           "model": "Outlander",
-          "price": "$599 → $565 street",
+          "price": "$599 → $580 street",
           "blurb": "Sena's first adventure/dual-sport smart helmet. Mesh 3.0 + Wave LTE + BT, Sound by Harman Kardon, 24-rider mesh.",
           "cardo_advantage": [
             "Purpose-built motocross/off-road (Leatt Moto 8.5 platform)",
@@ -4009,7 +4009,7 @@
             "MX-optimized ventilation & peak"
           ],
           "competitor_advantage": [
-            "$235 cheaper (now $565 street vs Venture's $799.95 MSRP)",
+            "$220 cheaper (now $580 street vs Venture's $799.95 MSRP)",
             "Wave LTE cellular intercom (unlimited range)",
             "Dual-sport versatility (road + trail, drop visor)",
             "Harman Kardon audio, 24 riders"
@@ -4253,10 +4253,10 @@
               "soso",
               "good"
             ],
-            "note": "Outlander now $565 street (was $599 MSRP) - about $235 cheaper than Venture's $799.95 MSRP; Dancing the Polka's Aug 2026 review also questioned Venture's value vs a standalone Leatt Moto 8.5 + Packtalk Edge",
+            "note": "Outlander now $580 street (was $599 MSRP, briefly $565) - about $220 cheaper than Venture's $799.95 MSRP; Dancing the Polka's Aug 2026 review also questioned Venture's value vs a standalone Leatt Moto 8.5 + Packtalk Edge",
             "values": [
               "$799",
-              "$565"
+              "$580"
             ]
           }
         ]
