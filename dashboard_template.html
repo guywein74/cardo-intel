@@ -12,7 +12,7 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cardo Competitive Intelligence — July 2026</title>
+<title>Cardo Competitive Intelligence — August 2026</title>
 <script>(function(){try{document.documentElement.setAttribute("data-theme",localStorage.getItem("cardoTheme")||"dark")}catch(e){}})();</script>
 <style>
 :root, html[data-theme="dark"]{
@@ -47,20 +47,33 @@ html[data-theme="contrast"]{
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{overflow-x:hidden}
-body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:60px;overflow-x:hidden;max-width:100vw}
-header{padding:28px 32px 0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;overflow-x:hidden;max-width:100vw;display:flex}
+.sidebar{width:200px;background:var(--sidebar);border-right:1px solid var(--border);padding:16px 10px;position:fixed;height:100vh;top:0;left:0;overflow-y:auto;flex-shrink:0}
+.sidebar-brand{font-size:13px;font-weight:700;margin-bottom:18px;padding:0 6px}
+.sidebar-section{margin-bottom:18px}
+.sidebar-label{font-size:10px;text-transform:uppercase;color:var(--muted);letter-spacing:.5px;font-weight:700;padding:0 6px;margin-bottom:6px}
+.nav-item{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:5px;color:var(--muted);cursor:pointer;font-weight:500;font-size:12px;transition:all .2s;user-select:none}
+.nav-item:hover{background:var(--panel);color:var(--text)}
+.nav-item.active{background:var(--cardo);color:white}
+.nav-icon{font-size:14px;width:16px;text-align:center;flex-shrink:0}
+.filter-box{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:10px;margin-top:16px}
+.filter-title{font-size:10px;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
+.brand-options{display:flex;flex-direction:column;gap:4px}
+.brand-chip{padding:5px 8px;border-radius:4px;border:1px solid var(--border);background:var(--bg);color:var(--muted);cursor:pointer;font-size:11px;font-weight:500;transition:all .2s;text-align:left}
+.brand-chip:hover{border-color:currentColor}
+.brand-chip.active{background:currentColor;color:white;border-color:currentColor}
+.brand-chip.cardo{color:var(--cardo)}.brand-chip.sena{color:var(--sena)}.brand-chip.asmax{color:var(--asmax)}.brand-chip.reso{color:var(--reso)}
+#main-wrapper{margin-left:200px;width:calc(100% - 200px);padding-bottom:60px;overflow-x:hidden}
+header{padding:24px 32px 0}
 h1{font-size:24px;font-weight:700}
 h1 .accent{color:var(--cardo)}
 .sub{color:var(--muted);margin-top:4px;font-size:13px}
-nav{display:flex;gap:4px;padding:18px 32px 0;border-bottom:1px solid var(--border);flex-wrap:wrap}
-nav button{background:none;border:none;color:var(--muted);font:600 14px inherit;padding:10px 16px;cursor:pointer;border-bottom:2px solid transparent}
-nav button.active{color:var(--text);border-bottom-color:var(--cardo)}
-nav button:hover{color:var(--text)}
+.controls{display:flex;gap:8px;align-items:center;margin-top:10px}
 main{padding:24px 32px;width:100%;margin:0}
 .tab{display:none}.tab.active{display:block}
 .grid{display:grid;gap:16px}
-.g2{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
-.g4{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:18px}
 .card h3{font-size:15px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
 .dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
@@ -95,7 +108,8 @@ input[type=search],select{background:var(--panel);border:1px solid var(--border)
 .kv:last-child{border:none}
 .kv b{font-variant-numeric:tabular-nums}
 .two{columns:2;column-gap:28px}
-@media(max-width:900px){.two{columns:1}}
+@media(max-width:900px){.two{columns:1};.sidebar{width:180px}#main-wrapper{margin-left:180px;width:calc(100% - 180px)}}
+@media(max-width:600px){.sidebar{width:100%;height:auto;position:relative;border-right:none;border-bottom:1px solid var(--border)}.sidebar-section,.filter-box{display:none}#main-wrapper{margin-left:0;width:100%}}
 ul.tight{padding-left:18px}
 ul.tight li{margin-bottom:5px}
 .news{border-left:2px solid var(--border);padding-left:14px;margin-left:4px}
@@ -110,30 +124,76 @@ svg text{fill:var(--muted);font-size:11px}
 h2{font-size:18px;margin:26px 0 12px}
 h2:first-child{margin-top:0}
 a{color:var(--link);text-decoration:none}
+.hero-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px}
+.hero-card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:14px;position:relative;overflow:hidden}
+.hero-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--cardo)}
+.hero-card.sena::before{background:var(--sena)}.hero-card.asmax::before{background:var(--asmax)}.hero-card.reso::before{background:var(--reso)}.hero-card.ok::before{background:var(--ok)}
+.hero-label{font-size:10px;text-transform:uppercase;color:var(--muted);letter-spacing:.5px;margin-bottom:4px}
+.hero-value{font-size:22px;font-weight:700;margin-bottom:6px;line-height:1.2}
+.hero-detail{font-size:11px;color:var(--muted);line-height:1.4}
+.brand-card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:14px}
+.brand-card-title{font-size:13px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.brand-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.brand-dot.cardo{background:var(--cardo)}.brand-dot.sena{background:var(--sena)}.brand-dot.asmax{background:var(--asmax)}.brand-dot.reso{background:var(--reso)}
+.comparison-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px}
+.comparison-card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px}
+.comparison-header{font-weight:700;font-size:12px;padding-bottom:6px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.comparison-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:11px}
+.comparison-row:not(:last-child){border-bottom:1px solid var(--divider)}
+.comparison-label{color:var(--muted)}
+.comparison-value{font-weight:600;text-align:right}
+.feed-container{background:var(--panel);border:1px solid var(--border);border-radius:8px;margin-bottom:20px}
+.feed-item{padding:12px;border-bottom:1px solid var(--divider)}
+.feed-item:last-child{border-bottom:none}
+.feed-date{font-size:11px;color:var(--muted);margin-bottom:4px}
+.feed-headline{font-size:12px;font-weight:600;color:var(--text);margin-bottom:4px}
+.feed-summary{font-size:11px;color:var(--muted);line-height:1.4}
 </style>
 </head>
 <body>
-<header>
-  <h1>Cardo <span class="accent">Competitive Intelligence</span></h1>
-  <div class="sub">Cardo vs Sena vs ASMAX vs Reso · compiled by research agents · last updated <span id="lastUpdated">—</span></div>
-  <div style="display:flex;gap:8px;align-items:center;margin-top:10px">
-    <div style="display:flex;border:1px solid var(--border);border-radius:8px;overflow:hidden">
-      <button id="fontDec" title="Decrease text size" style="background:var(--panel);color:var(--text);border:none;padding:6px 12px;cursor:pointer;font:600 13px inherit;border-right:1px solid var(--border)">A−</button>
-      <button id="fontInc" title="Increase text size" style="background:var(--panel);color:var(--text);border:none;padding:6px 12px;cursor:pointer;font:600 13px inherit">A+</button>
-    </div>
-    <select id="themeSel" title="Dashboard style">
-      <option value="dark">Dark</option>
-      <option value="light">Bright</option>
-      <option value="midnight">Midnight</option>
-      <option value="sepia">Sepia</option>
-      <option value="nord">Nord</option>
-      <option value="contrast">High contrast</option>
-    </select>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-brand">🎯 Cardo Intel</div>
+  
+  <div class="sidebar-section">
+    <div class="sidebar-label">Primary</div>
+    <div id="nav-primary"></div>
   </div>
-</header>
-<nav id="nav"></nav>
-<main id="main"></main>
+  
+  <div class="sidebar-section">
+    <div class="sidebar-label">Analysis</div>
+    <div id="nav-analysis"></div>
+  </div>
+  
+  <div class="filter-box">
+    <div class="filter-title">🔍 Brand Focus</div>
+    <div class="brand-options" id="brand-filter"></div>
+  </div>
+</aside>
+
+<div id="main-wrapper">
+  <header>
+    <h1>Cardo <span class="accent">Competitive Intelligence</span></h1>
+    <div class="sub">Cardo vs Sena vs ASMAX vs Reso · compiled by research agents · last updated <span id="lastUpdated">—</span></div>
+    <div class="controls">
+      <div style="display:flex;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+        <button id="fontDec" title="Decrease text size" style="background:var(--panel);color:var(--text);border:none;padding:6px 12px;cursor:pointer;font:600 13px inherit;border-right:1px solid var(--border)">A−</button>
+        <button id="fontInc" title="Increase text size" style="background:var(--panel);color:var(--text);border:none;padding:6px 12px;cursor:pointer;font:600 13px inherit">A+</button>
+      </div>
+      <select id="themeSel" title="Dashboard style">
+        <option value="dark">Dark</option>
+        <option value="light">Bright</option>
+        <option value="midnight">Midnight</option>
+        <option value="sepia">Sepia</option>
+        <option value="nord">Nord</option>
+        <option value="contrast">High contrast</option>
+      </select>
+    </div>
+  </header>
+  <main id="main"></main>
+</div>
+
 <div class="tt" id="tt"></div>
+
 <script>
 const DATA = /*__DATA__*/;
 const GAP = DATA.gap;
@@ -141,6 +201,10 @@ const BRANDS = DATA.brands;
 const BCOLOR = {Cardo:"var(--cardo)",Sena:"var(--sena)",ASMAX:"var(--asmax)",Reso:"var(--reso)"};
 const BHEX = {Cardo:"#e6002d",Sena:"#f7a600",ASMAX:"#22c1dd",Reso:"#8e6bff"};
 const TABS = ["Overview","Products","Battles","Model Compare","Pricing","Gap Analysis","Social & Press","Software & Firmware","Voice of the Customer","Product Insights"];
+const TAB_GROUPS = {
+  "Primary": ["Overview","Model Compare"],
+  "Analysis": ["Products","Battles","Pricing","Gap Analysis","Social & Press","Software & Firmware","Voice of the Customer","Product Insights"]
+};
 const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt$ = v => v==null?"—":"$"+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 const dot = b => `<span class="dot" style="background:${BCOLOR[b]}"></span>`;
@@ -173,11 +237,50 @@ let PRODUCTS=[];
 BRANDS.forEach(br=>br.products.forEach(p=>PRODUCTS.push({brand:br.competitor,...p})));
 PRODUCTS.forEach(p=>{p.eff=(p.street_price_usd??p.msrp_usd);p.isHelmet=/helmet/i.test(p.name);p.isHeadphone=/headphone|edgephones|ridephones|tufftalk|earbud/i.test(p.name);p.isOutdoor=/\bsnowtalk\b|\bbikom\b|\boutdoor\b/i.test(p.name);p.cat=p.category||(p.isHelmet?"smart_helmet":p.isHeadphone?"headphones":p.isOutdoor?"outdoor":"communicator");p.usage=p.usage||"Motorcycle";p.mesh=/mesh|dmc/i.test(p.intercom_tech||"")&&!/no mesh/i.test(p.intercom_tech||"")});
 
-/* ---------- nav ---------- */
-const nav=document.getElementById("nav"),main=document.getElementById("main");
-TABS.forEach((t,i)=>{const b=document.createElement("button");b.textContent=t;b.onclick=()=>show(i);nav.appendChild(b)});
-const sections=TABS.map(()=>{const d=document.createElement("div");d.className="tab";main.appendChild(d);return d});
-function show(i){[...nav.children].forEach((b,j)=>b.classList.toggle("active",i===j));sections.forEach((s,j)=>s.classList.toggle("active",i===j))}
+/* ---------- sidebar navigation ---------- */
+const main=document.getElementById("main");
+let sections=TABS.map(()=>{const d=document.createElement("div");d.className="tab";main.appendChild(d);return d});
+
+const primaryNav=document.getElementById("nav-primary");
+const analysisNav=document.getElementById("nav-analysis");
+const tabIndices={};
+
+function getIcon(tabName){
+  const icons={Overview:"📊","Model Compare":"⚔️",Pricing:"💰",Battles:"⚔️",Products:"📦","Gap Analysis":"⚠️","Social & Press":"📢","Software & Firmware":"🔧","Voice of the Customer":"💬","Product Insights":"💡"};
+  return icons[tabName]||"📌";
+}
+
+TABS.forEach((t,i)=>{
+  tabIndices[t]=i;
+  const isAnalysis=TAB_GROUPS["Analysis"].includes(t);
+  const navContainer=isAnalysis?analysisNav:primaryNav;
+  const btn=document.createElement("div");
+  btn.className="nav-item";
+  if(i===0)btn.classList.add("active");
+  btn.innerHTML=`<span class="nav-icon">${getIcon(t)}</span><span>${t}</span>`;
+  btn.onclick=()=>show(i);
+  navContainer.appendChild(btn);
+});
+
+const navButtons=document.querySelectorAll(".nav-item");
+function show(i){
+  navButtons.forEach((b,j)=>b.classList.toggle("active",i===j));
+  sections.forEach((s,j)=>s.classList.toggle("active",i===j));
+  window.scrollTo(0,0);
+}
+
+/* ---------- Brand filter in sidebar ---------- */
+const brandFilter=document.getElementById("brand-filter");
+BRANDS.forEach(b=>{
+  const chip=document.createElement("div");
+  chip.className=`brand-chip ${b.competitor.toLowerCase()} active`;
+  chip.textContent=`● ${b.competitor}`;
+  chip.onclick=()=>chip.classList.toggle("active");
+  brandFilter.appendChild(chip);
+});
+
+/* ===== ALL TAB CONTENT GOES HERE (unchanged from original) ===== */
+/* Copy the entire sections[0].innerHTML through sections[9].innerHTML from the original template */
 
 /* ---------- Overview (stacked, full-width sections) ---------- */
 sections[0].innerHTML = `
@@ -879,3 +982,4 @@ show(0);
 </script>
 </body>
 </html>
+</script>
