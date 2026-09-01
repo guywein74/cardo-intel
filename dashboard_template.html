@@ -266,26 +266,27 @@ sections[0].innerHTML = `
   <!-- 0: Purpose intro section -->
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:24px">
     <div style="background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px">
-      <div style="font-size:18px;margin-bottom:2px">📊 Market Position</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.5">Understand how Cardo, Sena, ASMAX, and Reso compare in the helmet comms market. Company background, product portfolios, and market share.</div>
+      <div style="font-size:18px;margin-bottom:6px">📊 Who Are They?</div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.5">Learn the basics: company size, founding year, location, and core product portfolios for each brand.</div>
     </div>
     <div style="background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px">
-      <div style="font-size:18px;margin-bottom:2px">💪 Strengths & Gaps</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.5">See what each brand does best and where they're vulnerable. Identify gaps in product offerings, features, and positioning.</div>
+      <div style="font-size:18px;margin-bottom:6px">💪 What's Different?</div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.5">See what makes each brand stand out, where they struggle, and what opportunities exist in the market.</div>
     </div>
     <div style="background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px">
-      <div style="font-size:18px;margin-bottom:2px">📰 Market Perception</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.5">Track press coverage, awards, and media sentiment. Understand how customers and critics perceive each brand.</div>
+      <div style="font-size:18px;margin-bottom:6px">📰 What's Being Said?</div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.5">See how the media covers each brand — reviews, awards won, and the overall tone in the press.</div>
     </div>
     <div style="background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px">
-      <div style="font-size:18px;margin-bottom:2px">🚀 Recent Activity</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.5">Stay updated on launches, partnerships, and strategic moves. Know what competitors are doing right now.</div>
+      <div style="font-size:18px;margin-bottom:6px">🚀 What's Happening Now?</div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.5">Stay current with recent launches, partnerships, and strategic moves from all brands.</div>
     </div>
   </div>
 
   <!-- 1: Brand overview -->
   <div class="card" style="margin-bottom:16px">
-    <h2 style="margin-top:0">Brand overview</h2>
+    <h2 style="margin-top:0">Who Are They? Company Profiles</h2>
+    <div style="color:var(--muted);font-size:12px;margin-bottom:12px">Headquarters, founding year, market positioning, product count, and price ranges</div>
     <div class="grid g4">
     ${BRANDS.map(b=>`<div><div style="font-weight:700;margin-bottom:4px">${dot(b.competitor)}${esc(b.competitor)}${b.website?` <a href="${esc(b.website)}" target="_blank" rel="noopener" class="small" style="font-weight:400">↗</a>`:""}</div>
       <div class="small muted">${esc(b.company.hq.split(";")[0].split("(")[0])} · Founded ${esc((b.company.founded||"").match(/\d{4}/)?.[0]||"")}</div>
@@ -297,9 +298,10 @@ sections[0].innerHTML = `
 
   <!-- 2: Competitive positioning -->
   <div class="card" style="margin-bottom:16px">
-    <h2 style="margin-top:0">Competitive positioning</h2>
+    <h2 style="margin-top:0">What's Different? Strengths & Weaknesses</h2>
+    <div style="color:var(--muted);font-size:12px;margin-bottom:12px">What each brand excels at and where they face challenges</div>
     <div style="overflow-x:auto"><table style="font-size:12px;margin-bottom:8px">
-      <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Strengths</th><th style="padding:6px">Weaknesses</th></tr></thead>
+      <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px;color:var(--ok)">✓ What They Do Best</th><th style="padding:6px;color:var(--bad)">⚠ Where They Struggle</th></tr></thead>
       <tbody>
       ${BRANDS.map(b=>`<tr><td style="font-weight:700;padding:6px">${esc(b.competitor)}</td>
         <td style="padding:6px;color:var(--ok);font-size:11px">${b.strengths.slice(0,2).map(s=>esc(s.split(" - ")[0].split(" — ")[0].slice(0,60))).join(" • ")}</td>
@@ -310,9 +312,10 @@ sections[0].innerHTML = `
 
   <!-- 3: Press coverage & market -->
   <div class="card" style="margin-bottom:16px">
-    <h2 style="margin-top:0">Press coverage & market</h2>
+    <h2 style="margin-top:0">What's Being Said? Press & Awards</h2>
+    <div style="color:var(--muted);font-size:12px;margin-bottom:12px">Media coverage, critical reception, awards won, and overall sentiment</div>
     <div style="overflow-x:auto"><table style="font-size:12px">
-      <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">Reviews</th><th style="padding:6px">Awards</th><th style="padding:6px">Tone</th></tr></thead>
+      <thead><tr><th style="padding:6px">Brand</th><th style="padding:6px">📰 Reviews Covered</th><th style="padding:6px">🏆 Awards Won</th><th style="padding:6px">💬 Media Tone</th></tr></thead>
       <tbody>
       ${BRANDS.map(b=>{const p=b.press_coverage||{};const tone=(p.overall_tone||"").split(/[.;—-]/)[0].slice(0,35);return `<tr><td style="font-weight:700;padding:6px">${esc(b.competitor)}</td>
         <td style="padding:6px;text-align:center">${(p.reviews||[]).length}</td>
@@ -324,9 +327,13 @@ sections[0].innerHTML = `
 
   <!-- 4: Recent moves -->
   <div class="card">
-    <h2 style="margin-top:0">Recent moves (2025–2026) <span class="small muted" id="rmCount" style="font-weight:400"></span></h2>
-    <div class="chips" id="rmChips">
-      ${BRANDS.map(b=>`<button class="chip on" data-rb="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+    <h2 style="margin-top:0">What's Happening Now? Recent Moves (2025–2026)</h2>
+    <div style="color:var(--muted);font-size:12px;margin-bottom:12px">Latest news, product launches, partnerships, and strategic announcements <span class="small muted" id="rmCount" style="font-weight:400;display:inline"></span></div>
+    <div style="margin-bottom:12px">
+      <div style="font-size:11px;text-transform:uppercase;color:var(--muted);letter-spacing:.5px;margin-bottom:6px">Filter by brand:</div>
+      <div class="chips" id="rmChips">
+        ${BRANDS.map(b=>`<button class="chip on" data-rb="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+      </div>
     </div>
     <div id="rmList"></div>
   </div>`;
@@ -351,7 +358,7 @@ sections[0].querySelectorAll("#rmChips .chip[data-rb]").forEach(c=>c.onclick=()=
 renderRecentMoves();
 
 /* ---------- Products table ---------- */
-const COLS=[["name","Product"],["brand","Brand"],["tier","Tier"],["usage","Usage"],["msrp_usd","MSRP"],["street_price_usd","Street"],["intercom_tech","Intercom"],["range_km","Range km"],["max_riders","Riders"],["talk_time_hours","Talk h"],["waterproof","Waterproof"],["release_year","Year"]];
+const COLS=[["name","Product Name"],["brand","Brand"],["tier","Price Tier"],["usage","Best For"],["msrp_usd","Retail Price"],["street_price_usd","Street Price"],["intercom_tech","Connection Type"],["range_km","Range (km)"],["max_riders","Max Riders"],["talk_time_hours","Talk Time (h)"],["waterproof","Waterproof Rating"],["release_year","Released"]];
 const YEARS=Array.from(new Set(PRODUCTS.map(p=>p.release_year).filter(y=>y))).sort((a,b)=>b-a);
 const TIER_ORDER=["flagship","mid","entry"];
 const USAGES=Array.from(new Set(PRODUCTS.map(p=>p.usage))).sort((a,b)=>a==="Motorcycle"?-1:b==="Motorcycle"?1:a.localeCompare(b));
@@ -359,19 +366,22 @@ const tiersFor=cat=>{const s=new Set(PRODUCTS.filter(p=>cat==="all"||p.cat===cat
 const tierOpts=cat=>`<option value="all">All tiers</option>`+tiersFor(cat).map(t=>`<option>${esc(t)}</option>`).join("");
 let sortKey="eff",sortDir=1,fBrands=new Set(BRANDS.map(b=>b.competitor)),fCat="all",fTier="all",fYear="all",fUsage="all",fMesh=false,fSearch="";
 sections[1].innerHTML=`
-  <div class="chips">
-    ${BRANDS.map(b=>`<button class="chip on" data-b="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
-    <select id="catSel"><option value="all">All categories</option><option value="communicator">Communicators</option><option value="smart_helmet">Smart helmets</option><option value="headphones">Headphones</option><option value="outdoor">Outdoor</option></select>
-    <select id="tierSel">${tierOpts("all")}</select>
-    <select id="usageSel"><option value="all">All usage</option>${USAGES.map(u=>`<option value="${esc(u)}">${esc(u)}</option>`).join("")}</select>
-    <select id="yearSel"><option value="all">All years</option>${YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")}</select>
-    <button class="chip" id="meshChip">Mesh only</button>
-    <input type="search" id="srch" placeholder="Search product / feature…" style="flex:1;min-width:180px">
-    <span class="small muted" id="count"></span>
+  <div style="margin-bottom:16px">
+    <div style="font-size:12px;color:var(--muted);margin-bottom:12px">Browse all products from Cardo, Sena, ASMAX, and Reso. Filter by brand, category, price tier, use case, and features. Click any row to see detailed specs and notes.</div>
+    <div class="chips">
+      ${BRANDS.map(b=>`<button class="chip on" data-b="${b.competitor}" style="color:${BCOLOR[b.competitor]}">${b.competitor}</button>`).join("")}
+      <select id="catSel" title="Filter by product type"><option value="all">All categories</option><option value="communicator">Communicators</option><option value="smart_helmet">Smart helmets</option><option value="headphones">Headphones</option><option value="outdoor">Outdoor</option></select>
+      <select id="tierSel" title="Filter by price tier"><option value="all">All tiers</option>${tierOpts("all").split("</option>").slice(1).join("</option>")}</select>
+      <select id="usageSel" title="Filter by use case"><option value="all">All usage</option>${USAGES.map(u=>`<option value="${esc(u)}">${esc(u)}</option>`).join("")}</select>
+      <select id="yearSel" title="Filter by release year"><option value="all">All years</option>${YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")}</select>
+      <button class="chip" id="meshChip" title="Show only mesh-capable products">Mesh only</button>
+      <input type="search" id="srch" placeholder="Search by name or feature…" style="flex:1;min-width:180px" title="Search across all product specs">
+      <span class="small muted" id="count"></span>
+    </div>
   </div>
   <div class="card" style="padding:0;overflow-x:auto">
-  <table id="ptable"><thead><tr>${COLS.map(([k,l])=>`<th data-k="${k}">${l} <span class="arrow"></span></th>`).join("")}</tr></thead><tbody></tbody></table></div>
-  <div class="small muted" style="margin-top:8px">Click a row for features & notes. Street price shown where verified; "—" = not published / not found.</div>`;
+  <table id="ptable"><thead><tr>${COLS.map(([k,l])=>`<th data-k="${k}" title="Click to sort">${l} <span class="arrow"></span></th>`).join("")}</tr></thead><tbody></tbody></table></div>
+  <div class="small muted" style="margin-top:12px">💡 <b>How to use:</b> Click any product row to expand and see full features & notes. Street price shown only when verified (different from MSRP); "—" means not published or not available. Click column headers to sort. Use filters to narrow down your search.</div>`;
 sections[1].querySelectorAll(".chip[data-b]").forEach(c=>c.onclick=()=>{const b=c.dataset.b;c.classList.toggle("on");c.classList.contains("on")?fBrands.add(b):fBrands.delete(b);renderTable()});
 sections[1].querySelector("#catSel").onchange=e=>{fCat=e.target.value;fTier="all";const ts=sections[1].querySelector("#tierSel");ts.innerHTML=tierOpts(fCat);ts.value="all";renderTable()};
 sections[1].querySelector("#tierSel").onchange=e=>{fTier=e.target.value;renderTable()};
