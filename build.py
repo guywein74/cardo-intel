@@ -11,6 +11,8 @@ gap = json.loads((research / "gap_analysis.json").read_text())
 battles = json.loads((research / "battles.json").read_text())
 insights_path = research / "product_insights.json"
 insights = json.loads(insights_path.read_text()) if insights_path.exists() else None
+summaries_path = research / "research_summaries.json"
+summaries = json.loads(summaries_path.read_text()) if summaries_path.exists() else {}
 
 # capability matrix: [status, footnote] where status is y/p/n
 matrix = [
@@ -30,7 +32,7 @@ matrix = [
     {"cap": "Tier-1 Western press coverage", "Cardo": ["y", "wins most 'best intercom' roundups"], "Sena": ["y", "MCN 4/5, iF Design awards"], "ASMAX": ["n", "regional/PR only"], "Reso": ["n", "SEA outlets only"]},
 ]
 
-data = {"brands": brands, "gap": gap, "battles": battles, "insights": insights, "built_at": datetime.now(timezone.utc).isoformat()}
+data = {"brands": brands, "gap": gap, "battles": battles, "insights": insights, "summaries": summaries, "built_at": datetime.now(timezone.utc).isoformat()}
 tpl = (root / "dashboard_template.html").read_text()
 out = tpl.replace("/*__DATA__*/", json.dumps(data, ensure_ascii=False))
 (root / "dashboard.html").write_text(out)
