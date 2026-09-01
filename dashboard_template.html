@@ -256,15 +256,15 @@ TABS.forEach((t,i)=>{
   const navContainer=isAnalysis?analysisNav:primaryNav;
   const btn=document.createElement("div");
   btn.className="nav-item";
+  btn.dataset.tabIndex=i;
   if(i===0)btn.classList.add("active");
   btn.innerHTML=`<span class="nav-icon">${getIcon(t)}</span><span>${t}</span>`;
   btn.onclick=()=>show(i);
   navContainer.appendChild(btn);
 });
 
-const navButtons=document.querySelectorAll(".nav-item");
 function show(i){
-  navButtons.forEach((b,j)=>b.classList.toggle("active",i===j));
+  document.querySelectorAll(".nav-item").forEach(b=>b.classList.toggle("active",+b.dataset.tabIndex===i));
   sections.forEach((s,j)=>s.classList.toggle("active",i===j));
   window.scrollTo(0,0);
 }
