@@ -56,13 +56,6 @@ body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMac
 .nav-item:hover{background:var(--panel);color:var(--text)}
 .nav-item.active{background:var(--cardo);color:white}
 .nav-icon{font-size:14px;width:16px;text-align:center;flex-shrink:0}
-.filter-box{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:10px;margin-top:16px}
-.filter-title{font-size:10px;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
-.brand-options{display:flex;flex-direction:column;gap:4px}
-.brand-chip{padding:5px 8px;border-radius:4px;border:1px solid var(--border);background:var(--bg);color:var(--muted);cursor:pointer;font-size:11px;font-weight:500;transition:all .2s;text-align:left}
-.brand-chip:hover{border-color:currentColor}
-.brand-chip.active{background:currentColor;color:white;border-color:currentColor}
-.brand-chip.cardo{color:var(--cardo)}.brand-chip.sena{color:var(--sena)}.brand-chip.asmax{color:var(--asmax)}.brand-chip.reso{color:var(--reso)}
 #main-wrapper{margin-left:200px;width:calc(100% - 200px);padding-bottom:60px;overflow-x:hidden}
 header{padding:24px 32px 0}
 h1{font-size:24px;font-weight:700}
@@ -109,7 +102,7 @@ input[type=search],select{background:var(--panel);border:1px solid var(--border)
 .kv b{font-variant-numeric:tabular-nums}
 .two{columns:2;column-gap:28px}
 @media(max-width:900px){.two{columns:1};.sidebar{width:180px}#main-wrapper{margin-left:180px;width:calc(100% - 180px)}}
-@media(max-width:600px){.sidebar{width:100%;height:auto;position:relative;border-right:none;border-bottom:1px solid var(--border)}.sidebar-section,.filter-box{display:none}#main-wrapper{margin-left:0;width:100%}}
+@media(max-width:600px){.sidebar{width:100%;height:auto;position:relative;border-right:none;border-bottom:1px solid var(--border)}.sidebar-section{display:none}#main-wrapper{margin-left:0;width:100%}}
 ul.tight{padding-left:18px}
 ul.tight li{margin-bottom:5px}
 .news{border-left:2px solid var(--border);padding-left:14px;margin-left:4px}
@@ -162,11 +155,6 @@ a{color:var(--link);text-decoration:none}
   <div class="sidebar-section">
     <div class="sidebar-label">Analysis</div>
     <div id="nav-analysis"></div>
-  </div>
-  
-  <div class="filter-box">
-    <div class="filter-title">🔍 Brand Focus</div>
-    <div class="brand-options" id="brand-filter"></div>
   </div>
 </aside>
 
@@ -269,15 +257,6 @@ function show(i){
   window.scrollTo(0,0);
 }
 
-/* ---------- Brand filter in sidebar ---------- */
-const brandFilter=document.getElementById("brand-filter");
-BRANDS.forEach(b=>{
-  const chip=document.createElement("div");
-  chip.className=`brand-chip ${b.competitor.toLowerCase()} active`;
-  chip.textContent=`● ${b.competitor}`;
-  chip.onclick=()=>chip.classList.toggle("active");
-  brandFilter.appendChild(chip);
-});
 
 /* ===== ALL TAB CONTENT GOES HERE (unchanged from original) ===== */
 /* Copy the entire sections[0].innerHTML through sections[9].innerHTML from the original template */
