@@ -2180,6 +2180,18 @@
         "platform": "YouTube",
         "summary": "'SENA 60X | Tech Talk' - product deep-dive on the 60X (19,778 views as of 2026-08-31 check). Backfilled 2026-08-31 - missed by prior runs' YouTube checks.",
         "url": "https://www.youtube.com/watch?v=1ydgavIp9g4"
+      },
+      {
+        "date": "2026-09-04",
+        "platform": "Instagram",
+        "summary": "Sena promoted the Specter modular smart helmet, highlighting its lightweight build, Mesh Intercom 3.0, Pinlock 120XLT visor and second-generation Harman Kardon speakers for touring in both open and full-face modes.",
+        "url": "https://www.instagram.com/p/Dc3cdusjNdP/"
+      },
+      {
+        "date": "2026-09-03",
+        "platform": "Instagram",
+        "summary": "Sena posted the first installment of its #HitTheRoute rider-story series, following three riders (David, Rene, and Sean) on a backcountry discovery route.",
+        "url": "https://www.instagram.com/p/Dc1NeUkG0qG/"
       }
     ]
   },
@@ -4342,6 +4354,156 @@
       "topic": "Firmware/app lock-in complaint",
       "summary": "A rider unlocked a rebranded Kenwood version of the Sena 30K that had been stuck on old firmware and locked to a discontinued companion app; commenters called the firmware/app lock-down \"silly\" and noted Sena abandoned support once the OEM partner (Kenwood) discontinued the product, leaving customers without updates.",
       "url": "https://www.reddit.com/r/motorcycles/comments/1uj7sk1/turning_my_kenwood_headset_into_a_sena_30k/"
+    },
+    {
+      "date": "2026-08-26",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "50S",
+      "sentiment": "neutral",
+      "topic": "Mount compatibility question",
+      "summary": "A rider considering a Sena 50S or 30K asked whether the standard clamp mount can be properly installed on a Scorpion EXO-ADX2 helmet before buying, looking for confirmation from other owners of that helmet/intercom combination.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1vw6iq0/sena_50s30k_on_a_scorpion_exoadx2_with_the_clamp/"
+    },
+    {
+      "date": "2026-08-30",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Vortex",
+      "sentiment": "neutral",
+      "topic": "Vortex Duo purchase from Europe",
+      "summary": "In a thread about riding gear worth buying while in Europe, a rider listed a Sena Vortex Duo two-unit set at around 272 EUR (roughly 30k INR) as their planned intercom purchase, mainly to communicate with their pillion passenger.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w2q0qg/buying_riding_gear_from_europe_whats_actually/"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Concern over visor-up voice pickup",
+      "summary": "A rider deciding between Cardo and Sena systems asked whether riding with the visor up would cause the intercom to mistake their own music for their voice and transmit it to their intercom partner, seeking reassurance before purchasing.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w9grg6/which_comm_system_to_get/"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Spider X Slim",
+      "sentiment": "negative",
+      "topic": "Cross-brand pairing failure",
+      "summary": "A rider trying to pair a Sena Spider X Slim with a friend's Cardo Packtalk Neo for a group ride reported the two systems would not link via Bluetooth intercom despite multiple attempts, and asked for troubleshooting help.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w988d4/cardo_sena_troubleshooting/"
+    },
+    {
+      "date": "2026-09-03",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Audio quality below price point",
+      "summary": "A rider posting about audio issues said they've found both Sena and Cardo units to have audio quality far worse than their price would suggest, adding that a cheap Chinese-branded intercom they own sounds better.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1w5y7fq/cardo_audio_issues/"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "mixed",
+      "topic": "Switched from Cardo Edge after issues",
+      "summary": "A new member said they switched from a Cardo Edge to a Sena 60S after having unspecified problems with the Cardo, and asked whether also connecting the 60S directly to their phone (in addition to their Zumo XT) would enable voice commands without disrupting their current music/mesh/navigation setup.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1459942852676413/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S EVO",
+      "sentiment": "negative",
+      "topic": "Specter helmet Bluetooth pairing limitation",
+      "summary": "A member posted YouTube videos documenting that the Sena Specter helmet cannot establish a Bluetooth pairing with the Sena 60S EVO, though the two worked fine together over mesh comm on a test ride.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1459308062739892/"
+    },
+    {
+      "date": "2026-09-01",
+      "source": "Facebook Group",
+      "forum": "Sena Bluetooth Users Group",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Featured in Congo motorcycle documentary",
+      "summary": "A member shared that Sena communicators were used to help record a documentary series following 1000km of motorcycle riding by doctors through the jungles of the Congo.",
+      "url": "https://www.facebook.com/groups/536803186737125/permalink/2616230138794409/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "mixed",
+      "topic": "Firmware 1.2.11 fixes mic gain, adds screen bug",
+      "summary": "A member testing new 60S firmware 1.2.11 reported mic gain now works perfectly with no open-mic issues above 100 kph and better open-mesh stability, but found that on certain BMW models the TFT display and phone no longer show the speaker's volume level when the member themself talks on mesh.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1458712382799460/"
+    },
+    {
+      "date": "2026-09-03",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S EVO",
+      "sentiment": "negative",
+      "topic": "Can't hear calls once engine is on",
+      "summary": "A member with a 60S EVO paired to both their phone and a Harley-Davidson Pan America reported they can make calls while the bike is off, but cannot hear the call once the bike engine is turned on, despite music and other audio routing correctly through the bike; they asked for help after trying multiple connection methods.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1457208276283204/"
+    },
+    {
+      "date": "2026-09-03",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S EVO",
+      "sentiment": "negative",
+      "topic": "ANC earbuds don't deliver claimed noise reduction",
+      "summary": "A 60S EVO owner reviewed Sena's ANC earbud accessory negatively, saying Sena's claimed 25dB attenuation is false with barely any audible difference between ANC on and off, and that the buds don't seat properly in the ear canal regardless of tip size, undermining passive noise isolation as well; they advised others to stay away.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1457107089626656/"
+    },
+    {
+      "date": "2026-09-03",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "positive",
+      "topic": "Strong noise cancellation and voice clarity",
+      "summary": "A member described their first week with the Sena 60S as amazing, with noise cancellation filtering wind noise effectively, no distortion in their wife's voice over intercom, and simultaneous music plus Android Auto navigation prompts working flawlessly; initial scratchiness in voice quality reportedly improved after a couple of rides.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1457078402962858/"
+    },
+    {
+      "date": "2026-09-01",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60X",
+      "sentiment": "negative",
+      "topic": "Music and notifications drop mid-ride",
+      "summary": "A member testing a new Sena 60X on a ride to Germany with a Zumo XT reported that after 30-40 minutes music and GPS/app notifications cut out, came back briefly, then shut off again, with a riding partner also noticing reduced intercom volume; battery was half full at the time.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1455498246454207/"
+    },
+    {
+      "date": "2026-08-31",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S EVO",
+      "sentiment": "negative",
+      "topic": "Accessory pricing frustration",
+      "summary": "A member with multiple helmets complained that Sena only sells the helmet holster and ear-bud adapter bundled in a $139 accessory kit that includes speakers they already own, and that the kit doesn't even include an ear bud adapter, requiring a further $20-25 purchase.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1454874793183219/"
+    },
+    {
+      "date": "2026-08-31",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "neutral",
+      "topic": "Recall program for affected headsets",
+      "summary": "A member who had just ordered a new 60S asked how to check whether a unit is covered by what they described as \"Sena's free recall program\" for affected headsets, and whether a newly-ordered unit would already be excluded from the affected batch.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1454353743235324/"
     }
   ],
   "amazon_pricing": {

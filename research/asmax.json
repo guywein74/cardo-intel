@@ -1054,6 +1054,36 @@
         "platform": "Instagram",
         "summary": "Lifestyle/biker account (@poma.bikergirl) posted a couple/relationship-themed caption with generic moto hashtags on a post tagged to the Asmax profile; minimal direct product content.",
         "url": "https://www.instagram.com/p/DclH333u2mg/"
+      },
+      {
+        "date": "2026-09-06",
+        "platform": "Instagram",
+        "summary": "ASMAX announced that brand ambassador Valentin Debise finished P3 in WorldSSP Race 2 at Magny-Cours (France), matching his Race 1 result for back-to-back podiums on home soil.",
+        "url": "https://www.instagram.com/p/Dc8dRheyO6s/"
+      },
+      {
+        "date": "2026-09-05",
+        "platform": "Instagram",
+        "summary": "ASMAX posted that ambassador Valentin Debise took P3 in WorldSSP Race 1 of the French Round at Magny-Cours after starting from pole.",
+        "url": "https://www.instagram.com/p/Dc6Co-ZS9QQ/"
+      },
+      {
+        "date": "2026-09-01",
+        "platform": "Instagram",
+        "summary": "ASMAX announced a new collaboration with motorcycle-gear brand ZXMOTO, teasing more details to come.",
+        "url": "https://www.instagram.com/p/DcvnjU_SbhB/"
+      },
+      {
+        "date": "2026-08-31",
+        "platform": "Instagram",
+        "summary": "ASMAX promoted the T20, a 7-in-1 portable jump starter and air compressor accessory with a 3000A peak jump-start current, offering a 15% discount code.",
+        "url": "https://www.instagram.com/p/DctHgg0jdZC/"
+      },
+      {
+        "date": "2026-09-05",
+        "platform": "Instagram",
+        "summary": "ASMAX reposted a creator's review (in Italian) of the F1S intercom praising its music, calls, rider-to-rider communication, voice control, and ASMAX Mode for stable group-ride connections.",
+        "url": "https://www.instagram.com/p/Dc5fkmOuyy4/"
       }
     ]
   },
@@ -2247,6 +2277,76 @@
       "topic": "Feature request / how-to confusion",
       "summary": "A rider struggled to get music-sharing working between two ASMAX F1 units; another user explained the non-obvious workaround \u2014 one device must be group leader in a TeamTalk chat, and both riders must press the music-share button in sync with firmware updated and music already playing on both phones.",
       "url": "https://www.reddit.com/r/motorcycles/comments/1k4efm2/asmax_f1_sound_music_in_two_devices/"
+    },
+    {
+      "date": "2026-08-29",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Praise vs Cardo fanboys",
+      "summary": "In a thread about identifying a helmet accessory, a commenter said they use an ASMAX F1 and don't care what 'Cardo fanboys' say, praising it for connecting to up to nine other riders simultaneously with excellent sound and mic quality.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w1ql9v/what_is_this/"
+    },
+    {
+      "date": "2026-09-02",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "S1",
+      "sentiment": "positive",
+      "topic": "Budget pick for music/audio",
+      "summary": "In the 'Cardo systems worth it in 2026?' thread, a commenter said they recently got the ASMAX S1 and found it pretty good for the price if you mainly want music and audio, noting it apparently can also connect to other brands' systems though they hadn't tested that yet.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w4sfsb/cardo_systems_worth_it_in_2026/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "S2",
+      "sentiment": "negative",
+      "topic": "Charging stops short of 100%",
+      "summary": "A member (posting in Filipino) asked whether others had encountered their Asmax S2 no longer reaching a full 100% charge, wondering if it indicates a defect.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1057088913809105/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "Future 1",
+      "sentiment": "neutral",
+      "topic": "Spare parts availability for extra helmet mount",
+      "summary": "A member asked (in Filipino) whether spare parts are available for mounting a Future 1 unit on an extra helmet.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1056548313863165/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "F1 Pro",
+      "sentiment": "negative",
+      "topic": "Seller switched to Cardo",
+      "summary": "A member listed a lightly-used Asmax F1 Pro for resale at roughly a third off its original price, stating in the listing that they had upgraded to Cardo.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1055997127251617/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "S2",
+      "sentiment": "negative",
+      "topic": "Unit not charging, asking about service center",
+      "summary": "A member who bought their Asmax S2 in early June reported it is not charging and asked whether there is a service center that can repair it.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1055575083960488/"
+    },
+    {
+      "date": "2026-08-27",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Swapping 3M mount for metal clamp",
+      "summary": "A member asked (in Filipino) how to remove the 3M glue mount plate/bracket in order to replace it with a metal clamp mount.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1048735224644474/"
     }
   ],
   "amazon_pricing": {
