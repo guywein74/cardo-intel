@@ -50,6 +50,17 @@ BRAND_SOURCES = {
         "facebook_groups": [
             {"url": "https://www.facebook.com/groups/1004405754956044/", "name": "Reso Pilot Pro / Neo Group Ph"},
         ],
+        # KNOWN ISSUE (confirmed 2026-09-07, both apify/instagram-scraper and a
+        # direct browser check returned "page isn't available" for this exact
+        # handle): resoglobal is currently broken on Instagram's side - not a
+        # bad URL or a bug in this script. It's still the only Instagram link
+        # on Reso's own official site (resopilot.com and resosport.com both
+        # redirect to it, both link the same handle), so this is presumably a
+        # temporary suspension/removal rather than a rename - don't swap in a
+        # guessed alternate handle. A run returning 0 Instagram items for Reso
+        # is expected and correct until this comes back; re-verify with a
+        # direct browser check every few weeks (not every run) rather than
+        # treating each 0-result run as something to re-diagnose from scratch.
         "instagram": "https://www.instagram.com/resoglobal/",
     },
 }
