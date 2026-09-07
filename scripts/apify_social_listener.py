@@ -50,18 +50,18 @@ BRAND_SOURCES = {
         "facebook_groups": [
             {"url": "https://www.facebook.com/groups/1004405754956044/", "name": "Reso Pilot Pro / Neo Group Ph"},
         ],
-        # KNOWN ISSUE (confirmed 2026-09-07, both apify/instagram-scraper and a
-        # direct browser check returned "page isn't available" for this exact
-        # handle): resoglobal is currently broken on Instagram's side - not a
-        # bad URL or a bug in this script. It's still the only Instagram link
-        # on Reso's own official site (resopilot.com and resosport.com both
-        # redirect to it, both link the same handle), so this is presumably a
-        # temporary suspension/removal rather than a rename - don't swap in a
-        # guessed alternate handle. A run returning 0 Instagram items for Reso
-        # is expected and correct until this comes back; re-verify with a
-        # direct browser check every few weeks (not every run) rather than
-        # treating each 0-result run as something to re-diagnose from scratch.
-        "instagram": "https://www.instagram.com/resoglobal/",
+        # RENAMED (corrected 2026-09-07 by the user, confirmed via direct browser
+        # check): the old handle @resoglobal is dead (confirmed 2026-09-07, both
+        # apify/instagram-scraper and a live browser check returned Instagram's
+        # "page isn't available" error - this explains access failures already
+        # noted in research/reso.json's social_media.instagram.notes on
+        # 2026-08-29/08-31). Reso has moved to @resopilotglobal (bio "RESOPilot" /
+        # "Adventure in Sync", links resopilot.com, matching the brand's current
+        # site branding) - confirmed live: 37 posts, 1,194 followers. Use this
+        # handle going forward; the old @resoglobal URL still appears correctly
+        # in historical recent_news/recent_posts entries dated before the rename
+        # and should stay as-is there (it was accurate when written).
+        "instagram": "https://www.instagram.com/resopilotglobal/",
     },
 }
 
