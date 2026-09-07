@@ -4823,6 +4823,136 @@
       "url": "https://www.facebook.com/groups/1847605508861922/permalink/4557534591202320/"
     },
     {
+      "date": "2026-09-02",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "mixed",
+      "topic": "Worth it in 2026 debate",
+      "summary": "In a thread asking whether Cardo systems are still worth buying in 2026, opinions split sharply - one commenter called Cardo units slow with cryptic buttons and a terrible, slow app, while another said their Packtalk Pro paired with earplugs is perfect for hearing music and engine noise without wind noise, and a third praised the Cardo HJC 4X for its smooth integrated mount and JBL speaker quality.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w4sfsb/cardo_systems_worth_it_in_2026/"
+    },
+    {
+      "date": "2026-09-01",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Comms and situational safety",
+      "summary": "In a discussion about whether relying on Cardo/intercoms compromises situational safety while riding, one rider said they haven't had issues hearing what they need while using their Cardo for music, reporting they can hear both music and traffic clearly while wearing earplugs.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w3vbea/whats_your_opinion_on_cardointercoms_regarding/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Pro",
+      "sentiment": "neutral",
+      "topic": "Fitting Packtalk Pro in Scorpion helmet",
+      "summary": "A rider who just bought a Cardo Packtalk Pro asked about installing it in a Scorpion R1 Air helmet, noting the fit might be tight with the unit's 45mm speakers, though commenters said the speakers work fine once placed correctly.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w7c4k2/cardo_packtalk_pro_in_scorpion_r1_air_helmet/"
+    },
+    {
+      "date": "2026-09-01",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Mounting/adhesive process question",
+      "summary": "A new Cardo owner asked about the mounting process and whether they could ride the same day, given the adhesive's recommended 24-hour cure time; a commenter who says they've fitted hundreds of Cardo units said the 24-hour wait is mainly Cardo covering themselves legally rather than a strict requirement.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w4dgk4/cardo_mounting_process/"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Packtalk Neo",
+      "sentiment": "negative",
+      "topic": "Cross-brand pairing failure",
+      "summary": "A rider who bought a Cardo Packtalk Neo tried to link it via Bluetooth intercom to a friend's Sena Spider X Slim for a group ride and reported they were unable to get the two systems to pair despite trying multiple approaches, and asked for troubleshooting help.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w988d4/cardo_sena_troubleshooting/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Fitting issue due to head shape",
+      "summary": "A rider trying to install a newly purchased Cardo described difficulty fitting it into their helmet's pre-made speaker pockets in the foam liner, saying their particular head shape made the standard placement uncomfortable.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w70vpj/problems_with_fitting_a_cardo_inside_my_helmet/"
+    },
+    {
+      "date": "2026-08-26",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Packtalk Bold excluded from Mesh Boost",
+      "summary": "A rider considering buying a set of Packtalk Bold units learned that the Bold uses Cardo's first-generation mesh technology and is not compatible with the new Mesh Boost update, prompting concern the model would soon be superseded.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1vwg2qb/packtalk_bold/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Public Mesh update released",
+      "summary": "A rider reported that Cardo released a firmware update enabling a 'Public Mesh' mode where anyone in range can join and talk to each other, comparing it to Sena's mesh, which has long offered an always-open mesh option via a dedicated button.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1w8i55m/cardo_public_mesh_update/"
+    },
+    {
+      "date": "2026-09-01",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Are comms worth the hassle",
+      "summary": "In a thread questioning whether Cardo and comms units are more trouble than they're worth, a commenter argued that Cardo units are functionally just a Bluetooth headset built into the helmet and not meaningfully different from cheaper alternatives, despite supporting 15+ rider mesh groups.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1w3u02f/are_cardos_comms_more_trouble_then_they_are_worth/"
+    },
+    {
+      "date": "2026-09-03",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Audio quality below price point",
+      "summary": "A rider posting about Cardo audio issues said they've found both Sena and Cardo units to have audio quality far worse than their price would suggest, adding that a cheap Chinese-branded intercom they own sounds better.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1w5y7fq/cardo_audio_issues/"
+    },
+    {
+      "date": "2026-09-02",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "Spirit",
+      "sentiment": "neutral",
+      "topic": "Spirit vs Spirit HD for solo riders",
+      "summary": "A solo rider mainly interested in listening to music and answering calls asked whether the Cardo Spirit or Spirit HD would be good enough quality for their needs, seeking input on which entry-level model to buy.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1w4t59w/what_do_i_buy_from_cardo/"
+    },
+    {
+      "date": "2026-08-28",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Installation frustration in AGV Pista",
+      "summary": "A rider trying to fit a Cardo unit into an AGV Pista GP RR helmet expressed frustration that the standard speakers wouldn't install properly, noting they had to switch to foam-tipped earphones that plug into the Cardo instead, and asked where the unit should actually be placed.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1vwzcz3/i_need_help_with_cardo_and_pista/"
+    },
+    {
+      "date": "2026-09-02",
+      "source": "Reddit",
+      "forum": "r/motorcycles",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Siri voice command not working",
+      "summary": "A Packtalk Edge owner reported that while Cardo's own voice commands work perfectly, saying 'Hey Siri' does not get picked up through the headset, and Siri isn't receiving audio properly when it does activate.",
+      "url": "https://www.reddit.com/r/motorcycles/comments/1w4wmw8/cardo_not_picking_up_voice_for_siri/"
+    },
+    {
       "date": "2026-09-07",
       "source": "Facebook Group",
       "forum": "Cardo Systems PackTalk and Edge Community",

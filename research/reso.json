@@ -1482,6 +1482,26 @@
       "topic": "Recommendation over Cardo",
       "summary": "In a thread asking which helmet intercom people use, a commenter suggested the Reso Pro as a good option for riders who don't mostly ride in groups using Cardo units.",
       "url": "https://www.reddit.com/r/motorcyclegear/comments/1urkyep/which_helmet_intercom_do_you_use/"
+    },
+    {
+      "date": "2026-09-02",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Reso Pilot Pro",
+      "sentiment": "positive",
+      "topic": "Recommended over Cardo",
+      "summary": "In the 'Cardo systems worth it in 2026?' thread, a commenter recommended trying to get a Reso Pilot Pro, implying it would make clear how Cardo units fall short by comparison.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w4sfsb/cardo_systems_worth_it_in_2026/"
+    },
+    {
+      "date": "2026-09-02",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Reso Pilot Neo",
+      "sentiment": "neutral",
+      "topic": "Considering as alternative to Cardo",
+      "summary": "In the same 'Cardo systems worth it in 2026?' thread, another commenter said the Reso Pilot Neo seems like a better fit for their needs, and noted they were also considering the ASMAX S2 or F1 as alternatives.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1w4sfsb/cardo_systems_worth_it_in_2026/"
     }
   ]
 }
