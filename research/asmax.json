@@ -43,13 +43,13 @@
           "aesthetics": "Low-profile black unit with customizable multi-color 'Aura' LED accent strip; no swappable color covers found"
         },
         "ease_of_use": {
-          "controls": "Buttons only (intercom button + volume +/-; no jog wheel) \u2014 voice-first UX by design",
+          "controls": "Buttons only (intercom button + volume +/-; no jog wheel) — voice-first UX by design",
           "mount": "Snap-in universal mount, explicitly 'no-magnet' (adhesive/clip base; extra base kits sold separately)",
           "cradle": "Snap-in base with wired speaker/mic harness",
           "voice_commands": "'Hi Max' offline AI assistant (EN/ES/JA), works without phone or internet",
           "screen": "no",
           "ota": "FOTA firmware updates via ASMAX World app",
-          "app": "ASMAX World (iOS/Android) \u2014 LED, groups, calls, music EQ; owners rate it functional, occasional setup/update complaints"
+          "app": "ASMAX World (iOS/Android) — LED, groups, calls, music EQ; owners rate it functional, occasional setup/update complaints"
         },
         "sound": {
           "speaker_size_mm": null,
@@ -74,7 +74,7 @@
         "price": {
           "msrp_usd": 226.99,
           "street_usd": 125.29,
-          "segment_position": "Mid-$100s 10-rider mesh \u2014 undercuts Cardo Packtalk Edge (~$390) by ~65% at the current promo price on spec-sheet parity"
+          "segment_position": "Mid-$100s 10-rider mesh — undercuts Cardo Packtalk Edge (~$390) by ~65% at the current promo price on spec-sheet parity"
         }
       },
       "url": "https://www.asmaxworld.com/products/f1s"
@@ -116,10 +116,10 @@
           "controls": "Buttons only (no wheel); voice-first operation",
           "mount": "Universal adhesive/clip base (magnetic not specified)",
           "cradle": "Base plate with wired speaker/mic harness",
-          "voice_commands": "'Hi Max' offline AI voice (EN/ES/JA) incl. voice-command pairing \u2014 confirmed working with gloves/wind by reviewers",
+          "voice_commands": "'Hi Max' offline AI voice (EN/ES/JA) incl. voice-command pairing — confirmed working with gloves/wind by reviewers",
           "screen": "no",
           "ota": "Automatic wireless FOTA via ASMAX World app",
-          "app": "ASMAX World \u2014 LED, group intercom, calls, EQ; 'app features may require setup or updates' per PHToll"
+          "app": "ASMAX World — LED, group intercom, calls, EQ; 'app features may require setup or updates' per PHToll"
         },
         "sound": {
           "speaker_size_mm": 40,
@@ -144,7 +144,7 @@
         "price": {
           "msrp_usd": 121.99,
           "street_usd": 79.79,
-          "segment_position": "Cheapest credible 8-rider mesh on the US market \u2014 budget tier (Fodsports/EJEAS money) with AI voice added"
+          "segment_position": "Cheapest credible 8-rider mesh on the US market — budget tier (Fodsports/EJEAS money) with AI voice added"
         }
       },
       "url": "https://www.asmaxworld.com/products/s1"
@@ -211,7 +211,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 89.99,
-          "segment_position": "Sub-$90 10-rider mesh with magnetic mount \u2014 cheapest 10-rider tier; page removed from US store (likely superseded by S2)"
+          "segment_position": "Sub-$90 10-rider mesh with magnetic mount — cheapest 10-rider tier; page removed from US store (likely superseded by S2)"
         }
       },
       "url": "https://www.asmaxworld.com/products/z1"
@@ -238,7 +238,7 @@
       "voip": true,
       "wireless_charging": false,
       "detachable_battery": false,
-      "notes": "Street price updated Jul 2026 from Jerung Wheels (Malaysia): RM 699 sale price (down from RM 899 list, ~USD 171 at MYR/USD ~4.07). Also seen at SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379). Not yet on the US store. Marketing cites '3-15 km' chained mesh. As of Jul 2026, asmaxconnect.com (global OEM/dealer site) also lists this exact spec set (BT5.3, 40mm BOX speaker, 1350mAh, 50g, Springlock mount) under the name 'X Pro' with an identical tagline, alongside the still-live 'F1 Pro' page \u2014 appears to be parallel OEM/private-label branding rather than a new product. Confirmed 2026-07-23: ASMAX Connect published an official 'Regional Product Versions & Distribution and Support Policy' notice explicitly listing Future 1, F1 Pro, F1 Pro Max, X Pro, X Pro Max, Y Pro and S2 together as distinct named products, and distinguishing 'International Version' vs 'Chinese Version' units (incompatible apps -- Chinese-version units only work with the China ASMAX app, not the international ASMAX World app; no cross-border warranty/return/exchange/firmware conversion support; distributors restricted to assigned territories). This is the first official confirmation of the naming split, though it still doesn't clarify whether X Pro et al. are China-market renames of F1 Pro et al. or genuinely separate SKUs.",
+      "notes": "Street price updated Jul 2026 from Jerung Wheels (Malaysia): RM 699 sale price (down from RM 899 list, ~USD 171 at MYR/USD ~4.07). Also seen at SGD 279 (~USD 205) at Regina Specialties (Singapore, list SGD 379). Not yet on the US store. Marketing cites '3-15 km' chained mesh. As of Jul 2026, asmaxconnect.com (global OEM/dealer site) also lists this exact spec set (BT5.3, 40mm BOX speaker, 1350mAh, 50g, Springlock mount) under the name 'X Pro' with an identical tagline, alongside the still-live 'F1 Pro' page — appears to be parallel OEM/private-label branding rather than a new product. Confirmed 2026-07-23: ASMAX Connect published an official 'Regional Product Versions & Distribution and Support Policy' notice explicitly listing Future 1, F1 Pro, F1 Pro Max, X Pro, X Pro Max, Y Pro and S2 together as distinct named products, and distinguishing 'International Version' vs 'Chinese Version' units (incompatible apps -- Chinese-version units only work with the China ASMAX app, not the international ASMAX World app; no cross-border warranty/return/exchange/firmware conversion support; distributors restricted to assigned territories). This is the first official confirmation of the naming split, though it still doesn't clarify whether X Pro et al. are China-market renames of F1 Pro et al. or genuinely separate SKUs.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -278,7 +278,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 171,
-          "segment_position": "ASMAX's ~$170-200 premium tier \u2014 still roughly half a Cardo Packtalk Edge / Sena 60S"
+          "segment_position": "ASMAX's ~$170-200 premium tier — still roughly half a Cardo Packtalk Edge / Sena 60S"
         }
       },
       "url": "https://www.asmaxworld.com/products/f1-pro"
@@ -343,7 +343,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 269,
-          "segment_position": "Range-topping flagship at ~$269 street (Malaysia dealer, Jul 2026; ~$319 in South Africa) \u2014 still well under Cardo/Sena flagship money"
+          "segment_position": "Range-topping flagship at ~$269 street (Malaysia dealer, Jul 2026; ~$319 in South Africa) — still well under Cardo/Sena flagship money"
         }
       },
       "url": "https://www.asmaxworld.com/products/f1-pro-max-in-store-exclusive"
@@ -391,7 +391,7 @@
           "speaker_size_mm": 40,
           "speaker_brand": "ASMAX 40mm box speaker, ASMAX Acoustic Lab tuning (Bongiovi claimed for 2025 generation)",
           "hd": null,
-          "quality_verdict": "'High-tech intercom at an affordable price' \u2014 best-value verdict from PH/MY reviewers; neural-net ENC clear at 160-180 km/h (claimed)"
+          "quality_verdict": "'High-tech intercom at an affordable price' — best-value verdict from PH/MY reviewers; neural-net ENC clear at 160-180 km/h (claimed)"
         },
         "intercom": {
           "type": "Mesh + Bluetooth 5.4 dual-chip octa-core; CloudTalk; cross-brand intercom supported",
@@ -410,7 +410,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 155,
-          "segment_position": "~$150 feature-rich mid-tier \u2014 undercuts Sena Spider ST1/Cardo Packtalk Neo class by 40-60%"
+          "segment_position": "~$150 feature-rich mid-tier — undercuts Sena Spider ST1/Cardo Packtalk Neo class by 40-60%"
         }
       },
       "url": "https://www.asmaxworld.com/products/future-1-in-store-exclusive"
@@ -441,7 +441,7 @@
           "weight_g": 50,
           "dimensions_mm": null,
           "profile": "slim",
-          "aesthetics": "Four licensed Evangelion Racing colorways (Unit-01 purple/green A/B, Unit-02 red A/B) \u2014 the only ASMAX with true collector aesthetics"
+          "aesthetics": "Four licensed Evangelion Racing colorways (Unit-01 purple/green A/B, Unit-02 red A/B) — the only ASMAX with true collector aesthetics"
         },
         "ease_of_use": {
           "controls": "Buttons + voice ('Hi Max' call word), same platform as Future 1",
@@ -475,7 +475,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": null,
-          "segment_position": "Licensed collector edition (Japan) \u2014 premium over standard Future 1; JPY pricing not captured"
+          "segment_position": "Licensed collector edition (Japan) — premium over standard Future 1; JPY pricing not captured"
         }
       },
       "url": "https://www.asmaxworld.com/products/future-1-eva-r-in-store-exclusive"
@@ -543,7 +543,7 @@
         "price": {
           "msrp_usd": null,
           "street_usd": 98.03,
-          "segment_position": "'Smart entry-level mesh' \u2014 successor to S1/Z1 value slot at ~$85-100 street (Malaysia/Philippines pricing), confirming it slots just under the S1"
+          "segment_position": "'Smart entry-level mesh' — successor to S1/Z1 value slot at ~$85-100 street (Malaysia/Philippines pricing), confirming it slots just under the S1"
         }
       },
       "url": "https://www.asmaxworld.com/products/s2"
@@ -600,7 +600,7 @@
   "strengths": [
     "Aggressive pricing: flagship-class mesh + AI voice at $90-$140 street vs $350-$400 for Cardo Packtalk Edge / Sena 60S class",
     "Offline 'Hi Max' AI voice assistant (EN/ES/JA) that works without phone/internet; reviewers confirm it registers reliably at highway speed with gloves",
-    "CloudTalk cloud intercom (Mesh + cellular '5G' seamless switching, patented SMC) enables up to 50 riders and effectively unlimited range with coverage \u2014 a feature clamp-on incumbents lack natively",
+    "CloudTalk cloud intercom (Mesh + cellular '5G' seamless switching, patented SMC) enables up to 50 riders and effectively unlimited range with coverage — a feature clamp-on incumbents lack natively",
     "Strong speakers for the price (40/45 mm, Bongiovi Acoustic Labs tuning on 2025 models); clear audio at 100-120 km/h per reviews",
     "Fast charging across the line (10 min = 3 h intercom) and 2-year warranty, FOTA updates, IPX7/IP67 ratings",
     "Rapid product cadence (F1/S1/Z1 2024 -> F1 Pro/Pro Max, Future 1, S2 in 2025) and marketing momentum: EICMA 2025, AIMExpo 2026, Evangelion license in Japan",
@@ -608,7 +608,7 @@
   ],
   "weaknesses": [
     "Real-world range far below claims: reviews measure ~0.7-1.2 km rider-to-rider vs advertised 5 miles/8-15 km",
-    "Mesh only interoperates with ASMAX units; cross-brand requires Bluetooth bridge or CloudTalk (which needs cellular coverage \u2014 useless in remote areas)",
+    "Mesh only interoperates with ASMAX units; cross-brand requires Bluetooth bridge or CloudTalk (which needs cellular coverage — useless in remote areas)",
     "Budget-grade microphone quality (rider-to-passenger) and voice assistant struggles with noise/accents per some reviews",
     "Button-based controls with limited options vs Cardo's glove-friendly wheel; fewer advanced controls",
     "Young brand (2023) with unproven long-term durability; scattered QC complaints (magnet mount, base adhesion, voice activation)",
@@ -667,13 +667,13 @@
     },
     {
       "date": "2026-07-02",
-      "headline": "ASMAX Connect (global OEM/dealer site) quietly lists a parallel 'X Pro / X Pro Max / Y Pro' naming set alongside F1 Pro / F1 Pro Max / Future 1 \u2014 identical specs (X Pro = F1 Pro's BT5.3/40mm, X Pro Max = F1 Pro Max's BT5.3/45mm, Y Pro = Future 1's BT5.4/40mm; same 1350mAh/50g/3km/Springlock mount) and identical marketing taglines, indicating a rebrand for OEM/private-label or alternate-market distribution rather than new hardware; chris_asmax Instagram posted 'X pro max' on Jul 2, 2026",
+      "headline": "ASMAX Connect (global OEM/dealer site) quietly lists a parallel 'X Pro / X Pro Max / Y Pro' naming set alongside F1 Pro / F1 Pro Max / Future 1 — identical specs (X Pro = F1 Pro's BT5.3/40mm, X Pro Max = F1 Pro Max's BT5.3/45mm, Y Pro = Future 1's BT5.4/40mm; same 1350mAh/50g/3km/Springlock mount) and identical marketing taglines, indicating a rebrand for OEM/private-label or alternate-market distribution rather than new hardware; chris_asmax Instagram posted 'X pro max' on Jul 2, 2026",
       "source": "ASMAX Connect product pages / Instagram (@chris_asmax)",
       "url": "https://www.asmaxconnect.com/HelmetIntercoms/OQ01AN6KPJLy.html"
     },
     {
       "date": "2026-06-09",
-      "headline": "ASMAX Partners with MDR Competicion for the 2026 FIM MotoJunior World Championship \u2014 ASMAX's first motorsport sponsorship, supplying communication gear to the racing team developing young riders",
+      "headline": "ASMAX Partners with MDR Competicion for the 2026 FIM MotoJunior World Championship — ASMAX's first motorsport sponsorship, supplying communication gear to the racing team developing young riders",
       "source": "ASMAX Connect (Company News)",
       "url": "https://www.asmaxconnect.com/CompanyNews/akIoMwf63cn1.html"
     },
@@ -685,7 +685,7 @@
     },
     {
       "date": "2026-04-29",
-      "headline": "ASMAX Mode global debut \u2014 next-gen hybrid Bluetooth Mesh + 4G/5G intercom reaching 50 riders with intelligent auto-switching; rolling out as free FOTA update to compatible devices",
+      "headline": "ASMAX Mode global debut — next-gen hybrid Bluetooth Mesh + 4G/5G intercom reaching 50 riders with intelligent auto-switching; rolling out as free FOTA update to compatible devices",
       "source": "PRNewswire (ASMAX PR)",
       "url": "https://www.prnewswire.com/news-releases/asmax-mode-makes-global-debut-redefining-the-future-of-group-ride-communication-302758165.html"
     },
@@ -697,7 +697,7 @@
     },
     {
       "date": "2026-01-09",
-      "headline": "ASMAX exhibits at AIMExpo 2026 (Anaheim, Booth 785) \u2014 first major US trade push; previews next-gen Smart Mesh Control (SMC) with full launch expected later in 2026",
+      "headline": "ASMAX exhibits at AIMExpo 2026 (Anaheim, Booth 785) — first major US trade push; previews next-gen Smart Mesh Control (SMC) with full launch expected later in 2026",
       "source": "AI Journal (press-release coverage)",
       "url": "https://aijourn.com/asmax-brings-rider-centric-smart-connectivity-to-aimexpo-2026/"
     },
@@ -709,7 +709,7 @@
     },
     {
       "date": "2025-11-01",
-      "headline": "Future 1 EVA R launches in Japan \u2014 official Evangelion Racing collaboration (4 colorways) via exclusive Japanese distributor, tied to Evangelion 30th anniversary",
+      "headline": "Future 1 EVA R launches in Japan — official Evangelion Racing collaboration (4 colorways) via exclusive Japanese distributor, tied to Evangelion 30th anniversary",
       "source": "ASMAX (Amazon.co.jp listing)",
       "url": "https://www.amazon.co.jp/-/en/ASMAX-Evangelion-Collaboration-Motorcycles-Intercom/dp/B0FY69Z3MV"
     },
@@ -736,18 +736,18 @@
     "instagram": {
       "handle": "@asmaxworld_official",
       "followers": 16000,
-      "notes": "~16K followers, 154 following, 383 posts (re-checked via firecrawl search 2026-08-29, up from ~16K/154/378 on the 2026-08-25 refresh) \u2014 steady small growth continues, count still rounds to 16K, 5 new posts in four days (fastest posting pace observed yet). Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM; frequent dealer/rider tag-ins (SEC Motosupply, blackout.spain). Also spotted 2026-08-25: several small creator accounts (voge.lebanon, rsmorax_helmet, apexpov.official, sonicmoto088, motosurge_official) posting near-identical 'Every ride has a sound. ASMAX helps you hear what matters' reels within days of each other -- looks like a coordinated micro-influencer/creator seeding campaign rather than organic mentions. Secondary handles: @asmaxofficial (linked from asmaxconnect.com, followers unknown) and @chris_asmax (OEM/wholesale-focused account) -- re-checked 2026-08-29: now 501 followers / 1.7K+ following / 35 posts (up from 500/1,664/30 on 2026-08-25) -- run by a US-based reseller who also promotes non-ASMAX comms gear, e.g. Sena's Phantom XB smart helmet, alongside ASMAX content. chris_asmax also posted a 2026-08-24 teaser reel ('Something new is coming', on-screen text 'ASMAX x EVA-R EVA RACING MODEL 2026') hinting at a follow-on Evangelion Racing collab, and the ASMAXOfficial Facebook page posted a related 2026-08-27 teaser tying this to a Sept 2026 Chongqing Motor Expo (CIMAMotor 2026) appearance -- see recent_news. Facebook page (facebook.com/ASMAXWorld) re-verified 2026-08-29 at 557 likes / 7 talking about it (essentially flat vs 558/8 on 2026-08-25) -- see facebook.followers below.",
+      "notes": "~16K followers, 154 following, 383 posts (re-checked via firecrawl search 2026-08-29, up from ~16K/154/378 on the 2026-08-25 refresh) — steady small growth continues, count still rounds to 16K, 5 new posts in four days (fastest posting pace observed yet). Product-feature reels, group-ride promos, firmware-update announcements; significant Spanish-language content targeting LATAM; frequent dealer/rider tag-ins (SEC Motosupply, blackout.spain). Also spotted 2026-08-25: several small creator accounts (voge.lebanon, rsmorax_helmet, apexpov.official, sonicmoto088, motosurge_official) posting near-identical 'Every ride has a sound. ASMAX helps you hear what matters' reels within days of each other -- looks like a coordinated micro-influencer/creator seeding campaign rather than organic mentions. Secondary handles: @asmaxofficial (linked from asmaxconnect.com, followers unknown) and @chris_asmax (OEM/wholesale-focused account) -- re-checked 2026-08-29: now 501 followers / 1.7K+ following / 35 posts (up from 500/1,664/30 on 2026-08-25) -- run by a US-based reseller who also promotes non-ASMAX comms gear, e.g. Sena's Phantom XB smart helmet, alongside ASMAX content. chris_asmax also posted a 2026-08-24 teaser reel ('Something new is coming', on-screen text 'ASMAX x EVA-R EVA RACING MODEL 2026') hinting at a follow-on Evangelion Racing collab, and the ASMAXOfficial Facebook page posted a related 2026-08-27 teaser tying this to a Sept 2026 Chongqing Motor Expo (CIMAMotor 2026) appearance -- see recent_news. Facebook page (facebook.com/ASMAXWorld) re-verified 2026-08-29 at 557 likes / 7 talking about it (essentially flat vs 558/8 on 2026-08-25) -- see facebook.followers below.",
       "url": "https://www.instagram.com/asmaxworld_official/"
     },
     "facebook": {
       "page": "facebook.com/ASMAXWorld",
       "followers": 557,
-      "notes": "ASMAXWorld page essentially flat at ~557 likes / 7 talking about it (re-verified 2026-08-29 via firecrawl search, vs ~558/8 on the 2026-08-25 refresh) \u2014 growth has plateaued after several weeks of steady gains; still a negligible owned presence overall. Separate ASMAXOfficial page (facebook.com/ASMAXOfficial) posted a notable 2026-08-27 teaser referencing a Sept 2026 Chongqing Motor Expo appearance -- see recent_news. LinkedIn company page: linkedin.com/company/asmax-world/",
+      "notes": "ASMAXWorld page essentially flat at ~557 likes / 7 talking about it (re-verified 2026-08-29 via firecrawl search, vs ~558/8 on the 2026-08-25 refresh) — growth has plateaued after several weeks of steady gains; still a negligible owned presence overall. Separate ASMAXOfficial page (facebook.com/ASMAXOfficial) posted a notable 2026-08-27 teaser referencing a Sept 2026 Chongqing Motor Expo appearance -- see recent_news. LinkedIn company page: linkedin.com/company/asmax-world/",
       "groups_notes": "Most Facebook activity is dealer/creator-driven, not brand-owned: SE Asia dealers (SEC Motosupply, Takong Racing KL, Moto Automain, MotorniJuan PH) post launch/promo/review content for Future 1, EVA R and S2; rider groups (e.g., Foreign Riders Thailand) mention ASMAX in intercom-recommendation threads; small independent reviewers (mr19works) post 'is it worth it' quick reviews.",
       "url": "https://www.facebook.com/ASMAXWorld/"
     },
     "reddit": {
-      "sentiment": "Small but growing organic Reddit footprint as of Jul 2026 \u2014 scattered low-upvote threads/mentions in r/motorcyclegear, r/motorcycles, r/motorcycle, r/MotoUK and r/motorMY (ASMAX usually comes up as a budget alternative when riders ask about Cardo/Sena), rather than dedicated ASMAX threads. Praise/complaints below are drawn from these threads plus the broader owner/review community (Amazon reviews, Facebook, YouTube comments).",
+      "sentiment": "Small but growing organic Reddit footprint as of Jul 2026 — scattered low-upvote threads/mentions in r/motorcyclegear, r/motorcycles, r/motorcycle, r/MotoUK and r/motorMY (ASMAX usually comes up as a budget alternative when riders ask about Cardo/Sena), rather than dedicated ASMAX threads. Praise/complaints below are drawn from these threads plus the broader owner/review community (Amazon reviews, Facebook, YouTube comments).",
       "common_praise": [
         "Sound quality and loudness per dollar (40/45mm speakers) at highway speed",
         "Offline 'Hi Max' voice control that actually works with gloves and wind noise",
@@ -768,7 +768,7 @@
     "youtube": {
       "channel": "@ASMAXWorld",
       "subscribers": 1850,
-      "notes": "Official channel still shows ~1.85K subscribers / 42 videos (re-checked 2026-08-29 via firecrawl search, unchanged from the 2026-08-25 refresh -- first flat reading after several consecutive weeks of subscriber growth). Video count unchanged (42) -- growth is subscriber-only, no new uploads this cycle. Hosts product-feature and how-to content. Secondary channel @ASMAX.Connect exists. Reviewer coverage matters more than owned channel: 'ASMAX F1 & S1 review: Better than Sena & Cardo?' (Jul 2025), 'ASMAX F1 Full Review and Testing', 'ASMAX Z1 PLUS - best price-quality ratio', 'ASMAX S1 Intercom Test 2026 - Is it really worth it', 'Asmax Future 1 - Hi-Tech Intercom with the BEST VALUE for Money' \u2014 verdicts consistently 'budget Cardo alternative, excellent value, range claims overstated'. No FortNine/RevZilla/major-channel coverage found (re-checked 2026-08-10, 2026-08-17 and again 2026-08-25 -- ASMAX still absent from FortNine's own comm-system listings and from webBikeWorld/RideApart/Cycle World/Common Tread editorial content); scattered TikTok captions claiming a 'Common Tread' review exist but could not be corroborated on revzilla.com.",
+      "notes": "Official channel still shows ~1.85K subscribers / 42 videos (re-checked 2026-08-29 via firecrawl search, unchanged from the 2026-08-25 refresh -- first flat reading after several consecutive weeks of subscriber growth). Video count unchanged (42) -- growth is subscriber-only, no new uploads this cycle. Hosts product-feature and how-to content. Secondary channel @ASMAX.Connect exists. Reviewer coverage matters more than owned channel: 'ASMAX F1 & S1 review: Better than Sena & Cardo?' (Jul 2025), 'ASMAX F1 Full Review and Testing', 'ASMAX Z1 PLUS - best price-quality ratio', 'ASMAX S1 Intercom Test 2026 - Is it really worth it', 'Asmax Future 1 - Hi-Tech Intercom with the BEST VALUE for Money' — verdicts consistently 'budget Cardo alternative, excellent value, range claims overstated'. No FortNine/RevZilla/major-channel coverage found (re-checked 2026-08-10, 2026-08-17 and again 2026-08-25 -- ASMAX still absent from FortNine's own comm-system listings and from webBikeWorld/RideApart/Cycle World/Common Tread editorial content); scattered TikTok captions claiming a 'Common Tread' review exist but could not be corroborated on revzilla.com.",
       "url": "https://www.youtube.com/@ASMAXWorld"
     },
     "tiktok": {
@@ -777,7 +777,7 @@
       "notes": "No official ASMAX TikTok account linked from any of their sites, yet TikTok is arguably their strongest awareness channel: dozens of discover/hashtag pages (intercom-asmax, asmax-f1-intercom-review, asmax-vs-cardo, how-to-connect-cardo-intercom-to-asmax-f1) driven by dealers and creators, heavy in Spanish (LATAM) and SE Asian markets. Viral formats include Cardo-vs-ASMAX loudness tests (e.g., @namesayenas) and install/pairing tutorials.",
       "url": "https://www.tiktok.com/discover/asmax-vs-cardo"
     },
-    "summary": "ASMAX's owned social media is small and fragmented (16K IG, ~557 FB likes, several parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit presence remains thin but is no longer zero \u2014 occasional low-upvote mentions in r/motorcyclegear and regional subs (r/motorMY, r/MotoUK) now surface ASMAX as a budget Cardo/Sena alternative, though it still has not meaningfully penetrated the Western enthusiast community. Jun 2026 brought ASMAX's first motorsport sponsorship (MDR Competicion, MotoJunior World Championship); Jul 2026 added a Valentin Debise WorldSSP ambassador deal and a US UTV/SXS retail partnership (Team FAS Motorsports) -- brand-building levers beyond dealer-driven social content. Early Aug 2026 brought the first teaser of a new lower-tier 'HS3' headset via Instagram, plus a first-observed Walmart Marketplace listing for the S1; as of the 2026-08-29 refresh the HS3 remains completely unlisted for sale on any storefront (direct-URL check still 404), now over three weeks after its teaser with no further mention. Refresh sweep on 2026-08-29 found: Instagram grew again (378 -> 383 posts, its fastest four-day pace observed, follower count still rounding to 16K), Facebook plateaued at ~557 likes (vs 558 on 2026-08-25, first flat reading after weeks of growth), YouTube held flat at ~1.85K subscribers / 42 videos (first flat subscriber reading after consecutive weeks of growth), chris_asmax grew modestly to 501 followers/35 posts, and the ASMAX Official Facebook page posted a 2026-08-27 teaser ('Something new is arriving') confirming an ASMAX presence at CIMAMotor 2026 (Chongqing Motor Expo, Sept 19-22, 2026) -- tying together the chris_asmax Chongqing (Aug 5) and EVA-R (Aug 24) teasers as likely previews of a show-timed reveal. Otherwise no new firmware/app release or tier-1 Western press review surfaced this cycle. A separately-tagged Instagram post found via search ('L310 Motorcycle Smart Infotainment System' dashcam/TPMS device) was investigated and confirmed NOT an ASMAX product -- posted by an unrelated account (parkingsensor_gina) with no ASMAX branding, evidently a search-snippet mismatch rather than a real ASMAX launch. Refresh sweep 2026-08-31 (2-day cycle) found no new dated social posts beyond the 2026-08-27 Facebook Chongqing teaser already tracked; a search-engine snippet for @asmaxworld_official surfaced conflicting, apparently stale figures (13K followers/148 following/335 posts, i.e. a lower post count than the 383 already recorded 2026-08-29, which cannot be a real regression) -- treated as a cached/outdated index snapshot and not used to overwrite the follower/post counts above. No new firmware/app release (App Store still v1.0.17, unchanged since Jul 13) or tier-1 Western press review surfaced this cycle; one new small-outlet press review was found (It's Better On The Road, S1, dated Jun 19 2026) -- see press_coverage.",
+    "summary": "ASMAX's owned social media is small and fragmented (16K IG, ~557 FB likes, several parallel account sets), but earned social is disproportionately strong: TikTok and Facebook dealer/creator ecosystems in SE Asia and LATAM plus 'better than Cardo/Sena?' YouTube reviews drive most awareness. Reddit presence remains thin but is no longer zero — occasional low-upvote mentions in r/motorcyclegear and regional subs (r/motorMY, r/MotoUK) now surface ASMAX as a budget Cardo/Sena alternative, though it still has not meaningfully penetrated the Western enthusiast community. Jun 2026 brought ASMAX's first motorsport sponsorship (MDR Competicion, MotoJunior World Championship); Jul 2026 added a Valentin Debise WorldSSP ambassador deal and a US UTV/SXS retail partnership (Team FAS Motorsports) -- brand-building levers beyond dealer-driven social content. Early Aug 2026 brought the first teaser of a new lower-tier 'HS3' headset via Instagram, plus a first-observed Walmart Marketplace listing for the S1; as of the 2026-08-29 refresh the HS3 remains completely unlisted for sale on any storefront (direct-URL check still 404), now over three weeks after its teaser with no further mention. Refresh sweep on 2026-08-29 found: Instagram grew again (378 -> 383 posts, its fastest four-day pace observed, follower count still rounding to 16K), Facebook plateaued at ~557 likes (vs 558 on 2026-08-25, first flat reading after weeks of growth), YouTube held flat at ~1.85K subscribers / 42 videos (first flat subscriber reading after consecutive weeks of growth), chris_asmax grew modestly to 501 followers/35 posts, and the ASMAX Official Facebook page posted a 2026-08-27 teaser ('Something new is arriving') confirming an ASMAX presence at CIMAMotor 2026 (Chongqing Motor Expo, Sept 19-22, 2026) -- tying together the chris_asmax Chongqing (Aug 5) and EVA-R (Aug 24) teasers as likely previews of a show-timed reveal. Otherwise no new firmware/app release or tier-1 Western press review surfaced this cycle. A separately-tagged Instagram post found via search ('L310 Motorcycle Smart Infotainment System' dashcam/TPMS device) was investigated and confirmed NOT an ASMAX product -- posted by an unrelated account (parkingsensor_gina) with no ASMAX branding, evidently a search-snippet mismatch rather than a real ASMAX launch. Refresh sweep 2026-08-31 (2-day cycle) found no new dated social posts beyond the 2026-08-27 Facebook Chongqing teaser already tracked; a search-engine snippet for @asmaxworld_official surfaced conflicting, apparently stale figures (13K followers/148 following/335 posts, i.e. a lower post count than the 383 already recorded 2026-08-29, which cannot be a real regression) -- treated as a cached/outdated index snapshot and not used to overwrite the follower/post counts above. No new firmware/app release (App Store still v1.0.17, unchanged since Jul 13) or tier-1 Western press review surfaced this cycle; one new small-outlet press review was found (It's Better On The Road, S1, dated Jun 19 2026) -- see press_coverage.",
     "recent_posts": [
       {
         "date": "2026-08-27",
@@ -812,7 +812,7 @@
       {
         "date": "2026-06-13",
         "platform": "Instagram",
-        "summary": "Official post 'Meet again' with #ASMAXWorld #motoadventure #mototrip #motolovers hashtags \u2014 lifestyle/adventure-riding content.",
+        "summary": "Official post 'Meet again' with #ASMAXWorld #motoadventure #mototrip #motolovers hashtags — lifestyle/adventure-riding content.",
         "url": "https://www.instagram.com/p/DZhu53wm8PR/"
       },
       {
@@ -866,7 +866,7 @@
       {
         "date": "2026-07-04",
         "platform": "Instagram",
-        "summary": "'Happy Independence Day \u2014 ride free, ride safe' holiday post (6 likes).",
+        "summary": "'Happy Independence Day — ride free, ride safe' holiday post (6 likes).",
         "url": "https://www.instagram.com/asmaxworld_official/p/DaVpzwASw56/"
       },
       {
@@ -890,13 +890,13 @@
       {
         "date": "2026-07-09",
         "platform": "Instagram",
-        "summary": "Someone new is about to say:\n\n\u201dHi Max.\u201c\n\nWho will carry the connection?\n\nDrop your guess below.\n\n#ASMAX #ASMAXWorld #motorcycle #bikerlifestyle #motoadventure",
+        "summary": "Someone new is about to say:\n\n”Hi Max.“\n\nWho will carry the connection?\n\nDrop your guess below.\n\n#ASMAX #ASMAXWorld #motorcycle #bikerlifestyle #motoadventure",
         "url": "https://www.instagram.com/p/Daj78YlyqGL/"
       },
       {
         "date": "2026-06-15",
         "platform": "Instagram",
-        "summary": "Muchos me preguntan qu\u00e9 suelo llevar siempre en una de las bolsas de @loneridergear  cuando viajamos en moto.\n\nY una de esas cosas que casi nunca falta es una bomba de inflar. Cuando haces viajes largos, llevar una encima da bastante tranquilidad.\n\nEn este caso llevo la ASMAX T20, que adem\u00e1s de infl",
+        "summary": "Muchos me preguntan qué suelo llevar siempre en una de las bolsas de @loneridergear  cuando viajamos en moto.\n\nY una de esas cosas que casi nunca falta es una bomba de inflar. Cuando haces viajes largos, llevar una encima da bastante tranquilidad.\n\nEn este caso llevo la ASMAX T20, que además de infl",
         "url": "https://www.instagram.com/p/DZndcsIDR6S/"
       },
       {
@@ -1054,6 +1054,36 @@
         "platform": "Instagram",
         "summary": "Lifestyle/biker account (@poma.bikergirl) posted a couple/relationship-themed caption with generic moto hashtags on a post tagged to the Asmax profile; minimal direct product content.",
         "url": "https://www.instagram.com/p/DclH333u2mg/"
+      },
+      {
+        "date": "2026-09-06",
+        "platform": "Instagram",
+        "summary": "ASMAX announced that brand ambassador Valentin Debise finished P3 in WorldSSP Race 2 at Magny-Cours (France), matching his Race 1 result for back-to-back podiums on home soil.",
+        "url": "https://www.instagram.com/p/Dc8dRheyO6s/"
+      },
+      {
+        "date": "2026-09-05",
+        "platform": "Instagram",
+        "summary": "ASMAX posted that ambassador Valentin Debise took P3 in WorldSSP Race 1 of the French Round at Magny-Cours after starting from pole.",
+        "url": "https://www.instagram.com/p/Dc6Co-ZS9QQ/"
+      },
+      {
+        "date": "2026-09-01",
+        "platform": "Instagram",
+        "summary": "ASMAX announced a new collaboration with motorcycle-gear brand ZXMOTO, teasing more details to come.",
+        "url": "https://www.instagram.com/p/DcvnjU_SbhB/"
+      },
+      {
+        "date": "2026-08-31",
+        "platform": "Instagram",
+        "summary": "ASMAX promoted the T20, a 7-in-1 portable jump starter and air compressor accessory with a 3000A peak jump-start current, offering a 15% discount code.",
+        "url": "https://www.instagram.com/p/DctHgg0jdZC/"
+      },
+      {
+        "date": "2026-09-05",
+        "platform": "Instagram",
+        "summary": "ASMAX reposted a creator's review (in Italian) of the F1S intercom praising its music, calls, rider-to-rider communication, voice control, and ASMAX Mode for stable group-ride connections.",
+        "url": "https://www.instagram.com/p/Dc5fkmOuyy4/"
       }
     ]
   },
@@ -1153,7 +1183,7 @@
     ],
     "awards": [],
     "overall_tone": "Positive-for-the-price from small/regional outlets; entirely absent from tier-1 Western motorcycle media, though regional mainstream press (e.g. BikesRepublic.com in Malaysia) now carries genuine editorial ASMAX coverage beyond dealer blogs and PR syndication. No reviews found in MCN, Cycle World, RideApart, webBikeWorld, Bennetts BikeSocial, RevZilla Common Tread, or Motorcyclist (2024-2026) -- re-checked Jul 2026: scattered TikTok captions referencing '@revzilla' and 'Common Tread' review claims for ASMAX Future 1 could not be corroborated on revzilla.com itself (its Bluetooth-comms category page was re-scraped Jul 2026 and still has zero ASMAX mentions), so these read as unverified/promotional social claims rather than an actual RevZilla review. No industry or design awards found.",
-    "summary": "ASMAX's press footprint is paid/earned PR (syndicated EICMA 2025 and AIMExpo 2026 releases) plus enthusiastic value-focused reviews from SE Asian dealer blogs, Philippine/UK hobbyist sites, and affiliate content, now joined by at least one genuine regional mainstream outlet (BikesRepublic.com, Jan 2026). The consistent editorial verdict where independent testing exists: genuinely good audio and voice control for ~$90-140, but range claims overstated and mesh ecosystem locked-in. The complete absence of tier-1 Western editorial coverage is both ASMAX's credibility gap and an early-warning indicator for Cardo \u2014 a first webBikeWorld/RevZilla/FortNine review would mark their real US arrival."
+    "summary": "ASMAX's press footprint is paid/earned PR (syndicated EICMA 2025 and AIMExpo 2026 releases) plus enthusiastic value-focused reviews from SE Asian dealer blogs, Philippine/UK hobbyist sites, and affiliate content, now joined by at least one genuine regional mainstream outlet (BikesRepublic.com, Jan 2026). The consistent editorial verdict where independent testing exists: genuinely good audio and voice control for ~$90-140, but range claims overstated and mesh ecosystem locked-in. The complete absence of tier-1 Western editorial coverage is both ASMAX's credibility gap and an early-warning indicator for Cardo — a first webBikeWorld/RevZilla/FortNine review would mark their real US arrival."
   },
   "sources": [
     "https://www.asmaxworld.com/",
@@ -1955,7 +1985,7 @@
       "product": "F1 Pro",
       "sentiment": "negative",
       "topic": "Poor mic/audio quality complaint",
-      "summary": "Buyer of an F1 Pro dual pack says a $25 AliExpress intercom sounded better \u2014 his wife's voice came through scratchy and narrow-band, and phone call clients report heavily distorted mic audio.",
+      "summary": "Buyer of an F1 Pro dual pack says a $25 AliExpress intercom sounded better — his wife's voice came through scratchy and narrow-band, and phone call clients report heavily distorted mic audio.",
       "url": "https://www.facebook.com/groups/1275973273584175/permalink/1782538496260981/"
     },
     {
@@ -2115,7 +2145,7 @@
       "product": "S1",
       "sentiment": "neutral",
       "topic": "Price deal discussion",
-      "summary": "In a thread seeking helmet Bluetooth/intercom suggestions, a commenter pointed out the ASMAX S1 was discounted from \u00a3120 to \u00a345 on AliExpress, and other users confirmed the listings were legit.",
+      "summary": "In a thread seeking helmet Bluetooth/intercom suggestions, a commenter pointed out the ASMAX S1 was discounted from £120 to £45 on AliExpress, and other users confirmed the listings were legit.",
       "url": "https://www.reddit.com/r/MotoUK/comments/1hdjszx/helmet_bluetooth_add_on_suggestions/"
     },
     {
@@ -2245,8 +2275,58 @@
       "product": "F1s",
       "sentiment": "mixed",
       "topic": "Feature request / how-to confusion",
-      "summary": "A rider struggled to get music-sharing working between two ASMAX F1 units; another user explained the non-obvious workaround \u2014 one device must be group leader in a TeamTalk chat, and both riders must press the music-share button in sync with firmware updated and music already playing on both phones.",
+      "summary": "A rider struggled to get music-sharing working between two ASMAX F1 units; another user explained the non-obvious workaround — one device must be group leader in a TeamTalk chat, and both riders must press the music-share button in sync with firmware updated and music already playing on both phones.",
       "url": "https://www.reddit.com/r/motorcycles/comments/1k4efm2/asmax_f1_sound_music_in_two_devices/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "S2",
+      "sentiment": "negative",
+      "topic": "Charging stops short of 100%",
+      "summary": "A member (posting in Filipino) asked whether others had encountered their Asmax S2 no longer reaching a full 100% charge, wondering if it indicates a defect.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1057088913809105/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "Future 1",
+      "sentiment": "neutral",
+      "topic": "Spare parts availability for extra helmet mount",
+      "summary": "A member asked (in Filipino) whether spare parts are available for mounting a Future 1 unit on an extra helmet.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1056548313863165/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "F1 Pro",
+      "sentiment": "negative",
+      "topic": "Seller switched to Cardo",
+      "summary": "A member listed a lightly-used Asmax F1 Pro for resale at roughly a third off its original price, stating in the listing that they had upgraded to Cardo.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1055997127251617/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "S2",
+      "sentiment": "negative",
+      "topic": "Unit not charging, asking about service center",
+      "summary": "A member who bought their Asmax S2 in early June reported it is not charging and asked whether there is a service center that can repair it.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1055575083960488/"
+    },
+    {
+      "date": "2026-08-27",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "General",
+      "sentiment": "neutral",
+      "topic": "Swapping 3M mount for metal clamp",
+      "summary": "A member asked (in Filipino) how to remove the 3M glue mount plate/bracket in order to replace it with a metal clamp mount.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1048735224644474/"
     }
   ],
   "amazon_pricing": {

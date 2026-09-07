@@ -2052,6 +2052,18 @@
         "platform": "Instagram",
         "summary": "Rider (@moto.breww) gave a shoutout to their Cardo comms system for 'holding steady' and continuing to play audio undisturbed through a storm ride, alongside praise for their action camera and riding gear.",
         "url": "https://www.instagram.com/p/DccNbpao-Kb/"
+      },
+      {
+        "date": "2026-09-07",
+        "platform": "Instagram",
+        "summary": "Cardo reposted a creator's video of a 7-person family ride all connected via Cardo units at Gopher Dunes, with the parents using Packtalk Edgephones and praising the reduced track noise; caption also promoted the September 6-7 Labor Day Flash Sale (20% off with code ZEN).",
+        "url": "https://www.instagram.com/p/Dc9ytZ_uiC4/"
+      },
+      {
+        "date": "2026-09-06",
+        "platform": "Instagram",
+        "summary": "Cardo ran a 48-hour Labor Day Flash Sale (September 6-7) offering 20% off, promoted across multiple reposted creator videos each with a unique discount code.",
+        "url": "https://www.instagram.com/p/Dc7QN-nC3Qm/"
       }
     ]
   },
@@ -4809,6 +4821,176 @@
       "topic": "limited app features via CarPuride integration",
       "summary": "A Packtalk Edge user paired through a CarPuride Android Auto adapter can join a mesh group but cannot create one and loses access to most Cardo app features, and is asking for the correct pairing order to retain both Android Auto and full app functionality.",
       "url": "https://www.facebook.com/groups/1847605508861922/permalink/4557534591202320/"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Edge auto-powers-on while charging",
+      "summary": "A member asked whether others have noticed their Packtalk Edge turning itself on while charging since a recent firmware update.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4566848293604283/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Phone re-pairing required across bikes",
+      "summary": "A member with two bikes described having to re-pair their phone to the headset every time they switch between a bike where the phone connects directly to the headset and one where the phone connects to the bike itself, and asked if there is a workaround.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4566431490312630/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Reduced range after firmware update",
+      "summary": "A member and their spouse reported both their Packtalk Edge units losing range and audio quality much sooner than before after the latest update, dropping to well under half a mile in open, flat terrain.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4566407666981679/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "positive",
+      "topic": "Mesh update improved range",
+      "summary": "A member who had struggled with prior Packtalk firmware updates reported that after installing the latest Mesh update their two units worked reliably at a ride event, with range improving from crackly at two car-lengths to a clear three quarters of a mile, and praised Cardo's instructional video.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4566316866990759/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Harley edition can't take latest firmware",
+      "summary": "A member shared that the Harley-branded version of the Packtalk Edge cannot accept the latest firmware update that has been bricking some standard Cardo units, noting their own dealership was unaware of this limitation.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565957293693383/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Cardo Connect rejects Edge-to-Bold group invites",
+      "summary": "A ride leader trying to set up a group of 5 Edge and 3 Bold units reported that Cardo Connect group invitations sent via WhatsApp or Messenger to Bold users return an \"Incompatible device\" error despite all firmware being current, and that manual top-button pairing also failed for one Bold unit.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565950457027400/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "neutral",
+      "topic": "Battery life and replacement question",
+      "summary": "A member asked about the expected battery life of the Packtalk Edge and whether the battery can be replaced, noting friends' units seem to not hold a charge and frequently report low battery.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565853223703790/"
+    },
+    {
+      "date": "2026-09-06",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "mixed",
+      "topic": "Wary of firmware updates after past breakage",
+      "summary": "A long-time Packtalk/Edge owner recounted a past update that broke their Packtalk units for a week, and said they delayed the Mesh update on their Edge units because greyed-out app features forced their hand; after updating, they still measured less range on Edge than their old Packtalk units in open countryside.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565784607043985/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Harley edition firmware 4.9 update failure",
+      "summary": "A member with the Harley-Davidson version of the Packtalk Edge reported it will not update to firmware 4.9 via over-the-air or PC connection, even after a factory reset, and asked for help.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565448853744227/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Open Mesh update broke music sharing",
+      "summary": "A member reported that after upgrading to the latest Open Mesh firmware, a previously reliable Pro-to-Edge rider/pillion pairing lost the ability to share music and now only intermittently supports intercom, and asked for guidance since the user manual has not kept pace with the update.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565442373744875/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Disconnects and app can't find unit after update",
+      "summary": "A member reported frequent disconnections while riding with their son after a recent update, and said the Cardo app can no longer find their unit even though it is still connected and playing Bluetooth audio.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565152713773841/"
+    },
+    {
+      "date": "2026-09-05",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Tinny audio after refitting into new helmet",
+      "summary": "A member reported that after having their Cardo unit refitted into a new helmet, music playback became very tinny, and asked whether others have experienced this and how to fix it.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4564770833812029/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Radio randomly turns on",
+      "summary": "A member complained that their unit's radio randomly turns itself on and asked how to stop it.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4564298030525976/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Update auto-searches for intercom connections",
+      "summary": "A member asked how to configure their device so it stops automatically searching for an intercom group chat connection after a new update introduced that auto-search behavior, since they only want it to search on request.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4564220067200439/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Volume indicator missing after update",
+      "summary": "A member noticed that after a recent update, the volume indicator no longer appears on their phone.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4563927553896357/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Spirit HD",
+      "sentiment": "negative",
+      "topic": "Mic stopped picking up sound",
+      "summary": "A member reported that their partner's Spirit HD mic, which had worked fine over Bluetooth intercom, stopped picking up any sound on a ride despite a reset and checking the wire connection, with only very loud shouting registering faintly.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4563868600568919/"
+    },
+    {
+      "date": "2026-09-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Wind noise on pillion side with ANC unit",
+      "summary": "A member using paired C5 ANC units for rider and pillion reported significant wind noise from the pillion's helmet with the visor up or flipped, saying a wind-resistant mic bud swap made little difference, and asked if others have had the same issue.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4564024263886686/"
     }
   ],
   "amazon_pricing": {
