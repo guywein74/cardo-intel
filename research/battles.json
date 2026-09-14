@@ -2012,20 +2012,20 @@
           {
             "dimension": "VoIP",
             "values": [
-              "cellular",
+              "claimed, not shipped",
               "cellular",
               "none",
               "cellular",
               "cellular"
             ],
             "scores": [
-              "good",
+              "bad",
               "good",
               "soso",
               "good",
               "good"
             ],
-            "note": ""
+            "note": "Cardo's 'Cellular Intercom' (VoIP over data network) was announced Nov 2024 as part of Mesh-Boost but was absent from the actual GA changelog when firmware 5.4 shipped 2026-08-17 (DMC group expansion, Public Mesh and Remote Grouping shipped; Cellular Intercom did not) - marketed for 2 years, never delivered. Scored as a real shortcoming, not 'none' by default."
           },
           {
             "dimension": "Wireless charging",
@@ -2562,8 +2562,8 @@
           {
             "dimension": "VoIP",
             "values": [
-              "cellular",
-              "cellular",
+              "claimed, not shipped",
+              "claimed, not shipped",
               "cellular",
               "cellular",
               "cellular",
@@ -2571,15 +2571,15 @@
               "cellular"
             ],
             "scores": [
-              "good",
-              "good",
+              "bad",
+              "bad",
               "good",
               "good",
               "good",
               "soso",
               "good"
             ],
-            "note": ""
+            "note": "Cardo's 'Cellular Intercom' (VoIP over data network) was announced Nov 2024 as part of Mesh-Boost but was absent from the actual GA changelog when firmware 5.4 shipped 2026-08-17 (DMC group expansion, Public Mesh and Remote Grouping shipped; Cellular Intercom did not) - marketed for 2 years, never delivered. Scored as a real shortcoming, not 'none' by default."
           },
           {
             "dimension": "Wireless charging",
@@ -2979,18 +2979,18 @@
           {
             "dimension": "VoIP",
             "values": [
-              "cellular",
+              "claimed, not shipped",
               "cellular",
               "cellular",
               "none"
             ],
             "scores": [
-              "good",
+              "bad",
               "good",
               "good",
               "soso"
             ],
-            "note": ""
+            "note": "Cardo's 'Cellular Intercom' (VoIP over data network) was announced Nov 2024 as part of Mesh-Boost but was absent from the actual GA changelog when firmware 5.4 shipped 2026-08-17 (DMC group expansion, Public Mesh and Remote Grouping shipped; Cellular Intercom did not) - marketed for 2 years, never delivered. Scored as a real shortcoming, not 'none' by default."
           },
           {
             "dimension": "Wireless charging",

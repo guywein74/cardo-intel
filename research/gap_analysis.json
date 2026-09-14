@@ -21,7 +21,7 @@
           "brand": "ASMAX",
           "product": "F1s / F1 Pro Max",
           "price": "$112.76 street (Amazon promo + coupon, was $139.99 list) / $269 street",
-          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) \u2014 flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price; F1s's price dropped further as of 2026-08-29 when Amazon layered a clippable coupon on top of its existing -11% promo, taking it to $112.76 \u2014 the lowest price yet recorded for this SKU"
+          "note": "F1 Pro Max now has a first confirmed price (Malaysia dealer) — flagship-spec mesh + Bongiovi audio at nearly half the Packtalk Pro price; F1s's price dropped further as of 2026-08-29 when Amazon layered a clippable coupon on top of its existing -11% promo, taking it to $112.76 — the lowest price yet recorded for this SKU"
         },
         {
           "brand": "Sena",
@@ -60,13 +60,13 @@
           "brand": "Sena",
           "product": "Spider X Slim",
           "price": "$299 ($569 dual)",
-          "note": "Launched June 2026; mesh-only, Sound by Bose, lifetime warranty \u2014 sits squarely in the gap Cardo's Bluetooth-only Freecom can't fill"
+          "note": "Launched June 2026; mesh-only, Sound by Bose, lifetime warranty — sits squarely in the gap Cardo's Bluetooth-only Freecom can't fill"
         },
         {
           "brand": "Sena",
           "product": "APEX / APEX PLUS",
           "price": "$265 / $325",
-          "note": "Launched Aug 5, 2026, same price window as Freecom 2x/4x \u2014 but unlike every other competitor listed in this segment, APEX/APEX PLUS are Bluetooth-only (no mesh), so they don't close Cardo's mesh gap; they do add a user-replaceable battery, Qi wireless charging and a Limited Lifetime Warranty that Freecom lacks"
+          "note": "Launched Aug 5, 2026, same price window as Freecom 2x/4x — but unlike every other competitor listed in this segment, APEX/APEX PLUS are Bluetooth-only (no mesh), so they don't close Cardo's mesh gap; they do add a user-replaceable battery, Qi wireless charging and a Limited Lifetime Warranty that Freecom lacks"
         }
       ],
       "gap": "In the $200-320 window Cardo sells Bluetooth-only (Freecom), while nearly every competitor sells mesh - Sena's own new APEX/APEX PLUS (Aug 2026) is the one exception, a Bluetooth-only pair aimed at the same niche as Freecom rather than at Cardo's mesh gap. Cardo's cheapest motorcycle mesh unit is the Packtalk Neo at $359.95 - now about $76 above Sena's 50S, whose street price a sitewide Sena sale (Aug 29 2026) pulled back down to $284.25 from the $320 recorded Aug 25 2026 (was $262 at an even earlier, since-expired discount). Sena's new Spider X Slim ($299, June 2026) is a fresh mesh entrant right in this window, adding Bose audio and a lifetime warranty to the pressure.",
@@ -96,7 +96,7 @@
           "note": "Bluetooth entry, not yet in US"
         }
       ],
-      "gap": "ASMAX delivers mesh, AI voice control, a published waterproof rating and 2-yr warranty at $83.99 (down from $89.99 as of July 2026) \u2014 below Cardo's most basic Bluetooth-only unit.",
+      "gap": "ASMAX delivers mesh, AI voice control, a published waterproof rating and 2-yr warranty at $83.99 (down from $89.99 as of July 2026) — below Cardo's most basic Bluetooth-only unit.",
       "severity": "high",
       "insight": "The entry tier is where the next generation of riders forms brand loyalty. Value-per-dollar at this tier has been conceded to Chinese challengers; only brand trust and dealer presence defend it today."
     },
@@ -113,22 +113,22 @@
       ],
       "gap": "Cardo enters the category premium-first while Sena floods it with 8 models including a camera helmet. Venture (first integrated-mesh MX helmet) is a genuine first.",
       "severity": "medium",
-      "insight": "Category too young to score; watch Phantom CAM (camera is a feature Cardo has nowhere in the portfolio). GTS's July 2026 Red Dot Award: Product Design win is a genuine design credential, but the same announcement revealed a $100 MSRP hike and a summer-to-late-2026 launch slip \u2014 good PR paired with worse fundamentals."
+      "insight": "Category too young to score; watch Phantom CAM (camera is a feature Cardo has nowhere in the portfolio). GTS's July 2026 Red Dot Award: Product Design win is a genuine design credential, but the same announcement revealed a $100 MSRP hike and a summer-to-late-2026 launch slip — good PR paired with worse fundamentals."
     }
   ],
   "feature_gaps": [
     {
       "feature": "Cellular / unlimited-range intercom",
-      "cardo_status": "partial",
-      "cardo_note": "VoIP Cellular Intercom shipped quietly inside the free Mesh-Boost OTA, but it is barely marketed and not a headline capability.",
+      "cardo_status": "none",
+      "cardo_note": "VoIP Cellular Intercom was announced Nov 2024 as part of Mesh-Boost, but was absent from the actual GA changelog when firmware 5.4/Cardo Connect 9.1 finally shipped 2026-08-17 (DMC group expansion, Public Mesh, and Remote Grouping shipped; Cellular Intercom did not). Corrected 2026-09-14: this is not a shipped-but-unmarketed feature, it is an unshipped one - a 2-year public promise with no delivery.",
       "competitor_note": "Sena Wave is a named, heavily-marketed product (unlimited range/riders over LTE, friends-based groups). ASMAX CloudTalk does mesh-to-cellular auto-switching for 50 riders ('MESH+5G', full SMC launch H2 2026). Reso DuoSync software mesh claims unlimited range via hotspot.",
       "severity": "high",
-      "recommendation": "Productize and name the existing VoIP capability; market it head-to-head against Wave rather than leaving it a footnote of Mesh-Boost."
+      "recommendation": "Either ship a real cellular/data-network intercom mode and give it a name, or publicly retire the Cellular Intercom promise - two years of 'coming soon' without delivery is a credibility cost, not a free marketing opportunity."
     },
     {
       "feature": "AI voice assistant",
       "cardo_status": "behind",
-      "cardo_note": "Natural Voice Operation is best-in-class command recognition, but it is a command set \u2014 not an assistant. No offline AI, no conversational features anywhere in the line.",
+      "cardo_note": "Natural Voice Operation is best-in-class command recognition, but it is a command set — not an assistant. No offline AI, no conversational features anywhere in the line.",
       "competitor_note": "ASMAX 'Hi Max' is a fully offline AI assistant (EN/ES/JA, works without phone; verified reliable at highway speed). Reso 'Hey RESO' offers continuous-listening control that reviewers rate faster than Cardo's.",
       "severity": "medium",
       "recommendation": "An on-device AI assistant (or LLM-backed companion via Cardo Connect) would neutralize the challenger brands' core differentiator and fit Cardo's premium software story."
@@ -136,7 +136,7 @@
     {
       "feature": "Warranty",
       "cardo_status": "behind",
-      "cardo_note": "3 years on Packtalk Edge/Pro (2 years on the rest) \u2014 was the industry's best until May 2026.",
+      "cardo_note": "3 years on Packtalk Edge/Pro (2 years on the rest) — was the industry's best until May 2026.",
       "competitor_note": "Sena 60S EVO introduced a limited LIFETIME warranty on the main unit. Reso matches Cardo's 3 years on a $359 flagship.",
       "severity": "medium",
       "recommendation": "Evaluate matching lifetime coverage on Packtalk Pro/Edge; the BOM risk is low relative to the flagship price premium being defended."
@@ -153,7 +153,7 @@
       "feature": "Action-camera audio integration",
       "cardo_status": "missing",
       "cardo_note": "No GoPro/DJI/Insta360 integration anywhere in the lineup.",
-      "competitor_note": "Reso records team intercom audio directly into GoPro/DJI/Insta360 footage \u2014 a moto-vlogger hook. ASMAX has Insta360 wireless audio integration. Sena sells camera helmets (Phantom CAM 4K).",
+      "competitor_note": "Reso records team intercom audio directly into GoPro/DJI/Insta360 footage — a moto-vlogger hook. ASMAX has Insta360 wireless audio integration. Sena sells camera helmets (Phantom CAM 4K).",
       "severity": "medium",
       "recommendation": "Firmware/app-level camera audio pairing is a contained project with outsized appeal to the content-creator segment that drives social reach."
     },
@@ -161,7 +161,7 @@
       "feature": "Crash detection / safety",
       "cardo_status": "leads",
       "cardo_note": "First mover: IMU crash detection with emergency alerts on Packtalk Pro (fw 4.7 fixed false positives).",
-      "competitor_note": "Reso matches it (GNSS + gyroscope SOS) at $359 \u2014 the only competitor that does. Sena and ASMAX have nothing comparable shipping.",
+      "competitor_note": "Reso matches it (GNSS + gyroscope SOS) at $359 — the only competitor that does. Sena and ASMAX have nothing comparable shipping.",
       "severity": "low",
       "recommendation": "Extend crash detection down the line (Edge/Neo) before it becomes table stakes; expand region coverage."
     },
@@ -176,23 +176,23 @@
     {
       "feature": "Waterproofing",
       "cardo_status": "leads",
-      "cardo_note": "IP67 across the Packtalk line \u2014 repeatedly cited as a durability win. But: no published IP rating on Spirit/Freecom lines.",
+      "cardo_note": "IP67 across the Packtalk line — repeatedly cited as a durability win. But: no published IP rating on Spirit/Freecom lines.",
       "competitor_note": "Sena is IPX7 only on the 60 series, 'water-resistant' below. ASMAX publishes IPX7/IP67 even at $89.99. Reso is IP67 on both main models.",
       "severity": "low",
-      "recommendation": "Publish official IP ratings for Freecom/Spirit \u2014 challengers publish ratings on units a third the price, making Cardo's silence at entry level look evasive."
+      "recommendation": "Publish official IP ratings for Freecom/Spirit — challengers publish ratings on units a third the price, making Cardo's silence at entry level look evasive."
     },
     {
       "feature": "Ecosystem openness",
       "cardo_status": "at-risk",
-      "cardo_note": "Universal Bluetooth bridging (pairs with any brand) is a genuine strength \u2014 but DMC itself is proprietary.",
-      "competitor_note": "Sena's MeshON ($TBA, June 2026) lets ANY Bluetooth headset \u2014 including Cardo units \u2014 join Sena Mesh groups: a direct play to make Sena the default group-ride network.",
+      "cardo_note": "Universal Bluetooth bridging (pairs with any brand) is a genuine strength — but DMC itself is proprietary.",
+      "competitor_note": "Sena's MeshON ($TBA, June 2026) lets ANY Bluetooth headset — including Cardo units — join Sena Mesh groups: a direct play to make Sena the default group-ride network.",
       "severity": "high",
       "recommendation": "Consider a DMC bridge accessory or SDK response; if group rides standardize on Sena mesh via MeshON, Cardo's group-comms advantage erodes from the outside."
     },
     {
       "feature": "Audio partnership",
       "cardo_status": "parity",
-      "cardo_note": "Sound by JBL (40/45mm) \u2014 strongest bass/volume in class per reviews.",
+      "cardo_note": "Sound by JBL (40/45mm) — strongest bass/volume in class per reviews.",
       "competitor_note": "Sena escalated to Sound by Bose on the 60S EVO. ASMAX counters with Bongiovi 'Grammy-level' tuning. Reso's self-developed speakers beat Packtalk Bold's JBL in one long-term review.",
       "severity": "low",
       "recommendation": "JBL story still holds but is no longer unique; 45mm speakers below the Pro tier would keep the hardware edge tangible."
@@ -209,7 +209,7 @@
     },
     {
       "title": "OTA value delivery",
-      "detail": "Mesh-Boost added 31-rider DMC, Public Mesh, Remote Grouping and VoIP intercom free \u2014 strongest post-purchase value story in the market."
+      "detail": "Mesh-Boost added 31-rider DMC, Public Mesh, Remote Grouping and VoIP intercom free — strongest post-purchase value story in the market."
     },
     {
       "title": "Safety leadership",
@@ -217,7 +217,7 @@
     },
     {
       "title": "Distribution & OEM",
-      "detail": "80+ countries, Cycle Gear free-install, Shoei/HJC/KTM/Schuberth co-brands (Packtalk-S/4X-S for Shoei's Gen 3 helmets launched April 2026; HJC 4X $299.95/HJC Spirit $149.95 helmet-integrated units launched spring 2026, extending the OEM-integration playbook to a second major helmet brand; Schuberth SC EDGE ANC, previewed EICMA 2025, adds the first Cardo comm system with integrated Active Noise Cancelling, exclusive to the Schuberth C5 ANC helmet) \u2014 challengers have almost no Western retail or OEM helmet-integration deals. Watch: Reso landed its first major developed-market distribution deal outside DTC/SEA in June 2026 (Daytona, a major Japanese parts wholesaler, now sells the Pilot Pro/Neo/Lite lineup in Japan) \u2014 an early crack worth monitoring, not yet a Western threat."
+      "detail": "80+ countries, Cycle Gear free-install, Shoei/HJC/KTM/Schuberth co-brands (Packtalk-S/4X-S for Shoei's Gen 3 helmets launched April 2026; HJC 4X $299.95/HJC Spirit $149.95 helmet-integrated units launched spring 2026, extending the OEM-integration playbook to a second major helmet brand; Schuberth SC EDGE ANC, previewed EICMA 2025, adds the first Cardo comm system with integrated Active Noise Cancelling, exclusive to the Schuberth C5 ANC helmet) — challengers have almost no Western retail or OEM helmet-integration deals. Watch: Reso landed its first major developed-market distribution deal outside DTC/SEA in June 2026 (Daytona, a major Japanese parts wholesaler, now sells the Pilot Pro/Neo/Lite lineup in Japan) — an early crack worth monitoring, not yet a Western threat."
     },
     {
       "title": "Smart-helmet firsts",
@@ -225,7 +225,7 @@
     },
     {
       "title": "Community trust window",
-      "detail": "Reddit/enthusiast sentiment favors Cardo on reliability; ASMAX and Reso are invisible on Reddit and in tier-1 Western press \u2014 for now."
+      "detail": "Reddit/enthusiast sentiment favors Cardo on reliability; ASMAX and Reso are invisible on Reddit and in tier-1 Western press — for now."
     }
   ],
   "recommendations": [

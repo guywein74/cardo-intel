@@ -278,26 +278,26 @@
       ]
     },
     {
-      "title": "Mesh Boost's cellular/VoIP capability remains unmarketed, and its OEM rollout is still incomplete a month after the last public commitment",
-      "severity": "medium",
+      "title": "Mesh Boost's promised Cellular Intercom never shipped - a 2-year-old public commitment quietly dropped at GA",
+      "severity": "high",
       "category": "software",
-      "description": "Mesh Boost's VoIP Cellular Intercom shipped inside the same general-availability release as the 31-rider DMC expansion in August, but it still has no brand name, no dedicated launch campaign, and essentially no marketing presence, in sharp contrast to Sena's heavily promoted Wave, ASMAX's CloudTalk, and Reso's DuoSync. Cardo's own trade-press coverage from late August confirmed Harley-Davidson and Schuberth SC-Edge devices still lack the update, targeted for Q4 2026; that status is unchanged as of this Sept 14 refresh, meaning the window on the vague Q4 commitment is now visibly closing without a firmer date.",
-      "customer_signal": null,
-      "competitor_benchmark": "Sena Wave, ASMAX CloudTalk (MESH+5G, up to 50 riders) and Reso DuoSync are all named, marketed, headline capabilities for unlimited-range cellular-assisted intercom.",
+      "description": "Cellular Intercom (VoIP over data network, no Bluetooth range limit) was publicly announced in Nov 2024 as part of Mesh-Boost, alongside the 31-rider DMC expansion, Public Mesh, and Remote Grouping. When Mesh-Boost finally reached general availability on 2026-08-17 via firmware 5.4 and Cardo Connect 9.1, the GA changelog covers the DMC group expansion, Public Mesh, and Remote Grouping in detail but does not mention Cellular Intercom at all - it was dropped, not shipped quietly. This means Cardo has been publicly promising a capability for nearly two years that still does not exist, while Sena's Wave, ASMAX's CloudTalk, and Reso's DuoSync all ship real (if caveated) cellular/data-network intercom today. The risk is reputational: GS-forum owners have tracked this exact broken promise since 2025, and every future Cardo announcement about Mesh-Boost or connectivity invites the same 'still not here' response.",
+      "customer_signal": "Long-running BMW GS owners forum thread (gs-forum.com, Sept 2025-June 2026) documented many owners never receiving the promised Cellular Intercom feature; Cardo support gave no firm date.",
+      "competitor_benchmark": "Sena Wave (shipped 2024, world-first cellular intercom, headline marketed feature), ASMAX CloudTalk (mesh-to-cellular auto-switch for 50 riders), and Reso DuoSync (software mesh over hotspot/cellular) are all real, shipped, marketed capabilities today - Cardo has none.",
       "sources": [
         {
-          "label": "Powersports Business - Mesh Boost trade coverage",
-          "url": "https://powersportsbusiness.com/news/distributors-aftermarket/2026/08/27/new-cardo-update-expands-group-connectivity-for-packtalk-users/"
+          "label": "Cardo 'Year of the Mesh' announcement (Nov 2024)",
+          "url": "https://www.cyclenews.com/2024/11/article/cardo-announces-year-of-the-mesh/"
         },
         {
-          "label": "Cardo Systems blog - Mesh Boost",
+          "label": "Cardo Systems blog - Mesh Boost GA",
           "url": "https://cardosystems.com/blogs/cardo-blog/mesh-boost-more-riders-more-adventures-more-stories-to-tell"
         }
       ],
       "evidence": [
-        "VoIP Cellular Intercom shipped inside the Aug 17 2026 Mesh Boost GA with no dedicated brand name or campaign",
-        "Powersports Business trade coverage (Aug 27) confirms Harley-Davidson and Schuberth SC-Edge support still pending, targeted for Q4 2026",
-        "No firmer date or update on that status has surfaced as of this Sept 14 refresh, roughly a month later"
+        "Cardo's own Nov 2024 'Year of the Mesh' announcement named VoIP Cellular Intercom as part of Mesh-Boost",
+        "The actual Aug 17 2026 GA firmware 5.4 changelog covers DMC expansion, Public Mesh, and Remote Grouping but does not include Cellular Intercom",
+        "GS-forum owner reports (Sept 2025-June 2026) document the feature never arriving despite repeated 'early 2025' / staggered-rollout promises"
       ]
     },
     {
@@ -470,7 +470,7 @@
       "expected_impact": "Closes the credibility gap in Cardo's own Mesh Boost narrative and gives Schuberth/Harley-Davidson owners a concrete reason not to churn.",
       "effort": "medium",
       "addresses_gaps": [
-        "Mesh Boost's cellular/VoIP capability remains unmarketed, and its OEM rollout is still incomplete a month after the last public commitment"
+        "Mesh Boost's promised Cellular Intercom never shipped - a 2-year-old public commitment quietly dropped at GA"
       ],
       "sources": [
         {
@@ -482,16 +482,16 @@
     {
       "priority": 6,
       "horizon": "next",
-      "title": "Name and market the existing VoIP cellular intercom capability head-to-head against Wave, CloudTalk and DuoSync",
-      "rationale": "Cardo already shipped the underlying technology inside Mesh Boost; the gap is entirely one of positioning and marketing, not engineering. Sena Wave, ASMAX CloudTalk and Reso DuoSync are all named, headline features driving real purchase consideration in customer feedback and press coverage; Cardo is leaving an already-built capability on the table.",
-      "expected_impact": "Neutralizes a marketing gap at near-zero incremental engineering cost versus building a new feature from scratch.",
-      "effort": "low",
+      "title": "Ship real Cellular Intercom or publicly retire the promise - stop the credibility bleed",
+      "rationale": "This is not a positioning problem - Cardo never actually shipped Cellular Intercom despite announcing it in Nov 2024 and again omitting it from the Aug 2026 Mesh-Boost GA changelog. Owner forums have tracked the broken promise for a year already; continuing to imply it exists (or staying silent) only extends the credibility cost, especially with a Trade-In program right now actively pulling in switchers who will expect Mesh-Boost's originally-announced feature set.",
+      "expected_impact": "Removes a recurring, forum-documented credibility liability; a real ship restores parity with Wave/CloudTalk/DuoSync, or a clean retraction stops the bleeding at low cost.",
+      "effort": "high",
       "addresses_gaps": [
-        "Mesh Boost's cellular/VoIP capability remains unmarketed, and its OEM rollout is still incomplete a month after the last public commitment"
+        "Mesh Boost's promised Cellular Intercom never shipped - a 2-year-old public commitment quietly dropped at GA"
       ],
       "sources": [
         {
-          "label": "Cardo Systems blog - Mesh Boost",
+          "label": "Cardo Systems blog - Mesh Boost GA",
           "url": "https://cardosystems.com/blogs/cardo-blog/mesh-boost-more-riders-more-adventures-more-stories-to-tell"
         }
       ]
