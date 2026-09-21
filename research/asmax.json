@@ -12,7 +12,7 @@
       "name": "F1s",
       "tier": "flagship",
       "msrp_usd": 226.99,
-      "street_price_usd": 125.99,
+      "street_price_usd": 118.99,
       "intercom_tech": "Mesh + Bluetooth 5.3 dual-chip; CloudTalk cloud/cross-brand mode; universal BT pairing",
       "range_km": 8,
       "max_riders": 10,
@@ -34,7 +34,7 @@
       "voip": true,
       "wireless_charging": false,
       "detachable_battery": false,
-      "notes": "US flagship on asmaxworld.com. Amazon US listing claims '5-mile intercom'; real-world reviews report ~0.7-1.2 km between closest riders. MSRP appears inflated; effectively always sold ~$140. Street price updated 2026-08-10 from mandatory Amazon storefront scrape: regular listing $139.99 (1-pack, unchanged) but clippable coupon now drops it to $118.99 (down from $125.99 on the 2026-07-14 refresh -- coupon got more generous again); 2-pack unchanged regular at $259.99, coupon now $220.99 (down from $223.59). Re-verified again 2026-08-17 via mandatory Amazon storefront scrape: both prices completely unchanged ($139.99/$118.99 coupon 1-pack; $259.99/$220.99 coupon 2-pack). asmaxworld.com direct listing (collections/headsets, re-scraped 2026-08-10 and 2026-08-17) still shows flat $139.99/$226.99 with no coupon, unchanged. RevZilla's Bluetooth-comms category page re-scraped 2026-08-10 and 2026-08-17: ASMAX still completely absent, no SKU count to report -- unchanged from every prior check. Also found: Malaysia dealer mytakongracing.com lists a near-identical spec set (BT5.3, 1250mAh, IP67, 40mm, 10-rider, ENC, 2-yr warranty) under the name 'F1 Plus' at RM 799 (~USD 196) -- same parallel/regional-naming pattern already seen with X Pro/Y Pro; not treated as a separate product. ASMAX teased a new lower-tier model, the 'HS3' ('the everyday Bluetooth headset built for your helmet', 15+ hour battery), via Instagram posts on ~2026-08-04 and ~2026-08-08; still not listed on asmaxworld.com/asmaxconnect.com or any retailer as of 2026-08-17 (direct URL guess asmaxworld.com/products/hs3 returns 404, and it is absent from the asmaxworld.com blog/news feed through 2026-08-12), so still not added as a tracked product -- see recent_news. Re-checked 2026-08-25: HS3 still returns 404 at the guessed URL, still absent from the asmaxworld.com collections/headsets page and the site's Aug blog posts (latest through Aug 24, 2026) -- remains unreleased over three weeks after the initial teaser. Street price changed 2026-08-25 per mandatory Amazon storefront re-scrape: the 1-pack's pricing mechanism shifted from a $139.99 regular + $118.99 clippable-coupon structure to a flat '-11%' promo price of $125.29 off the same $139.99 list, with no separate coupon text shown (net price up ~$6.30 / +5.3% vs the 2026-08-17 reading); the 2-pack is effectively unchanged ($259.99 list, -11% promo to $232.69, coupon price $221.05, vs $220.99 previously). Amazon review count for the 1-pack ASIN now 1,290 (was 1,228 in the Jul 20 amazon_pricing snapshot). RevZilla's Bluetooth-comms category page re-scraped 2026-08-25: ASMAX still completely absent (only Sena, Cardo and UCLEAR called out by name), no SKU count to report -- unchanged from every prior check. Street price dropped further as of the 2026-08-29 mandatory Amazon storefront re-scrape: the 1-pack now layers a clippable coupon on top of the existing -11% promo, taking it from $125.29 (promo-only, 8/25 reading) down to $112.76 -- the lowest price yet recorded for this SKU, undercutting even the pre-8/25 $118.99 coupon price. The 2-pack shows the same new coupon-on-promo structure: still $259.99 list / -11% to $232.69, but now $209.42 with the coupon (down from $221.05 on 8/25). Amazon review count for the 1-pack/2-pack ASIN pool ticked up to 1,292 (4.4 stars, was 1,290 on 8/25). RevZilla's Bluetooth-comms page re-scraped again 2026-08-29: ASMAX still completely absent. asmaxworld.com direct listing (collections/headsets, re-scraped 2026-08-29) unchanged at flat $139.99/$226.99 with no coupon, but the site's cart drawer now surfaces a 'BLACKFRIDAY' discount code banner ('BLACKFRIDAY has been copied to your clipboard!') -- an early pre-staged Black Friday promo mechanism, not yet reflected in displayed prices. Re-checked 2026-08-31: asmaxworld.com collections/headsets listing unchanged at flat $139.99/$226.99. Mandatory Amazon storefront re-scrape could not be completed this cycle -- firecrawl CLI returned 'Insufficient credits' (not the usual concurrency error) on two attempts, and a direct WebFetch fallback of the storefront URL returned HTTP 503; Amazon street pricing should be re-verified next cycle once firecrawl access is restored. No new press/social coverage of the F1s found this cycle. Re-verified 2026-09-14 via mandatory Amazon storefront scrape: 1-pack pricing mechanism reverted from the 8/25-8/29 '-11% promo + clippable coupon' stack back to a plain list+coupon structure -- $139.99 list, 'You pay $125.99 with coupon' (no separate -11% promo badge shown), up from $112.76 on 2026-08-29 (+$13.23 / +11.7%, the largest single-cycle increase recorded for this SKU). 2-pack similarly $259.99 list -> $220.99 with coupon (up from $209.42 on 8/29, +$11.57). Amazon review count for the F1s ASIN pool now 1,341 (up from 1,292 on 8/29). RevZilla's Bluetooth-comms category page re-scraped 2026-09-14: ASMAX still completely absent -- page now shows 170 total products with Cardo Systems(55), Sena(73) and UCLEAR(4) as the only named brand filters, no ASMAX SKU count to report, unchanged pattern from every prior check. ASMAX Malaysia's Facebook page posted a 'SOMETHING BIG IS COMING FROM ASMAX' CIMAMotor 2026 teaser on ~2026-09-08 (second regional page corroborating the 2026-08-27 ASMAX Official tease); no product reveal yet as the show itself (Chongqing, Sept 19-22, 2026) falls after this refresh cycle -- see recent_news.",
+      "notes": "US flagship on asmaxworld.com. Amazon US listing claims '5-mile intercom'; real-world reviews report ~0.7-1.2 km between closest riders. MSRP appears inflated; effectively always sold ~$140. Street price updated 2026-08-10 from mandatory Amazon storefront scrape: regular listing $139.99 (1-pack, unchanged) but clippable coupon now drops it to $118.99 (down from $125.99 on the 2026-07-14 refresh -- coupon got more generous again); 2-pack unchanged regular at $259.99, coupon now $220.99 (down from $223.59). Re-verified again 2026-08-17 via mandatory Amazon storefront scrape: both prices completely unchanged ($139.99/$118.99 coupon 1-pack; $259.99/$220.99 coupon 2-pack). asmaxworld.com direct listing (collections/headsets, re-scraped 2026-08-10 and 2026-08-17) still shows flat $139.99/$226.99 with no coupon, unchanged. RevZilla's Bluetooth-comms category page re-scraped 2026-08-10 and 2026-08-17: ASMAX still completely absent, no SKU count to report -- unchanged from every prior check. Also found: Malaysia dealer mytakongracing.com lists a near-identical spec set (BT5.3, 1250mAh, IP67, 40mm, 10-rider, ENC, 2-yr warranty) under the name 'F1 Plus' at RM 799 (~USD 196) -- same parallel/regional-naming pattern already seen with X Pro/Y Pro; not treated as a separate product. ASMAX teased a new lower-tier model, the 'HS3' ('the everyday Bluetooth headset built for your helmet', 15+ hour battery), via Instagram posts on ~2026-08-04 and ~2026-08-08; still not listed on asmaxworld.com/asmaxconnect.com or any retailer as of 2026-08-17 (direct URL guess asmaxworld.com/products/hs3 returns 404, and it is absent from the asmaxworld.com blog/news feed through 2026-08-12), so still not added as a tracked product -- see recent_news. Re-checked 2026-08-25: HS3 still returns 404 at the guessed URL, still absent from the asmaxworld.com collections/headsets page and the site's Aug blog posts (latest through Aug 24, 2026) -- remains unreleased over three weeks after the initial teaser. Street price changed 2026-08-25 per mandatory Amazon storefront re-scrape: the 1-pack's pricing mechanism shifted from a $139.99 regular + $118.99 clippable-coupon structure to a flat '-11%' promo price of $125.29 off the same $139.99 list, with no separate coupon text shown (net price up ~$6.30 / +5.3% vs the 2026-08-17 reading); the 2-pack is effectively unchanged ($259.99 list, -11% promo to $232.69, coupon price $221.05, vs $220.99 previously). Amazon review count for the 1-pack ASIN now 1,290 (was 1,228 in the Jul 20 amazon_pricing snapshot). RevZilla's Bluetooth-comms category page re-scraped 2026-08-25: ASMAX still completely absent (only Sena, Cardo and UCLEAR called out by name), no SKU count to report -- unchanged from every prior check. Street price dropped further as of the 2026-08-29 mandatory Amazon storefront re-scrape: the 1-pack now layers a clippable coupon on top of the existing -11% promo, taking it from $125.29 (promo-only, 8/25 reading) down to $112.76 -- the lowest price yet recorded for this SKU, undercutting even the pre-8/25 $118.99 coupon price. The 2-pack shows the same new coupon-on-promo structure: still $259.99 list / -11% to $232.69, but now $209.42 with the coupon (down from $221.05 on 8/25). Amazon review count for the 1-pack/2-pack ASIN pool ticked up to 1,292 (4.4 stars, was 1,290 on 8/25). RevZilla's Bluetooth-comms page re-scraped again 2026-08-29: ASMAX still completely absent. asmaxworld.com direct listing (collections/headsets, re-scraped 2026-08-29) unchanged at flat $139.99/$226.99 with no coupon, but the site's cart drawer now surfaces a 'BLACKFRIDAY' discount code banner ('BLACKFRIDAY has been copied to your clipboard!') -- an early pre-staged Black Friday promo mechanism, not yet reflected in displayed prices. Re-checked 2026-08-31: asmaxworld.com collections/headsets listing unchanged at flat $139.99/$226.99. Mandatory Amazon storefront re-scrape could not be completed this cycle -- firecrawl CLI returned 'Insufficient credits' (not the usual concurrency error) on two attempts, and a direct WebFetch fallback of the storefront URL returned HTTP 503; Amazon street pricing should be re-verified next cycle once firecrawl access is restored. No new press/social coverage of the F1s found this cycle. Re-verified 2026-09-14 via mandatory Amazon storefront scrape: 1-pack pricing mechanism reverted from the 8/25-8/29 '-11% promo + clippable coupon' stack back to a plain list+coupon structure -- $139.99 list, 'You pay $125.99 with coupon' (no separate -11% promo badge shown), up from $112.76 on 2026-08-29 (+$13.23 / +11.7%, the largest single-cycle increase recorded for this SKU). 2-pack similarly $259.99 list -> $220.99 with coupon (up from $209.42 on 8/29, +$11.57). Amazon review count for the F1s ASIN pool now 1,341 (up from 1,292 on 8/29). RevZilla's Bluetooth-comms category page re-scraped 2026-09-14: ASMAX still completely absent -- page now shows 170 total products with Cardo Systems(55), Sena(73) and UCLEAR(4) as the only named brand filters, no ASMAX SKU count to report, unchanged pattern from every prior check. ASMAX Malaysia's Facebook page posted a 'SOMETHING BIG IS COMING FROM ASMAX' CIMAMotor 2026 teaser on ~2026-09-08 (second regional page corroborating the 2026-08-27 ASMAX Official tease); no product reveal yet as the show itself (Chongqing, Sept 19-22, 2026) falls after this refresh cycle -- see recent_news. Re-checked 2026-09-21 via firecrawl scrape of the Amazon ASMAX storefront: F1s (B0GGZTM2PZ) $139.99 list with a $118.99 coupon price (street_price_usd updated to the coupon price, previously 125.99); 2-pack (B0GGZZH2GS) $259.99 list / $220.99 with coupon. asmaxworld.com/collections/all shows F1s from $139.99 (struck-through $169.99).",
       "dimensions": {
         "form_factor": {
           "weight_g": 50,
@@ -77,7 +77,8 @@
           "segment_position": "Mid-$100s 10-rider mesh -- undercuts Cardo Packtalk Edge (~$390) by ~65% at current street pricing on spec-sheet parity"
         }
       },
-      "url": "https://www.asmaxworld.com/products/f1s"
+      "url": "https://www.asmaxworld.com/products/f1s",
+      "usage": "Motorcycle"
     },
     {
       "name": "S1",
@@ -104,7 +105,7 @@
       "voip": true,
       "wireless_charging": false,
       "detachable_battery": false,
-      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US. Street price re-verified 2026-08-10 from mandatory Amazon storefront scrape: 1-pack unchanged at $83.99 regular -> $79.79 with coupon (matches 2026-07-14 refresh, no change); 2-pack unchanged at $145.99 ($73.00/count). Re-verified again 2026-08-17: 1-pack still $83.99/$79.79 coupon, unchanged; 2-pack still $145.99 regular, coupon price now explicitly $138.69 (previously only the pack-level $73.00/count regular price was captured, not a distinct 2-pack coupon figure). asmaxworld.com collections/headsets page (re-scraped 2026-08-10 and 2026-08-17) unchanged at 'From $89.99 USD', still well under $121.99 MSRP. New distribution channel found 2026-08-10: S1 is now also sold via a Walmart Marketplace 'asmax Store' storefront (walmart.com/brand/asmax/20025935) -- 1-pack $79.99, 2-pack $145.99, both essentially matching the Amazon coupon/list prices; first time ASMAX has surfaced on Walmart in this research. Positive June 2026 press pickup: Throttle and Far's mesh-intercom buying guide (Jun 5, 2026) singles out the S1 as the budget pick, 'shows that mesh communication does not have to cost a lot.' Re-verified 2026-08-29 via mandatory Amazon storefront scrape: 1-pack unchanged at $83.99 regular -> $79.79 with coupon; 2-pack unchanged at $145.99 ($73.00/count) regular -> $138.69 with coupon -- no pricing movement this cycle. Amazon rating/review count for the S1 ASIN pool now reads 4.4 stars / 1,294 reviews (up from the 1,208-review, 4.5-star snapshot recorded 2026-07-20 -- a small rating dip alongside the review-count growth, within normal noise for a fast-growing listing). RevZilla re-scraped 2026-08-29: ASMAX still completely absent, no SKU count to report. New press coverage found 2026-08-31: itsbetterontheroad.com (a multi-brand gear review site that also covers Sena/Garmin/Rev'It) published a positive S1 review dated 2026-06-19 -- 'reliable mesh intercom for up to 8 connections, with speakers that make music and GPS directions clear at speed'; notes app features may require setup/updates and mesh works best only with same-brand units -- see press_coverage. Mandatory Amazon storefront re-scrape could not be completed this cycle (firecrawl 'Insufficient credits' error; WebFetch fallback blocked by Amazon) -- see F1s notes for detail; asmaxworld.com collections/headsets direct-site price re-checked 2026-08-31 and unchanged at 'From $89.99 USD'. RevZilla re-checked 2026-08-31: ASMAX still absent. Re-verified 2026-09-14 via mandatory Amazon storefront scrape: both the 1-pack ($83.99 list / $79.79 coupon) and 2-pack ($145.99 list / $138.69 coupon) are completely unchanged from every prior 2026-08 reading -- no pricing movement this cycle. Amazon review count for the S1 ASIN pool now reads 1,273 (down from 1,294 on 2026-08-29) -- a small decrease that is unusual for a fast-growing listing; treated as an Amazon-side display/consolidation artifact across variant ASINs rather than a real drop in review count, and not used to imply removed reviews. RevZilla re-scraped 2026-09-14: ASMAX still completely absent (170 total products; only Cardo, Sena and UCLEAR named).",
+      "notes": "Claimed 5-mile/8 km range; reviews measure ~1.2 km with obstacles. Sold as 1-pack and 2-pack on Amazon US. Street price re-verified 2026-08-10 from mandatory Amazon storefront scrape: 1-pack unchanged at $83.99 regular -> $79.79 with coupon (matches 2026-07-14 refresh, no change); 2-pack unchanged at $145.99 ($73.00/count). Re-verified again 2026-08-17: 1-pack still $83.99/$79.79 coupon, unchanged; 2-pack still $145.99 regular, coupon price now explicitly $138.69 (previously only the pack-level $73.00/count regular price was captured, not a distinct 2-pack coupon figure). asmaxworld.com collections/headsets page (re-scraped 2026-08-10 and 2026-08-17) unchanged at 'From $89.99 USD', still well under $121.99 MSRP. New distribution channel found 2026-08-10: S1 is now also sold via a Walmart Marketplace 'asmax Store' storefront (walmart.com/brand/asmax/20025935) -- 1-pack $79.99, 2-pack $145.99, both essentially matching the Amazon coupon/list prices; first time ASMAX has surfaced on Walmart in this research. Positive June 2026 press pickup: Throttle and Far's mesh-intercom buying guide (Jun 5, 2026) singles out the S1 as the budget pick, 'shows that mesh communication does not have to cost a lot.' Re-verified 2026-08-29 via mandatory Amazon storefront scrape: 1-pack unchanged at $83.99 regular -> $79.79 with coupon; 2-pack unchanged at $145.99 ($73.00/count) regular -> $138.69 with coupon -- no pricing movement this cycle. Amazon rating/review count for the S1 ASIN pool now reads 4.4 stars / 1,294 reviews (up from the 1,208-review, 4.5-star snapshot recorded 2026-07-20 -- a small rating dip alongside the review-count growth, within normal noise for a fast-growing listing). RevZilla re-scraped 2026-08-29: ASMAX still completely absent, no SKU count to report. New press coverage found 2026-08-31: itsbetterontheroad.com (a multi-brand gear review site that also covers Sena/Garmin/Rev'It) published a positive S1 review dated 2026-06-19 -- 'reliable mesh intercom for up to 8 connections, with speakers that make music and GPS directions clear at speed'; notes app features may require setup/updates and mesh works best only with same-brand units -- see press_coverage. Mandatory Amazon storefront re-scrape could not be completed this cycle (firecrawl 'Insufficient credits' error; WebFetch fallback blocked by Amazon) -- see F1s notes for detail; asmaxworld.com collections/headsets direct-site price re-checked 2026-08-31 and unchanged at 'From $89.99 USD'. RevZilla re-checked 2026-08-31: ASMAX still absent. Re-verified 2026-09-14 via mandatory Amazon storefront scrape: both the 1-pack ($83.99 list / $79.79 coupon) and 2-pack ($145.99 list / $138.69 coupon) are completely unchanged from every prior 2026-08 reading -- no pricing movement this cycle. Amazon review count for the S1 ASIN pool now reads 1,273 (down from 1,294 on 2026-08-29) -- a small decrease that is unusual for a fast-growing listing; treated as an Amazon-side display/consolidation artifact across variant ASINs rather than a real drop in review count, and not used to imply removed reviews. RevZilla re-scraped 2026-09-14: ASMAX still completely absent (170 total products; only Cardo, Sena and UCLEAR named). Re-checked 2026-09-21 (Amazon storefront scrape): S1 (B0D7P59LHZ) $83.99 list / $79.79 with coupon -- street price unchanged at 79.79; 2-pack $145.99 list / $138.69 coupon. asmaxworld.com lists S1 from $89.99 (struck-through $129.99).",
       "dimensions": {
         "form_factor": {
           "weight_g": 41,
@@ -147,7 +148,8 @@
           "segment_position": "Cheapest credible 8-rider mesh on the US market — budget tier (Fodsports/EJEAS money) with AI voice added"
         }
       },
-      "url": "https://www.asmaxworld.com/products/s1"
+      "url": "https://www.asmaxworld.com/products/s1",
+      "usage": "Motorcycle"
     },
     {
       "name": "Z1 / Z1 Plus",
@@ -214,7 +216,8 @@
           "segment_position": "Sub-$90 10-rider mesh with magnetic mount — cheapest 10-rider tier; page removed from US store (likely superseded by S2)"
         }
       },
-      "url": "https://www.asmaxworld.com/products/z1"
+      "url": "https://www.asmaxworld.com/products/z1",
+      "usage": "Motorcycle"
     },
     {
       "name": "F1 Pro",
@@ -281,7 +284,8 @@
           "segment_position": "ASMAX's ~$170-200 premium tier — still roughly half a Cardo Packtalk Edge / Sena 60S"
         }
       },
-      "url": "https://www.asmaxworld.com/products/f1-pro"
+      "url": "https://www.asmaxworld.com/products/f1-pro",
+      "usage": "Motorcycle"
     },
     {
       "name": "F1 Pro Max",
@@ -346,7 +350,8 @@
           "segment_position": "Range-topping flagship at ~$269 street (Malaysia dealer, Jul 2026; ~$319 in South Africa) — still well under Cardo/Sena flagship money"
         }
       },
-      "url": "https://www.asmaxworld.com/products/f1-pro-max-in-store-exclusive"
+      "url": "https://www.asmaxworld.com/products/f1-pro-max-in-store-exclusive",
+      "usage": "Motorcycle"
     },
     {
       "name": "Future 1",
@@ -413,7 +418,8 @@
           "segment_position": "~$150 feature-rich mid-tier — undercuts Sena Spider ST1/Cardo Packtalk Neo class by 40-60%"
         }
       },
-      "url": "https://www.asmaxworld.com/products/future-1-in-store-exclusive"
+      "url": "https://www.asmaxworld.com/products/future-1-in-store-exclusive",
+      "usage": "Motorcycle"
     },
     {
       "name": "Future 1 EVA R (Evangelion Racing edition)",
@@ -478,7 +484,8 @@
           "segment_position": "Licensed collector edition (Japan) — premium over standard Future 1; JPY pricing not captured"
         }
       },
-      "url": "https://www.asmaxworld.com/products/future-1-eva-r-in-store-exclusive"
+      "url": "https://www.asmaxworld.com/products/future-1-eva-r-in-store-exclusive",
+      "usage": "Motorcycle"
     },
     {
       "name": "S2",
@@ -546,7 +553,8 @@
           "segment_position": "'Smart entry-level mesh' — successor to S1/Z1 value slot at ~$85-100 street (Malaysia/Philippines pricing), confirming it slots just under the S1"
         }
       },
-      "url": "https://www.asmaxworld.com/products/s2"
+      "url": "https://www.asmaxworld.com/products/s2",
+      "usage": "Motorcycle"
     },
     {
       "name": "Accessories & adjacent lines",
@@ -571,7 +579,8 @@
       "voip": null,
       "wireless_charging": null,
       "detachable_battery": null,
-      "notes": "Smart air pumps and audio kits round out the 'Smart Riding IoT Ecosystem'; MAXRUNON targets broader outdoor users under the MAXRUNOS app. MAXRUNON range confirmed Jul 2026 to include D9 ($45.95, 2-rider intercom, ~1000m range), D10 ($56.95 sale, was $129.99 list, 4-rider, ~1000-1600m) and 2Y ($39.99, 2-rider, IPX5) -- all still motorcycle-focused, not a distinct outdoor-activity (hiking/ski) product line. The '2Y' name has replaced the previously observed '2X' naming for the same 2-rider unit (asmaxconnect.com's MAXRUNON Series page still shows '2X' as of Jul 2026, so this looks like the same X-Pro/Y-Pro-style parallel/OEM naming pattern already seen on ASMAX-proper models, not a new product). A MAXRUNON 'D10 Kit -- Audio, Mic & Mount' accessory ($30.99, was $42.99) was also found. Checked maxrunon.com in full Jul 2026: no hiking/ski/multi-sport line exists -- MAXRUNOS app (iOS v1.0.10, Jun 14 2026; Android updated Jun 11 2026) added support for two new headphone models, 'RETOUCH X8' and 'MR02', but these are third-party/other-brand hardware (e.g. RETOUCH is a distinct intercom brand) sharing ASMAX's manufacturer (Shenzhen Asmax Infinite Technology) and white-labeled app -- not new ASMAX/MAXRUNON-branded products, so not added as separate line items. Re-verified 2026-08-17 via mandatory Amazon storefront scrape: T10 tire inflator now shows list $58.99 with coupon price $50.14 (was flat $49.99 sale on 2026-07-14 -- coupon mechanism replaced the flat-sale pricing, net price up ~$0.15); T20 jump starter/inflator now shows -16% promo at $67.50 off a $79.99 list price (was flat $69.99 with no discount shown on 2026-07-14 -- list price newly disclosed, effective price down ~$2.49); T30 mini pump now shows list $49.99 with coupon price $47.49 (was flat $44.99 on 2026-07-14 -- net price up ~$2.50); T40 unchanged at $39.99 list / $37.99 coupon. asmaxworld.com direct-site kit pricing also re-checked 2026-08-17: F1s/F1/Z1 Audio & Mic Kit $42.99 (was $33.87-$45.99 range previously, now a single confirmed price, regular $69.98), S1 Audio/Mic/Mount Kit $45.99 (regular $69.98), F1s Mount-Only Kit $37.99 (new SKU not previously itemized) -- all still Amazon/site accessory-carousel items, not separate tracked products. Re-verified again 2026-08-25 via mandatory Amazon storefront scrape: T10 unchanged ($58.99 list / $50.14 coupon); T30 mini pump now shows list $49.99 with -10% promo to $44.99 then coupon price $42.74 (down from $47.49 coupon on 2026-08-17, roughly $4.75 cheaper -- list price restored to $49.99 after the brief $44.99-flat period, but net coupon price is now the lowest yet seen); T20 jump starter/inflator now shows the same -16% promo ($79.99 list to $67.50) plus a newly-added coupon bringing it to $64.12 (previously no coupon was shown on this SKU, effective price was $67.50; now ~$3.38 cheaper); T40 unchanged ($39.99 list / $37.99 coupon). Re-verified again 2026-08-29 via mandatory Amazon storefront scrape: T10 ($58.99/$50.14 coupon, 4.5 stars/1,213 reviews), T30 ($49.99 list, -10% promo to $44.99, $42.74 coupon), T20 ($79.99 list, -16% promo to $67.50, $64.12 coupon) and T40 ($39.99/$37.99 coupon) all completely unchanged from the 2026-08-25 reading. First direct-site (asmaxworld.com/collections/all) pricing captured for the T-series 2026-08-29, and it diverges meaningfully from the Amazon figures: T10 Portable Tire Inflator $58.99 (list $76.99, matches Amazon's post-coupon price almost exactly but via a different list/sale structure), T20 Jump Starter & Tire Inflator $78.49 (list $129.99 -- ~$14 higher than Amazon's $64.12 coupon price for what reads as the same 7-in-1 unit), T30 Mini Pocket-Sized Pump $48.92 (list $109.99 -- also higher than Amazon's $42.74), T40 Portable Tire Inflator $42.96 (list $59.99 -- close to Amazon's $37.99-42.99 range). Site kit pricing unchanged: F1s/F1/Z1 Audio & Mic Kit $42.99, S1 Audio/Mic/Mount Kit $45.99, F1s Mount-Only Kit $37.99. Re-checked 2026-08-31: asmaxworld.com/collections/all direct-site pricing for the T-series completely unchanged from the 2026-08-29 reading (T10 $58.99/list $76.99, T20 $78.49/list $129.99, T30 $48.92/list $109.99, T40 $42.96/list $59.99). Mandatory Amazon storefront re-scrape could not be completed this cycle: firecrawl CLI returned 'Insufficient credits' on repeated attempts (not the usual concurrency error), and a direct WebFetch of the Amazon storefront/product URLs was blocked (503 from the storefront page, no renderable body from individual ASIN pages) -- Amazon-side pricing for the T-series should be re-verified next cycle once firecrawl credits are restored. Re-verified 2026-09-14 via mandatory Amazon storefront scrape: T10 tire inflator unchanged ($58.99 list / $50.14 coupon; rating/review count now 4.5 stars / 1,237 reviews, up from 1,213 on 8/25); T40 unchanged ($39.99 list / $37.99 coupon). T30 mini pump's pricing mechanism changed: now shows a plain $49.99 flat price with no -10% promo badge and no coupon link (was $49.99 list with a -10% promo to $44.99 then a $42.74 coupon price as of 8/25/8/29) -- effective price up ~$7.25 / +17% now that the promo and coupon layers have both disappeared. T20 jump starter/inflator now shows a shallower -13% promo to $69.99 off a $79.99 list price with no coupon link (was -16% to $67.50 then $64.12 with coupon as of 8/25/8/29) -- effective price up ~$5.87 / +9.2% as the discount narrowed and the coupon layer disappeared. Direct-site (asmaxworld.com/collections/all) T-series pricing re-checked 2026-09-14 and completely unchanged from the 2026-08-29/08-31 reading (T10 $58.99, T20 $78.49, T30 $48.92, T40 $42.96 -- all still meaningfully higher than the equivalent Amazon post-discount prices, confirming Amazon remains the cheaper channel for the T-series). Also newly spotted on asmaxworld.com/collections/all 2026-09-14: a run of ASMAX-branded apparel/collectibles SKUs not present in earlier site sweeps -- ASMAX Classic Logo Cap, ASMAX Logo Lanyard ($10.99), ASMAX MAX Panda Plush ($29.99), ASMAX Rider Merch Pack ($52.99), and ASMAX T-Shirts (Black/White) -- brand merchandise, not communication hardware, so not added as tracked products."
+      "notes": "Smart air pumps and audio kits round out the 'Smart Riding IoT Ecosystem'; MAXRUNON targets broader outdoor users under the MAXRUNOS app. MAXRUNON range confirmed Jul 2026 to include D9 ($45.95, 2-rider intercom, ~1000m range), D10 ($56.95 sale, was $129.99 list, 4-rider, ~1000-1600m) and 2Y ($39.99, 2-rider, IPX5) -- all still motorcycle-focused, not a distinct outdoor-activity (hiking/ski) product line. The '2Y' name has replaced the previously observed '2X' naming for the same 2-rider unit (asmaxconnect.com's MAXRUNON Series page still shows '2X' as of Jul 2026, so this looks like the same X-Pro/Y-Pro-style parallel/OEM naming pattern already seen on ASMAX-proper models, not a new product). A MAXRUNON 'D10 Kit -- Audio, Mic & Mount' accessory ($30.99, was $42.99) was also found. Checked maxrunon.com in full Jul 2026: no hiking/ski/multi-sport line exists -- MAXRUNOS app (iOS v1.0.10, Jun 14 2026; Android updated Jun 11 2026) added support for two new headphone models, 'RETOUCH X8' and 'MR02', but these are third-party/other-brand hardware (e.g. RETOUCH is a distinct intercom brand) sharing ASMAX's manufacturer (Shenzhen Asmax Infinite Technology) and white-labeled app -- not new ASMAX/MAXRUNON-branded products, so not added as separate line items. Re-verified 2026-08-17 via mandatory Amazon storefront scrape: T10 tire inflator now shows list $58.99 with coupon price $50.14 (was flat $49.99 sale on 2026-07-14 -- coupon mechanism replaced the flat-sale pricing, net price up ~$0.15); T20 jump starter/inflator now shows -16% promo at $67.50 off a $79.99 list price (was flat $69.99 with no discount shown on 2026-07-14 -- list price newly disclosed, effective price down ~$2.49); T30 mini pump now shows list $49.99 with coupon price $47.49 (was flat $44.99 on 2026-07-14 -- net price up ~$2.50); T40 unchanged at $39.99 list / $37.99 coupon. asmaxworld.com direct-site kit pricing also re-checked 2026-08-17: F1s/F1/Z1 Audio & Mic Kit $42.99 (was $33.87-$45.99 range previously, now a single confirmed price, regular $69.98), S1 Audio/Mic/Mount Kit $45.99 (regular $69.98), F1s Mount-Only Kit $37.99 (new SKU not previously itemized) -- all still Amazon/site accessory-carousel items, not separate tracked products. Re-verified again 2026-08-25 via mandatory Amazon storefront scrape: T10 unchanged ($58.99 list / $50.14 coupon); T30 mini pump now shows list $49.99 with -10% promo to $44.99 then coupon price $42.74 (down from $47.49 coupon on 2026-08-17, roughly $4.75 cheaper -- list price restored to $49.99 after the brief $44.99-flat period, but net coupon price is now the lowest yet seen); T20 jump starter/inflator now shows the same -16% promo ($79.99 list to $67.50) plus a newly-added coupon bringing it to $64.12 (previously no coupon was shown on this SKU, effective price was $67.50; now ~$3.38 cheaper); T40 unchanged ($39.99 list / $37.99 coupon). Re-verified again 2026-08-29 via mandatory Amazon storefront scrape: T10 ($58.99/$50.14 coupon, 4.5 stars/1,213 reviews), T30 ($49.99 list, -10% promo to $44.99, $42.74 coupon), T20 ($79.99 list, -16% promo to $67.50, $64.12 coupon) and T40 ($39.99/$37.99 coupon) all completely unchanged from the 2026-08-25 reading. First direct-site (asmaxworld.com/collections/all) pricing captured for the T-series 2026-08-29, and it diverges meaningfully from the Amazon figures: T10 Portable Tire Inflator $58.99 (list $76.99, matches Amazon's post-coupon price almost exactly but via a different list/sale structure), T20 Jump Starter & Tire Inflator $78.49 (list $129.99 -- ~$14 higher than Amazon's $64.12 coupon price for what reads as the same 7-in-1 unit), T30 Mini Pocket-Sized Pump $48.92 (list $109.99 -- also higher than Amazon's $42.74), T40 Portable Tire Inflator $42.96 (list $59.99 -- close to Amazon's $37.99-42.99 range). Site kit pricing unchanged: F1s/F1/Z1 Audio & Mic Kit $42.99, S1 Audio/Mic/Mount Kit $45.99, F1s Mount-Only Kit $37.99. Re-checked 2026-08-31: asmaxworld.com/collections/all direct-site pricing for the T-series completely unchanged from the 2026-08-29 reading (T10 $58.99/list $76.99, T20 $78.49/list $129.99, T30 $48.92/list $109.99, T40 $42.96/list $59.99). Mandatory Amazon storefront re-scrape could not be completed this cycle: firecrawl CLI returned 'Insufficient credits' on repeated attempts (not the usual concurrency error), and a direct WebFetch of the Amazon storefront/product URLs was blocked (503 from the storefront page, no renderable body from individual ASIN pages) -- Amazon-side pricing for the T-series should be re-verified next cycle once firecrawl credits are restored. Re-verified 2026-09-14 via mandatory Amazon storefront scrape: T10 tire inflator unchanged ($58.99 list / $50.14 coupon; rating/review count now 4.5 stars / 1,237 reviews, up from 1,213 on 8/25); T40 unchanged ($39.99 list / $37.99 coupon). T30 mini pump's pricing mechanism changed: now shows a plain $49.99 flat price with no -10% promo badge and no coupon link (was $49.99 list with a -10% promo to $44.99 then a $42.74 coupon price as of 8/25/8/29) -- effective price up ~$7.25 / +17% now that the promo and coupon layers have both disappeared. T20 jump starter/inflator now shows a shallower -13% promo to $69.99 off a $79.99 list price with no coupon link (was -16% to $67.50 then $64.12 with coupon as of 8/25/8/29) -- effective price up ~$5.87 / +9.2% as the discount narrowed and the coupon layer disappeared. Direct-site (asmaxworld.com/collections/all) T-series pricing re-checked 2026-09-14 and completely unchanged from the 2026-08-29/08-31 reading (T10 $58.99, T20 $78.49, T30 $48.92, T40 $42.96 -- all still meaningfully higher than the equivalent Amazon post-discount prices, confirming Amazon remains the cheaper channel for the T-series). Also newly spotted on asmaxworld.com/collections/all 2026-09-14: a run of ASMAX-branded apparel/collectibles SKUs not present in earlier site sweeps -- ASMAX Classic Logo Cap, ASMAX Logo Lanyard ($10.99), ASMAX MAX Panda Plush ($29.99), ASMAX Rider Merch Pack ($52.99), and ASMAX T-Shirts (Black/White) -- brand merchandise, not communication hardware, so not added as tracked products. 2026-09-21 Amazon storefront scrape: T10 $58.99 list / $50.14 coupon; T30 $49.99 flat; T20 $69.99 (-13% off $79.99) / $62.99 coupon; T40 $39.99 / $37.99 coupon -- T-series pricing essentially unchanged from the 2026-09-14 reading (T20 now also shows a $62.99 coupon price). asmaxworld.com direct merch/accessory SKUs unchanged (F1s Mount-Only Kit $37.99, F1s/F1/Z1 Audio & Mic Kit $42.99, S1 Audio/Mic/Mount Kit $45.99).",
+      "usage": "Motorcycle"
     },
     {
       "name": "ASMAX F1 RidePhones",
@@ -593,8 +602,142 @@
       "voip": false,
       "wireless_charging": null,
       "detachable_battery": null,
-      "notes": "Audio-only headphone accessory pairing with ASMAX's mesh communicator units, analogous to Cardo's Edgephones. Official product page (asmaxworld.com/products/asmax-f1-ridephones) has limited public spec detail; price confirmed at $99.99 (no sale price) but listing shows 'Sold out' as of 2026-07-10; full spec sheet still not published. No RevZilla listing found for this or any ASMAX product (re-checked https://www.revzilla.com/motorcycle-bluetooth-communications via firecrawl scrape on 2026-07-10 -- ASMAX still completely absent from the page, no SKU count or rating to report). Re-checked 2026-08-25 via WebFetch: still listed 'Sold out' at $99.99, over six weeks after first observed out-of-stock -- suggests either a genuinely discontinued/paused SKU or very low restocking priority rather than a transient stockout. RevZilla re-scraped 2026-08-25: ASMAX still completely absent, only Sena/Cardo/UCLEAR named on the Bluetooth-comms category page. Re-checked again 2026-08-29 via WebFetch: still 'Sold out' at $99.99, now just over seven weeks since first observed out-of-stock, reinforcing the discontinued/paused-SKU read. Confirmed via the asmaxworld.com/collections/all listing (re-scraped 2026-08-29) that the product name has shifted slightly to 'ASMAX F1/F1s RidePhones' (was 'ASMAX F1 RidePhones'), still $99.99 flat with no sale price shown. Re-checked again 2026-08-31 directly on the product page: still 'Sold out' at $99.99, now over eight weeks since first observed out-of-stock. Re-checked again 2026-09-14 directly on the product page (listed there as 'ASMAX F1/F1s RidePhones', matching the renamed listing first observed 2026-08-29): still 'Sold out' at $99.99 flat, now just over nine weeks since first observed out-of-stock, further reinforcing the discontinued/paused-SKU read over a transient stockout.",
-      "url": "https://www.asmaxworld.com/products/asmax-f1-ridephones"
+      "notes": "Audio-only headphone accessory pairing with ASMAX's mesh communicator units, analogous to Cardo's Edgephones. Official product page (asmaxworld.com/products/asmax-f1-ridephones) has limited public spec detail; price confirmed at $99.99 (no sale price) but listing shows 'Sold out' as of 2026-07-10; full spec sheet still not published. No RevZilla listing found for this or any ASMAX product (re-checked https://www.revzilla.com/motorcycle-bluetooth-communications via firecrawl scrape on 2026-07-10 -- ASMAX still completely absent from the page, no SKU count or rating to report). Re-checked 2026-08-25 via WebFetch: still listed 'Sold out' at $99.99, over six weeks after first observed out-of-stock -- suggests either a genuinely discontinued/paused SKU or very low restocking priority rather than a transient stockout. RevZilla re-scraped 2026-08-25: ASMAX still completely absent, only Sena/Cardo/UCLEAR named on the Bluetooth-comms category page. Re-checked again 2026-08-29 via WebFetch: still 'Sold out' at $99.99, now just over seven weeks since first observed out-of-stock, reinforcing the discontinued/paused-SKU read. Confirmed via the asmaxworld.com/collections/all listing (re-scraped 2026-08-29) that the product name has shifted slightly to 'ASMAX F1/F1s RidePhones' (was 'ASMAX F1 RidePhones'), still $99.99 flat with no sale price shown. Re-checked again 2026-08-31 directly on the product page: still 'Sold out' at $99.99, now over eight weeks since first observed out-of-stock. Re-checked again 2026-09-14 directly on the product page (listed there as 'ASMAX F1/F1s RidePhones', matching the renamed listing first observed 2026-08-29): still 'Sold out' at $99.99 flat, now just over nine weeks since first observed out-of-stock, further reinforcing the discontinued/paused-SKU read over a transient stockout. Re-checked 2026-09-21: asmaxworld.com/collections/all lists 'ASMAX F1/F1s RidePhones' at $99.99 regular price; no sale price. RevZilla category page re-scraped 2026-09-21: ASMAX still absent.",
+      "url": "https://www.asmaxworld.com/products/asmax-f1-ridephones",
+      "usage": "Motorcycle"
+    },
+    {
+      "name": "RoamX",
+      "tier": "flagship",
+      "msrp_usd": null,
+      "street_price_usd": null,
+      "intercom_tech": "32-rider Mesh communication (per launch press release); Bluetooth version and cloud mode not yet published",
+      "range_km": null,
+      "max_riders": 32,
+      "audio": "Industry-first 53 mm ultra-large speaker unit with professional-grade audio tuning (per press release)",
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "World's first screen-equipped motorcycle intercom headset (per ASMAX)",
+        "Customizable display with personalized themes",
+        "32-rider Mesh",
+        "53 mm speaker",
+        "Intuitive controls and smart connectivity (details not published)"
+      ],
+      "release_year": 2026,
+      "voip": null,
+      "wireless_charging": null,
+      "detachable_battery": null,
+      "notes": "Unveiled 2026-09-20 at ASMAX's 'BORN TO RIDE' launch event at CIMAMotor 2026 (Chongqing, Hall N4 Booth 4T45) after three years of R&D. PR Newswire (2026-09-21) describes it as a technology preview: 'product details and availability to follow' -- no price, battery, IP rating, range or ship date published. Not yet on asmaxworld.com or Amazon as of 2026-09-21.",
+      "usage": "Motorcycle",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": null,
+          "profile": "medium",
+          "aesthetics": "Screen-equipped headset with customizable display and personalized themes; no hardware photos/specs beyond press release"
+        },
+        "ease_of_use": {
+          "controls": "'Intuitive controls' (unspecified) plus on-unit display",
+          "mount": null,
+          "cradle": null,
+          "voice_commands": null,
+          "screen": "yes",
+          "ota": null,
+          "app": "Not specified"
+        },
+        "sound": {
+          "speaker_size_mm": 53,
+          "speaker_brand": "ASMAX 53 mm ('industry-first' claim) with professional-grade tuning",
+          "hd": null,
+          "quality_verdict": "No independent testing; technology preview only"
+        },
+        "intercom": {
+          "type": "32-rider Mesh",
+          "range_km": null,
+          "max_riders": 32,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": null
+        },
+        "quality": {
+          "build": "Announced 'industrial-grade technology'; unreleased",
+          "ip_rating": null,
+          "service_reputation": "Standard ASMAX support",
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": null,
+          "street_usd": null,
+          "segment_position": "Positioned as a new flagship experience tier above F1 Pro Max; pricing not announced"
+        }
+      },
+      "url": "https://www.prnewswire.com/il/news-releases/asmax-at-cimamotor-2026-rethinking-what-a-motorcycle-intercom-should-be-302884402.html"
+    },
+    {
+      "name": "ASMAX Racing Program editions (DEBISE Racing Edition / ZXMOTO Ride Edition)",
+      "tier": "mid",
+      "msrp_usd": null,
+      "street_price_usd": null,
+      "intercom_tech": null,
+      "range_km": null,
+      "max_riders": null,
+      "audio": null,
+      "talk_time_hours": null,
+      "waterproof": null,
+      "features": [
+        "DEBISE Racing Edition with ASMAX Global Brand Ambassador and racer Valentin Debise",
+        "ZXMOTO Ride Edition with Chinese performance motorcycle brand ZXMOTO"
+      ],
+      "release_year": 2026,
+      "voip": null,
+      "wireless_charging": null,
+      "detachable_battery": null,
+      "notes": "Two collaborative editions debuted 2026-09-20 at CIMAMotor 2026 alongside the official launch of the ASMAX Racing Program. Base communicator model, price and availability not published (press release only) -- tracked as a placeholder, likely colorway/branding editions like the Future 1 EVA R.",
+      "usage": "Motorcycle",
+      "dimensions": {
+        "form_factor": {
+          "weight_g": null,
+          "dimensions_mm": null,
+          "profile": null,
+          "aesthetics": "Racing-themed collaboration editions; no images/specs in press release"
+        },
+        "ease_of_use": {
+          "controls": null,
+          "mount": null,
+          "cradle": null,
+          "voice_commands": null,
+          "screen": null,
+          "ota": null,
+          "app": "ASMAX WORLD (presumed)"
+        },
+        "sound": {
+          "speaker_size_mm": null,
+          "speaker_brand": null,
+          "hd": null,
+          "quality_verdict": null
+        },
+        "intercom": {
+          "type": null,
+          "range_km": null,
+          "max_riders": null,
+          "auto_reconnect": null,
+          "wideband_audio": null,
+          "cross_brand": null
+        },
+        "quality": {
+          "build": null,
+          "ip_rating": null,
+          "service_reputation": null,
+          "warranty_years": null
+        },
+        "price": {
+          "msrp_usd": null,
+          "street_usd": null,
+          "segment_position": null
+        }
+      },
+      "url": "https://www.prnewswire.com/il/news-releases/asmax-at-cimamotor-2026-rethinking-what-a-motorcycle-intercom-should-be-302884402.html"
     }
   ],
   "strengths": [
@@ -617,6 +760,12 @@
     "No disclosed funding/financial backing; Shenzhen-based supply chain exposed to US tariff risk"
   ],
   "recent_news": [
+    {
+      "date": "2026-09-21",
+      "headline": "ASMAX unveils RoamX, billed as the world's first screen-equipped motorcycle intercom headset (32-rider Mesh, 53 mm speaker, customizable display), at its 'BORN TO RIDE' launch event during CIMAMotor 2026 in Chongqing; also launches the ASMAX Racing Program with racer Valentin Debise (DEBISE Racing Edition) and ZXMOTO (ZXMOTO Ride Edition). RoamX is a technology preview -- price and availability to follow. Resolves the Aug-Sep 2026 'something new' teasers.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/il/news-releases/asmax-at-cimamotor-2026-rethinking-what-a-motorcycle-intercom-should-be-302884402.html"
+    },
     {
       "date": "2026-09-08",
       "headline": "ASMAX Malaysia's regional Facebook page posts its own 'SOMETHING BIG IS COMING FROM ASMAX! CHONGQING, CHINA 19-22 SEPTEMBER 2026 -- ASMAX is preparing to unveil SOMETHING NEW. SOMETHING BOLD' teaser, corroborating the main ASMAX Official Facebook page's 2026-08-27 tease about a CIMAMotor 2026 (Chongqing Motor Expo, Sept 19-22, 2026) product reveal. Still no product name, spec sheet, or additional detail published anywhere (asmaxworld.com/asmaxconnect.com blog and news feeds checked 2026-09-14, no mention) -- the show itself runs after this refresh cycle's cutoff, so remains an unconfirmed pre-show tease, not added as a tracked product.",
@@ -1174,6 +1323,54 @@
         "platform": "Instagram",
         "summary": "Gifted/sponsored Italian post for the ASMAX T20 tire-pressure/emergency accessory tied to a motorcycle-safety message.",
         "url": "https://www.instagram.com/p/Dc_L2ERol4v/"
+      },
+      {
+        "date": "2026-09-15",
+        "platform": "Instagram",
+        "summary": "Lifestyle image of the ASMAX S1 mounted on a helmet.",
+        "url": "https://www.instagram.com/p/DdTPuPayS8f/"
+      },
+      {
+        "date": "2026-09-18",
+        "platform": "Instagram",
+        "summary": "Recap of ambassador Valentin Debise's home round at Magny-Cours.",
+        "url": "https://www.instagram.com/p/DdbwKABGz1N/"
+      },
+      {
+        "date": "2026-09-19",
+        "platform": "Instagram",
+        "summary": "Day 1 at CIMAMotor 2026 and reveal teaser for next-generation ASMAX.",
+        "url": "https://www.instagram.com/p/DdeZHrZjLaG/"
+      },
+      {
+        "date": "2026-09-19",
+        "platform": "Instagram",
+        "summary": "Trailer for 'Beyond the Track' ambassador film (Valentin Debise).",
+        "url": "https://www.instagram.com/p/DddqXF4y9rm/"
+      },
+      {
+        "date": "2026-09-20",
+        "platform": "Instagram",
+        "summary": "Day 2 at CIMAMotor 2026: first look at RoamX plus ZXMOTO and Debise collaborations.",
+        "url": "https://www.instagram.com/p/DdhUD6tEdtK/"
+      },
+      {
+        "date": "2026-09-21",
+        "platform": "Instagram",
+        "summary": "Beyond the Track film release with Valentin Debise.",
+        "url": "https://www.instagram.com/p/Ddi_5nPoa3u/"
+      },
+      {
+        "date": "2026-09-21",
+        "platform": "Instagram",
+        "summary": "Creator tutorial using ASMAX as microphone for Insta360, 15% code (Spanish).",
+        "url": "https://www.instagram.com/p/DdjqCBFRz4t/"
+      },
+      {
+        "date": "2026-09-21",
+        "platform": "Instagram",
+        "summary": "Creator promo of ASMAX F1S for music while riding, with discount code (Italian).",
+        "url": "https://www.instagram.com/p/Ddiye_EOH1e/"
       }
     ]
   },
@@ -1276,6 +1473,20 @@
         "product": "X Pro (parallel/OEM naming for F1 Pro)",
         "verdict": "Independent small-channel unboxing/install/real-ride test ('I unbox it, install it and take it on a real ride'); covers voice control and installation on the helmet. No major complaints or standout praise beyond a straightforward affordability framing ('ASMAX X Pro Helmet Intercom - Affordable Quality'); 321 views as of this refresh. First independent Western-creator coverage found specifically naming the 'X Pro' parallel branding rather than 'F1 Pro'.",
         "url": "https://www.youtube.com/watch?v=D37-XkPhpQ4"
+      },
+      {
+        "outlet": "YouTube (independent channel, title 'ASMAX F1 MOTORCYCLE COMMUNICATION SYSTEM - TEST & REVIEW')",
+        "product": "F1",
+        "date": "2026-09-16",
+        "verdict": "New independent test/review video surfaced in a 2026-09-21 search (date approximate: shown as '5 days ago'); covers intercom modes, audio multitasking, connectivity and IP67 rating. Verdict not assessed -- video content not reviewed.",
+        "url": "https://www.youtube.com/watch?v=oyeliwv9omc"
+      },
+      {
+        "outlet": "YouTube (Spanish-language channel, 'THE BEST MOTORCYCLE INTERCOM? WE TEST...')",
+        "product": "F1",
+        "date": "2026-09-16",
+        "verdict": "Spanish-language full review of the ASMAX F1 posed as 'the most advanced intercom for motorcycles?' (date approximate: shown as '5 days ago'); verdict not assessed -- video content not reviewed.",
+        "url": "https://www.youtube.com/watch?v=rQKaod13zyM"
       }
     ],
     "awards": [],
@@ -2528,6 +2739,26 @@
       "topic": "Cross-brand compatibility question",
       "summary": "A user asked whether a Freedconn intercom can connect to an Asmax unit.",
       "url": "https://www.facebook.com/groups/795939769924022/permalink/1057814217069908/"
+    },
+    {
+      "date": "2026-09-18",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Cannot pair with phone",
+      "summary": "Owner cannot get the unit to appear in phone Bluetooth or in the Asmax World app and asks whether others have hit this.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1066811806170149/"
+    },
+    {
+      "date": "2026-09-17",
+      "source": "Facebook Group",
+      "forum": "Asmax Intercom Philippines User",
+      "product": "Z1 / Z1 Plus",
+      "sentiment": "neutral",
+      "topic": "Spare audio kit search",
+      "summary": "Z1 owner looking for a source for audio kit or spare parts.",
+      "url": "https://www.facebook.com/groups/795939769924022/permalink/1066236082894388/"
     }
   ],
   "amazon_pricing": {
