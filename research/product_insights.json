@@ -1,69 +1,257 @@
 {
-  "generated": "2026-09-28",
-  "analyst_note": "Cardo launched a good OEM product this week (HJC PACKTALK) and kept updating its cycling unit (SYNC 3.12, Connect 9.2), but its motorcycle owners are still waiting for a fix to 5.4. Owner complaints have also spread from firmware regressions to hardware (Neo button-mic failures, charging faults) and to trust, with one owner reading Trade-In as a reward for degraded old units. Competitors are not clean: Sena's 60S owners report music dropouts and Bluetooth garble at speed. But Sena shipped fixes on its smart helmets and cut the 50S to $275, $45 under the Neo, while Reso pays US creators to frame it as a Cardo alternative. Caveat: evidence is self-selected forum posts and street-price snapshots, so treat counts as directional. The objective test for next week is whether a Packtalk 5.4.x changelog appears.",
-  "executive_summary": "The most urgent issue for Cardo this week is the same as last week, and it is getting worse because nothing has shipped to fix it. Firmware 5.4 and Cardo Connect 9.1, the Mesh Boost release that reached general availability on August 17, still have no Packtalk point release six weeks later. Meanwhile Cardo put out two cycling firmware builds (SYNC 3.11 at launch, then 3.12 with better Shimano Di2/STEPS connectivity), and Connect 9.2, whose only listed change is SYNC support. The owner complaints in Cardo's own Facebook community have also moved from software into hardware and trust. Between September 23 and 28, owners posted Packtalk Neo microphones that stop working on calls and intercom while Hey Cardo commands still work, a nearly new Packtalk Pro that answers \"music off\" to every request to turn music on after an update, an iPhone 16 that will not connect to the Cardo app, charging failures with three red blinks, and a unit that partly melted while charging. The post that should worry marketing most is from an owner who says their old Packtalk Slim can no longer connect to a new Packtalk Pro after updates. They call it scammy given the $130 Trade-In buyback. The Mesh Boost changelog itself says first-generation units can still join mixed groups. These are self-selected forum posts, not a measured failure rate. Still, there are enough independent posters on the same themes to treat quality and firmware follow-through as the top product risk this quarter.\n\nOn positioning, Cardo also had a real win. HJC PACKTALK launched on September 23: full DMC Gen2 mesh with 31 riders, 40 mm JBL speakers, 13 hours of talk time and FM radio, built into 15 HJC helmet models at $419.95. It is a smart extension of the OEM playbook, and Sena owners themselves note that Cardo's named, persistent mesh groups beat Sena's unnamed groups, which have to be rebuilt after every power cycle. The flip side is the Beyond smart helmet. SlashGear reports it is still unreleased in late September after slipping from summer to \"late 2026\", and the price in circulation is inconsistent: $1,199 in SlashGear, $1,299 in Cardo's own July release and at retailer SpeedAddicts. Sena looks like the steadier operator right now. It ran the BMW GS Trophy as official communications partner with a co-developed COM P1 GS mesh unit, and on September 9 it shipped v1.x.11 firmware for its Outlander, Specter and Phantom helmets that fixes music-plus-mesh volume and lets riders answer calls by voice during Mesh Intercom. Sena is not clean either. Its 60S owners this week reported music cutting out under CarPlay, robotic Bluetooth audio and dropped connections above about 40 mph, and 60S EVO units that boot into Wave mode. ASMAX has still not priced RoamX, its screen-equipped intercom, a week after unveiling it. Its news flow this week was brand-building: a racing film with Valentin Debise and a MAXRUNOS app update. Reso is spending on the US market. It paid for a second US creator review, framed as \"Is the ResoPilot Pro a Cardo Killer?\", and renamed its YouTube channel to @RESOPilot, while a long-time Cardo owner on Reddit is now weighing a switch to Reso because of sound quality.\n\nPricing moved against Cardo in the mid-tier. Sena's 50S dropped to $275.05 on Amazon (27% off its $379 list), while the Packtalk Neo, Cardo's cheapest motorcycle mesh unit, sits at $319.99 on Amazon. That is a gap of about $45 on units with comparable spec sheets. The 50S is now within $6 of Reso's Pilot Neo ($269), under Sena's own mesh-only Spider X Slim ($299), and well above ASMAX mesh units, which start around $80. At the top of the range, the 60S is $373.77 and the 60X is $430.51 on Amazon, and the 60X is out of stock in both pack sizes on Sena's own store. The Outstar 2 smart helmet still does not appear on Sena's US store or helmet listings, so it is most likely discontinued in the US. Sena Industrial added a $249 Tufftalk Lite2, but it is an industrial Bluetooth headset and not a motorcycle competitor. Reso raised its Pilot Pro double-pack sale price from $646 to $679 while keeping singles at $359/$269/$139, which looks like margin repair after its Amazon launch, not a price war. The structural picture is unchanged: a rider with a $300 mesh budget has good Sena, Reso and ASMAX options and no Cardo option except on promotion.\n\nThere is also an uncomfortable pattern in Cardo's roadmap delivery. Cellular Intercom (VoIP) was announced for the second-generation Packtalk line in November 2024 as part of Mesh-Boost. The actual 5.4 changelog did not include it, while SYNC shipped it on day one for cyclists and has already received a follow-up build. Beyond has slipped. Harley-Davidson and Schuberth devices are still waiting for Mesh Boost support, which Cardo expects in Q4. And the Packtalk line, which pays the bills, has received no firmware since August 17. Measured by changelogs rather than announcements, Cardo is currently shipping faster for cyclists than for motorcyclists. Sena, Reso and ASMAX all sell an unlimited-range cellular option on motorcycle units, and riders in both Cardo and Sena owner groups keep asking for cross-brand mesh.\n\nFor the quarter, the roadmap order should be: repair, then protect price, then new promises. In the next 30 days, Cardo should ship a named 5.4.x release with real notes covering range, simultaneous use, voice-command misfires and first-generation group joining. It should also put an advance-replacement path in place for Neo microphone and charging failures, and publish a first-generation compatibility matrix so Trade-In does not read as planned obsolescence. Through Q4, it should hold the Neo at or below $299 street through the holiday season, deliver the Harley-Davidson and Schuberth updates on time, and make a public call on Packtalk Cellular Intercom: port the SYNC stack or retire the promise. HJC PACKTALK and the Beyond launch should be run as the smart-helmet story, with a firm date and one price. For 2027, the sub-$300 mesh gap needs a product answer. It is the flank that Sena's 50S discounts, Reso's paid US creators and ASMAX's pricing all attack at once.",
+  "generated": "2026-10-05",
+  "analyst_note": "Cardo's marketing week was good: the 500-unit Rosewood Limited Edition Packtalk Edge for breast cancer research, Venture in stock in every size, and riders praising Public Mesh and loudness. Its product week was not. Packtalk firmware is still 5.4 seven weeks after Mesh Boost GA, and the official owner community logged a new run of post-update failures: a group that will not connect over Bluetooth or mesh, an Edge battery that warns low after 20-45 minutes, and Hey Cardo that stopped responding. New buyers also report failed DMC setup on Edgephones and Edge ORV. Pricing shifted. The Sena 50S deal faded to $329, now above the Neo's $323.96, but the 60S flagship fell to $349.97, which moves Sena's price attack from the mid-tier to Cardo's Edge and Pro. Sena is not clean either: its 60S owners report robotic Bluetooth intercom above about 40 mph and volume that fades. Caveat: owner evidence comes from self-selected forum posts, and Cardo's own group is crawled more heavily than Sena's, so treat counts as directional. The objective test for next week is unchanged: does a Packtalk 5.4.x changelog appear?",
+  "executive_summary": "The most urgent issue for Cardo is the same one this memo has led with for three weeks, and it is now seven weeks old. Firmware 5.4 and Cardo Connect 9.1, the Mesh Boost release that reached general availability on August 17, still have no Packtalk point release. In that time Cardo has shipped two cycling firmware builds (SYNC 3.11 and 3.12) and a Connect 9.2 whose only listed change is SYNC support. The complaint stream in Cardo's official owner community has not slowed. Between September 28 and October 4, owners posted about group intercom that will not connect over Bluetooth or mesh since the latest update, an Edge that gives low-battery warnings 20-45 minutes into rides after an update, Hey Cardo voice commands that stopped working after an update, and a Pro whose voice turns unintelligible to other riders above about 40 mph. A second cluster is newer and arguably more dangerous commercially: first-week DMC setup failures. A new Edgephones owner's named group shows the second device as joined but passes no audio. A duo-pack buyer (Edgephones plus Edge ORV, about 750 spent) cannot even see the second unit in the app. A rider who bought a replacement Edge cannot pair it with a partner's Edge. These are self-selected posts, not a failure rate. But they come from many independent owners, they cluster on the same themes, and they hit exactly the switchers and upgraders that the Trade-In program is paying to recruit.\n\nOn competitive positioning, Cardo still holds real advantages that its own customers and Sena's customers keep naming. A rider described two spontaneous Public Mesh connections with strangers on one ride and said it works remarkably well. A Reddit commenter said Cardo is loud enough to hear through earplugs, and another said the Packtalk sits slimmer than Sena's 50R. Venture now shows every size in stock on Cardo's store, and the Rosewood Limited Edition Edge (500 units, $439.95, $20 per unit to the Breast Cancer Research Foundation) is a well-executed brand moment. Sena had a quiet week: no new firmware since its September 9 smart-helmet release, CFMOTO and GS Trophy event marketing, and a newly tracked $179 EXPAND Mono outdoor headset that is not a motorcycle competitor. Sena's 60S owners are posting their own problems, including Bluetooth intercom that turns robotic and drops above about 40 mph, volume that fades to near-silent within minutes, and a 60S EVO microphone setting that muted one owner. Speed-related intercom degradation is therefore a category problem, not a Cardo-only one. ASMAX is doing marketing, not shipping: its Malaysian distributor now bills RoamX as the 'World's First Touchscreen Intercom', still with no price or date, and ASMAX is running Prime Big Deal Days promotions on October 6-7. Reso extended its VOGE partnership into a Colombian media ride and is posting product demos at a steady clip (15 Pro units grouped live, a helicopter noise test, hotspot range extension).\n\nPricing moved in a way that changes where the pressure on Cardo sits. Sena's 50S Amazon deal faded from $275.05 to $329.03, and the Packtalk Neo's $319.99 Amazon deal lapsed back to $323.96, so the Neo is now about $5 cheaper than the 50S rather than $45 more expensive. That is a relief, but it is a promotion cycle, not a structural fix. Below $300 there is still no Cardo mesh unit, while Reso's Pilot Neo ($269), Sena's Spider X Slim ($299) and ASMAX's mesh range (S1 from about $80) all sit there. The bigger shift is at the top. Sena's 60S dropped to $349.97 on Amazon (20% off $439), which puts a Wave-equipped flagship $46 under the Packtalk Edge ($395.96) and about $100 under the Pro ($449.95). Meanwhile the 60X is listed above MSRP on Amazon and is out of stock in both packs on Sena's own store, so Sena is clearing the older flagship rather than cutting across the line. Reso's prices were unchanged.\n\nMeasured by changelogs rather than announcements, Cardo's roadmap delivery is still lopsided. Cellular Intercom was announced for the second-generation Packtalk line in November 2024. It was absent from the 5.4 changelog, and Packtalk riders do not have it today. Cardo ships the technology only in its cycling products, with SYNC listing it in its own launch changelog. Sena (Wave), Reso (DuoSync software mesh over a phone hotspot or cellular) and ASMAX (CloudTalk) all sell a cellular option on motorcycle units. Beyond GT/GTS still has no price or ship date on Cardo's own site, which shows only a 'Keep me updated' signup, while at least one US retailer is taking paid preorders with a 'Fall 2026' estimate. Harley-Davidson and Schuberth devices are still waiting for their Q4 Mesh Boost update.\n\nFor the next quarter the order should be: repair, then protect the premium, then make new promises. In the next 30 days Cardo needs a named 5.4.x release whose notes cover group connection, battery drain, voice commands and simultaneous use. It also needs a guided DMC setup path for Edgephones, Edge ORV and mixed-generation groups, plus an advance-replacement lane for charging and microphone faults. Through the holiday quarter, the Neo's price is defensible at $323.96 for now. The risk is the 60S at $350 against the Edge, and the cleaner answer is a bundle or Trade-In stacking offer on the Edge rather than a list-price cut. Cardo should also decide Packtalk Cellular Intercom openly, either porting the SYNC stack with a date or retiring the claim. And it should publish one Beyond date and price before Sena's holiday promotions and ASMAX's RoamX set the premium narrative. For 2027, the sub-$300 mesh hole is still the flank every competitor attacks at once.",
   "market_pulse": [
     {
-      "date": "2026-09-28",
-      "brand": "Cardo",
-      "development": "A new cluster of owner complaints in Cardo's official Facebook community (Sept 23-28) shifts from software to hardware and trust. Packtalk Neo mics stop working on calls and intercom while Hey Cardo and Siri commands still work; one owner fixed it by switching from the button mic to the boom mic. A nearly new Packtalk Pro answers \"music off\" to every music-on request after an update. An Edge will not connect to the app on an iPhone 16, although an Android phone paired instantly. Other owners report units that blink red three times and will not charge, and one unit that partly melted while charging. An owner says their old Packtalk Slim can no longer connect to a new Pro and calls it \"scammy\" given the $130 buyback.",
-      "implication": "The Trade-In program only works if switchers and upgraders land on a product that works. Complaints that link Trade-In to deliberate degradation of old units threaten the program's premise, and they contradict the Mesh Boost changelog's own promise that first-generation units can still join mixed groups.",
-      "sources": [
-        {
-          "label": "Facebook Group - Neo mic fails on calls/intercom",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4585802885042157/"
-        },
-        {
-          "label": "Facebook Group - Neo button mic fix via boom mic",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4588634691425643/"
-        },
-        {
-          "label": "Facebook Group - Pro voice command bug after update",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4584465111842601/"
-        },
-        {
-          "label": "Facebook Group - Slim cannot connect to Pro, buyback 'scammy'",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4587165694905876/"
-        },
-        {
-          "label": "Facebook Group - iPhone 16 app will not connect",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4589256568030122/"
-        },
-        {
-          "label": "Facebook Group - unit will not charge (3 red blinks)",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4586834824938963/"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
+      "date": "2026-10-05",
       "brand": "Sena",
-      "development": "The weekly crawl found no MSRP changes, but street prices moved. The 50S fell from $319.99 to $275.05 on Amazon (-27% off $379), the 60X to $430.51 and the Outlander to $565, while the 60S deal narrowed to $373.77. The 60X is still out of stock in both packs on Sena's own store. The Outstar 2 is still absent from the US store feed and the smart-helmet category, so it is likely discontinued in the US. Sena Industrial added a Tufftalk Lite2 ($249, a Bluetooth industrial headset).",
-      "implication": "The 50S at $275 is now about $45 under the Packtalk Neo ($319.99 on Amazon) and within $6 of Reso's Pilot Neo. Sena is using an older mesh unit as a price fighter exactly where Cardo has no product.",
+      "development": "The weekly Sena crawl shows no MSRP changes but large street-price swings. The 60S fell from $373.77 to $349.97 on Amazon (-20% off $439), and the 50S deal faded from $275.05 to $329.03 (-13% off $379). The 60X is now listed on Amazon at $543.75, above its $459 list, and is still out of stock in both packs on Sena's own store. Sena has published no news releases or firmware notices since September 9, and its apps are unchanged. A previously untracked outdoor product, EXPAND Mono ($179, single-ear Mesh 3.0, about 400 m range, launched February 10), was added to tracking; it is not a motorcycle unit.",
+      "implication": "Sena's price pressure has moved from the mid-tier to the flagship. The 60S, which includes Wave, now sits $46 under the Packtalk Edge and about $100 under the Pro. The Neo is back to being cheaper than the 50S.",
       "sources": [
         {
           "label": "Sena store products feed - weekly crawl",
           "url": "https://store-us.sena.com/products.json?limit=250"
         },
         {
+          "label": "Sena 60S product page",
+          "url": "https://store-us.sena.com/products/60s"
+        },
+        {
           "label": "Sena 50S product page",
           "url": "https://store-us.sena.com/products/50s-10"
         },
+        {
+          "label": "Sena 60X product page",
+          "url": "https://store-us.sena.com/products/60x"
+        },
+        {
+          "label": "Sena EXPAND Mono product page",
+          "url": "https://www.sena.com/en-us/product/expand-mono/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "brand": "Cardo",
+      "development": "The Packtalk Neo's $319.99 Amazon deal has lapsed, and Amazon and RevZilla both list it at $323.96 (-10% off $359.95). The Venture integrated MX helmet now shows all five sizes (XS-XL) available at $799.95 on Cardo's own store, so general availability looks complete after weeks of variant-by-variant preorder status. Beyond GT/GTS is still absent from Cardo's store catalog. Its page offers only a 'Keep me updated' signup with no price or date, while retailer Eagle Leather takes paid preorders with a 'Fall 2026' estimate. Packtalk Pro/Edge/Neo firmware is still 5.4 from August 17.",
+      "implication": "Venture closes one execution question, and Beyond keeps another open. The fact that the 5.4 line has had seven weeks with no point release is now the clearest signal of where engineering capacity is going.",
+      "sources": [
         {
           "label": "Cardo Packtalk Neo product page",
           "url": "https://cardosystems.com/products/packtalk-neo"
         },
         {
-          "label": "Sena Industrial - Tufftalk Lite2",
-          "url": "https://senaindustrial.com/products/tufftalk-lite2"
+          "label": "Cardo Venture product page",
+          "url": "https://cardosystems.com/products/venture"
+        },
+        {
+          "label": "Cardo Beyond page",
+          "url": "https://cardosystems.com/pages/beyond"
+        },
+        {
+          "label": "Cardo blog - Mesh Boost GA (5.4 / 9.1)",
+          "url": "https://cardosystems.com/blogs/cardo-blog/mesh-boost-more-riders-more-adventures-more-stories-to-tell"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "brand": "Cardo",
+      "development": "New owners in Cardo's official community report failures in first-week DMC setup and audio. An Edgephones owner set up a named DMC group with an Edge; the second device shows as joined but passes no intercom audio. A duo-pack buyer (Edgephones with Edge ORV, about 750 spent) paired and updated the first unit but cannot pair, update or even see the second in the app. A rider who replaced a lost Edge cannot pair the new unit with a partner's Edge, and the units are stuck blinking different colors. An 8-rider tour leader could not get a Packtalk Bold that dropped into Bluetooth back into the DMC group despite hard resets. Separately, an Edge user's intercom stays too quiet even when music is loud, and another Edge's mic works for voice commands but not on phone calls.",
+      "implication": "DMC's reputation for 'just works' grouping is Cardo's core sales argument. Setup failures on the newest Edgephones/ORV products and on replacement units undercut it at the exact moment a buyer decides whether to keep the product.",
+      "sources": [
+        {
+          "label": "Facebook Group - Edgephones DMC group, no audio",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597490860540026/"
+        },
+        {
+          "label": "Facebook Group - Edge ORV/Edgephones duo second unit invisible",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4596293287326450/"
+        },
+        {
+          "label": "Facebook Group - replacement Edge will not pair",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594675134154932/"
+        },
+        {
+          "label": "Facebook Group - Bold cannot rejoin DMC group",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4593045474317898/"
+        },
+        {
+          "label": "Facebook Group - Edge intercom too quiet",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597234037232375/"
+        },
+        {
+          "label": "Facebook Group - Edge mic fails on phone calls",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597082397247539/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "brand": "Sena",
+      "development": "Sena's own 60-series owner group logged fresh complaints. A 60S bridged by Bluetooth intercom to a 20S and 50S is clear up to about 40 mph, then turns robotic with clicking and drops, and outgoing audio becomes unintelligible above about 45 mph. Another 60S owner says volume fades to near-inaudible within minutes, and restarting and updating firmware on both units helped only briefly. A member warns that the 60S EVO's new microphone settings muted their mic when turned down. Earlier, a 50S owner asked why voice commands do not respond, and a 60S owner reported mesh problems with a passenger.",
+      "implication": "Intercom degradation at speed is a category-wide problem, not a Cardo-only story. Neither brand has published a changelog that addresses it, so the first one to fix and name it gains a real marketing claim.",
+      "sources": [
+        {
+          "label": "Facebook Group (Sena) - 60S Bluetooth intercom drops above 40 mph",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1483745420296156/"
+        },
+        {
+          "label": "Facebook Group (Sena) - 60S volume fades",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1483896620281036/"
+        },
+        {
+          "label": "Facebook Group (Sena) - 60S EVO mic settings caution",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1483526816984683/"
+        },
+        {
+          "label": "Facebook Group (Sena) - 50S voice commands not working",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1478539607483404/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "brand": "Cardo",
+      "development": "Post-update complaints continued in Cardo's official community. On October 2 a member asked whether others have group intercom problems since the latest update, saying units cannot connect over either Bluetooth or mesh. On October 1 an Edge owner reported low-battery warnings 20-45 minutes into rides since a recent firmware update, even after charging and with eco mode on. On September 30 an Edge owner said Hey Cardo had stopped working since the latest update, and on October 1 a Pro owner in a full-face helmet said other riders cannot understand him above about 40 mph with either the boom or button mic. On September 29 an Edge stopped working while charging and now runs very hot, and the owner traced it to an overheating IC.",
+      "implication": "The 'updates break things' narrative now has seven weeks of independent posts behind it, with no point release to point to. The overheating report adds a safety-adjacent hardware thread that support needs to triage, not just answer.",
+      "sources": [
+        {
+          "label": "Facebook Group - group intercom broken since update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594711057484673/"
+        },
+        {
+          "label": "Facebook Group - Edge battery drain after update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594142264208219/"
+        },
+        {
+          "label": "Facebook Group - Hey Cardo stopped after update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4592860931003019/"
+        },
+        {
+          "label": "Facebook Group - Pro mic garbled above 40 mph",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594103967545382/"
+        },
+        {
+          "label": "Facebook Group - Edge IC overheating while charging",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4591543081134804/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "brand": "ASMAX",
+      "development": "ASMAX announced Amazon Prime Big Deal Days promotions (October 6-7) across helmet intercoms, tire inflators and jump starters, with 'pre-sale surprises' teased by DM, and Spanish-language creators are already pushing F1 deals. Its sister MAXRUNON line now lists a K6 6-rider Bluetooth intercom (BT 5.4, cross-brand connection, IPX6) with no price. No new ASMAX WORLD app or firmware release has appeared since July 13.",
+      "implication": "ASMAX will be the loudest discounter on Amazon this week, where its mesh units already sell for a fraction of Packtalk prices. Its software cadence, at 12 weeks without a main-app update, remains its weak flank.",
+      "sources": [
+        {
+          "label": "ASMAX Instagram - Prime Big Deal Days announcement",
+          "url": "https://www.instagram.com/asmaxworld_official/"
+        },
+        {
+          "label": "Instagram - ASMAX Prime Big Deal Days teaser",
+          "url": "https://www.instagram.com/p/Dd_iUjIm45p/"
+        },
+        {
+          "label": "Instagram - creator promotes F1 Prime Day deals",
+          "url": "https://www.instagram.com/p/DeEfDnNIRIE/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "brand": "Reso",
+      "development": "Reso published a 'RESOPilot x VOGE Colombia Media Ride' video, its first documented marketing in Colombia and an extension of its VOGE co-promotion into Latin America (no Colombian retailer or pricing found). The renamed @RESOPilot channel kept up a steady run of demos: 15 Pilot Pro units grouped live, a helicopter noise-reduction test and a lineup explainer (8 riders on Lite, 15 on Neo, 30 on Pro). On Instagram it showed off Hotspot Range Extension, action-camera audio recording and voice-assistant tutorials. Prices were unchanged ($359/$269/$139 DTC; Amazon Pilot Pro $359, 4.6 stars from 10 ratings).",
+      "implication": "Reso is building awareness through demonstrable features (group size, noise cancellation, camera audio) rather than price cuts. Its US installed base is still tiny, with 10 Amazon ratings, so the threat is to the consideration set, not yet to share.",
+      "sources": [
+        {
+          "label": "YouTube - RESOPilot x VOGE Colombia media ride",
+          "url": "https://www.youtube.com/watch?v=CIzkU-Pr_h0"
+        },
+        {
+          "label": "YouTube - 15-rider RESOPilot Pro group demo",
+          "url": "https://www.youtube.com/watch?v=EdLKqMZ8jPA"
+        },
+        {
+          "label": "YouTube - RESOPilot helicopter noise test",
+          "url": "https://www.youtube.com/watch?v=hwfu26PvEa8"
+        },
+        {
+          "label": "Instagram - Hotspot Range Extension demo",
+          "url": "https://www.instagram.com/p/DeC41FrCN1T/"
+        },
+        {
+          "label": "Amazon.com - RESOPILOT official store",
+          "url": "https://www.amazon.com/stores/RESOPILOT/page/3252F791-4F79-485C-9DE9-C72BDB4BDAAD"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "brand": "ASMAX",
+      "development": "ASMAX's Malaysian distributor is marketing RoamX as the 'World's First Touchscreen Intercom' ('TOUCH. CONNECT. RIDE.'). It is the first source to specify that the RoamX display is a touchscreen. RoamX was unveiled September 21 at CIMAMotor (32-rider mesh, 53 mm speaker) as a technology preview, and two weeks later it still has no price, spec sheet or ship date.",
+      "implication": "ASMAX is positioning for feature leadership, not just low prices. Until a price and an independent test exist, RoamX is a narrative threat to Cardo's smart-helmet and premium story rather than a sales threat.",
+      "sources": [
+        {
+          "label": "ASMAX Malaysia Instagram - RoamX touchscreen",
+          "url": "https://www.instagram.com/asmax.malaysia/"
+        },
+        {
+          "label": "PR Newswire - ASMAX RoamX at CIMAMotor 2026",
+          "url": "https://www.prnewswire.com/il/news-releases/asmax-at-cimamotor-2026-rethinking-what-a-motorcycle-intercom-should-be-302884402.html"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "brand": "Cardo",
+      "development": "Cardo's real strengths drew positive comments alongside the complaints. A rider with Public Mesh enabled described two spontaneous connections with strangers on one ride, at an intersection and from a road below a bridge, and said it works remarkably well, and a UK rider reel celebrated the same proximity chat. In a Reddit ear-protection thread, a commenter said Cardo is loud enough to hear through earplugs because the speakers sit close to the ears. In a Shoei fitment thread, a commenter said Sena's 50R is still bulkier than the Packtalk.",
+      "implication": "Public Mesh, loudness and slim fitment are differentiators that owners name unprompted. They belong in marketing, and they are worth protecting in the 5.4.x fix rather than trading away.",
+      "sources": [
+        {
+          "label": "Facebook Group - Public Mesh praise",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594205420868570/"
+        },
+        {
+          "label": "Instagram - rider reel on Public Mesh proximity chat",
+          "url": "https://www.instagram.com/p/Dd-yEOLKS_A/"
+        },
+        {
+          "label": "Reddit - Cardo loud through earplugs",
+          "url": "https://www.reddit.com/r/motorcyclegear/comments/1wtb9ff/ear_protection/"
+        },
+        {
+          "label": "Reddit - slimmest intercom, Packtalk vs Sena 50R",
+          "url": "https://www.reddit.com/r/motorcyclegear/comments/1wwucox/slimmest_intercom_for_nxr2rf1400_packtalk_vs_sena/"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "brand": "Cardo",
+      "development": "Cardo released the Rosewood Limited Edition Packtalk Edge for Breast Cancer Awareness Month: an exclusive Rosewood colorway limited to 500 units worldwide at the standard $439.95 Edge price, with $20 per unit donated to the Breast Cancer Research Foundation (up to $10,000) under a 'Ride Together, Give Together' campaign. Cardo backed it with launch videos, an ORV off-road cut and paid ambassador posts with discount codes.",
+      "implication": "This is a low-risk, well-executed brand moment that sells at full price without discounting. At 500 units it is a halo, not a volume driver, and it will not offset the pricing or firmware stories on its own.",
+      "sources": [
+        {
+          "label": "Total Motorcycle - Rosewood Limited Edition",
+          "url": "https://www.totalmotorcycle.com/cardo-systems-introduces-rosewood-limited-edition-packtalk-edge-to-support-breast-cancer-research/"
+        },
+        {
+          "label": "Cardo YouTube - Introducing Rosewood Limited Edition",
+          "url": "https://www.youtube.com/watch?v=bb7ua9umc5M"
+        },
+        {
+          "label": "Instagram - Rosewood BCRF post",
+          "url": "https://www.instagram.com/p/Dd_lDVdEdhM/"
         }
       ]
     },
     {
       "date": "2026-09-28",
       "brand": "Cardo",
-      "development": "Cardo's cycling unit keeps getting firmware. SYNC 3.12 (improved Shimano Di2/STEPS connectivity) appeared on the SYNC release-notes page between Sept 21 and 28, following launch firmware 3.11. Cardo Connect 9.2 (Google Play Sept 18, App Store Sept 22) lists only SYNC support. The Packtalk Pro/Edge/Neo line is still on firmware 5.4 from Aug 17, with no point release despite six weeks of owner-reported regressions.",
-      "implication": "Judged by changelogs, Cardo is currently shipping faster for its new cycling product than for the motorcycle line that funds it. Riders on the Packtalk forums will notice.",
+      "development": "SYNC 3.12, which improves Shimano Di2/STEPS connectivity, followed SYNC launch firmware 3.11 within two weeks. Cardo Connect 9.2 (September 22) lists only SYNC support. The Packtalk Pro/Edge/Neo/Edge ORV line remains on firmware 5.4 from August 17, and the latest research crawl, a week later, found no newer Packtalk build.",
+      "implication": "Judged by changelogs, Cardo is iterating faster on a new $169.95 cycling unit than on the motorcycle line that funds the company. Owners in the Packtalk community are posting regressions every few days.",
       "sources": [
         {
           "label": "Cardo SYNC release notes (3.11 / 3.12)",
@@ -80,110 +268,10 @@
       ]
     },
     {
-      "date": "2026-09-28",
-      "brand": "Reso",
-      "development": "resopilot.com raised the Pilot Pro Double Pack sale price from $646 to $679 ($798 regular) and kept singles unchanged (Pro $359, Neo $269, Lite $139). The Amazon.com storefront prices are unchanged, and RevZilla still lists no Reso products. On Reddit, a long-time Cardo owner (Pro, with family members on Neo and Edge) says they are unhappy with Packtalk sound quality even with 45 mm speakers and is comparing a switch to Reso Pilot.",
-      "implication": "Reso is tightening bundle margin, not cutting prices, and it is beginning to pull switch-curious Cardo owners on audio. That is a dimension Cardo has treated as a JBL-backed strength.",
-      "sources": [
-        {
-          "label": "resopilot.com - pricing and double pack",
-          "url": "https://resopilot.com/"
-        },
-        {
-          "label": "Reddit - Cardo owner weighing Reso Pilot",
-          "url": "https://www.reddit.com/r/motorcyclegear/comments/1ws88dx/i_looked_first_cardo_vs_reso_pilot/"
-        },
-        {
-          "label": "Amazon.com - RESOPILOT official store",
-          "url": "https://www.amazon.com/stores/RESOPILOT/page/3252F791-4F79-485C-9DE9-C72BDB4BDAAD"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "brand": "Sena",
-      "development": "Sena's own 60-series owner group posted fresh reliability complaints. A two-up couple on 60S units says music cuts out silently under CarPlay. A 60S bridged to a 20S and 50S by Bluetooth develops loud clicking, robotic voices and dropouts above about 40 mph (\"almost had enough\"). Another owner has mesh problems with a passenger. Separately, 60S EVO units boot into Wave mode every power-up (Sept 20), and a prospective 60S EVO buyer hesitates because local riders use Cardo, asking whether Sena can or will join Cardo mesh.",
-      "implication": "Sena's premium line has its own quality debt, so Cardo's problems are not a one-way gift to Sena. Cross-brand mesh demand is also coming from Sena's side of the market, not just Cardo's.",
-      "sources": [
-        {
-          "label": "Facebook Group (Sena) - 60S music dropouts with CarPlay",
-          "url": "https://www.facebook.com/groups/860066485997389/permalink/1478328934171138/"
-        },
-        {
-          "label": "Facebook Group (Sena) - 60S Bluetooth garble above 40 mph",
-          "url": "https://www.facebook.com/groups/860066485997389/permalink/1477409804263051/"
-        },
-        {
-          "label": "Facebook Group (Sena) - 60S EVO boots into Wave mode",
-          "url": "https://www.facebook.com/groups/860066485997389/permalink/1470680518269313/"
-        },
-        {
-          "label": "Facebook Group (Sena) - buyer asks for Cardo mesh interop",
-          "url": "https://www.facebook.com/groups/860066485997389/permalink/1477150697622295/"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "brand": "Cardo",
-      "development": "A SlashGear explainer notes that Cardo's Beyond GT/GTS smart helmets are still unreleased in late September after slipping from summer to \"late 2026\". It quotes the original $949/$1,199 MSRPs, while Cardo's July release and US retailer SpeedAddicts' Sept 18 pre-release walk-around cite $1,299 for the GTS. Cardo's YouTube channel is teasing Beyond's active noise cancellation in the meantime.",
-      "implication": "A flagship that keeps slipping and has two prices in circulation undercuts the smart-helmet halo Cardo is building with Venture and HJC PACKTALK. It needs one date and one price.",
-      "sources": [
-        {
-          "label": "SlashGear - Beyond still unreleased",
-          "url": "https://www.slashgear.com/2264117/cardo-helmet-price-how-much-cost-beyond-options-coming/"
-        },
-        {
-          "label": "SpeedAddicts - Beyond GTS walk-around ($1,299)",
-          "url": "https://www.youtube.com/watch?v=26lG-RdpH2A"
-        },
-        {
-          "label": "Cardo YouTube - Beyond ANC teaser",
-          "url": "https://www.youtube.com/watch?v=i_-gYrXw4qg"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "brand": "Reso",
-      "development": "Reso renamed its official YouTube channel from @ResoSport to @RESOPilot and published five uploads between Sept 24 and 28, including WorldSBK race-day content with the QJMOTOR factory team, a track day with Alpinestars and a Makina Moto Show recap. On Sept 16, US touring YouTuber Living Off The Slab (about 17K subscribers) published \"Is the ResoPilot Pro a Cardo Killer?\", with an Amazon affiliate link and a RESOPilot discount code. It is the second seeded US creator review after MotoHop. The verdict was mostly positive, but it warned that as a new brand \"you might be the only one running it\".",
-      "implication": "Reso is running a deliberate, paid US awareness push that names Cardo as the benchmark. Its weak point is the one the creator named: a tiny installed base in group rides.",
-      "sources": [
-        {
-          "label": "YouTube - Reso WSBK video on renamed @RESOPilot channel",
-          "url": "https://www.youtube.com/watch?v=fuSZAzbmguQ"
-        },
-        {
-          "label": "YouTube - Living Off The Slab 'Cardo Killer?' review",
-          "url": "https://www.youtube.com/watch?v=aO9tk6jrKDs"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "brand": "ASMAX",
-      "development": "ASMAX's MAXRUNOS companion app v1.0.11 added two unnamed supported headsets and Arabic language support. The main ASMAX WORLD iOS app is still on v1.0.17 from July 13, about 11 weeks without an update. Its brand activity centred on the Valentin Debise film \"Beyond the Track\" (Sept 22) and Debise's P4/P5 WorldSSP results at Cremona. RoamX still has no price, spec sheet or listing beyond the Sept 21 press release.",
-      "implication": "The two new headsets supported in MAXRUNOS hint at upcoming SKUs, but ASMAX's Western momentum is still mostly marketing. The RoamX threat stays theoretical until a price appears.",
-      "sources": [
-        {
-          "label": "Apple App Store - MAXRUNOS 1.0.11",
-          "url": "https://apps.apple.com/us/app/maxrunos/id6740626069"
-        },
-        {
-          "label": "YouTube - ASMAX 'Beyond the Track' Debise film",
-          "url": "https://www.youtube.com/watch?v=eHj52iBQ3iE"
-        },
-        {
-          "label": "Instagram - Debise P4/P5 at Cremona",
-          "url": "https://www.instagram.com/p/DdypQywSTHG/"
-        }
-      ]
-    },
-    {
       "date": "2026-09-23",
       "brand": "Cardo",
-      "development": "Cardo and HJC formally launched HJC PACKTALK: full DMC Gen2 mesh (31 riders, Mesh Boost enabled), 40 mm JBL speakers, 13 h talk time and FM radio, built into 15 HJC helmet models including new RPHA 60 and RPHA 72 fitments. It costs $419.95 / EUR409.95 / GBP356.95 and is available in September 2026. The product page shows it in stock, and Cardo backed the launch with a full tutorial and an \"Available now\" video.",
-      "implication": "This is the strongest OEM move of the month: it puts Cardo's best mesh into the helmets of one of the highest-volume helmet brands. At $419.95 it prices above the standalone Neo, so it expands reach rather than addressing the entry-price gap.",
+      "development": "Cardo and HJC formally launched HJC PACKTALK: full DMC Gen2 mesh with 31-rider Mesh Boost, 40 mm JBL speakers, 13 h talk time and FM radio, built into 15 HJC helmet models including new RPHA 60 and RPHA 72 fitments. It costs $419.95 / GBP356.95. Cardo UK and YouTube kept promoting it through late September.",
+      "implication": "This is the strongest OEM move of the quarter, putting Cardo's best mesh into a high-volume helmet brand. Because it is priced above the Neo, it expands reach, but it does not address the entry-price gap.",
       "sources": [
         {
           "label": "Superbike News - HJC PACKTALK launch",
@@ -194,107 +282,56 @@
           "url": "https://cardosystems.com/products/hjc-packtalk"
         },
         {
-          "label": "Cardo YouTube - HJC PACKTALK available now",
-          "url": "https://www.youtube.com/watch?v=D6R0HRajzD8"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "brand": "Sena",
-      "development": "Sena wrapped its official communications sponsorship of the BMW Motorrad International GS Trophy in Romania. Sena supplied 90 units, including 55 of the co-developed BMW ConnectedRide COM P1 GS mesh intercom. In the same week, a riding club's training session in Sena's 60-series owner group found Sena-to-Cardo pairing worked surprisingly well, but noted that Cardo's named, persistent groups beat Sena's unnamed groups, which must be recreated every power cycle, and asked Sena to copy it.",
-      "implication": "Sena is deepening an OEM relationship that Cardo does not have (BMW). Meanwhile, Cardo's DMC group UX is still being praised by competitors' own customers, and Cardo should say so in its marketing.",
-      "sources": [
-        {
-          "label": "Visordown - Sena and BMW COM P1 GS for GS Trophy",
-          "url": "https://www.visordown.com/news/sena-and-bmw-reveal-co-developed-intercom-system-ahead-2026-gs-trophy"
-        },
-        {
-          "label": "Instagram - Sena GS Trophy wrap-up",
-          "url": "https://www.instagram.com/p/Ddmb8_5Dcrd/"
-        },
-        {
-          "label": "Facebook Group (Sena) - Cardo named groups praised",
-          "url": "https://www.facebook.com/groups/860066485997389/permalink/1472456911425007/"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "brand": "ASMAX",
-      "development": "At CIMAMotor 2026 in Chongqing, ASMAX unveiled RoamX, billed as the world's first screen-equipped motorcycle intercom headset (32-rider mesh, 53 mm speaker, customizable display). It also launched a racing program with Valentin Debise (DEBISE Racing Edition) and ZXMOTO. RoamX is a technology preview; price and availability are to follow.",
-      "implication": "This is a genuine category first on paper and a sign that ASMAX wants to lead on features, not only on price. Without a price or independent test, it is a watch item rather than a threat this quarter.",
-      "sources": [
-        {
-          "label": "PR Newswire - ASMAX RoamX at CIMAMotor 2026",
-          "url": "https://www.prnewswire.com/il/news-releases/asmax-at-cimamotor-2026-rethinking-what-a-motorcycle-intercom-should-be-302884402.html"
-        },
-        {
-          "label": "Instagram - RoamX first look at CIMAMotor",
-          "url": "https://www.instagram.com/p/DdhUD6tEdtK/"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "brand": "Sena",
-      "development": "Sena shipped firmware v1.0.11 (Outlander, Specter) and v1.2.11 (Phantom, Phantom XB, KV, ANC) for its smart helmets. The release brings them to 60-series feature parity: Polish prompts, BLE bonding, mic gain in the app, answering calls by voice during Mesh Intercom and putting a phone on hold for a second phone's call. It also fixes BMW TFT, Harley-Davidson Boom! infotainment and Garmin connectivity, music-plus-mesh volume, and universal-intercom reconnection with non-Sena headsets.",
-      "implication": "Sena's changelog fixes exactly the kind of simultaneous-use problems that Cardo owners are still waiting on after 5.4. It also shows that a 10-family smart-helmet line can be kept current, which is the bar Beyond will be judged against.",
-      "sources": [
-        {
-          "label": "Sena notice - Outlander v1.0.11",
-          "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outlander-v1-0-11/"
-        },
-        {
-          "label": "Sena notice - Specter v1.0.11",
-          "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-specter-v1-0-11/"
-        },
-        {
-          "label": "Sena notice - Phantom family v1.2.11",
-          "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-phantom-phantom-xb-phantom-kv-phantom-anc-v1-2-11/"
+          "label": "Cardo YouTube - HJC PACKTALK promo",
+          "url": "https://www.youtube.com/watch?v=hQl3fVaf2cs"
         }
       ]
     }
   ],
   "gaps": [
     {
-      "title": "Firmware 5.4 regressions remain unpatched six weeks after Mesh Boost GA",
+      "title": "Firmware 5.4 regressions remain unpatched seven weeks after Mesh Boost GA",
       "severity": "critical",
       "category": "software",
-      "description": "Firmware 5.4 with Cardo Connect 9.1 shipped on August 17. Since then, owners in Cardo's official community have reported lost music-plus-intercom sharing, lost CarPlay audio while meshing, and Garmin conflicts. This week added new reports: a Packtalk Pro whose voice command answers \"music off\" to every music-on request after an update, and a Packtalk Slim that no longer connects to a new Pro. The Slim report contradicts the 5.4 changelog's statement that first-generation units can still join mixed groups. No 5.4.x point release has appeared in six weeks, while Cardo has shipped SYNC 3.11 and 3.12 and a Connect 9.2 whose only change is SYNC support. Sena, by contrast, shipped helmet firmware on September 9 that explicitly fixes music-plus-mesh volume and universal-intercom reconnection. Every week without a fix turns individual bugs into a story that Cardo's updates break things, and that story does the most damage during a Trade-In campaign that recruits switchers.",
+      "description": "Firmware 5.4 with Cardo Connect 9.1 shipped on August 17, and seven weeks later the Packtalk line has received no point release. The complaint stream has continued every week. In September owners reported lost music-plus-intercom sharing, lost CarPlay audio while meshing, and a Pro that answers 'music off' to every music-on request. This week added a member saying group intercom will not connect over Bluetooth or mesh since the latest update, an Edge giving low-battery warnings 20-45 minutes into rides after an update, and Hey Cardo that stopped working after an update. Over the same period Cardo shipped SYNC 3.11 and 3.12 and a Connect 9.2 that only adds SYNC support, so the problem is prioritization, not an inability to ship. Sena's September 9 helmet firmware names its music-plus-mesh and reconnection fixes line by line, which is the standard owners will compare against. Every week without a named fix hardens an 'updates break things' story during a Trade-In campaign built to recruit switchers.",
       "evidence": [
-        "Music plus intercom no longer simultaneous after 5.4 (Sept 9-14 posts)",
-        "CarPlay audio lost while meshing two Edges",
-        "Pro voice command answers 'music off' after an update; three resets did not help (Sept 23)",
-        "Packtalk Slim cannot connect to a new Pro after updates (Sept 26)",
-        "Packtalk firmware still 5.4 (Aug 17) while SYNC went 3.11 to 3.12 and Connect went to 9.2"
+        "Packtalk Pro/Edge/Neo/Edge ORV still on 5.4 (Aug 17) as of Oct 5",
+        "Group intercom will not connect via Bluetooth or mesh since latest update (Oct 2)",
+        "Edge low-battery warnings 20-45 min into rides since a firmware update (Oct 1)",
+        "Hey Cardo stopped working since the latest update (Sept 30)",
+        "Music plus intercom no longer simultaneous after 5.4 (Sept posts)",
+        "SYNC 3.11 to 3.12 in under two weeks; Connect 9.2 adds only SYNC support"
       ],
-      "customer_signal": "Owner of a nearly new Packtalk Pro says support told them to send it in after the post-update voice-command bug, and that they regret the purchase.",
-      "competitor_benchmark": "Sena v1.0.11/v1.2.11 (Sept 9) for Outlander, Specter and Phantom fixes music-plus-mesh volume and adds answering calls by voice during Mesh Intercom; Sena typically ships several point releases per model per quarter.",
+      "customer_signal": "Member asks whether anyone else has group intercom problems since the latest update because units connect via neither Bluetooth nor mesh.",
+      "competitor_benchmark": "Sena shipped v1.0.11/v1.2.11 smart-helmet firmware on Sept 9 with an itemized list of fixes for music-plus-mesh volume and universal-intercom reconnection.",
       "sources": [
+        {
+          "label": "Facebook Group - group intercom broken since update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594711057484673/"
+        },
+        {
+          "label": "Facebook Group - Edge battery drain after update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594142264208219/"
+        },
+        {
+          "label": "Facebook Group - Hey Cardo stopped after update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4592860931003019/"
+        },
         {
           "label": "Facebook Group - music and intercom no longer simultaneous",
           "url": "https://www.facebook.com/groups/1847605508861922/permalink/4573305902958522/"
-        },
-        {
-          "label": "Facebook Group - CarPlay audio lost while meshing",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4569981839957595/"
         },
         {
           "label": "Facebook Group - Pro voice command bug after update",
           "url": "https://www.facebook.com/groups/1847605508861922/permalink/4584465111842601/"
         },
         {
-          "label": "Facebook Group - Slim cannot connect to Pro",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4587165694905876/"
+          "label": "Cardo SYNC release notes",
+          "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
         },
         {
           "label": "Cardo blog - Mesh Boost GA changelog",
           "url": "https://cardosystems.com/blogs/cardo-blog/mesh-boost-more-riders-more-adventures-more-stories-to-tell"
-        },
-        {
-          "label": "Cardo SYNC release notes",
-          "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
         },
         {
           "label": "Sena notice - Outlander v1.0.11",
@@ -303,19 +340,70 @@
       ]
     },
     {
-      "title": "Real-world DMC range and mesh battery life trail claims",
+      "title": "First-week DMC setup and pairing fails for new, replacement and mixed-generation units",
+      "severity": "high",
+      "category": "software",
+      "description": "A new pattern emerged this week: buyers who cannot get DMC working at all, as opposed to existing owners hit by a regression. A new Edgephones owner's named DMC group shows the second device as joined but passes no audio. A duo-pack buyer (Edgephones plus Edge ORV, about 750 spent) cannot pair, update or even see the second unit in the app. A rider who bought a replacement Edge cannot pair it with a partner's Edge and says they are fed up. A tour leader could not get a Packtalk Bold back into an 8-rider DMC group after it fell into Bluetooth mode, and another admin is asking what the group limit is when mixing an Edge on 5.4 with Bolds on older firmware. These failures cluster on Cardo's newest form factors (Edgephones, Edge ORV) and on mixed-generation groups, which suggests the app's onboarding and compatibility guidance has not kept pace with the product line. Sena owners have praised Cardo's named, persistent groups, so the underlying design is a strength. What fails is getting a first-time user into it, and that is exactly where returns happen.",
+      "evidence": [
+        "Edgephones + Edge named DMC group: joined but no audio (Oct 4)",
+        "Edgephones/Edge ORV duo: second unit invisible to app (Oct 3)",
+        "Replacement Edge will not pair with partner's Edge (Oct 2)",
+        "Bold in Bluetooth mode cannot rejoin 8-rider DMC group (Sept 30)",
+        "Mixed Edge 5.4 / Bold group-size question (Sept 28)",
+        "Garmin Zumo XT sat-nav audio overrides intercom on a Bold (Sept 29)"
+      ],
+      "customer_signal": "Duo-pack buyer is irritated after spending about 750 when the second unit cannot be paired, updated or seen in the app.",
+      "competitor_benchmark": "Sena owners say Cardo's named persistent groups beat Sena's unnamed groups that must be rebuilt each power cycle; Reso markets live demos of 15 Pilot Pros grouping at once.",
+      "sources": [
+        {
+          "label": "Facebook Group - Edgephones DMC group, no audio",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597490860540026/"
+        },
+        {
+          "label": "Facebook Group - Edge ORV/Edgephones duo second unit invisible",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4596293287326450/"
+        },
+        {
+          "label": "Facebook Group - replacement Edge will not pair",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594675134154932/"
+        },
+        {
+          "label": "Facebook Group - Bold cannot rejoin DMC group",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4593045474317898/"
+        },
+        {
+          "label": "Facebook Group - mixed-generation group size",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4590125664609879/"
+        },
+        {
+          "label": "Facebook Group - Garmin sat-nav overrides intercom",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4591232231165889/"
+        },
+        {
+          "label": "Facebook Group (Sena) - Cardo named groups praised",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1472456911425007/"
+        },
+        {
+          "label": "YouTube - 15-rider RESOPilot Pro group demo",
+          "url": "https://www.youtube.com/watch?v=EdLKqMZ8jPA"
+        }
+      ]
+    },
+    {
+      "title": "Real-world DMC range and battery endurance trail claims",
       "severity": "high",
       "category": "product",
-      "description": "DMC reliability is Cardo's core claim, but owner posts keep describing range far below the 1.6 km spec. One couple says their range fell from about 1 km to under 100 m after the forced 5.4 update. A Sena switcher reports voice cutting out beyond about 200 m and the group dropping at 400-500 m, and units fall back to Bluetooth and then disconnect. This week a rider added that the battery drains much faster in DMC mode even when riding alone. FortNine's earlier measurement (about 800 m versus 1.6 km claimed) and UTV Guide's inconsistent multi-vehicle Venture test show this is not only a firmware story, although 5.4 may have made it worse for some owners. To be fair, at least one owner reported better range after the update, and forum posts are not a failure rate. The risk is that Cardo's biggest differentiator becomes the thing switchers feel let down by.",
+      "description": "Owner posts keep describing mesh range and battery life well short of the spec sheet. In September, a couple said range fell from about 1 km to under 100 m after the forced 5.4 update, and a Sena switcher reported voice cutting out around 200 m and the group dropping at 400-500 m against a 1.6 km claim. Battery complaints added to that this week. One rider says the battery drains much faster in DMC mode even when riding alone. An Edge now warns low after 20-45 minutes since an update, and a lightly used three-year-old Edge fell from all-day runtime to about an hour even with a new battery. FortNine's earlier test (about 800 m versus 1.6 km claimed) shows the range gap predates 5.4, so this is partly a spec-honesty problem and partly a regression. In fairness, at least one owner reported better range after the update, and forum posts are not a measured rate. The risk is that Cardo's main differentiator becomes the thing switchers feel misled about.",
       "evidence": [
-        "Edge pair: ~1 km to under 100 m after forced 5.4 (Sept 21)",
-        "Sena switcher: voice cuts at ~200 m, group drops at 400-500 m vs 1.6 km claim",
-        "Mesh falls back to Bluetooth, then disconnects after update (Sept 19)",
-        "Battery drains much faster in DMC mode even solo (Sept 28)",
-        "UTV Guide Venture test: inconsistent multi-vehicle mesh in mountains"
+        "Edge pair: ~1 km to under 100 m after forced 5.4 (Sept)",
+        "Sena switcher: voice cuts ~200 m, group drops 400-500 m vs 1.6 km claim",
+        "Battery drains much faster in DMC even solo (Sept 28)",
+        "Edge low-battery 20-45 min into rides after update (Oct 1)",
+        "Three-year-old Edge down to ~1 hour, new battery did not help (Oct 3)",
+        "Counterexample: owner reports range improved after update"
       ],
-      "customer_signal": "\"Group dropped at 400-500 m\" from a rider who just moved from Sena, summarised in the community post.",
-      "competitor_benchmark": "ASMAX and Reso advertise even larger range figures and are also criticised for real-world shortfalls; Sena, Reso and ASMAX all add a cellular fallback (Wave, DuoSync, CloudTalk) that Packtalk lacks.",
+      "customer_signal": "Owner of a lightly used Edge asks whether these units have known discharge issues after runtime fell from all day to about an hour.",
+      "competitor_benchmark": "Sena 60S EVO markets 27h talk time; Reso markets Hotspot Range Extension and DuoSync software mesh to cover mesh dead zones.",
       "sources": [
         {
           "label": "Facebook Group - range ~1 km to under 100 m after 5.4",
@@ -326,116 +414,112 @@
           "url": "https://www.facebook.com/groups/1847605508861922/permalink/4581738952115217/"
         },
         {
-          "label": "Facebook Group - mesh drops to Bluetooth after update",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4580076168948162/"
-        },
-        {
           "label": "Facebook Group - DMC battery drain",
           "url": "https://www.facebook.com/groups/1847605508861922/permalink/4589690471320065/"
         },
         {
-          "label": "UTV Guide - Venture field test",
-          "url": "https://utvguide.net/cardo-venture-helmet-review/"
+          "label": "Facebook Group - Edge battery drain after update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594142264208219/"
         },
         {
-          "label": "Facebook Group - counterexample: range improved after update",
+          "label": "Facebook Group - three-year-old Edge battery ~1 hour",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4595885120700600/"
+        },
+        {
+          "label": "Facebook Group - counterexample: range improved",
           "url": "https://www.facebook.com/groups/1847605508861922/permalink/4566316866990759/"
+        },
+        {
+          "label": "Instagram - Reso Hotspot Range Extension demo",
+          "url": "https://www.instagram.com/p/DeC41FrCN1T/"
         }
       ]
     },
     {
-      "title": "Hardware quality complaints: Neo button mic, charging failures, casing damage",
+      "title": "Hardware quality: charging overheating, melted ports and microphone failures",
       "severity": "high",
       "category": "product",
-      "description": "This week's posts shift from software to hardware. A new Packtalk Neo owner lost the mic on calls and intercom within days while voice commands kept working. A second Neo owner fixed the same symptom by swapping the button mic for the boom mic and described a known button-mic sensitivity to voltage drops. Other owners report units that blink red three times and refuse to charge on any charger, a unit whose charging area partly melted (with the port flap missing and rain exposure), poor mic output in an Arai helmet, and last week an Edge casing cracked without impact. Cardo's IP67 rating and 3-year warranty on Edge and Pro are real strengths, but the Neo carries only 2 years, and a known mic fault on the entry mesh unit hurts the very buyers Cardo needs to win on price. ASMAX owners report similar charging failures on the S2, so this is category-wide, but Cardo charges the premium that is supposed to buy it out of that problem.",
+      "description": "Hardware complaints that began last week continued. An Edge stopped working while charging and now runs very hot on the charger, and the owner opened it and found an IC overheating. Another unit partly melted around the charging area (with the port flap missing and rain exposure). Earlier, units blinked red three times and refused to charge. Microphone faults keep recurring across models: Neo mics that die on calls and intercom while voice commands work (fixed for one owner by swapping to the boom mic), an Edge whose callers cannot hear the rider though voice commands work, and a four-year-old Bold that suddenly reports 'no mic'. A broken button rubber cover also left an owner asking where to buy the part. ASMAX owners report charging failures too, so this is not unique to Cardo, but Cardo charges a premium and a 3-year warranty on Edge/Pro that is meant to buy customers out of exactly these problems. Overheating while charging is also the kind of report that can turn into a safety story if it is mishandled.",
       "evidence": [
-        "Neo mic stops on calls/intercom, voice commands still work (Sept 24)",
-        "Neo button mic fixed by boom mic; voltage-drop sensitivity described (Sept 27)",
-        "Unit blinks red 3x and will not charge (Sept 25)",
-        "Unit partly melted while charging (Sept 28)",
-        "Edge casing cracked without impact (Sept 21)"
+        "Edge overheats on charger; owner finds hot IC (Sept 29)",
+        "Unit partly melted around charging area (Sept 28)",
+        "Edge mic fails on calls only, voice commands fine (Oct 4)",
+        "Neo mic fails on calls/intercom; boom mic workaround (Sept 24/27)",
+        "Bold suddenly 'no mic' after four trouble-free years (Oct 2)",
+        "Spare button cover not obviously purchasable (Oct 1)"
       ],
-      "customer_signal": "Neo owner describes the button-mic issue as a known sensitivity and says they will just keep using the boom mic.",
-      "competitor_benchmark": "ASMAX S2 owners report charging failures and broken housings (Sept 22-23); Sena 60S owners report a replacement unit with speaker buzz. No brand is clean, but Cardo is the priciest.",
+      "customer_signal": "Edge owner says the unit stopped working while charging and now gets very hot whenever it is charged.",
+      "competitor_benchmark": "ASMAX S2 owners also report units that stop charging; Sena's 60S EVO/60X carry a limited lifetime warranty on the main unit, versus Cardo's 2 years on Neo and 3 on Edge/Pro.",
       "sources": [
         {
-          "label": "Facebook Group - Neo mic fails on calls/intercom",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4585802885042157/"
-        },
-        {
-          "label": "Facebook Group - Neo button mic vs boom mic",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4588634691425643/"
-        },
-        {
-          "label": "Facebook Group - charging failure",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4586834824938963/"
+          "label": "Facebook Group - Edge IC overheating while charging",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4591543081134804/"
         },
         {
           "label": "Facebook Group - unit melted while charging",
           "url": "https://www.facebook.com/groups/1847605508861922/permalink/4589622561326856/"
         },
         {
-          "label": "Facebook Group - Edge casing cracked, warranty declined",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4581879805434465/"
+          "label": "Facebook Group - charging failure",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4586834824938963/"
+        },
+        {
+          "label": "Facebook Group - Edge mic fails on phone calls",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597082397247539/"
+        },
+        {
+          "label": "Facebook Group - Neo button mic vs boom mic",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4588634691425643/"
+        },
+        {
+          "label": "Facebook Group - Bold no mic fault",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594649057490873/"
+        },
+        {
+          "label": "Facebook Group - spare button cover",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594114554210990/"
         },
         {
           "label": "Facebook Group (ASMAX PH) - S2 no longer charges",
           "url": "https://www.facebook.com/groups/795939769924022/permalink/1071528449031818/"
+        },
+        {
+          "label": "Sena 60S EVO product page",
+          "url": "https://store-us.sena.com/products/60s-evo"
         }
       ]
     },
     {
-      "title": "Support, warranty and Trade-In trust are eroding together",
-      "severity": "high",
-      "category": "support",
-      "description": "Support problems are now tangled up with the Trade-In offer. An Edge owner's non-impact casing crack was refused as out of warranty. A Reddit poster called Cardo customer service \"absolute trash\" after a Pro died in month three. The owner of the post-update voice-command bug was simply told to send the unit in. This week an owner said updates had broken their old Slim's link to a new Pro and called the $130 buyback \"scammy\", which reads Trade-In as a reward for planned obsolescence. Cardo's own changelog promises first-generation units can still join mixed groups, so this is at least partly a communication and diagnosis failure rather than policy. Sena's lifetime warranty on the 60S EVO sets a public benchmark, even though its own owners say parts are not always available. If the trust story hardens, Trade-In pays to acquire customers who then post about bad experiences in public groups.",
-      "evidence": [
-        "Edge casing crack refused as expired warranty",
-        "Reddit: Pro died in month three, support 'absolute trash'",
-        "Post-update voice bug answered with 'send it in'",
-        "Slim-to-Pro compatibility loss called 'scammy' given the $130 buyback",
-        "Trade-In launched Sept 8 (US, any brand, any condition)"
-      ],
-      "customer_signal": "Owner suspects older units are being deliberately degraded and calls it scammy given the buyback program.",
-      "competitor_benchmark": "Sena 60S EVO offers a limited lifetime warranty (though a 60X owner was told a cover part was unavailable); Reso matches Cardo's 3 years on its $359 flagship.",
-      "sources": [
-        {
-          "label": "Facebook Group - Slim/Pro compatibility, buyback 'scammy'",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4587165694905876/"
-        },
-        {
-          "label": "Reddit - customer service 'absolute trash'",
-          "url": "https://www.reddit.com/r/motorcyclegear/comments/1wgi9xu/cardo_customer_service_experience_absolute_trash/"
-        },
-        {
-          "label": "Facebook Group - Edge casing cracked, warranty declined",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4581879805434465/"
-        },
-        {
-          "label": "Cardo blog - Trade-In program",
-          "url": "https://cardosystems.com/blogs/cardo-blog/trade-in-your-old-comms-ride-with-packtalk"
-        },
-        {
-          "label": "Facebook Group (Sena) - 60X cover unavailable despite lifetime warranty",
-          "url": "https://www.facebook.com/groups/860066485997389/permalink/1460685899268775/"
-        }
-      ]
-    },
-    {
-      "title": "Mid-tier price exposure: Neo at $320 vs Sena 50S at $275 and Reso Neo at $269",
+      "title": "Flagship price exposure: Sena 60S at $350 vs Edge $396 and Pro $450, plus no Cardo mesh under $300",
       "severity": "high",
       "category": "pricing",
-      "description": "Cardo's cheapest motorcycle mesh unit, the Packtalk Neo, lists at $359.95 and sells at $319.99 on Amazon this week. Sena's 50S fell to $275.05 on Amazon (-27% off $379), Sena's mesh-only Spider X Slim is $299, Reso's Pilot Neo is $269 on Amazon and DTC, and ASMAX sells mesh units from about $80 (S1) upward. The Freecom and Spirit lines below the Neo are Bluetooth-only, so a rider with a $300 mesh budget cannot buy Cardo except during promotions like the late-August 30% Labor Day deal. Sena is using an older platform to hold that price point, and Reso is using paid US creators to take it. HJC PACKTALK at $419.95 is a good product but does nothing for this gap.",
+      "description": "The mid-tier fight eased this week. Sena's 50S deal faded to $329.03 and the Neo is back at $323.96, so the Neo is now about $5 cheaper than the 50S rather than $45 more expensive. The pressure moved up the line instead. Sena's 60S fell to $349.97 on Amazon (20% off $439), and it includes Wave cellular intercom, a feature no Packtalk has today, for $46 less than the Edge ($395.96) and about $100 less than the Pro ($449.95). Below $300 the structural hole is unchanged: Reso's Pilot Neo ($269), Sena's Spider X Slim ($299) and ASMAX's mesh range (S1 from about $80) all compete there, while Cardo's units under the Neo (Freecom, Spirit) are Bluetooth-only. With ASMAX running Prime Big Deal Days on October 6-7 and the holiday season ahead, Cardo is exposed at both ends of the line.",
       "evidence": [
-        "Neo $319.99 Amazon (MSRP $359.95)",
-        "Sena 50S $275.05 Amazon (-27% off $379)",
-        "Sena Spider X Slim $299 (mesh-only)",
-        "Reso Pilot Neo $269 (Amazon.com, Prime)",
-        "ASMAX S1 $79.79 street (mesh + Bluetooth)"
+        "Sena 60S $349.97 Amazon (-20% off $439), Wave included",
+        "Packtalk Edge $395.96, Pro $449.95 street",
+        "Sena 50S $329.03 vs Packtalk Neo $323.96 (Oct 5)",
+        "Reso Pilot Neo $269; Sena Spider X Slim $299; ASMAX S1 ~$80",
+        "ASMAX Prime Big Deal Days promotions Oct 6-7"
       ],
-      "customer_signal": "Australian buyer waiting for a Cardo sale is told Amazon is the cheapest route (two Packtalk Pros for A$515) - buyers are timing Cardo purchases around discounts.",
-      "competitor_benchmark": "Sena 50S at $275 and Reso Pilot Neo at $269 both offer mesh with long spec sheets at $45-50 below Neo street.",
+      "customer_signal": "Buyers are timing Cardo purchases around sales; an Australian rider waiting for a Cardo sale was told Amazon was the cheapest route.",
+      "competitor_benchmark": "Sena 60S at $349.97 with Wave and Sena's lifetime-warranty 60S EVO at $459 frame Cardo's Edge/Pro as the most expensive flagships in the market.",
       "sources": [
+        {
+          "label": "Sena 60S product page",
+          "url": "https://store-us.sena.com/products/60s"
+        },
+        {
+          "label": "Sena store products feed - weekly crawl",
+          "url": "https://store-us.sena.com/products.json?limit=250"
+        },
+        {
+          "label": "Cardo Packtalk Edge product page",
+          "url": "https://cardosystems.com/products/packtalk-edge"
+        },
+        {
+          "label": "Cardo Packtalk Pro product page",
+          "url": "https://cardosystems.com/products/packtalk-pro"
+        },
         {
           "label": "Cardo Packtalk Neo product page",
           "url": "https://cardosystems.com/products/packtalk-neo"
@@ -445,12 +529,12 @@
           "url": "https://store-us.sena.com/products/50s-10"
         },
         {
-          "label": "Sena Spider X Slim product page",
-          "url": "https://store-us.sena.com/products/spider-x-slim"
+          "label": "Reso Pilot Neo product page",
+          "url": "https://resopilot.com/products/resopilot_neo"
         },
         {
-          "label": "Amazon.com - RESOPILOT official store",
-          "url": "https://www.amazon.com/stores/RESOPILOT/page/3252F791-4F79-485C-9DE9-C72BDB4BDAAD"
+          "label": "Sena Spider X Slim product page",
+          "url": "https://store-us.sena.com/products/spider-x-slim"
         },
         {
           "label": "ASMAX S1 product page",
@@ -463,18 +547,65 @@
       ]
     },
     {
+      "title": "Support, warranty and Trade-In trust are eroding together",
+      "severity": "high",
+      "category": "support",
+      "description": "Support friction keeps showing up as public frustration in Cardo's own community. An Edge owner's non-impact casing crack was refused as out of warranty. A Reddit poster called customer service 'absolute trash' after a Pro died in month three. Last week an owner called the $130 Trade-In buyback 'scammy' after their old Slim stopped connecting to a new Pro, even though the 5.4 changelog says first-generation units can still join mixed groups. This week a rider who bought a replacement Edge after losing one to a broken mount says they are fed up because it will not pair, a duo-pack buyer is irritated at about 750 spent on units that will not set up, and an owner cannot find where to buy a spare button cover. None of these is a policy failure on its own, but together they show a gap in self-service diagnosis, parts availability and setup help. Sena's lifetime warranty on the 60S EVO and 60X sets a public benchmark, although its own owners say parts are not always available.",
+      "evidence": [
+        "Edge casing crack refused as out of warranty (Sept)",
+        "Reddit: Pro died in month three, support 'absolute trash'",
+        "Slim-to-Pro compatibility loss called 'scammy' given $130 buyback (Sept 26)",
+        "Replacement Edge will not pair; owner 'fed up' (Oct 2)",
+        "Spare button cover availability question (Oct 1)",
+        "Trade-In launched Sept 8 (US, any brand, any condition)"
+      ],
+      "customer_signal": "Owner suspects older units are being deliberately degraded and calls the buyback program scammy.",
+      "competitor_benchmark": "Sena 60S EVO and 60X carry a limited lifetime warranty on the main unit, though a 60X owner reports a replacement cover was unavailable.",
+      "sources": [
+        {
+          "label": "Facebook Group - Edge casing cracked, warranty declined",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4581879805434465/"
+        },
+        {
+          "label": "Reddit - customer service 'absolute trash'",
+          "url": "https://www.reddit.com/r/motorcyclegear/comments/1wgi9xu/cardo_customer_service_experience_absolute_trash/"
+        },
+        {
+          "label": "Facebook Group - Slim/Pro compatibility, buyback 'scammy'",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4587165694905876/"
+        },
+        {
+          "label": "Facebook Group - replacement Edge will not pair",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594675134154932/"
+        },
+        {
+          "label": "Facebook Group - spare button cover",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594114554210990/"
+        },
+        {
+          "label": "Cardo blog - Trade-In program",
+          "url": "https://cardosystems.com/blogs/cardo-blog/trade-in-your-old-comms-ride-with-packtalk"
+        },
+        {
+          "label": "Facebook Group (Sena) - 60X cover unavailable despite lifetime warranty",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1460685899268775/"
+        }
+      ]
+    },
+    {
       "title": "Cellular Intercom ships for cyclists but still not for Packtalk riders",
       "severity": "high",
       "category": "product",
-      "description": "Cardo announced VoIP Cellular Intercom for the second-generation Packtalk line in November 2024 as part of Mesh-Boost. The August 17, 2026 firmware 5.4 changelog delivered 31-rider DMC groups, Public Mesh and Remote Grouping, but not Cellular Intercom, so Packtalk riders do not have it today. Cardo does ship the technology in cycling products: Lazer VeloVox and now SYNC, whose launch firmware 3.11 lists Cellular Intercom for up to 30 riders and which already has a 3.12 follow-up. Sena (Wave), Reso (DuoSync) and ASMAX (CloudTalk) all sell an unlimited-range cellular option on motorcycle units, and Living Off The Slab's Reso review specifically tested DuoSync range against Cardo mesh. Cardo either delivers the promise on Packtalk or retires it openly. Leaving it implied, as some Cardo materials still do, is a credibility risk every time a reviewer checks the changelog.",
+      "description": "Cardo announced VoIP Cellular Intercom for the second-generation Packtalk line in November 2024 as part of Mesh-Boost. The August 17, 2026 firmware 5.4 changelog delivered 31-rider DMC groups, Public Mesh and Remote Grouping, but not Cellular Intercom, and Packtalk has had no firmware since, so Packtalk riders do not have it today. Within Cardo's catalog, only the cycling SYNC unit lists Cellular Intercom in its own changelog (launch firmware 3.11, up to 30 riders), and it already has a 3.12 follow-up. Every competitor sells a cellular option on motorcycle units: Sena Wave (now on a $349.97 60S), Reso's DuoSync software mesh over a phone hotspot or cellular, and ASMAX CloudTalk. Leaving the promise implied is a credibility risk every time a reviewer checks the changelog. It also gives Sena a clean feature-for-feature argument against the Edge and Pro at a lower price.",
       "evidence": [
         "Nov 2024: Cellular Intercom announced for 2nd-gen Packtalk as part of Mesh-Boost",
         "Aug 17, 2026: 5.4 changelog has DMC 31 riders, Public Mesh, Remote Grouping - no Cellular Intercom",
-        "Sept 15: SYNC launches with Cellular Intercom (fw 3.11)",
+        "No Packtalk firmware since 5.4 as of Oct 5",
+        "SYNC 3.11 changelog lists Cellular Intercom for up to 30 riders (cycling)",
         "Sena Wave, Reso DuoSync, ASMAX CloudTalk ship on motorcycle units"
       ],
       "customer_signal": null,
-      "competitor_benchmark": "Sena 60S and smart helmets include Wave cellular intercom; Reso's DuoSync was a focus of the Sept 16 'Cardo Killer?' US review.",
+      "competitor_benchmark": "Sena's 60S, now $349.97 on Amazon, includes Wave cellular intercom; Reso markets DuoSync and Hotspot Range Extension for dead zones.",
       "sources": [
         {
           "label": "CycleNews - Mesh-Boost announcement (Nov 2024)",
@@ -485,7 +616,7 @@
           "url": "https://cardosystems.com/blogs/cardo-blog/mesh-boost-more-riders-more-adventures-more-stories-to-tell"
         },
         {
-          "label": "Cardo SYNC release notes (3.11 Cellular Intercom)",
+          "label": "Cardo SYNC release notes",
           "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
         },
         {
@@ -493,44 +624,103 @@
           "url": "https://store-us.sena.com/products/60s"
         },
         {
-          "label": "YouTube - Living Off The Slab Reso DuoSync test",
-          "url": "https://www.youtube.com/watch?v=aO9tk6jrKDs"
+          "label": "Instagram - Reso Hotspot Range Extension demo",
+          "url": "https://www.instagram.com/p/DeC41FrCN1T/"
         }
       ]
     },
     {
-      "title": "Phone and app connectivity plus Public Mesh privacy friction",
+      "title": "Intercom voice clarity at speed and audio tuning are becoming comparison points",
       "severity": "medium",
-      "category": "software",
-      "description": "A cluster of phone-side problems suggests Cardo's app and device-pairing QA is not keeping pace with new phones. An Edge owner on an iPhone 16 could not get Cardo Connect to connect despite resets, reinstalls, a PC firmware update and new accounts, while an Android phone paired instantly in-store; they are considering a return. A Galaxy S26 Ultra owner cannot get reliable navigation prompts through an Edge. On the privacy side, a new owner says the group hears both sides of their phone calls, and Public Mesh users keep asking how to stop hearing every passing rider. Sena's own app sits at 2.1/5 on the App Store, so Cardo is not behind here, but these are first-week experiences that decide whether a new or Trade-In customer keeps the unit.",
+      "category": "product",
+      "description": "Sound by JBL and loud volume are genuine Cardo strengths, and owners still say so; one Reddit commenter says Cardo is loud enough to hear through earplugs. The intercom voice path is drawing complaints, though. A Packtalk Pro rider in a full-face helmet is unintelligible to others above about 40 mph with either mic, an Edge user's intercom stays too quiet even when music is loud, and an Edge refitted into a new helmet now sounds tinny. Separately, a long-time Cardo owner with a family on Pro, Neo and Edge is weighing Reso on sound quality, and a commenter called Cardo 'terrible for music'. Sena's 60S owners report the same speed-related degradation over Bluetooth intercom, so this is a category problem. That makes it an opportunity: Sena markets Sound by Bose and Reso posts noise-cancellation tests, so the brand that publicly fixes intercom clarity at highway speed owns a claim rivals are already contesting.",
       "evidence": [
-        "iPhone 16 cannot connect to Cardo app; Android pairs instantly (Sept 27)",
-        "Galaxy S26 Ultra nav prompts unreliable on Edge (Sept 22)",
-        "Phone calls audible to the whole group (Sept 26)",
-        "Public Mesh: how to stop hearing every rider (Sept 20)"
+        "Pro mic unintelligible above ~40 mph, boom or button (Oct 1)",
+        "Edge intercom too quiet though music is loud (Oct 4)",
+        "Edge tinny after helmet reinstall; spacers suggested (Oct 1)",
+        "Long-time Cardo owner weighing Reso on sound (Sept 28)",
+        "Counterpoint: Cardo loud enough through earplugs (Sept 29)",
+        "Sena 60S Bluetooth intercom robotic above ~40 mph (Oct 4)"
       ],
-      "customer_signal": "iPhone 16 owner says open mesh works only intermittently and they are considering returning the Edge.",
-      "competitor_benchmark": "Sena Motorcycles app rated 2.1/5 with pairing-loop complaints; Sena's Sept 9 helmet firmware added phone-on-hold handling for a second phone's call.",
+      "customer_signal": "Pro owner says friends on the same system sound clear, but above about 40 mph nobody can understand him.",
+      "competitor_benchmark": "Sena 60S EVO sells on Sound by Bose; Reso posts a helicopter noise-cancellation test; Sena's own 60S owners report robotic intercom above 40 mph.",
       "sources": [
         {
-          "label": "Facebook Group - iPhone 16 app will not connect",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4589256568030122/"
+          "label": "Facebook Group - Pro mic garbled above 40 mph",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594103967545382/"
         },
         {
-          "label": "Reddit - Edge and Android nav prompts",
-          "url": "https://www.reddit.com/r/motorcycles/comments/1wnnlep/any_body_epse_have_issues_with_cardo_and_android/"
+          "label": "Facebook Group - Edge intercom too quiet",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597234037232375/"
         },
         {
-          "label": "Facebook Group - phone calls audible to group",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4587261311562981/"
+          "label": "Facebook Group - tinny sound after reinstall",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594233820865730/"
         },
         {
-          "label": "Facebook Group - Public Mesh unwanted chatter",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4580531118902667/"
+          "label": "Reddit - Cardo owner weighing Reso on sound",
+          "url": "https://www.reddit.com/r/motorcyclegear/comments/1ws88dx/i_looked_first_cardo_vs_reso_pilot/"
         },
         {
-          "label": "Sena Motorcycles app - App Store (2.1/5)",
-          "url": "https://apps.apple.com/us/app/sena-motorcycles/id1575310271"
+          "label": "Reddit - Cardo loud through earplugs",
+          "url": "https://www.reddit.com/r/motorcyclegear/comments/1wtb9ff/ear_protection/"
+        },
+        {
+          "label": "Facebook Group (Sena) - 60S Bluetooth intercom drops above 40 mph",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1483745420296156/"
+        },
+        {
+          "label": "Instagram - Sena 60S EVO Sound by Bose promo",
+          "url": "https://www.instagram.com/p/DduKS_LCH1y/"
+        },
+        {
+          "label": "YouTube - RESOPilot helicopter noise test",
+          "url": "https://www.youtube.com/watch?v=hwfu26PvEa8"
+        }
+      ]
+    },
+    {
+      "title": "Smart-helmet execution: Venture delivered, Beyond still undated and unpriced",
+      "severity": "medium",
+      "category": "gtm",
+      "description": "The integrated-helmet story improved this week, because Venture now shows all five sizes available at $799.95 on Cardo's store, and HJC PACKTALK launched across 15 HJC models on September 23. The flagship is still the problem. Beyond GT/GTS has no product listing, price or ship date on cardosystems.com, only a 'Keep me updated' signup. SlashGear calls it unreleased after slipping from summer to 'late 2026', while one US retailer takes paid preorders with a 'Fall 2026' estimate, and GTS prices of $1,199 and $1,299 are both in circulation. Harley-Davidson-branded and Schuberth devices were excluded from 5.4, with Mesh Boost support promised for Q4. Sena runs 10 smart-helmet families with coordinated firmware and ASMAX is pre-marketing a touchscreen RoamX, so every Beyond slip cedes the premium integrated narrative.",
+      "evidence": [
+        "Venture: all sizes XS-XL available at $799.95 (Oct 5)",
+        "HJC PACKTALK launched Sept 23 ($419.95, 15 HJC models)",
+        "Beyond page: signup only, no price or date (Oct 5)",
+        "Retailer preorders with 'Fall 2026' estimate; $1,199 vs $1,299 GTS in circulation",
+        "H-D and Schuberth devices excluded from 5.4, Q4 target"
+      ],
+      "customer_signal": "Harley-branded Edge owner reported the unit cannot take the latest firmware.",
+      "competitor_benchmark": "Sena ships 10 smart-helmet families with coordinated firmware (Sept 9 release across three); ASMAX distributor bills RoamX as the 'World's First Touchscreen Intercom'.",
+      "sources": [
+        {
+          "label": "Cardo Venture product page",
+          "url": "https://cardosystems.com/products/venture"
+        },
+        {
+          "label": "Cardo Beyond page",
+          "url": "https://cardosystems.com/pages/beyond"
+        },
+        {
+          "label": "SlashGear - Beyond still unreleased",
+          "url": "https://www.slashgear.com/2264117/cardo-helmet-price-how-much-cost-beyond-options-coming/"
+        },
+        {
+          "label": "Superbike News - HJC PACKTALK launch",
+          "url": "https://superbike-news.co.uk/cardo-systems-and-hjc-helmets-introduce-hjc-packtalk/"
+        },
+        {
+          "label": "Powersports Business - Q4 H-D/Schuberth timing",
+          "url": "https://powersportsbusiness.com/news/distributors-aftermarket/2026/08/27/new-cardo-update-expands-group-connectivity-for-packtalk-users/"
+        },
+        {
+          "label": "Facebook Group - Harley-branded Edge cannot update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565957293693383/"
+        },
+        {
+          "label": "ASMAX Malaysia Instagram - RoamX touchscreen",
+          "url": "https://www.instagram.com/asmax.malaysia/"
         }
       ]
     },
@@ -538,16 +728,16 @@
       "title": "No mesh-level answer to cross-brand group riding",
       "severity": "medium",
       "category": "product",
-      "description": "Mixed-brand groups are the norm, and the demand for interoperability now comes from both sides. A prospective Sena 60S EVO buyer hesitates because local riders use Cardo and asks if Sena can join Cardo mesh. A HOG chapter asks how to put 50S and Cardo riders in one mesh. A Pack Talk Pro owner worries that bridging to a Sena unit will cost one of two Bluetooth links. Cardo's answer today is Universal Bluetooth bridging, which works but is limited (a Sena club found Sena-to-Cardo pairing \"surprisingly\" good). Sena, however, sells MeshON, a Bluetooth-to-Mesh bridge that pulls other brands' headsets into Sena mesh. Whoever makes cross-brand groups easy captures the next group purchase, and Cardo currently has no mesh-level answer.",
+      "description": "Mixed-brand groups are the norm, and demand for interoperability comes from both sides of the market. A prospective Sena 60S EVO buyer hesitates because local riders use Cardo and asks whether Sena can join Cardo mesh. A HOG chapter wants 50S and Cardo riders in one mesh, and a Pack Talk Pro owner worries that bridging a Sena unit will cost one of two Bluetooth links. Cardo's answer today is Universal Bluetooth bridging, which a Sena club found works surprisingly well but which caps group size and quality. Sena sells MeshON, a Bluetooth-to-Mesh bridge that pulls other brands into Sena mesh, and ASMAX's new MAXRUNON K6 advertises cross-brand connection. Whoever makes cross-brand groups painless captures the next group purchase decision, and Cardo has no mesh-level product for it.",
       "evidence": [
         "Sena buyer asks whether Sena can join Cardo mesh (Sept 27)",
         "HOG chapter mixing 60S, 50S and Cardo (Sept 20)",
-        "Pro owner worried Sena bridge costs a Bluetooth link (Sept 21)",
+        "Pro owner worried a Sena bridge costs a Bluetooth link (Sept 21)",
         "Sena MeshON bridge adapter ($129)",
-        "Reddit commenter says ASMAX pairs with Cardo and Sena too"
+        "ASMAX MAXRUNON K6 lists cross-brand connection (Oct 5)"
       ],
       "customer_signal": "Sena 60S EVO shopper: most local riders use Cardo, and Bluetooth bridging feels too limited.",
-      "competitor_benchmark": "Sena MeshON brings any Bluetooth headset into Sena mesh; Cardo's named persistent groups are praised by Sena owners but only work inside DMC.",
+      "competitor_benchmark": "Sena MeshON brings any Bluetooth headset into Sena mesh; Cardo's named persistent groups are praised by Sena owners but work only inside DMC.",
       "sources": [
         {
           "label": "Facebook Group (Sena) - buyer asks for Cardo mesh interop",
@@ -570,36 +760,36 @@
           "url": "https://store-us.sena.com/products/meshon"
         }
       ]
-    },
+    }
+  ],
+  "recommendations": [
     {
-      "title": "Smart-helmet and OEM execution: Beyond slipping, H-D/Schuberth updates pending",
-      "severity": "medium",
-      "category": "gtm",
-      "description": "Cardo's integrated-helmet strategy has a strong new entry, HJC PACKTALK launched September 23 across 15 HJC models, but its flagship keeps slipping. SlashGear reports Beyond GT/GTS still unreleased in late September after moving from summer to \"late 2026\", and the GTS price in circulation varies between $1,199 and $1,299 across press and retailer coverage. Harley-Davidson-branded and Schuberth devices were excluded from 5.4, with support expected in Q4 2026, and an owner reported last week that a Harley-branded Edge cannot take the latest firmware. Sena, meanwhile, runs 10 smart-helmet families and pushed a coordinated firmware release to three of them on September 9, plus a co-developed BMW unit. Each slip teaches the market that Cardo helmet dates are soft, right as Sena and ASMAX (RoamX) compete for the premium integrated slot.",
-      "evidence": [
-        "HJC PACKTALK launched Sept 23 ($419.95, 15 HJC models)",
-        "Beyond still unreleased late Sept; $1,199 vs $1,299 in circulation",
-        "H-D and Schuberth devices excluded from 5.4, Q4 target",
-        "Sena v1.x.11 firmware across Outlander, Specter, Phantom (Sept 9)"
+      "priority": 1,
+      "horizon": "now",
+      "title": "Ship a named 5.4.x Packtalk release with real notes within 30 days",
+      "rationale": "Seven weeks after Mesh Boost GA, owners are still posting new post-update failures: group intercom that will not connect over Bluetooth or mesh (Oct 2), Edge battery warnings 20-45 minutes into rides (Oct 1) and Hey Cardo that stopped responding (Sept 30). Cardo has shown it can ship quickly, since SYNC went from 3.11 to 3.12 in under two weeks, so the delay reflects priorities, not capability. Sena's September 9 firmware notices itemize every fix, and that is the bar owners compare against. A 5.4.x whose notes name group connection, battery drain in DMC, voice commands and music-plus-intercom is the cheapest way to stop the 'updates break things' narrative before holiday buyers read the forums.",
+      "expected_impact": "Stops the main complaint stream in the official community, gives support a concrete answer, and protects Trade-In and holiday conversion.",
+      "effort": "medium",
+      "addresses_gaps": [
+        "Firmware 5.4 regressions remain unpatched seven weeks after Mesh Boost GA",
+        "Real-world DMC range and battery endurance trail claims"
       ],
-      "customer_signal": "Harley-branded Edge owner reports the unit cannot take the latest firmware.",
-      "competitor_benchmark": "Sena ships 10 smart-helmet families with regular firmware and a BMW co-developed intercom; ASMAX previewed RoamX with a display.",
       "sources": [
         {
-          "label": "SlashGear - Beyond still unreleased",
-          "url": "https://www.slashgear.com/2264117/cardo-helmet-price-how-much-cost-beyond-options-coming/"
+          "label": "Facebook Group - group intercom broken since update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594711057484673/"
         },
         {
-          "label": "Superbike News - HJC PACKTALK launch",
-          "url": "https://superbike-news.co.uk/cardo-systems-and-hjc-helmets-introduce-hjc-packtalk/"
+          "label": "Facebook Group - Edge battery drain after update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594142264208219/"
         },
         {
-          "label": "Powersports Business - Mesh Boost and Q4 H-D/Schuberth timing",
-          "url": "https://powersportsbusiness.com/news/distributors-aftermarket/2026/08/27/new-cardo-update-expands-group-connectivity-for-packtalk-users/"
+          "label": "Facebook Group - Hey Cardo stopped after update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4592860931003019/"
         },
         {
-          "label": "Facebook Group - Harley-branded Edge cannot update",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4565957293693383/"
+          "label": "Cardo SYNC release notes",
+          "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
         },
         {
           "label": "Sena notice - Phantom family v1.2.11",
@@ -608,184 +798,132 @@
       ]
     },
     {
-      "title": "Music audio quality is becoming a switching reason",
-      "severity": "medium",
-      "category": "product",
-      "description": "Sound by JBL is listed as a Cardo strength, but music quality is showing up as a reason to leave. On Reddit this week, a long-time Cardo owner with a family on Pro, Neo and Edge says they are unhappy with sound quality even with 45 mm speakers and is comparing Reso Pilot. In a separate thread, a commenter says Cardo is \"terrible for music\" and that even wired IEMs through a Cardo sound worse than noise-cancelling earbuds, while another commenter in the same thread recommends ASMAX for sound. A Packtalk Pro owner using Loop earplugs says audio is not loud enough. Sena is marketing the 60S EVO's Sound by Bose aggressively, so if audio quality stops being a Cardo advantage, the premium price has less to justify it.",
-      "evidence": [
-        "Long-time Cardo owner unhappy with sound, weighing Reso (Sept 28)",
-        "'Cardo is terrible for music' comment (Sept 27)",
-        "Pro owner with earplugs: not loud enough, VOX unreliable (Sept 25)",
-        "Sena 60S EVO 'Sound by Bose' promo (Sept 25)"
-      ],
-      "customer_signal": "Long-time Cardo fan: has loved Cardo but is unhappy with sound quality even with 45 mm speakers.",
-      "competitor_benchmark": "Sena 60S EVO sells on Sound by Bose; ASMAX uses Bongiovi tuning and is recommended for sound by a Reddit commenter.",
-      "sources": [
-        {
-          "label": "Reddit - Cardo owner weighing Reso on sound",
-          "url": "https://www.reddit.com/r/motorcyclegear/comments/1ws88dx/i_looked_first_cardo_vs_reso_pilot/"
-        },
-        {
-          "label": "Reddit - Cardo for music only?",
-          "url": "https://www.reddit.com/r/motorcycles/comments/1wrsvud/should_i_get_cardo_if_im_only_going_to_use_it_to/"
-        },
-        {
-          "label": "Facebook Group - Pro low volume, VOX unreliable",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4586057861683326/"
-        },
-        {
-          "label": "Instagram - Sena 60S EVO Sound by Bose promo",
-          "url": "https://www.instagram.com/p/DduKS_LCH1y/"
-        }
-      ]
-    }
-  ],
-  "recommendations": [
-    {
-      "priority": 1,
-      "horizon": "now",
-      "title": "Ship a named 5.4.x Packtalk release with real notes within 30 days",
-      "rationale": "Six weeks after Mesh Boost GA, owners are still reporting broken music-plus-intercom, CarPlay-while-meshing and Garmin conflicts, and this week added a post-update voice-command bug and a Slim that can no longer connect to a Pro. Cardo has shown it can ship fast: SYNC went from 3.11 to 3.12 in under two weeks. Sena's September 9 helmet firmware names its music-plus-mesh and reconnection fixes line by line. A 5.4.x that names its fixes (simultaneous use, range, voice commands, first-generation group joining) and states whether DMC range was changed is the cheapest way to stop the 'updates break things' narrative.",
-      "expected_impact": "Stops the main complaint stream in the official community and gives support something concrete to point to; protects Trade-In conversion.",
-      "effort": "medium",
-      "addresses_gaps": [
-        "Firmware 5.4 regressions remain unpatched six weeks after Mesh Boost GA",
-        "Real-world DMC range and mesh battery life trail claims"
-      ],
-      "sources": [
-        {
-          "label": "Facebook Group - music and intercom no longer simultaneous",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4573305902958522/"
-        },
-        {
-          "label": "Facebook Group - Pro voice command bug after update",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4584465111842601/"
-        },
-        {
-          "label": "Cardo SYNC release notes",
-          "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
-        },
-        {
-          "label": "Sena notice - Outlander v1.0.11",
-          "url": "https://www.sena.com/en-us/stories/notice/sena-releases-firmware-updates-for-the-outlander-v1-0-11/"
-        }
-      ]
-    },
-    {
       "priority": 2,
       "horizon": "now",
-      "title": "Open an advance-replacement lane for Neo mic and charging failures",
-      "rationale": "Two Neo owners this week describe the same fault: the mic dies on calls and intercom while voice commands still work. One says the button mic is known to be sensitive to voltage drops and that the boom mic fixes it. Charging failures (three red blinks) and a partly melted unit also surfaced. Cardo should publish the boom-mic workaround, have support triage by these symptoms, and ship replacements before collecting the failed units, so a known fault on the entry mesh unit does not become a return and a public post.",
-      "expected_impact": "Lower return rate on the Neo, fewer public complaints from new buyers, and field-failure data for the quality team.",
+      "title": "Fix first-week DMC onboarding: guided pairing for Edgephones/ORV, a mixed-generation matrix and a setup hotline",
+      "rationale": "This week brought four separate setup failures: an Edgephones group with no audio, an Edge ORV/Edgephones duo whose second unit the app cannot see, a replacement Edge that will not pair, and a Bold that cannot rejoin a DMC group, while another admin asked what the group limit is with mixed firmware generations. These buyers are at the point of deciding on a return, and Sena owners already praise Cardo's named groups, so the design is right and the onboarding is what fails. Add a step-by-step 'add second device' flow in Cardo Connect that checks firmware on both units first, and publish a compatibility matrix by generation and firmware. Give first-week buyers a support callback within 24 hours.",
+      "expected_impact": "Fewer first-month returns on Edgephones, Edge ORV and Trade-In units, and fewer public 'fed up' posts from new buyers.",
       "effort": "medium",
       "addresses_gaps": [
-        "Hardware quality complaints: Neo button mic, charging failures, casing damage",
+        "First-week DMC setup and pairing fails for new, replacement and mixed-generation units",
         "Support, warranty and Trade-In trust are eroding together"
       ],
       "sources": [
         {
-          "label": "Facebook Group - Neo mic fails on calls/intercom",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4585802885042157/"
+          "label": "Facebook Group - Edgephones DMC group, no audio",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597490860540026/"
         },
         {
-          "label": "Facebook Group - Neo button mic vs boom mic",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4588634691425643/"
+          "label": "Facebook Group - Edge ORV/Edgephones duo second unit invisible",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4596293287326450/"
         },
         {
-          "label": "Facebook Group - charging failure",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4586834824938963/"
+          "label": "Facebook Group - replacement Edge will not pair",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594675134154932/"
         },
         {
-          "label": "Facebook Group - unit melted while charging",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4589622561326856/"
+          "label": "Facebook Group - mixed-generation group size",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4590125664609879/"
+        },
+        {
+          "label": "Cardo blog - Trade-In program",
+          "url": "https://cardosystems.com/blogs/cardo-blog/trade-in-your-old-comms-ride-with-packtalk"
         }
       ]
     },
     {
       "priority": 3,
       "horizon": "now",
-      "title": "Make Trade-In trustworthy: publish a compatibility matrix and a goodwill warranty rule",
-      "rationale": "An owner now describes Trade-In as a reward for degrading old units after their Slim lost its link to a new Pro, even though the 5.4 changelog promises first-generation units can still join mixed groups. Add a compatibility page to the Trade-In landing page that states which older units work with which new ones and how. Pair it with a published goodwill rule for non-impact casing cracks like the one refused last week. Trade-In is a good acquisition tool, and it only needs one viral 'planned obsolescence' thread to backfire.",
-      "expected_impact": "Neutralises the obsolescence narrative before it spreads, and reduces warranty disputes that become public posts.",
-      "effort": "low",
+      "title": "Open an advance-replacement lane for charging and microphone faults, and investigate the overheating reports",
+      "rationale": "An Edge that overheats on the charger with a visibly hot IC (Sept 29) and a unit that partly melted near the charging port (Sept 28) are reports that quality engineering should pull units for, not ones support should answer with 'send it in'. Microphone faults recur across Neo, Edge and Bold: mics that fail on calls while voice commands work, and a sudden 'no mic' error. One Neo owner found the boom mic fixes it, a workaround Cardo should publish. Ship replacements before collecting failed units for these named symptoms, and stock spare parts like button covers on the web store.",
+      "expected_impact": "Contains a potential safety story, cuts returns on the entry mesh unit, and produces field-failure data for the hardware team.",
+      "effort": "medium",
       "addresses_gaps": [
-        "Support, warranty and Trade-In trust are eroding together",
-        "Firmware 5.4 regressions remain unpatched six weeks after Mesh Boost GA"
+        "Hardware quality: charging overheating, melted ports and microphone failures",
+        "Support, warranty and Trade-In trust are eroding together"
       ],
       "sources": [
         {
-          "label": "Facebook Group - Slim/Pro compatibility, buyback 'scammy'",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4587165694905876/"
+          "label": "Facebook Group - Edge IC overheating while charging",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4591543081134804/"
         },
         {
-          "label": "Cardo blog - Trade-In program",
-          "url": "https://cardosystems.com/blogs/cardo-blog/trade-in-your-old-comms-ride-with-packtalk"
+          "label": "Facebook Group - unit melted while charging",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4589622561326856/"
         },
         {
-          "label": "Cardo blog - Mesh Boost GA changelog",
-          "url": "https://cardosystems.com/blogs/cardo-blog/mesh-boost-more-riders-more-adventures-more-stories-to-tell"
+          "label": "Facebook Group - Edge mic fails on phone calls",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597082397247539/"
         },
         {
-          "label": "Facebook Group - Edge casing cracked, warranty declined",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4581879805434465/"
+          "label": "Facebook Group - Neo button mic vs boom mic",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4588634691425643/"
+        },
+        {
+          "label": "Facebook Group - spare button cover",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594114554210990/"
         }
       ]
     },
     {
       "priority": 4,
       "horizon": "now",
-      "title": "Defend the $300 line: hold Packtalk Neo at or below $299 street through the holidays",
-      "rationale": "The Sena 50S dropped to $275.05 on Amazon this week, while the Neo sits at $319.99 and Reso's Pilot Neo at $269. Riders are already timing Cardo purchases around sales, and the late-August 30% promotion showed the Neo can move at a lower price. A planned Q4 Neo price at or below $299, combined with the Trade-In credit, closes most of the gap without touching the Pro and Edge price architecture.",
-      "expected_impact": "Keeps Cardo in the consideration set for $300-budget mesh buyers during peak gifting season, and blunts Reso's US creator push.",
+      "title": "Answer the $350 Sena 60S with an Edge holiday offer, not a list-price cut; hold the Neo at $323.96",
+      "rationale": "The Neo no longer needs an emergency cut: it sits at $323.96 against a 50S that faded to $329.03, while the new exposure is the 60S at $349.97 with Wave, $46 under the Edge and about $100 under the Pro. A list-price cut would reset Cardo's price architecture, but a time-boxed holiday Edge bundle (for example, Edge plus accessories or a stacked Trade-In credit) answers the 60S on effective price with list prices intact. ASMAX's Prime Big Deal Days push (October 6-7) is a reminder that Amazon shoppers will compare on net price this month.",
+      "expected_impact": "Keeps the Edge in the consideration set against the discounted 60S through the holidays without damaging MSRP integrity.",
       "effort": "low",
       "addresses_gaps": [
-        "Mid-tier price exposure: Neo at $320 vs Sena 50S at $275 and Reso Neo at $269"
+        "Flagship price exposure: Sena 60S at $350 vs Edge $396 and Pro $450, plus no Cardo mesh under $300"
       ],
       "sources": [
         {
+          "label": "Sena 60S product page",
+          "url": "https://store-us.sena.com/products/60s"
+        },
+        {
           "label": "Sena 50S product page",
           "url": "https://store-us.sena.com/products/50s-10"
+        },
+        {
+          "label": "Cardo Packtalk Edge product page",
+          "url": "https://cardosystems.com/products/packtalk-edge"
         },
         {
           "label": "Cardo Packtalk Neo product page",
           "url": "https://cardosystems.com/products/packtalk-neo"
         },
         {
-          "label": "Amazon.com - RESOPILOT official store",
-          "url": "https://www.amazon.com/stores/RESOPILOT/page/3252F791-4F79-485C-9DE9-C72BDB4BDAAD"
-        },
-        {
-          "label": "Reddit - waiting for a Cardo sale",
-          "url": "https://www.reddit.com/r/AussieRiders/comments/1wolth7/waiting_for_cardos_to_go_on_sale_should_i_wait/"
+          "label": "ASMAX Instagram - Prime Big Deal Days announcement",
+          "url": "https://www.instagram.com/asmaxworld_official/"
         }
       ]
     },
     {
       "priority": 5,
       "horizon": "next",
-      "title": "Run a phone-compatibility and privacy sprint on Cardo Connect",
-      "rationale": "An iPhone 16 that will not connect while an Android pairs instantly, unreliable nav prompts on a Galaxy S26 Ultra, and phone calls audible to the whole group are all first-week problems that make a new owner return the unit. Build a current-flagship phone test matrix, make private calls muted to the group by default (or one clear toggle), and add a Public Mesh mute and off switch. Sena's 2.1/5 app rating shows the bar is low; Cardo can make app reliability a visible differentiator.",
-      "expected_impact": "Fewer early returns and support tickets; better first-week experience for Trade-In switchers.",
+      "title": "Own intercom clarity at highway speed: tune the voice path and publish the result",
+      "rationale": "A Pro rider is unintelligible above about 40 mph with either mic (Oct 1), and an Edge user's intercom stays too quiet while music is fine (Oct 4). Sena's own 60S owners report robotic, dropping intercom above the same speed (Oct 4), so neither brand owns this yet. Cardo should run a wind-noise and mic-gain review, ship per-rider intercom gain and mic sensitivity controls in the app, and publish a fitment guide covering speaker spacers and mic placement for full-face helmets. Then it should market the result alongside the loudness owners already praise.",
+      "expected_impact": "Turns a shared category weakness into a Cardo claim and blunts the Bose and noise-cancellation messaging from Sena and Reso.",
       "effort": "medium",
       "addresses_gaps": [
-        "Phone and app connectivity plus Public Mesh privacy friction"
+        "Intercom voice clarity at speed and audio tuning are becoming comparison points"
       ],
       "sources": [
         {
-          "label": "Facebook Group - iPhone 16 app will not connect",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4589256568030122/"
+          "label": "Facebook Group - Pro mic garbled above 40 mph",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594103967545382/"
         },
         {
-          "label": "Reddit - Edge and Android nav prompts",
-          "url": "https://www.reddit.com/r/motorcycles/comments/1wnnlep/any_body_epse_have_issues_with_cardo_and_android/"
+          "label": "Facebook Group - Edge intercom too quiet",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597234037232375/"
         },
         {
-          "label": "Facebook Group - phone calls audible to group",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4587261311562981/"
+          "label": "Facebook Group (Sena) - 60S Bluetooth intercom drops above 40 mph",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1483745420296156/"
         },
         {
-          "label": "Sena Motorcycles app - App Store (2.1/5)",
-          "url": "https://apps.apple.com/us/app/sena-motorcycles/id1575310271"
+          "label": "Reddit - Cardo loud through earplugs",
+          "url": "https://www.reddit.com/r/motorcyclegear/comments/1wtb9ff/ear_protection/"
         }
       ]
     },
@@ -793,8 +931,8 @@
       "priority": 6,
       "horizon": "next",
       "title": "Decide Packtalk Cellular Intercom this quarter: port the SYNC stack or retire the promise",
-      "rationale": "The November 2024 Mesh-Boost announcement promised Cellular Intercom to Packtalk owners. The August 2026 5.4 changelog did not deliver it, and SYNC now ships it with active firmware follow-up (3.11 to 3.12). Sena Wave, Reso DuoSync and ASMAX CloudTalk give every competitor a motorcycle cellular story, and reviewers like Living Off The Slab test it directly against Cardo. Either commit to a dated Packtalk release on the SYNC stack or publicly retire the claim and scrub it from marketing.",
-      "expected_impact": "Removes a credibility liability, and if ported, closes the only headline feature every rival has and Packtalk lacks.",
+      "rationale": "The November 2024 Mesh-Boost announcement promised Cellular Intercom to Packtalk owners, but the August 2026 5.4 changelog did not deliver it and no Packtalk firmware has shipped since, while SYNC's own changelog lists it for cyclists. With Sena's Wave-equipped 60S now at $349.97 and Reso demonstrating hotspot range extension, the absence is a direct feature-for-price argument against the Edge and Pro. Commit to a dated Packtalk release on the SYNC stack, or publicly retire the claim and remove it from every marketing surface.",
+      "expected_impact": "Removes a credibility liability; if ported, closes the one headline feature every rival has and Packtalk lacks.",
       "effort": "high",
       "addresses_gaps": [
         "Cellular Intercom ships for cyclists but still not for Packtalk riders"
@@ -805,24 +943,24 @@
           "url": "https://www.cyclenews.com/2024/11/article/cardo-announces-year-of-the-mesh/"
         },
         {
+          "label": "Cardo blog - Mesh Boost GA changelog",
+          "url": "https://cardosystems.com/blogs/cardo-blog/mesh-boost-more-riders-more-adventures-more-stories-to-tell"
+        },
+        {
           "label": "Cardo SYNC release notes",
           "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
         },
         {
-          "label": "Cardo press release - SYNC launch",
-          "url": "https://finance.yahoo.com/technology/articles/cardo-introducing-cardo-sync-easy-162800215.html"
-        },
-        {
-          "label": "YouTube - Living Off The Slab Reso review",
-          "url": "https://www.youtube.com/watch?v=aO9tk6jrKDs"
+          "label": "Sena 60S product page (Wave)",
+          "url": "https://store-us.sena.com/products/60s"
         }
       ]
     },
     {
       "priority": 7,
       "horizon": "next",
-      "title": "Own mixed-brand group rides: market named groups and scope a DMC bridge answer to MeshON",
-      "rationale": "Sena owners themselves praise Cardo's named, persistent groups and say Sena-to-Cardo bridging worked well in a club session. Meanwhile a 60S EVO shopper and a HOG chapter both want Sena and Cardo in one mesh. Short term, publish a mixed-brand group guide that shows Universal Intercom setup and Bluetooth-link budgeting, since a Pro owner worried a Sena bridge would cost a phone or GPS link. Medium term, scope a Cardo accessory or firmware mode that answers Sena's MeshON, so cross-brand groups default to DMC rather than Sena Mesh.",
+      "title": "Own mixed-brand group rides: market named groups and scope a DMC answer to MeshON",
+      "rationale": "Sena owners praise Cardo's named, persistent groups, and a 60S EVO shopper and a HOG chapter both want Sena and Cardo riders in one mesh. Sena sells MeshON to solve this on Sena's terms, and ASMAX's new MAXRUNON K6 advertises cross-brand connection. In the short term, Cardo should publish a mixed-brand group guide covering Universal Intercom setup and Bluetooth-link budgeting. In the medium term, it should scope an accessory or firmware mode that lets other brands' headsets join DMC.",
       "expected_impact": "Turns a Sena-controlled interoperability story into a Cardo acquisition channel for mixed groups.",
       "effort": "medium",
       "addresses_gaps": [
@@ -850,21 +988,25 @@
     {
       "priority": 8,
       "horizon": "later",
-      "title": "Lock Beyond's date and price, ship H-D/Schuberth Mesh Boost, and use HJC PACKTALK as the helmet story",
-      "rationale": "HJC PACKTALK is a credible launch across 15 HJC helmets. Beyond, however, is still unreleased with $1,199 and $1,299 both in circulation, and H-D and Schuberth units are waiting on a Q4 Mesh Boost update. Sena kept three smart-helmet families current with one September firmware drop. Publish one Beyond price and ship date, deliver the H-D and Schuberth firmware in Q4 as promised, and lead helmet marketing with shipping products rather than teasers.",
-      "expected_impact": "Restores confidence in Cardo helmet dates before ASMAX RoamX and Sena's helmet line set the premium integrated benchmark.",
+      "title": "Lock Beyond's date and price, ship H-D/Schuberth Mesh Boost, and lead with Venture and HJC PACKTALK",
+      "rationale": "Venture is now available in every size, and HJC PACKTALK is a credible launch across 15 HJC helmets, so Cardo finally has shipping integrated products to lead with. Beyond, by contrast, has no price or date on Cardo's own site while a retailer quotes 'Fall 2026' and two GTS prices circulate, and H-D and Schuberth units still wait on a Q4 update. Publish one Beyond price and ship date, deliver the H-D/Schuberth firmware on time, and keep helmet marketing anchored on products customers can buy today.",
+      "expected_impact": "Restores confidence in Cardo helmet dates before ASMAX RoamX and Sena's 10-family helmet line set the premium integrated benchmark.",
       "effort": "medium",
       "addresses_gaps": [
-        "Smart-helmet and OEM execution: Beyond slipping, H-D/Schuberth updates pending"
+        "Smart-helmet execution: Venture delivered, Beyond still undated and unpriced"
       ],
       "sources": [
         {
-          "label": "SlashGear - Beyond still unreleased",
-          "url": "https://www.slashgear.com/2264117/cardo-helmet-price-how-much-cost-beyond-options-coming/"
+          "label": "Cardo Venture product page",
+          "url": "https://cardosystems.com/products/venture"
         },
         {
-          "label": "Superbike News - HJC PACKTALK launch",
-          "url": "https://superbike-news.co.uk/cardo-systems-and-hjc-helmets-introduce-hjc-packtalk/"
+          "label": "Cardo Beyond page",
+          "url": "https://cardosystems.com/pages/beyond"
+        },
+        {
+          "label": "SlashGear - Beyond still unreleased",
+          "url": "https://www.slashgear.com/2264117/cardo-helmet-price-how-much-cost-beyond-options-coming/"
         },
         {
           "label": "Powersports Business - Q4 H-D/Schuberth timing",
@@ -875,15 +1017,19 @@
     {
       "priority": 9,
       "horizon": "later",
-      "title": "Build a sub-$300 mesh product for 2027 with a music-first audio tune",
-      "rationale": "Promotions can hold the Neo near $299 for a quarter, but they cannot fix a structural gap. Sena (50S at $275, Spider X Slim at $299), Reso (Pilot Neo at $269) and ASMAX (mesh from about $80) all have mesh below Cardo's floor. At the same time, Cardo loyalists are citing music quality as a reason to look at Reso, and a Reddit commenter called Cardo \"terrible for music\". A DMC-lite unit at $249-279 with an audio tune aimed at music listeners would cover both the price and the audio complaint in one product.",
-      "expected_impact": "Closes the most exposed price flank and re-establishes audio as a Cardo advantage for the next model year.",
+      "title": "Build a sub-$300 mesh product for 2027",
+      "rationale": "The Neo's relief this week came from Sena's deal expiring, not from anything Cardo changed, and promotions can swing back at any time. Reso's Pilot Neo ($269), Sena's Spider X Slim ($299) and ASMAX's mesh units (S1 from about $80, with Prime Day promotions this week) all sit below Cardo's cheapest mesh unit. A DMC-lite unit at $249-279, tuned for intercom clarity and music, would close the most persistently attacked flank of the line.",
+      "expected_impact": "Gives Cardo a structural answer to the entry-mesh segment for the 2027 model year instead of relying on recurring promotions.",
       "effort": "high",
       "addresses_gaps": [
-        "Mid-tier price exposure: Neo at $320 vs Sena 50S at $275 and Reso Neo at $269",
-        "Music audio quality is becoming a switching reason"
+        "Flagship price exposure: Sena 60S at $350 vs Edge $396 and Pro $450, plus no Cardo mesh under $300",
+        "Intercom voice clarity at speed and audio tuning are becoming comparison points"
       ],
       "sources": [
+        {
+          "label": "Reso Pilot Neo product page",
+          "url": "https://resopilot.com/products/resopilot_neo"
+        },
         {
           "label": "Sena Spider X Slim product page",
           "url": "https://store-us.sena.com/products/spider-x-slim"
@@ -893,12 +1039,8 @@
           "url": "https://www.asmaxworld.com/products/s1"
         },
         {
-          "label": "Reddit - Cardo owner weighing Reso on sound",
-          "url": "https://www.reddit.com/r/motorcyclegear/comments/1ws88dx/i_looked_first_cardo_vs_reso_pilot/"
-        },
-        {
-          "label": "Reddit - Cardo for music only?",
-          "url": "https://www.reddit.com/r/motorcycles/comments/1wrsvud/should_i_get_cardo_if_im_only_going_to_use_it_to/"
+          "label": "Cardo Packtalk Neo product page",
+          "url": "https://cardosystems.com/products/packtalk-neo"
         }
       ]
     }
@@ -906,8 +1048,8 @@
   "watchlist": [
     {
       "item": "Cardo Packtalk firmware after 5.4 (point release or silence)",
-      "why": "The regression complaints (simultaneous use, range, voice commands, first-generation group joining) are the top product risk, and Cardo is currently shipping SYNC firmware faster than Packtalk firmware.",
-      "trigger": "A 5.4.x or 5.5 Packtalk changelog naming fixes; or, conversely, a second week of new post-update complaints in the official community with no release.",
+      "why": "Post-update failures (group connection, battery drain, voice commands, simultaneous use) are the top product risk. Seven weeks have passed with no Packtalk build while SYNC got two.",
+      "trigger": "A 5.4.x or 5.5 Packtalk changelog naming fixes; or, conversely, an eighth week of new post-update complaints in the official community with no release.",
       "sources": [
         {
           "label": "Cardo blog - Mesh Boost GA changelog",
@@ -918,34 +1060,57 @@
           "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
         },
         {
-          "label": "Facebook Group - Pro voice command bug after update",
-          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4584465111842601/"
+          "label": "Facebook Group - group intercom broken since update",
+          "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594711057484673/"
         }
       ]
     },
     {
-      "item": "Sena mid-tier pricing and 60-series supply",
-      "why": "The 50S at $275 is the sharpest price threat to the Neo, and the 60X has been out of stock on Sena's store in both packs.",
-      "trigger": "50S Amazon street below $275 or an official 50S MSRP cut; the 60X restocked or discounted below $420; a 60S firmware release naming CarPlay music dropouts or Bluetooth garble at speed.",
+      "item": "Sena flagship pricing, 60X supply and 60S firmware",
+      "why": "The 60S at $349.97 is now the sharpest price threat to the Edge, the 60X is out of stock on Sena's store and listed above MSRP on Amazon, and 60S owners report speed-related intercom degradation with no fix published.",
+      "trigger": "60S below $340 street or a holiday bundle; 60X restocked or discounted; a 60S/60S EVO firmware notice addressing Bluetooth intercom at speed or volume fade; 50S back below $300.",
       "sources": [
         {
-          "label": "Sena 50S product page",
-          "url": "https://store-us.sena.com/products/50s-10"
+          "label": "Sena 60S product page",
+          "url": "https://store-us.sena.com/products/60s"
         },
         {
-          "label": "Sena store products feed",
+          "label": "Sena 60X product page",
+          "url": "https://store-us.sena.com/products/60x"
+        },
+        {
+          "label": "Sena store products feed - weekly crawl",
           "url": "https://store-us.sena.com/products.json?limit=250"
         },
         {
-          "label": "Facebook Group (Sena) - 60S music dropouts with CarPlay",
-          "url": "https://www.facebook.com/groups/860066485997389/permalink/1478328934171138/"
+          "label": "Facebook Group (Sena) - 60S volume fades",
+          "url": "https://www.facebook.com/groups/860066485997389/permalink/1483896620281036/"
         }
       ]
     },
     {
-      "item": "Reso's paid US creator push",
-      "why": "Two seeded US reviews in a month, both framed against Cardo, plus Amazon.com Prime availability and a renamed YouTube channel, add up to a deliberate US entry.",
-      "trigger": "A third US creator review, a RevZilla listing, visible Amazon review counts on the Pilot Pro, or more Cardo-owner switching threads citing Reso.",
+      "item": "ASMAX Prime Big Deal Days results and RoamX pricing",
+      "why": "ASMAX is the most aggressive Amazon discounter, and RoamX ('World's First Touchscreen Intercom') is its bid for feature leadership; MAXRUNON K6 shows the sister line is expanding too.",
+      "trigger": "Prime Day intercom prices below current street (e.g. S1 under $79.79 or F1s under $118.99); a RoamX price, ship date or Western hands-on review; K6 pricing.",
+      "sources": [
+        {
+          "label": "ASMAX Instagram - Prime Big Deal Days announcement",
+          "url": "https://www.instagram.com/asmaxworld_official/"
+        },
+        {
+          "label": "ASMAX Malaysia Instagram - RoamX touchscreen",
+          "url": "https://www.instagram.com/asmax.malaysia/"
+        },
+        {
+          "label": "PR Newswire - ASMAX RoamX",
+          "url": "https://www.prnewswire.com/il/news-releases/asmax-at-cimamotor-2026-rethinking-what-a-motorcycle-intercom-should-be-302884402.html"
+        }
+      ]
+    },
+    {
+      "item": "Reso's US creator push and geographic expansion",
+      "why": "Reso keeps naming Cardo as its benchmark in seeded US reviews, now runs a steady feature-demo cadence, and has extended its VOGE partnership into Colombia.",
+      "trigger": "A third US creator review, a RevZilla listing, Amazon Pilot Pro ratings rising well past 10, a Reso price cut, or more Cardo-owner switching threads citing Reso.",
       "sources": [
         {
           "label": "YouTube - Living Off The Slab 'Cardo Killer?' review",
@@ -956,34 +1121,23 @@
           "url": "https://www.amazon.com/stores/RESOPILOT/page/3252F791-4F79-485C-9DE9-C72BDB4BDAAD"
         },
         {
-          "label": "Reddit - Cardo owner weighing Reso",
-          "url": "https://www.reddit.com/r/motorcyclegear/comments/1ws88dx/i_looked_first_cardo_vs_reso_pilot/"
+          "label": "YouTube - RESOPilot x VOGE Colombia media ride",
+          "url": "https://www.youtube.com/watch?v=CIzkU-Pr_h0"
         }
       ]
     },
     {
-      "item": "ASMAX RoamX pricing and new headsets",
-      "why": "RoamX is a category first on paper, and MAXRUNOS 1.0.11 added two unnamed supported headsets, which suggests more SKUs are coming.",
-      "trigger": "A RoamX price or ship date, a listing on asmaxworld.com or Amazon US, or a Western hands-on review; new headset model names appearing in the MAXRUNOS app.",
+      "item": "Beyond launch, Venture and HJC PACKTALK owner reception",
+      "why": "Venture and HJC PACKTALK are now shipping, so owner reviews will test whether Cardo's integrated-helmet story holds, while Beyond's date and price remain open.",
+      "trigger": "A Beyond price and ship date on cardosystems.com or first customer deliveries; first owner complaints or praise for Venture or HJC PACKTALK in the community; a 'Fall 2026' retailer date slipping into 2027.",
       "sources": [
         {
-          "label": "PR Newswire - ASMAX RoamX",
-          "url": "https://www.prnewswire.com/il/news-releases/asmax-at-cimamotor-2026-rethinking-what-a-motorcycle-intercom-should-be-302884402.html"
+          "label": "Cardo Beyond page",
+          "url": "https://cardosystems.com/pages/beyond"
         },
         {
-          "label": "Apple App Store - MAXRUNOS 1.0.11",
-          "url": "https://apps.apple.com/us/app/maxrunos/id6740626069"
-        }
-      ]
-    },
-    {
-      "item": "Beyond launch and HJC PACKTALK reception",
-      "why": "HJC PACKTALK is Cardo's newest integrated product and Beyond is its delayed flagship; together they decide whether Cardo's smart-helmet story is credible.",
-      "trigger": "A firm Beyond ship date and single price on cardosystems.com, the first independent Beyond riding review, or the first owner reviews and complaints for HJC PACKTALK.",
-      "sources": [
-        {
-          "label": "SlashGear - Beyond still unreleased",
-          "url": "https://www.slashgear.com/2264117/cardo-helmet-price-how-much-cost-beyond-options-coming/"
+          "label": "Cardo Venture product page",
+          "url": "https://cardosystems.com/products/venture"
         },
         {
           "label": "Cardo HJC Packtalk product page",
@@ -992,21 +1146,21 @@
       ]
     },
     {
-      "item": "Cardo Cellular Intercom for Packtalk, and SYNC reception",
-      "why": "SYNC proves Cardo can ship VoIP intercom; whether it comes to Packtalk decides whether the 2024 promise is kept or needs to be retired.",
-      "trigger": "Packtalk or Cardo Connect release notes mentioning Cellular Intercom, an official statement on the 2024 promise, or SYNC reviews beyond Campman reporting reliability issues.",
+      "item": "Cardo Cellular Intercom for Packtalk",
+      "why": "SYNC's changelog proves Cardo can ship VoIP intercom; whether it comes to Packtalk decides whether the 2024 promise is kept or must be retired, and Sena's cheaper Wave-equipped 60S sharpens the question.",
+      "trigger": "Packtalk or Cardo Connect release notes mentioning Cellular Intercom, an official statement on the 2024 promise, or removal of the claim from Cardo marketing.",
       "sources": [
-        {
-          "label": "Cardo press release - SYNC launch",
-          "url": "https://finance.yahoo.com/technology/articles/cardo-introducing-cardo-sync-easy-162800215.html"
-        },
-        {
-          "label": "Campman - Cardo SYNC review",
-          "url": "https://www.campman.com/blog/cardo-sync-review-the-cycling-intercom-that-finally-gets-out-of-the-way/"
-        },
         {
           "label": "CycleNews - Mesh-Boost announcement (Nov 2024)",
           "url": "https://www.cyclenews.com/2024/11/article/cardo-announces-year-of-the-mesh/"
+        },
+        {
+          "label": "Cardo SYNC release notes",
+          "url": "https://cardosystems.com/pages/cardo-sync-release-notes"
+        },
+        {
+          "label": "Cardo press release - SYNC launch",
+          "url": "https://finance.yahoo.com/technology/articles/cardo-introducing-cardo-sync-easy-162800215.html"
         }
       ]
     }

@@ -31,7 +31,7 @@
         "Limited lifetime warranty on main unit (battery/mount 5 yr)"
       ],
       "release_year": 2026,
-      "notes": "Launched May 2026; dual pack $879. Talk time 27h Bluetooth / 19h Mesh. MCN: 'considerably cheaper than Cardo's flagship'. First Sena with lifetime warranty. STOCK NOTE 2026-08-17: mandatory store-us.sena.com/products.json crawl now shows both Single and Dual packs out of stock (available:false) at the unchanged $459/$879 MSRP - first time this SKU has shown a full stock-out; still purchasable at full price ($459.00, no discount) via Amazon's official Sena storefront. STOCK UPDATE 2026-08-29: mandatory store-us.sena.com/products.json crawl shows the Single Pack back in stock (available:true) while the Dual Pack remains out of stock - a partial reversal of the 2026-08-25 finding that both packs were out of stock. MSRP unchanged at $459/$879. STOCK UPDATE 2026-09-14: mandatory store-us.sena.com/products.json crawl now shows BOTH Single and Dual packs out of stock again (available:false) - the Single Pack's 2026-08-29 return to stock did not last. MSRP unchanged at $459/$879, still purchasable at full price via Amazon's official Sena storefront. STOCK UPDATE 2026-09-21: products.json shows both Single ($459) and Dual ($879) available:true again after the 2026-08 stock-outs; MSRP unchanged. Amazon storefront lists $459.00.",
+      "notes": "Launched May 2026; dual pack $879. Talk time 27h Bluetooth / 19h Mesh. MCN: 'considerably cheaper than Cardo's flagship'. First Sena with lifetime warranty. STOCK NOTE 2026-08-17: mandatory store-us.sena.com/products.json crawl now shows both Single and Dual packs out of stock (available:false) at the unchanged $459/$879 MSRP - first time this SKU has shown a full stock-out; still purchasable at full price ($459.00, no discount) via Amazon's official Sena storefront. STOCK UPDATE 2026-08-29: mandatory store-us.sena.com/products.json crawl shows the Single Pack back in stock (available:true) while the Dual Pack remains out of stock - a partial reversal of the 2026-08-25 finding that both packs were out of stock. MSRP unchanged at $459/$879. STOCK UPDATE 2026-09-14: mandatory store-us.sena.com/products.json crawl now shows BOTH Single and Dual packs out of stock again (available:false) - the Single Pack's 2026-08-29 return to stock did not last. MSRP unchanged at $459/$879, still purchasable at full price via Amazon's official Sena storefront. STOCK UPDATE 2026-09-21: products.json shows both Single ($459) and Dual ($879) available:true again after the 2026-08 stock-outs; MSRP unchanged. Amazon storefront lists $459.00. CHECK 2026-10-05: Sena store Single $459 / Dual $879 both in stock; Amazon storefront $459.00; RevZilla $459/$879 - no drift.",
       "dimensions": {
         "form_factor": {
           "weight_g": 68,
@@ -83,7 +83,7 @@
       "name": "60S",
       "tier": "flagship",
       "msrp_usd": 439,
-      "street_price_usd": 373.77,
+      "street_price_usd": 349.97,
       "intercom_tech": "Mesh 3.0 + Bluetooth 5.3 + Wave cellular intercom",
       "range_km": 2,
       "max_riders": 24,
@@ -102,7 +102,7 @@
         "3-year warranty"
       ],
       "release_year": 2024,
-      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level. PRICE CORRECTED 2026-07-14: street_price_usd was $351; Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price at $326.71 (range $319.95-$439, list $439.00), still below the direct-store $438.50 figure previously noted - updated to this lower confirmed price. Direct sena store listing remains out of stock at unchanged $439 MSRP as of 2026-07-10. PRICE CORRECTED 2026-08-10: street_price_usd was $326.71 (Amazon deal price fetched 2026-07-13); mandatory Amazon Sena storefront re-crawl now shows the 60S deal price at $358.35 (list $439.00, -18%) - price has risen since the July snapshot, updated to reflect the current confirmed Amazon deal price. Also corrected a stale url field that pointed to the 60S EVO product page (store-us.sena.com/products/60s-evo) instead of the 60S's own page. PRICE CORRECTED 2026-08-17: street_price_usd was $358.35; mandatory Amazon Sena storefront re-crawl now shows the deal price back down to $338.81 (list $439.00, -23%) - updated to the lower confirmed price. STOCK NOTE 2026-08-17: store-us.sena.com/products.json still shows both Single Pack and Dual Pack as out of stock (available:false) at the unchanged $439/$829 MSRP - the flagship slot continues to be effectively wound down in favor of 60S EVO/60X while remaining purchasable via Amazon. PRICE CORRECTED 2026-08-25: street_price_usd was $338.81; mandatory Amazon Sena storefront re-crawl now shows the deal price back up to $360.00 (list $439.00, -18%) - updated to reflect the current confirmed Amazon deal price. STOCK NOTE 2026-08-25: store-us.sena.com/products.json still shows both Single and Dual packs out of stock (available:false) at the unchanged $439/$829 MSRP. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $338.81 to $360.00 (Amazon deal price vs $439 list, still discounted but less steeply than the prior check). PRICE UPDATE 2026-08-29 (mandatory Amazon Sena storefront crawl): street price moved $360.0 to $378.00 (Amazon 'Featured now' deal price and the standalone product listing both show $378.00, 4.4 stars/521 reviews). STOCK NOTE 2026-08-29: store-us.sena.com/products.json still shows both Single Pack ($439) and Dual Pack ($829) out of stock, unchanged from 2026-08-17/08-25 - Amazon remains the only channel where 60S is purchasable. PRICE CORRECTED 2026-08-31: street_price_usd was $378.00; mandatory Amazon Sena storefront re-crawl now shows a lower $360.00 deal price (store-us.sena.com itself continues to show both 60S packs out of stock, so Amazon remains the only channel with a live price) - updated to the lower confirmed current price. PRICE CORRECTED 2026-09-14: street_price_usd was $360.00; mandatory Amazon Sena storefront re-crawl now shows the listing at $357.95 (-18% off $439.00 list) - updated to this slightly lower confirmed price. CHECK 2026-09-21: store-us.sena.com shows Single $439 / Dual $829 available:true again (was out of stock since 2026-08-17); Amazon storefront crawl this run listed the 60S at full $439.00, so the recorded $357.95 street price (2026-09-14 deal) could not be re-confirmed on the storefront - retained pending next crawl. PRICE CORRECTED 2026-09-28: street_price_usd was $357.95; the prior -18% Amazon deal has narrowed; mandatory Amazon Sena storefront crawl now shows $373.77 (-15% off $439.00 list), lowest confirmed current price (RevZilla lists only the Dual Pack, $663.20). Sena store: $439/$829, both packs in stock.",
+      "notes": "Unveiled EICMA Nov 2024 at EUR 399 / $439. Talk time 24h Bluetooth / 17h Mesh. Independent tests (1000PS) found AI noise cancellation underwhelming above ~80 km/h. STOCK UPDATE 2026-07-10: both single and dual variants now show 'Out of Stock' directly on store-us.sena.com/products/60s (price still listed at $439 single / $829 dual, so MSRP unchanged) - likely being wound down as 60S EVO and 60X take over the flagship slot. Still purchasable via Amazon's official Sena storefront at a $438.50 deal price (effectively full price, no discount), so street_price_usd is kept at the previously recorded $351 Sena-store discount price as a historical reference pending confirmation it is still obtainable anywhere at that level. PRICE CORRECTED 2026-07-14: street_price_usd was $351; Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price at $326.71 (range $319.95-$439, list $439.00), still below the direct-store $438.50 figure previously noted - updated to this lower confirmed price. Direct sena store listing remains out of stock at unchanged $439 MSRP as of 2026-07-10. PRICE CORRECTED 2026-08-10: street_price_usd was $326.71 (Amazon deal price fetched 2026-07-13); mandatory Amazon Sena storefront re-crawl now shows the 60S deal price at $358.35 (list $439.00, -18%) - price has risen since the July snapshot, updated to reflect the current confirmed Amazon deal price. Also corrected a stale url field that pointed to the 60S EVO product page (store-us.sena.com/products/60s-evo) instead of the 60S's own page. PRICE CORRECTED 2026-08-17: street_price_usd was $358.35; mandatory Amazon Sena storefront re-crawl now shows the deal price back down to $338.81 (list $439.00, -23%) - updated to the lower confirmed price. STOCK NOTE 2026-08-17: store-us.sena.com/products.json still shows both Single Pack and Dual Pack as out of stock (available:false) at the unchanged $439/$829 MSRP - the flagship slot continues to be effectively wound down in favor of 60S EVO/60X while remaining purchasable via Amazon. PRICE CORRECTED 2026-08-25: street_price_usd was $338.81; mandatory Amazon Sena storefront re-crawl now shows the deal price back up to $360.00 (list $439.00, -18%) - updated to reflect the current confirmed Amazon deal price. STOCK NOTE 2026-08-25: store-us.sena.com/products.json still shows both Single and Dual packs out of stock (available:false) at the unchanged $439/$829 MSRP. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $338.81 to $360.00 (Amazon deal price vs $439 list, still discounted but less steeply than the prior check). PRICE UPDATE 2026-08-29 (mandatory Amazon Sena storefront crawl): street price moved $360.0 to $378.00 (Amazon 'Featured now' deal price and the standalone product listing both show $378.00, 4.4 stars/521 reviews). STOCK NOTE 2026-08-29: store-us.sena.com/products.json still shows both Single Pack ($439) and Dual Pack ($829) out of stock, unchanged from 2026-08-17/08-25 - Amazon remains the only channel where 60S is purchasable. PRICE CORRECTED 2026-08-31: street_price_usd was $378.00; mandatory Amazon Sena storefront re-crawl now shows a lower $360.00 deal price (store-us.sena.com itself continues to show both 60S packs out of stock, so Amazon remains the only channel with a live price) - updated to the lower confirmed current price. PRICE CORRECTED 2026-09-14: street_price_usd was $360.00; mandatory Amazon Sena storefront re-crawl now shows the listing at $357.95 (-18% off $439.00 list) - updated to this slightly lower confirmed price. CHECK 2026-09-21: store-us.sena.com shows Single $439 / Dual $829 available:true again (was out of stock since 2026-08-17); Amazon storefront crawl this run listed the 60S at full $439.00, so the recorded $357.95 street price (2026-09-14 deal) could not be re-confirmed on the storefront - retained pending next crawl. PRICE CORRECTED 2026-09-28: street_price_usd was $357.95; the prior -18% Amazon deal has narrowed; mandatory Amazon Sena storefront crawl now shows $373.77 (-15% off $439.00 list), lowest confirmed current price (RevZilla lists only the Dual Pack, $663.20). Sena store: $439/$829, both packs in stock. PRICE CORRECTED 2026-10-05: street_price_usd was $373.77; mandatory Amazon Sena storefront crawl shows a deeper $349.97 deal (-20% off $439.00 list); RevZilla lists only the Dual Pack ($663.20); Sena store $439/$829, in stock. MSRP unchanged.",
       "dimensions": {
         "form_factor": {
           "weight_g": 68,
@@ -154,7 +154,7 @@
       "name": "60X",
       "tier": "flagship",
       "msrp_usd": 459,
-      "street_price_usd": 430.51,
+      "street_price_usd": 459.0,
       "intercom_tech": "Mesh Intercom 3.0 & 2.0 + Bluetooth 5.3 + Wave cellular intercom",
       "range_km": 2,
       "max_riders": 24,
@@ -173,7 +173,7 @@
         "Operating range -20C to 55C"
       ],
       "release_year": 2026,
-      "notes": "Officially launched July 2, 2026 (previewed at EICMA Nov 2025 and AIMExpo Jan 2026). US store lists $879 for the dual pack and $459 for the single pack - both now directly confirmed via store-us.sena.com/products.json as of 2026-07-09 (single listed out of stock at check time; dual in stock), resolving the prior estimate. Bluetooth-only talk time 29h / Mesh 19h per sena.com spec page. Weight 58g. STOCK NOTE 2026-08-25: mandatory store-us.sena.com/products.json crawl now shows BOTH the Single Pack and Dual Pack out of stock (available:false) at the unchanged $459/$879 MSRP - a change from the prior check where the Dual Pack was in stock; the Single Pack has been out of stock since 2026-07-09. No price drift. STOCK UPDATE 2026-08-29: mandatory store-us.sena.com/products.json crawl shows the Dual Pack back in stock (available:true) while the Single Pack remains out of stock - a partial reversal of the 2026-08-25 finding that both packs were out of stock. Amazon separately confirms 60X at full $459.00 (no discount, 4.6 stars/9 reviews). MSRP unchanged at $459/$879. STOCK UPDATE 2026-08-31: store-us.sena.com now shows BOTH 60X Single and Dual packs out of stock again (on 2026-08-29 the Dual pack had come back in stock while Single remained out) - a reversal. Amazon continues to carry 60X in stock at full price ($459.00, 11 reviews, 4.1 stars), so it remains purchasable via that channel despite Sena's own store being sold out. PRICE CORRECTED 2026-09-21: street_price_usd was $459; mandatory Amazon Sena storefront crawl now shows $436.82 (-5% off $459.00 list) - updated to the lowest confirmed current price. STOCK NOTE 2026-09-21: store-us.sena.com still shows Single $459 / Dual $879 out of stock (available:false); Amazon is the only live channel. PRICE CORRECTED 2026-09-28: street_price_usd was $436.82; mandatory Amazon Sena storefront crawl shows $430.51 (-6% off $459.00 list), the lowest confirmed current price (RevZilla $459.00 flat). STOCK NOTE: store-us.sena.com still shows Single $459 / Dual $879 both out of stock (available:false).",
+      "notes": "Officially launched July 2, 2026 (previewed at EICMA Nov 2025 and AIMExpo Jan 2026). US store lists $879 for the dual pack and $459 for the single pack - both now directly confirmed via store-us.sena.com/products.json as of 2026-07-09 (single listed out of stock at check time; dual in stock), resolving the prior estimate. Bluetooth-only talk time 29h / Mesh 19h per sena.com spec page. Weight 58g. STOCK NOTE 2026-08-25: mandatory store-us.sena.com/products.json crawl now shows BOTH the Single Pack and Dual Pack out of stock (available:false) at the unchanged $459/$879 MSRP - a change from the prior check where the Dual Pack was in stock; the Single Pack has been out of stock since 2026-07-09. No price drift. STOCK UPDATE 2026-08-29: mandatory store-us.sena.com/products.json crawl shows the Dual Pack back in stock (available:true) while the Single Pack remains out of stock - a partial reversal of the 2026-08-25 finding that both packs were out of stock. Amazon separately confirms 60X at full $459.00 (no discount, 4.6 stars/9 reviews). MSRP unchanged at $459/$879. STOCK UPDATE 2026-08-31: store-us.sena.com now shows BOTH 60X Single and Dual packs out of stock again (on 2026-08-29 the Dual pack had come back in stock while Single remained out) - a reversal. Amazon continues to carry 60X in stock at full price ($459.00, 11 reviews, 4.1 stars), so it remains purchasable via that channel despite Sena's own store being sold out. PRICE CORRECTED 2026-09-21: street_price_usd was $459; mandatory Amazon Sena storefront crawl now shows $436.82 (-5% off $459.00 list) - updated to the lowest confirmed current price. STOCK NOTE 2026-09-21: store-us.sena.com still shows Single $459 / Dual $879 out of stock (available:false); Amazon is the only live channel. PRICE CORRECTED 2026-09-28: street_price_usd was $436.82; mandatory Amazon Sena storefront crawl shows $430.51 (-6% off $459.00 list), the lowest confirmed current price (RevZilla $459.00 flat). STOCK NOTE: store-us.sena.com still shows Single $459 / Dual $879 both out of stock (available:false). PRICE CORRECTED 2026-10-05: street_price_usd was $430.51; the prior -6% Amazon deal is gone - mandatory Amazon Sena storefront crawl now lists the 60X at $543.75, ABOVE the $459 list; RevZilla $459.00 flat; Sena store $459/$879 but both packs still out of stock (available:false). No discount found anywhere, so street_price_usd reset to MSRP.",
       "dimensions": {
         "form_factor": {
           "weight_g": 58,
@@ -225,7 +225,7 @@
       "name": "50S",
       "tier": "mid",
       "msrp_usd": 379,
-      "street_price_usd": 275.05,
+      "street_price_usd": 329.03,
       "intercom_tech": "Mesh 2.0 + Bluetooth 5.0",
       "range_km": 2,
       "max_riders": 24,
@@ -243,7 +243,7 @@
         "Wave intercom support added via app"
       ],
       "release_year": 2020,
-      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $341 (Sena's own store discount); Amazon's official Sena storefront now shows a deeper $262.00 deal price against the $379 MSRP - updated to reflect the lower live price per Amazon-storefront check. Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands. PRICE CORRECTED 2026-07-14: street_price_usd was $262.00; that deeper deal appears to have expired - Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price back up at $319.95 (list $379.00) - updated to reflect the current live price. PRICE CORRECTED 2026-08-17: street_price_usd was $319.95; mandatory Amazon Sena storefront re-crawl shows a deeper $310.36 deal price (-18%, list $379.00), lower than both the prior figure and RevZilla's concurrent $341.10 (10% off) listing - updated to the lowest confirmed current price per the mandate. PRICE CORRECTED 2026-08-25: street_price_usd was $310.36; mandatory Amazon Sena storefront re-crawl now shows a shallower $320.00 deal price (-16%, list $379.00), higher than the prior figure - updated to reflect the current confirmed Amazon deal price (still the lowest found this run; RevZilla concurrently shows $341.10, -10%). PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $310.36 to $320.00 (Amazon deal price vs $379 list). PRICE CORRECTED 2026-08-29: street_price_usd was $320.0; mandatory store-us.sena.com crawl found a sitewide ~25% off promotion now applied to 50S (compare_at $379 matches recorded msrp_usd, no MSRP drift), effective price $284.25 single / $509.25 dual - lower than RevZilla's own -20% sale ($303.20) - updated to the lower confirmed price. PRICE CORRECTED 2026-09-14: street_price_usd was $284.25 (a sitewide ~25% Sena-store promotion that has since expired - Sena's own store now lists $379.00 flat with no discount). Mandatory Amazon Sena storefront re-crawl shows $320.40 (-15% off $379.00 list), lower than RevZilla's concurrent $341.10 (-10%) - Amazon figure used as the new street_price_usd. PRICE CORRECTED 2026-09-21: street_price_usd was $320.4; mandatory Amazon Sena storefront crawl now shows $319.99 (-16% off $379.00 list; RevZilla $341.10) - updated to the lowest confirmed current price. PRICE CORRECTED 2026-09-28: street_price_usd was $319.99; mandatory Amazon Sena storefront crawl shows a deeper $275.05 deal (-27% off $379.00 list); RevZilla $341.10 (-10%); Sena store $379 full price.",
+      "notes": "PRICE CORRECTED 2026-07-09: street_price_usd was $341 (Sena's own store discount); Amazon's official Sena storefront now shows a deeper $262.00 deal price against the $379 MSRP - updated to reflect the lower live price per Amazon-storefront check. Talk time approx. 13h Mesh / longer on Bluetooth (HK edition improved battery vs. original 9h Mesh). Firmware v2.7 drew user complaints. Expected to be discounted/replaced as 2026 range lands. PRICE CORRECTED 2026-07-14: street_price_usd was $262.00; that deeper deal appears to have expired - Keepa/Amazon pricing data (fetched 2026-07-13) shows the current lowest new-condition Amazon price back up at $319.95 (list $379.00) - updated to reflect the current live price. PRICE CORRECTED 2026-08-17: street_price_usd was $319.95; mandatory Amazon Sena storefront re-crawl shows a deeper $310.36 deal price (-18%, list $379.00), lower than both the prior figure and RevZilla's concurrent $341.10 (10% off) listing - updated to the lowest confirmed current price per the mandate. PRICE CORRECTED 2026-08-25: street_price_usd was $310.36; mandatory Amazon Sena storefront re-crawl now shows a shallower $320.00 deal price (-16%, list $379.00), higher than the prior figure - updated to reflect the current confirmed Amazon deal price (still the lowest found this run; RevZilla concurrently shows $341.10, -10%). PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $310.36 to $320.00 (Amazon deal price vs $379 list). PRICE CORRECTED 2026-08-29: street_price_usd was $320.0; mandatory store-us.sena.com crawl found a sitewide ~25% off promotion now applied to 50S (compare_at $379 matches recorded msrp_usd, no MSRP drift), effective price $284.25 single / $509.25 dual - lower than RevZilla's own -20% sale ($303.20) - updated to the lower confirmed price. PRICE CORRECTED 2026-09-14: street_price_usd was $284.25 (a sitewide ~25% Sena-store promotion that has since expired - Sena's own store now lists $379.00 flat with no discount). Mandatory Amazon Sena storefront re-crawl shows $320.40 (-15% off $379.00 list), lower than RevZilla's concurrent $341.10 (-10%) - Amazon figure used as the new street_price_usd. PRICE CORRECTED 2026-09-21: street_price_usd was $320.4; mandatory Amazon Sena storefront crawl now shows $319.99 (-16% off $379.00 list; RevZilla $341.10) - updated to the lowest confirmed current price. PRICE CORRECTED 2026-09-28: street_price_usd was $319.99; mandatory Amazon Sena storefront crawl shows a deeper $275.05 deal (-27% off $379.00 list); RevZilla $341.10 (-10%); Sena store $379 full price. PRICE CORRECTED 2026-10-05: street_price_usd was $275.05; the -27% Amazon deal at $275.05 has narrowed; mandatory Amazon Sena storefront crawl now shows $329.03 (-13% off $379.00 list), lowest confirmed current price (RevZilla $341.10; Sena store $379 full price). MSRP unchanged.",
       "dimensions": {
         "form_factor": {
           "weight_g": 64,
@@ -362,7 +362,7 @@
       "name": "Spider RT1 / ST1",
       "tier": "mid",
       "msrp_usd": 239,
-      "street_price_usd": 226.89,
+      "street_price_usd": 235.89,
       "intercom_tech": "Mesh 2.0 only (Bluetooth for phone/music, no Bluetooth intercom)",
       "range_km": 2,
       "max_riders": 24,
@@ -378,7 +378,7 @@
         "App support"
       ],
       "release_year": 2021,
-      "notes": "Affordable mesh-only entry. Talk time up to 20h per official RT1 spec page. Reviews cite good value but wind-noise handling, durability and Android app issues. Successor 'Spider X Slim' with Mesh 3.0 announced at EICMA 2025. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $199; live store-us.sena.com/products.json crawl (handles spider-rt1-01 and spider-st1-10) shows single-pack price now $239.00 (dual $439.00) - AND all variants of both RT1 and ST1 are marked out of stock (available:false) on Sena's own store as of today, a likely sign the line is being sunset in favor of the Spider X Slim successor. Amazon's Sena storefront still lists Spider RT1 in stock at $239.00 but Spider ST1 at a separate $191.41 deal price (list $219.00) - the two SKUs may be diverging in price/availability across channels; Sena's own store price ($239) used as authoritative msrp here. STOCK UPDATE 2026-07-14: partial restock on store-us.sena.com/products.json - RT1 Single Pack ($239) is back in stock (RT1 Dual still out); ST1 Dual Pack ($439) is back in stock (ST1 Single still out) - no longer a full storewide stock-out as of 2026-07-10, though availability remains split/inconsistent across the two SKUs' pack sizes. PRICE CORRECTED 2026-07-27: street_price_usd was $239; RevZilla's motorcycle-bluetooth-communications listing shows the Spider ST1 variant discounted to $191.20 (RT1 variant still full price at $239.00) - recording the lower ST1 deal price as the current street price per the lowest-listed-price mandate. Amazon storefront check failed (503 blocked) this run so could not cross-verify against Amazon. RevZilla motorcycle-bluetooth-communications category page listed 28 total Sena SKUs as of 2026-07-27 (not previously tracked as a baseline count). PRICE CORRECTED 2026-08-25: street_price_usd was $191.2 (RevZilla ST1 deal from 2026-07-27); that deal has expired - RevZilla now lists both RT1 and ST1 at full price ($239.00, no discount) while the Amazon Sena storefront shows Spider ST1 at a $234.89 deal price (Spider RT1 flat at $239.00) - updated to the lowest confirmed current price across channels. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $191.20 to $234.89, taken from the Spider ST1 single-pack Amazon listing (Spider RT1 single-pack was showing $239.00 flat, i.e. full price, on the same page - the combined entry uses the lower ST1 figure). PRICE CORRECTED 2026-08-29: street_price_usd was $234.89; mandatory store-us.sena.com crawl found a sitewide ~25% off promotion now applied (compare_at $239 matches recorded msrp_usd, no drift), effective price $179.25 single / $329.25 dual - lower than RevZilla's own -20% sale on Spider ST1 ($191.20) - updated to the lower confirmed price. PRICE CORRECTED 2026-09-14: street_price_usd was $179.25 (from the now-expired sitewide Sena-store promotion; Sena's own store is back to $239.00 flat for both RT1 and ST1). Mandatory Amazon Sena storefront re-crawl shows the ST1 Single Pack listed at $227.95 (no visible list-price strikethrough, but below Sena's own $239.00) - used as the new street_price_usd. RevZilla shows both RT1 and ST1 back at full $239.00/$439.00 with no discount. PRICE CORRECTED 2026-09-21: street_price_usd was $227.95; mandatory Amazon Sena storefront crawl now shows $227.89 (ST1 Single Pack listing, no list-price strikethrough; Sena store $239.00 flat) - updated to the lowest confirmed current price. PRICE CORRECTED 2026-09-28: street_price_usd was $227.89; mandatory Amazon Sena storefront crawl shows Spider ST1 single pack at $226.89 (RevZilla RT1 $239.00 flat; Sena store $239/$439, in stock).",
+      "notes": "Affordable mesh-only entry. Talk time up to 20h per official RT1 spec page. Reviews cite good value but wind-noise handling, durability and Android app issues. Successor 'Spider X Slim' with Mesh 3.0 announced at EICMA 2025. PRICE CORRECTED 2026-07-10: msrp_usd/street_price_usd were $199; live store-us.sena.com/products.json crawl (handles spider-rt1-01 and spider-st1-10) shows single-pack price now $239.00 (dual $439.00) - AND all variants of both RT1 and ST1 are marked out of stock (available:false) on Sena's own store as of today, a likely sign the line is being sunset in favor of the Spider X Slim successor. Amazon's Sena storefront still lists Spider RT1 in stock at $239.00 but Spider ST1 at a separate $191.41 deal price (list $219.00) - the two SKUs may be diverging in price/availability across channels; Sena's own store price ($239) used as authoritative msrp here. STOCK UPDATE 2026-07-14: partial restock on store-us.sena.com/products.json - RT1 Single Pack ($239) is back in stock (RT1 Dual still out); ST1 Dual Pack ($439) is back in stock (ST1 Single still out) - no longer a full storewide stock-out as of 2026-07-10, though availability remains split/inconsistent across the two SKUs' pack sizes. PRICE CORRECTED 2026-07-27: street_price_usd was $239; RevZilla's motorcycle-bluetooth-communications listing shows the Spider ST1 variant discounted to $191.20 (RT1 variant still full price at $239.00) - recording the lower ST1 deal price as the current street price per the lowest-listed-price mandate. Amazon storefront check failed (503 blocked) this run so could not cross-verify against Amazon. RevZilla motorcycle-bluetooth-communications category page listed 28 total Sena SKUs as of 2026-07-27 (not previously tracked as a baseline count). PRICE CORRECTED 2026-08-25: street_price_usd was $191.2 (RevZilla ST1 deal from 2026-07-27); that deal has expired - RevZilla now lists both RT1 and ST1 at full price ($239.00, no discount) while the Amazon Sena storefront shows Spider ST1 at a $234.89 deal price (Spider RT1 flat at $239.00) - updated to the lowest confirmed current price across channels. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $191.20 to $234.89, taken from the Spider ST1 single-pack Amazon listing (Spider RT1 single-pack was showing $239.00 flat, i.e. full price, on the same page - the combined entry uses the lower ST1 figure). PRICE CORRECTED 2026-08-29: street_price_usd was $234.89; mandatory store-us.sena.com crawl found a sitewide ~25% off promotion now applied (compare_at $239 matches recorded msrp_usd, no drift), effective price $179.25 single / $329.25 dual - lower than RevZilla's own -20% sale on Spider ST1 ($191.20) - updated to the lower confirmed price. PRICE CORRECTED 2026-09-14: street_price_usd was $179.25 (from the now-expired sitewide Sena-store promotion; Sena's own store is back to $239.00 flat for both RT1 and ST1). Mandatory Amazon Sena storefront re-crawl shows the ST1 Single Pack listed at $227.95 (no visible list-price strikethrough, but below Sena's own $239.00) - used as the new street_price_usd. RevZilla shows both RT1 and ST1 back at full $239.00/$439.00 with no discount. PRICE CORRECTED 2026-09-21: street_price_usd was $227.95; mandatory Amazon Sena storefront crawl now shows $227.89 (ST1 Single Pack listing, no list-price strikethrough; Sena store $239.00 flat) - updated to the lowest confirmed current price. PRICE CORRECTED 2026-09-28: street_price_usd was $227.89; mandatory Amazon Sena storefront crawl shows Spider ST1 single pack at $226.89 (RevZilla RT1 $239.00 flat; Sena store $239/$439, in stock). PRICE CORRECTED 2026-10-05: street_price_usd was $226.89; mandatory Amazon Sena storefront crawl shows Spider ST1 single pack at $235.89 (up from $226.89); RevZilla RT1 $239.00 flat; Sena store $239/$439 in stock.",
       "dimensions": {
         "form_factor": {
           "weight_g": 65,
@@ -723,7 +723,7 @@
         "Limited lifetime warranty"
       ],
       "release_year": 2026,
-      "notes": "Launched July 7, 2026 at $189 single (confirmed RevZilla). Positioned as entry-level Bluetooth intercom with flagship-level features (wireless charging, Quick Pair, Advanced Noise Control) previously absent from budget tiers. Replaces aging 5R/5S line as the new entry point. 2-way pairing only, no mesh or Wave cellular. STOCK UPDATE 2026-07-10: not found on store-us.sena.com/products.json (no matching handle; direct URL guesses /products/vortex and /products/vortex-2 both 404) and RevZilla lists it 'Out of Stock' for all combinations at the confirmed $189.00 price - Vortex appears to be sold out at launch across the checked channels, though the marketing page at sena.com/en-us/product/vortex/ remains live. STOCK UPDATE 2026-07-14: now live and IN STOCK on store-us.sena.com/products.json (handle: vortex, SKU VORTEX-01/VORTEX-01D) at the confirmed $189.00 single / $359.00 dual - the launch-week stock-out has resolved. Not found in the visible RevZilla motorcycle-bluetooth-communications grid as of this check. UPDATE 2026-08-17: now appears on RevZilla's motorcycle-bluetooth-communications grid at the unchanged $189.00 (no discount); no price drift found on Sena's own store or Amazon either (all confirm $189.00 single/$359.00 dual, in stock).",
+      "notes": "Launched July 7, 2026 at $189 single (confirmed RevZilla). Positioned as entry-level Bluetooth intercom with flagship-level features (wireless charging, Quick Pair, Advanced Noise Control) previously absent from budget tiers. Replaces aging 5R/5S line as the new entry point. 2-way pairing only, no mesh or Wave cellular. STOCK UPDATE 2026-07-10: not found on store-us.sena.com/products.json (no matching handle; direct URL guesses /products/vortex and /products/vortex-2 both 404) and RevZilla lists it 'Out of Stock' for all combinations at the confirmed $189.00 price - Vortex appears to be sold out at launch across the checked channels, though the marketing page at sena.com/en-us/product/vortex/ remains live. STOCK UPDATE 2026-07-14: now live and IN STOCK on store-us.sena.com/products.json (handle: vortex, SKU VORTEX-01/VORTEX-01D) at the confirmed $189.00 single / $359.00 dual - the launch-week stock-out has resolved. Not found in the visible RevZilla motorcycle-bluetooth-communications grid as of this check. UPDATE 2026-08-17: now appears on RevZilla's motorcycle-bluetooth-communications grid at the unchanged $189.00 (no discount); no price drift found on Sena's own store or Amazon either (all confirm $189.00 single/$359.00 dual, in stock). STOCK NOTE 2026-10-05: store-us.sena.com shows the Single Pack ($189) in stock but the Dual Pack ($359) out of stock (available:false); Amazon and RevZilla $189 flat. MSRP unchanged.",
       "url": "https://store-us.sena.com/products/vortex",
       "dimensions": {
         "form_factor": {
@@ -799,7 +799,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 649,
-      "street_price_usd": 626.93,
+      "street_price_usd": 624.99,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE) + Bluetooth",
       "range_km": null,
       "max_riders": 24,
@@ -813,7 +813,7 @@
         "Pinlock-ready shield"
       ],
       "release_year": 2026,
-      "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price. STREET PRICE ADDED 2026-08-17: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Specter listing (Matte Black, L) at a $599.00 deal price (-8%, list $649.00 matching this SKU's MSRP exactly). PRICE CORRECTED 2026-08-31: street_price_usd was $599.00 (recorded 2026-08-17, not reconfirmed since); mandatory store-us.sena.com crawl shows Specter at full $649 price with no compare_at/discount applied today, and the mandatory Amazon Sena storefront re-crawl shows a -6% deal at $610.00 (list $649.00) - updated to the lower of the two current confirmed prices ($610.00) since the prior $599.00 figure could not be reconfirmed on any channel this run. PRICE CORRECTED 2026-09-28: street_price_usd was $610.0; the -6% Amazon deal at $610.00 has expired; mandatory Amazon Sena storefront crawl now shows $626.93 (Matte Black L listing, no deal badge). Sena store still $649 full price, no discount.",
+      "notes": "Unveiled EICMA Nov 2025, on sale 2026 at $649. Sena's premium touring helmet answer to Cardo Beyond GTS at nearly half the price. STREET PRICE ADDED 2026-08-17: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Specter listing (Matte Black, L) at a $599.00 deal price (-8%, list $649.00 matching this SKU's MSRP exactly). PRICE CORRECTED 2026-08-31: street_price_usd was $599.00 (recorded 2026-08-17, not reconfirmed since); mandatory store-us.sena.com crawl shows Specter at full $649 price with no compare_at/discount applied today, and the mandatory Amazon Sena storefront re-crawl shows a -6% deal at $610.00 (list $649.00) - updated to the lower of the two current confirmed prices ($610.00) since the prior $599.00 figure could not be reconfirmed on any channel this run. PRICE CORRECTED 2026-09-28: street_price_usd was $610.0; the -6% Amazon deal at $610.00 has expired; mandatory Amazon Sena storefront crawl now shows $626.93 (Matte Black L listing, no deal badge). Sena store still $649 full price, no discount. PRICE CORRECTED 2026-10-05: street_price_usd was $626.93; mandatory Amazon Sena storefront crawl shows $624.99 (Matte Black L listing); Sena store still $649 full price.",
       "url": "https://store-us.sena.com/products/specter",
       "voip": true,
       "wireless_charging": false,
@@ -893,7 +893,7 @@
         "Auto On/Off deep-sleep mode; safe direct-power riding without charging the battery"
       ],
       "release_year": 2025,
-      "notes": "Live on Sena's EU store (sena.com/en-eu/product/outstar-2/); not yet listed on the US Shopify store or products.json feed as of Jul 8 2026 - appears to be an EU-first rollout. EU retail observed at EUR 237.80 (motorun.de), converted to ~$258 est.; US MSRP unconfirmed/pending. First firmware update (v1.0.2) issued June 10, 2026. STATUS UPDATE Jul 8 2026: not found in store-us.sena.com products.json or in the live Smart Helmet / Other category listings on sena.com - appears discontinued from the current lineup. Retained here for historical record; exclude from 'current products' framing. RECONFIRMED 2026-08-10: mandatory store-us.sena.com/products.json crawl (250+9 items, full catalog) and the live sena.com Smart Helmet category listing (10 families: Phantom Family, Specter, Outlander, Stryker, Outrush 2, Outforce, Impulse, Outrush R, Surge, Cavalry 2) both still show no Outstar 2 entry - discontinuation from the US/global lineup remains the working conclusion a month later. RECONFIRMED 2026-08-29: mandatory store-us.sena.com/products.json crawl (259 SKUs) and the live sena.com Smart Helmet category listing (10 families, unchanged) both still show no Outstar 2 entry - discontinuation from the US/global lineup remains the working conclusion. RECONFIRMED 2026-09-21: store-us.sena.com/products.json (250 items page 1) and the sena.com Smart Helmet category (10 families, unchanged) still show no Outstar 2 - likely discontinued from the US lineup. RE-CHECKED 2026-09-28: still absent from store-us.sena.com/products.json (both pages, 253 items) and from the sena.com smart-helmet category listing (10 families) - remains likely discontinued in the US lineup.",
+      "notes": "Live on Sena's EU store (sena.com/en-eu/product/outstar-2/); not yet listed on the US Shopify store or products.json feed as of Jul 8 2026 - appears to be an EU-first rollout. EU retail observed at EUR 237.80 (motorun.de), converted to ~$258 est.; US MSRP unconfirmed/pending. First firmware update (v1.0.2) issued June 10, 2026. STATUS UPDATE Jul 8 2026: not found in store-us.sena.com products.json or in the live Smart Helmet / Other category listings on sena.com - appears discontinued from the current lineup. Retained here for historical record; exclude from 'current products' framing. RECONFIRMED 2026-08-10: mandatory store-us.sena.com/products.json crawl (250+9 items, full catalog) and the live sena.com Smart Helmet category listing (10 families: Phantom Family, Specter, Outlander, Stryker, Outrush 2, Outforce, Impulse, Outrush R, Surge, Cavalry 2) both still show no Outstar 2 entry - discontinuation from the US/global lineup remains the working conclusion a month later. RECONFIRMED 2026-08-29: mandatory store-us.sena.com/products.json crawl (259 SKUs) and the live sena.com Smart Helmet category listing (10 families, unchanged) both still show no Outstar 2 entry - discontinuation from the US/global lineup remains the working conclusion. RECONFIRMED 2026-09-21: store-us.sena.com/products.json (250 items page 1) and the sena.com Smart Helmet category (10 families, unchanged) still show no Outstar 2 - likely discontinued from the US lineup. RE-CHECKED 2026-09-28: still absent from store-us.sena.com/products.json (both pages, 253 items) and from the sena.com smart-helmet category listing (10 families) - remains likely discontinued in the US lineup. RE-CHECKED 2026-10-05: still absent from store-us.sena.com/products.json (both pages, 253 items) and from the sena.com smart-helmet category listing (10 families) - remains likely discontinued in the US lineup.",
       "dimensions": {
         "form_factor": {
           "weight_g": null,
@@ -1087,7 +1087,7 @@
       "category": "smart_helmet",
       "tier": null,
       "msrp_usd": 649,
-      "street_price_usd": 614.97,
+      "street_price_usd": 649.0,
       "intercom_tech": "Integrated Mesh Intercom 3.0 + Wave Intercom (LTE, virtually unlimited range) + Bluetooth 5.3",
       "range_km": 2.0,
       "max_riders": 24,
@@ -1103,7 +1103,7 @@
         "Weight 1720g (M, DOT)"
       ],
       "release_year": 2025,
-      "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing. STREET PRICE ADDED 2026-08-17: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Phantom ANC listing (list $649.00, matching this SKU's MSRP exactly) at a $617.13 deal price (-5%). PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $617.13 to $609.71 (Amazon deal price vs $649 list). PRICE CORRECTED 2026-08-31: street_price_usd was $609.71 (recorded 2026-08-17, not reconfirmed since); mandatory store-us.sena.com crawl shows Phantom ANC at full $649 price with no compare_at/discount applied today (it is one of the few helmets excluded from the ongoing sitewide sale), and the mandatory Amazon Sena storefront re-crawl shows a -5% deal at $614.97 (list $649.00) - updated to this lower confirmed current price since the prior $609.71 figure could not be reconfirmed on any channel this run.",
+      "notes": "Phantom Family's noise-cancellation-focused variant for long-distance touring/high-speed commuting; only helmet in the category confirmed publishing a measured noise-reduction figure (20 dB). Store handle 'phantom-anc', $649 confirmed via direct store-us.sena.com crawl Jul 8 2026. Previously only referenced in firmware-update and notes text, not tracked as its own product - added per site audit after user flagged it as missing. STREET PRICE ADDED 2026-08-17: street_price_usd was null; mandatory Amazon Sena storefront crawl shows a Phantom ANC listing (list $649.00, matching this SKU's MSRP exactly) at a $617.13 deal price (-5%). PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $617.13 to $609.71 (Amazon deal price vs $649 list). PRICE CORRECTED 2026-08-31: street_price_usd was $609.71 (recorded 2026-08-17, not reconfirmed since); mandatory store-us.sena.com crawl shows Phantom ANC at full $649 price with no compare_at/discount applied today (it is one of the few helmets excluded from the ongoing sitewide sale), and the mandatory Amazon Sena storefront re-crawl shows a -5% deal at $614.97 (list $649.00) - updated to this lower confirmed current price since the prior $609.71 figure could not be reconfirmed on any channel this run. PRICE CORRECTED 2026-10-05: street_price_usd was $614.97; the -5% Amazon deal at $614.97 (recorded 2026-08-31) could not be reconfirmed - this run's Amazon Sena storefront only shows the combined 'Phantom and ANC' listing at its $549 default (base Phantom) price and no separate ANC deal; Sena store shows Phantom ANC at full $649 (7 of 10 variants in stock). street_price_usd reset to MSRP.",
       "url": "https://store-us.sena.com/products/phantom-anc",
       "voip": true,
       "wireless_charging": false,
@@ -1328,7 +1328,7 @@
       "usage": "Cycling",
       "tier": "mid",
       "msrp_usd": 169.0,
-      "street_price_usd": 139.95,
+      "street_price_usd": 164.93,
       "intercom_tech": "Mesh Intercom 3.0 (virtually unlimited participants, open mesh) + Bluetooth 5.2 (HSP/HFP/A2DP/AVRCP)",
       "range_km": 0.8,
       "max_riders": null,
@@ -1345,7 +1345,7 @@
         "Dual pack available at $319"
       ],
       "release_year": null,
-      "notes": "Purpose-built cycling communicator, not a repurposed moto unit - open-ear design keeps ambient road awareness. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $157.00 deal price (list $169.00). PRICE CORRECTED 2026-08-17: street_price_usd was $157.00; this run's Amazon storefront crawl shows a shallower $167.70 deal - the discount has narrowed but the unit is still listed marginally below the $169.00 MSRP. Also added a new firmware entry this run (v1.5.1, Jul 7 2026) that fixes ABC voice-prompt wording, released just after the v1.5 ABC feature launch already on file. PRICE CORRECTED 2026-08-25: street_price_usd was $167.7; mandatory Amazon Sena storefront re-crawl now shows a lower flat price of $164.67 (no percent-discount badge shown, list $169.00) - updated to the lower confirmed current price. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $167.70 to $164.67 (minor drift, Amazon deal price vs $169 list). PRICE UPDATE 2026-08-31: street_price_usd moved $164.67 to $164.55 per the mandatory Amazon Sena storefront re-crawl (store-us.sena.com itself continues to show BiKom 20 at full $169 with no active discount). PRICE CORRECTED 2026-09-14: street_price_usd was $164.55; mandatory Amazon Sena storefront re-crawl now shows $164.43 - negligible drift, updated for accuracy. PRICE CORRECTED 2026-09-21: street_price_usd was $164.43; mandatory Amazon Sena storefront crawl now shows $139.95 (-17% off $169.00 list, deeper than the prior $164.43) - updated to the lowest confirmed current price.",
+      "notes": "Purpose-built cycling communicator, not a repurposed moto unit - open-ear design keeps ambient road awareness. STREET PRICE ADDED 2026-07-10: Amazon's official Sena storefront lists a $157.00 deal price (list $169.00). PRICE CORRECTED 2026-08-17: street_price_usd was $157.00; this run's Amazon storefront crawl shows a shallower $167.70 deal - the discount has narrowed but the unit is still listed marginally below the $169.00 MSRP. Also added a new firmware entry this run (v1.5.1, Jul 7 2026) that fixes ABC voice-prompt wording, released just after the v1.5 ABC feature launch already on file. PRICE CORRECTED 2026-08-25: street_price_usd was $167.7; mandatory Amazon Sena storefront re-crawl now shows a lower flat price of $164.67 (no percent-discount badge shown, list $169.00) - updated to the lower confirmed current price. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $167.70 to $164.67 (minor drift, Amazon deal price vs $169 list). PRICE UPDATE 2026-08-31: street_price_usd moved $164.67 to $164.55 per the mandatory Amazon Sena storefront re-crawl (store-us.sena.com itself continues to show BiKom 20 at full $169 with no active discount). PRICE CORRECTED 2026-09-14: street_price_usd was $164.55; mandatory Amazon Sena storefront re-crawl now shows $164.43 - negligible drift, updated for accuracy. PRICE CORRECTED 2026-09-21: street_price_usd was $164.43; mandatory Amazon Sena storefront crawl now shows $139.95 (-17% off $169.00 list, deeper than the prior $164.43) - updated to the lowest confirmed current price. PRICE CORRECTED 2026-10-05: street_price_usd was $139.95; the -17% Amazon deal at $139.95 has expired; mandatory Amazon Sena storefront crawl now shows $164.93 (vs $169 list); Sena store $169 full price.",
       "url": "https://www.sena.com/en-us/product/bikom-20/",
       "voip": false,
       "wireless_charging": false,
@@ -1357,7 +1357,7 @@
       "usage": "Cycling, skating, multi-sport",
       "tier": "entry",
       "msrp_usd": 99.0,
-      "street_price_usd": 99.0,
+      "street_price_usd": 98.25,
       "intercom_tech": "Bluetooth, 2-way HD intercom",
       "range_km": 0.4,
       "max_riders": 2,
@@ -1373,7 +1373,7 @@
         "Operating range -10C to 55C"
       ],
       "release_year": null,
-      "notes": "Sena's most general-purpose outdoor unit - not tied to one sport, clips onto whatever helmet strap the rider already has (cycling, skating, other strap-helmet activities). STREET PRICE ADDED 2026-07-14: Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current lowest new-condition price at $89.00 (list $99.00), below MSRP. PRICE CORRECTED 2026-08-25: street_price_usd was $89.0; mandatory Amazon Sena storefront re-crawl now shows $97.30 (essentially full price against the $99.00 MSRP, no visible discount badge) - the deeper prior deal appears to have expired, updated to the current confirmed price. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $89.00 to $97.30 (Amazon deal price vs $99 list). PRICE CORRECTED 2026-08-29: street_price_usd was $97.3; mandatory store-us.sena.com crawl found a sitewide ~25% off promotion now applied (compare_at $99 matches recorded msrp_usd, no drift), effective price $74.25 - updated to this lower confirmed price. PRICE CORRECTED 2026-09-14: street_price_usd was $74.25 (from the now-expired sitewide Sena-store promotion; Sena's own store is back to $99.00 flat). Mandatory Amazon Sena storefront re-crawl shows $97.31, below Sena's own price - used as the new street_price_usd. PRICE CORRECTED 2026-09-21: street_price_usd was $97.31; mandatory Amazon Sena storefront crawl now shows $96.88 (vs $99.00 MSRP) - updated to the lowest confirmed current price. PRICE CORRECTED 2026-09-28: street_price_usd was $96.88; mandatory Amazon Sena storefront crawl shows $99.00 (full price, no discount badge) - prior $96.88 deal no longer live; Sena store also $99.",
+      "notes": "Sena's most general-purpose outdoor unit - not tied to one sport, clips onto whatever helmet strap the rider already has (cycling, skating, other strap-helmet activities). STREET PRICE ADDED 2026-07-14: Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current lowest new-condition price at $89.00 (list $99.00), below MSRP. PRICE CORRECTED 2026-08-25: street_price_usd was $89.0; mandatory Amazon Sena storefront re-crawl now shows $97.30 (essentially full price against the $99.00 MSRP, no visible discount badge) - the deeper prior deal appears to have expired, updated to the current confirmed price. PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $89.00 to $97.30 (Amazon deal price vs $99 list). PRICE CORRECTED 2026-08-29: street_price_usd was $97.3; mandatory store-us.sena.com crawl found a sitewide ~25% off promotion now applied (compare_at $99 matches recorded msrp_usd, no drift), effective price $74.25 - updated to this lower confirmed price. PRICE CORRECTED 2026-09-14: street_price_usd was $74.25 (from the now-expired sitewide Sena-store promotion; Sena's own store is back to $99.00 flat). Mandatory Amazon Sena storefront re-crawl shows $97.31, below Sena's own price - used as the new street_price_usd. PRICE CORRECTED 2026-09-21: street_price_usd was $97.31; mandatory Amazon Sena storefront crawl now shows $96.88 (vs $99.00 MSRP) - updated to the lowest confirmed current price. PRICE CORRECTED 2026-09-28: street_price_usd was $96.88; mandatory Amazon Sena storefront crawl shows $99.00 (full price, no discount badge) - prior $96.88 deal no longer live; Sena store also $99. PRICE CORRECTED 2026-10-05: street_price_usd was $99.0; mandatory Amazon Sena storefront crawl shows $98.25 (vs $99.00 MSRP); Sena store $99.",
       "url": "https://www.sena.com/en-us/product/pi/",
       "voip": false,
       "wireless_charging": false,
@@ -1406,6 +1406,36 @@
       "notes": "MISSED IN PRIOR RESEARCH - added 2026-07-10 after being spotted live for sale on store-us.sena.com/products.json (SKU SUMMITX-01, in stock) during the mandatory pricing-diff crawl; not previously tracked in products[]. Sena's official press release (sena.com/en-us/stories/news/sena-technologies-introduces-the-summit-x-outdoor-communicator-built-for-snow-ready-for-any-adventure/) dates the launch to November 18, 2025 (EICMA/winter-season timing), so this was available before the file's 2026-06-10 cutoff but had never been captured - a second confirmed miss (after Outforce/Surge) showing the outdoor/non-moto catalog needs the same store-JSON discipline as the smart-helmet line. Notable as Sena's first non-motorcycle product to carry the Wave cellular intercom, extending that differentiator into the outdoor/winter-sports category alongside Cardo's more moto-only Wave-equivalent gap. Firmware user guide on file dated v1.1.0 (2026-01-30). PRICE CORRECTED 2026-07-14: street_price_usd was $249.00 (=MSRP, no discount); Keepa/Amazon pricing data (fetched 2026-07-13) shows Amazon's current lowest new-condition price at $201.31, below MSRP - updated. PRICE CORRECTED 2026-08-25: street_price_usd was $201.31; mandatory Amazon Sena storefront re-crawl shows the flat listed price has returned to the full $249.00 MSRP (no automatic discount), but a clippable Amazon coupon currently brings it to $134.61 - recording the coupon price as street_price_usd since it is a real, currently-available price on the listing, but flagging that it requires the buyer to clip the coupon (not an automatic deal price like other entries in this file). PRICE UPDATE 2026-08-25 (mandatory Amazon storefront crawl): street price moved $201.31 to $249.00 - the discount seen in prior checks has expired and Amazon is now selling at full $249 MSRP. PRICE CORRECTED 2026-08-29: street_price_usd was $249.0; mandatory store-us.sena.com crawl found a sitewide ~25% off promotion now applied (compare_at $249 matches recorded msrp_usd, no drift), effective price $186.75 - updated to this lower confirmed price (Amazon remains at full $249.00, no discount there). PRICE CORRECTED 2026-09-14: street_price_usd was $186.75 (from the now-expired sitewide Sena-store promotion; Sena's own store is back to $249.00 flat with no discount). Mandatory Amazon Sena storefront re-crawl also shows $249.00 flat, no discount found anywhere - street_price_usd reset to match msrp_usd.",
       "url": "https://store-us.sena.com/products/summit-x-outdoor-communicator-with-wave-and-mesh-intercom",
       "voip": true,
+      "wireless_charging": false,
+      "detachable_battery": false
+    },
+    {
+      "name": "EXPAND Mono",
+      "category": "outdoor",
+      "usage": "Hiking, outdoor sports, work/industrial and training group communication",
+      "tier": "mid",
+      "msrp_usd": 179.0,
+      "street_price_usd": 179.0,
+      "intercom_tech": "Mesh Intercom 3.0 (backward compatible with Mesh 2.0; Open Mesh 6 channels / Group Mesh up to 24) + Bluetooth 5.2",
+      "range_km": 0.4,
+      "max_riders": 24,
+      "audio": "Single 37mm mono speaker (single-ear design), Advanced Noise Control, adjustable boom microphone",
+      "talk_time_hours": 10,
+      "waterproof": null,
+      "features": [
+        "Single-ear (one ear open) design for situational awareness",
+        "Mesh Intercom 3.0 with Open Mesh (6 channels, virtually unlimited users) and Group Mesh (up to 24)",
+        "Ultra-light 100 g",
+        "Dual antenna",
+        "Advanced Noise Control with precision-adjustable boom mic",
+        "Fast charge: 20 min = 2h use; full charge 2.5h",
+        "OTA firmware updates and Sena app compatibility",
+        "Operating range -20C to 55C"
+      ],
+      "release_year": 2026,
+      "notes": "ADDED 2026-10-05: not previously tracked in products[] - found during the mandatory outdoor/sub-line check on store-us.sena.com/products.json (handle expand-mono, $179, Outdoor-Main product type, in stock) and senaindustrial.com/products.json (handle expand-mono-mesh-intercom-headset, $179, in stock). Sena newsroom launched it Feb 10, 2026 ('Sena Technologies Redefines Situational Communication with the All-New EXPAND Mono Mesh Intercom Headset'), positioned for extreme outdoor sports through professional industrial use - a mono-ear derivative of the older EXPAND Mesh ($199, also untracked). Specs from sena.com/en-us/product/expand-mono/: 0.4 km Mesh range, 10h Mesh talk time, 100 g; waterproof rating not stated, so left null. No dimensions scores assigned (consistent with other outdoor entries such as SUMMIT X). Not a motorcycle product.",
+      "url": "https://www.sena.com/en-us/product/expand-mono/",
+      "voip": false,
       "wireless_charging": false,
       "detachable_battery": false
     },
@@ -1462,7 +1492,7 @@
         "2-year warranty"
       ],
       "release_year": 2025,
-      "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: lts2) during the mandatory pricing crawl. Product imagery/assets dated November 2025, consistent with an EICMA/winter-season launch. $269 confirmed live on store-us.sena.com (Medium in stock, Large out of stock as of 2026-07-14). No Amazon listing found to establish a street price. STOCK NOTE 2026-09-28: store-us.sena.com shows both Latitude S2 sizes ($269) out of stock (available:false). MSRP unchanged.",
+      "notes": "NOT PREVIOUSLY TRACKED - discovered 2026-07-14 via cross-check of store-us.sena.com/products.json (handle: lts2) during the mandatory pricing crawl. Product imagery/assets dated November 2025, consistent with an EICMA/winter-season launch. $269 confirmed live on store-us.sena.com (Medium in stock, Large out of stock as of 2026-07-14). No Amazon listing found to establish a street price. STOCK NOTE 2026-09-28: store-us.sena.com shows both Latitude S2 sizes ($269) out of stock (available:false). MSRP unchanged. STOCK UPDATE 2026-10-05: store-us.sena.com now shows both sizes (Medium/Large, $269) back in stock (available:true) after the 2026-09-28 stock-out. MSRP unchanged.",
       "url": "https://store-us.sena.com/products/lts2",
       "voip": false,
       "wireless_charging": false,
@@ -1862,6 +1892,18 @@
       "headline": "Weekly mandatory crawl: sena.com smart-helmet category still 10 families, all tracked - no new helmets. store-us.sena.com/products.json (253 items across 2 pages, down from 259 previously noted) shows no MSRP drift on any tracked product. Street-price corrections (Amazon storefront / RevZilla): 60X $436.82 to $430.51, 60S $357.95 to $373.77, 50S $319.99 to $275.05, Spider RT1/ST1 $227.89 to $226.89, Specter $610.00 to $626.93, Outlander $577.78 to $565.00, pi $96.88 to $99.00, 50C $599 to $543.36 (RevZilla). Stock: 60X both packs still out of stock on Sena's store; MeshON, PRISM 2, Latitude S2 out of stock. Legacy Rumba multi-sport helmet re-listed Sep 22 at $69.30 (was $129). New Sena Industrial SKU Tufftalk Lite2 ($249) found on senaindustrial.com and added. RevZilla Sena(N) count unchanged at 73. No new sena.com press releases since PRISM 2 (Aug 11); apps unchanged (Sena Motorcycles 3.5.1, Wave Intercom 1.0.27).",
       "source": "Internal daily competitive research crawl",
       "url": "https://store-us.sena.com/products.json?limit=250"
+    },
+    {
+      "date": "2026-02-10",
+      "headline": "Sena launches EXPAND Mono, a 100 g single-ear Mesh Intercom 3.0 headset for outdoor sports and industrial/work teams (Group Mesh up to 24, ~400 m range, $179) - backfilled 2026-10-05, missed by prior runs",
+      "source": "Sena newsroom",
+      "url": "https://www.sena.com/en-us/stories/news/sena-technologies-redefines-situational-communication-with-the-all-new-expand-mono-mesh-intercom-headset/"
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Weekly mandatory crawl: sena.com smart-helmet category still 10 families, all tracked - no new helmets. store-us.sena.com/products.json (253 items, 2 pages) shows no MSRP drift on any tracked product. Street-price corrections (Amazon storefront / RevZilla): 60S $373.77 to $349.97 (-20%), 50S $275.05 to $329.03 (deal narrowed), 60X $430.51 to $459 (Amazon now lists above MSRP at $543.75), Spider RT1/ST1 $226.89 to $235.89, Specter $626.93 to $624.99, BiKom 20 $139.95 to $164.93, pi $99 to $98.25, Phantom ANC $614.97 to $649 (stale August deal not reconfirmed). Stock: Latitude S2 back in stock; Vortex Dual Pack out of stock; 60X (both packs), MeshON, PRISM 2 still out of stock; Outstar 2 still absent. Previously untracked 2026 outdoor product EXPAND Mono ($179, launched Feb 10) added. RevZilla Sena(N) count 73 to 72. No new sena.com news releases or firmware notices since Sep 9; apps unchanged (Sena Motorcycles 3.5.1, Wave Intercom 1.0.27).",
+      "source": "Internal daily competitive research crawl",
+      "url": "https://store-us.sena.com/products.json?limit=250"
     }
   ],
   "social_media": {
@@ -1902,7 +1944,7 @@
       "channel": "youtube.com/@senatechnologies (handle @senatechnologies; plus Sena Outdoor and Sena Deutschland sub-channels)",
       "subscribers": 40400,
       "url": "https://www.youtube.com/@senatechnologies",
-      "notes": "40.1K subscribers, 724 videos (updated 2026-08-17 check; was 40.1K/723 videos on 2026-08-10, 39.8K/713 videos on 2026-07-14). Subscriber count has plateaued while upload cadence stays steady (~1 video/week). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26. UPDATE 2026-08-31: 40.2K subscribers, 726 videos (up from 40.1K/724 on 2026-08-17) - found via direct channel visit that four videos uploaded in late July had been missed by prior text-based checks; now backfilled into recent_posts. Upload cadence continues at roughly 1 video/week. UPDATE 2026-09-14: 40.3K subscribers, 729 videos (up from 40.2K/726 on 2026-08-31) - upload cadence continues at roughly 1 video/week; specific new video titles/dates for this 3-video delta could not be confirmed via text search this run (owned-channel video listing did not render searchable metadata), so no new individual videos were added to recent_posts to avoid guessing at unverified titles. UPDATE 2026-09-21: 40.3K subscribers, 730 videos (up from 729 on 2026-09-14); the channel handle @SenaBluetooth returns 404 - the live channel is youtube.com/@senatechnologies. Scraped video list did not render titles/dates, so no new individual videos were added to recent_posts. UPDATE 2026-09-28: 40.4K subscribers, 732 videos (up from 40.3K/730 on 2026-09-21). Channel RSS feed (channel_id UC8a7B31cP3zSv_ShzFYBTqg) now used to get real video IDs/dates - backfilled 12 official videos from 2026-08-04 to 2026-09-22 that earlier text-based checks had missed (Hit The Route/Outlander campaign, APEX replaceable-battery explainer, 60S EVO ANC earbuds 200 kph test, Phantom Cam rider test, 60X faceplates)."
+      "notes": "40.1K subscribers, 724 videos (updated 2026-08-17 check; was 40.1K/723 videos on 2026-08-10, 39.8K/713 videos on 2026-07-14). Subscriber count has plateaued while upload cadence stays steady (~1 video/week). Owned channel is heavily support/tutorial oriented: pairing how-tos, firmware walkthroughs, launch promos. Third-party YouTube coverage matters more: FortNine's influential Sena-vs-Cardo comparison found Sena's claimed range advantage 'isn't actually true'; MCN, Bennetts BikeSocial, Ultimate Motorcycling and ADV Pulse all reviewed the 60S/60 series in 2024-26. UPDATE 2026-08-31: 40.2K subscribers, 726 videos (up from 40.1K/724 on 2026-08-17) - found via direct channel visit that four videos uploaded in late July had been missed by prior text-based checks; now backfilled into recent_posts. Upload cadence continues at roughly 1 video/week. UPDATE 2026-09-14: 40.3K subscribers, 729 videos (up from 40.2K/726 on 2026-08-31) - upload cadence continues at roughly 1 video/week; specific new video titles/dates for this 3-video delta could not be confirmed via text search this run (owned-channel video listing did not render searchable metadata), so no new individual videos were added to recent_posts to avoid guessing at unverified titles. UPDATE 2026-09-21: 40.3K subscribers, 730 videos (up from 729 on 2026-09-14); the channel handle @SenaBluetooth returns 404 - the live channel is youtube.com/@senatechnologies. Scraped video list did not render titles/dates, so no new individual videos were added to recent_posts. UPDATE 2026-09-28: 40.4K subscribers, 732 videos (up from 40.3K/730 on 2026-09-21). Channel RSS feed (channel_id UC8a7B31cP3zSv_ShzFYBTqg) now used to get real video IDs/dates - backfilled 12 official videos from 2026-08-04 to 2026-09-22 that earlier text-based checks had missed (Hit The Route/Outlander campaign, APEX replaceable-battery explainer, 60S EVO ANC earbuds 200 kph test, Phantom Cam rider test, 60X faceplates). CHECKED 2026-10-05: 40.4K subscribers, 732 videos - unchanged from 2026-09-28; channel RSS shows no new uploads since 2026-09-22."
     },
     "tiktok": {
       "handle": "@senabluetooth",
@@ -2421,6 +2463,48 @@
         "platform": "YouTube",
         "summary": "Official @senatechnologies video: \"SENA SPIDER X Slim | Compact Size & Premium Performance\"",
         "url": "https://www.youtube.com/watch?v=QyfkyydCZJs"
+      },
+      {
+        "date": "2026-09-28",
+        "platform": "Instagram",
+        "summary": "GS Trophy recap: Classic Enduro Lap, Sena at 2026 BMW Motorrad International GS Trophy.",
+        "url": "https://www.instagram.com/p/Dd1_ltWjAml/"
+      },
+      {
+        "date": "2026-09-29",
+        "platform": "Instagram",
+        "summary": "Group-ride engagement reel: 'get the group ride out of the group chat'.",
+        "url": "https://www.instagram.com/p/Dd4LaDiOpng/"
+      },
+      {
+        "date": "2026-09-30",
+        "platform": "Instagram",
+        "summary": "CFMOTO MT Challenge Global Final in Spain recap; Sena kept riders connected.",
+        "url": "https://www.instagram.com/p/Dd7CSanDBPb/"
+      },
+      {
+        "date": "2026-10-02",
+        "platform": "Instagram",
+        "summary": "CFMOTO MT Challenge Global Final finish recap with Sena along for the ride.",
+        "url": "https://www.instagram.com/p/DeAL5eCCAIK/"
+      },
+      {
+        "date": "2026-09-15",
+        "platform": "Instagram",
+        "summary": "@sena_europe reel 'Passion. Performance. Innovation. That's what connects @sena_europe and @lcr.team' - promotes Sena's ongoing LCR Honda MotoGP team partnership (634 likes, 8 comments at time of indexing).",
+        "url": "https://www.instagram.com/sena_europe/"
+      },
+      {
+        "date": "2026-10-03",
+        "platform": "Reddit",
+        "summary": "r/motorcyclegear thread 'Slimmest intercom for NXR2/RF1400? Packtalk vs Sena' - commenters note the Sena 50R is still bulkier than the Packtalk, whose base remains even with the cradle removed.",
+        "url": "https://www.reddit.com/r/motorcyclegear/comments/1wwucox/slimmest_intercom_for_nxr2rf1400_packtalk_vs_sena/"
+      },
+      {
+        "date": "2026-07-31",
+        "platform": "YouTube",
+        "summary": "Official @senatechnologies video: \"@MADMAXY | Reviews Extreme Bass Speakers!\" (creator collab; backfilled 2026-10-05 from channel RSS - missed by prior runs)",
+        "url": "https://www.youtube.com/watch?v=p452mj4vz8o"
       }
     ]
   },
@@ -3579,7 +3663,10 @@
     "https://www.reddit.com/r/motorcyclegear/comments/1uef58i/sena_60s_vs_cardo_packtalk_edge/",
     "https://www.reddit.com/r/motorcyclegear/comments/1rpu36e/sena_srl3_music_interrupting_while_riding/",
     "https://www.reddit.com/r/motorcyclegear/comments/1nhtpow/sena_phantom_full_face_helmet/",
-    "https://www.reddit.com/r/motorcyclegear/comments/1p01z2y/first_full_face_helmet_sena_stryker_has_amazing/"
+    "https://www.reddit.com/r/motorcyclegear/comments/1p01z2y/first_full_face_helmet_sena_stryker_has_amazing/",
+    "https://www.sena.com/en-us/product/expand-mono/",
+    "https://www.sena.com/en-us/stories/news/sena-technologies-redefines-situational-communication-with-the-all-new-expand-mono-mesh-intercom-headset/",
+    "https://www.reddit.com/r/motorcyclegear/comments/1wwucox/slimmest_intercom_for_nxr2rf1400_packtalk_vs_sena/"
   ],
   "customer_feedback": [
     {
@@ -5271,6 +5358,56 @@
       "topic": "Earbud alternative to intercom",
       "summary": "Rider who disliked a Sena or Cardo plus earplugs setup tried ANC AirPods with a DJI Mic Mini 2 as an intercom alternative, though the mic picked up a lot of noise.",
       "url": "https://www.reddit.com/r/motorcycle/comments/1wlm08r/intercom_alternative_airpods_with_anc_and_dji_mic/"
+    },
+    {
+      "date": "2026-10-04",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "Volume loss",
+      "summary": "60S owner says volume keeps dropping to near-inaudible within minutes; restarting and updating firmware on both units helped only briefly.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1483896620281036/"
+    },
+    {
+      "date": "2026-10-04",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S",
+      "sentiment": "negative",
+      "topic": "Bluetooth intercom drops at speed",
+      "summary": "60S connected via Bluetooth intercom to a 20S and 50S is clear up to about 40 mph, then audio turns robotic with clicking and the connection drops; outgoing audio to the 50S becomes unintelligible above about 45 mph.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1483745420296156/"
+    },
+    {
+      "date": "2026-10-04",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "60S EVO",
+      "sentiment": "neutral",
+      "topic": "New mic settings caution",
+      "summary": "Member warns that the 60S EVO has new microphone settings and that turning them down muted their microphone.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1483526816984683/"
+    },
+    {
+      "date": "2026-09-28",
+      "source": "Facebook Group",
+      "forum": "Sena 60s, 60s EVO, and 60x Users",
+      "product": "50S",
+      "sentiment": "negative",
+      "topic": "Voice commands not working",
+      "summary": "Member asks why their 50S does not respond to voice commands.",
+      "url": "https://www.facebook.com/groups/860066485997389/permalink/1478539607483404/"
+    },
+    {
+      "date": "2026-10-03",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "50R",
+      "sentiment": "negative",
+      "topic": "Bulk vs Packtalk",
+      "summary": "In a thread on the slimmest intercom for Shoei helmets, a commenter says the Sena 50R is still bulkier than the Cardo Packtalk.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1wwucox/slimmest_intercom_for_nxr2rf1400_packtalk_vs_sena/"
     }
   ],
   "amazon_pricing": {

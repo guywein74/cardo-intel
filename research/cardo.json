@@ -105,7 +105,7 @@
         "Mesh-Boost: 31-rider DMC, Remote Grouping, Public Mesh, Cellular Intercom (claimed, never shipped - absent from actual Aug 2026 GA)"
       ],
       "release_year": 2022,
-      "notes": "Launched 2022 at $389.95; MSRP raised to $439.95 (2025). Street price $395.96 at Cycle Gear (10% off). 3-year warranty. ORV and KTM editions available. Edgephones ($159.95) extend same DMC network off-helmet. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 463 reviews. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (up from 463); Amazon storefront shows 4.5/5 stars, 3,376 reviews. Re-verified 2026-08-18 via live RevZilla and Amazon checks: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (unchanged); Amazon storefront now shows 4.5/5 stars, 3,396 reviews (up from 3,376). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware. max_riders field updated 2026-08-19 from 15 (native) to 31 to reflect the Mesh-Boost OTA now generally available (GA 2026-08-17) - see feature/notes detail above for the native-vs-boosted history. Re-verified 2026-08-25 via live RevZilla and Amazon checks: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 470 reviews (up from 467); Amazon storefront still 4.5/5 stars, 3,396 reviews (unchanged). Re-verified 2026-08-29 via live RevZilla and Amazon checks: RevZilla unchanged at $395.96 (-10% off $439.95, 4.5/5 stars, 470 reviews, unchanged), but Amazon storefront now shows a slightly lower $393.95 (-10% off $439.95, 4.5/5 stars, 3,390 reviews, down from 3,396 recorded 2026-08-25 - within normal review-count noise); street_price_usd updated down from $395.96 to the lower $393.95 Amazon figure. Re-verified 2026-08-31 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating unchanged at 4.5/5 stars, 470 reviews - no change since 2026-08-29. Amazon storefront could not be re-checked this session (see sources note on storefront access issues 2026-08-31); street_price_usd left at the $393.95 Amazon figure recorded 2026-08-29 pending a clean re-check. Re-verified 2026-09-14 via live Amazon storefront and RevZilla checks: Labor Day sale-period pricing has fully lapsed; both retailers show the standard -10% discount again (Amazon $395.95 off $439.95 list, 4.5/5 stars, 3,420 reviews; RevZilla $395.96 off $439.95). street_price_usd updated from $393.95 to $395.95 (Amazon, marginally lower of the two). CORRECTION 2026-09-14: 'Cellular Intercom' (VoIP over data network) was marketed as part of Mesh-Boost since the Nov 2024 announcement, but is absent from the actual GA changelog when firmware 5.4 / Cardo Connect 9.1 finally shipped 2026-08-17 (DMC group size, Public Mesh, and Remote Grouping shipped; Cellular Intercom did not). Treated here as an unshipped/vaporware feature, not a real capability - voip field corrected to false and the 'Cellular Intercom' feature line flagged as claimed-but-not-delivered rather than removed outright, to preserve the marketing-vs-reality record.",
+      "notes": "Launched 2022 at $389.95; MSRP raised to $439.95 (2025). Street price $395.96 at Cycle Gear (10% off). 3-year warranty. ORV and KTM editions available. Edgephones ($159.95) extend same DMC network off-helmet. Re-verified 2026-07-27 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 463 reviews. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (up from 463); Amazon storefront shows 4.5/5 stars, 3,376 reviews. Re-verified 2026-08-18 via live RevZilla and Amazon checks: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 467 reviews (unchanged); Amazon storefront now shows 4.5/5 stars, 3,396 reviews (up from 3,376). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware. max_riders field updated 2026-08-19 from 15 (native) to 31 to reflect the Mesh-Boost OTA now generally available (GA 2026-08-17) - see feature/notes detail above for the native-vs-boosted history. Re-verified 2026-08-25 via live RevZilla and Amazon checks: price unchanged at $395.96 (-10% off $439.95); RevZilla rating 4.5/5 stars, 470 reviews (up from 467); Amazon storefront still 4.5/5 stars, 3,396 reviews (unchanged). Re-verified 2026-08-29 via live RevZilla and Amazon checks: RevZilla unchanged at $395.96 (-10% off $439.95, 4.5/5 stars, 470 reviews, unchanged), but Amazon storefront now shows a slightly lower $393.95 (-10% off $439.95, 4.5/5 stars, 3,390 reviews, down from 3,396 recorded 2026-08-25 - within normal review-count noise); street_price_usd updated down from $395.96 to the lower $393.95 Amazon figure. Re-verified 2026-08-31 via live RevZilla check: price unchanged at $395.96 (-10% off $439.95); RevZilla rating unchanged at 4.5/5 stars, 470 reviews - no change since 2026-08-29. Amazon storefront could not be re-checked this session (see sources note on storefront access issues 2026-08-31); street_price_usd left at the $393.95 Amazon figure recorded 2026-08-29 pending a clean re-check. Re-verified 2026-09-14 via live Amazon storefront and RevZilla checks: Labor Day sale-period pricing has fully lapsed; both retailers show the standard -10% discount again (Amazon $395.95 off $439.95 list, 4.5/5 stars, 3,420 reviews; RevZilla $395.96 off $439.95). street_price_usd updated from $393.95 to $395.95 (Amazon, marginally lower of the two). CORRECTION 2026-09-14: 'Cellular Intercom' (VoIP over data network) was marketed as part of Mesh-Boost since the Nov 2024 announcement, but is absent from the actual GA changelog when firmware 5.4 / Cardo Connect 9.1 finally shipped 2026-08-17 (DMC group size, Public Mesh, and Remote Grouping shipped; Cellular Intercom did not). Treated here as an unshipped/vaporware feature, not a real capability - voip field corrected to false and the 'Cellular Intercom' feature line flagged as claimed-but-not-delivered rather than removed outright, to preserve the marketing-vs-reality record. 2026-09-30: Cardo released the Rosewood Limited Edition PACKTALK EDGE (exclusive Rosewood colorway, 500 units worldwide, same $439.95 price and specs; $20 per unit donated to the Breast Cancer Research Foundation, up to $10,000) - treated as a colorway of this product, like the KTM edition, not a separate products[] entry. Re-verified 2026-10-05: Amazon $395.96 (-10% off $439.95; 4.5/5, 3,443 reviews, 700+ bought past month) and RevZilla $395.96 (4.5/5, 478 reviews), unchanged.",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -155,7 +155,7 @@
       "name": "Packtalk Neo",
       "tier": "mid",
       "msrp_usd": 359.95,
-      "street_price_usd": 319.99,
+      "street_price_usd": 323.96,
       "intercom_tech": "2nd-gen Dynamic Mesh (DMC Gen2) + Bluetooth 5.2 universal intercom",
       "range_km": 1.6,
       "max_riders": 31,
@@ -174,7 +174,7 @@
         "Clip/plate mount (no Air Mount)"
       ],
       "release_year": 2023,
-      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price was $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%). Re-verified 2026-07-14: the deeper Amazon deal has expired - both Amazon storefront and RevZilla now show $323.96 (-10% off $359.95), so street_price_usd reverts to $323.96 (current lowest confirmed price). RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09, and has since ticked down again to 'Cardo Systems(56)' as of 2026-07-14 (SKU churn, not a discontinuation confirmed). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla 'Cardo Systems' brand-filter SKU count still (56), unchanged since 2026-07-14. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95), RevZilla rating 4.5/5 stars, 76 reviews (first time captured for this product); brand-filter SKU count jumped to 'Cardo Systems(67)', up 11 from the 56 recorded 2026-07-14 - notable increase but no single new-product cause confirmed, likely accessory/kit/replacement-part SKUs (e.g. the new Venture helmet accessory listings) being folded into the same brand filter alongside the helmet launch. Amazon storefront also shows 4.6/5 stars, 1,161 reviews for the single pack (2026-08-10). Re-verified 2026-08-18 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla rating 4.5/5 stars, 75 reviews (essentially flat vs 76 recorded 2026-08-10). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware. max_riders field updated 2026-08-19 from 15 (native) to 31 to reflect the Mesh-Boost OTA now generally available (GA 2026-08-17) - see feature/notes detail above for the native-vs-boosted history. Re-verified 2026-08-25 via live RevZilla and Amazon checks: price unchanged at $323.96 (-10% off $359.95); RevZilla rating 4.5/5 stars, 75 reviews (unchanged); Amazon storefront shows 4.6/5 stars, 1,179 reviews for the single pack (up from 1,161 recorded 2026-08-10). RevZilla 'Cardo Systems' brand-filter SKU count now (57), down from the 67 recorded 2026-08-10. Re-verified 2026-08-29 via live RevZilla and Amazon checks: discount deepened sharply - RevZilla now $251.97 (-30% off $359.95, 4.5/5 stars, 75 reviews, unchanged) and Amazon storefront $251.95 (-30% off $359.95, 4.6/5 stars, 1,179 reviews, unchanged), both up from the -10% $323.96 recorded through 2026-08-25; likely tied to RevZilla's site-wide Labor Day sale. street_price_usd updated down from $323.96 to the lower $251.95 Amazon figure. RevZilla 'Cardo Systems' brand-filter SKU count now (55), down from the 57 recorded 2026-08-25 - continued SKU churn, no discontinuation confirmed. Re-verified 2026-08-31 via live RevZilla check: price unchanged at $251.97 (-30% off $359.95, Labor Day sale pricing holding); RevZilla rating 4.5/5 stars, 77 reviews (up slightly from 75 recorded 2026-08-29). RevZilla 'Cardo Systems' brand-filter SKU count unchanged at (55). Amazon storefront could not be re-checked this session (see sources note on storefront access issues 2026-08-31). Re-verified 2026-09-14 via live Amazon storefront and RevZilla checks: the -30% Labor Day sale price ($251.95/$251.97 recorded 2026-08-29 through 2026-08-31) has expired; both retailers reverted to the standard -10% discount (Amazon $322.93 off $359.95, 4.6/5 stars; RevZilla $323.96 off $359.95, 4.5/5 stars, 77 reviews). street_price_usd updated up from $251.95 to $322.93 (Amazon, the lower of the two) - reflects the promo ending, not a list-price change. RevZilla 'Cardo Systems' brand-filter SKU count still (55), unchanged since 2026-08-29/08-31 - no further SKU churn observed. CORRECTION 2026-09-14: 'Cellular Intercom' (VoIP over data network) was marketed as part of Mesh-Boost since the Nov 2024 announcement, but is absent from the actual GA changelog when firmware 5.4 / Cardo Connect 9.1 finally shipped 2026-08-17 (DMC group size, Public Mesh, and Remote Grouping shipped; Cellular Intercom did not). Treated here as an unshipped/vaporware feature, not a real capability - voip field corrected to false and the 'Cellular Intercom' feature line flagged as claimed-but-not-delivered rather than removed outright, to preserve the marketing-vs-reality record. Street price re-verified 2026-09-21 via Amazon Cardo storefront and RevZilla (both list $323.96, -10% off MSRP); previously recorded $322.93. Street price updated 2026-09-28: Amazon Cardo storefront single pack now $319.99 (-11% off $359.95; dual pack $589.99 vs $669.95 list), below the $323.96 still shown at RevZilla - street_price_usd moved $323.96 -> $319.99. RevZilla 'Cardo Systems' brand-filter SKU count is (62) as of 2026-09-28, up from (57); rating 4.5/5, 83 reviews.",
+      "notes": "Same DMC core as Edge at lower price; replaced Packtalk Bold. Differences vs Edge: mount and 2-year (vs 3-year) warranty. Street price updated 2026-07-10: Amazon storefront deal price was $321.93 (-11% off $359.95), edging below the previously recorded RevZilla/Amazon figure of $323.96 (-10%). Re-verified 2026-07-14: the deeper Amazon deal has expired - both Amazon storefront and RevZilla now show $323.96 (-10% off $359.95), so street_price_usd reverts to $323.96 (current lowest confirmed price). RevZilla's Cardo Systems brand-filter count moved to 'Cardo Systems(57)' as of 2026-07-10, down 1 from the 58 recorded 2026-07-09, and has since ticked down again to 'Cardo Systems(56)' as of 2026-07-14 (SKU churn, not a discontinuation confirmed). Re-verified 2026-07-27 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla 'Cardo Systems' brand-filter SKU count still (56), unchanged since 2026-07-14. Re-verified 2026-08-10 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95), RevZilla rating 4.5/5 stars, 76 reviews (first time captured for this product); brand-filter SKU count jumped to 'Cardo Systems(67)', up 11 from the 56 recorded 2026-07-14 - notable increase but no single new-product cause confirmed, likely accessory/kit/replacement-part SKUs (e.g. the new Venture helmet accessory listings) being folded into the same brand filter alongside the helmet launch. Amazon storefront also shows 4.6/5 stars, 1,161 reviews for the single pack (2026-08-10). Re-verified 2026-08-18 via live RevZilla check: price unchanged at $323.96 (-10% off $359.95); RevZilla rating 4.5/5 stars, 75 reviews (essentially flat vs 76 recorded 2026-08-10). Mesh-Boost OTA reached general availability 2026-08-17 via firmware 5.4 + Cardo Connect app 9.1 - see firmware_updates/product_firmware. max_riders field updated 2026-08-19 from 15 (native) to 31 to reflect the Mesh-Boost OTA now generally available (GA 2026-08-17) - see feature/notes detail above for the native-vs-boosted history. Re-verified 2026-08-25 via live RevZilla and Amazon checks: price unchanged at $323.96 (-10% off $359.95); RevZilla rating 4.5/5 stars, 75 reviews (unchanged); Amazon storefront shows 4.6/5 stars, 1,179 reviews for the single pack (up from 1,161 recorded 2026-08-10). RevZilla 'Cardo Systems' brand-filter SKU count now (57), down from the 67 recorded 2026-08-10. Re-verified 2026-08-29 via live RevZilla and Amazon checks: discount deepened sharply - RevZilla now $251.97 (-30% off $359.95, 4.5/5 stars, 75 reviews, unchanged) and Amazon storefront $251.95 (-30% off $359.95, 4.6/5 stars, 1,179 reviews, unchanged), both up from the -10% $323.96 recorded through 2026-08-25; likely tied to RevZilla's site-wide Labor Day sale. street_price_usd updated down from $323.96 to the lower $251.95 Amazon figure. RevZilla 'Cardo Systems' brand-filter SKU count now (55), down from the 57 recorded 2026-08-25 - continued SKU churn, no discontinuation confirmed. Re-verified 2026-08-31 via live RevZilla check: price unchanged at $251.97 (-30% off $359.95, Labor Day sale pricing holding); RevZilla rating 4.5/5 stars, 77 reviews (up slightly from 75 recorded 2026-08-29). RevZilla 'Cardo Systems' brand-filter SKU count unchanged at (55). Amazon storefront could not be re-checked this session (see sources note on storefront access issues 2026-08-31). Re-verified 2026-09-14 via live Amazon storefront and RevZilla checks: the -30% Labor Day sale price ($251.95/$251.97 recorded 2026-08-29 through 2026-08-31) has expired; both retailers reverted to the standard -10% discount (Amazon $322.93 off $359.95, 4.6/5 stars; RevZilla $323.96 off $359.95, 4.5/5 stars, 77 reviews). street_price_usd updated up from $251.95 to $322.93 (Amazon, the lower of the two) - reflects the promo ending, not a list-price change. RevZilla 'Cardo Systems' brand-filter SKU count still (55), unchanged since 2026-08-29/08-31 - no further SKU churn observed. CORRECTION 2026-09-14: 'Cellular Intercom' (VoIP over data network) was marketed as part of Mesh-Boost since the Nov 2024 announcement, but is absent from the actual GA changelog when firmware 5.4 / Cardo Connect 9.1 finally shipped 2026-08-17 (DMC group size, Public Mesh, and Remote Grouping shipped; Cellular Intercom did not). Treated here as an unshipped/vaporware feature, not a real capability - voip field corrected to false and the 'Cellular Intercom' feature line flagged as claimed-but-not-delivered rather than removed outright, to preserve the marketing-vs-reality record. Street price re-verified 2026-09-21 via Amazon Cardo storefront and RevZilla (both list $323.96, -10% off MSRP); previously recorded $322.93. Street price updated 2026-09-28: Amazon Cardo storefront single pack now $319.99 (-11% off $359.95; dual pack $589.99 vs $669.95 list), below the $323.96 still shown at RevZilla - street_price_usd moved $323.96 -> $319.99. RevZilla 'Cardo Systems' brand-filter SKU count is (62) as of 2026-09-28, up from (57); rating 4.5/5, 83 reviews. Re-verified 2026-10-05: Amazon Cardo storefront single pack back to $323.96 (-10% off $359.95; dual pack $600.53 vs $669.95 list; 4.6/5, 1,223 reviews) and RevZilla also $323.96 (4.5/5, 85 reviews) - the $319.99 Amazon deal has lapsed, street_price_usd moved $319.99 -> $323.96. RevZilla 'Cardo Systems' brand-filter SKU count is (60) as of 2026-10-05, down from (62) on 2026-09-28.",
       "dimensions": {
         "form_factor": {
           "weight_g": 47,
@@ -1060,7 +1060,7 @@
         "Serviceable/upgradable tech modules"
       ],
       "release_year": 2026,
-      "notes": "Cardo's first fully integrated road helmet; unveiled Jan 2026, on sale late 2026. GT sibling: $949, fiberglass shell, ANC optional, smaller cable-charged battery. MSRP updated 2026-07-10: Cardo's own Red Dot Award press release (published via Cycle News, 2026-07-09, dateline Plano TX 2026-07-08) now states GTS MSRP of $1,299 and availability pushed to 'late 2026' - up from the original January 2026 launch press release figure of $1,199 and 'summer 2026' window; treated as the current price pending on-site confirmation (cardosystems.com/pages/beyond is still preorder-only, no price shown). RevZilla listing status re-checked 2026-07-27: both Beyond GT and GTS pages now show 'This is a new product that isn't available yet' with a 'Notify Me' signup and 0 reviews - reverted from the brief 2026-07-03 out-of-stock-but-listed status noted above, consistent with the ship window having slipped to 'late 2026'. cardosystems.com/pages/beyond remains preorder-only with no price shown.",
+      "notes": "Cardo's first fully integrated road helmet; unveiled Jan 2026, on sale late 2026. GT sibling: $949, fiberglass shell, ANC optional, smaller cable-charged battery. MSRP updated 2026-07-10: Cardo's own Red Dot Award press release (published via Cycle News, 2026-07-09, dateline Plano TX 2026-07-08) now states GTS MSRP of $1,299 and availability pushed to 'late 2026' - up from the original January 2026 launch press release figure of $1,199 and 'summer 2026' window; treated as the current price pending on-site confirmation (cardosystems.com/pages/beyond is still preorder-only, no price shown). RevZilla listing status re-checked 2026-07-27: both Beyond GT and GTS pages now show 'This is a new product that isn't available yet' with a 'Notify Me' signup and 0 reviews - reverted from the brief 2026-07-03 out-of-stock-but-listed status noted above, consistent with the ship window having slipped to 'late 2026'. cardosystems.com/pages/beyond remains preorder-only with no price shown. Re-checked 2026-10-05: still no Beyond product in cardosystems.com's store catalog; cardosystems.com/pages/beyond shows only a 'Keep me updated' signup with no price or ship date. Retailer Eagle Leather (buyer's guide dated 2026-09-10) is taking paid preorders with an estimated 'Fall 2026' arrival; Cardo Instagram content in early October still describes the GTS as 'on its way'. Not yet shipping.",
       "category": "smart_helmet",
       "url": "https://cardosystems.com/pages/beyond",
       "usage": "Motorcycle"
@@ -1087,7 +1087,7 @@
         "360-Degree Turbine rotational-impact mitigation technology"
       ],
       "release_year": 2026,
-      "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695 (site now shows $799.95). Opened for pre-order in the US and Canada on 2026-08-06 via cardosystems.com/products/venture and Facebook/Instagram announcement posts; cardosystems.com lists shipping 'end of August', RevZilla's new listing (Cardo Venture Bluetooth Helmet, $799.95, also live 2026-08-10) says 'not expected to ship until early-September' - pre-orders filled first on both. GearJunkie first-ride review (2026-08-03) scored it 8.5/10 (Comfort 9, Safety Features 8, Comms System 9, Value 7.9) - 'a home run for the brand'. Accessory SKUs (Velcro Kit, Turbines Kit, Liner Kit, Sun Peak) also now listed on RevZilla. Re-verified 2026-08-18: cardosystems.com's own product page now shows standard in-stock fulfillment language (orders processed/shipped within 3 business days, no pre-order framing), suggesting the 'end of August' ship window has been met or is imminent; RevZilla's listing has not yet caught up and still shows pre-order status with the 'early-September' estimate. Price unchanged at $799.95 on both. Re-verified 2026-08-25: cardosystems.com's product page again shows 'Preorder' status on its default (XS) size variant with 'Shipping: end of August' and a 'Notify me when available' button; RevZilla also still shows pre-order with the 'early-September' ship estimate, unchanged since 2026-08-10/18. Likely per-size-variant fulfillment (smaller sizes selling out/backordered first) rather than a full reversal of the 2026-08-18 in-stock-language finding, but full general availability is not yet confirmed either way. Price unchanged at $799.95 on both.",
+      "notes": "Announced June 23, 2026. $799 US / EUR799 / GBP695 (site now shows $799.95). Opened for pre-order in the US and Canada on 2026-08-06 via cardosystems.com/products/venture and Facebook/Instagram announcement posts; cardosystems.com lists shipping 'end of August', RevZilla's new listing (Cardo Venture Bluetooth Helmet, $799.95, also live 2026-08-10) says 'not expected to ship until early-September' - pre-orders filled first on both. GearJunkie first-ride review (2026-08-03) scored it 8.5/10 (Comfort 9, Safety Features 8, Comms System 9, Value 7.9) - 'a home run for the brand'. Accessory SKUs (Velcro Kit, Turbines Kit, Liner Kit, Sun Peak) also now listed on RevZilla. Re-verified 2026-08-18: cardosystems.com's own product page now shows standard in-stock fulfillment language (orders processed/shipped within 3 business days, no pre-order framing), suggesting the 'end of August' ship window has been met or is imminent; RevZilla's listing has not yet caught up and still shows pre-order status with the 'early-September' estimate. Price unchanged at $799.95 on both. Re-verified 2026-08-25: cardosystems.com's product page again shows 'Preorder' status on its default (XS) size variant with 'Shipping: end of August' and a 'Notify me when available' button; RevZilla also still shows pre-order with the 'early-September' ship estimate, unchanged since 2026-08-10/18. Likely per-size-variant fulfillment (smaller sizes selling out/backordered first) rather than a full reversal of the 2026-08-18 in-stock-language finding, but full general availability is not yet confirmed either way. Price unchanged at $799.95 on both. Re-verified 2026-10-05 via cardosystems.com Shopify catalog: all five size variants (XS-XL) show available at $799.95 - general availability on Cardo's own store now appears complete. Venture is not listed on RevZilla's comms category page (it is a helmet).",
       "category": "smart_helmet",
       "url": "https://cardosystems.com/products/venture",
       "usage": "Motorcycle, off-road/MX"
@@ -1605,6 +1605,12 @@
       "headline": "SlashGear explainer notes Cardo's Beyond GT/GTS helmets still unreleased as of late September after slipping from summer to 'late 2026'; it quotes the original $949/$1,199 MSRPs, whereas Cardo's July 2026 release and retailer SpeedAddicts (2026-09-18) cite $1,299 for the GTS",
       "source": "SlashGear",
       "url": "https://www.slashgear.com/2264117/cardo-helmet-price-how-much-cost-beyond-options-coming/"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Cardo releases the Rosewood Limited Edition PACKTALK EDGE for Breast Cancer Awareness Month: exclusive Rosewood colorway, limited to 500 units worldwide, $439.95 (same as standard Edge); $20 per unit donated to the Breast Cancer Research Foundation (up to $10,000) under a 'Ride Together, Give Together' campaign",
+      "source": "Cardo Systems press release (via Total Motorcycle) / cardosystems.com product page",
+      "url": "https://www.totalmotorcycle.com/cardo-systems-introduces-rosewood-limited-edition-packtalk-edge-to-support-breast-cancer-research/"
     }
   ],
   "social_media": {
@@ -1612,14 +1618,14 @@
       "handle": "@cardosystems",
       "followers": 246000,
       "url": "https://www.instagram.com/cardosystems/",
-      "notes": "~230K followers, 3,777 posts (Google-indexed profile, updated 2026-07-10; up from ~228K/3,700+ recorded 2026-07-09). Re-verified 2026-07-14: still ~230K followers, no material change. Frequent posting: product launches, rider lifestyle reels, #CardoFam UGC, event coverage (EICMA). Network of regional accounts (@cardosystems_de, _india, _korea, @cardosystemsindonesia). Re-verified 2026-07-27 (Google-indexed profile snippet): ~236K followers, 3,794 posts, up from ~230K/3,777 recorded 2026-07-14. Re-verified 2026-08-10 (Google-indexed profile snippet): 238K followers, 3,823 posts, up from ~236K/3,794 recorded 2026-07-27. Re-verified 2026-08-18 via direct profile fetch: 239K followers, up slightly from 238K recorded 2026-08-10; post count not visible in this check. Re-verified 2026-08-25 via direct profile fetch: 241K followers, up slightly from 239K recorded 2026-08-18; 1,138 following; post count not visible in this check. Re-verified 2026-08-29 via indexed profile snippet: 242K followers, 1,139 following, up slightly from 241K/1,138 following recorded 2026-08-25. Re-verified 2026-09-14 (Google-indexed profile snippet): 244K followers, 1.3K following, 3,877 posts, up from 242K/1,139 following recorded 2026-08-29. Re-verified 2026-09-21 (search-indexed profile snippet): 246K followers, 1.3K+ following, 3,889 posts, up from 244K/3,877 recorded 2026-09-14."
+      "notes": "~230K followers, 3,777 posts (Google-indexed profile, updated 2026-07-10; up from ~228K/3,700+ recorded 2026-07-09). Re-verified 2026-07-14: still ~230K followers, no material change. Frequent posting: product launches, rider lifestyle reels, #CardoFam UGC, event coverage (EICMA). Network of regional accounts (@cardosystems_de, _india, _korea, @cardosystemsindonesia). Re-verified 2026-07-27 (Google-indexed profile snippet): ~236K followers, 3,794 posts, up from ~230K/3,777 recorded 2026-07-14. Re-verified 2026-08-10 (Google-indexed profile snippet): 238K followers, 3,823 posts, up from ~236K/3,794 recorded 2026-07-27. Re-verified 2026-08-18 via direct profile fetch: 239K followers, up slightly from 238K recorded 2026-08-10; post count not visible in this check. Re-verified 2026-08-25 via direct profile fetch: 241K followers, up slightly from 239K recorded 2026-08-18; 1,138 following; post count not visible in this check. Re-verified 2026-08-29 via indexed profile snippet: 242K followers, 1,139 following, up slightly from 241K/1,138 following recorded 2026-08-25. Re-verified 2026-09-14 (Google-indexed profile snippet): 244K followers, 1.3K following, 3,877 posts, up from 242K/1,139 following recorded 2026-08-29. Re-verified 2026-09-21 (search-indexed profile snippet): 246K followers, 1.3K+ following, 3,889 posts, up from 244K/3,877 recorded 2026-09-14. 2026-10-05: no fresh follower count obtainable (direct fetch returns no meta; search snippets are stale), 246K left unchanged."
     },
     "facebook": {
       "page": "facebook.com/CardoSystems",
-      "followers": 355214,
+      "followers": 355904,
       "url": "https://www.facebook.com/CardoSystems/",
       "groups_notes": "Public group 'Cardo Systems PackTalk and Edge Community' (facebook.com/groups/1847605508861922) is the main owner community; member count not retrievable without login. Cardo Outdoor page has ~116K followers; many small regional pages (Cardo UK 2.4K, Malaysia 4.3K, Philippines 2.9K, Indonesia 1.6K, NZ 168). Cardo topics also active in model-specific owner groups/forums (Road Glide, GL1800Riders, KRX).",
-      "notes": "Main global page follower count updated 2026-07-10 to 353,009 likes (Google-indexed profile snippet), up from 352,835 recorded 2026-07-09. Re-verified 2026-07-14: 352,936 likes (Google-indexed snippet) - essentially flat, within normal snapshot noise. Re-verified 2026-07-27 (Google-indexed profile snippet): 353,253 likes (4,377 talking about this), up slightly from 352,936 recorded 2026-07-14. Re-verified 2026-08-10 (Google-indexed profile snippet): 353,454 likes (2,358 talking about this), up slightly from 353,253 recorded 2026-07-27. Re-verified 2026-08-18 (Google-indexed profile snippet): 353,418 likes, essentially flat vs 353,454 recorded 2026-08-10 (within normal snapshot noise); direct facebook.com fetch blocked as usual. Re-verified 2026-08-25 (Google-indexed profile snippet): 354,167 likes, up from 353,418 recorded 2026-08-18; direct facebook.com fetch still blocked as usual. Re-verified 2026-08-29 (Google-indexed profile snippet): 354,563 likes (3,612 talking about this), up slightly from 354,167 recorded 2026-08-25; direct facebook.com fetch still blocked as usual. Re-verified 2026-09-14 (Google-indexed profile snippet): 355,214 likes (2,947 talking about this), up slightly from 354,563 recorded 2026-08-29; direct facebook.com fetch still blocked as usual."
+      "notes": "Main global page follower count updated 2026-07-10 to 353,009 likes (Google-indexed profile snippet), up from 352,835 recorded 2026-07-09. Re-verified 2026-07-14: 352,936 likes (Google-indexed snippet) - essentially flat, within normal snapshot noise. Re-verified 2026-07-27 (Google-indexed profile snippet): 353,253 likes (4,377 talking about this), up slightly from 352,936 recorded 2026-07-14. Re-verified 2026-08-10 (Google-indexed profile snippet): 353,454 likes (2,358 talking about this), up slightly from 353,253 recorded 2026-07-27. Re-verified 2026-08-18 (Google-indexed profile snippet): 353,418 likes, essentially flat vs 353,454 recorded 2026-08-10 (within normal snapshot noise); direct facebook.com fetch blocked as usual. Re-verified 2026-08-25 (Google-indexed profile snippet): 354,167 likes, up from 353,418 recorded 2026-08-18; direct facebook.com fetch still blocked as usual. Re-verified 2026-08-29 (Google-indexed profile snippet): 354,563 likes (3,612 talking about this), up slightly from 354,167 recorded 2026-08-25; direct facebook.com fetch still blocked as usual. Re-verified 2026-09-14 (Google-indexed profile snippet): 355,214 likes (2,947 talking about this), up slightly from 354,563 recorded 2026-08-29; direct facebook.com fetch still blocked as usual. Re-verified 2026-10-05 (search-indexed profile snippet): 355,904 followers (3,781 talking about this), up from 355,214 recorded 2026-09-14."
     },
     "reddit": {
       "url": "https://www.reddit.com/search/?q=cardo+motorcycle+intercom",
@@ -1648,7 +1654,7 @@
       "channel": "Cardo Systems (youtube.com/c/CardoSystemsGlobal)",
       "subscribers": 86000,
       "url": "https://www.youtube.com/c/CardoSystemsGlobal/",
-      "notes": "84.8K subscribers, ~1,000 videos (verified on-channel July 2026). Content: setup/pairing tutorials, firmware how-tos, launch films (Beyond, Venture), rider stories; separate 'Cardo Outdoor' channel. Big-reviewer coverage on YouTube: FortNine (Packtalk 'best unit out there', with range-claim criticism), webBikeWorld, Bennetts, MCN - overwhelmingly favorable verdicts with price caveats. Re-verified 2026-07-27 (on-channel, live browser check): 85K subscribers, ~1K videos, up slightly from 84.8K. Latest upload still the Venture launch/teaser videos from late June 2026 ('1 month ago') and the 'Wired to Wireless Ep.3' UTV Invasion video - no new uploads found since the last check. Re-verified 2026-08-10 (on-channel header, live check): 85.1K subscribers, ~1K videos - essentially flat since 2026-07-27; the channel's video grid did not render in this check's scrape (JS-heavy lazy-load), so no new upload titles could be confirmed beyond what's already logged in recent_posts. Re-verified 2026-08-18 (on-channel header, firecrawl scrape): 85.3K subscribers, ~1K videos - essentially flat since 2026-08-10; video grid again did not render (JS-heavy lazy-load), so no new upload titles confirmed. Re-verified 2026-08-25 (on-channel header, firecrawl scrape): 85.6K subscribers, ~1K videos - essentially flat since 2026-08-18; video grid again did not render (JS-heavy lazy-load), so no new upload titles confirmed. Re-verified 2026-08-29: on-channel subscriber header again did not load in this check (attempted fetch returned a Google sign-in wall); a third-party Social Blade snippet suggested a lower, likely stale ~83.2K figure that conflicts with the 85.6K directly verified 2026-08-18/08-25, so subscriber count is left unchanged pending a clean re-check. Separately identified a genuine non-official upload tagging the channel: influencer RideWithRea (@RidewithRea) posted a 48-second Short 'Do you have the new Cardo Mesh Boost update yet?' on 2026-08-21 (2,563 views, 65 likes at time of check) - see recent_posts. Re-verified 2026-09-14 (on-channel header, firecrawl scrape): 85.9K subscribers, ~1K videos - up slightly from 85.6K recorded 2026-08-25 (2026-08-29 check was inconclusive due to a conflicting stale third-party figure, now superseded); video grid again did not render (JS-heavy lazy-load), so no new upload titles could be confirmed beyond recent_posts. Re-checked 2026-09-28 on-channel: 86K subscribers (up from 85.9K); channel id UCWP8jg0fxbVdmX9jXJXbYEw, RSS feed https://www.youtube.com/feeds/videos.xml?channel_id=UCWP8jg0fxbVdmX9jXJXbYEw."
+      "notes": "84.8K subscribers, ~1,000 videos (verified on-channel July 2026). Content: setup/pairing tutorials, firmware how-tos, launch films (Beyond, Venture), rider stories; separate 'Cardo Outdoor' channel. Big-reviewer coverage on YouTube: FortNine (Packtalk 'best unit out there', with range-claim criticism), webBikeWorld, Bennetts, MCN - overwhelmingly favorable verdicts with price caveats. Re-verified 2026-07-27 (on-channel, live browser check): 85K subscribers, ~1K videos, up slightly from 84.8K. Latest upload still the Venture launch/teaser videos from late June 2026 ('1 month ago') and the 'Wired to Wireless Ep.3' UTV Invasion video - no new uploads found since the last check. Re-verified 2026-08-10 (on-channel header, live check): 85.1K subscribers, ~1K videos - essentially flat since 2026-07-27; the channel's video grid did not render in this check's scrape (JS-heavy lazy-load), so no new upload titles could be confirmed beyond what's already logged in recent_posts. Re-verified 2026-08-18 (on-channel header, firecrawl scrape): 85.3K subscribers, ~1K videos - essentially flat since 2026-08-10; video grid again did not render (JS-heavy lazy-load), so no new upload titles confirmed. Re-verified 2026-08-25 (on-channel header, firecrawl scrape): 85.6K subscribers, ~1K videos - essentially flat since 2026-08-18; video grid again did not render (JS-heavy lazy-load), so no new upload titles confirmed. Re-verified 2026-08-29: on-channel subscriber header again did not load in this check (attempted fetch returned a Google sign-in wall); a third-party Social Blade snippet suggested a lower, likely stale ~83.2K figure that conflicts with the 85.6K directly verified 2026-08-18/08-25, so subscriber count is left unchanged pending a clean re-check. Separately identified a genuine non-official upload tagging the channel: influencer RideWithRea (@RidewithRea) posted a 48-second Short 'Do you have the new Cardo Mesh Boost update yet?' on 2026-08-21 (2,563 views, 65 likes at time of check) - see recent_posts. Re-verified 2026-09-14 (on-channel header, firecrawl scrape): 85.9K subscribers, ~1K videos - up slightly from 85.6K recorded 2026-08-25 (2026-08-29 check was inconclusive due to a conflicting stale third-party figure, now superseded); video grid again did not render (JS-heavy lazy-load), so no new upload titles could be confirmed beyond recent_posts. Re-checked 2026-09-28 on-channel: 86K subscribers (up from 85.9K); channel id UCWP8jg0fxbVdmX9jXJXbYEw, RSS feed https://www.youtube.com/feeds/videos.xml?channel_id=UCWP8jg0fxbVdmX9jXJXbYEw. Re-checked 2026-10-05 on-channel: still 86K subscribers, ~1K videos; RSS feed pulled for new uploads."
     },
     "tiktok": {
       "handle": "@cardosystems",
@@ -2383,6 +2389,96 @@
         "platform": "Instagram",
         "summary": "Official @cardosystems reel announcing HJC PACKTALK ('Your helmet and comms should feel like one system') - ~380 likes, 18 comments per search index",
         "url": "https://www.instagram.com/cardosystems/"
+      },
+      {
+        "date": "2026-10-01",
+        "platform": "Instagram",
+        "summary": "Rider collab: limited-edition Rosewood Packtalk Edge for breast cancer awareness month, with discount code.",
+        "url": "https://www.instagram.com/p/Dd9LttSCMfr/"
+      },
+      {
+        "date": "2026-10-01",
+        "platform": "Instagram",
+        "summary": "Ambassador #ad for Rosewood campaign: $20 per unit sold donated to the Breast Cancer Research Foundation.",
+        "url": "https://www.instagram.com/p/Dd894FCurHL/"
+      },
+      {
+        "date": "2026-10-01",
+        "platform": "Instagram",
+        "summary": "Rider reel promoting the Cardo RIDE app (follow their routes).",
+        "url": "https://www.instagram.com/p/Dd91Pv5qQgb/"
+      },
+      {
+        "date": "2026-10-02",
+        "platform": "Instagram",
+        "summary": "Packtalk Edge Rosewood Limited Edition: $20 per unit to Breast Cancer Research Foundation, $10K goal.",
+        "url": "https://www.instagram.com/p/Dd_lDVdEdhM/"
+      },
+      {
+        "date": "2026-10-02",
+        "platform": "Instagram",
+        "summary": "Rider reel about Cardo UK proximity chat (Public Mesh) connecting with strangers.",
+        "url": "https://www.instagram.com/p/Dd-yEOLKS_A/"
+      },
+      {
+        "date": "2026-10-04",
+        "platform": "Instagram",
+        "summary": "Rider ASMR unboxing/install reel: upgrading from Packtalk Edge to Packtalk Pro.",
+        "url": "https://www.instagram.com/p/DeE6jMmNggC/"
+      },
+      {
+        "date": "2026-10-04",
+        "platform": "Instagram",
+        "summary": "Group ride reel tagging CFMOTO UK and Cardo; riders credit the headsets for the fun.",
+        "url": "https://www.instagram.com/p/DeEHKCdxS2K/"
+      },
+      {
+        "date": "2026-09-15",
+        "platform": "YouTube",
+        "summary": "'Cardo Venture - Helmet Overview and Maintenance' - official walkthrough of the Venture MX helmet (~2.7K views)",
+        "url": "https://www.youtube.com/watch?v=HkqYcOUh4CQ"
+      },
+      {
+        "date": "2026-09-15",
+        "platform": "YouTube",
+        "summary": "'Cardo Venture - Operating your Comms' - official tutorial on using the Venture's integrated DMC comms (~1.8K views)",
+        "url": "https://www.youtube.com/watch?v=W1GqPPsHCJA"
+      },
+      {
+        "date": "2026-09-16",
+        "platform": "YouTube",
+        "summary": "Short 'Sam Sunderland is deep into his record attempt' - ambassador round-the-world record ride update (~1K views)",
+        "url": "https://www.youtube.com/watch?v=RAdpL08k8Ok"
+      },
+      {
+        "date": "2026-09-30",
+        "platform": "YouTube",
+        "summary": "'Introducing the PACKTALK EDGE Rosewood Limited Edition' - launch video for the 500-unit breast-cancer-research edition (~800 views)",
+        "url": "https://www.youtube.com/watch?v=bb7ua9umc5M"
+      },
+      {
+        "date": "2026-09-30",
+        "platform": "YouTube",
+        "summary": "'PACKTALK EDGE ORV Rosewood | Riding for Breast Cancer Research' - off-road framing of the Rosewood edition campaign (~590 views)",
+        "url": "https://www.youtube.com/watch?v=ImQNZNaNHJI"
+      },
+      {
+        "date": "2026-10-01",
+        "platform": "YouTube",
+        "summary": "Short 'This one rides for something bigger.' - Rosewood Limited Edition / BCRF campaign clip (~1.3K views)",
+        "url": "https://www.youtube.com/watch?v=hnAtB1QACc0"
+      },
+      {
+        "date": "2026-10-01",
+        "platform": "YouTube",
+        "summary": "'Favorite Cardo Edgephones ORV Features' - feature rundown for the off-helmet Edgephones ORV (~680 views)",
+        "url": "https://www.youtube.com/watch?v=5dKHb1ZphGU"
+      },
+      {
+        "date": "2026-09-29",
+        "platform": "Instagram",
+        "summary": "Official @cardosystems post promoting the Refer a Friend program ('Refer a friend to Cardo and you both get rewarded'); per cardosystems.com terms the friend gets $50 off a $350+ purchase and the referrer a $35 reward (approx. date from search index '6 days ago')",
+        "url": "https://www.instagram.com/cardosystems/"
       }
     ]
   },
@@ -2955,7 +3051,7 @@
     "app_ios_version": "9.2",
     "app_android_version": "9.2",
     "app_last_updated": "2026-09-22",
-    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer; see product_firmware for per-product firmware versions. Re-verified 2026-07-10 via Apple App Store and APKCombo: Cardo Connect remains at 8.14, unchanged since 2026-06-07. Re-verified again 2026-07-14: still 8.14 on both platforms and Cardo Ride still at 4.6.0, no new releases found. Note: Cardo Ride (the separate ride-tracking/navigation app, App Store id 1087005682) is versioned independently of Cardo Connect - Cardo Ride reached v4.6.0 on 2026-07-02, adding Apple CarPlay dashboard support for Cardo Ride Pro subscribers. Re-verified 2026-07-27 via Apple App Store: Cardo Connect still at 8.14 (last updated June 3 per App Store display), and Cardo Ride still at 4.6.0 (last updated July 2) - no new releases found since the 2026-07-14 check. Re-verified 2026-08-10 via Apple App Store: Cardo Connect still at 8.14, no new release. Cardo Ride has moved on twice since the last check - 4.6.1 (2026-07-30, CarPlay goes fully live plus improved AI Trip Images) and 4.6.2 (~2026-08-05, new map styles, richer reWind recaps with embedded trip photos, upgraded background ride tracking, polished CarPlay map, stability fixes); see firmware_updates for full changelogs. MAJOR update 2026-08-17: Cardo Connect jumped from 8.14 to 9.1 (Apple App Store, checked 2026-08-18, 'Last Updated: 1 day ago'), shipping the long-delayed Mesh Boost feature set app-wide - Remote Grouping, Public Mesh, a redesigned/simplified group-management UI, and support for DMC groups up to 31 riders - resolving the staggered-rollout complaints tracked in this file since late 2025 (gs-forum.com thread, Facebook Group posts). Matching device firmware 5.4 shipped the same window for Packtalk Pro/Edge/Neo (up from 4.7-4.9); see firmware_updates and product_firmware. Cardo Ride separately gained Android Auto support (alongside its existing Apple CarPlay integration) for Cardo Ride Pro subscribers, announced 2026-08-11 via MCN/imotorbike.com - exact Cardo Ride version number for this change not confirmed (App Store still showed 4.6.2 as of this check). Re-verified 2026-08-25 via Apple iTunes lookup API: Cardo Connect still at 9.1 (currentVersionReleaseDate 2026-08-17), and Cardo Ride still at 4.6.2 (currentVersionReleaseDate 2026-08-05) - no new app releases since the 2026-08-17/2026-08-18 checks. Re-verified 2026-08-29 via Apple iTunes lookup API: Cardo Connect still at 9.1 (currentVersionReleaseDate 2026-08-17), and Cardo Ride still at 4.6.2 (currentVersionReleaseDate 2026-08-05) - no new app releases since the 2026-08-17/2026-08-18 checks. Re-verified 2026-08-31 via Apple iTunes lookup API: Cardo Connect still at 9.1 (currentVersionReleaseDate 2026-08-17), and Cardo Ride still at 4.6.2 (currentVersionReleaseDate 2026-08-05) - no new app releases since the 2026-08-17/2026-08-18 checks. Amazon Cardo storefront (amazon.com/stores/CardoSystems/...) was unreachable this session across three separate methods (firecrawl - out of credits account-wide; WebFetch - HTTP 503; browser navigation - silently redirected to the generic amazon.com homepage), so today's street-price checks relied on RevZilla only; worth retrying with a fresh method next session. Re-verified 2026-09-14 via Apple iTunes lookup API and APKMirror: Cardo Connect remains at 9.1 on both iOS (currentVersionReleaseDate 2026-08-17) and Android (APKMirror lists 9.1 uploaded 2026-08-17, matching iOS) - no new Cardo Connect release since Mesh Boost GA. Cardo Ride advanced from 4.6.2 to 4.6.4 (iTunes currentVersionReleaseDate 2026-09-03) with a minor, undisclosed-detail 'under the hood' stability update (no confirmed 4.6.3 found, and no Android-side version number confirmed for Cardo Ride this check); see firmware_updates. Re-checked 2026-09-21: Cardo Connect iOS still 9.1 (released 2026-08-17); Cardo Ride iOS now 4.6.5 (2026-09-17). Re-checked 2026-09-28: Cardo Connect 9.2 released - Google Play 'Updated on Sep 18, 2026', iOS currentVersionReleaseDate 2026-09-22, release notes 'Introducing Cardo Sync - Communication Made for Cycling' (adds Cardo SYNC support); Cardo Ride still 4.6.5 (2026-09-17)."
+    "notes": "Cardo firmware updates ship as free, cable-free OTA pushes delivered through the Cardo Connect companion app (paired via Bluetooth); a USB-based 'Cardo Update' desktop tool exists as a fallback. Cadence is irregular - headline feature drops (e.g. Mesh-Boost) are pre-announced months ahead at events like EICMA and then rolled out gradually/regionally, which has drawn owner complaints on forums (e.g. gs-forum.com) about long gaps between announcement and actual device-level delivery. The Cardo Connect app itself updates far more frequently than unit firmware (roughly monthly on Android per Uptodown/APKCombo version histories), mostly for bug fixes, language support and the app's own UI, while headline DMC/mesh capability changes are firmware-side and rarer; see product_firmware for per-product firmware versions. Re-verified 2026-07-10 via Apple App Store and APKCombo: Cardo Connect remains at 8.14, unchanged since 2026-06-07. Re-verified again 2026-07-14: still 8.14 on both platforms and Cardo Ride still at 4.6.0, no new releases found. Note: Cardo Ride (the separate ride-tracking/navigation app, App Store id 1087005682) is versioned independently of Cardo Connect - Cardo Ride reached v4.6.0 on 2026-07-02, adding Apple CarPlay dashboard support for Cardo Ride Pro subscribers. Re-verified 2026-07-27 via Apple App Store: Cardo Connect still at 8.14 (last updated June 3 per App Store display), and Cardo Ride still at 4.6.0 (last updated July 2) - no new releases found since the 2026-07-14 check. Re-verified 2026-08-10 via Apple App Store: Cardo Connect still at 8.14, no new release. Cardo Ride has moved on twice since the last check - 4.6.1 (2026-07-30, CarPlay goes fully live plus improved AI Trip Images) and 4.6.2 (~2026-08-05, new map styles, richer reWind recaps with embedded trip photos, upgraded background ride tracking, polished CarPlay map, stability fixes); see firmware_updates for full changelogs. MAJOR update 2026-08-17: Cardo Connect jumped from 8.14 to 9.1 (Apple App Store, checked 2026-08-18, 'Last Updated: 1 day ago'), shipping the long-delayed Mesh Boost feature set app-wide - Remote Grouping, Public Mesh, a redesigned/simplified group-management UI, and support for DMC groups up to 31 riders - resolving the staggered-rollout complaints tracked in this file since late 2025 (gs-forum.com thread, Facebook Group posts). Matching device firmware 5.4 shipped the same window for Packtalk Pro/Edge/Neo (up from 4.7-4.9); see firmware_updates and product_firmware. Cardo Ride separately gained Android Auto support (alongside its existing Apple CarPlay integration) for Cardo Ride Pro subscribers, announced 2026-08-11 via MCN/imotorbike.com - exact Cardo Ride version number for this change not confirmed (App Store still showed 4.6.2 as of this check). Re-verified 2026-08-25 via Apple iTunes lookup API: Cardo Connect still at 9.1 (currentVersionReleaseDate 2026-08-17), and Cardo Ride still at 4.6.2 (currentVersionReleaseDate 2026-08-05) - no new app releases since the 2026-08-17/2026-08-18 checks. Re-verified 2026-08-29 via Apple iTunes lookup API: Cardo Connect still at 9.1 (currentVersionReleaseDate 2026-08-17), and Cardo Ride still at 4.6.2 (currentVersionReleaseDate 2026-08-05) - no new app releases since the 2026-08-17/2026-08-18 checks. Re-verified 2026-08-31 via Apple iTunes lookup API: Cardo Connect still at 9.1 (currentVersionReleaseDate 2026-08-17), and Cardo Ride still at 4.6.2 (currentVersionReleaseDate 2026-08-05) - no new app releases since the 2026-08-17/2026-08-18 checks. Amazon Cardo storefront (amazon.com/stores/CardoSystems/...) was unreachable this session across three separate methods (firecrawl - out of credits account-wide; WebFetch - HTTP 503; browser navigation - silently redirected to the generic amazon.com homepage), so today's street-price checks relied on RevZilla only; worth retrying with a fresh method next session. Re-verified 2026-09-14 via Apple iTunes lookup API and APKMirror: Cardo Connect remains at 9.1 on both iOS (currentVersionReleaseDate 2026-08-17) and Android (APKMirror lists 9.1 uploaded 2026-08-17, matching iOS) - no new Cardo Connect release since Mesh Boost GA. Cardo Ride advanced from 4.6.2 to 4.6.4 (iTunes currentVersionReleaseDate 2026-09-03) with a minor, undisclosed-detail 'under the hood' stability update (no confirmed 4.6.3 found, and no Android-side version number confirmed for Cardo Ride this check); see firmware_updates. Re-checked 2026-09-21: Cardo Connect iOS still 9.1 (released 2026-08-17); Cardo Ride iOS now 4.6.5 (2026-09-17). Re-checked 2026-09-28: Cardo Connect 9.2 released - Google Play 'Updated on Sep 18, 2026', iOS currentVersionReleaseDate 2026-09-22, release notes 'Introducing Cardo Sync - Communication Made for Cycling' (adds Cardo SYNC support); Cardo Ride still 4.6.5 (2026-09-17). Re-checked 2026-10-05: Cardo Connect still 9.2 (iOS 2026-09-22, Google Play 'Updated on Sep 18, 2026'); Cardo Ride still 4.6.5 (2026-09-17). Packtalk Pro/Edge/Neo release-notes pages still top out at 5.4 and Cardo SYNC at 3.12 - no new firmware."
   },
   "product_firmware": [
     {
@@ -3262,7 +3358,12 @@
     "https://www.youtube.com/watch?v=26lG-RdpH2A",
     "https://play.google.com/store/apps/details?id=com.cardo.smartset",
     "https://cardosystems.com/pages/cardo-sync-release-notes",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCWP8jg0fxbVdmX9jXJXbYEw"
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCWP8jg0fxbVdmX9jXJXbYEw",
+    "https://www.totalmotorcycle.com/cardo-systems-introduces-rosewood-limited-edition-packtalk-edge-to-support-breast-cancer-research/",
+    "https://cardosystems.com/products/packtalk-edge-rosewood",
+    "https://dirtwheelsmag.com/cardo-introduces-rosewood-limited-edition-packtalk-edge-to-support-breast-cancer-research/",
+    "https://eagleleather.com/blogs/motorcycle-helmets-articles/cardo-beyond-gts-buyers-guide",
+    "https://cardosystems.com/pages/refer-a-friend"
   ],
   "customer_feedback": [
     {
@@ -6164,6 +6265,216 @@
       "topic": "Earbud alternative to intercom",
       "summary": "Rider who disliked a Sena or Cardo plus earplugs setup tried ANC AirPods with a DJI Mic Mini 2 as an intercom alternative, though the mic picked up a lot of noise.",
       "url": "https://www.reddit.com/r/motorcycle/comments/1wlm08r/intercom_alternative_airpods_with_anc_and_dji_mic/"
+    },
+    {
+      "date": "2026-10-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edgephones",
+      "sentiment": "negative",
+      "topic": "DMC intercom no audio",
+      "summary": "New owner of Edgephones and a Packtalk Edge set up a named DMC group and the second device shows as joined, but there is no intercom audio at all; frustrated and asking for help.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597490860540026/"
+    },
+    {
+      "date": "2026-10-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Low intercom volume",
+      "summary": "Edge user can get music and other audio loud enough, but intercom audio with a riding partner stays too quiet despite trying every setting they could find.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597234037232375/"
+    },
+    {
+      "date": "2026-10-04",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Mic fails on phone calls",
+      "summary": "Edge picks up voice commands fine, but on incoming phone calls the caller cannot hear the rider; asks how to fix it.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4597082397247539/"
+    },
+    {
+      "date": "2026-10-03",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge ORV",
+      "sentiment": "negative",
+      "topic": "Pairing/setup difficulty",
+      "summary": "Buyer of a duo pack (Edgephones with Packtalk Edge ORV) for use as a car intercom paired and updated only the first unit; the second unit can't be paired, updated or seen in the app, and they are irritated after spending about 750 on it.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4596293287326450/"
+    },
+    {
+      "date": "2026-10-03",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Battery life complaint",
+      "summary": "Three-year-old, lightly used Edge went from all-day runtime to about an hour; replacing the battery did not help, and the owner asks whether these units have known discharge issues.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4595885120700600/"
+    },
+    {
+      "date": "2026-10-02",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Firmware update breaks group",
+      "summary": "Member asks if others have group intercom problems since the latest update, saying units cannot connect via either Bluetooth or mesh.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594711057484673/"
+    },
+    {
+      "date": "2026-10-02",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Replacement unit won't pair",
+      "summary": "After losing the main Edge unit when its mount broke, rider bought a new one but cannot get it to pair with partner's Edge (units stuck blinking different colors); says they are fed up and disappointed (Spanish-language post).",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594675134154932/"
+    },
+    {
+      "date": "2026-10-02",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "No mic / no sound fault",
+      "summary": "Packtalk Bold owner with four trouble-free years suddenly gets no headset connection, no music audio and a 'no mic' message.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594649057490873/"
+    },
+    {
+      "date": "2026-10-01",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Tinny sound after reinstall",
+      "summary": "After a shop installed their Edge into a new helmet, the speakers sound tinny compared with before; others suggest speaker spacers to bring them closer to the ears.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594233820865730/"
+    },
+    {
+      "date": "2026-10-01",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Praise for Public Mesh",
+      "summary": "Rider with Public Mesh enabled describes two spontaneous connections with nearby strangers on one ride (at an intersection and from a road below a bridge) and says it is pretty cool how well it works.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594205420868570/"
+    },
+    {
+      "date": "2026-10-01",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Battery drain after update",
+      "summary": "Since a recent firmware update the Edge gives low-battery warnings 20-45 minutes into rides even after charging; eco mode didn't help and a factory reset is next.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594142264208219/"
+    },
+    {
+      "date": "2026-10-01",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Spare part availability",
+      "summary": "Owner reports the rubber cover of a unit button broke and asks where a replacement part can be bought (Italian-language post).",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594114554210990/"
+    },
+    {
+      "date": "2026-10-01",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Pro",
+      "sentiment": "negative",
+      "topic": "Mic garbled at speed",
+      "summary": "Above about 40 mph other riders cannot understand a Packtalk Pro user in a full-face helmet with either boom or button mic, while friends on the same system sound clear; trying lower mic sensitivity and a new button mic.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4594103967545382/"
+    },
+    {
+      "date": "2026-09-30",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "DMC group rejoin failure",
+      "summary": "Leader of an 8-rider tour (5 Edge, 3 Packtalk Bold) says a Bold that slipped into Bluetooth mode could not rejoin the DMC group even after a hard reset and re-invites.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4593045474317898/"
+    },
+    {
+      "date": "2026-09-30",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Voice command broken after update",
+      "summary": "Edge owner says the 'Hey Cardo' voice command stopped working since the latest update.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4592860931003019/"
+    },
+    {
+      "date": "2026-09-30",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "neutral",
+      "topic": "Feature question: shared nav audio",
+      "summary": "Owner of two Edges asks whether a pillion can hear the rider's phone sat-nav directions at the same time.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4592635554358890/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "Packtalk Edge",
+      "sentiment": "negative",
+      "topic": "Charging failure/overheating",
+      "summary": "Edge stopped working while charging and now gets very hot when charged; owner opened it and found one IC overheating.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4591543081134804/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Facebook Group",
+      "forum": "Cardo Systems PackTalk and Edge Community",
+      "product": "General",
+      "sentiment": "negative",
+      "topic": "Sat-nav overrides intercom",
+      "summary": "Packtalk Bold user pairing through a Garmin Zumo XT cannot stop sat-nav audio from overriding intercom conversations, despite trying many setups and videos.",
+      "url": "https://www.facebook.com/groups/1847605508861922/permalink/4591232231165889/"
+    },
+    {
+      "date": "2026-10-03",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Comparison vs Sena",
+      "summary": "In a thread on the slimmest intercom for Shoei helmets, a commenter says the Sena 50R is still bulkier than the Packtalk and notes the Cardo mounting cradle can be removed to leave a slimmer base.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1wwucox/slimmest_intercom_for_nxr2rf1400_packtalk_vs_sena/"
+    },
+    {
+      "date": "2026-10-01",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "Freecom 2x",
+      "sentiment": "neutral",
+      "topic": "Purchase advice",
+      "summary": "Pillion planning a week-long trip with a parent asks for help choosing a Cardo; commenters recommend the Freecom 2x for a two-person setup and the poster agrees it fits.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1wurvbr/help_with_picking_a_new_cardo/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Reddit",
+      "forum": "r/motorcyclegear",
+      "product": "General",
+      "sentiment": "positive",
+      "topic": "Volume through earplugs",
+      "summary": "In an ear-protection thread, a commenter says Cardo audio is loud enough to hear through earplugs because the speakers sit right by the ears.",
+      "url": "https://www.reddit.com/r/motorcyclegear/comments/1wtb9ff/ear_protection/"
     }
   ],
   "amazon_pricing": {

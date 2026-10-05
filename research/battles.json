@@ -1222,10 +1222,10 @@
               "good",
               "soso"
             ],
-            "note": "Both Cardo and Sena ran Aug 2026 sitewide sales: Freecom 2x dropped to $178.47 street, Spider RT1/ST1 (MSRP $239) dropped to $179.25 — now essentially at price parity despite Spider's mesh capability; Freecom 2x still lacks mesh; APEX launches at $265 MSRP (no street discount confirmed yet) | 2026-09-28: Spider RT1/ST1 Amazon street $226.89",
+            "note": "Both Cardo and Sena ran Aug 2026 sitewide sales: Freecom 2x dropped to $178.47 street, Spider RT1/ST1 (MSRP $239) dropped to $179.25 — now essentially at price parity despite Spider's mesh capability; Freecom 2x still lacks mesh; APEX launches at $265 MSRP (no street discount confirmed yet) | 2026-09-28: Spider RT1/ST1 Amazon street $226.89 | 2026-10-05: Spider RT1/ST1 Amazon street $235.89",
             "values": [
               "$229.46",
-              "$226.89",
+              "$235.89",
               "$155",
               "$265"
             ]
@@ -2066,16 +2066,16 @@
           {
             "dimension": "Price",
             "scores": [
-              "bad",
+              "soso",
               "soso",
               "good",
               "soso",
               "soso"
             ],
-            "note": "Neo most expensive mid-mesh; 50S pulled back down to $284.25 street via a sitewide Sena sale (Aug 29 2026), from the $320 recorded on Aug 25 - now again cheaper than Spider X Slim's $299, though still pricier than Reso's $269 | 2026-09-28: Neo street $319.99 (Amazon); 50S Amazon street down to $275.05, ~$45 under Neo and within $6 of Reso Pilot Neo",
+            "note": "Neo and 50S are the priciest mid-mesh pair (see 2026-10-05 update); history: 50S pulled back down to $284.25 street via a sitewide Sena sale (Aug 29 2026), from the $320 recorded on Aug 25 - now again cheaper than Spider X Slim's $299, though still pricier than Reso's $269 | 2026-09-28: Neo street $319.99 (Amazon); 50S Amazon street down to $275.05, ~$45 under Neo and within $6 of Reso Pilot Neo | 2026-10-05: 50S Amazon deal shrank to $329.03, now ~$5 ABOVE Neo's $323.96 street (Neo MSRP $359.95 is also below 50S MSRP $379). Neo rescored bad->soso: with 50S at parity/above, Neo is no longer the uniquely expensive outlier - both sit ~$55-60 above Reso/ASMAX ($269) and ~$25 above Spider X Slim ($299)",
             "values": [
-              "$319.99",
-              "$275.05",
+              "$323.96",
+              "$329.03",
               "$269",
               "$269",
               "$299"
@@ -2636,13 +2636,13 @@
               "good",
               "good"
             ],
-            "note": "Pro most expensive on market post-2025 hikes; 60S EVO/60X/Reso/ASMAX all undercut, and 60S (Amazon deal price back down to $360 as of Aug 31 2026, after briefly rising to $378 on Aug 29) still undercuts hardest of the Sena trio | 2026-09-28: 60S Amazon street $373.77 (deal smaller), 60X $430.51, F1s $118.99 with coupon",
+            "note": "Pro most expensive on market post-2025 hikes; 60S EVO/60X/Reso/ASMAX all undercut, and 60S (Amazon deal price back down to $360 as of Aug 31 2026, after briefly rising to $378 on Aug 29) still undercuts hardest of the Sena trio | 2026-09-28: 60S Amazon street $373.77 (deal smaller), 60X $430.51, F1s $118.99 with coupon | 2026-10-05: 60S Amazon deal deepened to $349.97 (-20%); 60X Amazon now above list ($543.75), RevZilla $459",
             "values": [
               "$449.95",
               "$395.95",
               "$459",
-              "$430.51",
-              "$373.77",
+              "$459",
+              "$349.97",
               "$359",
               "$118.99"
             ]
@@ -3032,10 +3032,10 @@
               "good",
               "soso"
             ],
-            "note": "F1s cheapest; 60S Amazon deal price back down to $360 as of Aug 31 2026 (after briefly rising to $378 on Aug 29) - undercuts both Edge and Reso by a healthy margin again; Reso $399 DTC | 2026-09-28: 60S Amazon street $373.77 (deal narrowed, still ~$22 under Edge); F1s $118.99 with coupon",
+            "note": "F1s cheapest; 60S Amazon deal price back down to $360 as of Aug 31 2026 (after briefly rising to $378 on Aug 29) - undercuts both Edge and Reso by a healthy margin again; Reso $399 DTC | 2026-09-28: 60S Amazon street $373.77 (deal narrowed, still ~$22 under Edge); F1s $118.99 with coupon | 2026-10-05: 60S Amazon $349.97 (-20%), ~$46 under Edge",
             "values": [
               "$395.95",
-              "$373.77",
+              "$349.97",
               "$118.99",
               "$359"
             ]
@@ -3971,14 +3971,14 @@
               "good",
               "good"
             ],
-            "note": "GTS $1,299 (MSRP raised, launch slipped to late 2026) is ~2x the Sena field; Phantom from $549. Impulse's MSRP corrected to $599 (was mistakenly shown at a stale $479); a sitewide Sena sale (Aug 29 2026) now puts confirmed street prices at $449.25 for Impulse and $314.25 for Surge, both first-time confirmations for these helmets | 2026-09-28: Specter Amazon street $626.93 (deal ended)",
+            "note": "GTS $1,299 (MSRP raised, launch slipped to late 2026) is ~2x the Sena field; Phantom from $549. Impulse's MSRP corrected to $599 (was mistakenly shown at a stale $479); a sitewide Sena sale (Aug 29 2026) now puts confirmed street prices at $449.25 for Impulse and $314.25 for Surge, both first-time confirmations for these helmets | 2026-09-28: Specter Amazon street $626.93 (deal ended) | 2026-10-05: Specter $624.99; Phantom ANC back to $649 list (Aug deal gone)",
             "values": [
               "$1299",
-              "$626.93",
+              "$624.99",
               "$549",
               "$599",
               "$599",
-              "$614.97",
+              "$649",
               "$199",
               "$419"
             ]
