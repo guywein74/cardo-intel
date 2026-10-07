@@ -10,7 +10,7 @@ This is an **automated competitive research platform** that:
 
 1. **Collects intelligence** from product sites, press coverage, social media, and customer forums across 4 motorcycle communicator brands
 2. **Synthesizes insights** using AI agents to identify product gaps, market opportunities, and strategic threats
-3. **Renders a dashboard** as a single self-contained HTML file with 10+ interactive tabs analyzing products, pricing, battles, firmware, customer feedback, and strategic recommendations
+3. **Renders a dashboard** as a single self-contained HTML file with 5 pages (Brief, Products, Gaps, Signals, Brands) covering products, pricing, battles, firmware, customer feedback, and strategic recommendations
 4. **Publishes daily** to GitHub Pages, updating automatically when new competitive moves are detected
 
 ## Architecture Overview
@@ -21,7 +21,7 @@ This is an **automated competitive research platform** that:
 ┌─────────────────────────────────────────────────────────────┐
 │ DASHBOARD LAYER (1 file)                                    │
 │ dashboard.html (generated) — self-contained, no runtime deps│
-│ • 10 interactive tabs (Overview, Products, Battles, etc.)   │
+│ • 5 pages: Brief, Products, Gaps, Signals, Brands          │
 │ • Renders to GitHub Pages automatically                     │
 └─────────────────────────────────────────────────────────────┘
          ↑ (fed by build.py)
@@ -62,20 +62,19 @@ This is an **automated competitive research platform** that:
 5. The rendered **dashboard.html** is a self-contained file (works from file://, no server needed)
 6. **Git + GitHub Pages** automatically publishes the dashboard to the web
 
-## Dashboard Tabs
+## Dashboard Pages
 
-| Tab | Purpose | Data Source |
-|-----|---------|-------------|
-| **Overview** | Brand positioning matrix, company info, product counts | 4 brand JSONs |
-| **Products** | Sortable/filterable product table with specs | 4 brand JSONs |
-| **Battles** | Head-to-head comparisons, 16-dimension rating matrices | battles.json |
-| **Model Compare** | Detailed side-by-side specs of selected products | 4 brand JSONs |
-| **Pricing** | Scatter plot of price vs features (mesh, warranty, etc.) | 4 brand JSONs |
-| **Gap Analysis** | Cardo's competitive gaps with evidence and benchmarks | gap_analysis.json |
-| **Social & Press** | Recent news, press reviews, social media posts | 4 brand JSONs |
-| **Software & Firmware** | App versions, firmware updates, release notes | 4 brand JSONs |
-| **Voice of the Customer** | Real customer feedback from Reddit and Facebook | 4 brand JSONs |
-| **Product Insights** | Strategic analysis, market pulse, recommendations | product_insights.json |
+Every fact lives in one place; other pages link to it. All numbers are computed in the template from the JSON. The brand legend in the top bar is a global filter (click a brand to hide or show it).
+
+| Page | What it shows | Data source |
+|------|---------------|-------------|
+| **Brief** (home) | Weekly headline and memo, 4 computed KPIs, "What changed", "Do now" recommendations, watchlist | product_insights.json + brand JSONs |
+| **Products** | Price map (per-brand price ladders, mesh vs Bluetooth, nearest rivals), sortable Table, Battles (rating-glyph matrix per segment), Compare (side-by-side specs) | brand JSONs, battles.json |
+| **Gaps** | One ranked list of Cardo's gaps with evidence, linked signals and actions; July gap-analysis baseline behind a toggle; where Cardo leads | product_insights.json, gap_analysis.json |
+| **Signals** | The only feed of news, press, software updates, owner posts and social posts, grouped by day, with type, range and search filters | brand JSONs |
+| **Brands** | One page per brand: positioning, key stats, strengths/weaknesses, latest signals, firmware table, press, social, company | brand JSONs |
+
+Pages are addressable by URL hash (e.g. `#/products/battles/value-flagship-mesh`, `#/signals?type=owners&brand=Sena`).
 
 ## Research Data Schema
 
