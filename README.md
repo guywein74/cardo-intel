@@ -64,7 +64,7 @@ This is an **automated competitive research platform** that:
 
 ## Dashboard Pages
 
-Every fact lives in one place; other pages link to it. All numbers are computed in the template from the JSON. The brand legend in the top bar is a global filter (click a brand to hide or show it).
+A dark "command center" layout: left sidebar navigation, dense panels, and a ⌘K / Ctrl+K command palette (also `/`) to jump to any page, product, gap, battle or brand; keys `1`–`5` switch pages. Every fact lives in one place; other pages link to it. All numbers are computed in the template from the JSON. The brand list in the sidebar is a global filter (click a brand to hide or show it).
 
 | Page | What it shows | Data source |
 |------|---------------|-------------|
