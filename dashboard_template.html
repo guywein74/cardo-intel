@@ -11,6 +11,7 @@
   gtag('config', 'G-C639KGYMRY');
 </script>
 <meta charset="UTF-8">
+<script>(function(){try{document.documentElement.setAttribute("data-theme",localStorage.getItem("cardoTheme")||"dark")}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cardo Intel — Competitive Intelligence</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -125,12 +126,12 @@ select.input { width: auto; max-width: 220px; padding-right: 26px; text-overflow
 .table th { text-align: left; font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding: 8px; border-bottom: 1px solid var(--color-divider); white-space: nowrap; }
 .table td { padding: 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
 .table tbody tr:hover { background: var(--panel-2); }
-.tt { position: fixed; z-index: 70; pointer-events: none; display: none; max-width: 300px; background: #26262b; border: 1px solid #3a3a40; border-radius: 8px; color: var(--color-text); font-size: 12px; line-height: 1.45; padding: 8px 11px; box-shadow: var(--shadow-md); }
+.tt { position: fixed; z-index: 70; pointer-events: none; display: none; max-width: 300px; background: var(--tt-bg, #26262b); border: 1px solid #3a3a40; border-radius: 8px; color: var(--color-text); font-size: 12px; line-height: 1.45; padding: 8px 11px; box-shadow: var(--shadow-md); }
 .tt b { font-weight: 600; }
 
 /* shell */
 .shell { display: grid; grid-template-columns: var(--sbw) minmax(0, 1fr); min-height: 100vh; }
-.sidebar { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: #141416; border-right: 1px solid var(--color-divider); padding: 14px 10px; display: flex; flex-direction: column; gap: 16px; }
+.sidebar { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--sb-bg, #141416); border-right: 1px solid var(--color-divider); padding: 14px 10px; display: flex; flex-direction: column; gap: 16px; }
 .sb-brand { display: flex; align-items: center; gap: 9px; font-weight: 600; font-size: 14px; color: var(--color-text); text-decoration: none; padding: 4px 10px; }
 .mark { width: 10px; height: 10px; background: var(--c-cardo); border-radius: 2px; display: block; }
 .sb-search { all: unset; box-sizing: border-box; display: flex; align-items: center; gap: 8px; width: 100%; padding: 7px 10px; border: 1px solid var(--color-divider); border-radius: 7px; background: var(--panel); color: var(--faint); font-size: 13px; cursor: pointer; }
@@ -196,7 +197,7 @@ main { display: block; min-width: 0; }
 .chg .e { font-size: 13.5px; line-height: 1.45; }
 .chg .w { font-size: 12.5px; color: var(--color-accent-700); margin-top: 3px; line-height: 1.45; }
 .chg .full { font-size: 13px; line-height: 1.6; margin-top: 8px; color: var(--color-neutral-800); }
-.chg:hover .e { color: #fff; }
+.chg:hover .e { color: var(--hi, #fff); }
 .srcs { font-size: 12px; color: var(--muted); margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
 .srcs a { color: var(--color-accent-700); }
 .chg-src { padding: 0 0 12px 144px; }
@@ -211,7 +212,7 @@ main { display: block; min-width: 0; }
 .rec .t { font-size: 13.5px; line-height: 1.45; }
 .rec .m { font-size: 11.5px; color: var(--faint); margin-top: 3px; }
 .rec .body { font-size: 13px; line-height: 1.55; margin-top: 8px; color: var(--color-neutral-800); }
-.rec:hover .t { color: #fff; }
+.rec:hover .t { color: var(--hi, #fff); }
 .watch { padding: 10px 0; }
 .watch .t { font-size: 13.5px; font-weight: 500; line-height: 1.4; }
 .watch .m { font-size: 12px; color: var(--muted); margin-top: 3px; line-height: 1.45; }
@@ -242,7 +243,7 @@ main { display: block; min-width: 0; }
 .pl.l { transform: none; text-align: left; }
 .pl.r { transform: translateX(-100%); text-align: right; }
 .pl.hid { visibility: hidden; }
-.pl.sel { font-weight: 600; color: #fff; z-index: 4; }
+.pl.sel { font-weight: 600; color: var(--hi, #fff); z-index: 4; }
 .lad-axis { position: relative; height: 26px; margin: 0 16px; border-top: 1px solid var(--color-neutral-400); }
 .lad-axis span { position: absolute; top: 6px; transform: translateX(-50%); font-size: 11px; color: var(--faint); }
 .unpriced { font-size: 12px; color: var(--muted); margin-top: 10px; }
@@ -395,7 +396,7 @@ tr.expand td { background: var(--panel-2); font-size: 13px; line-height: 1.6; }
 /* command palette */
 .cmd { position: fixed; inset: 0; z-index: 60; background: rgb(0 0 0 / 55%); display: flex; align-items: flex-start; justify-content: center; padding: 12vh 16px 16px; }
 .cmd[hidden] { display: none; }
-.cmd-box { width: min(640px, 100%); background: #1b1b1e; border: 1px solid #34343a; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden; }
+.cmd-box { width: min(640px, 100%); background: var(--panel); border: 1px solid #34343a; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden; }
 .cmd-in { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-bottom: 1px solid var(--color-divider); color: var(--faint); }
 .cmd-in input { all: unset; flex: 1; font-size: 15px; color: var(--color-text); }
 .cmd-list { max-height: min(440px, 60vh); overflow-y: auto; padding: 6px; margin: 0; list-style: none; }
@@ -407,6 +408,38 @@ tr.expand td { background: var(--panel-2); font-size: 13px; line-height: 1.6; }
 .cmd-o[aria-selected="true"] { background: var(--active); }
 .cmd-empty { padding: 18px 12px; color: var(--muted); font-size: 13px; }
 .cmd-foot { display: flex; gap: 14px; flex-wrap: wrap; padding: 8px 14px; border-top: 1px solid var(--color-divider); font-size: 11px; color: var(--faint); }
+
+/* themes (Display menu) */
+[data-theme="light"], [data-theme="sepia"] { color-scheme: light; --color-bg: #f6f6f7; --panel: #ffffff; --panel-2: #f1f1f3; --hover: #ececef; --active: #e2e2e7; --color-surface: #ffffff; --color-text: #18181b; --color-divider: #d6d6db; --rule: #e6e6ea; --muted: #52525b; --faint: #63636b; --color-accent-100: #e6f1fb; --color-accent-200: #cfe3f7; --color-accent-300: #b5d4f4; --color-accent-400: #5b9bd8; --color-accent-700: #1d5c99; --color-accent-800: #174a7c; --color-accent-900: #0e3156; --color-accent-2-100: #ecebfb; --color-accent-2-800: #3c3489; --color-neutral-100: #f4f4f5; --color-neutral-200: #e9e9ec; --color-neutral-300: #d4d4d8; --color-neutral-400: #a1a1aa; --color-neutral-500: #71717a; --color-neutral-600: #52525b; --color-neutral-700: #3f3f46; --color-neutral-800: #27272a; --color-neutral-900: #18181b; --danger-text: #b42318; --danger-bg: #fde8e8; --warn-text: #8a5a00; --warn-bg: #fdf1dc; --ok: #13795b; --sb-bg: #fbfbfc; --tt-bg: #ffffff; --hi: #000000; --shadow-md: 0 12px 40px rgb(0 0 0 / 15%); }
+[data-theme="sepia"] { --color-bg: #f4ecd8; --panel: #fbf5e6; --panel-2: #efe5cc; --hover: #ebe0c4; --active: #e3d6b5; --color-surface: #fbf5e6; --color-text: #3b2f1e; --color-divider: #d6c7a2; --rule: #e6dbbf; --muted: #5e4f37; --faint: #6b5b42; --sb-bg: #f0e6cf; --tt-bg: #fbf5e6; }
+[data-theme="midnight"] { --color-bg: #0b1020; --panel: #111831; --panel-2: #172042; --hover: #1c2750; --active: #233063; --color-surface: #172042; --color-divider: #2a3666; --rule: #1f2a52; --sb-bg: #0d1328; --tt-bg: #172042; }
+[data-theme="nord"] { --color-bg: #2e3440; --panel: #3b4252; --panel-2: #434c5e; --hover: #4c566a; --active: #4c566a; --color-surface: #434c5e; --color-text: #eceff4; --color-divider: #566075; --rule: #4c566a; --muted: #d8dee9; --faint: #c3cad8; --sb-bg: #2b303b; --tt-bg: #434c5e; }
+[data-theme="contrast"] { --color-bg: #000; --panel: #000; --panel-2: #111; --hover: #1a1a1a; --active: #262626; --color-surface: #111; --color-text: #fff; --color-divider: #bdbdbd; --rule: #6b6b6b; --muted: #ededed; --faint: #d6d6d6; --color-accent-700: #a8d4ff; --color-accent-800: #cfe7ff; --color-neutral-800: #f2f2f2; --sb-bg: #000; --tt-bg: #111; }
+.sb-disp { display: flex; gap: 6px; align-items: center; padding: 0 10px; flex-wrap: wrap; }
+.sb-disp select.input { flex: 1; min-height: 28px; font-size: 12px; padding: 2px 6px; }
+.sb-nav .nl { display: flex; flex-direction: column; line-height: 1.25; }
+.sb-nav .nd { font-size: 11px; color: var(--faint); font-weight: 400; }
+.sb-sub { display: flex; flex-direction: column; gap: 1px; margin: 0 0 4px 30px; }
+.sb-sub a { padding: 4px 10px !important; font-size: 12.5px !important; }
+.cheap { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.cheap .pick { display: inline-flex; gap: 6px; align-items: center; }
+.pt.tier-flagship { clip-path: polygon(50% 0, 100% 100%, 0 100%); border-radius: 0; background: var(--bc); }
+.pt.tier-mid { border-radius: 1px; background: var(--bc); }
+.pt.tier-entry, .pt.tier-none { border-radius: 50%; background: var(--bc); }
+.catdd { position: relative; }
+.catdd summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; width: auto; max-width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.catdd summary::-webkit-details-marker { display: none; }
+.catpop { position: absolute; z-index: 20; top: calc(100% + 4px); left: 0; background: var(--panel); border: 1px solid var(--color-divider); border-radius: 8px; padding: 10px 12px; display: flex; flex-direction: column; gap: 8px; min-width: 220px; box-shadow: var(--shadow-md); }
+.picker .row.dim { opacity: .55; }
+.bcmp td, .bcmp th { min-width: 160px; }
+.bcmp th.cardo, .bcmp td.cardo { background: color-mix(in srgb, var(--c-cardo) 9%, transparent); }
+.bcmp .lblc { color: var(--muted); font-size: 12px; min-width: 150px; }
+.cbar { display: block; height: 4px; background: var(--active); border-radius: 2px; margin-top: 5px; max-width: 140px; overflow: hidden; }
+.cbar i { display: block; height: 4px; border-radius: 2px; }
+.cbar.acc i { background: var(--color-accent); } .cbar.neg i { background: var(--danger); }
+.gtbl td { font-size: 12.5px; line-height: 1.5; min-width: 120px; }
+.gtbl td:nth-child(2) { min-width: 200px; font-weight: 500; }
+.src-note { width: 100%; font-size: 12px; color: var(--muted); }
 
 /* responsive */
 @media (max-width: 1150px) {
@@ -424,6 +457,8 @@ tr.expand td { background: var(--panel-2); font-size: 13px; line-height: 1.6; }
   .sb-nav { order: 3; width: 100%; flex-direction: row; overflow-x: auto; gap: 2px; }
   .sb-nav a { padding: 6px 10px; white-space: nowrap; }
   .sb-nav kbd { display: none; }
+  .sb-nav .nd, .sb-sub { display: none; }
+  .sb-disp { order: 6; padding: 0 2px; }
   .sb-sec { order: 4; width: 100%; }
   .sb-lbl, .legend .st { display: none; }
   .sb-foot { order: 5; width: 100%; margin: 0; padding: 0 2px; }
@@ -478,6 +513,9 @@ tr.expand td { background: var(--panel-2); font-size: 13px; line-height: 1.6; }
     <button type="button" class="sb-search" id="openCmd" aria-label="Search (Command K)"><svg class="ic" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span class="t">Search…</span><kbd id="cmdKbd">⌘K</kbd></button>
     <nav class="sb-nav" id="navlinks" aria-label="Primary"></nav>
     <div class="sb-sec"><div class="sb-lbl">Brands shown</div><div class="legend" id="legend" role="group" aria-label="Brands shown (click to hide or show)"></div></div>
+    <div class="sb-sec"><div class="sb-lbl">Display</div><div class="sb-disp">
+      <select class="input" id="themeSel" aria-label="Theme"><option value="dark">Dark</option><option value="light">Light</option><option value="midnight">Midnight</option><option value="sepia">Sepia</option><option value="nord">Nord</option><option value="contrast">High contrast</option></select>
+      <span class="seg sm" role="group" aria-label="Text size"><button type="button" id="fontDec" aria-label="Smaller text">A−</button><button type="button" id="fontInc" aria-label="Larger text">A+</button></span></div></div>
     <div class="sb-foot" id="asof"></div>
   </aside>
   <main id="app"></main>
@@ -620,6 +658,7 @@ PRODUCTS.forEach(p => {
 const PROD_BY = Object.fromEntries(PRODUCTS.map(p => [p.id, p]));
 const CAT_LABEL = {communicator: "Communicators", smart_helmet: "Smart helmets", smart_helmet_accessory: "Helmet-integrated units", headphones: "Headphones", outdoor: "Outdoor", accessory: "Adapters & cameras"};
 const CATS = [...new Set(PRODUCTS.map(p => p.cat))].sort((a, b) => (Object.keys(CAT_LABEL).indexOf(a) + 99 * !(a in CAT_LABEL)) - (Object.keys(CAT_LABEL).indexOf(b) + 99 * !(b in CAT_LABEL)));
+const inCat = (p, c) => c === "all" || String(c).split(",").includes(p.cat);
 const catLabel = c => CAT_LABEL[c] || cap(String(c).replace(/_/g, " "));
 const TIER_ORDER = ["flagship", "mid", "entry"];
 const YEARS = [...new Set(PRODUCTS.map(p => p.release_year).filter(Boolean))].sort((a, b) => b - a);
@@ -698,17 +737,18 @@ const battlePrice = (br, m, fallback) => { const p = prodForModel(br, m); if (!p
 const battleForBrand = br => (BAT.battles || []).find(b => b.ratings.models.some(([x]) => x === br)) || (BAT.battles || [])[0];
 
 /* ================= state + routing ================= */
+const SIG_DEF = (() => { try { return localStorage.getItem("cardoSigRange") || "all"; } catch (e) { return "all"; } })();
 const defaultCardoFlagship = () => { const c = PRODUCTS.filter(p => p.brand === "Cardo" && p.tier === "flagship" && p.cat === "communicator" && p.eff != null && /^motorcycle$/i.test(p.usage)); return (cheapest(c.filter(p => /packtalk/i.test(p.name))) || cheapest(c) || PRODUCTS[0])?.id; };
 const S = {
   route: "brief",
   brands: new Set(BN),
   brief: {exec: false, allChanges: false, sort: "date", dir: -1, openChange: null, openRec: null, allRecs: false, allWatch: false, openWatch: null},
-  products: {mode: "map", selectedId: null, catBy: {map: CATS.includes("communicator") ? "communicator" : "all", table: "all"}, get category() { return this.catBy[this.mode] || "all"; }, set category(v) { this.catBy[this.mode] = v; }, tier: "all", usage: "all", year: "all", mesh: false, query: "", sortKey: "eff", sortDir: 1, expanded: new Set()},
-  battles: {idx: 0, models: null, mode: "rank", swapOpen: null},
+  products: {mode: "map", selectedId: null, catBy: {map: CATS.includes("communicator") ? "communicator" : "all", table: "all"}, get category() { return this.catBy[this.mode] || "all"; }, set category(v) { this.catBy[this.mode] = v; }, tier: "all", usage: "all", year: "all", mesh: false, mark: "mesh", query: "", sortKey: "eff", sortDir: 1, expanded: new Set()},
+  battles: {idx: 0, models: null, mode: "rank", swapOpen: null, notes: false},
   compare: {preset: "Flagship battle", sel: null},
-  gaps: {type: "all", severity: "all", status: "all", baseline: !(INS?.gaps || []).length, expandedId: null, sortKey: "rank", sortDir: 1, evidenceAll: new Set(), openLeads: new Set(), recsAll: false},
-  signals: {type: "all", query: "", range: "14", brand: null, gap: null, kind: "all", product: "all", sentiment: "all", source: "all", limit: 120},
-  brandTab: BN[0] || "Cardo",
+  gaps: {type: "all", severity: "all", status: "all", baseline: true, expandedId: null, sortKey: "rank", sortDir: 1, evidenceAll: new Set(), openLeads: new Set(), recsAll: true, view: "list", allOpen: false},
+  signals: {type: "all", query: "", range: SIG_DEF, brand: null, gap: null, kind: "all", product: "all", sentiment: "all", source: "all", limit: 120},
+  brandTab: "compare",
   brandOpen: new Set()
 };
 const ROUTES = [["brief", "Brief"], ["products", "Products"], ["gaps", "Gaps"], ["signals", "Signals"], ["brands", "Brands"]];
@@ -726,7 +766,7 @@ function buildHash() {
   } else if (S.route === "signals") {
     const s = S.signals;
     if (s.type !== "all") q.set("type", s.type);
-    if (s.range !== "14") q.set("range", s.range);
+    if (s.range !== SIG_DEF) q.set("range", s.range);
     if (s.query) q.set("q", s.query);
     if (s.brand) q.set("brand", s.brand);
     if (s.gap) q.set("gap", s.gap);
@@ -762,7 +802,7 @@ function applyHash() {
       if (P.mesh && !p.mesh) P.mesh = false;
       if (P.query && !p.hay.includes(P.query.trim().toLowerCase())) P.query = "";
       if (p.eff == null) { P.mode = "table"; P.catBy.table = "all"; P.expanded.add(pid); }
-      else { P.selectedId = pid; if (P.catBy.map !== "all" && P.catBy.map !== p.cat) P.catBy.map = p.cat; }
+      else { P.selectedId = pid; if (!inCat(p, P.catBy.map)) P.catBy.map = p.cat; }
     }
   } else if (S.route === "gaps") {
     S.gaps.expandedId = GAP_BY[q.get("open")] ? q.get("open") : null;
@@ -772,21 +812,23 @@ function applyHash() {
   } else if (S.route === "signals") {
     const s = S.signals;
     const t = q.get("type"); s.type = TYPES.some(x => x[0] === t) ? t : "all";
-    const r = q.get("range"); s.range = ["14", "30", "90", "all"].includes(r) ? r : "14";
+    const r = q.get("range"); s.range = ["14", "30", "90", "all"].includes(r) ? r : SIG_DEF;
     s.query = q.get("q") || "";
     s.brand = BN.includes(q.get("brand")) ? q.get("brand") : null;
     s.gap = GAP_BY[q.get("gap")] ? q.get("gap") : null;
     s.kind = "all"; s.product = "all"; s.sentiment = "all"; s.source = "all"; s.limit = 120;
   } else if (S.route === "brands") {
-    const b = BN.find(x => slug(x) === path[1]); if (b) S.brandTab = b;
+    const b = path[1] === "compare" ? "compare" : BN.find(x => slug(x) === path[1]); S.brandTab = b || "compare";
   }
 }
 
 /* ================= sidebar ================= */
 const NAV_ICON = {brief: "home", products: "box", gaps: "alert", signals: "activity", brands: "building"};
 const CRITICAL_N = GAPS.filter(g => g.src === "weekly" && g.severity === "critical").length;
+const NAV_DESC = {brief: "Headline, KPIs and actions", products: "Prices, specs, battles", gaps: "Where Cardo is exposed", signals: "News, press, updates, owners", brands: "Compare brands, profiles"};
+const PROD_SUB = [["map", "Price map"], ["table", "Table"], ["battles", "Battles"], ["compare", "Compare models"]];
 function renderTop() {
-  document.getElementById("navlinks").innerHTML = ROUTES.map(([k, l], i) => `<a href="#/${k}" aria-label="${l}"${S.route === k ? ' aria-current="page"' : ""}>${icon(NAV_ICON[k])}<span class="nl">${l}</span><span class="r">${k === "gaps" && CRITICAL_N ? `<span class="badge" title="${CRITICAL_N} critical gap${CRITICAL_N > 1 ? "s" : ""} this week">${CRITICAL_N}</span>` : ""}<kbd aria-hidden="true">${i + 1}</kbd></span></a>`).join("");
+  document.getElementById("navlinks").innerHTML = ROUTES.map(([k, l], i) => `<a href="#/${k}" aria-label="${l}"${S.route === k ? ' aria-current="page"' : ""}>${icon(NAV_ICON[k])}<span class="nl">${l}<small class="nd">${NAV_DESC[k]}</small></span><span class="r">${k === "gaps" && CRITICAL_N ? `<span class="badge" title="${CRITICAL_N} critical gap${CRITICAL_N > 1 ? "s" : ""} this week">${CRITICAL_N}</span>` : ""}<kbd aria-hidden="true">${i + 1}</kbd></span></a>${k === "products" ? `<div class="sb-sub">${PROD_SUB.map(([m, ml]) => `<a href="#/products/${m}"${S.route === "products" && S.products.mode === m ? ' aria-current="page"' : ""}>${ml}</a>`).join("")}</div>` : ""}`).join("");
   document.getElementById("legend").innerHTML = BN.map(b => `<button type="button" data-b="${esc(b)}" aria-pressed="${S.brands.has(b)}" title="${S.brands.has(b) ? "Hide" : "Show"} ${esc(b)}">${bm(b)}${esc(b)}<span class="st">${S.brands.has(b) ? "shown" : "hidden"}</span></button>`).join("");
   document.querySelectorAll("#legend button").forEach(btn => btn.onclick = () => {
     const b = btn.dataset.b;
@@ -796,13 +838,26 @@ function renderTop() {
 }
 (() => {
   const t = Date.parse(DATA.built_at);
-  document.getElementById("asof").textContent = isNaN(t) ? "" : "Data as of " + new Date(t).toLocaleString("en-US", {month: "short", day: "numeric", year: "numeric"}) + " · " + new Date(t).toLocaleTimeString("en-US", {hour: "2-digit", minute: "2-digit", hour12: false});
+  document.getElementById("asof").textContent = isNaN(t) ? "" : "Data as of " + new Date(t).toLocaleString("en-US", {month: "short", day: "numeric", year: "numeric"}) + " · " + new Date(t).toLocaleTimeString("en-US", {hour: "2-digit", minute: "2-digit", hour12: false}) + " " + (Intl.DateTimeFormat().resolvedOptions().timeZone || "");
+})();
+
+/* ================= display settings (theme + text size, remembered per browser) ================= */
+(() => {
+  const sel = document.getElementById("themeSel");
+  sel.value = document.documentElement.getAttribute("data-theme") || "dark";
+  sel.onchange = () => { document.documentElement.setAttribute("data-theme", sel.value); try { localStorage.setItem("cardoTheme", sel.value); } catch (e) {} };
+  let fs = 100; try { fs = +localStorage.getItem("cardoFontScale") || 100; } catch (e) {}
+  const apply = () => { document.body.style.zoom = fs + "%"; try { localStorage.setItem("cardoFontScale", fs); } catch (e) {} };
+  apply();
+  document.getElementById("fontInc").onclick = () => { fs = Math.min(160, fs + 10); apply(); };
+  document.getElementById("fontDec").onclick = () => { fs = Math.max(70, fs - 10); apply(); };
 })();
 
 /* ================= command palette (⌘K / Ctrl+K / "/") ================= */
 const CMD_ITEMS = [
   ...ROUTES.map(([k, l]) => ({g: "Pages", t: l, ic: NAV_ICON[k], h: "#/" + k})),
   ...[["map", "Price map"], ["table", "Product table"], ["battles", "Battles"], ["compare", "Compare models"]].map(([k, l]) => ({g: "Pages", t: "Products · " + l, ic: "box", h: "#/products/" + k})),
+  {g: "Brands", t: "Compare brands", s: "All brands side by side", ic: "building", h: "#/brands/compare"},
   ...BN.map(b => ({g: "Brands", t: b, s: String(BRAND_BY[b]?.company?.hq || "").split(/[;(,]/)[0], ic: "building", h: "#/brands/" + slug(b)})),
   ...GAPS.map(g => ({g: "Gaps", t: (g.no ? "#" + g.no + " " : "") + g.title, s: cap(g.severity) + (g.src === "baseline" ? " · " + BASE_ASOF : ""), ic: "alert", h: "#/gaps?open=" + g.id})),
   ...(BAT.battles || []).map(b => ({g: "Battles", t: b.segment, s: b.title, ic: "swords", h: "#/products/battles/" + encodeURIComponent(b.id)})),
@@ -993,19 +1048,20 @@ function renderBrief(app) {
 /* ================= PRODUCTS ================= */
 function filteredProducts() {
   const P = S.products, q = P.query.trim().toLowerCase();
-  return PRODUCTS.filter(p => S.brands.has(p.brand) && (P.category === "all" || p.cat === P.category) && (P.tier === "all" || p.tier === P.tier)
+  return PRODUCTS.filter(p => S.brands.has(p.brand) && inCat(p, P.category) && (P.tier === "all" || p.tier === P.tier)
     && (P.usage === "all" || p.usage === P.usage) && (P.year === "all" || String(p.release_year) === P.year) && (!P.mesh || p.mesh) && (!q || p.hay.includes(q)));
 }
 function renderProducts(app) {
   const P = S.products;
   const modes = [["map", "Price map"], ["table", "Table"], ["battles", "Battles"], ["compare", "Compare"]];
   const filt = P.mode === "map" || P.mode === "table";
-  const tiers = TIER_ORDER.filter(t => PRODUCTS.some(p => p.tier === t && (P.category === "all" || p.cat === P.category)));
+  const tiers = TIER_ORDER.filter(t => PRODUCTS.some(p => p.tier === t && inCat(p, P.category)));
+  const catSel = P.category === "all" ? [] : P.category.split(",");
   app.innerHTML = `<div class="page">
     <div class="page-head"><h2>Products</h2>
       <span class="seg" role="group" aria-label="View">${modes.map(([k, l]) => `<button type="button" data-mode="${k}" aria-pressed="${P.mode === k}">${l}</button>`).join("")}</span>
       ${filt ? `<span class="spacer"></span>
-      <select class="input" id="pCat" aria-label="Category"><option value="all">All categories</option>${CATS.map(c => `<option value="${c}"${P.category === c ? " selected" : ""}>${esc(catLabel(c))}</option>`).join("")}</select>
+      <details class="catdd"${P.catOpen ? " open" : ""}><summary class="input" aria-label="Categories">${catSel.length ? esc(catSel.map(catLabel).join(", ")) : "All categories"} ${icon("chevDown", 13)}</summary><div class="catpop">${CATS.map(c => `<label class="check"><input type="checkbox" data-cat="${c}"${catSel.includes(c) ? " checked" : ""}> ${esc(catLabel(c))}</label>`).join("")}<button type="button" class="linkbtn" id="catAll">All categories</button></div></details>
       <label class="searchbox">${icon("search")}<span class="sr">Search products</span><input class="input" type="search" id="pQ" placeholder="Search ${PRODUCTS.length} products" value="${esc(P.query)}" style="width:230px"></label>` : ""}
     </div>
     ${filt ? `<div class="filters">
@@ -1018,7 +1074,9 @@ function renderProducts(app) {
   app.querySelectorAll("[data-mode]").forEach(b => b.onclick = () => go("#/products/" + b.dataset.mode));
   if (filt) {
     const $ = s => app.querySelector(s);
-    $("#pCat").onchange = e => { P.category = e.target.value; P.tier = "all"; renderProducts(app); syncHash(); };
+    const setCat = v => { P.category = v; P.tier = "all"; P.catOpen = true; renderProducts(app); syncHash(); P.catOpen = false; };
+    app.querySelectorAll("[data-cat]").forEach(cb => cb.onchange = () => { const v = [...app.querySelectorAll("[data-cat]:checked")].map(x => x.dataset.cat); setCat(v.length ? v.join(",") : "all"); });
+    $("#catAll").onclick = () => setCat("all");
     $("#pTier").onchange = e => { P.tier = e.target.value; renderPBody(); };
     $("#pUsage").onchange = e => { P.usage = e.target.value; renderPBody(); };
     $("#pYear").onchange = e => { P.year = e.target.value; renderPBody(); };
@@ -1059,7 +1117,9 @@ function renderMap(el, rows) {
   const X = v => (v - lo) / span * 100;
   const brands = BN.filter(b => S.brands.has(b) && pts.some(p => p.brand === b));
   const cm = cheapestMoto("Cardo");
-  const showGap = cm && brands.includes("Cardo") && (P.category === "communicator" || P.category === "all") && cm.eff > lo;
+  const showGap = cm && brands.includes("Cardo") && inCat({cat: "communicator"}, P.category) && cm.eff > lo;
+  const tierMode = P.mark === "tier";
+  const cheapList = BN.filter(b => S.brands.has(b)).map(cheapestMoto).filter(Boolean);
   const ticks = []; for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) ticks.push(v);
   const row = b => {
     const ps = pts.filter(p => p.brand === b).sort((a, c) => a.eff - c.eff);
@@ -1068,7 +1128,7 @@ function renderMap(el, rows) {
       ${ps.map((p, i) => {
         const x = X(p.eff), on = p.id === P.selectedId;
         const al = x < 6 ? " l" : x > 94 ? " r" : "";
-        return `<button type="button" class="pt b-${slug(b)} ${p.mesh ? "mesh" : "bt"}${on ? " sel" : ""}" style="left:${x}%" data-id="${esc(p.id)}" aria-pressed="${on}" aria-label="${esc(fullName(p) + ", " + fmt$(p.eff) + (p.mesh ? ", mesh" : ", Bluetooth only"))}"></button>
+        return `<button type="button" class="pt b-${slug(b)} ${p.mesh ? "mesh" : "bt"}${tierMode ? " tier-" + (p.tier || "none") : ""}${on ? " sel" : ""}" style="left:${x}%" data-id="${esc(p.id)}" aria-pressed="${on}" aria-label="${esc(fullName(p) + ", " + fmt$(p.eff) + (p.mesh ? ", mesh" : ", Bluetooth only"))}"></button>
           <span class="pl ${i % 2 ? "dn" : "up"}${al}${on ? " sel" : ""}" style="left:${x}%" data-for="${esc(p.id)}">${esc(p.name.replace(/\s*\(.*\)/, ""))}<small>${fmt$(p.eff)}</small></span>`;
       }).join("")}</div>`;
   };
@@ -1077,7 +1137,8 @@ function renderMap(el, rows) {
   const bat = sel ? battleFor(sel) : null;
   el.innerHTML = `<div class="split"><div class="main">
     ${unplotted ? `<p class="small" style="color:var(--color-accent-700)">${esc(fullName(unplotted))} has no published price, so it is not on the map. See the Table.</p>` : ""}
-    <div class="map-legend"><span><i class="sq f"></i>Mesh</span><span><i class="sq"></i>Bluetooth only</span><span>Street price where verified, else MSRP · hover for detail · click to select</span></div>
+    ${cheapList.length ? `<div class="lbl" style="margin-bottom:6px">Cheapest motorcycle mesh unit per brand</div><div class="cheap">${cheapList.map(c => `<button type="button" class="pick" data-cheap="${esc(c.id)}" aria-pressed="${c.id === P.selectedId}">${bm(c.brand)}${esc(c.brand)} · ${esc(c.name)} <b class="num">${fmt$(c.eff)}</b></button>`).join("")}</div>` : ""}
+    <div class="map-legend"><span class="seg sm" role="group" aria-label="Mark products by"><button type="button" data-mark="mesh" aria-pressed="${!tierMode}">Mesh</button><button type="button" data-mark="tier" aria-pressed="${tierMode}">Tier</button></span>${tierMode ? `<span>▲ Flagship</span><span>■ Mid</span><span>● Entry / other</span>` : `<span><i class="sq f"></i>Mesh</span><span><i class="sq"></i>Bluetooth only</span>`}<span>Street price where verified, else MSRP · hover for detail · click to select</span></div>
     <div class="lad">
       ${showGap ? `<div></div><div class="lad-note"><div class="bracket" style="width:calc(${X(cm.eff)}% + 16px)"><span>No Cardo motorcycle mesh below ${fmt$(cm.eff)}</span></div></div>` : ""}
       ${brands.map(row).join("")}
@@ -1109,7 +1170,9 @@ function renderMap(el, rows) {
     </div>` : ""}
   </aside></div>`;
   el.querySelectorAll(".pt").forEach(b => b.onclick = () => { P.selectedId = b.dataset.id; renderPBody(); });
-  el.querySelectorAll("[data-pick]").forEach(b => b.onclick = () => { const p = PROD_BY[b.dataset.pick]; if (P.category !== "all" && p.cat !== P.category) P.category = p.cat; P.selectedId = p.id; renderProducts(document.getElementById("app")); });
+  el.querySelectorAll("[data-mark]").forEach(b => b.onclick = () => { P.mark = b.dataset.mark; renderPBody(); });
+  el.querySelectorAll("[data-cheap]").forEach(b => b.onclick = () => { P.selectedId = b.dataset.cheap; renderPBody(); });
+  el.querySelectorAll("[data-pick]").forEach(b => b.onclick = () => { const p = PROD_BY[b.dataset.pick]; if (!inCat(p, P.category)) P.category = p.cat; P.selectedId = p.id; renderProducts(document.getElementById("app")); });
   const tc = el.querySelector("#toCompare");
   if (tc) tc.onclick = () => { S.compare.sel = new Set([sel.id, ...rivals.map(r => r.id)]); S.compare.preset = null; go("#/products/compare"); };
   bindTT(el, ".pt", b => { const p = PROD_BY[b.dataset.id]; return `<b>${esc(fullName(p))}</b><br>${fmt$(p.eff)}${p.street_price_usd != null && p.msrp_usd != null && p.street_price_usd !== p.msrp_usd ? " street · MSRP " + fmt$(p.msrp_usd) : p.street_price_usd == null ? " MSRP" : ""}<br>${esc(p.tier || catLabel(p.cat))} · ${p.mesh ? "mesh" : "Bluetooth only"}${p.max_riders ? " · " + esc(p.max_riders) + " riders" : ""}`; });
@@ -1188,15 +1251,16 @@ function renderBattles(el) {
     <div class="bat-head"><h3>${esc(b.segment)}</h3>
       <span class="small muted">Cardo ${esc(b.hero.model)} ${battlePrice(b.hero.brand || "Cardo", b.hero.model, b.hero.price)} vs ${b.ratings.models.length - 1} rivals · ${dims.length} dimensions</span>
       <span class="glegend"><span><i class="gl gl-good"></i>Good</span><span><i class="gl gl-soso"></i>So-so</span><span><i class="gl gl-bad"></i>Bad / none</span>
-        <span class="seg sm" role="group" aria-label="Cells show"><button type="button" data-bm="rank" aria-pressed="${B.mode === "rank"}">Ratings</button><button type="button" data-bm="value" aria-pressed="${B.mode === "value"}">Values</button></span></span>
+        <span class="seg sm" role="group" aria-label="Cells show"><button type="button" data-bm="rank" aria-pressed="${B.mode === "rank"}">Ratings</button><button type="button" data-bm="value" aria-pressed="${B.mode === "value"}">Values</button></span>
+        <label class="check"><input type="checkbox" id="batNotes"${B.notes ? " checked" : ""}> Show notes</label></span>
     </div>
     <div class="tbl-wrap"><table class="matrix"><thead><tr><th><span class="lbl">Dimension</span></th>
       ${B.models.map(([br, m], ci) => `<th class="${tint(ci).trim()}"><button type="button" class="colhead" data-swap="${ci}" aria-expanded="${B.swapOpen === ci}" title="Change model">${bm(br)}${esc(m)}${icon("swap", 13)}</button>
         ${ci >= orig ? `<button type="button" class="iconbtn" data-rm="${ci}" aria-label="Remove ${esc(m)}">${icon("x", 13)}</button>` : ""}
         ${B.swapOpen === ci ? `<div class="colsel"><select class="input" data-sel="${ci}" aria-label="Swap model">${poolOptions(br + "|" + m)}</select></div>` : ""}</th>`).join("")}
-      ${B.models.length < 7 ? `<th style="width:40px"><button type="button" class="iconbtn" id="addCol" aria-label="Add a model to compare" title="Add model">${icon("plus")}</button></th>` : ""}</tr></thead>
-    <tbody>${dims.map((d, ri) => `<tr><td><span class="dim" tabindex="0" data-ri="${ri}">${esc(d)}</span></td>${B.models.map((m, ci) => `<td class="${tint(ci).trim()}">${glyph(cell(m.join("|"), d))}</td>`).join("")}${B.models.length < 7 ? "<td></td>" : ""}</tr>`).join("")}</tbody>
-    <tfoot><tr><td><span class="lbl" style="color:var(--color-text)">Rated good</span></td>${good.map((g, ci) => `<td class="${tint(ci).trim()}">${g}</td>`).join("")}${B.models.length < 7 ? "<td></td>" : ""}</tr></tfoot></table></div>
+      ${B.models.length < 7 ? `<th style="width:40px"><button type="button" class="iconbtn" id="addCol" aria-label="Add a model to compare" title="Add model">${icon("plus")}</button></th>` : ""}${B.notes ? `<th style="text-align:left;min-width:200px"><span class="lbl">Notes</span></th>` : ""}</tr></thead>
+    <tbody>${dims.map((d, ri) => `<tr><td><span class="dim" tabindex="0" data-ri="${ri}">${esc(d)}</span></td>${B.models.map((m, ci) => `<td class="${tint(ci).trim()}">${glyph(cell(m.join("|"), d))}</td>`).join("")}${B.models.length < 7 ? "<td></td>" : ""}${B.notes ? `<td class="xs muted" style="text-align:left">${esc(b.ratings.rows[ri].note || "")}</td>` : ""}</tr>`).join("")}</tbody>
+    <tfoot><tr><td><span class="lbl" style="color:var(--color-text)">Rated good</span></td>${good.map((g, ci) => `<td class="${tint(ci).trim()}">${g}</td>`).join("")}${B.models.length < 7 ? "<td></td>" : ""}${B.notes ? "<td></td>" : ""}</tr></tfoot></table></div>
     <p class="xs muted" style="margin-top:10px">Hover a dimension for its sub-criteria and the analyst note. Click a column header to swap in any rated model; + adds a column. * = pending testing / verification.</p>
     <div class="matchups">${(b.matchups || []).map(m => `<div class="blueprint matchup">${corners}
       <h5>${bm(m.brand)}${esc(fullName({brand: m.brand, name: m.model}))}<span class="muted small" style="margin-left:auto;font-family:var(--font-body);font-weight:400">${battlePrice(m.brand, m.model, m.price)}</span></h5>
@@ -1214,6 +1278,7 @@ function renderBattles(el) {
   </aside></div>`;
   el.querySelectorAll("[data-bi]").forEach(t => t.onclick = () => go("#/products/battles/" + encodeURIComponent(list[+t.dataset.bi].id)));
   el.querySelectorAll("[data-bm]").forEach(t => t.onclick = () => { B.mode = t.dataset.bm; renderPBody(); });
+  el.querySelector("#batNotes").onchange = e => { B.notes = e.target.checked; renderPBody(); };
   el.querySelectorAll("[data-swap]").forEach(t => t.onclick = () => { const ci = +t.dataset.swap; B.swapOpen = B.swapOpen === ci ? null : ci; renderPBody(); const s = el.querySelector(`[data-sel="${ci}"]`); if (s) s.focus(); });
   el.querySelectorAll("[data-sel]").forEach(s => s.onchange = () => { B.models[+s.dataset.sel] = s.value.split("|"); B.swapOpen = null; renderPBody(); });
   el.querySelectorAll("[data-rm]").forEach(t => t.onclick = () => { B.models.splice(+t.dataset.rm, 1); B.swapOpen = null; renderPBody(); });
@@ -1264,7 +1329,7 @@ function renderCompare(el) {
       <span class="lbl" style="margin:0">Presets</span>
       <span class="seg sm scroll" role="group" aria-label="Presets">${Object.keys(PRESETS).map(k => `<button type="button" data-preset="${esc(k)}" aria-pressed="${C.preset === k}">${esc(k)}</button>`).join("")}</span>
       <span class="xs muted">or pick up to 7 models · ${models.length} selected</span></div>
-    <div class="picker">${BN.filter(b => S.brands.has(b)).map(b => `<div class="row"><span class="brand">${bm(b)}${esc(b)}</span>${PRODUCTS.filter(p => p.brand === b).map(p => `<button type="button" class="pick" data-k="${esc(p.id)}" aria-pressed="${C.sel.has(p.id)}">${esc(p.name.replace(/\s*\(.*\)/, ""))}</button>`).join("")}</div>`).join("")}</div>
+    <div class="picker">${BN.map(b => `<div class="row${S.brands.has(b) ? "" : " dim"}"${S.brands.has(b) ? "" : ' title="Hidden in the sidebar brand filter; still pickable"'}><span class="brand">${bm(b)}${esc(b)}</span>${PRODUCTS.filter(p => p.brand === b).map(p => `<button type="button" class="pick" data-k="${esc(p.id)}" aria-pressed="${C.sel.has(p.id)}">${esc(p.name.replace(/\s*\(.*\)/, ""))}</button>`).join("")}</div>`).join("")}</div>
     <div class="tbl-wrap">${models.length ? `<table class="table cmp"><thead><tr><th>Spec</th>${models.map(p => `<th style="color:var(--color-text);text-transform:none;letter-spacing:0;font-size:13px">${bm(p.brand)} ${esc(p.name)}</th>`).join("")}</tr></thead>
       <tbody>${rowsDef.map(([l, fn]) => `<tr><td>${l}</td>${models.map(p => `<td>${fn(p)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : `<div class="empty">Select at least one model above.</div>`}</div></div>`;
   el.querySelectorAll("[data-preset]").forEach(b => b.onclick = () => { C.preset = b.dataset.preset; C.sel = new Set(PRESETS[C.preset].filter(k => PROD_BY[k])); renderPBody(); });
@@ -1281,7 +1346,7 @@ function renderGaps(app) {
   if (G.type !== "all" && !types.includes(G.type)) G.type = "all";
   const statuses = [...new Set(pool.filter(g => g.f).map(g => g.f.cardo_status))].sort();
   let rows = pool.filter(g => (G.type === "all" || g.cat === G.type) && (G.severity === "all" || g.severity === G.severity) && (G.status === "all" || g.f?.cardo_status === G.status));
-  if (G.sortKey !== "rank") rows = rows.slice().sort((a, b) => (G.sortKey === "severity" ? a.sevI - b.sevI : G.sortKey === "type" ? typeLbl(a.cat).localeCompare(typeLbl(b.cat)) : a.title.localeCompare(b.title)) * G.sortDir || a.sevI - b.sevI);
+  if (G.sortKey !== "rank") rows = rows.slice().sort((a, b) => (G.sortKey === "severity" ? a.sevI - b.sevI : G.sortKey === "type" ? typeLbl(a.cat).localeCompare(typeLbl(b.cat)) : G.sortKey === "status" ? (a.f?.cardo_status || "").localeCompare(b.f?.cardo_status || "") : a.title.localeCompare(b.title)) * G.sortDir || a.sevI - b.sevI);
   const cnt = s => rows.filter(g => g.severity === s).length;
   const actionOf = g => {
     if (g.recs?.length) return `<span class="gap-act">${esc(g.recs[0].title)} · ${esc(cap(g.recs[0].horizon || ""))}${g.recs.length > 1 ? ` <span class="muted">+${g.recs.length - 1} more</span>` : ""}</span>`;
@@ -1323,17 +1388,27 @@ function renderGaps(app) {
      <select class="input" id="gSev" aria-label="Severity"><option value="all">All severities</option>${SEV_ORDER.filter(s => pool.some(g => g.severity === s)).map(s => `<option value="${s}"${G.severity === s ? " selected" : ""}>${cap(s)}</option>`).join("")}</select>
      ${statuses.length ? `<select class="input" id="gStatus" aria-label="Cardo status"><option value="all">All statuses</option>${statuses.map(s => `<option value="${esc(s)}"${G.status === s ? " selected" : ""}>${esc(cap(s))}</option>`).join("")}</select>` : ""}
      ${hasWeekly && baseN ? `<label class="check"><input type="checkbox" id="gBase"${G.baseline ? " checked" : ""}> Include ${esc(BASE_ASOF)} gap-analysis baseline (${baseN})</label>` : ""}
+     <span class="spacer"></span>
+     <span class="seg sm" role="group" aria-label="Layout"><button type="button" data-gv="list" aria-pressed="${G.view === "list"}">List</button><button type="button" data-gv="table" aria-pressed="${G.view === "table"}">Table</button></span>
+     ${G.view === "list" ? `<button type="button" class="linkbtn" id="gAll">${G.allOpen ? "Collapse all" : "Expand all"}</button>` : ""}
    </div>
    <div class="split"><div class="main" style="padding-top:0">
+     ${G.view === "table" ? `<div class="tbl-wrap"><table class="table gtbl"><thead><tr><th>${sortBtn("severity", "Severity")}</th><th>${sortBtn("title", "Gap")}</th><th>${sortBtn("type", "Type")}</th><th>${sortBtn("status", "Cardo status")}</th><th>Cardo</th><th>Competition</th><th>Recommendation</th></tr></thead><tbody>
+       ${rows.map(g => `<tr><td><span class="sev sev-${esc(g.severity)}">${sevBars(g.severity)}${esc(cap(g.severity || "—"))}</span></td>
+         <td>${g.no ? `<span class="gap-no">#${g.no}</span>` : ""}<a href="#/gaps?open=${g.id}" style="color:inherit;text-decoration:none">${esc(g.title)}</a>${g.src === "baseline" ? `<div class="gap-src">Baseline · ${esc(BASE_ASOF)}</div>` : ""}</td>
+         <td>${esc(typeLbl(g.cat))}</td><td>${esc(g.f?.cardo_status || "—")}</td>
+         <td>${esc(g.f?.cardo_note || g.p?.cardo || g.g?.description || "—")}</td>
+         <td>${esc(g.f?.competitor_note || g.g?.competitor_benchmark || (g.p?.competitors || []).map(c => `${c.brand} ${c.product} ${c.price}`).join("; ") || "—")}</td>
+         <td>${esc(g.f?.recommendation || (g.recs || []).map(r => r.title).join("; ") || g.p?.insight || "—")}</td></tr>`).join("") || `<tr><td colspan="7" class="empty">No gaps match these filters.</td></tr>`}</tbody></table></div>` : `
      <div class="gap-hd">${sortBtn("severity", "Severity")}${sortBtn("title", "Gap")}${sortBtn("type", "Type")}<span class="lbl" style="margin:0">Action</span><span></span></div>
-     <div class="rows">${rows.map(g => { const open = G.expandedId === g.id; return `<div class="gap-item${open ? " open" : ""}" id="gap-${g.id}">
+     <div class="rows">${rows.map(g => { const open = G.allOpen || G.expandedId === g.id; return `<div class="gap-item${open ? " open" : ""}" id="gap-${g.id}">
        <button type="button" class="plain gap-row" data-gid="${g.id}" aria-expanded="${open}">
          <span class="sev sev-${esc(g.severity)}">${sevBars(g.severity)}${esc(cap(g.severity || "—"))}</span>
          <div><div class="gap-title">${g.no ? `<span class="gap-no">#${g.no}</span>` : ""}${esc(g.title)}</div>${g.src === "baseline" ? `<div class="gap-src">Gap-analysis baseline · ${esc(BASE_ASOF)}</div>` : ""}</div>
          <span class="gap-type">${esc(typeLbl(g.cat))}</span>
          ${actionOf(g)}
          <span class="gap-chev">${icon(open ? "chevUp" : "chevDown")}</span></button>
-       ${open ? body(g) : ""}</div>`; }).join("") || `<div class="empty">No gaps match these filters.</div>`}</div>
+       ${open ? body(g) : ""}</div>`; }).join("") || `<div class="empty">No gaps match these filters.</div>`}</div>`}
    </div>
    <aside class="side" style="padding-top:0">
      <h4 style="font-size:22px;margin:0">Where Cardo leads</h4>
@@ -1350,8 +1425,10 @@ function renderGaps(app) {
   if ($("#gStatus")) $("#gStatus").onchange = e => { G.status = e.target.value; render(); };
   if ($("#gBase")) $("#gBase").onchange = e => { G.baseline = e.target.checked; G.status = "all"; render(); };
   if ($("#gRecs")) $("#gRecs").onclick = () => { G.recsAll = !G.recsAll; render(); };
+  app.querySelectorAll("[data-gv]").forEach(b => b.onclick = () => { G.view = b.dataset.gv; render(); });
+  if ($("#gAll")) $("#gAll").onclick = () => { G.allOpen = !G.allOpen; G.expandedId = null; render(); };
   app.querySelectorAll("[data-gs]").forEach(b => b.onclick = () => { const k = b.dataset.gs; G.sortDir = G.sortKey === k ? -G.sortDir : 1; G.sortKey = k; render(); });
-  app.querySelectorAll("[data-gid]").forEach(b => b.onclick = () => { G.expandedId = G.expandedId === b.dataset.gid ? null : b.dataset.gid; render(); });
+  app.querySelectorAll("[data-gid]").forEach(b => b.onclick = () => { if (G.allOpen) { G.allOpen = false; G.expandedId = null; } else G.expandedId = G.expandedId === b.dataset.gid ? null : b.dataset.gid; render(); });
   app.querySelectorAll("[data-lead]").forEach(b => b.onclick = () => { const k = b.dataset.lead; G.openLeads.has(k) ? G.openLeads.delete(k) : G.openLeads.add(k); render(); });
   app.querySelectorAll("[data-ev]").forEach(b => b.onclick = () => { const id = b.dataset.ev; G.evidenceAll.has(id) ? G.evidenceAll.delete(id) : G.evidenceAll.add(id); render(); });
 }
@@ -1378,7 +1455,7 @@ function renderSignals(app) {
       <div id="sList"></div>
     </div></div></div>`;
   const $ = q => app.querySelector(q);
-  $("#sRange").onchange = e => { s.range = e.target.value; s.limit = 120; renderSigBody(); };
+  $("#sRange").onchange = e => { s.range = e.target.value; s.limit = 120; try { localStorage.setItem("cardoSigRange", s.range); } catch (err) {} renderSigBody(); };
   $("#sQ").oninput = e => { s.query = e.target.value; s.limit = 120; renderSigBody(); };
   renderSigBody();
 }
@@ -1411,6 +1488,7 @@ function renderSigBody() {
   if (s.gap) tools += `<span class="chip">Linked to gap${GAP_BY[s.gap].no ? " #" + GAP_BY[s.gap].no : ""}: ${esc(GAP_BY[s.gap].title.slice(0, 60))}<button type="button" data-clear="gap" aria-label="Clear gap filter">${icon("x", 13)}</button></span>`;
   if (s.type === "software") tools += `<span class="seg sm scroll" role="group" aria-label="Update type">${[["all", "All updates"], ["firmware", "Firmware"], ["app", "App"]].map(([k, l]) => `<button type="button" data-kind="${k}" aria-pressed="${s.kind === k}">${l}</button>`).join("")}</span>`;
   if (s.type === "owners") tools += `<span class="seg sm scroll" role="group" aria-label="Sentiment">${[["all", "All sentiment"], ["negative", "Negative"], ["mixed", "Mixed"], ["neutral", "Neutral"], ["positive", "Positive"]].map(([k, l]) => `<button type="button" data-sent="${k}" aria-pressed="${s.sentiment === k}">${l}</button>`).join("")}</span>
+    <span class="src-note">Owner posts come from Reddit and owner Facebook groups. Facebook groups are member-gated, so Reddit is usually the larger, more reliable source; coverage varies by brand.</span>
     <select class="input" id="sSource" aria-label="Source" style="min-height:30px;font-size:13px"><option value="all">All sources</option>${[...new Set(typeBase.map(x => x.platform).filter(Boolean))].sort().map(v => `<option${s.source === v ? " selected" : ""}>${esc(v)}</option>`).join("")}</select>`;
   if (s.type === "software" || s.type === "owners") tools += `<select class="input" id="sProd" aria-label="Product" style="min-height:30px;font-size:13px"><option value="all">All products</option>${prodOpts(prodBase).map(v => `<option${s.product === v ? " selected" : ""}>${esc(v)}</option>`).join("")}</select>`;
   const toolsEl = document.getElementById("sTools");
@@ -1448,7 +1526,48 @@ function renderSigBody() {
 }
 
 /* ================= BRANDS ================= */
+const brandTabs = sel => `<div class="seg-strip brand-tabs" role="tablist" aria-label="Brand"><button type="button" role="tab" aria-selected="${sel === "compare"}" data-brand="compare">Compare all</button>${BN.map(x => `<button type="button" role="tab" aria-selected="${x === sel}" data-brand="${esc(x)}">${esc(x)}</button>`).join("")}</div>`;
+const bindBrandTabs = app => app.querySelectorAll("[data-brand]").forEach(t => t.onclick = () => go("#/brands/" + slug(t.dataset.brand)));
+function renderBrandCompare(app) {
+  const D = BN.filter(b => S.brands.has(b)).map(n => {
+    const b = BRAND_BY[n], sm = b.social_media || {}, fb = b.customer_feedback || [];
+    const prods = PRODUCTS.filter(p => p.brand === n), pr = prods.filter(p => p.eff != null);
+    const tc = {}; fb.forEach(f => { if (f.topic) tc[f.topic] = (tc[f.topic] || 0) + 1; });
+    return {n, b, c: b.company || {}, pc: b.press_coverage || {}, cs: b.current_software || {}, prods, fb,
+      neg: fb.filter(f => f.sentiment === "negative").length, top: Object.entries(tc).sort((x, y) => y[1] - x[1])[0],
+      reach: [sm.instagram?.followers, sm.facebook?.followers, sm.youtube?.subscribers, sm.tiktok?.followers].filter(v => v != null).reduce((a, v) => a + v, 0),
+      cm: cheapestMoto(n), fl: flagshipOf(n), lo: pr.length ? Math.min(...pr.map(p => p.eff)) : null, hi: pr.length ? Math.max(...pr.map(p => p.eff)) : null};
+  });
+  const maxReach = Math.max(1, ...D.map(d => d.reach));
+  const minCm = Math.min(...D.filter(d => d.cm).map(d => d.cm.eff)), minFl = Math.min(...D.filter(d => d.fl).map(d => d.fl.eff));
+  const short = s => { const t = String(s || "").split(/ - | — |: /)[0]; return t.length > 90 ? t.slice(0, 87) + "…" : t; };
+  const bar = (f, cls) => `<span class="cbar ${cls}"><i style="width:${Math.round(f * 100)}%"></i></span>`;
+  const sig = (d, type, txt) => `<a href="#/signals?type=${type}&brand=${encodeURIComponent(d.n)}&range=all">${txt}</a>`;
+  const prodLink = (p, best) => `<a href="#/products/map?id=${encodeURIComponent(p.id)}"${p.eff === best ? ' class="best"' : ""}>${esc(p.name)} ${fmt$(p.eff)}</a>`;
+  const rows = [
+    ["HQ · founded", d => esc([String(d.c.hq || "").split(/[;(]/)[0].trim(), String(d.c.founded || "").match(/\d{4}/)?.[0]].filter(Boolean).join(" · ") || "—")],
+    ["Positioning", d => `<span class="muted">${esc(short(d.c.positioning)) || "—"}</span>`],
+    ["Products · price range", d => `${d.prods.length} · ${d.lo != null ? fmt$(d.lo) + "–" + fmt$(d.hi) : "no published prices"}`],
+    ["Cheapest motorcycle mesh", d => d.cm ? prodLink(d.cm, minCm) : "—"],
+    ["Flagship from", d => d.fl ? prodLink(d.fl, minFl) : "—"],
+    ["Press reviews · awards", d => `${sig(d, "press", (d.pc.reviews || []).length)} · ${(d.pc.awards || []).length}`],
+    ["Press tone", d => `<span class="muted">${esc(short(d.pc.overall_tone)) || "—"}</span>`],
+    ["Tracked social reach", d => `${d.reach ? num(d.reach) : "n/a"}${bar(d.reach / maxReach, "acc")}`],
+    ["Companion app", d => esc([d.cs.app_name, d.cs.app_ios_version, d.cs.app_android_version && d.cs.app_android_version !== d.cs.app_ios_version ? "(Android " + d.cs.app_android_version + ")" : null].filter(Boolean).join(" ") || "—") + (d.cs.app_last_updated ? ` <span class="muted">· ${esc(fmtDay(d.cs.app_last_updated))}</span>` : "")],
+    ["Updates tracked", d => sig(d, "software", (d.b.firmware_updates || []).length)],
+    ["Owner posts · negative", d => d.fb.length ? `${sig(d, "owners", d.fb.length)} · ${Math.round(d.neg / d.fb.length * 100)}%${bar(d.neg / d.fb.length, "neg")}` : "None collected"],
+    ["Top owner topic", d => d.top ? `${esc(d.top[0])} <span class="muted">(${d.top[1]})</span>` : "—"],
+    ["Strongest at", d => esc(short((d.b.strengths || [])[0])) || "—"],
+    ["Weakest at", d => esc(short((d.b.weaknesses || [])[0])) || "—"]
+  ];
+  app.innerHTML = `<div class="page">${brandTabs("compare")}
+    <section class="pnl"><div class="sec-head"><h4>All brands side by side</h4><span class="xs muted">Columns follow the brands shown in the sidebar · lowest price in a row is highlighted · click a brand for its profile</span></div>
+    <div class="tbl-wrap"><table class="table bcmp"><thead><tr><th></th>${D.map(d => `<th class="${d.n === "Cardo" ? "cardo" : ""}"><a href="#/brands/${slug(d.n)}" class="brand" style="color:var(--color-text);text-decoration:none;text-transform:none;letter-spacing:0;font-size:13px">${bm(d.n)}${esc(d.n)}</a></th>`).join("")}</tr></thead>
+    <tbody>${rows.map(([l, f]) => `<tr><td class="lblc">${l}</td>${D.map(d => `<td class="${d.n === "Cardo" ? "cardo" : ""}">${f(d)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section></div>`;
+  bindBrandTabs(app);
+}
 function renderBrands(app) {
+  if (S.brandTab === "compare") return renderBrandCompare(app);
   const name = S.brandTab, b = BRAND_BY[name];
   if (!b) { app.innerHTML = `<div class="page empty">Unknown brand.</div>`; return; }
   const c = b.company || {}, cs = b.current_software || {}, sm = b.social_media || {}, pc = b.press_coverage || {};
@@ -1472,7 +1591,7 @@ function renderBrands(app) {
   const fwLatest = (b.firmware_updates || []).map(u => u.date).filter(Boolean).sort().slice(-1)[0];
   const notesOpen = S.brandOpen.has("swnotes"), toneOpen = S.brandOpen.has("tone");
   app.innerHTML = `<div class="page">
-    <div class="seg-strip brand-tabs" role="tablist" aria-label="Brand">${BN.map(x => `<button type="button" role="tab" aria-selected="${x === name}" data-brand="${esc(x)}">${esc(x)}</button>`).join("")}</div>
+    ${brandTabs(name)}
     <div class="hero"><div>
       <h6 class="kicker" style="margin:0">${esc([hq, founded ? "Founded " + founded : null].filter(Boolean).join(" · "))}</h6>
       <h1>${bm(name, true)}${esc(name)}</h1>
@@ -1483,7 +1602,7 @@ function renderBrands(app) {
       <div class="kpi"><div class="lbl" style="margin:0">Lineup</div><div class="v">${prods.length}</div><div class="n">${priced.length ? fmt$(Math.min(...priced.map(p => p.eff))) + " – " + fmt$(Math.max(...priced.map(p => p.eff))) : "No published prices"} · ${prods.filter(p => p.cat === "communicator").length} communicators</div></div>
       <div class="kpi"><div class="lbl" style="margin:0">Flagship from</div><div class="v">${flag ? fmt$(flag.eff) : "—"}</div><div class="n">${flag ? esc(flag.name) + (flag.street_price_usd != null && flag.msrp_usd && flag.street_price_usd < flag.msrp_usd ? ` · ${Math.round((1 - flag.street_price_usd / flag.msrp_usd) * 100)}% under MSRP` : "") : "No priced universal flagship-tier communicator"}</div></div>
       <div class="kpi"><div class="lbl" style="margin:0">App version</div><div class="v">${esc(cs.app_ios_version || cs.app_android_version || "—")}</div><div class="n">${esc(cs.app_name || "")}${cs.app_android_version && cs.app_android_version !== cs.app_ios_version ? " · Android " + esc(cs.app_android_version) : ""}${cs.app_last_updated ? " · " + esc(fmtDay(cs.app_last_updated)) : ""}</div></div>
-      <div class="kpi"><div class="lbl" style="margin:0">Owner posts</div><div class="v">${fb.length}</div><div class="n">${fb.length ? Math.round(neg / fb.length * 100) + "% negative · " + ["positive", "mixed", "neutral"].map(k => fb.filter(f => f.sentiment === k).length + " " + k).join(" · ") : "None collected"}</div></div>
+      <div class="kpi"><div class="lbl" style="margin:0">Owner posts</div><div class="v">${fb.length}</div><div class="n">${fb.length ? Math.round(neg / fb.length * 100) + "% negative · " + ["positive", "mixed", "neutral"].map(k => fb.filter(f => f.sentiment === k).length + " " + k).join(" · ") : "None collected"}</div>${fb.length ? `<div class="bar" role="img" aria-label="${Math.round(neg / fb.length * 100)}% negative"><i style="width:${Math.round(neg / fb.length * 100)}%"></i></div>` : ""}</div>
       <div class="kpi"><div class="lbl" style="margin:0">Reach</div><div class="v">${reach ? num(reach) : "n/a"}</div><div class="n">${plat.map(x => x[0] + " " + num(x[1])).join(" · ")}</div></div>
     </div>
     <div class="cols3">
@@ -1509,7 +1628,7 @@ function renderBrands(app) {
         <div class="kv" style="margin-top:10px"><span>Reviews tracked</span><b>${(pc.reviews || []).length} · <a class="more" href="#/signals?type=press&brand=${encodeURIComponent(name)}&range=all">Read ${icon("arrow", 12)}</a></b></div>
         ${(pc.awards || []).length ? `<div class="lbl" style="margin-top:14px">Awards</div><ul class="note" style="padding-left:16px;margin:0">${pc.awards.map(a => `<li>${typeof a === "string" ? esc(a) : esc([a.award || a.name || a.title, a.product, a.year || a.date].filter(Boolean).join(" · ")) + (a.url ? " " + extLink(a.url, "source") : "")}</li>`).join("")}</ul>` : `<div class="kv"><span>Awards</span><b>0</b></div>`}</div>
       <div><h4>Social presence</h4>
-        ${plat.map(x => `<div class="kv"><span>${x[3]}</span><b>${x[2] ? extLink(x[2], num(x[1])) : num(x[1])}</b></div>`).join("")}
+        ${[["Instagram", sm.instagram, "followers"], ["Facebook", sm.facebook, "followers"], ["YouTube", sm.youtube, "subscribers"], ["TikTok", sm.tiktok, "followers"]].filter(x => x[1]).map(([l, o, k]) => { const h = o.handle || o.page || o.channel; return `<div class="kv"><span>${l}${h ? `<span class="xs muted" style="display:block;font-weight:400">${esc(String(h).length > 80 ? String(h).slice(0, 77) + "…" : h)}</span>` : ""}</span><b>${o[k] != null ? (o.url ? extLink(o.url, num(o[k])) : num(o[k])) : (o.url ? extLink(o.url, "profile") : "n/a")}</b></div>${o.notes ? `<div class="xs muted" style="padding:4px 0 8px;line-height:1.5">${esc(o.notes)}</div>` : ""}`; }).join("")}
         ${sm.reddit?.sentiment ? `<p class="note" style="margin-top:10px"><b>Reddit:</b> ${esc(sm.reddit.sentiment)} ${sm.reddit.url ? extLink(sm.reddit.url, "search") : ""}</p>` : ""}
         ${(sm.reddit?.common_praise || []).length ? `<div class="lbl" style="margin-top:10px">Common praise</div><ul class="note" style="padding-left:16px;margin:0">${sm.reddit.common_praise.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
         ${(sm.reddit?.common_complaints || []).length ? `<div class="lbl" style="margin-top:10px">Common complaints</div><ul class="note" style="padding-left:16px;margin:0">${sm.reddit.common_complaints.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
@@ -1519,7 +1638,7 @@ function renderBrands(app) {
         <div class="note" style="margin-top:10px"><div class="lbl" style="margin:0 0 2px">Founded</div>${esc(c.founded || "—")}</div>
         <div class="note" style="margin-top:10px"><div class="lbl" style="margin:0 0 2px">Channels</div>${esc(c.channels || "—")}</div></div>
     </div></div>`;
-  app.querySelectorAll("[data-brand]").forEach(t => t.onclick = () => go("#/brands/" + slug(t.dataset.brand)));
+  bindBrandTabs(app);
   app.querySelectorAll("[data-open]").forEach(t => t.onclick = () => { const k = t.dataset.open; S.brandOpen.has(k) ? S.brandOpen.delete(k) : S.brandOpen.add(k); render(); });
 }
 
